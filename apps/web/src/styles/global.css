@@ -393,7 +393,6 @@
         color-mix(in srgb, var(--zm-color-navy-soft) 10%, transparent),
         transparent
       );
-    backdrop-filter: blur(1px) saturate(1.2);
   }
 
   /* Superficie oscura con grano muy fino: la «materia» del microcemento. */

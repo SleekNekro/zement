@@ -58,7 +58,8 @@ const phases = [support, ...layers].map((phase, index) => {
   if (index !== 1) bottom += phase.height;
   return slab;
 });
-const sides = ['front', 'right', 'back', 'left'] as const;
+// Con la vista fija del cubo solo se ven estas dos caras laterales (más la superior).
+const sides = ['front', 'right'] as const;
 ---
 
 <section
