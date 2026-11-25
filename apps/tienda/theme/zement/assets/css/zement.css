@@ -1,0 +1,223 @@
+/*
+ * Estilos propios de la tienda Zement sobre Hummingbird (Bootstrap 5).
+ * Dirección visual: cuadrado, ordenado, recto, fino y liso; distante y puro, con contraste intenso.
+ * Usa las variables de tokens.css (copiado desde design-tokens/ con `pnpm tokens:sync`).
+ * Preferir sobrescribir variables de Bootstrap antes que selectores concretos.
+ */
+:root,
+[data-bs-theme='light'] {
+  --bs-primary: var(--zm-color-navy);
+  --bs-primary-rgb: 23, 43, 59;
+  --bs-secondary: var(--zm-color-muted);
+  --bs-link-color: var(--zm-color-navy);
+  --bs-link-color-rgb: 23, 43, 59;
+  --bs-link-hover-color: var(--zm-color-muted);
+  --bs-link-hover-color-rgb: 107, 112, 117;
+  --bs-body-bg: var(--zm-color-paper);
+  --bs-body-color: var(--zm-color-ink);
+  --bs-body-font-family: var(--zm-font-body);
+  --bs-body-font-weight: var(--zm-weight-body);
+  --bs-border-color: var(--zm-color-line);
+  --bs-border-radius: 0;
+  --bs-border-radius-sm: 0;
+  --bs-border-radius-lg: 0;
+  --bs-border-radius-xl: 0;
+  --bs-border-radius-xxl: 0;
+  --bs-border-radius-pill: 0;
+  --bs-box-shadow: none;
+  --bs-box-shadow-sm: none;
+  --bs-box-shadow-lg: none;
+  --bs-focus-ring-color: rgb(185 154 87 / 45%);
+}
+
+/* Todo recto y liso: sin radios ni sombras. */
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: var(--zm-font-body);
+  font-weight: var(--zm-weight-body);
+  letter-spacing: 0.005em;
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.page-title,
+.product__name {
+  font-family: var(--zm-font-display);
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  letter-spacing: var(--zm-tracking-display);
+  color: var(--zm-color-navy);
+}
+
+h3,
+h4,
+h5,
+.h3,
+.h4,
+.h5 {
+  font-family: var(--zm-font-body);
+  font-weight: var(--zm-weight-ui);
+  color: var(--zm-color-navy);
+}
+
+/* Botones: finos, mayúsculas espaciadas, borde de 1px. */
+.btn {
+  --bs-btn-font-weight: var(--zm-weight-ui);
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.9rem;
+  --bs-btn-font-size: 0.6875rem;
+
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--zm-color-navy);
+  --bs-btn-border-color: var(--zm-color-navy);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-color: var(--zm-color-navy);
+  --bs-btn-hover-border-color: var(--zm-color-navy);
+  --bs-btn-active-bg: var(--zm-color-night);
+  --bs-btn-active-border-color: var(--zm-color-night);
+  --bs-btn-disabled-bg: var(--zm-color-navy);
+  --bs-btn-disabled-border-color: var(--zm-color-navy);
+}
+
+.btn-outline-primary,
+.btn-outline-secondary {
+  --bs-btn-color: var(--zm-color-navy);
+  --bs-btn-border-color: var(--zm-color-navy);
+  --bs-btn-hover-bg: var(--zm-color-navy);
+  --bs-btn-hover-border-color: var(--zm-color-navy);
+  --bs-btn-hover-color: var(--zm-color-paper);
+}
+
+/* Los iconos de Material Icons son ligaduras: el espaciado y las mayúsculas los rompen. */
+.material-icons {
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+
+/* Formularios: filete inferior fino. */
+.form-control,
+.form-select {
+  border-width: 0 0 1px;
+  background-color: transparent;
+}
+
+.quantity-button .form-control {
+  border-width: 1px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--zm-color-navy);
+}
+
+/* Cabecera: barra superior intensa y cabecera clara con filete. */
+.header-top {
+  background: var(--zm-color-night);
+  color: var(--zm-color-sand);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+}
+
+.header-top a,
+.header-top .btn,
+.header-top .dropdown-toggle {
+  color: var(--zm-color-sand);
+}
+
+.header-top a:hover {
+  color: var(--zm-color-paper);
+}
+
+.header-top .header-block__action-btn,
+.header-top .header-block__icon,
+.header-top .header-block__title {
+  color: var(--zm-color-sand);
+}
+
+.header-top .header-block__badge {
+  background: var(--zm-color-paper);
+  color: var(--zm-color-navy);
+}
+
+/* Selectores de idioma y moneda sobre la barra oscura. */
+.header-top .form-select {
+  color: var(--zm-color-sand);
+  border-color: transparent;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23c9bba5' stroke-width='1.5' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.header-top .form-select option {
+  color: var(--zm-color-navy);
+}
+
+.header-bottom {
+  background: var(--zm-color-paper);
+  border-bottom: 1px solid var(--zm-color-line);
+}
+
+/* Fichas de producto en la rejilla: planas, con filete. */
+.product-miniature .card,
+.card {
+  --bs-card-border-color: var(--zm-color-line);
+  --bs-card-bg: var(--zm-color-white);
+}
+
+.badge {
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.product-flags .badge,
+.badge.bg-primary,
+.badge.new {
+  background: var(--zm-color-paper) !important;
+  color: var(--zm-color-navy) !important;
+}
+
+.price,
+.product__current-price {
+  font-family: var(--zm-font-display);
+  font-stretch: var(--zm-stretch-display);
+  color: var(--zm-color-navy);
+}
+
+/* Pie intenso. */
+.footer__main {
+  background: var(--zm-color-night);
+  color: var(--zm-color-sand);
+}
+
+.footer__main a,
+.footer__main h2,
+.footer__main h3,
+.footer__main .h3,
+.footer__main .h4 {
+  color: var(--zm-color-paper);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--zm-color-gold);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}

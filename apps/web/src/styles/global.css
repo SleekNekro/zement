@@ -1,0 +1,168 @@
+@import 'tailwindcss';
+@import '@zement/design-tokens/fonts.css';
+@import '@zement/design-tokens/tokens.css';
+@import './motion.css' layer(components);
+
+@theme inline {
+  --color-night: var(--zm-color-night);
+  --color-navy: var(--zm-color-navy);
+  --color-navy-soft: var(--zm-color-navy-soft);
+  --color-paper: var(--zm-color-paper);
+  --color-stone: var(--zm-color-stone);
+  --color-white: var(--zm-color-white);
+  --color-ink: var(--zm-color-ink);
+  --color-muted: var(--zm-color-muted);
+  --color-sand: var(--zm-color-sand);
+  --color-gold: var(--zm-color-gold);
+  --color-line: var(--zm-color-line);
+  --color-line-dark: var(--zm-color-line-dark);
+  --font-body: var(--zm-font-body);
+  --font-display: var(--zm-font-display);
+  --spacing-gutter: var(--zm-gutter);
+  --spacing-section: var(--zm-section);
+  --ease-brand: var(--zm-ease);
+}
+
+/* Etiqueta en mayúsculas, pequeña y espaciada: la «voz técnica» de la marca. */
+@utility label {
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  line-height: 1.6;
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+/* Titulares: Archivo expandida. Fina en tamaño grande, más peso para destacar. */
+@utility display {
+  font-family: var(--zm-font-display);
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  letter-spacing: var(--zm-tracking-display);
+  line-height: 0.95;
+}
+
+@utility display-hero {
+  @apply display uppercase;
+
+  font-size: clamp(1.9rem, 8.2vw, 9.5rem);
+  font-stretch: var(--hero-stretch, var(--zm-stretch-display));
+  line-height: 0.9;
+}
+
+@utility display-xl {
+  @apply display;
+
+  font-size: clamp(2.25rem, 6vw, 6.25rem);
+}
+
+@utility display-lg {
+  @apply display;
+
+  font-size: clamp(1.85rem, 3.8vw, 3.75rem);
+  line-height: 1.02;
+}
+
+@utility display-md {
+  @apply display;
+
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.1;
+}
+
+@layer base {
+  /* En móvil, el titular del hero algo menos expandido para que las palabras largas quepan. */
+  @media (width < 40rem) {
+    :root {
+      --hero-stretch: 108%;
+    }
+  }
+
+  html {
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-paper font-body text-ink antialiased;
+
+    font-size: 0.9375rem;
+    font-weight: var(--zm-weight-body);
+    line-height: 1.75;
+    text-rendering: optimizelegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+
+  /* En pantallas estrechas la tipografía expandida puede no caber: se permite partir palabras. */
+  @media (width < 40rem) {
+    h2,
+    h3 {
+      hyphens: auto;
+    }
+  }
+
+  strong,
+  b {
+    font-weight: var(--zm-weight-display-strong);
+  }
+
+  ::selection {
+    background: var(--zm-color-gold);
+    color: var(--zm-color-night);
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    border-radius: 0;
+  }
+
+  :focus-visible {
+    outline: 1px solid var(--zm-color-gold);
+    outline-offset: 4px;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full px-gutter;
+
+    max-width: var(--zm-max-width);
+  }
+
+  .todo {
+    @apply inline-block border border-dashed border-gold px-2 py-1 text-xs text-gold;
+
+    letter-spacing: 0.02em;
+  }
+
+  .field {
+    @apply w-full border-0 border-b border-line-dark bg-transparent py-3 text-paper outline-none;
+
+    font-weight: var(--zm-weight-body);
+    transition: border-color var(--zm-duration-fast) var(--zm-ease);
+  }
+
+  .field::placeholder {
+    color: rgb(246 245 241 / 40%);
+  }
+
+  .field:focus {
+    border-bottom-color: var(--zm-color-sand);
+  }
+
+  /* Superficie oscura con grano muy fino: la «materia» del microcemento. */
+  .surface-material {
+    background-color: var(--zm-color-night);
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      linear-gradient(180deg, var(--zm-color-navy) 0%, var(--zm-color-night) 100%);
+  }
+}

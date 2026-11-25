@@ -1,0 +1,136 @@
+---
+import { localePath, t, type Locale } from '../../i18n/ui';
+import { shopUrl } from '../../lib/shop';
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+
+const { locale, path } = Astro.props;
+const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
+const links = [
+  { href: localePath(locale, '/#sistema'), label: t(locale, 'nav.system') },
+  { href: localePath(locale, '/#aplicacion'), label: t(locale, 'nav.application') },
+  { href: localePath(locale, '/#tienda'), label: t(locale, 'nav.products') },
+  { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
+];
+---
+
+<a
+  href="#contenido"
+  class="label bg-paper text-navy sr-only px-4 py-3 focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60]"
+>
+  {t(locale, 'a11y.skip')}
+</a>
+<header
+  class="site-header border-line bg-paper text-navy data-[over-hero=true]:text-paper fixed inset-x-0 top-0 z-50 border-b data-[hidden=true]:-translate-y-full data-[over-hero=true]:border-transparent data-[over-hero=true]:bg-transparent"
+  data-site-header
+  data-over-hero="false"
+>
+  <div class="container-site flex h-20 items-center justify-between gap-8">
+    <a
+      href={localePath(locale, '/')}
+      class="flex flex-col text-current no-underline"
+      aria-label="Zement"
+    >
+      <span class="display text-xl leading-none font-medium tracking-[0.28em] md:text-2xl">
+        ZEMENT
+      </span>
+      <span class="label mt-1.5 text-[0.5rem] tracking-[0.3em] whitespace-nowrap opacity-60">
+        {t(locale, 'brand.tagline')}
+      </span>
+    </a>
+
+    <nav
+      aria-label={t(locale, 'a11y.menu')}
+      class="hidden lg:block"
+    >
+      <ul class="label flex items-center gap-10">
+        {links.map((link) => (
+          <li>
+            <a
+              class="relative text-current no-underline after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-500 hover:after:origin-left hover:after:scale-x-100"
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-6">
+      <a
+        class="label hidden text-current no-underline opacity-60 hover:opacity-100 sm:inline"
+        href={localePath(otherLocale, path)}
+        hreflang={otherLocale}
+        lang={otherLocale}
+      >
+        {otherLocale.toUpperCase()}
+      </a>
+      <a
+        class="btn hidden min-h-11 border-current text-current [--btn-fill:var(--zm-color-gold)] [--btn-hover-color:var(--zm-color-night)] md:inline-flex"
+        href={shopUrl(locale)}
+      >
+        <span>{t(locale, 'nav.shop')}</span>
+        <span
+          class="btn-arrow"
+          aria-hidden="true"
+        >
+          ↗
+        </span>
+      </a>
+
+      <details
+        class="lg:hidden"
+        data-mobile-menu
+      >
+        <summary
+          class="label relative z-[55] flex cursor-pointer list-none items-center gap-3 border border-current px-4 py-3 whitespace-nowrap [&::-webkit-details-marker]:hidden"
+          aria-label={t(locale, 'a11y.menu')}
+        >
+          <span class="menu-label-closed">{t(locale, 'nav.menu')}</span>
+          <span class="menu-label-open">{t(locale, 'nav.close')}</span>
+        </summary>
+        <div class="bg-night text-paper fixed inset-0 z-50 flex flex-col justify-between px-[var(--zm-gutter)] pt-28 pb-10">
+          <ul class="grid">
+            {links.map((link, index) => (
+              <li class="border-line-dark border-t">
+                <a
+                  class="display flex items-baseline gap-5 py-5 text-3xl no-underline"
+                  href={link.href}
+                >
+                  <span class="label text-sand">{String(index + 1).padStart(2, '0')}</span>
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div class="grid gap-3">
+            <a
+              class="btn btn-solid-light"
+              href={shopUrl(locale)}
+            >
+              <span>{t(locale, 'nav.shop')}</span>
+              <span
+                class="btn-arrow"
+                aria-hidden="true"
+              >
+                ↗
+              </span>
+            </a>
+            <a
+              class="label text-sand py-3 no-underline"
+              href={localePath(otherLocale, path)}
+              hreflang={otherLocale}
+              lang={otherLocale}
+            >
+              {t(locale, 'nav.language')}
+            </a>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>

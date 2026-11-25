@@ -1,0 +1,60 @@
+---
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import Todo from '../../ui/Todo.astro';
+import type { HomeContent } from '../../../data/home';
+
+interface Props {
+  method: HomeContent['method'];
+}
+
+const { method } = Astro.props;
+---
+
+<section class="py-section">
+  <div class="container-site grid gap-16 md:grid-cols-12 md:items-center">
+    <div
+      class="surface-material relative flex aspect-[4/5] items-end overflow-hidden p-6 md:col-span-5 md:p-8"
+      role="img"
+      aria-label={method.imageTodo}
+      data-reveal
+    >
+      <span
+        class="display text-paper/10 absolute -top-4 -left-2 text-[9rem] leading-none md:text-[12rem]"
+        aria-hidden="true"
+      >
+        Z
+      </span>
+      <Todo text={method.imageTodo} />
+    </div>
+    <div class="md:col-span-6 md:col-start-7">
+      <SectionLabel text={method.label} />
+      <RevealHeading
+        lines={method.title}
+        emphasis={1}
+        class="display-lg text-navy mt-8"
+      />
+      <p
+        class="text-muted mt-8 max-w-lg"
+        data-reveal
+      >
+        {method.text}
+      </p>
+      <ul class="mt-10 grid sm:grid-cols-2 sm:gap-x-10">
+        {method.points.map((point, index) => (
+          <li
+            class="label border-line text-navy flex items-center gap-4 border-t py-4"
+            data-reveal
+            style={`--reveal-index: ${index}`}
+          >
+            <span
+              class="bg-gold size-1.5"
+              aria-hidden="true"
+            />
+            {point}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

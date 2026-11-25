@@ -1,0 +1,343 @@
+/*
+ * Movimiento e interacción.
+ * Mejora progresiva: sin JavaScript (o con «reducir movimiento») todo el contenido es visible y estático.
+ * Las animaciones solo se activan cuando src/scripts/motion.ts añade la clase `motion` a <html>.
+ * Solo se animan transform, opacity y clip-path (baratas para la GPU, sin recalcular el diseño).
+ */
+
+/* ---------- Apariciones al hacer scroll ---------- */
+.motion [data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 2.5rem, 0);
+  transition:
+    opacity var(--zm-duration-slow) var(--zm-ease),
+    transform var(--zm-duration-slow) var(--zm-ease);
+  transition-delay: calc(var(--reveal-index, 0) * 90ms);
+}
+
+.motion [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Líneas de titular que suben desde una máscara. */
+.reveal-line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+.reveal-line > span {
+  display: block;
+}
+
+.motion [data-reveal-lines] .reveal-line > span {
+  transform: translate3d(0, 105%, 0);
+  transition: transform var(--zm-duration-slow) var(--zm-ease);
+  transition-delay: calc(var(--line-index, 0) * 110ms + 80ms);
+}
+
+.motion [data-reveal-lines].is-visible .reveal-line > span {
+  transform: none;
+}
+
+/* Filete que se dibuja de izquierda a derecha. */
+.motion [data-reveal-rule] {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1400ms var(--zm-ease-inout);
+}
+
+.motion [data-reveal-rule].is-visible {
+  transform: none;
+}
+
+/* ---------- Texto que se «llena» palabra a palabra con el scroll ---------- */
+.motion [data-scrub-words] .word {
+  opacity: calc(0.14 + 0.86 * var(--word-on, 0));
+  transition: opacity 200ms linear;
+}
+
+/* ---------- Botones: relleno que barre desde la izquierda ---------- */
+.btn {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3.5rem;
+  padding: 0 1.5rem;
+  overflow: hidden;
+  border: 1px solid currentcolor;
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: var(--zm-tracking-label);
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: color var(--zm-duration) var(--zm-ease);
+}
+
+.btn::before {
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: var(--btn-fill, currentcolor);
+  content: '';
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+.btn .btn-arrow {
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+@media (hover: hover) {
+  .btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .btn:hover .btn-arrow {
+    transform: translate3d(0.25rem, -0.25rem, 0);
+  }
+
+  .btn:hover {
+    color: var(--btn-hover-color);
+  }
+}
+
+.btn-solid-light {
+  --btn-fill: var(--zm-color-gold);
+  --btn-hover-color: var(--zm-color-night);
+
+  background: var(--zm-color-paper);
+  border-color: var(--zm-color-paper);
+  color: var(--zm-color-night);
+}
+
+.btn-outline-light {
+  --btn-fill: var(--zm-color-paper);
+  --btn-hover-color: var(--zm-color-night);
+
+  border-color: var(--zm-color-line-dark);
+  color: var(--zm-color-paper);
+}
+
+.btn-solid-dark {
+  --btn-fill: var(--zm-color-gold);
+  --btn-hover-color: var(--zm-color-night);
+
+  background: var(--zm-color-navy);
+  border-color: var(--zm-color-navy);
+  color: var(--zm-color-paper);
+}
+
+.btn-outline-dark {
+  --btn-fill: var(--zm-color-navy);
+  --btn-hover-color: var(--zm-color-paper);
+
+  border-color: var(--zm-color-navy);
+  color: var(--zm-color-navy);
+}
+
+/* ---------- Enlace con flecha ---------- */
+.link-arrow {
+  display: inline-flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  background: linear-gradient(currentcolor, currentcolor) left bottom / 100% 1px no-repeat;
+  text-decoration: none;
+  transition:
+    gap var(--zm-duration) var(--zm-ease),
+    background-size var(--zm-duration) var(--zm-ease);
+}
+
+@media (hover: hover) {
+  .link-arrow:hover {
+    gap: 1.75rem;
+  }
+}
+
+/* ---------- Cinta continua (marquee) ---------- */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  flex-shrink: 0;
+  gap: 3rem;
+  align-items: center;
+  padding-right: 3rem;
+  animation: marquee 38s linear infinite;
+}
+
+@keyframes marquee {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* ---------- Hero: luz que sigue al puntero sobre la materia ---------- */
+.hero-light {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(
+    38rem circle at var(--light-x, 70%) var(--light-y, 35%),
+    rgb(45 79 112 / 70%),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+@media (hover: none) {
+  .motion .hero-light {
+    animation: light-drift 14s var(--zm-ease-inout) infinite alternate;
+  }
+}
+
+@keyframes light-drift {
+  from {
+    --light-x: 25%;
+    --light-y: 30%;
+  }
+
+  to {
+    --light-x: 80%;
+    --light-y: 60%;
+  }
+}
+
+@property --light-x {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 70%;
+}
+
+@property --light-y {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 35%;
+}
+
+.scroll-cue {
+  position: relative;
+  width: 1px;
+  height: 3.5rem;
+  overflow: hidden;
+  background: var(--zm-color-line-dark);
+}
+
+.scroll-cue::after {
+  position: absolute;
+  inset: 0;
+  background: var(--zm-color-sand);
+  content: '';
+  animation: scroll-cue 2.4s var(--zm-ease-inout) infinite;
+}
+
+@keyframes scroll-cue {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+/* ---------- Cabecera: transiciones (los estados se aplican con variantes data-* en SiteHeader) ---------- */
+.site-header {
+  transition:
+    transform var(--zm-duration) var(--zm-ease),
+    background-color var(--zm-duration) var(--zm-ease),
+    color var(--zm-duration) var(--zm-ease),
+    border-color var(--zm-duration) var(--zm-ease);
+}
+
+/* Menú móvil: el botón cambia a «Cerrar» y se ve sobre el panel oscuro. */
+[data-mobile-menu] .menu-label-open,
+[data-mobile-menu][open] .menu-label-closed {
+  display: none;
+}
+
+[data-mobile-menu][open] .menu-label-open {
+  display: inline;
+}
+
+[data-mobile-menu][open] > summary {
+  border-color: var(--zm-color-line-dark);
+  color: var(--zm-color-paper);
+}
+
+/* ---------- Sistema por capas ---------- */
+.layer {
+  transition:
+    transform var(--zm-duration-slow) var(--zm-ease),
+    opacity var(--zm-duration) var(--zm-ease),
+    background-color var(--zm-duration) var(--zm-ease);
+}
+
+.motion .layers .layer {
+  opacity: 0.18;
+  transform: translate3d(0, -1.5rem, 0);
+}
+
+.motion .layers .layer.is-built {
+  opacity: 1;
+  transform: none;
+}
+
+.layers .layer.is-active {
+  outline: 1px solid var(--zm-color-gold);
+  outline-offset: -1px;
+}
+
+/* ---------- Filas con barrido al pasar el ratón ---------- */
+.row-wipe {
+  position: relative;
+  isolation: isolate;
+}
+
+.row-wipe::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--row-fill, var(--zm-color-paper));
+  content: '';
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+@media (hover: hover) {
+  .row-wipe:hover::before,
+  .row-wipe:focus-visible::before {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+/* ---------- Preferencia del sistema: reducir movimiento ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+}

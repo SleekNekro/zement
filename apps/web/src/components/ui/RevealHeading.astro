@@ -1,0 +1,29 @@
+---
+/**
+ * Titular cuyas líneas suben desde una máscara al entrar en pantalla.
+ * Cada elemento de `lines` es una línea visual.
+ */
+interface Props {
+  lines: string[];
+  as?: 'h1' | 'h2' | 'h3';
+  class?: string;
+  /** Índice de la línea que se muestra con más peso (énfasis). */
+  emphasis?: number;
+}
+
+const { lines, as: Tag = 'h2', class: className, emphasis } = Astro.props;
+---
+
+<Tag
+  class={className}
+  data-reveal-lines
+>
+  {lines.map((line, index) => (
+    <span
+      class="reveal-line"
+      style={`--line-index: ${index}`}
+    >
+      <span class:list={[index === emphasis && 'font-semibold']}>{line}</span>
+    </span>
+  ))}
+</Tag>

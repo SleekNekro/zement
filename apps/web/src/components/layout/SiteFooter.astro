@@ -1,0 +1,60 @@
+---
+import Todo from '../ui/Todo.astro';
+import { localePath, t, type Locale } from '../../i18n/ui';
+import { shopUrl } from '../../lib/shop';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const year = new Date().getFullYear();
+const links = [
+  { href: localePath(locale, '/#sistema'), label: t(locale, 'nav.system') },
+  { href: localePath(locale, '/#aplicacion'), label: t(locale, 'nav.application') },
+  { href: shopUrl(locale), label: t(locale, 'nav.shop') },
+  { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
+];
+---
+
+<footer class="border-line-dark bg-night text-sand overflow-hidden border-t">
+  <div class="container-site grid gap-10 pt-16 pb-10 md:grid-cols-12 md:items-start">
+    <p class="label md:col-span-4">{t(locale, 'brand.tagline')}</p>
+    <ul class="label grid gap-3 md:col-span-5 md:grid-cols-2">
+      {links.map((link) => (
+        <li>
+          <a
+            class="link-arrow hover:text-paper bg-none pb-0 no-underline"
+            href={link.href}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="label md:col-span-3 md:text-right">© {year} Zement</p>
+  </div>
+
+  <!-- Logotipo a todo el ancho: firma final con impacto -->
+  <p
+    class="display text-paper px-2 text-center text-[15.5vw] leading-[0.78] font-medium tracking-[-0.02em] select-none"
+    aria-hidden="true"
+    data-reveal
+  >
+    ZEMENT
+  </p>
+
+  <div class="border-line-dark mt-6 border-t">
+    <ul class="container-site flex flex-wrap gap-4 py-5">
+      <li>
+        <Todo text={`TODO: ${t(locale, 'footer.legal')}`} />
+      </li>
+      <li>
+        <Todo text={`TODO: ${t(locale, 'footer.privacy')}`} />
+      </li>
+      <li>
+        <Todo text={`TODO: ${t(locale, 'footer.cookies')}`} />
+      </li>
+    </ul>
+  </div>
+</footer>

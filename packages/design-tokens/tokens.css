@@ -1,0 +1,51 @@
+/*
+ * Tokens de diseño de Zement: FUENTE ÚNICA.
+ * Los usan la web Astro (vía Tailwind @theme) y el tema hijo de PrestaShop
+ * (copia generada por `pnpm tokens:sync`; no editar la copia).
+ *
+ * Dirección visual (25/11/2026): cuadrado, ordenado, recto, fino y liso.
+ * Tono distante y puro, con contraste intenso. Sin radios, sin sombras, sin degradados decorativos.
+ * Paleta derivada del boceto de UI y de los colores de Zement del CRM.
+ */
+:root {
+  /* Color */
+  --zm-color-night: #0f1c26; /* fondo intenso: hero, pie */
+  --zm-color-navy: #172b3b; /* color principal de marca */
+  --zm-color-navy-soft: #2d4f70; /* secundario, estados */
+  --zm-color-paper: #f6f5f1; /* fondo general, blanco roto frío */
+  --zm-color-stone: #ebe7df; /* bandas secundarias (tienda) */
+  --zm-color-white: #fffefb;
+  --zm-color-ink: #1b2329; /* texto */
+  --zm-color-muted: #6b7075; /* texto secundario */
+  --zm-color-sand: #c9bba5; /* etiquetas sobre fondo oscuro */
+  --zm-color-gold: #b99a57; /* acento: solo filetes y foco */
+  --zm-color-line: rgb(23 43 59 / 16%); /* filete sobre claro */
+  --zm-color-line-dark: rgb(246 245 241 / 22%); /* filete sobre oscuro */
+  --zm-color-danger: #a8231a;
+
+  /* Tipografía: una sola familia (Archivo) jugando con anchura y peso */
+  --zm-font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --zm-font-body: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --zm-stretch-display: 125%; /* expandida: impacto, horizontalidad */
+  --zm-stretch-body: 100%;
+  --zm-weight-display: 300; /* fina pero grande: presencia sin estridencia */
+  --zm-weight-display-strong: 600;
+  --zm-weight-body: 380;
+  --zm-weight-ui: 500;
+  --zm-tracking-label: 0.18em; /* etiquetas en mayúsculas */
+  --zm-tracking-display: -0.035em;
+
+  /* Forma y ritmo */
+  --zm-radius: 0;
+  --zm-hairline: 1px;
+  --zm-gutter: clamp(1.25rem, 6vw, 7rem);
+  --zm-section: clamp(5rem, 10vw, 9rem);
+  --zm-max-width: 90rem;
+
+  /* Movimiento: lento al entrar, preciso al terminar */
+  --zm-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --zm-ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --zm-duration-fast: 250ms;
+  --zm-duration: 600ms;
+  --zm-duration-slow: 1100ms;
+}

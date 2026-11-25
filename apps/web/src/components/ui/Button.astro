@@ -1,0 +1,32 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Variant = 'solid-light' | 'outline-light' | 'solid-dark' | 'outline-dark';
+
+interface Props extends HTMLAttributes<'a'> {
+  href: string;
+  variant?: Variant;
+  /** Muestra la flecha ↗ (enlace a otra página o a la tienda). */
+  arrow?: boolean;
+}
+
+const { href, variant = 'solid-dark', arrow = true, class: className, ...attrs } = Astro.props;
+---
+
+<a
+  href={href}
+  class:list={['btn', `btn-${variant}`, className]}
+  {...attrs}
+>
+  <span>
+    <slot />
+  </span>
+  {arrow && (
+    <span
+      class="btn-arrow"
+      aria-hidden="true"
+    >
+      ↗
+    </span>
+  )}
+</a>

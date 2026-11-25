@@ -1,0 +1,28 @@
+---
+interface Props {
+  /** Texto de la etiqueta, p. ej. «02 / El sistema». */
+  text: string;
+  tone?: 'light' | 'dark';
+}
+
+const { text, tone = 'light' } = Astro.props;
+const [index, ...rest] = text.split(' / ');
+---
+
+<p
+  class:list={['label flex items-center gap-4', tone === 'dark' ? 'text-sand' : 'text-muted']}
+  data-reveal
+>
+  {rest.length > 0 ? (
+    <>
+      <span class={tone === 'dark' ? 'text-paper' : 'text-navy'}>{index}</span>
+      <span
+        class="h-px w-10 bg-current"
+        aria-hidden="true"
+      />
+      <span>{rest.join(' / ')}</span>
+    </>
+  ) : (
+    text
+  )}
+</p>

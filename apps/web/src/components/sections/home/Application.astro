@@ -1,0 +1,64 @@
+---
+import Button from '../../ui/Button.astro';
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import type { HomeContent } from '../../../data/home';
+
+interface Props {
+  application: HomeContent['application'];
+}
+
+const { application } = Astro.props;
+---
+
+<section
+  id="aplicacion"
+  class="bg-night text-paper py-section"
+>
+  <div class="container-site grid gap-16 lg:grid-cols-12">
+    <div class="lg:col-span-6">
+      <SectionLabel
+        text={application.label}
+        tone="dark"
+      />
+      <RevealHeading
+        lines={application.title}
+        emphasis={1}
+        class="display-lg mt-8"
+      />
+      <p
+        class="text-paper/70 mt-8 max-w-md"
+        data-reveal
+      >
+        {application.text}
+      </p>
+      <div
+        class="mt-10"
+        data-reveal
+      >
+        <Button
+          href="#contacto"
+          variant="outline-light"
+          arrow={false}
+        >
+          {application.cta}
+        </Button>
+      </div>
+    </div>
+
+    <ul class="border-line-dark border-b lg:col-span-5 lg:col-start-8 lg:self-end">
+      {application.areas.map((area, index) => (
+        <li
+          class="row-wipe border-line-dark group hover:text-night flex items-baseline gap-6 border-t py-5 transition-colors duration-500 [--row-fill:var(--zm-color-paper)] md:py-6"
+          data-reveal
+          style={`--reveal-index: ${index}`}
+        >
+          <span class="label text-sand group-hover:text-muted w-8 shrink-0 pl-1 transition-colors duration-500">
+            {String(index + 1).padStart(2, '0')}
+          </span>
+          <span class="display-md">{area}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

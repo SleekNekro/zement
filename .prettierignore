@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+pnpm-lock.yaml
+apps/tienda/theme/zement/assets/cache/
+apps/tienda/theme/zement/assets/css/tokens.css
+apps/tienda/theme/zement/assets/css/fonts.css
+*.woff2
+*.png

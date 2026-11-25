@@ -1,0 +1,51 @@
+---
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import type { HomeContent } from '../../../data/home';
+
+interface Props {
+  intro: HomeContent['intro'];
+}
+
+const { intro } = Astro.props;
+const [lead, ...rest] = intro.paragraphs;
+---
+
+<section
+  id="manifiesto"
+  class="py-section"
+>
+  <div class="container-site grid gap-12 md:grid-cols-12">
+    <div class="md:col-span-5">
+      <SectionLabel text={intro.label} />
+      <RevealHeading
+        lines={intro.title}
+        class="display-lg text-navy mt-8"
+      />
+    </div>
+    <div class="grid content-start gap-10 md:col-span-6 md:col-start-7">
+      <p
+        class="display-md text-navy font-light"
+        data-scrub-words
+      >
+        {lead}
+      </p>
+      {rest.map((paragraph) => (
+        <p
+          class="text-muted max-w-xl"
+          data-reveal
+        >
+          {paragraph}
+        </p>
+      ))}
+      <a
+        class="link-arrow label text-navy w-fit"
+        href="#sistema"
+        data-reveal
+      >
+        {intro.link}
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>

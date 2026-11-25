@@ -3,19 +3,39 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@11.28.3",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "pnpm --filter zement-web dev",
     "build": "pnpm tokens:sync && pnpm --filter zement-web build",
     "check": "pnpm --filter zement-web check",
-    "format": "prettier --write \"web/src/**/*.{astro,ts,css}\" \"design-tokens/**/*.{css,mjs}\" \"tienda/theme/**/*.css\" *.json",
-    "format:check": "prettier --check \"web/src/**/*.{astro,ts,css}\" \"design-tokens/**/*.{css,mjs}\" \"tienda/theme/**/*.css\" *.json",
-    "tokens:sync": "node design-tokens/sync.mjs",
-    "tienda:up": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement up -d",
-    "tienda:down": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement down",
-    "tienda:logs": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement logs --tail=80 prestashop"
+    "lint": "pnpm lint:js && pnpm lint:css",
+    "lint:js": "eslint --cache .",
+    "lint:css": "stylelint --cache \"apps/**/*.css\" \"packages/**/*.css\"",
+    "lint:fix": "eslint --cache --fix . && stylelint --cache --fix \"apps/**/*.css\" \"packages/**/*.css\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "verify": "pnpm format:check && pnpm lint && pnpm check && pnpm build",
+    "tokens:sync": "pnpm --filter @zement/design-tokens sync",
+    "tienda:up": "docker compose --env-file infra/docker/.env -f infra/docker/docker-compose.yml -p zement up -d",
+    "tienda:down": "docker compose --env-file infra/docker/.env -f infra/docker/docker-compose.yml -p zement down",
+    "tienda:logs": "docker compose --env-file infra/docker/.env -f infra/docker/docker-compose.yml -p zement logs --tail=80 prestashop",
+    "tienda:theme": "docker exec zement-prestashop-1 sh -c 'php bin/console prestashop:theme:enable zement && php bin/console cache:clear && rm -rf themes/zement/assets/cache/* && chown -R www-data:www-data var config/themes'",
+    "tienda:css": "docker exec zement-prestashop-1 sh -c 'rm -rf themes/zement/assets/cache/*'"
   },
   "devDependencies": {
-    "prettier": "^3.9.9",
-    "prettier-plugin-astro": "^1.1.0"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1",
+    "prettier-plugin-astro": "^1.1.2",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "stylelint": "^18.1.0",
+    "stylelint-config-standard": "^41.1.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.74.0"
   }
 }

@@ -1,13 +1,16 @@
+# Dependencias y artefactos
 node_modules/
 dist/
 .astro/
-.env
-.env.*
-!.env.example
-infra/.env
-infra/data/
+.eslintcache
+.stylelintcache
 *.log
 .DS_Store
 
-# Caché que genera PrestaShop dentro del tema
-tienda/theme/zement/assets/cache/
+# Secretos y configuración local (nunca a Git)
+.env
+.env.*
+!.env.example
+
+# Generado por PrestaShop dentro del tema
+apps/tienda/theme/zement/assets/cache/

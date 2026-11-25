@@ -1,0 +1,89 @@
+---
+import Button from '../../ui/Button.astro';
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import type { HomeContent } from '../../../data/home';
+import { shopUrl } from '../../../lib/shop';
+import type { Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  shop: HomeContent['shop'];
+}
+
+const { locale, shop } = Astro.props;
+---
+
+<section
+  id="tienda"
+  class="bg-stone py-section overflow-hidden"
+>
+  <div class="container-site">
+    <div class="grid gap-10 md:grid-cols-12">
+      <div class="md:col-span-7">
+        <SectionLabel text={shop.label} />
+        <RevealHeading
+          lines={shop.title}
+          emphasis={1}
+          class="display-xl text-navy mt-8"
+        />
+      </div>
+      <p
+        class="text-muted self-end md:col-span-4 md:col-start-9"
+        data-reveal
+      >
+        {shop.text}
+      </p>
+    </div>
+
+    <!-- En móvil: carrusel horizontal con imán; en escritorio: rejilla de 4 -->
+    <ul class="-mx-gutter px-gutter mt-16 flex snap-x snap-mandatory gap-px overflow-x-auto pb-4 md:mt-20 lg:mx-0 lg:grid lg:grid-cols-4 lg:overflow-visible lg:px-0 lg:pb-0">
+      {shop.categories.map((category, index) => (
+        <li
+          class="w-[78vw] shrink-0 snap-start sm:w-[45vw] lg:w-auto"
+          data-reveal
+          style={`--reveal-index: ${index}`}
+        >
+          <a
+            class="row-wipe group hover:text-paper flex aspect-[4/5] flex-col justify-between bg-white p-7 no-underline transition-colors duration-500 [--row-fill:var(--zm-color-night)] md:p-8"
+            href={shopUrl(locale)}
+          >
+            <span class="display text-line group-hover:text-gold text-6xl transition-colors duration-500 md:text-7xl">
+              {String(index + 1).padStart(2, '0')}
+            </span>
+            <span>
+              <span class="display-md text-navy group-hover:text-paper block transition-colors duration-500">
+                {category}
+              </span>
+              <span class="label border-line text-navy group-hover:border-line-dark group-hover:text-paper mt-6 flex items-center justify-between border-t pt-4 transition-colors duration-500">
+                {shop.cta}
+                <span
+                  class="transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1"
+                  aria-hidden="true"
+                >
+                  ↗
+                </span>
+              </span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div
+      class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12 md:items-center"
+      data-reveal
+    >
+      <h3 class="display-md text-navy md:col-span-5">{shop.proTitle}</h3>
+      <p class="text-muted md:col-span-4">{shop.proText}</p>
+      <div class="md:col-span-3 md:text-right">
+        <Button
+          href={shopUrl(locale, 'login')}
+          variant="solid-dark"
+        >
+          {shop.proCta}
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,99 @@
+---
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import Todo from '../../ui/Todo.astro';
+import type { HomeContent } from '../../../data/home';
+
+interface Props {
+  contact: HomeContent['contact'];
+}
+
+const { contact } = Astro.props;
+---
+
+<section
+  id="contacto"
+  class="surface-material text-paper py-section"
+>
+  <div class="container-site grid gap-16 md:grid-cols-12">
+    <div class="md:col-span-5">
+      <SectionLabel
+        text={contact.label}
+        tone="dark"
+      />
+      <RevealHeading
+        lines={contact.title}
+        emphasis={1}
+        class="display-lg mt-8"
+      />
+      <p
+        class="text-paper/70 mt-8 max-w-sm"
+        data-reveal
+      >
+        {contact.text}
+      </p>
+      <p class="label text-sand mt-12">{contact.signature}</p>
+    </div>
+
+    <form
+      class="grid gap-8 md:col-span-6 md:col-start-7"
+      novalidate
+      data-reveal
+    >
+      <label class="label text-sand grid gap-1">
+        {contact.fields.name}
+        <input
+          class="field tracking-normal normal-case"
+          name="name"
+          autocomplete="name"
+          placeholder={contact.placeholders.name}
+        />
+      </label>
+      <label class="label text-sand grid gap-1">
+        {contact.fields.email}
+        <input
+          class="field tracking-normal normal-case"
+          type="email"
+          name="email"
+          autocomplete="email"
+          placeholder={contact.placeholders.email}
+        />
+      </label>
+      <label class="label text-sand grid gap-1">
+        {contact.fields.interest}
+        <select
+          class="field [&>option]:text-navy tracking-normal normal-case"
+          name="interest"
+        >
+          {contact.interests.map((option) => (
+            <option>{option}</option>
+          ))}
+        </select>
+      </label>
+      <label class="label text-sand grid gap-1">
+        {contact.fields.message}
+        <textarea
+          class="field min-h-28 resize-y tracking-normal normal-case"
+          name="message"
+          placeholder={contact.placeholders.message}
+        ></textarea>
+      </label>
+      <div class="flex flex-wrap items-center gap-6">
+        <button
+          class="btn btn-solid-light cursor-not-allowed opacity-60"
+          type="submit"
+          disabled
+        >
+          <span>{contact.submit}</span>
+          <span
+            class="btn-arrow"
+            aria-hidden="true"
+          >
+            ↗
+          </span>
+        </button>
+        <Todo text={contact.todo} />
+      </div>
+    </form>
+  </div>
+</section>

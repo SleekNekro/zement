@@ -1,0 +1,112 @@
+---
+import SectionLabel from '../../ui/SectionLabel.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import Todo from '../../ui/Todo.astro';
+import type { HomeContent } from '../../../data/home';
+
+interface Props {
+  system: HomeContent['system'];
+}
+
+const { system } = Astro.props;
+
+// Textura y grosor de cada capa en la sección (de abajo arriba: soporte → protección).
+const layerStyles = [
+  'h-16 bg-[repeating-linear-gradient(135deg,var(--zm-color-line)_0_1px,transparent_1px_9px)] bg-stone',
+  'h-20 bg-[radial-gradient(var(--zm-color-muted)_0.7px,transparent_0.8px)] bg-[length:7px_7px] bg-stone',
+  'h-12 bg-[radial-gradient(var(--zm-color-navy-soft)_0.5px,transparent_0.6px)] bg-[length:4px_4px] bg-white',
+  'h-5 bg-[linear-gradient(90deg,var(--zm-color-white),var(--zm-color-stone),var(--zm-color-white))]',
+];
+---
+
+<section
+  id="sistema"
+  class="border-line py-section border-t"
+>
+  <div class="container-site">
+    <div class="grid gap-10 md:grid-cols-12">
+      <div class="md:col-span-7">
+        <SectionLabel text={system.label} />
+        <RevealHeading
+          lines={system.title}
+          emphasis={1}
+          class="display-xl text-navy mt-8"
+        />
+      </div>
+      <p
+        class="text-muted self-end md:col-span-4 md:col-start-9"
+        data-reveal
+      >
+        {system.text}
+      </p>
+    </div>
+
+    <div class="mt-16 grid gap-12 md:mt-24 lg:grid-cols-12">
+      <!-- Sección transversal: las capas se construyen al avanzar por los pasos -->
+      <figure class="lg:col-span-5">
+        <div class="lg:sticky lg:top-28">
+          <figcaption class="label text-muted mb-6">{system.layersLabel}</figcaption>
+          <div
+            class="layers border-line flex flex-col-reverse border"
+            role="img"
+            aria-label={system.steps.map((step) => step.name).join(', ')}
+          >
+            <div class="bg-muted/30 h-10"></div>
+            {system.steps.map((step, index) => (
+              <div
+                class:list={['layer border-line relative border-t', layerStyles[index]]}
+                data-layer={index}
+              >
+                <span class="label bg-paper/90 text-navy absolute top-1/2 right-3 -translate-y-1/2 px-2">
+                  {step.code}
+                </span>
+              </div>
+            ))}
+          </div>
+          <p class="label text-muted mt-4 flex justify-between">
+            <span>{system.steps[0]?.name}</span>
+            <span aria-hidden="true">↑</span>
+            <span>{system.steps.at(-1)?.name}</span>
+          </p>
+        </div>
+      </figure>
+
+      <ol class="lg:col-span-6 lg:col-start-7">
+        {system.steps.map((step, index) => (
+          <li
+            class="group border-line flex gap-6 border-t py-10 transition-colors duration-500 data-[active=true]:text-navy md:gap-10 lg:min-h-[42vh]"
+            data-layer-step={index}
+            data-active="false"
+          >
+            <span class="display text-line group-data-[active=true]:text-gold text-5xl transition-colors duration-500 md:text-7xl">
+              {String(index + 1).padStart(2, '0')}
+            </span>
+            <div class="pt-2">
+              <p class="label text-muted">{step.code}</p>
+              <h3 class="display-lg text-navy mt-3">{step.name}</h3>
+              <p class="text-muted mt-4 max-w-sm">{step.text}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <div class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12">
+      <p class="label text-navy md:col-span-3">{system.specsTitle}</p>
+      <dl class="grid gap-x-10 md:col-span-9 md:grid-cols-2">
+        {system.specs.map((spec, index) => (
+          <div
+            class="border-line flex items-center justify-between gap-6 border-b py-4"
+            data-reveal
+            style={`--reveal-index: ${index}`}
+          >
+            <dt class="text-navy">{spec.name}</dt>
+            <dd>
+              <Todo text={spec.todo} />
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </div>
+</section>

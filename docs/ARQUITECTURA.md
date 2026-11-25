@@ -5,6 +5,7 @@
 > Sustituye a la versión 1 (Astro + Medusa en VPS), descartada para no añadir un servidor ni un coste extra.
 
 ## Contexto
+
 Zement es una marca nueva de microcemento y materiales. Su identidad usa azul marino `#2D4F70`, crema `#F5F0E6` y dorado `#B99A57`. Hoy no tiene web propia.
 
 Se quiere una web que sea a la vez:
@@ -18,28 +19,28 @@ La primera versión será en **ES + EN**, con venta en España y la UE, y se pod
 
 Decisiones tomadas por el usuario:
 
-| Decisión | Elección |
-|---|---|
-| Marca | Zement |
-| Arquitectura | Opción C: web de marca en Astro + tienda en PrestaShop, ambas en el hosting compartido IONOS Hosting Plus (PHP, MySQL, SFTP, SSH) |
-| B2B en la v1 | Tarifas por cliente |
-| Fuera de la v1 | Alta con aprobación, pago a plazo e integración con el CRM |
-| Idiomas | ES + EN |
+| Decisión       | Elección                                                                                                                          |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Marca          | Zement                                                                                                                            |
+| Arquitectura   | Opción C: web de marca en Astro + tienda en PrestaShop, ambas en el hosting compartido IONOS Hosting Plus (PHP, MySQL, SFTP, SSH) |
+| B2B en la v1   | Tarifas por cliente                                                                                                               |
+| Fuera de la v1 | Alta con aprobación, pago a plazo e integración con el CRM                                                                        |
+| Idiomas        | ES + EN                                                                                                                           |
 
 ---
 
 ## 1. Stack
 
-| Capa | Elección | Por qué |
-|---|---|---|
-| Web de marca (`www.<dominio>`) | **Astro 7** en modo estático, TypeScript, **Tailwind 4**, **Keystatic** + Markdoc | HTML estático en IONOS, máximo rendimiento y SEO |
-| Formularios de la web | Endpoint **PHP** en IONOS + validación en servidor + honeypot + **Cloudflare Turnstile** + envío por **Resend** | El hosting ya ejecuta PHP: sin servidor aparte |
-| Tienda (`tienda.<dominio>`) | **PrestaShop 9.2.1** (PHP 8.4 en local; comprobar la versión de PHP disponible en IONOS) + **MySQL** del propio hosting | B2C y B2B de serie: grupos de clientes, precios específicos por cliente, precios sin IVA por grupo, datos de empresa, cantidades mínimas y multiidioma |
-| Tema de la tienda | **Tema hijo propio** sobre **Hummingbird** (tema por defecto de PrestaShop 9.2, Bootstrap 5), versionado en Git | Mismo aspecto que la web de marca sin tocar el núcleo, para que las actualizaciones no rompan nada |
-| Pagos | Tarjeta mediante el módulo **Redsys** (TPV del banco, con Bizum) o **Stripe** (decidir) y **transferencia bancaria** (módulo nativo), limitada a mayoristas si se quiere | PrestaShop permite activar o desactivar cada forma de pago por grupo de clientes |
-| Correo de la tienda | SMTP del correo IONOS del dominio (o SMTP de Resend) | Que confirmaciones y avisos lleguen bien a la bandeja de entrada |
-| Analítica | Plausible o Umami (sin cookies) en las dos partes | Evita banner por la analítica |
-| Despliegue | GitHub Actions → SFTP (web Astro y tema/módulos propios) | El núcleo de PrestaShop no se guarda en Git |
+| Capa                           | Elección                                                                                                                                                                 | Por qué                                                                                                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Web de marca (`www.<dominio>`) | **Astro 7** en modo estático, TypeScript, **Tailwind 4**, **Keystatic** + Markdoc                                                                                        | HTML estático en IONOS, máximo rendimiento y SEO                                                       |
+| Formularios de la web          | Endpoint **PHP** en IONOS + validación en servidor + honeypot + **Cloudflare Turnstile** + envío por **Resend**                                                          | El hosting ya ejecuta PHP: sin servidor aparte                                                                                                           |
+| Tienda (`tienda.<dominio>`)    | **PrestaShop 9.2.1** (PHP 8.4 en local; comprobar la versión de PHP disponible en IONOS) + **MySQL** del propio hosting                                                  | B2C y B2B de serie: grupos de clientes, precios específicos por cliente, precios sin IVA por grupo, datos de empresa, cantidades mínimas y multiidioma |
+| Tema de la tienda              | **Tema hijo propio** sobre **Hummingbird** (tema por defecto de PrestaShop 9.2, Bootstrap 5), versionado en Git                                                          | Mismo aspecto que la web de marca sin tocar el núcleo, para que las actualizaciones no rompan nada                                                     |
+| Pagos                          | Tarjeta mediante el módulo **Redsys** (TPV del banco, con Bizum) o **Stripe** (decidir) y **transferencia bancaria** (módulo nativo), limitada a mayoristas si se quiere | PrestaShop permite activar o desactivar cada forma de pago por grupo de clientes                                                                       |
+| Correo de la tienda            | SMTP del correo IONOS del dominio (o SMTP de Resend)                                                                                                                     | Que confirmaciones y avisos lleguen bien a la bandeja de entrada                                                                                       |
+| Analítica                      | Plausible o Umami (sin cookies) en las dos partes                                                                                                                        | Evita banner por la analítica                                                                                                                          |
+| Despliegue                     | GitHub Actions → SFTP (web Astro y tema/módulos propios)                                                                                                                 | El núcleo de PrestaShop no se guarda en Git                                                                                       |
 
 ## 2. Arquitectura
 
@@ -63,6 +64,7 @@ tienda.<dom.> ─▶│ /tienda  PrestaShop ──▶ MySQL (BD propia)     │
   - fichas **editoriales** de producto: usos, galerías y fichas técnicas en PDF.
 
   Cada ficha lleva un botón «Comprar» que enlaza con su producto en la tienda.
+
 - **Tienda (PrestaShop).** Es la fuente de verdad de todo lo que se vende:
   - referencias (SKU), variantes, envases y pesos;
   - precios, tarifas y stock;
@@ -78,28 +80,32 @@ tienda.<dom.> ─▶│ /tienda  PrestaShop ──▶ MySQL (BD propia)     │
   - los mismos textos legales.
 
 ### Repositorio (`Desarrollo/ZementWeb/`)
+
+Monorepo con **pnpm workspaces**: aplicaciones en `apps/`, piezas compartidas en `packages/`, entorno en `infra/`.
+
 ```
 ZementWeb/
-  web/                   Astro (marca)
-  tienda/theme/          Tema hijo de PrestaShop (plantillas, CSS, traducciones)
-  tienda/modules/        Módulos propios si hacen falta (p. ej. reglas mayoristas)
-  tienda/config/         Notas de configuración exportables (grupos, impuestos, transportistas)
-  design-tokens/         Colores, tipografías y espaciados en un solo sitio
-  infra/                 docker-compose (PrestaShop + MySQL para desarrollo), scripts de despliegue y copias
-  docs/                  Este documento, decisiones (ADR), operación
-  AGENTS.md              Reglas del proyecto
+  apps/web/                    Web de marca (Astro)
+  apps/tienda/theme/zement/    Tema hijo de PrestaShop (plantillas, CSS, traducciones)
+  apps/tienda/modules/         Módulos propios si hacen falta (p. ej. reglas mayoristas)
+  apps/tienda/config/          Configuración documentada y exportable (grupos, impuestos, transportistas)
+  packages/design-tokens/      Colores, tipografías, espaciados y movimiento: fuente única
+  infra/docker/                PrestaShop + MySQL para desarrollo local
+  docs/                        Este documento, dirección visual, decisiones (ADR)
+  AGENTS.md                    Normas de código, estructura y reglas del proyecto
 ```
-- **Web:** pnpm, Node 24 y Prettier, con nombres de scripts estándar (`dev`, `build`, `check`, `format:check`).
+
+- **Web:** Node 24 y pnpm. Calidad de código con Prettier, ESLint, Stylelint y TypeScript estricto (`pnpm verify`).
 - **Tienda:** se desarrolla en local con la imagen Docker oficial de PrestaShop y la misma versión que en IONOS.
 
 ## 3. Venta al por menor (B2C) y mayorista (B2B) en PrestaShop
 
-| Grupo de clientes | Quién | Precios | Pago |
-|---|---|---|---|
-| Visitante / Invitado / Cliente | Público | Precio público **IVA incluido** | Tarjeta (y Bizum si hay Redsys) |
-| Distribuidor | Mayorista | Tarifa del grupo (descuento del grupo o precios específicos), **sin IVA** | Tarjeta y transferencia |
-| Aplicador | Profesional | Tarifa del grupo, **sin IVA** | Tarjeta y transferencia |
-| (Cliente concreto) | Mayorista con tarifa propia | **Precio específico por cliente** en el producto o regla de precios de catálogo | Según su grupo |
+| Grupo de clientes              | Quién                       | Precios                                                                         | Pago                            |
+| ------------------------------ | --------------------------- | ------------------------------------------------------------------------------- | ------------------------------- |
+| Visitante / Invitado / Cliente | Público                     | Precio público **IVA incluido**                                                 | Tarjeta (y Bizum si hay Redsys) |
+| Distribuidor                   | Mayorista                   | Tarifa del grupo (descuento del grupo o precios específicos), **sin IVA**       | Tarjeta y transferencia         |
+| Aplicador                      | Profesional                 | Tarifa del grupo, **sin IVA**                                                   | Tarjeta y transferencia         |
+| (Cliente concreto)             | Mayorista con tarifa propia | **Precio específico por cliente** en el producto o regla de precios de catálogo | Según su grupo                  |
 
 - **Alta de mayoristas.** En la v1, el personal crea la cuenta o la pasa al grupo mayorista desde el panel. El alta con aprobación queda para la fase 2.
 - **Modo B2B.** Se activa en Clientes → Ajustes. Añade razón social y número fiscal (CIF/NIF-IVA) a la cuenta.
@@ -172,6 +178,7 @@ ZementWeb/
    - Integración con el CRM.
 
 ## 6. Decisiones pendientes
+
 - **Subdominios:** confirmar el dominio de Zement y crear `tienda.<dominio>` y su carpeta en el Hosting Plus. Los cambios de DNS y dominios solo se hacen con autorización expresa.
 - **Pasarela de pago:** Redsys (¿qué banco da el TPV?) o Stripe.
 - **Facturación:** ERP/programa actual o módulo Verifactu.
@@ -181,6 +188,7 @@ ZementWeb/
 - **Diseño:** ¿hay manual de marca o partimos de los colores de Zement del CRM?
 
 ## 7. Verificación
+
 - **Web:**
   - `pnpm check`, `pnpm build`, `format:check` y pruebas `node --test`.
   - Script que comprueba que cada botón «Comprar» apunta a un producto existente en la tienda.

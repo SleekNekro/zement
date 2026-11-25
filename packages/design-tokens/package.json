@@ -1,0 +1,15 @@
+{
+  "name": "@zement/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fuente única de colores, tipografías, espaciados y movimiento de Zement (web y tienda).",
+  "exports": {
+    "./tokens.css": "./tokens.css",
+    "./fonts.css": "./fonts.css",
+    "./fonts/*": "./fonts/*"
+  },
+  "scripts": {
+    "sync": "node sync.mjs"
+  }
+}
