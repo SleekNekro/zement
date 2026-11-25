@@ -1,0 +1,1263 @@
+{
+  "key": "zement-latex-flex",
+  "source": "ZEMENT LATEX FLEX",
+  "languages": {
+    "de": {
+      "file": "ZEMENT LATEX FLEX ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Latex Flex",
+      "subtitle": "WÄSSRIGES BINDEMITTEL ZUR VERFESTIGUNG UND HAFTVERBESSERUNG",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Max. Verdünnung mit Wasser"
+        },
+        {
+          "value": "21 %",
+          "label": "Feststoffgehalt"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Sauer"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wässriges Dispersionsbindemittel, frei von organischen Lösemitteln und bituminösen Stoffen, zur Untergrundvorbereitung."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Milchige Flüssigkeit, gebrauchsfertig.",
+                "Unverdünnt oder je nach Untergrund 1:1 mit Wasser verdünnt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Verfestigung von Untergründen, wo erforderlich.",
+                "Verbesserung von Haftung und Verdichtung der Untergründe.",
+                "Deutliche Erhöhung der Biegezugfestigkeit des Produkts, dem es zugesetzt wird."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farbe",
+                      "value": "Milchig"
+                    },
+                    {
+                      "key": "Art",
+                      "value": "Wässriges Dispersionsbindemittel, frei von organischen Lösemitteln und bituminösen Stoffen"
+                    },
+                    {
+                      "key": "Dichte bei 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH-Wert",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Feststoffgehalt",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Kanister 5 L",
+                "Palette mit 144 Stk. (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zwischen 5 und 40 °C, in der Originalverpackung. Nicht länger als 12 Monate lagern."
+            }
+          ]
+        },
+        {
+          "title": "SICHERHEIT UND HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bei normaler Handhabung weder giftig, gefährlich noch entzündbar.",
+                "Verwendung ohne besondere Schutzmaßnahmen möglich; es gelten lediglich die gesetzlichen Arbeitsschutzvorschriften."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERDÜNNUNG UND ANWENDUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Gebrauch",
+                      "value": "Unverdünnt oder 1:1 mit Leitungswasser verdünnt."
+                    },
+                    {
+                      "key": "Abhängig von",
+                      "value": "Porosität und Art des Untergrunds sowie Deckprodukt."
+                    },
+                    {
+                      "key": "Mit Zement Repair",
+                      "value": "1 Teil Harz auf 1 Teil Wasser."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Je nach Untergrund und Deckprodukt anpassen."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "en": {
+      "file": "ZEMENT LATEX FLEX INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Latex Flex",
+      "subtitle": "AQUEOUS DISPERSION BINDER FOR CONSOLIDATING AND BONDING SUBSTRATES",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Max. dilution with water"
+        },
+        {
+          "value": "21 %",
+          "label": "Solids content"
+        },
+        {
+          "value": "pH 4.0",
+          "label": "Acidic reaction"
+        },
+        {
+          "value": "5 L",
+          "label": "Jerrycan"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Aqueous dispersion binder, free of organic solvents and bituminous products, for surface preparation."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Milky liquid, ready to use.",
+                "Neat or diluted 1:1 with water depending on the substrate."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Consolidating substrates that require it.",
+                "Optimizing the anchorage and compaction of substrates.",
+                "Considerably increasing the flexural strength of the product it is added to."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Milky"
+                    },
+                    {
+                      "key": "Nature",
+                      "value": "Aqueous dispersion binder, free of organic solvents and bituminous products"
+                    },
+                    {
+                      "key": "Specific weight at 20 °C",
+                      "value": "1.03-1.06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4.0"
+                    },
+                    {
+                      "key": "Solids content",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "5 L jerrycan",
+                "Pallet of 144 units (1.15 × 1.15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Between 5 and 40 °C, in its original packaging. Do not store for more than 12 months."
+            }
+          ]
+        },
+        {
+          "title": "SAFETY AND HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Not toxic, hazardous or flammable under normal handling conditions.",
+                "Can be used without special safety measures, only following the legal occupational health rules."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DILUTION AND USE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ready to use",
+                      "value": "Neat or diluted 1:1 with tap water."
+                    },
+                    {
+                      "key": "Depends on",
+                      "value": "Substrate porosity and nature, and finishing product."
+                    },
+                    {
+                      "key": "With Zement Repair",
+                      "value": "1 part resin to 1 part water."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Adjust according to the substrate and the finishing product."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "es": {
+      "file": "ZEMENT LATEX FLEX ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Latex Flex",
+      "subtitle": "LIGANTE EN DISPERSIÓN ACUOSA PARA CONSOLIDAR Y ANCLAR SOPORTES",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Dilución máx. con agua"
+        },
+        {
+          "value": "21 %",
+          "label": "Contenido en sólidos"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Reacción ácida"
+        },
+        {
+          "value": "5 L",
+          "label": "Garrafa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Ligante en dispersión acuosa, exento de disolventes orgánicos y de productos bituminosos, para la preparación de superficies."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Líquido lechoso, listo al uso.",
+                "Puro o diluido 1:1 con agua según el soporte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Consolidar los soportes que lo requieran.",
+                "Optimizar el anclaje y la compactación de los soportes.",
+                "Aumentar considerablemente la flexotracción del producto al que se añade."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Lechoso"
+                    },
+                    {
+                      "key": "Naturaleza",
+                      "value": "Ligante en dispersión acuosa, sin disolventes orgánicos ni productos bituminosos"
+                    },
+                    {
+                      "key": "Peso específico a 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Contenido en sólidos",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Garrafa de 5 L",
+                "Palé de 144 uds. (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 y 40 °C, en su envase original. No almacenar más de 12 meses."
+            }
+          ]
+        },
+        {
+          "title": "SEGURIDAD E HIGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No es tóxico, peligroso ni inflamable en condiciones normales de manipulación.",
+                "Se recomienda su uso sin medidas especiales de seguridad, solo con las normas legales de salud laboral."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN Y USO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Al uso",
+                      "value": "Puro o diluido 1:1 con agua corriente."
+                    },
+                    {
+                      "key": "Según",
+                      "value": "Porosidad y naturaleza del soporte y producto de acabado."
+                    },
+                    {
+                      "key": "Con Zement Repair",
+                      "value": "1 parte de resina por 1 de agua."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ajustar según el soporte y el producto de acabado."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fi": {
+      "file": "ZEMENT LATEX FLEX FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Latex Flex",
+      "subtitle": "SIDEAINE-DISPERSIO ALUSTAN LUJITTAMISEEN JA TARTUNNAN PARANTAMISEEN",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Enim. laimennus vedellä"
+        },
+        {
+          "value": "21 %",
+          "label": "Kuiva-ainepitoisuus"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Hapan reaktio"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanisteri"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen sideainedispersio, joka ei sisällä orgaanisia liuottimia eikä bitumipohjaisia aineita. Tarkoitettu pintojen esikäsittelyyn."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Maitomainen neste, käyttövalmis.",
+                "Käytetään laimentamattomana tai laimennettuna 1:1 vedellä alustan mukaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Lujitetaan alustat, jotka sitä vaativat.",
+                "Parannetaan alustan tartuntaa ja tiiviyttä.",
+                "Kasvatetaan merkittävästi taivutusvetolujuutta tuotteessa, johon sitä lisätään."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Väri",
+                      "value": "Maitomainen"
+                    },
+                    {
+                      "key": "Laatu",
+                      "value": "Vesipohjainen sideainedispersio, ei orgaanisia liuottimia eikä bitumipohjaisia aineita"
+                    },
+                    {
+                      "key": "Ominaispaino 20 °C:ssa",
+                      "value": "1,03–1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Kuiva-ainepitoisuus",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "5 L:n kanisteri",
+                "Lava: 144 kpl (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "5–40 °C:ssa, alkuperäispakkauksessa. Älä säilytä yli 12 kuukautta."
+            }
+          ]
+        },
+        {
+          "title": "TURVALLISUUS JA HYGIENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei myrkyllinen, vaarallinen eikä syttyvä normaaleissa käsittelyolosuhteissa.",
+                "Käyttö ei vaadi erityisiä turvatoimia, vain työterveyttä koskevien lakisääteisten ohjeiden noudattamista."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAIMENNUS JA KÄYTTÖ",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Käytössä",
+                      "value": "Laimentamattomana tai 1:1 tavallisella vedellä."
+                    },
+                    {
+                      "key": "Riippuu",
+                      "value": "Alustan huokoisuudesta ja laadusta sekä pintatuotteesta."
+                    },
+                    {
+                      "key": "Zement Repairin kanssa",
+                      "value": "1 osa hartsia / 1 osa vettä."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Säädä alustan ja pintatuotteen mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fr": {
+      "file": "ZEMENT LATEX FLEX FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Latex Flex",
+      "subtitle": "LIANT EN DISPERSION AQUEUSE POUR CONSOLIDER ET FIXER LES SUPPORTS",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Dilution max. à l'eau"
+        },
+        {
+          "value": "21 %",
+          "label": "Extrait sec"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Réaction acide"
+        },
+        {
+          "value": "5 L",
+          "label": "Bidon"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Liant en dispersion aqueuse, exempt de solvants organiques et de produits bitumineux, pour la préparation des surfaces."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquide laiteux, prêt à l'emploi.",
+                "Pur ou dilué 1:1 avec de l'eau selon le support."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Consolider les supports qui le nécessitent.",
+                "Optimiser l'accroche et la compacité des supports.",
+                "Augmenter considérablement la résistance à la flexion du produit auquel il est ajouté."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Couleur",
+                      "value": "Laiteux"
+                    },
+                    {
+                      "key": "Nature",
+                      "value": "Liant en dispersion aqueuse, sans solvants organiques ni produits bitumineux"
+                    },
+                    {
+                      "key": "Masse volumique à 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Extrait sec",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Bidon de 5 L",
+                "Palette de 144 unités (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 et 40 °C, dans son emballage d'origine. Ne pas stocker plus de 12 mois."
+            }
+          ]
+        },
+        {
+          "title": "SÉCURITÉ ET HYGIÈNE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non toxique, non dangereux et non inflammable dans des conditions normales de manipulation.",
+                "Utilisation recommandée sans mesures de sécurité particulières, uniquement avec les règles légales de santé au travail."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DILUTION ET EMPLOI",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "À l'emploi",
+                      "value": "Pur ou dilué 1:1 avec de l'eau courante."
+                    },
+                    {
+                      "key": "Selon",
+                      "value": "Porosité et nature du support et produit de finition."
+                    },
+                    {
+                      "key": "Avec Zement Repair",
+                      "value": "1 part de résine pour 1 d'eau."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ajuster selon le support et le produit de finition."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "it": {
+      "file": "ZEMENT LATEX FLEX ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Latex Flex",
+      "subtitle": "LEGANTE IN DISPERSIONE ACQUOSA PER CONSOLIDARE E ANCORARE I SUPPORTI",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Diluizione max. in acqua"
+        },
+        {
+          "value": "21 %",
+          "label": "Contenuto di solidi"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Reazione acida"
+        },
+        {
+          "value": "5 L",
+          "label": "Tanica"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Legante in dispersione acquosa, privo di solventi organici e di prodotti bituminosi, per la preparazione delle superfici."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquido lattiginoso, pronto all'uso.",
+                "Puro o diluito 1:1 con acqua in base al supporto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Consolidare i supporti che lo richiedono.",
+                "Ottimizzare l'ancoraggio e la compattazione dei supporti.",
+                "Aumentare notevolmente la resistenza a flessione del prodotto a cui viene aggiunto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Colore",
+                      "value": "Lattiginoso"
+                    },
+                    {
+                      "key": "Natura",
+                      "value": "Legante in dispersione acquosa, senza solventi organici né prodotti bituminosi"
+                    },
+                    {
+                      "key": "Massa volumica a 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Contenuto di solidi",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Tanica da 5 L",
+                "Pallet da 144 pz. (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tra 5 e 40 °C, nella confezione originale. Non stoccare per più di 12 mesi."
+            }
+          ]
+        },
+        {
+          "title": "SICUREZZA E IGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non è tossico, pericoloso né infiammabile in normali condizioni di manipolazione.",
+                "Se ne raccomanda l'uso senza misure di sicurezza particolari, nel solo rispetto delle norme di legge sulla salute sul lavoro."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE E USO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "All'uso",
+                      "value": "Puro o diluito 1:1 con acqua di rete."
+                    },
+                    {
+                      "key": "In base a",
+                      "value": "Porosità e natura del supporto e prodotto di finitura."
+                    },
+                    {
+                      "key": "Con Zement Repair",
+                      "value": "1 parte di resina per 1 di acqua."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Regolare in base al supporto e al prodotto di finitura."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "no": {
+      "file": "ZEMENT LATEX FLEX NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Latex Flex",
+      "subtitle": "VANDIG BINDEMIDDEL FOR KONSOLIDERING OG HEFT PÅ UNDERLAG",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Maks. vannfortynning"
+        },
+        {
+          "value": "21 %",
+          "label": "Tørrstoff"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Sur reaksjon"
+        },
+        {
+          "value": "5 L",
+          "label": "Dunk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Bindemiddel i vandig dispersjon, uten organiske løsemidler og bitumenprodukter, for klargjøring av overflater."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Melkehvit væske, klar til bruk.",
+                "Ufortynnet eller fortynnet 1:1 med vann, avhengig av underlaget."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Konsolidere underlag som trenger det.",
+                "Optimalisere heft og komprimering av underlaget.",
+                "Øke bøyestrekkfastheten betydelig i produktet det tilsettes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farge",
+                      "value": "Melkehvit"
+                    },
+                    {
+                      "key": "Type",
+                      "value": "Bindemiddel i vandig dispersjon, uten organiske løsemidler og bitumenprodukter"
+                    },
+                    {
+                      "key": "Egenvekt ved 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Tørrstoff",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Dunk 5 L",
+                "Pall à 144 stk. (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mellom 5 og 40 °C, i original emballasje. Må ikke lagres lenger enn 12 måneder."
+            }
+          ]
+        },
+        {
+          "title": "SIKKERHET OG HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ikke giftig, farlig eller brannfarlig under normale håndteringsforhold.",
+                "Kan brukes uten spesielle sikkerhetstiltak, kun med lovpålagte regler for arbeidsmiljø."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORTYNNING OG BRUK",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Bruksklar",
+                      "value": "Ufortynnet eller fortynnet 1:1 med vanlig vann."
+                    },
+                    {
+                      "key": "Avhenger av",
+                      "value": "Underlagets porøsitet og type samt sluttproduktet."
+                    },
+                    {
+                      "key": "Med Zement Repair",
+                      "value": "1 del harpiks per 1 del vann."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Tilpass etter underlaget og sluttproduktet."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "pl": {
+      "file": "ZEMENT LATEX FLEX POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Latex Flex",
+      "subtitle": "ŻYWICA W DYSPERSJI WODNEJ DO WZMACNIANIA I KOTWIENIA PODŁOŻY",
+      "stats": [
+        {
+          "value": "1:1",
+          "label": "Maks. rozcieńczenie wodą"
+        },
+        {
+          "value": "21 %",
+          "label": "Części stałe"
+        },
+        {
+          "value": "pH 4,0",
+          "label": "Odczyn kwaśny"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Żywica w dyspersji wodnej, bez rozpuszczalników organicznych i produktów bitumicznych, do przygotowania powierzchni."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mleczna ciecz, gotowa do użycia.",
+                "Czysta lub rozcieńczona 1:1 wodą, zależnie od podłoża."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wzmacnianie podłoży, które tego wymagają.",
+                "Poprawa przyczepności i zwartości podłoży.",
+                "Znaczne zwiększenie wytrzymałości na zginanie produktu, do którego jest dodawana."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Wygląd",
+                      "value": "Mleczny"
+                    },
+                    {
+                      "key": "Charakter",
+                      "value": "Żywica w dyspersji wodnej, bez rozpuszczalników organicznych i produktów bitumicznych"
+                    },
+                    {
+                      "key": "Ciężar właściwy w 20 °C",
+                      "value": "1,03-1,06 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "4,0"
+                    },
+                    {
+                      "key": "Części stałe",
+                      "value": "21 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex Flex",
+                "Kanister 5 L",
+                "Paleta: 144 szt. (1,15 × 1,15 m)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Od 5 do 40 °C, w oryginalnym opakowaniu. Nie przechowywać dłużej niż 12 miesięcy."
+            }
+          ]
+        },
+        {
+          "title": "BEZPIECZEŃSTWO I HIGIENA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nietoksyczny, niebezpieczny ani łatwopalny w normalnych warunkach użytkowania.",
+                "Zaleca się stosowanie bez szczególnych środków bezpieczeństwa, wyłącznie z zachowaniem przepisów BHP."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ROZCIEŃCZANIE I STOSOWANIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Gotowy",
+                      "value": "Czysty lub rozcieńczony 1:1 wodą wodociągową."
+                    },
+                    {
+                      "key": "Zależnie od",
+                      "value": "Porowatości i rodzaju podłoża oraz produktu wykończeniowego."
+                    },
+                    {
+                      "key": "Z Zement Repair",
+                      "value": "1 część żywicy na 1 część wody."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Dostosować do podłoża i produktu wykończeniowego."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    }
+  },
+  "images": []
+}

@@ -15,7 +15,7 @@ Se quiere una web que sea a la vez:
   - **venta al por menor (B2C)**, con precios públicos;
   - **venta mayorista (B2B)**, con **tarifas por cliente**.
 
-La primera versión será en **ES + EN**, con venta en España y la UE, y se podrá ampliar después.
+La web de marca será en **ES + EN** y la tienda en los **8 idiomas de las fichas técnicas** (ES, EN, DE, FR, IT, PL, NO, FI), con venta en España y la UE.
 
 Decisiones tomadas por el usuario:
 
@@ -25,7 +25,7 @@ Decisiones tomadas por el usuario:
 | Arquitectura   | Opción C: web de marca en Astro + tienda en PrestaShop, ambas en el hosting compartido IONOS Hosting Plus (PHP, MySQL, SFTP, SSH) |
 | B2B en la v1   | Tarifas por cliente                                                                                                               |
 | Fuera de la v1 | Alta con aprobación, pago a plazo e integración con el CRM                                                                        |
-| Idiomas        | ES + EN                                                                                                                           |
+| Idiomas        | Web: ES + EN. Tienda: ES, EN, DE, FR, IT, PL, NO, FI (decidido el 25/11/2026)                                                     |
 
 ---
 
@@ -118,8 +118,9 @@ ZementWeb/
 
 - **Idiomas**
   - Astro: `es` por defecto y sin prefijo, más `/en/`.
-  - PrestaShop: ES y EN con URLs amigables por idioma.
-  - El selector de idioma de cada parte enlaza con la página equivalente de la otra.
+  - PrestaShop: ES (por defecto) + EN, DE, FR, IT, PL, NO y FI con URLs amigables por idioma (`/en/`, `/de/`…), los mismos idiomas en que existen las fichas técnicas.
+  - El selector de idioma de cada parte enlaza con la página equivalente de la otra. Pendiente: a qué idioma de la web enlaza la tienda en DE, FR, IT, PL, NO y FI (la web solo tiene ES y EN).
+- **Catálogo:** se genera desde las fichas técnicas PDF; ver [`apps/tienda/catalog/README.md`](../apps/tienda/catalog/README.md).
 - **SEO**
   - Web: `BaseLayout` con OG, `hreflang`, JSON-LD `Organization`, sitemap y `robots`.
   - Tienda: URLs amigables, `canonical`, `hreflang`, sitemap (módulo oficial) y datos `Product`/`Offer` solo con precio público.

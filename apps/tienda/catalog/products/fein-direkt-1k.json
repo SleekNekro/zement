@@ -1,0 +1,1921 @@
+{
+  "key": "fein-direkt-1k",
+  "source": "FEIN DIREKT 1K",
+  "languages": {
+    "de": {
+      "file": "FEIN DIREKT 1K ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Brandverhalten (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² Druckfestigkeit, 28 Tage"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² Haftung auf Beton"
+        },
+        {
+          "value": "0",
+          "label": "VOC: keine flüchtigen organischen Verbindungen"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Gebrauchsfertiger Feinmikrozement auf Zementbasis mit mikronisiertem Quarz kontrollierter Körnung und hoher Festigkeit, ausgezeichnet in Verarbeitbarkeit und Härte dank einer Kombination modernster Harze, die exklusiv für unser Sortiment entwickelt wurden. Wolkenfreie, glatte Oberfläche im Stil des französischen Stucco."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Geringer Gehalt an löslichen Salzen.",
+                "Hohe Wasserdampfdurchlässigkeit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESCHREIBUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Gebrauchsfertige Spachtelmasse auf Zementbasis zur Beschichtung von Böden und Wänden."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Den Eimer öffnen und mit einem Handrührgerät verrühren, bis eine vollkommen homogene Mischung entsteht. Es ist weder Wasser noch Härter zuzugeben."
+            },
+            {
+              "type": "p",
+              "text": "Je nach erforderlicher Schichtdicke werden 2 dünne Lagen mit der Stahlkelle aufgetragen, die dabei um etwa 45° geneigt und mit leichtem Druck auf das Material geführt wird."
+            },
+            {
+              "type": "p",
+              "text": "Je nach Temperatur, Luftfeuchtigkeit und Arbeitsweise kann das Produkt hinsichtlich Trocknung, Härte, Verarbeitbarkeit und Körnung an den Wunsch des Kunden angepasst werden."
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ungefährer Verbrauch: 0,3 kg pro Lage und m² (je nach Untergrund)."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renoviert bestehende Böden oder ersetzt Teppichböden.",
+                "Dank der hohen Haftung sowohl auf Böden als auch auf Wänden anwendbar.",
+                "Haftet auf festen Untergründen mit rauer Oberfläche.",
+                "Für den Innen- und Außenbereich geeignet.",
+                "In einer breiten Farbpalette erhältlich."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hohe Abriebfestigkeit.",
+                "Undurchlässig für Wasser, Fett und Öle.",
+                "Hohe mechanische Festigkeit.",
+                "UV-beständig.",
+                "Schichtdicke pro Lage: 0,1 bis 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enthält Zement. Kontakt mit Augen und Haut vermeiden und den Staub nicht einatmen.",
+                "Gummihandschuhe und Schutzbrille tragen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren.",
+                "Nicht bei Umgebungstemperaturen unter 5 °C oder über 30 °C verarbeiten.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Gebrauchsfertige Spachtelmasse"
+                    },
+                    {
+                      "key": "Aussehen",
+                      "value": "Weiße Spachtelmasse"
+                    },
+                    {
+                      "key": "Rohdichte",
+                      "value": "1.400 kg/m³"
+                    },
+                    {
+                      "key": "Rohdichte, ausgehärtet",
+                      "value": "2.000 kg/m³ (System)"
+                    },
+                    {
+                      "key": "Offene Zeit",
+                      "value": "Ca. 2 Stunden"
+                    },
+                    {
+                      "key": "Maximale Korngröße",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mechanische Festigkeiten (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Druckfestigkeit nach 28 Tagen",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Biegefestigkeit nach 28 Tagen",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Haftung auf Beton",
+                      "value": "28 Tage: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Maximale Auftragsdicke pro Lage",
+                      "value": "0,1 bis 0,5 mm"
+                    },
+                    {
+                      "key": "Klassifizierung (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Brandverhalten (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "15 kg, einkomponentig"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "Enthält keine flüchtigen organischen Verbindungen (VOC)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZERTIFIKATE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CE-Kennzeichnung – UNE-EN 13813:2003.",
+                "Haftfestigkeit, UNE-EN 13892-8:2003.",
+                "Druck- und Biegefestigkeit, UNE-EN 13892-2:2003.",
+                "Klassifizierung des Brandverhaltens von Bodenbelägen, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Eimer à 15 kg",
+                "Palette mit 36 Stück"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung, vor Feuchtigkeit und Witterung geschützt. Zwischen 5 und 35 °C lagern."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "FEIN DIREKT 1K INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Reaction to fire (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² compressive strength, 28 days"
+        },
+        {
+          "value": "> 2.5",
+          "label": "N/mm² adhesion to concrete"
+        },
+        {
+          "value": "0",
+          "label": "VOC: no volatile organic compounds"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Ready-to-use fine-finish microcement with a cement base and high-strength micronized quartz of controlled grain size, offering excellent workability and hardness thanks to a combination of latest-generation resins developed exclusively for our range. Single-coat finish, marble-effect free, applied in the French stucco style."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Low soluble salt content.",
+                "High water vapor permeability."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ready-to-use cement-based paste for coating floors and walls."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Open the bucket and stir with a mechanical mixer until a completely homogeneous mix is obtained. No water or hardener needs to be added."
+            },
+            {
+              "type": "p",
+              "text": "Apply 2 thin coats, depending on the required thickness, with a steel trowel held at an angle of about 45° and applying some pressure on the material."
+            },
+            {
+              "type": "p",
+              "text": "Depending on temperature, humidity and working method, the product can be adjusted in terms of drying, hardness, workability and grain size to the customer's preference."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Approximate consumption: 0.3 kg per coat and m² (depending on the substrate)."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renovates existing floors or replaces carpets.",
+                "Can be applied on both floors and walls, thanks to its high adhesion.",
+                "Adheres to firm substrates with a good key.",
+                "Suitable for indoor and outdoor use.",
+                "Available in a wide range of colors."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "High abrasion resistance.",
+                "Impermeable to water, grease and oils.",
+                "High mechanical strength.",
+                "Stable under ultraviolet radiation.",
+                "Thickness per coat of 0.1 to 0.5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contains cement. Avoid contact with eyes and skin and do not inhale the dust.",
+                "Wear rubber gloves and protective goggles.",
+                "Keep out of the reach of children.",
+                "Do not apply at ambient temperatures below 5 °C or above 30 °C.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Ready-to-use paste"
+                    },
+                    {
+                      "key": "Appearance",
+                      "value": "White paste"
+                    },
+                    {
+                      "key": "Bulk density",
+                      "value": "1,400 kg/m³"
+                    },
+                    {
+                      "key": "Bulk density, hardened",
+                      "value": "2,000 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Open time",
+                      "value": "Approx. 2 hours"
+                    },
+                    {
+                      "key": "Maximum aggregate size",
+                      "value": "0.08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mechanical strength (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compressive strength at 28 days",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Flexural strength at 28 days",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Adhesion to concrete",
+                      "value": "28 days: > 2.5 N/mm²"
+                    },
+                    {
+                      "key": "Maximum application thickness per coat",
+                      "value": "0.1 to 0.5 mm"
+                    },
+                    {
+                      "key": "Classification (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Reaction to fire (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Packaging",
+                      "value": "15 kg, monocomponent"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "Contains no volatile organic compounds (VOC)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTIFICATES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CE marking – UNE-EN 13813:2003.",
+                "Bond strength, UNE-EN 13892-8:2003.",
+                "Compressive and flexural strength, UNE-EN 13892-2:2003.",
+                "Reaction to fire classification of floor coverings, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "15 kg bucket",
+                "Pallet of 36 units"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from humidity and the weather. Store between 5 and 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "FEIN DIREKT 1K ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Reacción al fuego (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² a compresión, 28 días"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² de adherencia al hormigón"
+        },
+        {
+          "value": "0",
+          "label": "COV: sin compuestos orgánicos volátiles"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Microcemento listo al uso de acabado fino, con base cementosa de cuarzo micronizado de granulometría controlada y alta resistencia, de excelente trabajabilidad y dureza, gracias a una combinación de resinas de última generación desarrolladas en exclusiva para nuestra gama. Acabado sin aguas, liso y estucado al estilo francés."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bajo contenido en sales solubles.",
+                "Elevada permeabilidad al vapor de agua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPCIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pasta a base de cemento, lista para usar, para el revestimiento de suelos y paredes."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Abrir el cubo y remover con una batidora mecánica hasta lograr una mezcla completamente homogénea. No requiere añadir agua ni endurecedor."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar 2 capas finas, según el espesor requerido, con llana de acero inclinada unos 45° y ejerciendo cierta presión sobre el material."
+            },
+            {
+              "type": "p",
+              "text": "Según la temperatura, la humedad y el método de trabajo, el producto puede adaptarse en secado, dureza, trabajabilidad y granulometría a la petición del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo aproximado: 0,3 kg por capa y m² (según soporte)."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renueva suelos existentes o sustituye moquetas.",
+                "Se aplica tanto en suelos como en paredes gracias a su gran adherencia.",
+                "Se adhiere a soportes firmes con mordiente.",
+                "Apto para interior y exterior.",
+                "Disponible en una amplia gama de colores."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Gran resistencia a la abrasión.",
+                "Impermeable al agua, a la grasa y a los aceites.",
+                "Elevada resistencia mecánica.",
+                "Estable frente a los rayos ultravioleta.",
+                "Espesor por capa de 0,1 a 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento. Evitar el contacto con los ojos y la piel y no inhalar el polvo.",
+                "Usar guantes de goma y gafas de seguridad.",
+                "Mantener fuera del alcance de los niños.",
+                "No aplicar con temperatura ambiente inferior a 5 °C ni superior a 30 °C.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Pasta lista al uso"
+                    },
+                    {
+                      "key": "Aspecto",
+                      "value": "Pasta blanca"
+                    },
+                    {
+                      "key": "Densidad aparente",
+                      "value": "1.400 kg/m³"
+                    },
+                    {
+                      "key": "Densidad aparente endurecido",
+                      "value": "2.000 kg/m³ (sistema)"
+                    },
+                    {
+                      "key": "Tiempo abierto",
+                      "value": "Aprox. 2 horas"
+                    },
+                    {
+                      "key": "Tamaño máximo del árido",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Resistencias mecánicas (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compresión a 28 días",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Flexión a 28 días",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Adherencia al hormigón",
+                      "value": "28 días: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Espesor máximo por capa",
+                      "value": "0,1 a 0,5 mm"
+                    },
+                    {
+                      "key": "Clasificación (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Reacción al fuego (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "15 kg, monocomponente"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "No contiene compuestos orgánicos volátiles (COV)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTIFICADOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Marca CE – UNE-EN 13813:2003.",
+                "Resistencia a la adherencia, UNE-EN 13892-8:2003.",
+                "Resistencia a compresión y flexión, UNE-EN 13892-2:2003.",
+                "Clasificación de reacción al fuego de revestimientos de suelos, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Cubo de 15 kg",
+                "Palé de 36 unidades"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la humedad y de la intemperie. Almacenar entre 5 y 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "FEIN DIREKT 1K FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Palonkestävyys (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² puristuslujuus, 28 vrk"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² tartunta betoniin"
+        },
+        {
+          "value": "0",
+          "label": "VOC: ei haihtuvia orgaanisia yhdisteitä"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Käyttövalmis hienopintainen mikrosementti, jossa on sementtipohjaista, mikronisoitua kvartsia, jonka rakeisuus on hallittu ja lujuus korkea; erinomainen työstettävyys ja kovuus uusimman sukupolven hartsiyhdistelmän ansiosta, joka on kehitetty yksinomaan tuotevalikoimaamme varten. Pilvetön, sileä pinta, ranskalaiseen tapaan laastattuna."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vähäinen liukoisten suolojen pitoisuus.",
+                "Hyvä vesihöyrynläpäisevyys."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KUVAUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Käyttövalmis sementtipohjainen tahna lattioiden ja seinien pinnoitukseen."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sanko avataan ja tuote sekoitetaan mekaanisella sekoittimella, kunnes seos on täysin homogeeninen. Vettä tai kovetetta ei tarvitse lisätä."
+            },
+            {
+              "type": "p",
+              "text": "Levitetään 2 ohutta kerrosta vaadittavan paksuuden mukaan teräslastalla noin 45°:n kulmassa ja materiaalia hieman painaen."
+            },
+            {
+              "type": "p",
+              "text": "Lämpötilasta, kosteudesta ja työtavasta riippuen tuotteen kuivumista, kovuutta, työstettävyyttä ja raekokoa voidaan mukauttaa asiakkaan toiveiden mukaan."
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Arvioitu kulutus: 0,3 kg kerrosta ja m² kohti (alustasta riippuen)."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Olemassa olevien lattioiden uusimiseen tai kokolattiamattojen korvaamiseen.",
+                "Voidaan levittää sekä lattioille että seinille erinomaisen tarttuvuutensa ansiosta.",
+                "Tarttuu kiinteisiin, karkeapintaisiin alustoihin.",
+                "Soveltuu sekä sisä- että ulkokäyttöön.",
+                "Saatavana laajassa värivalikoimassa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Erinomainen kulutuksenkestävyys.",
+                "Vesi-, rasva- ja öljytiivis.",
+                "Korkea mekaaninen lujuus.",
+                "UV-säteilyä kestävä.",
+                "Kerrospaksuus 0,1–0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sisältää sementtiä. Vältä kosketusta silmiin ja ihoon sekä pölyn hengittämistä.",
+                "Käytä kumikäsineitä ja suojalaseja.",
+                "Säilytä lasten ulottumattomissa.",
+                "Älä levitä, kun ympäristön lämpötila on alle 5 °C tai yli 30 °C.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tyyppi",
+                      "value": "Käyttövalmis tahna"
+                    },
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Valkoinen tahna"
+                    },
+                    {
+                      "key": "Irtotiheys",
+                      "value": "1 400 kg/m³"
+                    },
+                    {
+                      "key": "Irtotiheys kovettuneena",
+                      "value": "2 000 kg/m³ (järjestelmä)"
+                    },
+                    {
+                      "key": "Avoin aika",
+                      "value": "Noin 2 tuntia"
+                    },
+                    {
+                      "key": "Runkoaineen enimmäisraekoko",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mekaaniset lujuudet (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Puristuslujuus 28 vrk",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Taivutuslujuus 28 vrk",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Tartunta betoniin",
+                      "value": "28 vrk: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Suurin levityspaksuus kerrosta kohti",
+                      "value": "0,1–0,5 mm"
+                    },
+                    {
+                      "key": "Luokitus (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Palonkestävyys (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "15 kg, yksikomponenttinen"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "Ei sisällä haihtuvia orgaanisia yhdisteitä (VOC)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SERTIFIKAATIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CE-merkintä – UNE-EN 13813:2003.",
+                "Tartuntalujuus, UNE-EN 13892-8:2003.",
+                "Puristus- ja taivutuslujuus, UNE-EN 13892-2:2003.",
+                "Lattiapinnoitteiden palonkestävyysluokitus, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "15 kg:n sanko",
+                "Lava, 36 kpl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna kosteudelta ja säältä. Säilytettävä 5–35 °C:ssa."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "FEIN DIREKT 1K FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Réaction au feu (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² en compression, 28 jours"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² d'adhérence au béton"
+        },
+        {
+          "value": "0",
+          "label": "COV : sans composés organiques volatils"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Microciment prêt à l'emploi à finition fine, à base de ciment et de quartz micronisé de granulométrie contrôlée et de haute résistance, d'excellente maniabilité et dureté, grâce à une combinaison de résines de dernière génération développées en exclusivité pour notre gamme. Finition sans eau, lisse et stuquée à la française."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Faible teneur en sels solubles.",
+                "Forte perméabilité à la vapeur d'eau."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pâte à base de ciment, prête à l'emploi, pour le revêtement des sols et des murs."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ouvrir le seau et mélanger avec un malaxeur mécanique jusqu'à obtention d'un mélange parfaitement homogène. Aucun ajout d'eau ni de durcisseur n'est nécessaire."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer 2 couches fines, selon l'épaisseur requise, à la lisseuse en acier inclinée d'environ 45° et en exerçant une certaine pression sur le matériau."
+            },
+            {
+              "type": "p",
+              "text": "Selon la température, l'humidité et la méthode de travail, le produit peut être adapté en termes de séchage, de dureté, de maniabilité et de granulométrie au goût du client."
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consommation approximative : 0,3 kg par couche et par m² (selon le support)."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rénove les sols existants ou remplace les moquettes.",
+                "S'applique aussi bien sur les sols que sur les murs, grâce à sa forte adhérence.",
+                "Adhère aux supports solides et accrocheurs.",
+                "Convient à l'intérieur comme à l'extérieur.",
+                "Disponible dans une large gamme de couleurs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Grande résistance à l'abrasion.",
+                "Imperméable à l'eau, à la graisse et aux huiles.",
+                "Haute résistance mécanique.",
+                "Stable aux rayons ultraviolets.",
+                "Épaisseur par couche de 0,1 à 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contient du ciment. Éviter le contact avec les yeux et la peau et ne pas inhaler la poussière.",
+                "Utiliser des gants en caoutchouc et des lunettes de protection.",
+                "Tenir hors de portée des enfants.",
+                "Ne pas appliquer à une température ambiante inférieure à 5 °C ni supérieure à 30 °C.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Pâte prête à l'emploi"
+                    },
+                    {
+                      "key": "Aspect",
+                      "value": "Pâte blanche"
+                    },
+                    {
+                      "key": "Masse volumique apparente",
+                      "value": "1 400 kg/m³"
+                    },
+                    {
+                      "key": "Masse volumique apparente durci",
+                      "value": "2 000 kg/m³ (système)"
+                    },
+                    {
+                      "key": "Temps ouvert",
+                      "value": "Environ 2 heures"
+                    },
+                    {
+                      "key": "Taille maximale des granulats",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Résistances mécaniques (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compression à 28 jours",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Flexion à 28 jours",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Adhérence au béton",
+                      "value": "28 jours : > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Épaisseur maximale d'application par couche",
+                      "value": "0,1 à 0,5 mm"
+                    },
+                    {
+                      "key": "Classification (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Réaction au feu (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "15 kg, monocomposant"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "Ne contient pas de composés organiques volatils (COV)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTIFICATS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Marquage CE – UNE-EN 13813:2003.",
+                "Résistance à l'adhérence, UNE-EN 13892-8:2003.",
+                "Résistance à la compression et à la flexion, UNE-EN 13892-2:2003.",
+                "Classification de réaction au feu des revêtements de sol, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Seau de 15 kg",
+                "Palette de 36 unités"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri de l'humidité et des intempéries. Stocker entre 5 et 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "FEIN DIREKT 1K ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Reazione al fuoco (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² a compressione, 28 giorni"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² di aderenza al calcestruzzo"
+        },
+        {
+          "value": "0",
+          "label": "COV: privo di composti organici volatili"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Microcemento pronto all'uso a finitura fine, a base cementizia con quarzo micronizzato a granulometria controllata e alta resistenza, di eccellente lavorabilità e durezza, grazie a una combinazione di resine di ultima generazione sviluppate in esclusiva per la nostra gamma. Finitura senza nuvolature, liscia e stuccata alla francese."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Basso contenuto di sali solubili.",
+                "Elevata permeabilità al vapore acqueo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pasta a base di cemento, pronta all'uso, per il rivestimento di pavimenti e pareti."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Aprire il secchio e miscelare con un miscelatore meccanico fino a ottenere un impasto perfettamente omogeneo. Non richiede l'aggiunta di acqua né di indurente."
+            },
+            {
+              "type": "p",
+              "text": "Si applicano 2 mani sottili, in base allo spessore richiesto, con spatola in acciaio inclinata di circa 45° ed esercitando una certa pressione sul materiale."
+            },
+            {
+              "type": "p",
+              "text": "In base a temperatura, umidità e metodo di lavoro, il prodotto può essere adattato per quanto riguarda essiccazione, durezza, lavorabilità e granulometria secondo la richiesta del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo approssimativo: 0,3 kg per mano e per m² (a seconda del supporto)."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rinnova i pavimenti esistenti o sostituisce la moquette.",
+                "Si applica sia su pavimenti sia su pareti, grazie alla sua grande aderenza.",
+                "Aderisce a supporti solidi con superficie ruvida.",
+                "Adatto per interni ed esterni.",
+                "Disponibile in un'ampia gamma di colori."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Elevata resistenza all'abrasione.",
+                "Impermeabile all'acqua, al grasso e agli oli.",
+                "Elevata resistenza meccanica.",
+                "Stabile ai raggi ultravioletti.",
+                "Spessore per mano da 0,1 a 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento. Evitare il contatto con occhi e pelle e non inalare la polvere.",
+                "Utilizzare guanti di gomma e occhiali di protezione.",
+                "Tenere fuori dalla portata dei bambini.",
+                "Non applicare a temperature ambiente inferiori a 5 °C o superiori a 30 °C.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Pasta pronta all'uso"
+                    },
+                    {
+                      "key": "Aspetto",
+                      "value": "Pasta bianca"
+                    },
+                    {
+                      "key": "Massa volumica apparente",
+                      "value": "1.400 kg/m³"
+                    },
+                    {
+                      "key": "Massa volumica apparente indurito",
+                      "value": "2.000 kg/m³ (sistema)"
+                    },
+                    {
+                      "key": "Tempo aperto",
+                      "value": "Circa 2 ore"
+                    },
+                    {
+                      "key": "Dimensione massima dell'aggregato",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Resistenze meccaniche (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compressione a 28 giorni",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Flessione a 28 giorni",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Aderenza al calcestruzzo",
+                      "value": "28 giorni: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Spessore massimo per mano",
+                      "value": "da 0,1 a 0,5 mm"
+                    },
+                    {
+                      "key": "Classificazione (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Reazione al fuoco (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "15 kg, monocomponente"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "Non contiene composti organici volatili (COV)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTIFICAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Marcatura CE – UNE-EN 13813:2003.",
+                "Resistenza all'aderenza, UNE-EN 13892-8:2003.",
+                "Resistenza a compressione e flessione, UNE-EN 13892-2:2003.",
+                "Classificazione della reazione al fuoco dei rivestimenti per pavimentazioni, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Secchio da 15 kg",
+                "Pallet da 36 unità"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dall'umidità e dagli agenti atmosferici. Conservare tra 5 e 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "FEIN DIREKT 1K NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Brannreaksjon (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² trykkfasthet, 28 dager"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² heft til betong"
+        },
+        {
+          "value": "0",
+          "label": "VOC: ingen flyktige organiske forbindelser"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Bruksferdig mikrosement med fin finish, med sementbasert mikronisert kvarts med kontrollert kornstørrelse og høy fasthet, utmerket bearbeidbarhet og hardhet, takket være en kombinasjon av siste generasjons harpikser utviklet eksklusivt for vårt sortiment. Finish uten skyeffekt, glatt og stukkert på fransk vis."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lavt innhold av løselige salter.",
+                "Høy damppermeabilitet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESKRIVELSE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sementbasert pasta, klar til bruk, til belegg av gulv og vegger."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Åpne bøtten og rør med en elektrisk visp til du får en helt ensartet blanding. Det er ikke nødvendig å tilsette vann eller herder."
+            },
+            {
+              "type": "p",
+              "text": "Påfør 2 tynne lag, avhengig av ønsket tykkelse, med stålsparkel holdt i en vinkel på ca. 45° og med et visst trykk mot materialet."
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av temperatur, fuktighet og arbeidsmetode kan produktet tilpasses med hensyn til tørking, hardhet, bearbeidbarhet og kornstørrelse etter kundens ønske."
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Omtrentlig forbruk: 0,3 kg per lag og m² (avhengig av underlag)."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Til renovering av eksisterende gulv eller som erstatning for tepper.",
+                "Kan påføres både på gulv og vegger på grunn av den store heftevnen.",
+                "Fester seg til faste underlag med grov overflate.",
+                "Egnet både innendørs og utendørs.",
+                "Tilgjengelig i et bredt fargespekter."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Høy slitasjemotstand.",
+                "Tett mot vann, fett og oljer.",
+                "Høy mekanisk fasthet.",
+                "Stabilt mot UV-stråling.",
+                "Tykkelse per lag på 0,1 til 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inneholder sement. Unngå kontakt med øyne og hud, og unngå innånding av støv.",
+                "Bruk gummihansker og vernebriller.",
+                "Oppbevares utilgjengelig for barn.",
+                "Må ikke påføres ved romtemperatur under 5 °C eller over 30 °C.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Bruksferdig pasta"
+                    },
+                    {
+                      "key": "Utseende",
+                      "value": "Hvit pasta"
+                    },
+                    {
+                      "key": "Tilsynelatende densitet",
+                      "value": "1 400 kg/m³"
+                    },
+                    {
+                      "key": "Tilsynelatende densitet, herdet",
+                      "value": "2 000 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Åpen tid",
+                      "value": "Ca. 2 timer"
+                    },
+                    {
+                      "key": "Største tilslagsstørrelse",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mekaniske fasthetsegenskaper (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Trykkfasthet 28 dager",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Bøyefasthet 28 dager",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Heft til betong",
+                      "value": "28 dager: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Maksimal påføringstykkelse per lag",
+                      "value": "0,1 til 0,5 mm"
+                    },
+                    {
+                      "key": "Klassifisering (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Brannreaksjon (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "15 kg, enkomponent"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "Inneholder ingen flyktige organiske forbindelser (VOC)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SERTIFISERINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CE-merking – UNE-EN 13813:2003.",
+                "Heftfasthet, UNE-EN 13892-8:2003.",
+                "Trykk- og bøyefasthet, UNE-EN 13892-2:2003.",
+                "Klassifisering av brannreaksjon for gulvbelegg, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bøtte på 15 kg",
+                "Pall med 36 enheter"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot fuktighet og vær. Oppbevares mellom 5 og 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "FEIN DIREKT 1K POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Fein Direkt 1K",
+      "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+      "stats": [
+        {
+          "value": "A1",
+          "label": "Reakcja na ogień (EN 13501-1)"
+        },
+        {
+          "value": "> 40",
+          "label": "N/mm² wytrzymałości na ściskanie po 28 dniach"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² przyczepności do betonu"
+        },
+        {
+          "value": "0",
+          "label": "LZO: brak lotnych związków organicznych"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mikrocement gotowy do użycia o drobnym wykończeniu, na bazie cementowej z mikronizowanym kwarcem o kontrolowanym uziarnieniu i wysokiej wytrzymałości, o doskonałej urabialności i twardości, dzięki połączeniu żywic najnowszej generacji opracowanych wyłącznie dla naszej gamy produktów. Wykończenie bez chmurek, gładkie, w stylu francuskiego stiuku."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Niska zawartość soli rozpuszczalnych.",
+                "Wysoka paroprzepuszczalność."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Gotowa do użycia pasta na bazie cementu, do pokrywania podłóg i ścian."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Otworzyć wiadro i wymieszać mieszadłem mechanicznym do uzyskania całkowicie jednorodnej mieszanki. Nie wymaga dodawania wody ani utwardzacza."
+            },
+            {
+              "type": "p",
+              "text": "Nakładać 2 cienkie warstwy, w zależności od wymaganej grubości, stalową pacą ustawioną pod kątem ok. 45° i z pewnym dociskiem do materiału."
+            },
+            {
+              "type": "p",
+              "text": "W zależności od temperatury, wilgotności i metody pracy produkt można dostosować pod względem schnięcia, twardości, urabialności i granulacji do preferencji klienta."
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przybliżone zużycie: 0,3 kg na warstwę i m² (w zależności od podłoża)."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Odnawia istniejące podłogi lub zastępuje wykładziny dywanowe.",
+                "Nakłada się go zarówno na podłogi, jak i na ściany, dzięki dużej przyczepności.",
+                "Przywiera do stabilnych podłoży o szorstkiej powierzchni.",
+                "Można stosować wewnątrz i na zewnątrz.",
+                "Dostępny w szerokiej gamie kolorów."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wysoka odporność na ścieranie.",
+                "Nieprzepuszczalny dla wody, tłuszczów i olejów.",
+                "Wysoka wytrzymałość mechaniczna.",
+                "Odporny na promieniowanie UV.",
+                "Grubość warstwy od 0,1 do 0,5 mm."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Zawiera cement. Unikać kontaktu z oczami i skórą oraz wdychania pyłu.",
+                "Stosować rękawice gumowe i okulary ochronne.",
+                "Przechowywać poza zasięgiem dzieci.",
+                "Nie stosować w temperaturze otoczenia poniżej 5 °C ani powyżej 30 °C.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Pasta gotowa do użycia"
+                    },
+                    {
+                      "key": "Wygląd",
+                      "value": "Biała pasta"
+                    },
+                    {
+                      "key": "Gęstość nasypowa",
+                      "value": "1 400 kg/m³"
+                    },
+                    {
+                      "key": "Gęstość nasypowa po stwardnieniu",
+                      "value": "2 000 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Czas otwarty",
+                      "value": "Ok. 2 godzin"
+                    },
+                    {
+                      "key": "Maksymalny wymiar kruszywa",
+                      "value": "0,08 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wytrzymałości mechaniczne (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Wytrzymałość na ściskanie po 28 dniach",
+                      "value": "> 40 N/mm²"
+                    },
+                    {
+                      "key": "Wytrzymałość na zginanie po 28 dniach",
+                      "value": "> 12 N/mm²"
+                    },
+                    {
+                      "key": "Przyczepność do betonu",
+                      "value": "28 dni: > 2,5 N/mm²"
+                    },
+                    {
+                      "key": "Maksymalna grubość nakładania na warstwę",
+                      "value": "od 0,1 do 0,5 mm"
+                    },
+                    {
+                      "key": "Klasyfikacja (EN 13813)",
+                      "value": "CT-C40-F10-B2,0"
+                    },
+                    {
+                      "key": "Reakcja na ogień (EN 13501-1)",
+                      "value": "A1"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "15 kg, jednoskładnikowy"
+                    },
+                    {
+                      "key": "LZO",
+                      "value": "Nie zawiera lotnych związków organicznych (LZO)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTYFIKATY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Znak CE – UNE-EN 13813:2003.",
+                "Wytrzymałość na odrywanie (przyczepność), UNE-EN 13892-8:2003.",
+                "Wytrzymałość na ściskanie i zginanie, UNE-EN 13892-2:2003.",
+                "Klasyfikacja reakcji na ogień posadzek, UNE-EN 13501-1:2007 + A1:2010."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Wiadro 15 kg",
+                "Paleta 36 sztuk"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed wilgocią i warunkami atmosferycznymi. Przechowywać w temperaturze od 5 do 35 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "fein-direkt-1k.jpg"
+  ]
+}

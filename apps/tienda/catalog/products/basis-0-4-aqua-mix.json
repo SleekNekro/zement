@@ -1,0 +1,2281 @@
+{
+  "key": "basis-0-4-aqua-mix",
+  "source": "BASIS 0,4 AQUA MIX",
+  "languages": {
+    "de": {
+      "file": "BASIS 0,4 AQUA MIX ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+      "stats": [
+        {
+          "value": "2 Std.",
+          "label": "Verarbeitungszeit"
+        },
+        {
+          "value": "2 Std.",
+          "label": "Offene Zeit"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² Druckfestigkeit, 28 Tage"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² Haftung auf Beton"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Basis mit mikronisiertem Quarz, ausgezeichnet in Verarbeitbarkeit und Härte dank einer Kombination modernster Harze, die exklusiv für unser Sortiment entwickelt wurden."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wird vor jedem mikronisierten Material aufgetragen.",
+                "Dank seiner hervorragenden Kalibrierung ist kein Schleifen erforderlich."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESCHREIBUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zementbasiertes Produkt, das mit Wasser angemischt eine Spachtelmasse zur Beschichtung von Böden und Wänden ergibt."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renoviert bestehende Böden oder ersetzt Teppichböden.",
+                "Dank der hohen Haftung sowohl auf Böden als auch auf Wänden anwendbar.",
+                "Haftet auf festen Untergründen mit rauer Oberfläche.",
+                "Für den Innen- und Außenbereich geeignet.",
+                "In einer breiten Farbpalette erhältlich."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Gute Fließfähigkeit und Verarbeitbarkeit.",
+                "Mindestschichtdicke pro Lage: 0,5 bis 1 mm.",
+                "Leicht zu reinigen mit feuchtem Tuch und neutralem Reinigungsmittel.",
+                "Verleiht dem Untergrund hohe Härte und Beständigkeit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ungefährer Verbrauch:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg pro Lage und m² (je nach Untergrund)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg pro Lage und m² (je nach Untergrund)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg pro Lage und m² (je nach Untergrund)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg pro Lage und m² (je nach Untergrund)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FUSSBODENHEIZUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mikrozement kann auf Fußbodenheizungen aufgebracht werden, sofern vor dem Auftragen das Aufheizprotokoll mit schrittweiser Inbetriebnahme der Heizung durchgeführt wurde."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Je nach Wasseranteil: Mit weniger Flüssigkeit (kompakte Mischung) entsteht eine gleichmäßigere, wolkenfreie, rustikale und sehr widerstandsfähige Oberfläche. Sie eignet sich als sichtbare Oberfläche oder als Vorbereitung für das anschließende Auftragen von 2 Lagen feinem Porzellan-Mikrozement, 1 oder 2 Lagen Medium oder 1 Lage Rustikal – für einen leicht gerillten, rustikaleren und zugleich widerstandsfähigen Effekt."
+            },
+            {
+              "type": "p",
+              "text": "Je nach Temperatur, Luftfeuchtigkeit, Arbeitssystem oder Gewohnheiten des Verarbeiters kann das Produkt hinsichtlich Trocknung, Härte, Verarbeitbarkeit und Körnung an den Wunsch des Kunden angepasst werden."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNGSBEREICH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ideal zur Beschichtung und Gestaltung vertikaler und horizontaler Flächen in gewerblichen und privaten Räumen: Geschäfte, Büros, Restaurants, Eingangshallen, Ausstellungsräume, Wohnungen, Freizeitparks und Ähnliches."
+            },
+            {
+              "type": "p",
+              "text": "Auch für Möbel, Regale und Arbeitsplatten sowie für Keramikbeläge in Bädern und Küchen."
+            },
+            {
+              "type": "p",
+              "text": "Für Schwimmbecken geeignet mit dem Lacksystem für Schwimmbecken (siehe dessen technisches Datenblatt)."
+            },
+            {
+              "type": "p",
+              "text": "Das System eignet sich für Fußbodenheizungen, sofern die Anlage mit zugelassenen Schutzvorkehrungen und geeigneten selbstnivellierenden Untergrundmörteln ausgeführt wurde, damit keine Rissprobleme auf die äußeren Schichten und somit auf das System übertragen werden."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enthält Zement. Kontakt mit Augen und Haut vermeiden und den Staub nicht einatmen.",
+                "Gummihandschuhe und Schutzbrille tragen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren.",
+                "Nicht bei Umgebungstemperaturen unter 5 °C oder über 30 °C verarbeiten.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Porzellanartiges Pulver"
+                    },
+                    {
+                      "key": "Aussehen",
+                      "value": "Weißes Pulver"
+                    },
+                    {
+                      "key": "Schüttdichte, Pulver",
+                      "value": "1.300 kg/m³"
+                    },
+                    {
+                      "key": "Rohdichte, ausgehärtet",
+                      "value": "1.800 kg/m³ (System)"
+                    },
+                    {
+                      "key": "Verarbeitungszeit der Mischung",
+                      "value": "Ca. 2 Stunden"
+                    },
+                    {
+                      "key": "Offene Zeit",
+                      "value": "2 Stunden"
+                    },
+                    {
+                      "key": "Maximale Korngröße",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mechanische Festigkeiten (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Druckfestigkeit nach 28 Tagen",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Biegefestigkeit nach 28 Tagen",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Haftung auf Beton",
+                      "value": "28 Tage: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Maximale Auftragsdicke pro Lage",
+                      "value": "0,5 bis 1 mm"
+                    },
+                    {
+                      "key": "Klassifizierung (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Brandverhalten (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Maximale Temperatur, die die Fußbodenheizung aushält",
+                      "value": "Prüfungen bei 90 °C durchgeführt"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "20 kg einkomponentig (mit Leitungswasser anzumischen)"
+                    },
+                    {
+                      "key": "Anmachwasser",
+                      "value": "Bis eine homogene Paste entsteht ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Eimer à 20 kg",
+                "Palette mit 36 Stück"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "BASIS 0,4 AQUA MIX INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "MONOCOMPONENT MICROCEMENT",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Mix life"
+        },
+        {
+          "value": "2 h",
+          "label": "Open time"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² compressive strength, 28 days"
+        },
+        {
+          "value": "> 2.2",
+          "label": "N/mm² adhesion to concrete"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Base with micronized quartz, offering excellent workability and hardness thanks to a combination of latest-generation resins developed exclusively for our range."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Applied before any micronized material.",
+                "No sanding required thanks to its exceptional calibration."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Cement-based product that, when mixed with water, forms a paste for coating floors and walls."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renovates existing floors or replaces carpets.",
+                "Can be applied on both floors and walls, thanks to its high adhesion.",
+                "Adheres to firm substrates with a good key.",
+                "Suitable for indoor and outdoor use.",
+                "Available in a wide range of colors."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Good fluidity and workability.",
+                "Minimum thickness per coat of 0.5 to 1 mm.",
+                "Easy to clean with a damp cloth and neutral detergent.",
+                "Provides great hardness and resistance to the substrate."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Approximate consumption:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1.2 kg per coat and m² (depending on the substrate)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0.9 kg per coat and m² (depending on the substrate)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0.6 kg per coat and m² (depending on the substrate)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0.3 kg per coat and m² (depending on the substrate)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNDERFLOOR HEATING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Microcement can be applied over underfloor heating, provided that the gradual heating start-up protocol has been carried out before application."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Depending on the water ratio: with less liquid (compact mix), a more uniform, non-marbled, rustic and very resistant finish is achieved. It can be used as an exposed finish or as preparation for the subsequent application of 2 coats of fine porcelain microcement, 1 or 2 coats of medium microcement or 1 coat of rustic microcement, giving a slightly grooved, more rustic and, at the same time, resistant effect."
+            },
+            {
+              "type": "p",
+              "text": "Depending on temperature, humidity, working system or the applicator's habits, the product can be adjusted in terms of drying, hardness, workability and grain size to the customer's preference."
+            }
+          ]
+        },
+        {
+          "title": "FIELD OF APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ideal for coating and decorating vertical and horizontal surfaces in commercial and residential spaces: shops, offices, restaurants, lobbies, showrooms, homes, theme parks and the like."
+            },
+            {
+              "type": "p",
+              "text": "Also for furniture, shelves and worktops, and for ceramic coverings in bathrooms and kitchens."
+            },
+            {
+              "type": "p",
+              "text": "Suitable for swimming pools with the pool varnish system (see its technical data sheet)."
+            },
+            {
+              "type": "p",
+              "text": "The system is suitable for underfloor heating, provided the installation has its approved protections and appropriate self-leveling base mortars, so that cracking problems are not transferred to the outer layers and therefore to the system."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contains cement. Avoid contact with eyes and skin and do not inhale the dust.",
+                "Wear rubber gloves and protective goggles.",
+                "Keep out of the reach of children.",
+                "Do not apply at ambient temperatures below 5 °C or above 30 °C.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Porcelain-type powder"
+                    },
+                    {
+                      "key": "Appearance",
+                      "value": "White powder"
+                    },
+                    {
+                      "key": "Bulk density, powder",
+                      "value": "1,300 kg/m³"
+                    },
+                    {
+                      "key": "Bulk density, hardened",
+                      "value": "1,800 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Mix life",
+                      "value": "Approx. 2 hours"
+                    },
+                    {
+                      "key": "Open time",
+                      "value": "2 hours"
+                    },
+                    {
+                      "key": "Maximum aggregate size",
+                      "value": "0.4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mechanical strength (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compressive strength at 28 days",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Flexural strength at 28 days",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Adhesion to concrete",
+                      "value": "28 days: > 2.2 N/mm²"
+                    },
+                    {
+                      "key": "Maximum application thickness per coat",
+                      "value": "0.5 to 1 mm"
+                    },
+                    {
+                      "key": "Classification (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Reaction to fire (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Maximum temperature withstood by underfloor heating",
+                      "value": "Tests performed at 90 °C"
+                    },
+                    {
+                      "key": "Packaging",
+                      "value": "20 kg monocomponent (to be mixed with tap water)"
+                    },
+                    {
+                      "key": "Liquid mix",
+                      "value": "Until a homogeneous paste is obtained ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "20 kg bucket",
+                "Pallet of 36 units"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and humidity."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "BASIS 0,4 AQUA MIX ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Vida de la mezcla"
+        },
+        {
+          "value": "2 h",
+          "label": "Tiempo abierto"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² a compresión, 28 días"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² de adherencia al hormigón"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Base con cuarzos micronizados, de excelente trabajabilidad y dureza, gracias a una combinación de resinas de última generación desarrolladas en exclusiva para nuestra gama."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Se aplica antes de cualquier material micronizado.",
+                "No precisa lijado gracias a su espectacular calibrado."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPCIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Producto de base cementosa que, mezclado con agua, forma una pasta para revestir suelos y paredes."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renueva suelos existentes o sustituye moquetas.",
+                "Se aplica tanto en suelos como en paredes gracias a su gran adherencia.",
+                "Se adhiere a soportes firmes con mordiente.",
+                "Apto para interior y exterior.",
+                "Disponible en una amplia gama de colores."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Buena fluidez y trabajabilidad.",
+                "Espesor mínimo por capa de 0,5 a 1 mm.",
+                "Fácil de limpiar con un paño húmedo y detergente neutro.",
+                "Aporta gran dureza y resistencia al soporte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo aproximado:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg por capa y m² (según soporte)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg por capa y m² (según soporte)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg por capa y m² (según soporte)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg por capa y m² (según soporte)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUELO RADIANTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sobre suelo radiante se puede aplicar microcemento, siempre que antes de la aplicación se haya realizado el protocolo de encendido gradual de la calefacción."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Según la proporción de agua: con menos líquido (amasado compacto) se obtiene un acabado más homogéneo, sin aguas, rústico y muy resistente. Sirve como acabado visto o como preparación previa para aplicar después 2 manos de microcemento porcelánico fino, 1 o 2 de medium o 1 de rústico, con un efecto algo estriado, más rústico y, a la vez, resistente."
+            },
+            {
+              "type": "p",
+              "text": "Según la temperatura, la humedad, el sistema de trabajo o las costumbres del aplicador, el producto puede ajustarse en secado, dureza, trabajabilidad y granulometría al gusto del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CAMPO DE APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ideal para revestir y decorar paramentos verticales y horizontales en espacios comerciales y residenciales: tiendas, oficinas, restaurantes, vestíbulos, zonas de exposición, viviendas, parques temáticos y similares."
+            },
+            {
+              "type": "p",
+              "text": "También en muebles, estanterías y encimeras, y en revestimientos cerámicos de baños y cocinas."
+            },
+            {
+              "type": "p",
+              "text": "Apto para piscinas con el sistema de barnizado para piscinas (consultar su ficha técnica)."
+            },
+            {
+              "type": "p",
+              "text": "El sistema es apto para suelo radiante, siempre que la instalación cuente con sus protecciones homologadas y con morteros autonivelantes de base adecuados, que eviten trasladar problemas de fisuración a las capas exteriores y, por tanto, al sistema."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento. Evitar el contacto con los ojos y la piel y no inhalar el polvo.",
+                "Usar guantes de goma y gafas protectoras.",
+                "Mantener fuera del alcance de los niños.",
+                "No aplicar con temperatura ambiente inferior a 5 °C ni superior a 30 °C.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Polvo porcelánico"
+                    },
+                    {
+                      "key": "Aspecto",
+                      "value": "Polvo blanco"
+                    },
+                    {
+                      "key": "Densidad aparente en polvo",
+                      "value": "1.300 kg/m³"
+                    },
+                    {
+                      "key": "Densidad aparente endurecido",
+                      "value": "1.800 kg/m³ (sistema)"
+                    },
+                    {
+                      "key": "Vida de la mezcla",
+                      "value": "Aprox. 2 horas"
+                    },
+                    {
+                      "key": "Tiempo abierto",
+                      "value": "2 horas"
+                    },
+                    {
+                      "key": "Tamaño máximo del árido",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Resistencias mecánicas (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compresión a 28 días",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Flexión a 28 días",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Adherencia al hormigón",
+                      "value": "28 días: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Espesor máximo de aplicación por capa",
+                      "value": "0,5 a 1 mm"
+                    },
+                    {
+                      "key": "Clasificación (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Reacción al fuego (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Temperatura máxima que soporta el suelo radiante",
+                      "value": "Pruebas realizadas a 90 °C"
+                    },
+                    {
+                      "key": "Presentación",
+                      "value": "20 kg monocomponente (para mezclar con agua corriente)"
+                    },
+                    {
+                      "key": "Mezcla líquida",
+                      "value": "Hasta conseguir una pasta homogénea ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Cubo de 20 kg",
+                "Palé de 36 unidades"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado y protegido de la intemperie y la humedad."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "BASIS 0,4 AQUA MIX FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Seoksen käyttöaika"
+        },
+        {
+          "value": "2 h",
+          "label": "Avoin aika"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² puristuslujuus, 28 vrk"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² tartunta betoniin"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mikronisoitua kvartsia sisältävä pohja, jolla on erinomainen työstettävyys ja kovuus uusimman sukupolven hartsiyhdistelmän ansiosta; hartsit on kehitetty yksinomaan tuotevalikoimaamme varten."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Levitetään ennen mitä tahansa mikronisoitua materiaalia.",
+                "Ei vaadi hiontaa upean raekokojakaumansa ansiosta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KUVAUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sementtipohjainen tuote, joka vedellä sekoitettuna muodostaa tahnan lattioiden ja seinien pinnoitukseen."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Olemassa olevien lattioiden uusimiseen tai kokolattiamattojen korvaamiseen.",
+                "Voidaan levittää sekä lattioille että seinille erinomaisen tarttuvuutensa ansiosta.",
+                "Tarttuu kiinteisiin, karkeapintaisiin alustoihin.",
+                "Soveltuu sekä sisä- että ulkokäyttöön.",
+                "Saatavana laajassa värivalikoimassa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hyvä juoksevuus ja työstettävyys.",
+                "Pienin kerrospaksuus 0,5–1 mm.",
+                "Helppo puhdistaa kostealla liinalla ja neutraalilla pesuaineella.",
+                "Antaa alustalle erinomaisen kovuuden ja lujuuden."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Arvioitu kulutus:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg kerrosta ja m² kohti (alustasta riippuen)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg kerrosta ja m² kohti (alustasta riippuen)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg kerrosta ja m² kohti (alustasta riippuen)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg kerrosta ja m² kohti (alustasta riippuen)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LATTIALÄMMITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mikrosementtiä voidaan levittää lattialämmityksen päälle, kunhan lämmitys on ennen levitystä otettu käyttöön asteittaisen lämmitysprotokollan mukaisesti."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vesimäärästä riippuen: vähemmällä nesteellä (tiivis sekoitus) saadaan tasaisempi, pilvetön, rustiikkinen ja erittäin kestävä pinta. Soveltuu näkyväksi pinnaksi tai esikäsittelyksi, jonka päälle levitetään myöhemmin 2 kerrosta hienoa posliinimikrosementtiä, 1–2 kerrosta keskikarkeaa mikrosementtiä tai 1 kerros rustiikkista mikrosementtiä; tuloksena on hieman uurteinen, rustiikkisempi ja samalla kestävä vaikutelma."
+            },
+            {
+              "type": "p",
+              "text": "Lämpötilasta, kosteudesta, työtavasta tai tottumuksista riippuen tuotteen kuivumista, kovuutta, työstettävyyttä ja raekokoa voidaan mukauttaa asiakkaan toiveiden mukaan."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖALUE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Soveltuu kaupallisten ja asuintilojen pysty- ja vaakapintojen pinnoitukseen ja koristeluun, kuten myymälät, toimistot, ravintolat, aulat, näyttelytilat, asunnot, teemapuistot ja vastaavat."
+            },
+            {
+              "type": "p",
+              "text": "Myös huonekalut, hyllyt ja työtasot sekä kylpyhuoneiden ja keittiöiden keraamiset pinnoitteet."
+            },
+            {
+              "type": "p",
+              "text": "Soveltuu uima-altaisiin uima-altaiden lakkausjärjestelmän kanssa (ks. sen tekninen tietolehti)."
+            },
+            {
+              "type": "p",
+              "text": "Järjestelmä soveltuu lämmitettäville lattioille (lattialämmitys), kunhan asennuksessa on käytetty hyväksyttyjä suojauksia ja sopivia itsetasoittuvia pohjalaasteja, jotta halkeiluongelmat eivät siirry ulompiin kerroksiin ja siten koko järjestelmään."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sisältää sementtiä. Vältä kosketusta silmiin ja ihoon sekä pölyn hengittämistä.",
+                "Käytä kumikäsineitä ja suojalaseja.",
+                "Säilytä lasten ulottumattomissa.",
+                "Älä levitä, kun ympäristön lämpötila on alle 5 °C tai yli 30 °C.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tyyppi",
+                      "value": "Posliinijauhe"
+                    },
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Valkoinen jauhe"
+                    },
+                    {
+                      "key": "Irtotiheys jauheena",
+                      "value": "1 300 kg/m³"
+                    },
+                    {
+                      "key": "Irtotiheys kovettuneena",
+                      "value": "1 800 kg/m³ (järjestelmä)"
+                    },
+                    {
+                      "key": "Seoksen käyttöaika",
+                      "value": "Noin 2 tuntia"
+                    },
+                    {
+                      "key": "Avoin aika",
+                      "value": "2 tuntia"
+                    },
+                    {
+                      "key": "Runkoaineen enimmäisraekoko",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mekaaniset lujuudet (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Puristuslujuus 28 vrk",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Taivutuslujuus 28 vrk",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Tartunta betoniin",
+                      "value": "28 vrk: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Suurin levityspaksuus kerrosta kohti",
+                      "value": "0,5–1 mm"
+                    },
+                    {
+                      "key": "Luokitus (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Palonkestävyys (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Lattialämmityksen suurin kestämä lämpötila",
+                      "value": "Kokeet tehty 90 °C:ssa"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "20 kg yksikomponenttinen (sekoitettavaksi tavalliseen veteen)"
+                    },
+                    {
+                      "key": "Nestemäärä seoksessa",
+                      "value": "Kunnes massa on tasaista ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "20 kg:n sanko",
+                "Lava, 36 kpl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "BASIS 0,4 AQUA MIX FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "MICROCIMENT MONOCOMPOSANT",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Durée de vie du mélange"
+        },
+        {
+          "value": "2 h",
+          "label": "Temps ouvert"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² en compression, 28 jours"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² d'adhérence au béton"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Base au quartz micronisé, d'excellente maniabilité et dureté, grâce à une combinaison de résines de dernière génération développées en exclusivité pour notre gamme."
+            },
+            {
+              "type": "list",
+              "items": [
+                "S'applique avant tout matériau micronisé.",
+                "Ne nécessite pas de ponçage grâce à son calibrage exceptionnel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Produit à base de ciment qui, mélangé à l'eau, forme une pâte pour revêtir sols et murs."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rénove les sols existants ou remplace les moquettes.",
+                "S'applique aussi bien sur les sols que sur les murs, grâce à sa forte adhérence.",
+                "Adhère aux supports solides et accrocheurs.",
+                "Convient à l'intérieur comme à l'extérieur.",
+                "Disponible dans une large gamme de couleurs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bonne fluidité et maniabilité.",
+                "Épaisseur minimale par couche de 0,5 à 1 mm.",
+                "Facile à nettoyer avec un chiffon humide et un détergent neutre.",
+                "Apporte une grande dureté et une grande résistance au support."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consommation approximative :"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg par couche et par m² (selon le support)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg par couche et par m² (selon le support)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg par couche et par m² (selon le support)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg par couche et par m² (selon le support)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SOL CHAUFFANT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le microciment peut être appliqué sur un sol chauffant, à condition que le protocole de mise en chauffe progressive ait été réalisé avant l'application."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Selon la proportion d'eau : avec moins de liquide (gâchage compact), on obtient une finition plus homogène, sans nuances, rustique et très résistante. Il peut servir de finition apparente ou de préparation avant l'application de 2 couches de microciment porcelanique fin, de 1 ou 2 couches de medium ou d'1 couche de rustique, pour un effet légèrement strié, plus rustique et, en même temps, résistant."
+            },
+            {
+              "type": "p",
+              "text": "Selon la température, l'humidité, le système de travail ou les habitudes de l'applicateur, le produit peut être adapté en termes de séchage, de dureté, de maniabilité et de granulométrie au goût du client."
+            }
+          ]
+        },
+        {
+          "title": "DOMAINE D'APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Idéal pour revêtir et décorer des surfaces verticales et horizontales dans des espaces commerciaux et résidentiels : boutiques, bureaux, restaurants, halls, espaces d'exposition, logements, parcs à thème et similaires."
+            },
+            {
+              "type": "p",
+              "text": "Également pour les meubles, étagères et plans de travail, ainsi que pour les revêtements céramiques de salles de bains et de cuisines."
+            },
+            {
+              "type": "p",
+              "text": "Convient aux piscines avec le système de vernissage pour piscines (voir sa fiche technique)."
+            },
+            {
+              "type": "p",
+              "text": "Le système convient aux sols chauffants, à condition que l'installation dispose de ses protections homologuées et de mortiers de base autonivelants appropriés, afin de ne pas transmettre de problèmes de fissuration aux couches extérieures et, par conséquent, au système."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contient du ciment. Éviter le contact avec les yeux et la peau et ne pas inhaler la poussière.",
+                "Utiliser des gants en caoutchouc et des lunettes de protection.",
+                "Tenir hors de portée des enfants.",
+                "Ne pas appliquer à une température ambiante inférieure à 5 °C ni supérieure à 30 °C.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Poudre porcelanique"
+                    },
+                    {
+                      "key": "Aspect",
+                      "value": "Poudre blanche"
+                    },
+                    {
+                      "key": "Masse volumique apparente en poudre",
+                      "value": "1 300 kg/m³"
+                    },
+                    {
+                      "key": "Masse volumique apparente durci",
+                      "value": "1 800 kg/m³ (système)"
+                    },
+                    {
+                      "key": "Durée de vie du mélange",
+                      "value": "Environ 2 heures"
+                    },
+                    {
+                      "key": "Temps ouvert",
+                      "value": "2 heures"
+                    },
+                    {
+                      "key": "Taille maximale des granulats",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Résistances mécaniques (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compression à 28 jours",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Flexion à 28 jours",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Adhérence au béton",
+                      "value": "28 jours : > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Épaisseur maximale d'application par couche",
+                      "value": "0,5 à 1 mm"
+                    },
+                    {
+                      "key": "Classification (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Réaction au feu (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Température maximale supportée par le sol chauffant",
+                      "value": "Essais réalisés à 90 °C"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "20 kg monocomposant (à mélanger avec de l'eau du robinet)"
+                    },
+                    {
+                      "key": "Eau de gâchage",
+                      "value": "Jusqu'à obtention d'une pâte homogène ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Seau de 20 kg",
+                "Palette de 36 unités"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "BASIS 0,4 AQUA MIX ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Vita utile dell'impasto"
+        },
+        {
+          "value": "2 h",
+          "label": "Tempo aperto"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² a compressione, 28 giorni"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² di aderenza al calcestruzzo"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Base con quarzo micronizzato, di eccellente lavorabilità e durezza, grazie a una combinazione di resine di ultima generazione sviluppate in esclusiva per la nostra gamma."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Si applica prima di qualsiasi materiale micronizzato.",
+                "Non necessita di carteggiatura grazie alla sua eccezionale calibratura."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Prodotto a base di cemento che, miscelato con acqua, forma una pasta per rivestire pavimenti e pareti."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rinnova i pavimenti esistenti o sostituisce la moquette.",
+                "Si applica sia su pavimenti sia su pareti, grazie alla sua grande aderenza.",
+                "Aderisce a supporti solidi con superficie ruvida.",
+                "Adatto per interni ed esterni.",
+                "Disponibile in un'ampia gamma di colori."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Buona fluidità e lavorabilità.",
+                "Spessore minimo per mano da 0,5 a 1 mm.",
+                "Facile da pulire con un panno umido e detergente neutro.",
+                "Conferisce al supporto elevata durezza e resistenza."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo approssimativo:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg per mano e per m² (a seconda del supporto)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg per mano e per m² (a seconda del supporto)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg per mano e per m² (a seconda del supporto)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg per mano e per m² (a seconda del supporto)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAVIMENTO RADIANTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Il microcemento può essere applicato su pavimento radiante, a condizione che prima dell'applicazione sia stato eseguito il protocollo di accensione graduale del riscaldamento."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In base alla proporzione d'acqua: con meno liquido (impasto compatto) si ottiene una finitura più omogenea, senza nuvolature, rustica e molto resistente. Può essere usato come finitura a vista o come preparazione per la successiva applicazione di 2 mani di microcemento porcellanato fine, 1 o 2 di microcemento medium o 1 di microcemento rustico, ottenendo un effetto leggermente striato, più rustico e, allo stesso tempo, resistente."
+            },
+            {
+              "type": "p",
+              "text": "In base a temperatura, umidità, sistema di lavoro o abitudini dell'applicatore, il prodotto può essere adattato per quanto riguarda essiccazione, durezza, lavorabilità e granulometria secondo il gusto del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CAMPO DI APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ideale per rivestire e decorare superfici verticali e orizzontali in spazi commerciali e residenziali: negozi, uffici, ristoranti, atri, showroom, abitazioni, parchi tematici e simili."
+            },
+            {
+              "type": "p",
+              "text": "Anche per mobili, scaffalature e piani di lavoro, e per rivestimenti ceramici di bagni e cucine."
+            },
+            {
+              "type": "p",
+              "text": "Adatto per piscine con il sistema di verniciatura per piscine (vedere la relativa scheda tecnica)."
+            },
+            {
+              "type": "p",
+              "text": "Il sistema è adatto per i pavimenti radianti, a condizione che l'impianto disponga delle relative protezioni omologate e di malte di sottofondo autolivellanti idonee, in modo da non trasmettere problemi di fessurazione agli strati esterni e, di conseguenza, al sistema."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento. Evitare il contatto con occhi e pelle e non inalare la polvere.",
+                "Utilizzare guanti di gomma e occhiali di protezione.",
+                "Tenere fuori dalla portata dei bambini.",
+                "Non applicare a temperature ambiente inferiori a 5 °C o superiori a 30 °C.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Polvere porcellanata"
+                    },
+                    {
+                      "key": "Aspetto",
+                      "value": "Polvere bianca"
+                    },
+                    {
+                      "key": "Massa volumica apparente in polvere",
+                      "value": "1.300 kg/m³"
+                    },
+                    {
+                      "key": "Massa volumica apparente indurito",
+                      "value": "1.800 kg/m³ (sistema)"
+                    },
+                    {
+                      "key": "Vita utile dell'impasto",
+                      "value": "Circa 2 ore"
+                    },
+                    {
+                      "key": "Tempo aperto",
+                      "value": "2 ore"
+                    },
+                    {
+                      "key": "Dimensione massima dell'aggregato",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Resistenze meccaniche (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Compressione a 28 giorni",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Flessione a 28 giorni",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Aderenza al calcestruzzo",
+                      "value": "28 giorni: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Spessore massimo di applicazione per mano",
+                      "value": "da 0,5 a 1 mm"
+                    },
+                    {
+                      "key": "Classificazione (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Reazione al fuoco (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Temperatura massima sopportata dal pavimento radiante",
+                      "value": "Prove eseguite a 90 °C"
+                    },
+                    {
+                      "key": "Confezione",
+                      "value": "20 kg monocomponente (da miscelare con acqua del rubinetto)"
+                    },
+                    {
+                      "key": "Acqua d'impasto",
+                      "value": "Fino a ottenere un impasto omogeneo ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Secchio da 20 kg",
+                "Pallet da 36 unità"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dagli agenti atmosferici e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "BASIS 0,4 AQUA MIX NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "ENKOMPONENTS MIKROSEMENT",
+      "stats": [
+        {
+          "value": "2 t",
+          "label": "Brukstid for blandingen"
+        },
+        {
+          "value": "2 t",
+          "label": "Åpen tid"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² trykkfasthet, 28 dager"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² heft til betong"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Base med mikroniserte kvartser og utmerket bearbeidbarhet og hardhet, takket være en kombinasjon av siste generasjons harpikser utviklet eksklusivt for vårt sortiment."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Påføres før ethvert mikronisert materiale.",
+                "Krever ikke sliping takket være den imponerende kalibreringen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESKRIVELSE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sementbasert produkt som, blandet med vann, danner en pasta til belegg av gulv og vegger."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Til renovering av eksisterende gulv eller som erstatning for tepper.",
+                "Kan påføres både på gulv og vegger på grunn av den store heftevnen.",
+                "Fester seg til faste underlag med grov overflate.",
+                "Egnet både innendørs og utendørs.",
+                "Tilgjengelig i et bredt fargespekter."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "God flyt og bearbeidbarhet.",
+                "Minimumstykkelse per lag på 0,5 til 1 mm.",
+                "Enkel rengjøring med fuktig klut og nøytralt vaskemiddel.",
+                "Gir underlaget stor hardhet og motstandsdyktighet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Omtrentlig forbruk:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg per lag og m² (avhengig av underlag)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg per lag og m² (avhengig av underlag)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg per lag og m² (avhengig av underlag)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg per lag og m² (avhengig av underlag)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "GULVVARME",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mikrosement kan påføres på gulvvarme, forutsatt at protokollen for gradvis oppstart av oppvarmingen er gjennomført før påføring."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avhengig av vannmengden: med mindre væske (kompakt blanding) oppnås en mer ensartet finish, uten skyeffekt, rustikk og svært motstandsdyktig. Egner seg som synlig finish eller som forberedelse til påfølgende påføring av 2 strøk fin porselensmikrosement, 1 eller 2 strøk medium eller 1 strøk rustikk, noe som gir en litt stripete, mer rustikk og samtidig motstandsdyktig effekt."
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av temperatur, fuktighet, arbeidssystem eller påførerens vaner kan produktet tilpasses med hensyn til tørking, hardhet, bearbeidbarhet og kornstørrelse etter kundens ønske."
+            }
+          ]
+        },
+        {
+          "title": "ANVENDELSESOMRÅDE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ideelt til belegg og dekorasjon av vertikale og horisontale flater i kommersielle og private rom: butikker, kontorer, restauranter, vestibyler, utstillingsområder, boliger, temaparker og lignende."
+            },
+            {
+              "type": "p",
+              "text": "Også til møbler, hyller og benkeplater, og til keramiske belegg på bad og kjøkken."
+            },
+            {
+              "type": "p",
+              "text": "Egnet for svømmebasseng med lakksystemet for svømmebasseng (se teknisk datablad)."
+            },
+            {
+              "type": "p",
+              "text": "Systemet er egnet for gulv med gulvvarme, forutsatt at installasjonen er utført med godkjente beskyttelser og passende selvutjevnende baselag av mørtel, slik at sprekkdannelser ikke overføres til de ytre lagene og dermed til systemet."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inneholder sement. Unngå kontakt med øyne og hud, og unngå innånding av støv.",
+                "Bruk gummihansker og vernebriller.",
+                "Oppbevares utilgjengelig for barn.",
+                "Må ikke påføres ved romtemperatur under 5 °C eller over 30 °C.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Porselenspulver"
+                    },
+                    {
+                      "key": "Utseende",
+                      "value": "Hvitt pulver"
+                    },
+                    {
+                      "key": "Tilsynelatende densitet, pulver",
+                      "value": "1 300 kg/m³"
+                    },
+                    {
+                      "key": "Tilsynelatende densitet, herdet",
+                      "value": "1 800 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Brukstid for blandingen",
+                      "value": "Ca. 2 timer"
+                    },
+                    {
+                      "key": "Åpen tid",
+                      "value": "2 timer"
+                    },
+                    {
+                      "key": "Største tilslagsstørrelse",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mekaniske fasthetsegenskaper (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Trykkfasthet 28 dager",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Bøyefasthet 28 dager",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Heft til betong",
+                      "value": "28 dager: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Maksimal påføringstykkelse per lag",
+                      "value": "0,5 til 1 mm"
+                    },
+                    {
+                      "key": "Klassifisering (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Brannreaksjon (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Maksimal temperatur gulvvarmen tåler",
+                      "value": "Tester utført ved 90 °C"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "20 kg enkomponent (blandes med vanlig springvann)"
+                    },
+                    {
+                      "key": "Blandevæske",
+                      "value": "Til man får en ensartet masse ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bøtte på 20 kg",
+                "Pall med 36 enheter"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "BASIS 0,4 AQUA MIX POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Basis 0,4 Aqua Mix",
+      "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+      "stats": [
+        {
+          "value": "2 h",
+          "label": "Czas użyteczności mieszanki"
+        },
+        {
+          "value": "2 h",
+          "label": "Czas otwarty"
+        },
+        {
+          "value": "> 55",
+          "label": "N/mm² wytrzymałości na ściskanie po 28 dniach"
+        },
+        {
+          "value": "> 2,2",
+          "label": "N/mm² przyczepności do betonu"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Baza z mikronizowanym kwarcem, o doskonałej urabialności i twardości, dzięki połączeniu żywic najnowszej generacji opracowanych wyłącznie dla naszej gamy produktów."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nakłada się ją przed każdym materiałem mikronizowanym.",
+                "Nie wymaga szlifowania dzięki wyjątkowej kalibracji."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Produkt na bazie cementu, który po zmieszaniu z wodą tworzy pastę do pokrywania podłóg i ścian."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Odnawia istniejące podłogi lub zastępuje wykładziny dywanowe.",
+                "Nakłada się go zarówno na podłogi, jak i na ściany, dzięki dużej przyczepności.",
+                "Przywiera do stabilnych podłoży o szorstkiej powierzchni.",
+                "Można stosować wewnątrz i na zewnątrz.",
+                "Dostępny w szerokiej gamie kolorów."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dobra płynność i urabialność.",
+                "Minimalna grubość warstwy od 0,5 do 1 mm.",
+                "Łatwy w czyszczeniu wilgotną szmatką i neutralnym detergentem.",
+                "Nadaje podłożu dużą twardość i odporność."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przybliżone zużycie:"
+            },
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Basis Grob",
+                      "value": "1,2 kg na warstwę i m² (w zależności od podłoża)"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "0,9 kg na warstwę i m² (w zależności od podłoża)"
+                    },
+                    {
+                      "key": "Mittel",
+                      "value": "0,6 kg na warstwę i m² (w zależności od podłoża)"
+                    },
+                    {
+                      "key": "Fein",
+                      "value": "0,3 kg na warstwę i m² (w zależności od podłoża)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OGRZEWANIE PODŁOGOWE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mikrocement można nakładać na ogrzewanie podłogowe, pod warunkiem że przed aplikacją przeprowadzono protokół stopniowego uruchamiania ogrzewania."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "W zależności od ilości wody: przy mniejszej ilości płynu (zarób zwarty) uzyskuje się bardziej jednolite wykończenie, bez efektu chmurek, rustykalne i bardzo odporne. Sprawdza się jako wykończenie widoczne lub jako przygotowanie do późniejszego nałożenia 2 warstw drobnego mikrocementu porcelanowego, 1 lub 2 warstw mikrocementu medium albo 1 warstwy mikrocementu rustykalnego, co daje efekt lekko bruzdowany, bardziej rustykalny, a zarazem odporny."
+            },
+            {
+              "type": "p",
+              "text": "W zależności od temperatury, wilgotności, systemu pracy lub przyzwyczajeń wykonawcy produkt można dostosować pod względem schnięcia, twardości, urabialności i granulacji do preferencji klienta."
+            }
+          ]
+        },
+        {
+          "title": "ZAKRES STOSOWANIA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Idealny do pokrywania i dekorowania powierzchni pionowych i poziomych w lokalach komercyjnych i mieszkalnych: sklepach, biurach, restauracjach, holach, salonach wystawowych, mieszkaniach, parkach tematycznych itp."
+            },
+            {
+              "type": "p",
+              "text": "Także do mebli, regałów i blatów oraz do okładzin ceramicznych w łazienkach i kuchniach."
+            },
+            {
+              "type": "p",
+              "text": "Nadaje się do basenów z systemem lakierowania basenów (patrz jego karta techniczna)."
+            },
+            {
+              "type": "p",
+              "text": "System nadaje się do ogrzewania podłogowego, pod warunkiem że instalacja posiada odpowiednie zatwierdzone zabezpieczenia oraz właściwe samopoziomujące zaprawy podkładowe, które zapobiegają przenoszeniu problemów z pękaniem na warstwy zewnętrzne, a tym samym na system."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Zawiera cement. Unikać kontaktu z oczami i skórą oraz wdychania pyłu.",
+                "Stosować rękawice gumowe i okulary ochronne.",
+                "Przechowywać poza zasięgiem dzieci.",
+                "Nie stosować w temperaturze otoczenia poniżej 5 °C ani powyżej 30 °C.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Proszek porcelanowy"
+                    },
+                    {
+                      "key": "Wygląd",
+                      "value": "Biały proszek"
+                    },
+                    {
+                      "key": "Gęstość nasypowa proszku",
+                      "value": "1 300 kg/m³"
+                    },
+                    {
+                      "key": "Gęstość nasypowa po stwardnieniu",
+                      "value": "1 800 kg/m³ (system)"
+                    },
+                    {
+                      "key": "Czas użyteczności mieszanki",
+                      "value": "Ok. 2 godzin"
+                    },
+                    {
+                      "key": "Czas otwarty",
+                      "value": "2 godziny"
+                    },
+                    {
+                      "key": "Maksymalny wymiar kruszywa",
+                      "value": "0,4 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wytrzymałości mechaniczne (EN 13892-2 / -8)",
+                  "rows": [
+                    {
+                      "key": "Wytrzymałość na ściskanie po 28 dniach",
+                      "value": "> 55 N/mm²"
+                    },
+                    {
+                      "key": "Wytrzymałość na zginanie po 28 dniach",
+                      "value": "> 15 N/mm²"
+                    },
+                    {
+                      "key": "Przyczepność do betonu",
+                      "value": "28 dni: > 2,2 N/mm²"
+                    },
+                    {
+                      "key": "Maksymalna grubość nakładania na warstwę",
+                      "value": "od 0,5 do 1 mm"
+                    },
+                    {
+                      "key": "Klasyfikacja (EN 13813)",
+                      "value": "CT-C50-F15-B2,0"
+                    },
+                    {
+                      "key": "Reakcja na ogień (EN 13501-1)",
+                      "value": "Bfl-s1"
+                    },
+                    {
+                      "key": "Maksymalna temperatura znoszona przez ogrzewanie podłogowe",
+                      "value": "Badania przeprowadzone w 90 °C"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "20 kg jednoskładnikowy (do wymieszania z wodą z kranu)"
+                    },
+                    {
+                      "key": "Woda zarobowa",
+                      "value": "Do uzyskania jednorodnej pasty ± 25 %"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Wiadro 20 kg",
+                "Paleta 36 sztuk"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "basis-0-4-aqua-mix.jpg"
+  ]
+}

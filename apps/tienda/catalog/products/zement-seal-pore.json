@@ -1,0 +1,2023 @@
+{
+  "key": "zement-seal-pore",
+  "source": "ZEMENT SEAL PORE",
+  "languages": {
+    "de": {
+      "file": "ZEMENT SEAL PORE ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Seal Pore",
+      "subtitle": "WASSERBASIERTER ALIPHATISCHER ACRYL-VERSIEGLER FÜR BÖDEN",
+      "stats": [
+        {
+          "value": "1 Std.",
+          "label": "Grifffest"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Ergiebigkeit je Untergrund"
+        },
+        {
+          "value": "1:2 bis 1:5",
+          "label": "Verdünnung mit Wasser"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Hochwertiger Bodenversiegler: wasserbasiertes, extrafeines aliphatisches Acrylharz, das gut in den Untergrund eindringt und keinen Kunststofffilm auf der Oberfläche bildet. Schützt vor Feuchtigkeit, Kondenswasser und Wasserflecken."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Besonders geeignet vor dem Lackieren in Bädern, Küchen und im Außenbereich.",
+                "Seidenmattes Finish; vergilbt nicht.",
+                "Nicht für Schwimmbecken geeignet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Versiegelung und Verfestigung aller saugfähigen Oberflächen, natürlich oder künstlich, im Innen- und Außenbereich.",
+                "Verleiht einen gewissen Glanz bzw. Nassglanz-Effekt, der je nach Ergiebigkeit auf dem jeweiligen Untergrund variiert.",
+                "Wo eine durchgehende Oberfläche gefordert ist, passt er sich dem Untergrund an und vereinheitlicht die Oberfläche."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUNDVORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Der Untergrund muss ebenflächig, sauber und frei von Staub, Fett und Fremdstoffen sein."
+            },
+            {
+              "type": "p",
+              "text": "Haftung auf sauberen, trockenen, porösen Oberflächen."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bis zur vollständigen Homogenisierung aufrühren, von Hand oder mit einem Rührwerk."
+            },
+            {
+              "type": "p",
+              "text": "Gebrauchsfertiges Produkt. Je nach Porosität und Beschaffenheit des Untergrunds sowie den Anforderungen an das Endprodukt kann es mit Wasser verdünnt werden: Produkt : Wasser = 1:2, 1:3, 1:4 oder 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Bei einer zweiten Schicht zuvor prüfen, ob die vorherige vollständig trocken ist."
+            }
+          ]
+        },
+        {
+          "title": "TROCKNUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Grifffest nach 1 Stunde. Jede Schicht trocknet in ca. 24 Stunden, je nach Temperatur und relativer Luftfeuchtigkeit."
+            },
+            {
+              "type": "p",
+              "text": "Die behandelte Fläche während der Trocknung nicht benetzen und nicht nutzen."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nicht bei Kälte oder Regen verarbeiten. Verarbeitung und Aushärtung bei 6 bis 35 °C.",
+                "Unter normalen Handhabungsbedingungen weder giftig, gefährlich noch entzündbar. Etikett und Sicherheitsdatenblatt beachten."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Spezifisches Gewicht",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Seidenmatt"
+                    },
+                    {
+                      "key": "Außenbereich und Vergilbung",
+                      "value": "Aliphatisch; vergilbt nicht"
+                    },
+                    {
+                      "key": "Frostbeständigkeit und Belastbarkeit",
+                      "value": "Gut / hoch"
+                    },
+                    {
+                      "key": "Verseifungsbeständigkeit",
+                      "value": "Sehr gut"
+                    },
+                    {
+                      "key": "Haftung",
+                      "value": "Saubere, trockene, poröse Oberflächen"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Grifffest",
+                      "value": "1 Std."
+                    },
+                    {
+                      "key": "Trocknung je Schicht",
+                      "value": "ca. 24 Std."
+                    },
+                    {
+                      "key": "Schichtdicke",
+                      "value": "Imprägnierend"
+                    },
+                    {
+                      "key": "Ergiebigkeit",
+                      "value": "ca. 12-15 m²/kg, je nach Untergrund"
+                    },
+                    {
+                      "key": "Verdünnung mit Wasser (Produkt : Wasser)",
+                      "value": "1:2, 1:3, 1:4 oder 1:5"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "6 bis 35 °C"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Kanister 5 L; Palette à 120 Stück (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Kanister 5 L",
+                "Palette à 120 Stück"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zwischen 5 und 40 °C in der Originalverpackung. Nicht länger als 12 Monate lagern."
+            }
+          ]
+        },
+        {
+          "title": "VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Produkt : Wasser",
+                      "value": "1:2, 1:3, 1:4 oder 1:5."
+                    },
+                    {
+                      "key": "Kriterium",
+                      "value": "Porosität, Art und Beschaffenheit des Untergrunds sowie Anforderungen an das Finish."
+                    },
+                    {
+                      "key": "Zustand",
+                      "value": "Gebrauchsfertig."
+                    },
+                    {
+                      "key": "Ergiebigkeit",
+                      "value": "ca. 12-15 m²/kg, je nach Untergrund."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vor Gebrauch stets aufrühren."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT SEAL PORE INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Seal Pore",
+      "subtitle": "WATER-BASED ALIPHATIC ACRYLIC SEALER FOR FLOORS",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Touch-dry"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Coverage, depending on substrate"
+        },
+        {
+          "value": "1:2 to 1:5",
+          "label": "Thinning with water"
+        },
+        {
+          "value": "5 L",
+          "label": "Jerrycan"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "High-quality floor sealer: water-based aliphatic acrylic resin, ultra-fine, developed to penetrate well and leave no plastic film on the surface. It protects against moisture, condensation and water stains."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Especially recommended before lacquering in bathrooms, kitchens and outdoor areas.",
+                "Silky matt finish; non-yellowing.",
+                "Not suitable for swimming pools."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sealing and consolidation of any absorbent surface, natural or artificial, indoors and outdoors.",
+                "Gives a certain sheen or wet-look effect, which varies with the coverage on each substrate.",
+                "Where a continuous surface is required, it adapts to the substrate and unifies the surface."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The base surface must be levelled, clean and free of dust, grease and foreign matter."
+            },
+            {
+              "type": "p",
+              "text": "Adhesion on clean, dry porous surfaces."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Stir until perfectly homogeneous, by hand or with a mechanical mixer."
+            },
+            {
+              "type": "p",
+              "text": "Ready-to-use product. Depending on the porosity and characteristics of the substrate and the requirements of the finishing product, it can be thinned with water: product : water = 1:2, 1:3, 1:4 or 1:5."
+            },
+            {
+              "type": "p",
+              "text": "If a second coat is applied, first check that the previous one is completely dry."
+            }
+          ]
+        },
+        {
+          "title": "DRYING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Touch-dry: 1 hour. Each coat dries in about 24 hours, depending on temperature and relative humidity."
+            },
+            {
+              "type": "p",
+              "text": "Do not wet or open the treated area to use during drying."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not apply in cold or rainy weather. Application and curing between 6 and 35 °C.",
+                "Non-toxic, non-hazardous and non-flammable under normal handling conditions. Follow the label and the Safety Data Sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Specific weight",
+                      "value": "1.03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Silky matt"
+                    },
+                    {
+                      "key": "Outdoors and yellowing",
+                      "value": "Aliphatic; non-yellowing"
+                    },
+                    {
+                      "key": "Frost and traffic stability",
+                      "value": "Good / high"
+                    },
+                    {
+                      "key": "Saponification resistance",
+                      "value": "Very good"
+                    },
+                    {
+                      "key": "Adhesion",
+                      "value": "Clean, dry porous surfaces"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Touch-dry",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Drying per coat",
+                      "value": "Approx. 24 h"
+                    },
+                    {
+                      "key": "Coat thickness",
+                      "value": "Impregnating"
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "Approx. 12-15 m²/kg, depending on substrate"
+                    },
+                    {
+                      "key": "Thinning with water (product : water)",
+                      "value": "1:2, 1:3, 1:4 or 1:5"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "6 to 35 °C"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "5 L jerrycan; pallet of 120 units (1.15 × 1.15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L jerrycan",
+                "Pallet of 120 units"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Between 5 and 40 °C in its original packaging. Do not store for more than 12 months."
+            }
+          ]
+        },
+        {
+          "title": "THINNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Product : water",
+                      "value": "1:2, 1:3, 1:4 or 1:5."
+                    },
+                    {
+                      "key": "Criterion",
+                      "value": "Porosity, nature and characteristics of the substrate and finish requirements."
+                    },
+                    {
+                      "key": "Condition",
+                      "value": "Ready to use."
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "Approx. 12-15 m²/kg, depending on substrate."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Always stir before use."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT SEAL PORE ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Seal Pore",
+      "subtitle": "SELLADOR ACRÍLICO ALIFÁTICO AL AGUA PARA PAVIMENTOS",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Secado al tacto"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Rendimiento según soporte"
+        },
+        {
+          "value": "1:2 a 1:5",
+          "label": "Dilución con agua"
+        },
+        {
+          "value": "5 L",
+          "label": "Garrafa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sellador de pavimentos de alta calidad: resina acrílica alifática de base acuosa, extrafina, desarrollada para penetrar bien y no dejar película plástica en superficie. Protege de la humedad, la condensación y las manchas de agua."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Especialmente indicado antes del lacado en baños, cocinas y exteriores.",
+                "Acabado mate sedoso; no amarillea.",
+                "No apto para piscinas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sellado y consolidación de cualquier superficie absorbente, natural o artificial, en interior y exterior.",
+                "Dota de cierto lustre o efecto mojado, que varía según el rendimiento en cada soporte.",
+                "Donde se requiera una superficie continua, se adapta al soporte y unifica la superficie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DEL SOPORTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie base debe estar regularizada, limpia y libre de polvo, grasa y sustancias extrañas."
+            },
+            {
+              "type": "p",
+              "text": "Adherencia sobre superficies porosas limpias y secas."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Agitar hasta su perfecta homogeneización, a mano o con mezclador mecánico."
+            },
+            {
+              "type": "p",
+              "text": "Producto listo al uso. Según la porosidad y las características del soporte y los requisitos del producto de acabado, se puede diluir con agua: producto : agua = 1:2, 1:3, 1:4 o 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Si se aplica una segunda capa, comprobar antes que la anterior esté completamente seca."
+            }
+          ]
+        },
+        {
+          "title": "SECADO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Secado al tacto: 1 hora. Cada capa seca en unas 24 horas, según la temperatura y la humedad relativa."
+            },
+            {
+              "type": "p",
+              "text": "No mojar ni abrir al uso la zona tratada durante el secado."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No aplicar con frío ni lluvia. Aplicación y curado entre 6 y 35 °C.",
+                "No tóxico, peligroso ni inflamable en condiciones normales de manipulación. Seguir la etiqueta y la Ficha de Datos de Seguridad."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Peso específico",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Acabado",
+                      "value": "Mate sedoso"
+                    },
+                    {
+                      "key": "Exterior y amarilleo",
+                      "value": "Alifático; no amarillea"
+                    },
+                    {
+                      "key": "Estabilidad a heladas y tránsito",
+                      "value": "Buena / alta"
+                    },
+                    {
+                      "key": "Resistencia a la saponificación",
+                      "value": "Muy buena"
+                    },
+                    {
+                      "key": "Adherencia",
+                      "value": "Superficies porosas limpias y secas"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Secado al tacto",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Secado por capa",
+                      "value": "24 h aprox."
+                    },
+                    {
+                      "key": "Espesor de capa",
+                      "value": "Impregnante"
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "12-15 m²/kg aprox., según soporte"
+                    },
+                    {
+                      "key": "Dilución con agua (producto : agua)",
+                      "value": "1:2, 1:3, 1:4 o 1:5"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "6 a 35 °C"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Garrafa de 5 L; palé de 120 uds. (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Garrafa de 5 L",
+                "Palé de 120 uds."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 y 40 °C en su envase original. No almacenar más de 12 meses."
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Producto : agua",
+                      "value": "1:2, 1:3, 1:4 o 1:5."
+                    },
+                    {
+                      "key": "Criterio",
+                      "value": "Porosidad, naturaleza y características del soporte y requisitos del acabado."
+                    },
+                    {
+                      "key": "Estado",
+                      "value": "Listo al uso."
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "12-15 m²/kg aprox., según soporte."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Agitar siempre antes de usar."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT SEAL PORE FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Seal Pore",
+      "subtitle": "VESIPOHJAINEN ALIFAATTINEN AKRYYLITIIVISTYSAINE LATTIOILLE",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Kosketuskuiva"
+        },
+        {
+          "value": "12–15 m²/kg",
+          "label": "Kate alustan mukaan"
+        },
+        {
+          "value": "1:2–1:5",
+          "label": "Laimennus vedellä"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanisteri"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Korkealaatuinen lattioiden tiivistysaine: vesipohjainen, erittäin hienojakoinen alifaattinen akryylihartsi, joka on kehitetty tunkeutumaan hyvin alustaan eikä jättämään pinnalle muovikalvoa. Suojaa kosteudelta, kondenssivedeltä ja vesitahroilta."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Erityisen sopiva ennen lakkausta kylpyhuoneissa, keittiöissä ja ulkotiloissa.",
+                "Silkkimatta pinta; ei kellastu.",
+                "Ei sovellu uima-altaisiin."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kaikkien imevien pintojen, luonnon- ja keinomateriaalien, tiivistys ja lujittaminen sisä- ja ulkotiloissa.",
+                "Antaa jonkin verran kiiltoa eli märkäefektin, joka vaihtelee kunkin alustan kulutuksen mukaan.",
+                "Missä vaaditaan yhtenäinen pinta, mukautuu alustaan ja yhtenäistää pinnan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pohjapinnan on oltava tasoitettu, puhdas sekä pölytön, rasvaton ja vieraista aineista vapaa."
+            },
+            {
+              "type": "p",
+              "text": "Tarttuvuus puhtailla ja kuivilla huokoisilla pinnoilla."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita huolellisesti tasaiseksi käsin tai sähkösekoittimella."
+            },
+            {
+              "type": "p",
+              "text": "Käyttövalmis tuote. Alustan huokoisuuden ja ominaisuuksien sekä pintakäsittelytuotteen vaatimusten mukaan voidaan laimentaa vedellä: tuote : vesi = 1:2, 1:3, 1:4 tai 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Jos levität toisen kerroksen, varmista ensin, että edellinen on täysin kuivunut."
+            }
+          ]
+        },
+        {
+          "title": "KUIVUMINEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kosketuskuiva: 1 tunti. Kukin kerros kuivuu noin 24 tunnissa lämpötilan ja suhteellisen ilmankosteuden mukaan."
+            },
+            {
+              "type": "p",
+              "text": "Älä kastele äläkä ota käsiteltyä aluetta käyttöön kuivumisen aikana."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei saa levittää kylmässä eikä sateella. Levitys ja kovettuminen 6–35 °C:ssa.",
+                "Ei myrkyllinen, vaarallinen eikä syttyvä normaaleissa käsittelyolosuhteissa. Noudata pakkausmerkintöjä ja käyttöturvallisuustiedotetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Ominaispaino",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Pintakäsittely",
+                      "value": "Silkkimatta"
+                    },
+                    {
+                      "key": "Ulkokäyttö ja kellastuminen",
+                      "value": "Alifaattinen; ei kellastu"
+                    },
+                    {
+                      "key": "Pakkasen- ja liikenteenkestävyys",
+                      "value": "Hyvä / korkea"
+                    },
+                    {
+                      "key": "Saippuoitumisen kestävyys",
+                      "value": "Erittäin hyvä"
+                    },
+                    {
+                      "key": "Tarttuvuus",
+                      "value": "Puhtaat ja kuivat huokoiset pinnat"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Kosketuskuiva",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Kuivuminen/kerros",
+                      "value": "n. 24 h"
+                    },
+                    {
+                      "key": "Kerrospaksuus",
+                      "value": "Kyllästävä"
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "n. 12–15 m²/kg alustan mukaan"
+                    },
+                    {
+                      "key": "Laimennus vedellä (tuote : vesi)",
+                      "value": "1:2, 1:3, 1:4 tai 1:5"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "6–35 °C"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "5 L:n kanisteri; 120 kpl:n lava (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L:n kanisteri",
+                "120 kpl:n lava"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "5–40 °C:ssa alkuperäispakkauksessa. Älä varastoi yli 12 kuukautta."
+            }
+          ]
+        },
+        {
+          "title": "LAIMENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tuote : vesi",
+                      "value": "1:2, 1:3, 1:4 tai 1:5."
+                    },
+                    {
+                      "key": "Peruste",
+                      "value": "Alustan huokoisuus, laatu ja ominaisuudet sekä pintakäsittelyn vaatimukset."
+                    },
+                    {
+                      "key": "Tila",
+                      "value": "Käyttövalmis."
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "n. 12–15 m²/kg alustan mukaan."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sekoita aina ennen käyttöä."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT SEAL PORE FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Seal Pore",
+      "subtitle": "SCELLANT ACRYLIQUE ALIPHATIQUE À L'EAU POUR SOLS",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Sec au toucher"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Rendement selon support"
+        },
+        {
+          "value": "1:2 à 1:5",
+          "label": "Dilution à l'eau"
+        },
+        {
+          "value": "5 L",
+          "label": "Bidon"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Scellant de sols de haute qualité : résine acrylique aliphatique à base d'eau, ultrafine, conçue pour bien pénétrer et ne pas laisser de film plastique en surface. Protège de l'humidité, de la condensation et des taches d'eau."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Particulièrement indiqué avant le vernissage dans les salles de bains, cuisines et espaces extérieurs.",
+                "Finition mat soyeux ; ne jaunit pas.",
+                "Ne convient pas aux piscines."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Scellement et consolidation de toute surface absorbante, naturelle ou artificielle, en intérieur et en extérieur.",
+                "Apporte un certain lustre ou effet mouillé, variable selon le rendement sur chaque support.",
+                "Là où une surface continue est requise, il s'adapte au support et uniformise la surface."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU SUPPORT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La surface de base doit être dressée, propre et exempte de poussière, de graisse et de toute substance étrangère."
+            },
+            {
+              "type": "p",
+              "text": "Adhérence sur surfaces poreuses propres et sèches."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Remuer jusqu'à parfaite homogénéisation, à la main ou au malaxeur mécanique."
+            },
+            {
+              "type": "p",
+              "text": "Produit prêt à l'emploi. Selon la porosité et les caractéristiques du support et les exigences du produit de finition, il peut être dilué à l'eau : produit : eau = 1:2, 1:3, 1:4 ou 1:5."
+            },
+            {
+              "type": "p",
+              "text": "En cas de seconde couche, vérifier au préalable que la précédente est complètement sèche."
+            }
+          ]
+        },
+        {
+          "title": "SÉCHAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sec au toucher : 1 heure. Chaque couche sèche en 24 heures environ, selon la température et l'humidité relative."
+            },
+            {
+              "type": "p",
+              "text": "Ne pas mouiller ni ouvrir à l'usage la zone traitée pendant le séchage."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas appliquer par temps froid ni sous la pluie. Application et durcissement entre 6 et 35 °C.",
+                "Ni toxique, ni dangereux, ni inflammable dans des conditions normales de manipulation. Suivre l'étiquette et la fiche de données de sécurité."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Masse volumique",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finition",
+                      "value": "Mat soyeux"
+                    },
+                    {
+                      "key": "Extérieur et jaunissement",
+                      "value": "Aliphatique ; ne jaunit pas"
+                    },
+                    {
+                      "key": "Stabilité au gel et au trafic",
+                      "value": "Bonne / élevée"
+                    },
+                    {
+                      "key": "Résistance à la saponification",
+                      "value": "Très bonne"
+                    },
+                    {
+                      "key": "Adhérence",
+                      "value": "Surfaces poreuses propres et sèches"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Sec au toucher",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Séchage par couche",
+                      "value": "24 h env."
+                    },
+                    {
+                      "key": "Épaisseur de couche",
+                      "value": "Imprégnant"
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "12-15 m²/kg env., selon support"
+                    },
+                    {
+                      "key": "Dilution à l'eau (produit : eau)",
+                      "value": "1:2, 1:3, 1:4 ou 1:5"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "6 à 35 °C"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Bidon de 5 L ; palette de 120 unités (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bidon de 5 L",
+                "Palette de 120 unités"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 et 40 °C dans l'emballage d'origine. Ne pas stocker plus de 12 mois."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Produit : eau",
+                      "value": "1:2, 1:3, 1:4 ou 1:5."
+                    },
+                    {
+                      "key": "Critère",
+                      "value": "Porosité, nature et caractéristiques du support et exigences de la finition."
+                    },
+                    {
+                      "key": "État",
+                      "value": "Prêt à l'emploi."
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "12-15 m²/kg env., selon support."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Toujours remuer avant l'emploi."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT SEAL PORE ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Seal Pore",
+      "subtitle": "SIGILLANTE ACRILICO ALIFATICO ALL'ACQUA PER PAVIMENTI",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Secco al tatto"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Resa in base al supporto"
+        },
+        {
+          "value": "1:2 - 1:5",
+          "label": "Diluizione con acqua"
+        },
+        {
+          "value": "5 L",
+          "label": "Tanica"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sigillante per pavimenti di alta qualità: resina acrilica alifatica a base acquosa, extrafine, sviluppata per penetrare bene e non lasciare una pellicola plastica in superficie. Protegge da umidità, condensa e macchie d'acqua."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Particolarmente indicato prima della verniciatura in bagni, cucine ed esterni.",
+                "Finitura opaca satinata; non ingiallisce.",
+                "Non adatto per piscine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sigillatura e consolidamento di qualsiasi superficie assorbente, naturale o artificiale, in interni ed esterni.",
+                "Conferisce una certa lucentezza o effetto bagnato, che varia in base alla resa su ciascun supporto.",
+                "Dove è richiesta una superficie continua, si adatta al supporto e uniforma la superficie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DEL SUPPORTO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie di base deve essere regolarizzata, pulita e priva di polvere, grasso e sostanze estranee."
+            },
+            {
+              "type": "p",
+              "text": "Aderenza su superfici porose pulite e asciutte."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mescolare fino a perfetta omogeneizzazione, a mano o con miscelatore meccanico."
+            },
+            {
+              "type": "p",
+              "text": "Prodotto pronto all'uso. In base alla porosità e alle caratteristiche del supporto e ai requisiti del prodotto di finitura, si può diluire con acqua: prodotto : acqua = 1:2, 1:3, 1:4 o 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Se si applica una seconda mano, verificare prima che la precedente sia completamente asciutta."
+            }
+          ]
+        },
+        {
+          "title": "ESSICCAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Secco al tatto: 1 ora. Ogni mano asciuga in circa 24 ore, in base alla temperatura e all'umidità relativa."
+            },
+            {
+              "type": "p",
+              "text": "Non bagnare né aprire al transito la zona trattata durante l'essiccazione."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non applicare con freddo o pioggia. Applicazione e indurimento tra 6 e 35 °C.",
+                "Non tossico, pericoloso né infiammabile in condizioni normali di manipolazione. Seguire l'etichetta e la Scheda di dati di sicurezza."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Peso specifico",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finitura",
+                      "value": "Opaca satinata"
+                    },
+                    {
+                      "key": "Esterno e ingiallimento",
+                      "value": "Alifatico; non ingiallisce"
+                    },
+                    {
+                      "key": "Stabilità al gelo e al traffico",
+                      "value": "Buona / alta"
+                    },
+                    {
+                      "key": "Resistenza alla saponificazione",
+                      "value": "Molto buona"
+                    },
+                    {
+                      "key": "Aderenza",
+                      "value": "Superfici porose pulite e asciutte"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Secco al tatto",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Essiccazione per mano",
+                      "value": "ca. 24 h"
+                    },
+                    {
+                      "key": "Spessore del film",
+                      "value": "Impregnante"
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "12-15 m²/kg ca., in base al supporto"
+                    },
+                    {
+                      "key": "Diluizione con acqua (prodotto : acqua)",
+                      "value": "1:2, 1:3, 1:4 o 1:5"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 6 a 35 °C"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Tanica da 5 L; pallet da 120 pz. (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Tanica da 5 L",
+                "Pallet da 120 pz."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tra 5 e 40 °C nella confezione originale. Non stoccare per più di 12 mesi."
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Prodotto : acqua",
+                      "value": "1:2, 1:3, 1:4 o 1:5."
+                    },
+                    {
+                      "key": "Criterio",
+                      "value": "Porosità, natura e caratteristiche del supporto e requisiti della finitura."
+                    },
+                    {
+                      "key": "Stato",
+                      "value": "Pronto all'uso."
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "12-15 m²/kg ca., in base al supporto."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mescolare sempre prima dell'uso."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT SEAL PORE NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Seal Pore",
+      "subtitle": "VANNBASERT ALIFATISK AKRYLFORSEGLER FOR GULV",
+      "stats": [
+        {
+          "value": "1 t",
+          "label": "Berøringstørr"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Dekning, avhengig av underlag"
+        },
+        {
+          "value": "1:2 til 1:5",
+          "label": "Fortynning med vann"
+        },
+        {
+          "value": "5 L",
+          "label": "Dunk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Høykvalitets gulvforsegler: vannbasert, ultrafin alifatisk akrylharpiks, utviklet for å trenge godt inn og ikke legge igjen en plastfilm på overflaten. Beskytter mot fukt, kondens og vannflekker."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Særlig egnet før lakkering på bad, kjøkken og utendørs.",
+                "Matt, silkeblank finish; gulner ikke.",
+                "Ikke egnet for svømmebasseng."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Forsegling og konsolidering av alle sugende overflater, naturlige eller kunstige, innendørs og utendørs.",
+                "Gir en viss glans eller våt effekt, som varierer med dekningen på hvert underlag.",
+                "Der det kreves en sammenhengende overflate, tilpasser den seg underlaget og gir en jevn overflate."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV UNDERLAGET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Underlaget må være jevnt, rent og fritt for støv, fett og fremmedstoffer."
+            },
+            {
+              "type": "p",
+              "text": "Heft på rene og tørre porøse overflater."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rør til produktet er helt homogent, for hånd eller med mekanisk rører."
+            },
+            {
+              "type": "p",
+              "text": "Bruksklart produkt. Avhengig av underlagets porøsitet og egenskaper og kravene til toppstrøket kan det fortynnes med vann: produkt : vann = 1:2, 1:3, 1:4 eller 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Hvis det påføres et andre strøk, kontroller først at det forrige er helt tørt."
+            }
+          ]
+        },
+        {
+          "title": "TØRKING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Berøringstørr: 1 time. Hvert strøk tørker på ca. 24 timer, avhengig av temperatur og relativ luftfuktighet."
+            },
+            {
+              "type": "p",
+              "text": "Ikke fukt eller ta det behandlede området i bruk under tørking."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Må ikke påføres i kulde eller regn. Påføring og herding mellom 6 og 35 °C.",
+                "Ikke giftig, farlig eller brannfarlig under normale håndteringsforhold. Følg etiketten og sikkerhetsdatabladet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Densitet",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, silkeblank"
+                    },
+                    {
+                      "key": "Utendørs og gulning",
+                      "value": "Alifatisk; gulner ikke"
+                    },
+                    {
+                      "key": "Frost og trafikk",
+                      "value": "God / høy"
+                    },
+                    {
+                      "key": "Forsåpningsbestandighet",
+                      "value": "Svært god"
+                    },
+                    {
+                      "key": "Heft",
+                      "value": "Rene og tørre porøse overflater"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Berøringstørr",
+                      "value": "1 t"
+                    },
+                    {
+                      "key": "Tørking per strøk",
+                      "value": "ca. 24 t"
+                    },
+                    {
+                      "key": "Filmtykkelse",
+                      "value": "Impregnerende"
+                    },
+                    {
+                      "key": "Dekning",
+                      "value": "12-15 m²/kg, avhengig av underlag"
+                    },
+                    {
+                      "key": "Fortynning med vann (produkt : vann)",
+                      "value": "1:2, 1:3, 1:4 eller 1:5"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "6 til 35 °C"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Dunk 5 L; paller à 120 stk. (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Dunk 5 L",
+                "Paller à 120 stk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mellom 5 og 40 °C i originalemballasje. Må ikke lagres lenger enn 12 måneder."
+            }
+          ]
+        },
+        {
+          "title": "FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Produkt : vann",
+                      "value": "1:2, 1:3, 1:4 eller 1:5."
+                    },
+                    {
+                      "key": "Kriterium",
+                      "value": "Underlagets porøsitet, art og egenskaper og kravene til toppstrøket."
+                    },
+                    {
+                      "key": "Tilstand",
+                      "value": "Bruksklar."
+                    },
+                    {
+                      "key": "Dekning",
+                      "value": "12-15 m²/kg, avhengig av underlag."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Rør alltid om før bruk."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT SEAL PORE POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Seal Pore",
+      "subtitle": "WODNY ALIFATYCZNY USZCZELNIACZ AKRYLOWY DO POSADZEK",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Sucha na dotyk"
+        },
+        {
+          "value": "12-15 m²/kg",
+          "label": "Wydajność wg podłoża"
+        },
+        {
+          "value": "1:2 do 1:5",
+          "label": "Rozcieńczenie wodą"
+        },
+        {
+          "value": "5 l",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wysokiej jakości uszczelniacz posadzek: ultradrobna, alifatyczna żywica akrylowa na bazie wodnej, opracowana tak, aby dobrze wnikać w podłoże i nie tworzyć na powierzchni plastikowej powłoki. Chroni przed wilgocią, kondensacją i plamami z wody."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Szczególnie zalecany przed lakierowaniem w łazienkach, kuchniach i na zewnątrz.",
+                "Jedwabisty mat; nie żółknie.",
+                "Nieodpowiedni do basenów."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Uszczelnianie i wzmacnianie dowolnych powierzchni chłonnych, naturalnych lub sztucznych, wewnątrz i na zewnątrz.",
+                "Nadaje lekki połysk lub efekt mokrej powierzchni, zależnie od wydajności na danym podłożu.",
+                "Wszędzie tam, gdzie wymagana jest jednolita powierzchnia: dopasowuje się do podłoża i ujednolica powierzchnię."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Podłoże musi być wyrównane, czyste, wolne od kurzu, tłuszczu i obcych substancji."
+            },
+            {
+              "type": "p",
+              "text": "Przyczepność na czystych i suchych powierzchniach porowatych."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mieszać do uzyskania pełnej jednorodności, ręcznie lub mieszadłem mechanicznym."
+            },
+            {
+              "type": "p",
+              "text": "Produkt gotowy do użycia. Zależnie od porowatości i właściwości podłoża oraz wymagań produktu wykończeniowego można rozcieńczyć wodą: produkt : woda = 1:2, 1:3, 1:4 lub 1:5."
+            },
+            {
+              "type": "p",
+              "text": "Przy nakładaniu drugiej warstwy sprawdzić wcześniej, czy poprzednia jest całkowicie sucha."
+            }
+          ]
+        },
+        {
+          "title": "SCHNIĘCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sucha na dotyk: 1 godzina. Każda warstwa schnie ok. 24 godzin, zależnie od temperatury i wilgotności względnej."
+            },
+            {
+              "type": "p",
+              "text": "Nie moczyć ani nie dopuszczać do użytkowania obszaru w trakcie schnięcia."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie stosować podczas mrozu ani deszczu. Aplikacja i utwardzanie w temp. 6 do 35 °C.",
+                "Nietoksyczny, niebezpieczny ani łatwopalny w normalnych warunkach użytkowania. Przestrzegać etykiety i karty charakterystyki."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Ciężar właściwy",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Wykończenie",
+                      "value": "Jedwabisty mat"
+                    },
+                    {
+                      "key": "Zewnątrz i żółknięcie",
+                      "value": "Alifatyczny; nie żółknie"
+                    },
+                    {
+                      "key": "Odporność na mróz i ruch",
+                      "value": "Dobra / wysoka"
+                    },
+                    {
+                      "key": "Odporność na zmydlanie",
+                      "value": "Bardzo dobra"
+                    },
+                    {
+                      "key": "Przyczepność",
+                      "value": "Czyste i suche powierzchnie porowate"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Sucha na dotyk",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Schnięcie warstwy",
+                      "value": "ok. 24 h"
+                    },
+                    {
+                      "key": "Grubość warstwy",
+                      "value": "Impregnujący"
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "ok. 12-15 m²/kg, wg podłoża"
+                    },
+                    {
+                      "key": "Rozcieńczenie wodą (produkt : woda)",
+                      "value": "1:2, 1:3, 1:4 lub 1:5"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "6 do 35 °C"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "Kanister 5 l; paleta 120 szt. (1,15 × 1,15 m)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Kanister 5 l",
+                "Paleta 120 szt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "W temp. od 5 do 40 °C, w oryginalnym opakowaniu. Nie przechowywać dłużej niż 12 miesięcy."
+            }
+          ]
+        },
+        {
+          "title": "ROZCIEŃCZANIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Produkt : woda",
+                      "value": "1:2, 1:3, 1:4 lub 1:5."
+                    },
+                    {
+                      "key": "Kryterium",
+                      "value": "Porowatość, rodzaj i właściwości podłoża oraz wymagania wykończenia."
+                    },
+                    {
+                      "key": "Stan",
+                      "value": "Gotowy do użycia."
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "ok. 12-15 m²/kg, wg podłoża."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Zawsze mieszać przed użyciem."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

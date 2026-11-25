@@ -1,0 +1,1937 @@
+{
+  "key": "zement-dune-fix",
+  "source": "ZEMENT DUNE FIX",
+  "languages": {
+    "de": {
+      "file": "ZEMENT DUNE FIX ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Dune Fix",
+      "subtitle": "BINDEHARZ FÜR DIE SANDBESCHICHTUNG ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Bezogen auf das Zuschlaggewicht"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Je 25-kg-Sack Zuschlag"
+        },
+        {
+          "value": "> 20 Tage",
+          "label": "Vor dem Befüllen des Pools"
+        },
+        {
+          "value": "5 kg",
+          "label": "Gebinde Harz"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Bindeharz (Komponente B) der Sandbeschichtung Zement Dune für Pools im Strandstil. Es fixiert und verbindet den Quarzzuschlag, weiß oder sandfarben, und verleiht eine im trockenen wie im nassen Zustand hochgradig rutschhemmende Oberfläche."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Oberflächenfestiger und Bindemittel zum Verbinden von gebrochenen Zuschlägen.",
+                "Systemfarben: Weiß und Sand.",
+                "Vergilbt nicht und ist wartungsfrei."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Harz des Beschichtungssystems für Schwimmbecken Zement Dune.",
+                "UV-Version (Zement Dune Fix UV) für den abschließenden Anstrich mit der Rolle.",
+                "Wasserdurchlässige Beschichtung; verhindert stehendes Wasser."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESTÄNDIGKEIT DES SYSTEMS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unempfindlich gegenüber Meeresklima, saurem Regen und Kohlenstoffbelastung; verträgt verdünnte alkalische und saure Lösungen.",
+                "UV-beständig; behält seine Eigenschaften von -30 bis +60 °C.",
+                "Im pastösen Zustand nicht brennbar; trocken ist es wasch-und regenfest.",
+                "Verschließt Poren und kapillare Haarrisse; nach der Polymerisation geruchlos."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Schadhafter Untergrund: mit Zement Repair 40 + Zement Latex Flex (25 kg + 4 l Harz + 4 l Wasser) ausbessern, in der vom Zuschlag zugelassenen Schichtdicke."
+            },
+            {
+              "type": "p",
+              "text": "2. Einwandfreier Untergrund: mit Zement Seal (Versiegelung und Dampfsperre) grundieren, zwei unverdünnte Anstriche mit der Rolle und mindestens 24 Std. zwischen den Schichten, bis es kristallisiert. Auf den zweiten Anstrich Zement Quartz Sand von Hand als Haftbrücke einstreuen."
+            },
+            {
+              "type": "p",
+              "text": "3. Zement Dune (weißer oder sandfarbener Zuschlag, Komponente A, 25 kg) mit Zement Dune Fix (Komponente B) vermischt auftragen: 1,75 l, also 7 % bezogen auf das Gewicht des Zuschlags."
+            },
+            {
+              "type": "p",
+              "text": "4. Bei trockener Oberfläche mit Schleifpapier der Körnung 240 anschleifen."
+            },
+            {
+              "type": "p",
+              "text": "5. Falls gewünscht, mit der Rolle einen reichlichen Anstrich Zement Dune Fix UV auf die gesamte Fläche auftragen."
+            },
+            {
+              "type": "p",
+              "text": "Den Pool frühestens 20 Tage nach der Verarbeitung befüllen."
+            }
+          ]
+        },
+        {
+          "title": "EMPFEHLUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Weder Wasser noch Zusatzmittel beimischen. Besondere Bereiche (Risse) mit dem geeigneten Gewebe behandeln.",
+                "Kunststoffgefäße; Kellen aus Kunststoff und Edelstahl.",
+                "Nicht bei Regen- oder Frostgefahr, starken Temperaturwechseln, direkter Sonneneinstrahlung oder starkem Wind verarbeiten; Planen bereithalten.",
+                "Handschuhe und Schutzbrille tragen. Außerhalb der Reichweite von Kindern aufbewahren; leere Gebinde gemäß den geltenden Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Harz",
+                  "rows": [
+                    {
+                      "key": "Funktion",
+                      "value": "Bindemittel für den Zuschlag Zement Dune (Komponente B)"
+                    },
+                    {
+                      "key": "Dosierung",
+                      "value": "7 % bezogen auf das Zuschlaggewicht (1,75 l je 25-kg-Sack)"
+                    },
+                    {
+                      "key": "Schlussanstrich",
+                      "value": "Zement Dune Fix UV mit der Rolle; ein reichlicher Anstrich"
+                    }
+                  ]
+                },
+                {
+                  "title": "Verarbeitung",
+                  "rows": [
+                    {
+                      "key": "Schichtdicke",
+                      "value": "3-5 mm in einer Lage"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "5 bis 30 °C (auf dem Boden)"
+                    },
+                    {
+                      "key": "Grifffest / vollständig trocken",
+                      "value": "6-7 Std. / 16-17 Std."
+                    },
+                    {
+                      "key": "Inbetriebnahme",
+                      "value": "> 20 Tage"
+                    }
+                  ]
+                },
+                {
+                  "title": "Systemverbrauch",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l für 10-15 m² (zwei Anstriche)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 Sack für 100 m² (max. 1 für 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm in einer Lage"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Ca. 1,5 kg/m²/mm; mind. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Lieferform",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Gebinde 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Sack 25 kg (weiß oder sandfarben)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Sack 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: Gebinde 5 kg",
+                "Zement Dune (A): Sack 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT DUNE FIX INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Dune Fix",
+      "subtitle": "BINDER RESIN FOR THE ZEMENT DUNE SAND COATING",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Of the aggregate weight"
+        },
+        {
+          "value": "1.75 l",
+          "label": "Per 25 kg bag of aggregate"
+        },
+        {
+          "value": "> 20 days",
+          "label": "Before filling the pool"
+        },
+        {
+          "value": "5 kg",
+          "label": "Resin container"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Binder resin (component B) of the Zement Dune sand coating for beach-style swimming pools. It fixes and binds the quartz aggregate, white or sand, and gives a highly slip-resistant finish both dry and wet."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Surface fixative and bulk binder for bonding crushed aggregates.",
+                "System colours: white and sand.",
+                "Does not yellow and requires no maintenance."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Resin of the Zement Dune swimming pool coating system.",
+                "UV version (Zement Dune Fix UV) for the final roller-applied coat.",
+                "Water-permeable coating; prevents standing water."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SYSTEM RESISTANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unaffected by marine atmospheres, acid rain and carbon pollution; withstands dilute alkaline and acid solutions.",
+                "UV-resistant; keeps its properties from -30 to +60 °C.",
+                "Non-flammable in paste state; once dry, it is impervious to washing and rain.",
+                "Seals porosities and capillary microcracks; odourless once polymerised."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION SYSTEM",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Substrate in poor condition: repair with Zement Repair 40 + Zement Latex Flex (25 kg + 4 l of resin + 4 l of water), in the thickness the aggregate allows."
+            },
+            {
+              "type": "p",
+              "text": "2. Substrate in perfect condition: prime with Zement Seal (sealer and vapour barrier), two undiluted coats by roller with at least 24 h between coats, until it crystallises. Over the second coat, broadcast Zement Quartz Sand by hand as a bonding key."
+            },
+            {
+              "type": "p",
+              "text": "3. Apply Zement Dune (white or sand aggregate, component A, 25 kg) mixed with Zement Dune Fix (component B): 1.75 l, i.e. 7 % of the aggregate weight."
+            },
+            {
+              "type": "p",
+              "text": "4. With the surface dry, sand with 240-grit paper."
+            },
+            {
+              "type": "p",
+              "text": "5. If desired, roller-apply a generous coat of Zement Dune Fix UV over the whole surface."
+            },
+            {
+              "type": "p",
+              "text": "Do not fill the pool until at least 20 days have passed."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMENDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not add water or additives. Treat critical areas (cracks) with suitable mesh.",
+                "Plastic containers; plastic and stainless steel trowels.",
+                "Do not apply if there is a risk of rain, frost, major temperature changes, direct sun or strong wind; keep tarpaulins at hand.",
+                "Gloves and protective goggles. Keep out of the reach of children; dispose of empty containers in accordance with current regulations."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Resin",
+                  "rows": [
+                    {
+                      "key": "Function",
+                      "value": "Binder for Zement Dune aggregate (component B)"
+                    },
+                    {
+                      "key": "Dosage",
+                      "value": "7 % of the aggregate weight (1.75 l per 25 kg bag)"
+                    },
+                    {
+                      "key": "Final coat",
+                      "value": "Zement Dune Fix UV by roller; one generous coat"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Coating thickness",
+                      "value": "3-5 mm in one coat"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "5 to 30 °C (on the pavement)"
+                    },
+                    {
+                      "key": "Touch dry / full",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Ready for service",
+                      "value": "> 20 days"
+                    }
+                  ]
+                },
+                {
+                  "title": "System coverage",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l per 10-15 m² (two coats)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 bag per 100 m² (max. 1 per 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1.5 kg/m²/mm in one coat"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Approx. 1.5 kg/m²/mm; min. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Format",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "5 kg container"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "25 kg bag (white or sand)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2.5 + 1.5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "25 kg bag"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: 5 kg container",
+                "Zement Dune (A): 25 kg bag"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT DUNE FIX ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Dune Fix",
+      "subtitle": "RESINA AGLUTINANTE PARA EL REVESTIMIENTO DE ARENA ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Sobre el peso del árido"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Por saco de 25 kg de árido"
+        },
+        {
+          "value": "> 20 días",
+          "label": "Antes de llenar la piscina"
+        },
+        {
+          "value": "5 kg",
+          "label": "Envase de resina"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Resina aglutinante (componente B) del revestimiento de arena Zement Dune para piscinas tipo playa. Fija y une el árido de cuarzo, blanco o arena, y da un acabado altamente antideslizante en seco y en mojado."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fijador superficial y aglomerante en masa para unir áridos triturados.",
+                "Colores del sistema: blanco y arena.",
+                "No amarillea y no requiere mantenimiento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Resina del sistema de revestimiento de piscinas Zement Dune.",
+                "Versión UV (Zement Dune Fix UV) para la mano final con rodillo.",
+                "Revestimiento permeable al agua; evita el agua encharcada."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RESISTENCIAS DEL SISTEMA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Insensible a atmósferas marinas, lluvias ácidas y polución carbónica; soporta soluciones alcalinas y ácidas diluidas.",
+                "Resistente a la radiación UV; conserva sus propiedades de -30 a +60 °C.",
+                "Ininflamable en estado pastoso; seco, es impermeable al lavado y a la lluvia.",
+                "Obtura porosidades y microfisuras capilares; inodoro una vez polimerizado."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SISTEMA DE APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Soporte en mal estado: corregir con Zement Repair 40 + Zement Latex Flex (25 kg + 4 l de resina + 4 l de agua), en el espesor que permita el árido."
+            },
+            {
+              "type": "p",
+              "text": "2. Soporte en perfectas condiciones: imprimar con Zement Seal (sellador y barrera de vapor), dos manos puras con rodillo y al menos 24 h entre capas, hasta que cristalice. Sobre la segunda mano, espolvorear a mano Zement Quartz Sand como agarre."
+            },
+            {
+              "type": "p",
+              "text": "3. Aplicar Zement Dune (árido blanco o arena, componente A, 25 kg) mezclado con Zement Dune Fix (componente B): 1,75 l, es decir, un 7 % sobre el peso del árido."
+            },
+            {
+              "type": "p",
+              "text": "4. Con la superficie seca, lijar con grano 240."
+            },
+            {
+              "type": "p",
+              "text": "5. Si se desea, dar con rodillo una mano generosa de Zement Dune Fix UV sobre toda la superficie."
+            },
+            {
+              "type": "p",
+              "text": "No llenar la piscina hasta pasados 20 días como mínimo."
+            }
+          ]
+        },
+        {
+          "title": "RECOMENDACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No incorporar agua ni aditivos. Tratar las zonas singulares (fisuras) con la malla adecuada.",
+                "Recipientes de plástico; llanas de plástico y acero inoxidable.",
+                "No aplicar con riesgo de lluvia, heladas, cambios importantes de temperatura, insolación directa o viento fuerte; tener lonas a mano.",
+                "Guantes y gafas protectoras. Mantener fuera del alcance de los niños; eliminar los envases conforme a la normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Resina",
+                  "rows": [
+                    {
+                      "key": "Función",
+                      "value": "Aglutinante del árido Zement Dune (componente B)"
+                    },
+                    {
+                      "key": "Dosificación",
+                      "value": "7 % sobre el peso del árido (1,75 l por saco de 25 kg)"
+                    },
+                    {
+                      "key": "Mano final",
+                      "value": "Zement Dune Fix UV con rodillo; una mano generosa"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Espesor del revestimiento",
+                      "value": "3-5 mm en una capa"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "5 a 30 °C (sobre el pavimento)"
+                    },
+                    {
+                      "key": "Secado al tacto / total",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Puesta en servicio",
+                      "value": "> 20 días"
+                    }
+                  ]
+                },
+                {
+                  "title": "Rendimiento del sistema",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l por 10-15 m² (dos manos)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 saco por 100 m² (máx. 1 por 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm en una capa"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Aprox. 1,5 kg/m²/mm; mín. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Formato",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Envase de 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Saco de 25 kg (blanco o arena)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Saco de 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: envase de 5 kg",
+                "Zement Dune (A): saco de 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT DUNE FIX FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Dune Fix",
+      "subtitle": "SIDEAINEHARTSI ZEMENT DUNE -HIEKKAPINNOITTEELLE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Kiviaineksen painosta"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Yhtä 25 kg:n säkkiä kohti"
+        },
+        {
+          "value": "> 20 vrk",
+          "label": "Ennen altaan täyttöä"
+        },
+        {
+          "value": "5 kg",
+          "label": "Hartsipakkaus"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sideainehartsi (komponentti B) rantatyylisille uima-altaille tarkoitetulle Zement Dune -hiekkapinnoitteelle. Kiinnittää ja sitoo kvartsikiviaineksen, valkoisen tai hiekan sävyisen, ja antaa erittäin hyvän liukuesteisyyden kuivana ja märkänä."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pintasiloite ja massasideaine murskattujen kiviainesten sitomiseen.",
+                "Järjestelmän värit: valkoinen ja hiekka.",
+                "Ei kellastu eikä vaadi huoltoa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Zement Dune -uima-altaiden pinnoitusjärjestelmän hartsi.",
+                "UV-versio (Zement Dune Fix UV) telalla levitettävään viimeistelykerrokseen.",
+                "Vettä läpäisevä pinnoite; estää veden lammikoitumisen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "JÄRJESTELMÄN KESTÄVYYS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei reagoi merellisiin olosuhteisiin, happosateeseen eikä hiilipäästöihin; kestää laimeita emäksisiä ja happoliuoksia.",
+                "UV-säteilyn kestävä; säilyttää ominaisuutensa lämpötilassa -30...+60 °C.",
+                "Palamaton tahnamaisessa tilassa; kuivana pesun ja sateen kestävä.",
+                "Tukkii huokoset ja kapillaarihalkeamat; hajuton polymeroiduttuaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVITYSJÄRJESTELMÄ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Huonokuntoinen alusta: korjaa Zement Repair 40 + Zement Latex Flex -korjausmassalla (25 kg + 4 l hartsia + 4 l vettä) kiviaineksen sallimaan paksuuteen."
+            },
+            {
+              "type": "p",
+              "text": "2. Täysin kunnossa oleva alusta: pohjusta Zement Seal -aineella (tiivistysaine ja höyrynsulku), kaksi kerrosta laimentamattomana telalla, vähintään 24 h kerrosten välillä, kunnes se kiteytyy. Ripottele toisen kerroksen päälle käsin Zement Quartz Sand tartuntapinnaksi."
+            },
+            {
+              "type": "p",
+              "text": "3. Levitä Zement Dune (valkoinen tai hiekan sävyinen kiviaines, komponentti A, 25 kg) sekoitettuna Zement Dune Fix -hartsiin (komponentti B): 1,75 l eli 7 % kiviaineksen painosta."
+            },
+            {
+              "type": "p",
+              "text": "4. Kun pinta on kuiva, hio 240-karkeuden paperilla."
+            },
+            {
+              "type": "p",
+              "text": "5. Halutessasi levitä telalla runsas kerros Zement Dune Fix UV -hartsia koko pinnalle."
+            },
+            {
+              "type": "p",
+              "text": "Älä täytä allasta ennen kuin vähintään 20 vrk on kulunut."
+            }
+          ]
+        },
+        {
+          "title": "SUOSITUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Älä lisää vettä äläkä lisäaineita. Käsittele erityiskohdat (halkeamat) sopivalla verkolla.",
+                "Muoviastiat; muovi- ja ruostumattomasta teräksestä valmistetut lastat.",
+                "Älä levitä sateen, pakkasen, suurten lämpötilanvaihteluiden, suoran auringonpaisteen tai kovan tuulen uhatessa; pidä suojapeitteet käsillä.",
+                "Käytä suojakäsineitä ja suojalaseja. Säilytä lasten ulottumattomissa; hävitä tyhjät pakkaukset voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Hartsi",
+                  "rows": [
+                    {
+                      "key": "Tehtävä",
+                      "value": "Zement Dune -kiviaineksen sideaine (komponentti B)"
+                    },
+                    {
+                      "key": "Annostus",
+                      "value": "7 % kiviaineksen painosta (1,75 l per 25 kg:n säkki)"
+                    },
+                    {
+                      "key": "Viimeistelykerros",
+                      "value": "Zement Dune Fix UV telalla; runsas kerros"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Pinnoitteen paksuus",
+                      "value": "3-5 mm yhdellä kerroksella"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "5-30 °C (lattiapinnalla)"
+                    },
+                    {
+                      "key": "Pintakuivuus / täysi kovettuminen",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Käyttöönotto",
+                      "value": "> 20 vrk"
+                    }
+                  ]
+                },
+                {
+                  "title": "Järjestelmän riittoisuus",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l per 10-15 m² (kaksi kerrosta)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 säkki per 100 m² (enint. 1 per 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm yhdellä kerroksella"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "n. 1,5 kg/m²/mm; väh. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pakkaus",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "5 kg:n pakkaus"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "25 kg:n säkki (valkoinen tai hiekka)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "25 kg:n säkki"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: 5 kg:n pakkaus",
+                "Zement Dune (A): 25 kg:n säkki"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT DUNE FIX FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Dune Fix",
+      "subtitle": "RÉSINE LIANTE POUR LE REVÊTEMENT DE SABLE ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Du poids du granulat"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Par sac de 25 kg de granulat"
+        },
+        {
+          "value": "> 20 jours",
+          "label": "Avant de remplir la piscine"
+        },
+        {
+          "value": "5 kg",
+          "label": "Bidon de résine"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Résine liante (composant B) du revêtement de sable Zement Dune pour piscines de type plage. Elle fixe et lie le granulat de quartz, blanc cassé ou sable, et donne une finition très antidérapante à sec comme en milieu mouillé."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fixateur de surface et liant dans la masse pour agglomérer des granulats concassés.",
+                "Coloris du système : blanc cassé et sable.",
+                "Ne jaunit pas et ne demande aucun entretien."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Résine du système de revêtement de piscines Zement Dune.",
+                "Version UV (Zement Dune Fix UV) pour la couche finale au rouleau.",
+                "Revêtement perméable à l'eau ; évite les flaques d'eau stagnante."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RÉSISTANCES DU SYSTÈME",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Insensible aux atmosphères marines, aux pluies acides et à la pollution carbonée ; supporte les solutions alcalines et acides diluées.",
+                "Résistante au rayonnement UV ; conserve ses propriétés de -30 à +60 °C.",
+                "Ininflammable à l'état pâteux ; sèche, elle résiste au lessivage et à la pluie.",
+                "Obture les porosités et les microfissures capillaires ; inodore une fois polymérisée."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SYSTÈME D'APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Support en mauvais état : réparer avec Zement Repair 40 + Zement Latex Flex (25 kg + 4 l de résine + 4 l d'eau), sur l'épaisseur que permet le granulat."
+            },
+            {
+              "type": "p",
+              "text": "2. Support en parfait état : appliquer un primaire Zement Seal (agent de scellement et pare-vapeur), deux couches pures au rouleau avec au moins 24 h entre les couches, jusqu'à ce qu'il cristallise. Sur la seconde couche, saupoudrer à la main du Zement Quartz Sand comme accroche."
+            },
+            {
+              "type": "p",
+              "text": "3. Appliquer Zement Dune (granulat blanc cassé ou sable, composant A, 25 kg) mélangé à Zement Dune Fix (composant B) : 1,75 l, soit 7 % du poids du granulat."
+            },
+            {
+              "type": "p",
+              "text": "4. Surface sèche, poncer au grain 240."
+            },
+            {
+              "type": "p",
+              "text": "5. Si souhaité, passer au rouleau une couche généreuse de Zement Dune Fix UV sur toute la surface."
+            },
+            {
+              "type": "p",
+              "text": "Ne pas remplir la piscine avant 20 jours minimum."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMANDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas ajouter d'eau ni d'adjuvants. Traiter les points singuliers (fissures) avec la trame adaptée.",
+                "Récipients en plastique ; platoirs en plastique et en acier inoxydable.",
+                "Ne pas appliquer en cas de risque de pluie, de gel, de forts écarts de température, d'ensoleillement direct ou de vent fort ; prévoir des bâches.",
+                "Gants et lunettes de protection. Tenir hors de portée des enfants ; éliminer les emballages conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Résine",
+                  "rows": [
+                    {
+                      "key": "Fonction",
+                      "value": "Liant du granulat Zement Dune (composant B)"
+                    },
+                    {
+                      "key": "Dosage",
+                      "value": "7 % du poids du granulat (1,75 l par sac de 25 kg)"
+                    },
+                    {
+                      "key": "Couche finale",
+                      "value": "Zement Dune Fix UV au rouleau ; une couche généreuse"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Épaisseur du revêtement",
+                      "value": "3-5 mm en une couche"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "5 à 30 °C (sur le sol)"
+                    },
+                    {
+                      "key": "Sec au toucher / complet",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Mise en service",
+                      "value": "> 20 jours"
+                    }
+                  ]
+                },
+                {
+                  "title": "Rendement du système",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l pour 10-15 m² (deux couches)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 sac pour 100 m² (max. 1 pour 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm en une couche"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Env. 1,5 kg/m²/mm ; min. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Conditionnement",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Bidon de 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Sac de 25 kg (blanc cassé ou sable)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Sac de 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix : bidon de 5 kg",
+                "Zement Dune (A) : sac de 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT DUNE FIX ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Dune Fix",
+      "subtitle": "RESINA LEGANTE PER IL RIVESTIMENTO DI SABBIA ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Sul peso dell'aggregato"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Per sacco da 25 kg"
+        },
+        {
+          "value": "> 20 giorni",
+          "label": "Prima di riempire la piscina"
+        },
+        {
+          "value": "5 kg",
+          "label": "Confezione di resina"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Resina legante (componente B) del rivestimento di sabbia Zement Dune per piscine in stile spiaggia. Fissa e unisce l'aggregato di quarzo, bianco o sabbia, e restituisce una finitura altamente antiscivolo sia all'asciutto sia al bagnato."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fissativo superficiale e legante in massa per unire aggregati frantumati.",
+                "Colori del sistema: bianco e sabbia.",
+                "Non ingiallisce e non richiede manutenzione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Resina del sistema di rivestimento per piscine Zement Dune.",
+                "Versione UV (Zement Dune Fix UV) per la mano finale a rullo.",
+                "Rivestimento permeabile all'acqua; evita i ristagni."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RESISTENZE DEL SISTEMA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Insensibile ad atmosfere marine, piogge acide e inquinamento da carbonio; sopporta soluzioni alcaline e acide diluite.",
+                "Resistente ai raggi UV; mantiene le proprie proprietà da -30 a +60 °C.",
+                "Non infiammabile allo stato pastoso; asciutto, è impermeabile al dilavamento e alla pioggia.",
+                "Chiude porosità e microfessure capillari; inodore dopo la polimerizzazione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SISTEMA DI APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Supporto in cattive condizioni: correggere con Zement Repair 40 + Zement Latex Flex (25 kg + 4 l di resina + 4 l di acqua), nello spessore consentito dall'aggregato."
+            },
+            {
+              "type": "p",
+              "text": "2. Supporto in perfette condizioni: applicare il primer Zement Seal (sigillante e barriera al vapore), due mani pure a rullo con almeno 24 h tra una mano e l'altra, fino a cristallizzazione. Sulla seconda mano, spolverare a mano Zement Quartz Sand come ancoraggio."
+            },
+            {
+              "type": "p",
+              "text": "3. Applicare Zement Dune (aggregato bianco o sabbia, componente A, 25 kg) miscelato con Zement Dune Fix (componente B): 1,75 l, ovvero il 7 % sul peso dell'aggregato."
+            },
+            {
+              "type": "p",
+              "text": "4. A superficie asciutta, carteggiare con carta a grana 240."
+            },
+            {
+              "type": "p",
+              "text": "5. Se desiderato, stendere a rullo una mano abbondante di Zement Dune Fix UV su tutta la superficie."
+            },
+            {
+              "type": "p",
+              "text": "Non riempire la piscina prima di almeno 20 giorni."
+            }
+          ]
+        },
+        {
+          "title": "RACCOMANDAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non aggiungere acqua né additivi. Trattare i punti singolari (fessure) con la rete adatta.",
+                "Contenitori di plastica; spatole di plastica e acciaio inox.",
+                "Non applicare con rischio di pioggia, gelo, forti sbalzi di temperatura, sole diretto o vento forte; tenere a portata di mano dei teli.",
+                "Guanti e occhiali di protezione. Tenere fuori dalla portata dei bambini; smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Resina",
+                  "rows": [
+                    {
+                      "key": "Funzione",
+                      "value": "Legante dell'aggregato Zement Dune (componente B)"
+                    },
+                    {
+                      "key": "Dosaggio",
+                      "value": "7 % sul peso dell'aggregato (1,75 l per sacco da 25 kg)"
+                    },
+                    {
+                      "key": "Mano finale",
+                      "value": "Zement Dune Fix UV a rullo; una mano abbondante"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Spessore del rivestimento",
+                      "value": "3-5 mm in una mano"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 5 a 30 °C (sulla pavimentazione)"
+                    },
+                    {
+                      "key": "Asciutto al tatto / completo",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Messa in servizio",
+                      "value": "> 20 giorni"
+                    }
+                  ]
+                },
+                {
+                  "title": "Resa del sistema",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l per 10-15 m² (due mani)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 sacco per 100 m² (max. 1 per 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm in una mano"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Ca. 1,5 kg/m²/mm; min. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Formato",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Confezione da 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Sacco da 25 kg (bianco o sabbia)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Sacco da 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: confezione da 5 kg",
+                "Zement Dune (A): sacco da 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT DUNE FIX NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Dune Fix",
+      "subtitle": "BINDEHARPIKS FOR SANDBELEGGET ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Av tilslagets vekt"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Per sekk på 25 kg tilslag"
+        },
+        {
+          "value": "> 20 døgn",
+          "label": "Før bassenget fylles"
+        },
+        {
+          "value": "5 kg",
+          "label": "Beholder med harpiks"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Bindeharpiks (komponent B) i sandbelegget Zement Dune for bassenger i strandstil. Fikserer og binder kvartstilslaget, hvitt eller sand, og gir en svært sklisikker finish både tørr og våt."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Overflatefikserer og bindemiddel i massen for å binde knust tilslag.",
+                "Systemfarger: hvit og sand.",
+                "Gulner ikke og krever ikke vedlikehold."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Harpiks i beleggsystemet Zement Dune for bassenger.",
+                "UV-versjon (Zement Dune Fix UV) til sluttstrøket med rulle.",
+                "Vanngjennomtrengelig belegg; hindrer stillestående vann."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SYSTEMETS BESTANDIGHET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Upåvirket av marint miljø, sur nedbør og karbonforurensning; tåler alkaliske og fortynnede sure løsninger.",
+                "UV-bestandig; beholder egenskapene sine fra -30 til +60 °C.",
+                "Ikke brennbar i pastaform; tørr er den upåvirket av vask og regn.",
+                "Tetter porer og kapillære mikrosprekker; luktfri etter polymerisering."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRINGSSYSTEM",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Dårlig underlag: utbedres med Zement Repair 40 + Zement Latex Flex (25 kg + 4 l harpiks + 4 l vann), i den tykkelsen tilslaget tillater."
+            },
+            {
+              "type": "p",
+              "text": "2. Underlag i perfekt stand: grunnes med Zement Seal (tetningsmiddel og dampsperre), to rene strøk med rulle og minst 24 t mellom strøkene, til det krystalliserer. Strø Zement Quartz Sand for hånd over det andre strøket som heftelag."
+            },
+            {
+              "type": "p",
+              "text": "3. Påfør Zement Dune (hvitt eller sandfarget tilslag, komponent A, 25 kg) blandet med Zement Dune Fix (komponent B): 1,75 l, det vil si 7 % av tilslagets vekt."
+            },
+            {
+              "type": "p",
+              "text": "4. Når overflaten er tørr, slipes den med 240-papir."
+            },
+            {
+              "type": "p",
+              "text": "5. Om ønskelig rulles et rikelig strøk Zement Dune Fix UV over hele overflaten."
+            },
+            {
+              "type": "p",
+              "text": "Bassenget må ikke fylles før det har gått minst 20 døgn."
+            }
+          ]
+        },
+        {
+          "title": "ANBEFALINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ikke tilsett vann eller tilsetningsstoffer. Behandle utsatte partier (sprekker) med egnet nett.",
+                "Bruk plastbeholdere og glattebrett av plast og rustfritt stål.",
+                "Må ikke påføres ved fare for regn, frost, store temperatursvingninger, direkte sol eller sterk vind; ha presenninger tilgjengelig.",
+                "Bruk hansker og vernebriller. Oppbevares utilgjengelig for barn; tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Harpiks",
+                  "rows": [
+                    {
+                      "key": "Funksjon",
+                      "value": "Bindemiddel for tilslaget Zement Dune (komponent B)"
+                    },
+                    {
+                      "key": "Dosering",
+                      "value": "7 % av tilslagets vekt (1,75 l per sekk på 25 kg)"
+                    },
+                    {
+                      "key": "Sluttstrøk",
+                      "value": "Zement Dune Fix UV med rulle; ett rikelig strøk"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Beleggtykkelse",
+                      "value": "3-5 mm i ett lag"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "5 til 30 °C (på gulvet)"
+                    },
+                    {
+                      "key": "Berøringstørr / full herding",
+                      "value": "6-7 t / 16-17 t"
+                    },
+                    {
+                      "key": "Klar til bruk",
+                      "value": "> 20 døgn"
+                    }
+                  ]
+                },
+                {
+                  "title": "Systemets ytelse",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l per 10-15 m² (to strøk)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 sekk per 100 m² (maks. 1 per 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm i ett lag"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Ca. 1,5 kg/m²/mm; min. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leveringsform",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Beholder på 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Sekk på 25 kg (hvit eller sand)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Sekk på 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: beholder på 5 kg",
+                "Zement Dune (A): sekk på 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT DUNE FIX POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Dune Fix",
+      "subtitle": "ŻYWICA WIĄŻĄCA DO OKŁADZINY PIASKOWEJ ZEMENT DUNE",
+      "stats": [
+        {
+          "value": "7 %",
+          "label": "Masy kruszywa"
+        },
+        {
+          "value": "1,75 l",
+          "label": "Na worek 25 kg kruszywa"
+        },
+        {
+          "value": "> 20 dni",
+          "label": "Przed napełnieniem basenu"
+        },
+        {
+          "value": "5 kg",
+          "label": "Opakowanie żywicy"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Żywica wiążąca (składnik B) okładziny piaskowej Zement Dune do basenów typu plażowego. Utrwala i łączy kruszywo kwarcowe, białe lub piaskowe, nadając wysoce antypoślizgowe wykończenie na sucho i na mokro."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Utrwalacz powierzchniowy i spoiwo masowe do łączenia kruszyw łamanych.",
+                "Kolory systemu: biały i piaskowy.",
+                "Nie żółknie i nie wymaga konserwacji."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Żywica systemu okładzin basenowych Zement Dune.",
+                "Wersja UV (Zement Dune Fix UV) do warstwy końcowej nakładanej wałkiem.",
+                "Okładzina przepuszczalna dla wody; zapobiega zaleganiu wody."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ODPORNOŚCI SYSTEMU",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemiczna: niewrażliwa na atmosferę morską, kwaśne deszcze i zanieczyszczenie węglowe; wytrzymuje rozcieńczone roztwory zasadowe i kwaśne.",
+                "Odporna na promieniowanie UV; zachowuje właściwości od -30 do +60 °C.",
+                "Niepalna w stanie plastycznym; po wyschnięciu jest odporna na zmywanie i deszcz.",
+                "Zamyka pory i kapilarne mikropęknięcia; bezwonna po spolimeryzowaniu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SYSTEM APLIKACJI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Podłoże w złym stanie: naprawić za pomocą Zement Repair 40 + Zement Latex Flex (25 kg + 4 l żywicy + 4 l wody), w grubości, jaką umożliwia kruszywo."
+            },
+            {
+              "type": "p",
+              "text": "2. Podłoże w doskonałym stanie: zagruntować Zement Seal (uszczelniacz i bariera paroizolacyjna), dwie warstwy czyste nakładane wałkiem, z przerwą co najmniej 24 h między warstwami, aż do skrystalizowania. Na drugą warstwę posypać ręcznie Zement Quartz Sand jako warstwę kotwiącą."
+            },
+            {
+              "type": "p",
+              "text": "3. Nałożyć Zement Dune (kruszywo białe lub piaskowe, składnik A, 25 kg) wymieszany z Zement Dune Fix (składnik B): 1,75 l, czyli 7 % masy kruszywa."
+            },
+            {
+              "type": "p",
+              "text": "4. Gdy powierzchnia jest sucha, przeszlifować papierem o gradacji 240."
+            },
+            {
+              "type": "p",
+              "text": "5. W razie potrzeby nałożyć wałkiem obficie jedną warstwę Zement Dune Fix UV na całą powierzchnię."
+            },
+            {
+              "type": "p",
+              "text": "Nie napełniać basenu wcześniej niż po upływie co najmniej 20 dni."
+            }
+          ]
+        },
+        {
+          "title": "ZALECENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie dodawać wody ani dodatków. Miejsca szczególne (rysy) zabezpieczyć odpowiednią siatką.",
+                "Plastikowe pojemniki; pace z tworzywa i ze stali nierdzewnej.",
+                "Nie aplikować przy ryzyku deszczu, mrozu, dużych zmian temperatury, bezpośredniego nasłonecznienia lub silnego wiatru; mieć pod ręką plandeki.",
+                "Rękawice i okulary ochronne. Przechowywać poza zasięgiem dzieci; opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Żywica",
+                  "rows": [
+                    {
+                      "key": "Funkcja",
+                      "value": "Spoiwo kruszywa Zement Dune (składnik B)"
+                    },
+                    {
+                      "key": "Dozowanie",
+                      "value": "7 % masy kruszywa (1,75 l na worek 25 kg)"
+                    },
+                    {
+                      "key": "Warstwa końcowa",
+                      "value": "Zement Dune Fix UV wałkiem; jedna obfita warstwa"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Grubość okładziny",
+                      "value": "3-5 mm w jednej warstwie"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "5 do 30 °C (na posadzce)"
+                    },
+                    {
+                      "key": "Sucha w dotyku / pełne utwardzenie",
+                      "value": "6-7 h / 16-17 h"
+                    },
+                    {
+                      "key": "Oddanie do użytku",
+                      "value": "> 20 dni"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wydajność systemu",
+                  "rows": [
+                    {
+                      "key": "Zement Seal",
+                      "value": "1 l na 10-15 m² (dwie warstwy)"
+                    },
+                    {
+                      "key": "Zement Quartz Sand",
+                      "value": "1 worek na 100 m² (maks. 1 na 50 m²)"
+                    },
+                    {
+                      "key": "Zement Repair 40",
+                      "value": "1,5 kg/m²/mm w jednej warstwie"
+                    },
+                    {
+                      "key": "Zement Dune",
+                      "value": "Ok. 1,5 kg/m²/mm; min. 3 mm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Opakowanie",
+                  "rows": [
+                    {
+                      "key": "Zement Dune Fix (B)",
+                      "value": "Opakowanie 5 kg"
+                    },
+                    {
+                      "key": "Zement Dune (A)",
+                      "value": "Worek 25 kg (biały lub piaskowy)"
+                    },
+                    {
+                      "key": "Zement Seal (A+B)",
+                      "value": "2,5 + 1,5 kg"
+                    },
+                    {
+                      "key": "Zement Quartz Sand / Repair 40",
+                      "value": "Worek 25 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune Fix: opakowanie 5 kg",
+                "Zement Dune (A): worek 25 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "zement-dune-fix.jpg"
+  ]
+}

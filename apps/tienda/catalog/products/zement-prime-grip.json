@@ -1,0 +1,1879 @@
+{
+  "key": "zement-prime-grip",
+  "source": "ZEMENT PRIME GRIP",
+  "languages": {
+    "de": {
+      "file": "ZEMENT PRIME GRIP ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Prime Grip",
+      "subtitle": "WASSERBASIERTE ACRYLDISPERSION FÜR GRUNDIERUNG UND MÖRTEL",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Feststoffgehalt"
+        },
+        {
+          "value": "pH 8",
+          "label": "Mit nichtionischen Tensiden stabilisiert"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Glasübergangstemperatur (Tg)"
+        },
+        {
+          "value": "12 Monate",
+          "label": "Lagerfähigkeit im ungeöffneten Gebinde"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wasserbasierte Acryldispersion, mit nichtionischen Tensiden stabilisiert, die als versiegelnde und festigende Grundierung sowie als Bindemittel zur Modifizierung zementgebundener Mischungen dient. Sie trocknet zu einem hochelastischen, stark klebrigen und alkalibeständigen Film auf."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Geringe Wasseraufnahme: bildet einen Oberflächenfilm.",
+                "Verleiht Elastizität und verbessert die Haftung auf den unterschiedlichsten Untergründen.",
+                "Alkali- und UV-beständig."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESCHREIBUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Gebrauchsfertige Dispersion, je nach Saugfähigkeit des Untergrunds mit Wasser verdünnbar. Mit guten Pigmentierungseigenschaften und mit den unterschiedlichsten Füllstoffen mischbar."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vor Gebrauch aufrühren. Haben sich bei der Lagerung Häute oder Klumpen gebildet, die Dispersion vor der Verarbeitung filtern oder sieben."
+            },
+            {
+              "type": "p",
+              "text": "Je nach Saugfähigkeit, Art und Beschaffenheit des Untergrunds sowie den Anforderungen des Deckprodukts kann mit Leitungswasser bis zu 2/1 verdünnt werden."
+            },
+            {
+              "type": "p",
+              "text": "Beim Mischen mit hydraulischen Bindemitteln oder Füllstoffen die Verträglichkeit im Einzelfall prüfen."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bindemittel für elastische Acryl-Dichtstoffe in Pastenform.",
+                "Bindemittel für flexible Mörtel und mineralische Dichtschlämme.",
+                "Formulierung von Rissabdichtungssystemen und Feuchtigkeitssperren.",
+                "Abdichtung und weitere Anwendungen mit zementgebundenen Mischungen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Verleiht den Mischungen Elastizität und Haftung.",
+                "Alkali- und UV-beständig.",
+                "Gute Pigmentierbarkeit und vielseitig mit Füllstoffen kombinierbar.",
+                "Gebrauchsfertiges Produkt, verdünnbar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kein Gefahrstoff gemäß den EU-Richtlinien. Sicherheitsdatenblatt auf Anfrage erhältlich.",
+                "Verwendung ohne besondere Schutzmaßnahmen, abgesehen von den gesetzlichen Arbeitsschutzvorschriften.",
+                "Geöffnete Gebinde stets dicht verschlossen halten.",
+                "Bei Transport und Lagerung vor Frost schützen.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Spezifikation",
+                  "rows": [
+                    {
+                      "key": "Feststoffgehalt (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskosität (DIN EN ISO 2555; Spindel 3; 20 min⁻¹; 23 °C)",
+                      "value": "3.000 ± 1.000 mPa·s"
+                    },
+                    {
+                      "key": "pH-Wert (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Weitere Angaben (Richtwerte)",
+                  "rows": [
+                    {
+                      "key": "Stabilisierung",
+                      "value": "Nichtionische Tenside"
+                    },
+                    {
+                      "key": "Partikelgröße",
+                      "value": "Ca. 0,5 µm"
+                    },
+                    {
+                      "key": "Mindestfilmbildungstemperatur, MFT (DIN ISO 2115)",
+                      "value": "Ca. 0 °C"
+                    },
+                    {
+                      "key": "Dichte (ISO 8962)",
+                      "value": "Ca. 1 g/cm³"
+                    },
+                    {
+                      "key": "Glasübergangstemperatur Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % rel. Luftfeuchtigkeit)",
+                      "value": "Nahezu klar, sehr elastisch und sehr klebrig"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Eimer à 5 kg und 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ANMERKUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Richtwerte dienen der näheren Charakterisierung des Produkts; sie werden nicht regelmäßig ermittelt und sind nicht Bestandteil der Spezifikation.",
+                "Film getrocknet im Normklima bei 23 °C und 50 % relativer Luftfeuchtigkeit (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Eimer à 5 kg",
+                "Eimer à 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung, bei möglichst gleichmäßiger Temperatur zwischen 5 und 25 °C und vor Frost geschützt. Die Dispersion enthält ein Konservierungsmittel; in geöffneten Fässern oder Lagertanks können die für Dispersionen üblichen Konservierungsmittel unter Prüfung der Verträglichkeit zugegeben werden; Tanks und Leitungen sauber halten."
+            }
+          ]
+        },
+        {
+          "title": "VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Rein",
+                      "value": "Gebrauchsfertiges Produkt, je nach Untergrund."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Maximale Verdünnung mit Leitungswasser, je nach Saugfähigkeit."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Die Verdünnung nach Saugfähigkeit und Art des Untergrunds sowie nach den Anforderungen des Deckprodukts wählen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT PRIME GRIP INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Prime Grip",
+      "subtitle": "WATER-BASED ACRYLIC DISPERSION FOR PRIMING AND MORTAR MODIFICATION",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Solids content"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabilized with non-ionic surfactants"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Glass transition temperature (Tg)"
+        },
+        {
+          "value": "12 months",
+          "label": "Storage in closed packaging"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Water-based acrylic dispersion, stabilized with non-ionic surfactants, which works as a sealing and consolidating primer and as a binder for modifying cement-based mixes. It dries to form a highly elastic, very tacky, alkali-resistant film."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Low water absorption: forms a surface film.",
+                "Provides elasticity and improves adhesion on a wide variety of substrates.",
+                "Resistant to alkalis and UV rays."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ready-to-use dispersion, which can be diluted with water depending on the porosity of the substrate. With good pigmentation properties, it can be mixed with a wide variety of fillers."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Stir before use. If skins or lumps have formed during storage, filter or sieve the dispersion before applying it."
+            },
+            {
+              "type": "p",
+              "text": "Depending on the porosity, nature and characteristics of the substrate, as well as the requirements of the finishing product, it can be diluted with tap water up to 2/1."
+            },
+            {
+              "type": "p",
+              "text": "When mixing with hydraulic binders or fillers, check their compatibility in each case."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Binder for elastic acrylic sealant pastes.",
+                "Binder for flexible mortars and mineral sealing slurries.",
+                "Formulation of crack-sealing systems and moisture-barrier compounds.",
+                "Waterproofing and other applications with cement-based mixes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Provides elasticity and adhesion to mixes.",
+                "Resistance to alkalis and UV rays.",
+                "Good pigmentation and great filler versatility.",
+                "Ready-to-use product, ready for dilution."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Not a hazardous product under EU directives. Safety data sheet available on request.",
+                "Use without special safety measures, other than the legal occupational health regulations.",
+                "Keep opened containers tightly closed.",
+                "Protect from frost during transport and storage.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Specification",
+                  "rows": [
+                    {
+                      "key": "Solids content (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosity (DIN EN ISO 2555; spindle 3; 20 min⁻¹; 23 °C)",
+                      "value": "3,000 ± 1,000 mPa·s"
+                    },
+                    {
+                      "key": "pH value (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other data (indicative)",
+                  "rows": [
+                    {
+                      "key": "Stabilization",
+                      "value": "Non-ionic surfactants"
+                    },
+                    {
+                      "key": "Particle size",
+                      "value": "Approx. 0.5 µm"
+                    },
+                    {
+                      "key": "Minimum film-forming temperature, MFFT (DIN ISO 2115)",
+                      "value": "Approx. 0 °C"
+                    },
+                    {
+                      "key": "Density (ISO 8962)",
+                      "value": "Approx. 1 g/cm³"
+                    },
+                    {
+                      "key": "Glass transition temperature Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % RH)",
+                      "value": "Almost clear, very elastic and very tacky"
+                    },
+                    {
+                      "key": "Packaging",
+                      "value": "5 kg and 10 kg buckets"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NOTES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "The indicative data serve to characterize the product more fully; they are not determined on a regular basis and are not part of the specification.",
+                "Film dried under standard climate conditions of 23 °C and 50 % relative humidity (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 kg bucket",
+                "10 kg bucket"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, at a temperature as uniform as possible between 5 and 25 °C and protected from frost. The dispersion contains a preservative; in opened drums or storage tanks, the usual dispersion preservatives may be added, after checking their compatibility, and tanks and lines should be kept clean."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Pure",
+                      "value": "Ready-to-use product, depending on the substrate."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Maximum dilution with tap water, depending on the porosity."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Choose the dilution according to the porosity and nature of the substrate and the requirements of the finishing product."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT PRIME GRIP ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Prime Grip",
+      "subtitle": "DISPERSIÓN ACRÍLICA AL AGUA PARA IMPRIMACIÓN Y MORTEROS",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Contenido en sólidos"
+        },
+        {
+          "value": "pH 8",
+          "label": "Estabilizada con tensoactivos no iónicos"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Temperatura de transición vítrea (Tg)"
+        },
+        {
+          "value": "12 meses",
+          "label": "Conservación en envase cerrado"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dispersión acrílica al agua, estabilizada con tensoactivos no iónicos, que actúa como imprimación selladora y consolidante y como ligante para modificar mezclas de base cemento. Seca formando una película altamente elástica, muy pegajosa y resistente a la alcalinidad."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Baja absorción de agua: forma una película superficial.",
+                "Aporta elasticidad y mejora la adherencia sobre los más diversos fondos.",
+                "Resistente a los álcalis y a los rayos UV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPCIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dispersión lista al uso, diluible con agua según la porosidad del soporte. Con buenas propiedades de pigmentación, admite mezclarse con las cargas más variadas."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Remover antes de usar. Si se han formado pieles o grumos durante el almacenamiento, filtrar o tamizar la dispersión antes de aplicarla."
+            },
+            {
+              "type": "p",
+              "text": "Según la porosidad, la naturaleza y las características del soporte, así como los requisitos del producto de acabado, se puede diluir con agua corriente hasta 2/1."
+            },
+            {
+              "type": "p",
+              "text": "Al mezclar con ligantes hidráulicos o cargas, verificar su compatibilidad en cada caso."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ligante para sellantes acrílicos elásticos en pasta.",
+                "Ligante para morteros flexibles y slurries sellantes minerales.",
+                "Formulación de sistemas de sellado de grietas y de compuestos barrera antihumedad.",
+                "Impermeabilización y otras aplicaciones con mezclas de base cemento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Confiere elasticidad y adherencia a las mezclas.",
+                "Resistencia a los álcalis y a los rayos UV.",
+                "Buena pigmentación y gran versatilidad de cargas.",
+                "Producto al uso, listo para diluir."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No es un producto peligroso según las directivas de la UE. Ficha de datos de seguridad disponible bajo petición.",
+                "Uso sin medidas especiales de seguridad, salvo las normas legales de salud laboral.",
+                "Mantener los envases abiertos perfectamente cerrados.",
+                "Proteger de las heladas durante el transporte y el almacenamiento.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Especificación",
+                  "rows": [
+                    {
+                      "key": "Contenido en sólidos (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosidad (DIN EN ISO 2555; husillo 3; 20 min⁻¹; 23 °C)",
+                      "value": "3.000 ± 1.000 mPa·s"
+                    },
+                    {
+                      "key": "Valor pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Otros datos (orientativos)",
+                  "rows": [
+                    {
+                      "key": "Estabilización",
+                      "value": "Tensoactivos no iónicos"
+                    },
+                    {
+                      "key": "Tamaño de partícula",
+                      "value": "Aprox. 0,5 µm"
+                    },
+                    {
+                      "key": "Temperatura mínima de formación de película, TMFP (DIN ISO 2115)",
+                      "value": "Aprox. 0 °C"
+                    },
+                    {
+                      "key": "Densidad (ISO 8962)",
+                      "value": "Aprox. 1 g/cm³"
+                    },
+                    {
+                      "key": "Temperatura de transición vítrea Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Película (23 °C, 50 % HR)",
+                      "value": "Casi clara, muy elástica y muy pegajosa"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Cubos de 5 kg y 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NOTAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los datos orientativos sirven para caracterizar mejor el producto; no se determinan regularmente ni forman parte de la especificación.",
+                "Película secada en clima normalizado de 23 °C y 50 % de humedad relativa (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Cubo de 5 kg",
+                "Cubo de 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, a una temperatura lo más uniforme posible entre 5 y 25 °C y protegido de las heladas. La dispersión contiene conservante; en bidones abiertos o tanques de almacenamiento pueden añadirse los conservantes habituales de las dispersiones, comprobando su compatibilidad, y mantener limpios tanques y líneas."
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puro",
+                      "value": "Producto al uso, según el soporte."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Dilución máxima con agua corriente, según la porosidad."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Elegir la dilución según la porosidad y la naturaleza del soporte y los requisitos del producto de acabado."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT PRIME GRIP FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Prime Grip",
+      "subtitle": "VESIPOHJAINEN AKRYYLIDISPERSIO POHJUSTEEKSI JA LAASTIEN MUUNTELUUN",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Kuiva-ainepitoisuus"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabiloitu ionittomilla pinta-aktiivisilla aineilla"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Lasittumislämpötila (Tg)"
+        },
+        {
+          "value": "12 kuukautta",
+          "label": "Säilyvyys avaamattomassa pakkauksessa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen akryylidispersio, joka on stabiloitu ionittomilla pinta-aktiivisilla aineilla ja toimii tiivistävänä ja lujittavana pohjusteena sekä sideaineena sementtipohjaisten seosten muunteluun. Kuivuessaan se muodostaa erittäin joustavan, vahvasti tarttuvan ja alkalinkestävän kalvon."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vähäinen vedenimeytyminen: muodostaa pintakalvon.",
+                "Lisää joustavuutta ja parantaa tartuntaa hyvin erilaisille alustoille.",
+                "Kestää alkaleja ja UV-säteilyä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KUVAUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Käyttövalmis dispersio, jota voidaan laimentaa vedellä alustan huokoisuuden mukaan. Hyvät pigmentointiominaisuudet; soveltuu sekoitettavaksi hyvin erilaisten täyteaineiden kanssa."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita ennen käyttöä. Jos varastoinnin aikana on muodostunut kalvoa tai paakkuja, suodata tai siivilöi dispersio ennen levitystä."
+            },
+            {
+              "type": "p",
+              "text": "Alustan huokoisuudesta, laadusta ja ominaisuuksista sekä pintakäsittelytuotteen vaatimuksista riippuen tuote voidaan laimentaa tavallisella vedellä enintään suhteeseen 2/1."
+            },
+            {
+              "type": "p",
+              "text": "Hydraulisten sideaineiden tai täyteaineiden kanssa sekoitettaessa niiden yhteensopivuus on tarkistettava tapauskohtaisesti."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sideaine elastisille akryylitiivistemassoille.",
+                "Sideaine joustaville laasteille ja mineraalisille tiivistäville lietteille.",
+                "Halkeamien tiivistysjärjestelmien ja kosteussulkuaineiden valmistus.",
+                "Vedeneristys ja muut sementtipohjaisten seosten käyttökohteet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Antaa seoksille joustavuutta ja tartuntaa.",
+                "Kestää alkaleja ja UV-säteilyä.",
+                "Hyvä pigmentoitavuus ja monipuolinen yhteensopivuus täyteaineiden kanssa.",
+                "Käyttövalmis tuote, laimennettavissa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei ole EU:n direktiivien mukaan vaarallinen tuote. Käyttöturvallisuustiedote saatavana pyynnöstä.",
+                "Käytettävä ilman erityisiä turvatoimia lukuun ottamatta työterveyttä koskevia lakisääteisiä määräyksiä.",
+                "Pidä avatut pakkaukset tiiviisti suljettuina.",
+                "Suojaa pakkaselta kuljetuksen ja varastoinnin aikana.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Eritelmä",
+                  "rows": [
+                    {
+                      "key": "Kuiva-ainepitoisuus (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskositeetti (DIN EN ISO 2555; kara 3; 20 min⁻¹; 23 °C)",
+                      "value": "3 000 ± 1 000 mPa·s"
+                    },
+                    {
+                      "key": "pH-arvo (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Muut tiedot (suuntaa-antavat)",
+                  "rows": [
+                    {
+                      "key": "Stabilointi",
+                      "value": "Ionittomat pinta-aktiiviset aineet"
+                    },
+                    {
+                      "key": "Hiukkaskoko",
+                      "value": "Noin 0,5 µm"
+                    },
+                    {
+                      "key": "Kalvonmuodostuksen alin lämpötila, TMFP (DIN ISO 2115)",
+                      "value": "Noin 0 °C"
+                    },
+                    {
+                      "key": "Tiheys (ISO 8962)",
+                      "value": "Noin 1 g/cm³"
+                    },
+                    {
+                      "key": "Lasittumislämpötila Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Kalvo (23 °C, 50 % suht. kosteus)",
+                      "value": "Lähes kirkas, erittäin joustava ja erittäin tahmea"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "5 kg:n ja 10 kg:n sangot"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HUOMAUTUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Suuntaa-antavat tiedot kuvaavat tuotetta tarkemmin; niitä ei määritetä säännöllisesti, eivätkä ne kuulu eritelmään.",
+                "Kalvo kuivattu standardiolosuhteissa, 23 °C ja 50 % suhteellinen ilmankosteus (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 kg:n sanko",
+                "10 kg:n sanko"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, mahdollisimman tasaisessa 5–25 °C:n lämpötilassa ja pakkaselta suojattuna. Dispersio sisältää säilytysainetta; avatuissa astioissa tai varastosäiliöissä voidaan käyttää dispersioille tavanomaisia säilytysaineita yhteensopivuus tarkistaen, ja säiliöt ja putkistot on pidettävä puhtaina."
+            }
+          ]
+        },
+        {
+          "title": "LAIMENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puhdas",
+                      "value": "Käyttövalmis tuote alustan mukaan."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Suurin laimennus tavallisella vedellä huokoisuuden mukaan."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valitse laimennus alustan huokoisuuden ja laadun sekä pintakäsittelytuotteen vaatimusten mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT PRIME GRIP FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Prime Grip",
+      "subtitle": "DISPERSION ACRYLIQUE À L'EAU POUR PRIMAIRE ET MORTIERS",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Extrait sec"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabilisée avec des tensioactifs non ioniques"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Température de transition vitreuse (Tg)"
+        },
+        {
+          "value": "12 mois",
+          "label": "Conservation en emballage fermé"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dispersion acrylique à l'eau, stabilisée avec des tensioactifs non ioniques, qui agit comme primaire d'accrochage, fixateur consolidant et liant pour modifier les mélanges à base de ciment. Elle sèche en formant un film très élastique, très collant et résistant à l'alcalinité."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Faible absorption d'eau : elle forme un film en surface.",
+                "Apporte de l'élasticité et améliore l'adhérence sur les supports les plus variés.",
+                "Résistante aux alcalis et aux rayons UV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dispersion prête à l'emploi, diluable à l'eau selon la porosité du support. D'excellentes propriétés de pigmentation, elle peut être mélangée aux charges les plus variées."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Remuer avant utilisation. Si des peaux ou des grumeaux se sont formés pendant le stockage, filtrer ou tamiser la dispersion avant de l'appliquer."
+            },
+            {
+              "type": "p",
+              "text": "Selon la porosité, la nature et les caractéristiques du support, ainsi que les exigences du produit de finition, elle peut être diluée à l'eau du robinet jusqu'à 2/1."
+            },
+            {
+              "type": "p",
+              "text": "En cas de mélange avec des liants hydrauliques ou des charges, vérifier leur compatibilité dans chaque cas."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Liant pour mastics acryliques élastiques en pâte.",
+                "Liant pour mortiers flexibles et slurries d'étanchéité minéraux.",
+                "Formulation de systèmes de traitement des fissures et de composés barrière anti-humidité.",
+                "Imperméabilisation et autres applications avec des mélanges à base de ciment."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Confère élasticité et adhérence aux mélanges.",
+                "Résistance aux alcalis et aux rayons UV.",
+                "Bonne pigmentation et grande polyvalence en matière de charges.",
+                "Produit prêt à l'emploi, prêt à diluer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Produit non dangereux selon les directives de l'UE. Fiche de données de sécurité disponible sur demande.",
+                "Utilisation sans mesures de sécurité particulières, hormis les règles légales de santé au travail.",
+                "Maintenir les emballages ouverts parfaitement fermés.",
+                "Protéger du gel pendant le transport et le stockage.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Spécification",
+                  "rows": [
+                    {
+                      "key": "Extrait sec (DIN ISO 1625 ; 1 h ; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosité (DIN EN ISO 2555 ; broche 3 ; 20 min⁻¹ ; 23 °C)",
+                      "value": "3 000 ± 1 000 mPa·s"
+                    },
+                    {
+                      "key": "Valeur du pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Autres données (indicatives)",
+                  "rows": [
+                    {
+                      "key": "Stabilisation",
+                      "value": "Tensioactifs non ioniques"
+                    },
+                    {
+                      "key": "Taille des particules",
+                      "value": "Env. 0,5 µm"
+                    },
+                    {
+                      "key": "Température minimale de formation du film, TMFF (DIN ISO 2115)",
+                      "value": "Env. 0 °C"
+                    },
+                    {
+                      "key": "Masse volumique (ISO 8962)",
+                      "value": "Env. 1 g/cm³"
+                    },
+                    {
+                      "key": "Température de transition vitreuse Tg (DIN 53 765 ; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % HR)",
+                      "value": "Presque clair, très élastique et très collant"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Seaux de 5 kg et 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NOTES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les données indicatives servent à mieux caractériser le produit ; elles ne sont pas déterminées régulièrement et ne font pas partie de la spécification.",
+                "Film séché en climat normalisé à 23 °C et 50 % d'humidité relative (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Seau de 5 kg",
+                "Seau de 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à une température aussi constante que possible entre 5 et 25 °C et à l'abri du gel. La dispersion contient un conservateur ; dans les fûts ouverts ou les cuves de stockage, il est possible d'ajouter les conservateurs usuels des dispersions, après vérification de leur compatibilité, et de maintenir cuves et conduites propres."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Pur",
+                      "value": "Produit prêt à l'emploi, selon le support."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Dilution maximale à l'eau du robinet, selon la porosité."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Choisir la dilution selon la porosité et la nature du support et les exigences du produit de finition."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT PRIME GRIP ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Prime Grip",
+      "subtitle": "DISPERSIONE ACRILICA ALL'ACQUA PER PRIMER E MODIFICA DELLE MALTE",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Contenuto di solidi"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabilizzata con tensioattivi non ionici"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Temperatura di transizione vetrosa (Tg)"
+        },
+        {
+          "value": "12 mesi",
+          "label": "Conservazione nella confezione chiusa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dispersione acrilica all'acqua, stabilizzata con tensioattivi non ionici, che agisce come primer sigillante e consolidante e come legante per modificare le miscele a base cementizia. Essiccando forma un film altamente elastico, molto appiccicoso e resistente all'alcalinità."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bassa assorbenza d'acqua: forma un film superficiale.",
+                "Conferisce elasticità e migliora l'aderenza sui supporti più diversi.",
+                "Resistente agli alcali e ai raggi UV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dispersione pronta all'uso, diluibile con acqua in base alla porosità del supporto. Con buone proprietà di pigmentazione, può essere miscelata con le cariche più varie."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mescolare prima dell'uso. Se durante lo stoccaggio si sono formate pellicole o grumi, filtrare o setacciare la dispersione prima di applicarla."
+            },
+            {
+              "type": "p",
+              "text": "In base alla porosità, alla natura e alle caratteristiche del supporto, nonché ai requisiti del prodotto di finitura, può essere diluita con acqua di rubinetto fino a 2/1."
+            },
+            {
+              "type": "p",
+              "text": "Quando si miscela con leganti idraulici o cariche, verificarne di volta in volta la compatibilità."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Legante per sigillanti acrilici elastici in pasta.",
+                "Legante per malte flessibili e slurry sigillanti minerali.",
+                "Formulazione di sistemi di sigillatura delle crepe e di composti barriera antiumidità.",
+                "Impermeabilizzazione e altre applicazioni con miscele a base cementizia."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conferisce elasticità e aderenza alle miscele.",
+                "Resistenza agli alcali e ai raggi UV.",
+                "Buona pigmentazione e grande versatilità di cariche.",
+                "Prodotto pronto all'uso, pronto per la diluizione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non è un prodotto pericoloso ai sensi delle direttive UE. Scheda di dati di sicurezza disponibile su richiesta.",
+                "Utilizzo senza misure di sicurezza particolari, salvo le norme di legge sulla salute sul lavoro.",
+                "Mantenere ben chiusi i contenitori aperti.",
+                "Proteggere dal gelo durante il trasporto e lo stoccaggio.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Specifica",
+                  "rows": [
+                    {
+                      "key": "Contenuto di solidi (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosità (DIN EN ISO 2555; mandrino 3; 20 min⁻¹; 23 °C)",
+                      "value": "3.000 ± 1.000 mPa·s"
+                    },
+                    {
+                      "key": "Valore pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Altri dati (indicativi)",
+                  "rows": [
+                    {
+                      "key": "Stabilizzazione",
+                      "value": "Tensioattivi non ionici"
+                    },
+                    {
+                      "key": "Dimensione delle particelle",
+                      "value": "Circa 0,5 µm"
+                    },
+                    {
+                      "key": "Temperatura minima di formazione del film, TMFP (DIN ISO 2115)",
+                      "value": "Circa 0 °C"
+                    },
+                    {
+                      "key": "Massa volumica (ISO 8962)",
+                      "value": "Circa 1 g/cm³"
+                    },
+                    {
+                      "key": "Temperatura di transizione vetrosa Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % UR)",
+                      "value": "Quasi trasparente, molto elastico e molto appiccicoso"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Secchi da 5 kg e 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NOTE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I dati indicativi servono a caratterizzare meglio il prodotto; non vengono determinati regolarmente e non fanno parte della specifica.",
+                "Film essiccato in clima normalizzato a 23 °C e 50 % di umidità relativa (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Secchio da 5 kg",
+                "Secchio da 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, a una temperatura il più possibile uniforme tra 5 e 25 °C e al riparo dal gelo. La dispersione contiene conservante; nei fusti aperti o nei serbatoi di stoccaggio si possono aggiungere i conservanti abituali per dispersioni, verificandone la compatibilità, e mantenere puliti serbatoi e linee."
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puro",
+                      "value": "Prodotto pronto all'uso, in base al supporto."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Diluizione massima con acqua di rubinetto, in base alla porosità."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Scegliere la diluizione in base alla porosità e alla natura del supporto e ai requisiti del prodotto di finitura."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT PRIME GRIP NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Prime Grip",
+      "subtitle": "VANNBASERT AKRYLDISPERSJON FOR GRUNNING OG MODIFISERING AV MØRTLER",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Tørrstoffinnhold"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabilisert med ikke-ioniske tensider"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Glassovergangstemperatur (Tg)"
+        },
+        {
+          "value": "12 måneder",
+          "label": "Oppbevaring i uåpnet emballasje"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vannbasert akryldispersjon, stabilisert med ikke-ioniske tensider, som fungerer som forseglende og konsoliderende grunning og som bindemiddel for modifisering av sementbaserte blandinger. Tørker til en svært elastisk, meget klebrig og alkalibestandig film."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lavt vannopptak: danner en film på overflaten.",
+                "Gir elastisitet og bedrer heften på de mest ulike underlag.",
+                "Bestandig mot alkalier og UV-stråling."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESKRIVELSE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bruksferdig dispersjon som kan fortynnes med vann etter underlagets porøsitet. Har gode pigmenteringsegenskaper og kan blandes med de mest ulike fyllstoffene."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rør om før bruk. Hvis det har dannet seg hinner eller klumper under lagring, filtreres eller siles dispersjonen før påføring."
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av underlagets porøsitet, art og egenskaper, samt kravene til sluttproduktet, kan den fortynnes med vanlig springvann opptil 2/1."
+            },
+            {
+              "type": "p",
+              "text": "Ved blanding med hydrauliske bindemidler eller fyllstoffer må kompatibiliteten kontrolleres i hvert enkelt tilfelle."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bindemiddel til elastiske akrylfugemasser i pastaform.",
+                "Bindemiddel til fleksible mørtler og mineralske tettende slurries.",
+                "Formulering av systemer for sprekktetting og fuktsperrende forbindelser.",
+                "Tetting og andre bruksområder med sementbaserte blandinger."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Gir blandingene elastisitet og heft.",
+                "Bestandig mot alkalier og UV-stråling.",
+                "God pigmentering og stor allsidighet i fyllstoffer.",
+                "Bruksferdig produkt som kan fortynnes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ikke et farlig produkt i henhold til EUs direktiver. Sikkerhetsdatablad fås på forespørsel.",
+                "Brukes uten særlige verneinnretninger, utover lovpålagte arbeidsmiljøregler.",
+                "Åpnede beholdere må lukkes tett.",
+                "Beskyttes mot frost under transport og lagring.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Spesifikasjon",
+                  "rows": [
+                    {
+                      "key": "Tørrstoffinnhold (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskositet (DIN EN ISO 2555; spindel 3; 20 min⁻¹; 23 °C)",
+                      "value": "3 000 ± 1 000 mPa·s"
+                    },
+                    {
+                      "key": "pH-verdi (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Andre data (veiledende)",
+                  "rows": [
+                    {
+                      "key": "Stabilisering",
+                      "value": "Ikke-ioniske tensider"
+                    },
+                    {
+                      "key": "Partikkelstørrelse",
+                      "value": "Ca. 0,5 µm"
+                    },
+                    {
+                      "key": "Minste filmdannelsestemperatur, TMFP (DIN ISO 2115)",
+                      "value": "Ca. 0 °C"
+                    },
+                    {
+                      "key": "Densitet (ISO 8962)",
+                      "value": "Ca. 1 g/cm³"
+                    },
+                    {
+                      "key": "Glassovergangstemperatur Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % RF)",
+                      "value": "Nesten klar, svært elastisk og meget klebrig"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Bøtter på 5 kg og 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MERKNADER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "De veiledende dataene brukes til å karakterisere produktet nærmere; de bestemmes ikke regelmessig og er ikke en del av spesifikasjonen.",
+                "Film tørket under normalklima 23 °C og 50 % relativ luftfuktighet (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bøtte på 5 kg",
+                "Bøtte på 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, ved en så jevn temperatur som mulig mellom 5 og 25 °C og beskyttet mot frost. Dispersjonen inneholder konserveringsmiddel; i åpne fat eller lagertanker kan de vanlige konserveringsmidlene for dispersjoner tilsettes etter at kompatibiliteten er kontrollert, og tanker og ledninger holdes rene."
+            }
+          ]
+        },
+        {
+          "title": "FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ren",
+                      "value": "Bruksferdig produkt, avhengig av underlaget."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Maksimal fortynning med vanlig springvann, avhengig av porøsitet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Velg fortynning etter underlagets porøsitet og art og kravene til sluttproduktet."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT PRIME GRIP POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Prime Grip",
+      "subtitle": "DYSPERSJA AKRYLOWA NA BAZIE WODY DO GRUNTOWANIA I MODYFIKACJI ZAPRAW",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "Zawartość części stałych"
+        },
+        {
+          "value": "pH 8",
+          "label": "Stabilizowana niejonowymi środkami powierzchniowo czynnymi"
+        },
+        {
+          "value": "< -65 °C",
+          "label": "Temperatura zeszklenia (Tg)"
+        },
+        {
+          "value": "12 miesięcy",
+          "label": "Przechowywanie w zamkniętym opakowaniu"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dyspersja akrylowa na bazie wody, stabilizowana niejonowymi środkami powierzchniowo czynnymi, działająca jako grunt uszczelniająco-wzmacniający oraz jako spoiwo do modyfikacji mieszanek na bazie cementu. Po wyschnięciu tworzy bardzo elastyczną, silnie lepką powłokę odporną na alkalia."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Niska nasiąkliwość: tworzy powłokę powierzchniową.",
+                "Nadaje elastyczność i poprawia przyczepność do bardzo różnych podłoży.",
+                "Odporna na alkalia i promieniowanie UV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dyspersja gotowa do użycia, rozcieńczalna wodą w zależności od porowatości podłoża. Ma dobre właściwości pigmentacyjne i można ją mieszać z bardzo różnymi wypełniaczami."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przed użyciem wymieszać. Jeśli podczas przechowywania utworzyły się kożuch lub grudki, przed aplikacją dyspersję przefiltrować lub przesiać."
+            },
+            {
+              "type": "p",
+              "text": "W zależności od porowatości, rodzaju i właściwości podłoża oraz wymagań produktu wykończeniowego można ją rozcieńczać zwykłą wodą do 2/1."
+            },
+            {
+              "type": "p",
+              "text": "Przy mieszaniu ze spoiwami hydraulicznymi lub wypełniaczami każdorazowo sprawdzić ich zgodność."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Spoiwo do elastycznych akrylowych mas uszczelniających w paście.",
+                "Spoiwo do zapraw elastycznych i mineralnych szlam uszczelniających.",
+                "Formułowanie systemów do uszczelniania rys oraz kompozycji stanowiących barierę przeciwwilgociową.",
+                "Hydroizolacje i inne zastosowania z mieszankami na bazie cementu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nadaje mieszankom elastyczność i przyczepność.",
+                "Odporność na alkalia i promieniowanie UV.",
+                "Dobra pigmentacja i duża uniwersalność pod względem wypełniaczy.",
+                "Produkt gotowy do użycia, do rozcieńczenia."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie jest produktem niebezpiecznym zgodnie z dyrektywami UE. Karta charakterystyki dostępna na życzenie.",
+                "Stosować bez szczególnych środków bezpieczeństwa, z wyjątkiem przepisów prawnych dotyczących ochrony zdrowia w miejscu pracy.",
+                "Otwarte opakowania szczelnie zamykać.",
+                "Chronić przed mrozem podczas transportu i przechowywania.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Specyfikacja",
+                  "rows": [
+                    {
+                      "key": "Zawartość części stałych (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Lepkość (DIN EN ISO 2555; wrzeciono 3; 20 min⁻¹; 23 °C)",
+                      "value": "3 000 ± 1 000 mPa·s"
+                    },
+                    {
+                      "key": "Wartość pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pozostałe dane (orientacyjne)",
+                  "rows": [
+                    {
+                      "key": "Stabilizacja",
+                      "value": "Niejonowe środki powierzchniowo czynne"
+                    },
+                    {
+                      "key": "Wielkość cząstek",
+                      "value": "Ok. 0,5 µm"
+                    },
+                    {
+                      "key": "Minimalna temperatura tworzenia filmu, TMFP (DIN ISO 2115)",
+                      "value": "Ok. 0 °C"
+                    },
+                    {
+                      "key": "Gęstość (ISO 8962)",
+                      "value": "Ok. 1 g/cm³"
+                    },
+                    {
+                      "key": "Temperatura zeszklenia Tg (DIN 53 765; DSC)",
+                      "value": "< -65 °C"
+                    },
+                    {
+                      "key": "Film (23 °C, 50 % wilgotności wzgl.)",
+                      "value": "Prawie przezroczysty, bardzo elastyczny i bardzo lepki"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Wiadra 5 kg i 10 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UWAGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dane orientacyjne służą do lepszej charakterystyki produktu; nie są oznaczane regularnie i nie stanowią części specyfikacji.",
+                "Film wysuszony w znormalizowanych warunkach klimatycznych: 23 °C i 50 % wilgotności względnej (DIN EN 23270)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Wiadro 5 kg",
+                "Wiadro 10 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, w temperaturze możliwie stałej w zakresie od 5 do 25 °C i chronione przed mrozem. Dyspersja zawiera środek konserwujący; w otwartych beczkach lub zbiornikach magazynowych można dodać standardowe konserwanty do dyspersji, sprawdzając ich zgodność, oraz utrzymywać zbiorniki i przewody w czystości."
+            }
+          ]
+        },
+        {
+          "title": "ROZCIEŃCZENIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Czysty",
+                      "value": "Produkt gotowy do użycia, w zależności od podłoża."
+                    },
+                    {
+                      "key": "2/1",
+                      "value": "Maksymalne rozcieńczenie zwykłą wodą, w zależności od porowatości."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Rozcieńczenie dobrać w zależności od porowatości i rodzaju podłoża oraz wymagań produktu wykończeniowego."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

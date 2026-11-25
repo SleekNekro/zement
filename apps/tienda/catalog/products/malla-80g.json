@@ -1,0 +1,1351 @@
+{
+  "key": "malla-80g",
+  "source": "MALLA 80G",
+  "languages": {
+    "de": {
+      "file": "MALLA 80G ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Malla 80G",
+      "subtitle": "GLASFASERGEWEBE ZUR ARMIERUNG VON MIKROZEMENT-SYSTEMEN",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Maschenweite"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Gewicht"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Zugfestigkeit Kette (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rolle"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Weißes Glasfasergewebe, 5 × 5 mm und 80 g/m², als Armierung im Mikrozement-Auftragssystem."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wird auf Mikrozement, Polystyrolplatten, fugenlosen Bodenbelägen, Marmor und weiteren Untergründen eingelegt.",
+                "Lieferung in Rollen à 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hohe mechanische Festigkeit und Bruchdehnung.",
+                "Alkalibeständig.",
+                "Leicht und flexibel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gewebe",
+                  "rows": [
+                    {
+                      "key": "Material",
+                      "value": "Glasfaser"
+                    },
+                    {
+                      "key": "Maschenweite",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Gewicht",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Farbe",
+                      "value": "Weiß"
+                    },
+                    {
+                      "key": "Zugfestigkeit Kette",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Zugfestigkeit Schuss",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rolle 50 m × 1 m Breite"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Spezialarmierung für alle Arten von Gipsarbeiten; am häufigsten bei Innenwänden, Flächen und kritischen Stellen im Einsatz.",
+                "Verringert das Risiko von Rissbildung erheblich."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Glasfasergewebe armieren kritische Stellen am Bau, an denen sich Spannungen aufbauen und Risse in der Beschichtung entstehen können."
+            },
+            {
+              "type": "p",
+              "text": "Einzulegen an Bewegungsfugen, Übergängen zwischen verschiedenen Materialien, Stürzen, Geschossdecken …"
+            },
+            {
+              "type": "p",
+              "text": "Das Gewebe in der Mitte der Beschichtungsdicke platzieren: weder zu nah am Untergrund noch zu nah an der Oberfläche."
+            }
+          ]
+        },
+        {
+          "title": "EINBAU",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Lage",
+                      "value": "Mitte der Beschichtungsdicke."
+                    },
+                    {
+                      "key": "Anschlüsse",
+                      "value": "Je Material mind. 20 cm überdecken."
+                    },
+                    {
+                      "key": "Überlappung",
+                      "value": "5-10 cm zwischen Bahnen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "An Fugen, Stürzen und Geschossdecken einsetzen."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "en": {
+      "file": "MALLA 80G INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Malla 80G",
+      "subtitle": "FIBERGLASS MESH FOR REINFORCING MICROCEMENT SYSTEMS",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Mesh size"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Weight"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Warp strength (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Roll"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "White fiberglass mesh, 5 × 5 mm and 80 g/m², used to reinforce the microcement application system."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Applied over microcements, polystyrene boards, continuous floors, marble and other materials.",
+                "Supplied in rolls of 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "High mechanical strength and elongation at break.",
+                "Alkali-resistant.",
+                "Lightweight and flexible."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mesh",
+                  "rows": [
+                    {
+                      "key": "Material",
+                      "value": "Fiberglass"
+                    },
+                    {
+                      "key": "Mesh size",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Weight",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Color",
+                      "value": "White"
+                    },
+                    {
+                      "key": "Warp strength",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Weft strength",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Roll of 50 m × 1 m wide"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Special reinforcement for all kinds of plasterwork; the most widely used mesh on interior walls, surfaces and critical points.",
+                "Considerably reduces the risk of cracking."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DIRECTIONS FOR USE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Fiberglass meshes reinforce the critical points of a building where stresses build up and can cause cracks in the coating."
+            },
+            {
+              "type": "p",
+              "text": "Place them over structural joints, junctions between different materials, lintels, slabs…"
+            },
+            {
+              "type": "p",
+              "text": "Position the mesh at the center of the coating thickness: neither too close to the substrate nor to the outer surface."
+            }
+          ]
+        },
+        {
+          "title": "PLACEMENT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Position",
+                      "value": "Center of the coating thickness."
+                    },
+                    {
+                      "key": "Junctions",
+                      "value": "Cover min. 20 cm of each material."
+                    },
+                    {
+                      "key": "Overlaps",
+                      "value": "5-10 cm between meshes."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Apply over joints, lintels and slabs."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "es": {
+      "file": "MALLA 80G ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Malla 80G",
+      "subtitle": "MALLA DE FIBRA DE VIDRIO PARA REFORZAR SISTEMAS DE MICROCEMENTO",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Luz de malla"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Peso"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Resistencia urdimbre (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rollo"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Malla de fibra de vidrio blanca, de 5 × 5 mm y 80 g/m², empleada como refuerzo del sistema de aplicación de microcemento."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Se coloca sobre microcementos, planchas de poliestireno, pavimentos continuos, mármol y otros materiales.",
+                "Suministro en rollos de 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Gran resistencia mecánica y alargamiento a la rotura.",
+                "Inalterable a los álcalis.",
+                "Ligera y flexible."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Malla",
+                  "rows": [
+                    {
+                      "key": "Material",
+                      "value": "Fibra de vidrio"
+                    },
+                    {
+                      "key": "Luz de malla",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Peso",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Color",
+                      "value": "Blanco"
+                    },
+                    {
+                      "key": "Resistencia urdimbre",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Resistencia trama",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rollo de 50 m × 1 m de ancho"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Refuerzo especial para todo tipo de trabajos con yeso; es la más utilizada en paredes interiores, superficies y puntos singulares.",
+                "Reduce considerablemente el riesgo de fisuración."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MODO DE EMPLEO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Las mallas de fibra de vidrio refuerzan los puntos singulares de la construcción que acumulan tensiones y pueden provocar fisuras en el revestimiento."
+            },
+            {
+              "type": "p",
+              "text": "Colocarlas en juntas estructurales, uniones entre distintos materiales, dinteles, forjados…"
+            },
+            {
+              "type": "p",
+              "text": "Situar la malla en el centro del espesor del revestimiento: ni demasiado cerca del soporte ni de la superficie exterior."
+            }
+          ]
+        },
+        {
+          "title": "COLOCACIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Posición",
+                      "value": "Centro del espesor del revestimiento."
+                    },
+                    {
+                      "key": "Uniones",
+                      "value": "Cubrir mín. 20 cm de cada material."
+                    },
+                    {
+                      "key": "Solapes",
+                      "value": "5-10 cm entre mallas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Aplicar en juntas, dinteles y forjados."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fi": {
+      "file": "MALLA 80G FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Malla 80G",
+      "subtitle": "LASIKUITUVERKKO MIKROSEMENTTIJÄRJESTELMIEN VAHVISTAMISEEN",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Silmäkoko"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Paino"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Loimen vetolujuus (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rulla"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Valkoinen lasikuituverkko, silmäkoko 5 × 5 mm ja paino 80 g/m², käytetään mikrosementin levitysjärjestelmän vahvisteena."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Asennetaan mikrosementtien, polystyreenilevyjen, saumattomien lattioiden, marmorin ja muiden materiaalien päälle.",
+                "Toimitetaan 50 m × 1 m:n rulliin."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Suuri mekaaninen lujuus ja murtovenymä.",
+                "Alkalinkestävä.",
+                "Kevyt ja joustava."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Verkko",
+                  "rows": [
+                    {
+                      "key": "Materiaali",
+                      "value": "Lasikuitu"
+                    },
+                    {
+                      "key": "Silmäkoko",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Paino",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Väri",
+                      "value": "Valkoinen"
+                    },
+                    {
+                      "key": "Loimen vetolujuus",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Kuteen vetolujuus",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rulla, 50 m × 1 m (leveys)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Erityisvahviste kaikenlaisiin rappaustöihin; yleisimmin käytetty sisäseinissä, pinnoilla ja kriittisissä kohdissa.",
+                "Vähentää merkittävästi halkeiluriskiä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖOHJE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lasikuituverkot vahvistavat rakenteen kriittisiä kohtia, joihin jännitykset kasautuvat ja jotka voivat aiheuttaa halkeamia pinnoitteeseen."
+            },
+            {
+              "type": "p",
+              "text": "Asenna rakenteellisiin saumoihin, eri materiaalien liitoskohtiin, ovi- ja ikkunapalkkeihin, välipohjiin…"
+            },
+            {
+              "type": "p",
+              "text": "Sijoita verkko pinnoitteen paksuuden keskelle: ei liian lähelle alustaa eikä ulkopintaa."
+            }
+          ]
+        },
+        {
+          "title": "ASENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Sijainti",
+                      "value": "Pinnoitteen paksuuden keskellä."
+                    },
+                    {
+                      "key": "Liitokset",
+                      "value": "Peitä väh. 20 cm kumpaakin materiaalia."
+                    },
+                    {
+                      "key": "Limitys",
+                      "value": "5–10 cm verkkojen välillä."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Asenna saumoihin, ovi- ja ikkunapalkkeihin sekä välipohjiin."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fr": {
+      "file": "MALLA 80G FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Malla 80G",
+      "subtitle": "TREILLIS EN FIBRE DE VERRE POUR RENFORCER LE MICROCIMENT",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Taille des mailles"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Poids"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Résistance chaîne (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rouleau"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Treillis en fibre de verre blanc, de 5 × 5 mm et 80 g/m², utilisé comme renforcement du système d'application de microciment."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Se pose sur microciments, panneaux de polystyrène, sols continus, marbre et autres matériaux.",
+                "Fourni en rouleaux de 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Grande résistance mécanique et allongement à la rupture.",
+                "Inaltérable aux alcalis.",
+                "Léger et souple."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Treillis",
+                  "rows": [
+                    {
+                      "key": "Matériau",
+                      "value": "Fibre de verre"
+                    },
+                    {
+                      "key": "Taille des mailles",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Poids",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Couleur",
+                      "value": "Blanc"
+                    },
+                    {
+                      "key": "Résistance chaîne",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Résistance trame",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rouleau de 50 m × 1 m de large"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Renfort spécial pour tous types de travaux de plâtrerie ; c'est le plus utilisé sur les murs intérieurs, les surfaces et les points singuliers.",
+                "Réduit considérablement le risque de fissuration."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MODE D'EMPLOI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Les treillis en fibre de verre renforcent les points singuliers de la construction qui accumulent des tensions et peuvent provoquer des fissures dans le revêtement."
+            },
+            {
+              "type": "p",
+              "text": "À poser sur les joints de structure, les jonctions entre matériaux différents, les linteaux, les planchers…"
+            },
+            {
+              "type": "p",
+              "text": "Placer le treillis au milieu de l'épaisseur du revêtement : ni trop près du support ni de la surface extérieure."
+            }
+          ]
+        },
+        {
+          "title": "POSE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Position",
+                      "value": "Milieu de l'épaisseur du revêtement."
+                    },
+                    {
+                      "key": "Jonctions",
+                      "value": "Couvrir min. 20 cm de chaque matériau."
+                    },
+                    {
+                      "key": "Recouvrement",
+                      "value": "5-10 cm entre treillis."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "À appliquer sur joints, linteaux et planchers."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "it": {
+      "file": "MALLA 80G ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Malla 80G",
+      "subtitle": "RETE IN FIBRA DI VETRO PER RINFORZARE I SISTEMI DI MICROCEMENTO",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Maglia"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Peso"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Resistenza ordito (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rotolo"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Rete in fibra di vetro bianca, da 5 × 5 mm e 80 g/m², utilizzata come rinforzo nel sistema di applicazione del microcemento."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Si posiziona su microcementi, pannelli di polistirene, pavimenti continui, marmo e altri materiali.",
+                "Fornita in rotoli da 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Elevata resistenza meccanica e allungamento a rottura.",
+                "Inalterabile agli alcali.",
+                "Leggera e flessibile."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Rete",
+                  "rows": [
+                    {
+                      "key": "Materiale",
+                      "value": "Fibra di vetro"
+                    },
+                    {
+                      "key": "Maglia",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Peso",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Colore",
+                      "value": "Bianco"
+                    },
+                    {
+                      "key": "Resistenza ordito",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Resistenza trama",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rotolo da 50 m × 1 m di larghezza"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rinforzo speciale per ogni tipo di lavori in gesso; è la più utilizzata su pareti interne, superfici e punti singolari.",
+                "Riduce notevolmente il rischio di fessurazione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MODALITÀ D'USO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le reti in fibra di vetro rinforzano i punti singolari della costruzione che accumulano tensioni e possono causare fessure nel rivestimento."
+            },
+            {
+              "type": "p",
+              "text": "Posizionarle su giunti strutturali, unioni tra materiali diversi, architravi, solai…"
+            },
+            {
+              "type": "p",
+              "text": "Collocare la rete al centro dello spessore del rivestimento: né troppo vicina al supporto né alla superficie esterna."
+            }
+          ]
+        },
+        {
+          "title": "POSA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Posizione",
+                      "value": "Al centro dello spessore del rivestimento."
+                    },
+                    {
+                      "key": "Unioni",
+                      "value": "Coprire min. 20 cm per ogni materiale."
+                    },
+                    {
+                      "key": "Sormonti",
+                      "value": "5-10 cm tra le reti."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Applicare su giunti, architravi e solai."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "no": {
+      "file": "MALLA 80G NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Malla 80G",
+      "subtitle": "GLASSFIBERNETT FOR ARMERING AV MIKROSEMENTSYSTEMER",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Maskevidde"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Vekt"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Trekkstyrke renning (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rull"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Hvitt glassfibernett, 5 × 5 mm og 80 g/m², brukt som armering i påføringssystemet for mikrosement."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Legges på mikrosement, polystyrenplater, sammenhengende gulv, marmor og andre materialer.",
+                "Leveres i ruller på 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Høy mekanisk styrke og bruddforlengelse.",
+                "Alkalibestandig.",
+                "Lett og fleksibelt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Nett",
+                  "rows": [
+                    {
+                      "key": "Materiale",
+                      "value": "Glassfiber"
+                    },
+                    {
+                      "key": "Maskevidde",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Vekt",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Farge",
+                      "value": "Hvit"
+                    },
+                    {
+                      "key": "Trekkstyrke renning",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Trekkstyrke islett",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rull på 50 m × 1 m bredde"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Spesialarmering til alle typer gipsarbeider; mest brukt på innvendige vegger, flater og utsatte punkter.",
+                "Reduserer risikoen for sprekkdannelse betydelig."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUKSANVISNING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Glassfibernett forsterker utsatte punkter i konstruksjonen der spenninger bygger seg opp og kan gi sprekker i beleggene."
+            },
+            {
+              "type": "p",
+              "text": "Legges i konstruksjonsfuger, overganger mellom ulike materialer, overliggere, etasjeskillere …"
+            },
+            {
+              "type": "p",
+              "text": "Plasser nettet midt i beleggets tykkelse: verken for nær underlaget eller for nær overflaten."
+            }
+          ]
+        },
+        {
+          "title": "PLASSERING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Plassering",
+                      "value": "Midt i beleggets tykkelse."
+                    },
+                    {
+                      "key": "Overganger",
+                      "value": "Dekk min. 20 cm av hvert materiale."
+                    },
+                    {
+                      "key": "Overlapp",
+                      "value": "5-10 cm mellom nettene."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Brukes i fuger, over overliggere og etasjeskillere."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "pl": {
+      "file": "MALLA 80G POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Malla 80G",
+      "subtitle": "SIATKA Z WŁÓKNA SZKLANEGO DO WZMACNIANIA MIKROCEMENTU",
+      "stats": [
+        {
+          "value": "5 × 5 mm",
+          "label": "Oczko siatki"
+        },
+        {
+          "value": "80 g/m²",
+          "label": "Gramatura"
+        },
+        {
+          "value": "> 750 N",
+          "label": "Wytrzym. osnowy (50 mm)"
+        },
+        {
+          "value": "50 m × 1 m",
+          "label": "Rolka"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Biała siatka z włókna szklanego, 5 × 5 mm i 80 g/m², stosowana jako zbrojenie systemu aplikacji mikrocementu."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Układa się ją na mikrocementach, płytach styropianowych, posadzkach bezspoinowych, marmurze i innych materiałach.",
+                "Dostarczana w rolkach 50 m × 1 m."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wysoka wytrzymałość mechaniczna i wydłużenie przy zerwaniu.",
+                "Odporna na działanie zasad.",
+                "Lekka i elastyczna."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Siatka",
+                  "rows": [
+                    {
+                      "key": "Materiał",
+                      "value": "Włókno szklane"
+                    },
+                    {
+                      "key": "Oczko siatki",
+                      "value": "5 × 5 mm"
+                    },
+                    {
+                      "key": "Gramatura",
+                      "value": "80 g/m²"
+                    },
+                    {
+                      "key": "Kolor",
+                      "value": "Biały"
+                    },
+                    {
+                      "key": "Wytrzymałość osnowy",
+                      "value": "> 750 N/50 mm"
+                    },
+                    {
+                      "key": "Wytrzymałość wątku",
+                      "value": "> 850 N/50 mm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Malla 80G",
+                "Rolka 50 m × 1 m szerokości"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Specjalne zbrojenie do wszelkiego rodzaju prac tynkarskich; najczęściej stosowana na ścianach wewnętrznych, powierzchniach i w miejscach szczególnych.",
+                "Znacznie zmniejsza ryzyko powstawania pęknięć."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPOSÓB UŻYCIA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Siatki z włókna szklanego wzmacniają miejsca szczególne konstrukcji, w których kumulują się naprężenia i mogą powstawać pęknięcia powłoki."
+            },
+            {
+              "type": "p",
+              "text": "Układać je na dylatacjach konstrukcyjnych, połączeniach różnych materiałów, nadprożach, stropach…"
+            },
+            {
+              "type": "p",
+              "text": "Siatkę umieścić w połowie grubości powłoki: ani zbyt blisko podłoża, ani zbyt blisko powierzchni zewnętrznej."
+            }
+          ]
+        },
+        {
+          "title": "UKŁADANIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Pozycja",
+                      "value": "Środek grubości powłoki."
+                    },
+                    {
+                      "key": "Połączenia",
+                      "value": "Zakryć min. 20 cm każdego materiału."
+                    },
+                    {
+                      "key": "Zakłady",
+                      "value": "5-10 cm między siatkami."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Stosować na dylatacjach, nadprożach i stropach."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    }
+  },
+  "images": []
+}

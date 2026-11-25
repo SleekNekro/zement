@@ -1,0 +1,2087 @@
+{
+  "key": "protect-aqua-2k",
+  "source": "PROTECT AQUA 2K",
+  "languages": {
+    "de": {
+      "file": "PROTECT AQUA 2K ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "WASSERBASIERTER ALIPHATISCHER ZWEIKOMPONENTEN-ACRYLLACK",
+      "stats": [
+        {
+          "value": "1 Std.",
+          "label": "Grifffest"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Ergiebigkeit je Untergrund"
+        },
+        {
+          "value": "120 µm",
+          "label": "Mindestschichtdicke"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Verdünnung mit Wasser"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wasserbasierter Zweikomponenten-Lack auf Basis von aliphatischem Acryl zum Lackieren von Böden und Beschichtungen im Innen- und Außenbereich. Dekorative Endbeschichtung begehbarer Böden, hoch beständig und für stark beanspruchte Flächen geeignet."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Matt, seidenmatt oder glänzend.",
+                "Aliphatisch: vergilbt nicht und ist außen beständig.",
+                "Gute Frostbeständigkeit und hohe Belastbarkeit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Endbeschichtung von neuen oder zu sanierenden Böden aus geglättetem Beton, Fließestrichen, Mikrozementen und Prägebeton.",
+                "Auf stark saugenden Untergründen zuvor mit der Porenversiegelungsgrundierung versiegeln."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUNDVORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Die Oberfläche muss ebenflächig, sauber und frei von Staub, Fett und Fremdstoffen sowie einwandfrei tragfähig sein (mind. 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Haftung auf sauberen, trockenen, porösen Oberflächen."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bis zur vollständigen Homogenisierung aufrühren, von Hand oder mit einem Rührwerk bei niedriger Drehzahl, damit das Material nicht schäumt."
+            },
+            {
+              "type": "p",
+              "text": "Passt sich der Beschaffenheit des Untergrunds an und vereinheitlicht die Oberfläche mit einem matten Finish."
+            },
+            {
+              "type": "p",
+              "text": "Bei einer zweiten Schicht zuvor prüfen, ob die vorherige vollständig trocken ist."
+            }
+          ]
+        },
+        {
+          "title": "TROCKNUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Grifffest nach 1 Stunde. Jede Schicht trocknet in ca. 24 Stunden, je nach Temperatur und relativer Luftfeuchtigkeit. Überlackierbar nach 6 Stunden."
+            },
+            {
+              "type": "p",
+              "text": "Die behandelte Fläche während der Trocknung nicht benetzen und nicht nutzen. Sehr gute Verseifungsbeständigkeit nach 15 Tagen Trocknung."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nicht bei Kälte oder Regen verarbeiten. Verarbeitung und Aushärtung bei 6 bis 35 °C.",
+                "Unter normalen Handhabungsbedingungen weder giftig noch entzündbar. Etikett und Sicherheitsdatenblatt beachten."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponente A (Lack)",
+                  "rows": [
+                    {
+                      "key": "Spezifisches Gewicht",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, seidenmatt und glänzend"
+                    },
+                    {
+                      "key": "Außenbereich und Vergilbung",
+                      "value": "Aliphatisch; vergilbt nicht"
+                    },
+                    {
+                      "key": "Frostbeständigkeit und Belastbarkeit",
+                      "value": "Gut / hoch"
+                    },
+                    {
+                      "key": "Verseifungsbeständigkeit",
+                      "value": "Sehr gut (15 Tage Trocknung)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Grifffest",
+                      "value": "1 Std."
+                    },
+                    {
+                      "key": "Überlackierbar",
+                      "value": "Nach 6 Std. (Trocknung je Schicht: ca. 24 Std.)"
+                    },
+                    {
+                      "key": "Mindestschichtdicke",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Ergiebigkeit",
+                      "value": "8-12 m²/kg, je nach Untergrund"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "6 bis 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponente B (Katalysator)",
+                  "rows": [
+                    {
+                      "key": "Aussehen",
+                      "value": "Transparent"
+                    },
+                    {
+                      "key": "Dichte",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Mischungsanteil",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Komponente A 3 kg + Komponente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponente A: 3 kg",
+                "Komponente B (Katalysator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zwischen 5 und 40 °C in der Originalverpackung. Nicht länger als 12 Monate lagern."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG UND VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Katalysator",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Verdünnung",
+                      "value": "15 bis 30 % mit Wasser, je nach Untergrund und gewünschtem Ergebnis."
+                    },
+                    {
+                      "key": "Ergiebigkeit",
+                      "value": "8-12 m²/kg, je nach Untergrund."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vor Gebrauch stets aufrühren."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "PROTECT AQUA 2K INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "TWO-COMPONENT WATER-BASED ALIPHATIC ACRYLIC VARNISH",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Touch-dry"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Coverage, depending on substrate"
+        },
+        {
+          "value": "120 µm",
+          "label": "Minimum coat thickness"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Thinning with water"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Water-based, two-component aliphatic acrylic varnish, developed for varnishing floors and coatings indoors and outdoors. Decorative finish for walkable floors, with high resistance and suitable for heavy traffic."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Matt, satin or gloss finish.",
+                "Aliphatic: non-yellowing and stable outdoors.",
+                "Good frost stability and high traffic resistance."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finish for new or refurbished floors of trowelled concrete, self-levelling screeds, microcements and stamped concrete.",
+                "On highly absorbent substrates, seal first with the pore-sealing primer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The surface must be levelled, clean and free of dust, grease and foreign matter, and perfectly sound (minimum 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Adhesion on clean, dry porous surfaces."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Stir until perfectly homogeneous, by hand or with a mechanical mixer at low speed to avoid foaming the material."
+            },
+            {
+              "type": "p",
+              "text": "It follows the texture of the substrate and unifies the surface with a matt finish."
+            },
+            {
+              "type": "p",
+              "text": "If a second coat is applied, first check that the previous one is completely dry."
+            }
+          ]
+        },
+        {
+          "title": "DRYING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Touch-dry: 1 hour. Each coat dries in about 24 hours, depending on temperature and relative humidity. Recoatable after 6 hours."
+            },
+            {
+              "type": "p",
+              "text": "Do not wet or open the treated area to use during drying. Very good saponification (alkali) resistance after 15 days of drying."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not apply in cold or rainy weather. Application and curing between 6 and 35 °C.",
+                "Non-toxic and non-flammable under normal handling conditions. Follow the label and the Safety Data Sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Component A (varnish)",
+                  "rows": [
+                    {
+                      "key": "Specific weight",
+                      "value": "1.03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, satin and gloss"
+                    },
+                    {
+                      "key": "Outdoors and yellowing",
+                      "value": "Aliphatic; non-yellowing"
+                    },
+                    {
+                      "key": "Frost and traffic stability",
+                      "value": "Good / high"
+                    },
+                    {
+                      "key": "Saponification resistance",
+                      "value": "Very good (15 days of drying)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Touch-dry",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Recoating",
+                      "value": "After 6 h (drying per coat: approx. 24 h)"
+                    },
+                    {
+                      "key": "Minimum coat thickness",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "8-12 m²/kg, depending on substrate"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "6 to 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Component B (catalyst)",
+                  "rows": [
+                    {
+                      "key": "Appearance",
+                      "value": "Transparent"
+                    },
+                    {
+                      "key": "Density",
+                      "value": "≈ 1.145 g/cm³"
+                    },
+                    {
+                      "key": "Ratio",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "Component A 3 kg + component B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Component A: 3 kg",
+                "Component B (catalyst): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Between 5 and 40 °C in its original packaging. Do not store for more than 12 months."
+            }
+          ]
+        },
+        {
+          "title": "MIXING AND THINNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Catalyst",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Thinning",
+                      "value": "15 to 30 % with water, depending on the substrate and the result required."
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "8-12 m²/kg, depending on substrate."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Always stir before use."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "PROTECT AQUA 2K ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "BARNIZ ACRÍLICO ALIFÁTICO BICOMPONENTE AL AGUA",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Secado al tacto"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Rendimiento según soporte"
+        },
+        {
+          "value": "120 µm",
+          "label": "Espesor mínimo de capa"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Dilución con agua"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Barniz de base acuosa, de naturaleza acrílica alifática y dos componentes, desarrollado para barnizar pavimentos y revestimientos en interior y exterior. Acabado decorativo de pavimentos transitables, de alta resistencia y alto tráfico."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Acabado mate, satinado o brillo.",
+                "Alifático: no amarillea y es estable en exterior.",
+                "Buena estabilidad a las heladas y alta al tránsito."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Acabado de pavimentos nuevos o rehabilitación de hormigón fratasado, autonivelantes, microcementos y hormigón impreso.",
+                "En soportes muy absorbentes, sellar antes con la imprimación tapaporos."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DEL SOPORTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie debe estar regularizada, limpia y libre de polvo, grasa y sustancias extrañas, y perfectamente cohesionada (mínimo 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Adherencia sobre superficies porosas limpias y secas."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Agitar hasta su perfecta homogeneización, a mano o con mezclador mecánico a bajas revoluciones para no espumar el material."
+            },
+            {
+              "type": "p",
+              "text": "Se adapta a la fisonomía del soporte y unifica la superficie con un acabado mate."
+            },
+            {
+              "type": "p",
+              "text": "Si se aplica una segunda capa, comprobar antes que la anterior esté completamente seca."
+            }
+          ]
+        },
+        {
+          "title": "SECADO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Secado al tacto: 1 hora. Cada capa seca en unas 24 horas, según la temperatura y la humedad relativa. Repintable a partir de las 6 horas."
+            },
+            {
+              "type": "p",
+              "text": "No mojar ni abrir al uso la zona tratada durante el secado. Resistencia a la saponificación muy buena tras 15 días de secado."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No aplicar con frío ni lluvia. Aplicación y curado entre 6 y 35 °C.",
+                "No tóxico ni inflamable en condiciones normales de manipulación. Seguir la etiqueta y la Ficha de Datos de Seguridad."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (barniz)",
+                  "rows": [
+                    {
+                      "key": "Peso específico",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Acabado",
+                      "value": "Mate, satinado y brillo"
+                    },
+                    {
+                      "key": "Exterior y amarilleo",
+                      "value": "Alifático; no amarillea"
+                    },
+                    {
+                      "key": "Estabilidad a heladas y tránsito",
+                      "value": "Buena / alta"
+                    },
+                    {
+                      "key": "Resistencia a la saponificación",
+                      "value": "Muy buena (15 días de secado)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Secado al tacto",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Repintado",
+                      "value": "A partir de 6 h (secado por capa: 24 h aprox.)"
+                    },
+                    {
+                      "key": "Espesor mínimo de capa",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "8-12 m²/kg, según soporte"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "6 a 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (catalizador)",
+                  "rows": [
+                    {
+                      "key": "Aspecto",
+                      "value": "Transparente"
+                    },
+                    {
+                      "key": "Densidad",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Proporción",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 3 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 3 kg",
+                "Componente B (catalizador): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 y 40 °C en su envase original. No almacenar más de 12 meses."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA Y DILUCIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Catalizador",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Dilución",
+                      "value": "15 a 30 % con agua, según el soporte y el resultado requerido."
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "8-12 m²/kg, según soporte."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Agitar siempre antes de usar."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "PROTECT AQUA 2K FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "VESIPOHJAINEN KAKSIKOMPONENTTINEN ALIFAATTINEN AKRYYLILAKKA",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Kosketuskuiva"
+        },
+        {
+          "value": "8–12 m²/kg",
+          "label": "Kate alustan mukaan"
+        },
+        {
+          "value": "120 µm",
+          "label": "Kerroksen vähimmäispaksuus"
+        },
+        {
+          "value": "15–30 %",
+          "label": "Laimennus vedellä"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen, alifaattinen kaksikomponenttinen akryylilakka lattioiden ja pinnoitteiden lakkaamiseen sisä-ja ulkotiloissa. Koristeellinen, erittäin kestävä pintakäsittely runsaasti liikennöidyille lattioille."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Matta, puolikiiltävä tai kiiltävä pinta.",
+                "Alifaattinen: ei kellastu ja kestää ulkokäytön.",
+                "Hyvä pakkasenkestävyys ja korkea liikennekestävyys."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Uusien lattioiden pintakäsittely tai kunnostus: hierretty betoni, itsetasoittuvat massat, mikrosementit ja kuviobetoni.",
+                "Hyvin imevillä alustoilla tiivistä ensin huokostukkivalla pohjusteella."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pinnan on oltava tasoitettu, puhdas sekä pölytön, rasvaton ja vieraista aineista vapaa, ja sen on oltava täysin koheesiovahva (vähintään 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Tarttuvuus puhtailla ja kuivilla huokoisilla pinnoilla."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita huolellisesti tasaiseksi käsin tai sähkösekoittimella pienellä kierrosnopeudella, jotta tuote ei vaahtoa."
+            },
+            {
+              "type": "p",
+              "text": "Mukautuu alustan pintaan ja yhtenäistää pinnan mattaviimeistelyllä."
+            },
+            {
+              "type": "p",
+              "text": "Jos levität toisen kerroksen, varmista ensin, että edellinen on täysin kuivunut."
+            }
+          ]
+        },
+        {
+          "title": "KUIVUMINEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kosketuskuiva: 1 tunti. Kukin kerros kuivuu noin 24 tunnissa lämpötilan ja suhteellisen ilmankosteuden mukaan. Uudelleenmaalattavissa 6 tunnin kuluttua."
+            },
+            {
+              "type": "p",
+              "text": "Älä kastele äläkä ota käsiteltyä aluetta käyttöön kuivumisen aikana. Erittäin hyvä saippuoitumisen kestävyys 15 päivän kuivumisen jälkeen."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei saa levittää kylmässä eikä sateella. Levitys ja kovettuminen 6–35 °C:ssa.",
+                "Ei myrkyllinen eikä syttyvä normaaleissa käsittelyolosuhteissa. Noudata pakkausmerkintöjä ja käyttöturvallisuustiedotetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponentti A (lakka)",
+                  "rows": [
+                    {
+                      "key": "Ominaispaino",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Pintakäsittely",
+                      "value": "Matta, puolikiiltävä ja kiiltävä"
+                    },
+                    {
+                      "key": "Ulkokäyttö ja kellastuminen",
+                      "value": "Alifaattinen; ei kellastu"
+                    },
+                    {
+                      "key": "Pakkasen- ja liikenteenkestävyys",
+                      "value": "Hyvä / korkea"
+                    },
+                    {
+                      "key": "Saippuoitumisen kestävyys",
+                      "value": "Erittäin hyvä (15 vrk:n kuivuminen)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Kosketuskuiva",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Uudelleenmaalaus",
+                      "value": "6 h:n jälkeen (kuivuminen/kerros: n. 24 h)"
+                    },
+                    {
+                      "key": "Kerroksen vähimmäispaksuus",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "8–12 m²/kg alustan mukaan"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "6–35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponentti B (katalyytti)",
+                  "rows": [
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Kirkas"
+                    },
+                    {
+                      "key": "Tiheys",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Sekoitussuhde",
+                      "value": "25–30 %"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "Komponentti A 3 kg + komponentti B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponentti A: 3 kg",
+                "Komponentti B (katalyytti): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "5–40 °C:ssa alkuperäispakkauksessa. Älä varastoi yli 12 kuukautta."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS JA OHENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Katalyytti",
+                      "value": "25–30 %."
+                    },
+                    {
+                      "key": "Ohennus",
+                      "value": "15–30 % vedellä alustan ja halutun lopputuloksen mukaan."
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "8–12 m²/kg alustan mukaan."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sekoita aina ennen käyttöä."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "PROTECT AQUA 2K FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "VERNIS ACRYLIQUE ALIPHATIQUE BICOMPOSANT À L'EAU",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Sec au toucher"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Rendement selon support"
+        },
+        {
+          "value": "120 µm",
+          "label": "Épaisseur min. par couche"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Dilution à l'eau"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vernis à base d'eau, acrylique aliphatique bicomposant, conçu pour vernir sols et revêtements en intérieur et en extérieur. Finition décorative de sols praticables, très résistante et adaptée au fort trafic."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Finition mate, satinée ou brillante.",
+                "Aliphatique : ne jaunit pas et reste stable en extérieur.",
+                "Bonne stabilité au gel et haute résistance au trafic."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finition de sols neufs ou en rénovation : béton taloché, autolissants, microciments et béton imprimé.",
+                "Sur supports très absorbants, sceller au préalable avec le primaire bouche-pores."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU SUPPORT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La surface doit être dressée, propre, exempte de poussière, de graisse et de toute substance étrangère, et parfaitement cohésive (minimum 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Adhérence sur surfaces poreuses propres et sèches."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Remuer jusqu'à parfaite homogénéisation, à la main ou au malaxeur à basse vitesse pour éviter de faire mousser le produit."
+            },
+            {
+              "type": "p",
+              "text": "S'adapte à la physionomie du support et uniformise la surface avec une finition mate."
+            },
+            {
+              "type": "p",
+              "text": "En cas de seconde couche, vérifier au préalable que la précédente est complètement sèche."
+            }
+          ]
+        },
+        {
+          "title": "SÉCHAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sec au toucher : 1 heure. Chaque couche sèche en 24 heures environ, selon la température et l'humidité relative. Recouvrable après 6 heures."
+            },
+            {
+              "type": "p",
+              "text": "Ne pas mouiller ni ouvrir à l'usage la zone traitée pendant le séchage. Très bonne résistance à la saponification après 15 jours de séchage."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas appliquer par temps froid ni sous la pluie. Application et durcissement entre 6 et 35 °C.",
+                "Ni toxique ni inflammable dans des conditions normales de manipulation. Suivre l'étiquette et la fiche de données de sécurité."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Composant A (vernis)",
+                  "rows": [
+                    {
+                      "key": "Masse volumique",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finition",
+                      "value": "Mat, satiné et brillant"
+                    },
+                    {
+                      "key": "Extérieur et jaunissement",
+                      "value": "Aliphatique ; ne jaunit pas"
+                    },
+                    {
+                      "key": "Stabilité au gel et au trafic",
+                      "value": "Bonne / élevée"
+                    },
+                    {
+                      "key": "Résistance à la saponification",
+                      "value": "Très bonne (15 jours de séchage)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Sec au toucher",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Recouvrement",
+                      "value": "À partir de 6 h (séchage par couche : 24 h env.)"
+                    },
+                    {
+                      "key": "Épaisseur minimale par couche",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "8-12 m²/kg, selon support"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "6 à 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Composant B (catalyseur)",
+                  "rows": [
+                    {
+                      "key": "Aspect",
+                      "value": "Transparent"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Proportion",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Composant A 3 kg + composant B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Composant A : 3 kg",
+                "Composant B (catalyseur) : 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 et 40 °C dans l'emballage d'origine. Ne pas stocker plus de 12 mois."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE ET DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Catalyseur",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Dilution",
+                      "value": "15 à 30 % d'eau, selon le support et le résultat recherché."
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "8-12 m²/kg, selon support."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Toujours remuer avant l'emploi."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "PROTECT AQUA 2K ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "VERNICE ACRILICA ALIFATICA BICOMPONENTE ALL'ACQUA",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Secco al tatto"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Resa in base al supporto"
+        },
+        {
+          "value": "120 µm",
+          "label": "Spessore minimo per mano"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Diluizione con acqua"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vernice all'acqua acrilica alifatica bicomponente, sviluppata per verniciare pavimenti e rivestimenti in interni ed esterni. Finitura decorativa per pavimenti calpestabili, ad alta resistenza e alto traffico."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Finitura opaca, satinata o lucida.",
+                "Alifatica: non ingiallisce ed è stabile all'esterno.",
+                "Buona stabilità al gelo e alta resistenza al traffico."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finitura di pavimenti nuovi o ripristino di calcestruzzo lisciato, autolivellanti, microcementi e calcestruzzo stampato.",
+                "Su supporti molto assorbenti, sigillare prima con il primer sigillante."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DEL SUPPORTO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie deve essere regolarizzata, pulita e priva di polvere, grasso e sostanze estranee, e perfettamente coesa (minimo 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Aderenza su superfici porose pulite e asciutte."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mescolare fino a perfetta omogeneizzazione, a mano o con miscelatore meccanico a bassi giri per non fare schiuma."
+            },
+            {
+              "type": "p",
+              "text": "Si adatta alla fisionomia del supporto e uniforma la superficie con una finitura opaca."
+            },
+            {
+              "type": "p",
+              "text": "Se si applica una seconda mano, verificare prima che la precedente sia completamente asciutta."
+            }
+          ]
+        },
+        {
+          "title": "ESSICCAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Secco al tatto: 1 ora. Ogni mano asciuga in circa 24 ore, in base alla temperatura e all'umidità relativa. Sovraverniciabile dopo 6 ore."
+            },
+            {
+              "type": "p",
+              "text": "Non bagnare né aprire al transito la zona trattata durante l'essiccazione. Resistenza alla saponificazione molto buona dopo 15 giorni di essiccazione."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non applicare con freddo o pioggia. Applicazione e indurimento tra 6 e 35 °C.",
+                "Non tossico né infiammabile in condizioni normali di manipolazione. Seguire l'etichetta e la Scheda di dati di sicurezza."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (vernice)",
+                  "rows": [
+                    {
+                      "key": "Peso specifico",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finitura",
+                      "value": "Opaca, satinata e lucida"
+                    },
+                    {
+                      "key": "Esterno e ingiallimento",
+                      "value": "Alifatica; non ingiallisce"
+                    },
+                    {
+                      "key": "Stabilità al gelo e al traffico",
+                      "value": "Buona / alta"
+                    },
+                    {
+                      "key": "Resistenza alla saponificazione",
+                      "value": "Molto buona (15 giorni di essiccazione)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Secco al tatto",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Sovraverniciatura",
+                      "value": "Dopo 6 h (essiccazione per mano: ca. 24 h)"
+                    },
+                    {
+                      "key": "Spessore minimo per mano",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "8-12 m²/kg, in base al supporto"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 6 a 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (catalizzatore)",
+                  "rows": [
+                    {
+                      "key": "Aspetto",
+                      "value": "Trasparente"
+                    },
+                    {
+                      "key": "Densità",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Rapporto",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 3 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 3 kg",
+                "Componente B (catalizzatore): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tra 5 e 40 °C nella confezione originale. Non stoccare per più di 12 mesi."
+            }
+          ]
+        },
+        {
+          "title": "MISCELAZIONE E DILUIZIONE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Catalizzatore",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Diluizione",
+                      "value": "Dal 15 al 30 % con acqua, in base al supporto e al risultato richiesto."
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "8-12 m²/kg, in base al supporto."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mescolare sempre prima dell'uso."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "PROTECT AQUA 2K NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "VANNBASERT ALIFATISK AKRYLLAKK, TO KOMPONENTER",
+      "stats": [
+        {
+          "value": "1 t",
+          "label": "Berøringstørr"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Dekning, avhengig av underlag"
+        },
+        {
+          "value": "120 µm",
+          "label": "Minste filmtykkelse"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Fortynning med vann"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vannbasert tokomponents lakk av alifatisk akryl, utviklet til lakkering av gulv og overflater innendørs og utendørs. Dekorativ finish for gulv med gangtrafikk, med høy motstandsevne og egnet for stor trafikk."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Matt, silkeblank eller blank finish.",
+                "Alifatisk: gulner ikke og er stabil utendørs.",
+                "God frostbestandighet og høy motstand mot trafikk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finish på nye gulv eller ved rehabilitering av glattet betong, selvutjevnende avrettingsmasser, mikrosement og stemplet betong.",
+                "På svært sugende underlag forsegles først med porefyllende grunning."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV UNDERLAGET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Overflaten må være jevn, ren og fri for støv, fett og fremmedstoffer, og fullstendig sammenhengende (minst 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Heft på rene og tørre porøse overflater."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rør til produktet er helt homogent, for hånd eller med mekanisk rører ved lavt turtall for å unngå at materialet skummer."
+            },
+            {
+              "type": "p",
+              "text": "Tilpasser seg underlagets struktur og gir en jevn overflate med matt finish."
+            },
+            {
+              "type": "p",
+              "text": "Hvis det påføres et andre strøk, kontroller først at det forrige er helt tørt."
+            }
+          ]
+        },
+        {
+          "title": "TØRKING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Berøringstørr: 1 time. Hvert strøk tørker på ca. 24 timer, avhengig av temperatur og relativ luftfuktighet. Kan overmales etter 6 timer."
+            },
+            {
+              "type": "p",
+              "text": "Ikke fukt eller ta det behandlede området i bruk under tørking. Svært god motstand mot forsåpning (alkalibestandighet) etter 15 dagers tørking."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Må ikke påføres i kulde eller regn. Påføring og herding mellom 6 og 35 °C.",
+                "Ikke giftig eller brannfarlig under normale håndteringsforhold. Følg etiketten og sikkerhetsdatabladet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponent A (lakk)",
+                  "rows": [
+                    {
+                      "key": "Densitet",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, silkeblank og blank"
+                    },
+                    {
+                      "key": "Utendørs og gulning",
+                      "value": "Alifatisk; gulner ikke"
+                    },
+                    {
+                      "key": "Frost og trafikk",
+                      "value": "God / høy"
+                    },
+                    {
+                      "key": "Forsåpningsbestandighet",
+                      "value": "Svært god (15 dagers tørking)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Berøringstørr",
+                      "value": "1 t"
+                    },
+                    {
+                      "key": "Overmaling",
+                      "value": "Etter 6 t (tørking per strøk: ca. 24 t)"
+                    },
+                    {
+                      "key": "Minste filmtykkelse",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Dekning",
+                      "value": "8-12 m²/kg, avhengig av underlag"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "6 til 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponent B (katalysator)",
+                  "rows": [
+                    {
+                      "key": "Utseende",
+                      "value": "Transparent"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Andel",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Komponent A 3 kg + komponent B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponent A: 3 kg",
+                "Komponent B (katalysator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mellom 5 og 40 °C i originalemballasje. Må ikke lagres lenger enn 12 måneder."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING OG FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Katalysator",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Fortynning",
+                      "value": "15 til 30 % med vann, avhengig av underlag og ønsket resultat."
+                    },
+                    {
+                      "key": "Dekning",
+                      "value": "8-12 m²/kg, avhengig av underlag."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Rør alltid om før bruk."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "PROTECT AQUA 2K POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Protect Aqua 2K",
+      "subtitle": "WODNY LAKIER AKRYLOWY ALIFATYCZNY 2K",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Sucha na dotyk"
+        },
+        {
+          "value": "8-12 m²/kg",
+          "label": "Wydajność wg podłoża"
+        },
+        {
+          "value": "120 µm",
+          "label": "Min. grubość warstwy"
+        },
+        {
+          "value": "15-30 %",
+          "label": "Rozcieńczenie wodą"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dwuskładnikowy lakier na bazie wodnej, z alifatycznej żywicy akrylowej, opracowany do lakierowania posadzek i okładzin wewnątrz i na zewnątrz. Dekoracyjne wykończenie posadzek użytkowych, o wysokiej odporności i dużym natężeniu ruchu."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wykończenie matowe, satynowe lub błyszczące.",
+                "Alifatyczny: nie żółknie i jest stabilny na zewnątrz.",
+                "Dobra odporność na mróz i wysoka na ruch."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wykończenie nowych posadzek lub renowacja betonu zacieranego mechanicznie, wylewek samopoziomujących, mikrocementów i betonu stemplowanego.",
+                "Na podłożach bardzo chłonnych wcześniej uszczelnić gruntem do uszczelniania porów."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Powierzchnia musi być wyrównana, czysta, wolna od kurzu, tłuszczu i obcych substancji oraz doskonale spójna (min. 1 N/mm²)."
+            },
+            {
+              "type": "p",
+              "text": "Przyczepność na czystych i suchych powierzchniach porowatych."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mieszać do uzyskania pełnej jednorodności, ręcznie lub mieszadłem mechanicznym przy niskich obrotach, aby materiał się nie pienił."
+            },
+            {
+              "type": "p",
+              "text": "Dopasowuje się do struktury podłoża i ujednolica powierzchnię matowym wykończeniem."
+            },
+            {
+              "type": "p",
+              "text": "Przy nakładaniu drugiej warstwy sprawdzić wcześniej, czy poprzednia jest całkowicie sucha."
+            }
+          ]
+        },
+        {
+          "title": "SCHNIĘCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sucha na dotyk: 1 godzina. Każda warstwa schnie ok. 24 godzin, zależnie od temperatury i wilgotności względnej. Możliwość przemalowania po 6 godzinach."
+            },
+            {
+              "type": "p",
+              "text": "Nie moczyć ani nie dopuszczać do użytkowania obszaru w trakcie schnięcia. Bardzo dobra odporność na zmydlanie po 15 dniach schnięcia."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie stosować podczas mrozu ani deszczu. Aplikacja i utwardzanie w temp. 6 do 35 °C.",
+                "Nietoksyczny i niepalny w normalnych warunkach użytkowania. Przestrzegać etykiety i karty charakterystyki."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Składnik A (lakier)",
+                  "rows": [
+                    {
+                      "key": "Ciężar właściwy",
+                      "value": "1,03 g/cm³"
+                    },
+                    {
+                      "key": "Wykończenie",
+                      "value": "Mat, satyna i połysk"
+                    },
+                    {
+                      "key": "Zewnątrz i żółknięcie",
+                      "value": "Alifatyczny; nie żółknie"
+                    },
+                    {
+                      "key": "Odporność na mróz i ruch",
+                      "value": "Dobra / wysoka"
+                    },
+                    {
+                      "key": "Odporność na zmydlanie",
+                      "value": "Bardzo dobra (15 dni schnięcia)"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Sucha na dotyk",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Przemalowanie",
+                      "value": "Po 6 h (schnięcie warstwy: ok. 24 h)"
+                    },
+                    {
+                      "key": "Min. grubość warstwy",
+                      "value": "120 µm"
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "8-12 m²/kg, wg podłoża"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "6 do 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Składnik B (katalizator)",
+                  "rows": [
+                    {
+                      "key": "Wygląd",
+                      "value": "Przezroczysty"
+                    },
+                    {
+                      "key": "Gęstość",
+                      "value": "≈ 1,145 g/cm³"
+                    },
+                    {
+                      "key": "Proporcja",
+                      "value": "25-30 %"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Składnik A 3 kg + składnik B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Składnik A: 3 kg",
+                "Składnik B (katalizator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "W temp. od 5 do 40 °C, w oryginalnym opakowaniu. Nie przechowywać dłużej niż 12 miesięcy."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANIE I ROZCIEŃCZANIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B",
+                      "value": "3 kg + 1 kg."
+                    },
+                    {
+                      "key": "Katalizator",
+                      "value": "25-30 %."
+                    },
+                    {
+                      "key": "Rozcieńczenie",
+                      "value": "15 do 30 % wodą, w zależności od podłoża i wymaganego efektu."
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "8-12 m²/kg, wg podłoża."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Zawsze mieszać przed użyciem."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

@@ -10,3 +10,6 @@ apps/tienda/theme/zement/assets/css/fonts.css
 
 # Skills de terceros (Impeccable)
 .claude/skills/
+
+# Generado por apps/tienda/catalog/scripts/extract_sheets.py
+apps/tienda/catalog/products/

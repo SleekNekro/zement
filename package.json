@@ -22,7 +22,8 @@
     "tienda:down": "docker compose --env-file infra/docker/.env -f infra/docker/docker-compose.yml -p zement down",
     "tienda:logs": "docker compose --env-file infra/docker/.env -f infra/docker/docker-compose.yml -p zement logs --tail=80 prestashop",
     "tienda:theme": "docker exec zement-prestashop-1 sh -c 'php bin/console prestashop:theme:enable zement && php bin/console cache:clear && rm -rf themes/zement/assets/cache/* && chown -R www-data:www-data var config/themes'",
-    "tienda:css": "docker exec zement-prestashop-1 sh -c 'rm -rf themes/zement/assets/cache/*'"
+    "tienda:css": "docker exec zement-prestashop-1 sh -c 'rm -rf themes/zement/assets/cache/*'",
+    "tienda:catalog": "bash apps/tienda/catalog/scripts/import.sh"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -1,0 +1,1945 @@
+{
+  "key": "metallic-lasur",
+  "source": "METALLIC LASUR",
+  "languages": {
+    "de": {
+      "file": "METALLIC LASUR ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Metallic Lasur",
+      "subtitle": "VERSIEGELNDE METALLIC-LASUR AUF WASSERBASIS",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² Produkt (je nach Untergrund)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Grifffest (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Mindesteinwirkzeit vor dem Polieren"
+        },
+        {
+          "value": "5 L",
+          "label": "Gebindegröße"
+        }
+      ],
+      "sections": [
+        {
+          "title": "ZUSAMMENSETZUNG",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Die Lasuren mit Metalliceffekt (Gold, Silver, Copper und Bronze) und die farbigen Lasuren (Black und Pearl) wirken als Versiegelung auf Wasserbasis: Sie werden auf poröse Materialoberflächen aufgetragen und schützen diese vor dem Eindringen von Wasser, gelösten Salzen und Ölflecken."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Haften hervorragend auf allen Bauuntergründen: Mörtel, Beton, Naturstein, Keramik, Faserzement usw., insbesondere auf unserem Mörtelsortiment."
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Verringern die Wasseraufnahme der behandelten Materialien deutlich und somit:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Der natürliche Farbton und das Oberflächenfinish bleiben erhalten.",
+                "Die behandelten Oberflächen sind für den Kontakt mit Lebensmitteln vollkommen unbedenklich.",
+                "Minimale Empfindlichkeit gegenüber Frost-Tau-Wechseln."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WICHTIG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Aufgrund des alkalischen Charakters müssen die für Lagerung und Handhabung verwendeten Materialien für alkalische Produkte geeignet sein; Aluminium und Leichtmetalllegierungen sind zu vermeiden. Nicht auf Aluminium- und Holzelementen oder Beschlägen aus Leichtmetalllegierungen anwenden."
+            }
+          ]
+        },
+        {
+          "title": "VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die gesamte Fläche großzügig einstreichen (mit Kelle, Rolle, Schwamm usw.).",
+                "Das Produkt mindestens 1 Stunde einwirken lassen.",
+                "Überschüssiges Material mit einem trockenen Poliertuch oder maschinell mit einer Filzscheibe entfernen.",
+                "Werkzeuge mit Wasser reinigen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALLGEMEINE HINWEISE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Der Untergrund muss sauber, fest, staubfrei und frei von losen Teilen sein.",
+                "Die Oberflächen müssen vor dem Auftrag vollkommen trocken sein.",
+                "Auf frischem Zement mindestens 3 Tage Aushärtezeit abwarten.",
+                "Die behandelte Fläche muss mindestens 24 Stunden lang unbeeinträchtigt bleiben (Regen, Frost, Kondenswasser).",
+                "In den folgenden 15 Stunden Kontakt mit Feuchtigkeit vermeiden.",
+                "Zur Reinigung der versiegelten Oberflächen pH-neutrale Reinigungsmittel in lauwarmem Wasser verwenden."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Farbe",
+                      "value": "Metallic: Gold, Silver, Copper, Bronze. Farbig: Black und Pearl. Andere Farbtöne möglich."
+                    },
+                    {
+                      "key": "Verbrauch",
+                      "value": "50 ml/m² Produkt (je nach Untergrund)"
+                    },
+                    {
+                      "key": "Grifffest (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Eindringtiefe",
+                      "value": "Abhängig von der Porosität des Materials und der Witterung"
+                    },
+                    {
+                      "key": "Zusammensetzung",
+                      "value": "Wässrige Emulsion auf Wasserbasis"
+                    },
+                    {
+                      "key": "Dichte",
+                      "value": "ca. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Aussehen",
+                      "value": "Konzentrat"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Frostbeständigkeit",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Gebinde à 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In ungeöffnetem Originalgebinde bei Temperaturen zwischen -20 und +30 °C lagern. Nach dem Öffnen des Gebindes ist der gesamte Inhalt aufzubrauchen."
+            }
+          ]
+        },
+        {
+          "title": "DATEN DES BINDEMITTELS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Feststoffgehalt (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskosität (DIN EN ISO 2555; Spindel 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "pH-Wert (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Partikelgröße (Dispersion)",
+                      "value": "Ca. 0,5 µm"
+                    },
+                    {
+                      "key": "Mindestfilmbildungstemp., TMFP (DIN ISO 2115)",
+                      "value": "Ca. 0 °C"
+                    },
+                    {
+                      "key": "Dichte (ISO 8962)",
+                      "value": "Ca. 1 g/cm³"
+                    },
+                    {
+                      "key": "Film*: Aussehen",
+                      "value": "Nahezu klar, sehr klebrig"
+                    },
+                    {
+                      "key": "Glasübergangstemp. Tg (DIN 53 765; DSC; Aufheizrate 10 K/min)",
+                      "value": "Unter -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film getrocknet im Normklima bei 23 °C und 50 % relativer Luftfeuchtigkeit (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Weitere Angaben: Diese Angaben dienen der näheren Charakterisierung des Produkts. Sie werden nicht regelmäßig ermittelt und sind nicht Bestandteil der Spezifikation."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "METALLIC LASUR INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Metallic Lasur",
+      "subtitle": "WATER-BASED METALLIC SEALING GLAZE",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² of product (depending on the substrate)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Touch dry (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Minimum penetration time before polishing"
+        },
+        {
+          "value": "5 L",
+          "label": "Container size"
+        }
+      ],
+      "sections": [
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "The metallic-effect glazes (Gold, Silver, Copper and Bronze) and the colored glazes (Black and Pearl) work as a water-based sealer: they are applied to the surface of porous materials and protect them against the penetration of water, dissolved salts and oil stains."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "They adhere perfectly to any building substrate: mortars, concrete, natural stone, ceramics, fiber cement, etc., and especially to our range of mortars."
+            }
+          ]
+        },
+        {
+          "title": "PROPERTIES",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "They significantly reduce the water absorption of the treated materials and, as a result:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "They preserve the natural color and finish of the surface.",
+                "Treated surfaces are completely safe for contact with food.",
+                "Minimal sensitivity to freeze-thaw cycles."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IMPORTANT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Because of its alkaline nature, the materials used for storage and handling must be suitable for alkaline products; aluminum and light-metal alloys must be avoided. Do not apply on aluminum window frames, wood or light-alloy fittings."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Cover the entire surface generously (with a trowel, roller, sponge, etc.).",
+                "Allow the product to penetrate for at least 1 hour.",
+                "Remove the excess with a dry polishing cloth or with a machine felt disc.",
+                "Clean the tools with water."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "GENERAL RECOMMENDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "The surface must be clean, sound, free of dust and free of poorly adhering parts.",
+                "Surfaces must be completely dry before application.",
+                "On new cement, wait for a minimum curing time of 3 days.",
+                "The treated surface must remain undisturbed (rain, frost, condensation) for a minimum of 24 hours.",
+                "Avoid contact with moisture during the following 15 hours.",
+                "To clean sealed surfaces, use pH-neutral detergents dissolved in lukewarm water."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Metallic: Gold, Silver, Copper, Bronze. Colored: Black and Pearl. Other colors possible."
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "50 ml/m² of product (depending on the substrate)"
+                    },
+                    {
+                      "key": "Touch dry (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Penetration depth",
+                      "value": "Depends on the porosity of the material and the weather conditions"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Aqueous emulsion, water-based"
+                    },
+                    {
+                      "key": "Density",
+                      "value": "approx. 0.78 g/cm³"
+                    },
+                    {
+                      "key": "Appearance",
+                      "value": "Concentrate"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Freeze resistance",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L containers"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Store in its original closed container, at temperatures between -20 and +30 °C. Once the container has been opened, all of the product must be used."
+            }
+          ]
+        },
+        {
+          "title": "BINDER TECHNICAL DATA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Solids content (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosity (DIN EN ISO 2555; spindle 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "pH value (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Particle size (dispersion)",
+                      "value": "Approx. 0.5 µm"
+                    },
+                    {
+                      "key": "Min. film formation temp., MFFT (DIN ISO 2115)",
+                      "value": "Approx. 0 °C"
+                    },
+                    {
+                      "key": "Density (ISO 8962)",
+                      "value": "Approx. 1 g/cm³"
+                    },
+                    {
+                      "key": "Film*: appearance",
+                      "value": "Almost clear, very tacky"
+                    },
+                    {
+                      "key": "Glass transition temp. Tg (DIN 53 765; DSC; heating rate 10 K/min)",
+                      "value": "Below -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film dried under standard climate conditions of 23 °C and 50 % relative humidity (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Other data: these data serve to characterize the product more fully. They are not determined on a regular basis and are not part of the specification."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "METALLIC LASUR ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Metallic Lasur",
+      "subtitle": "VELADURA METÁLICA SELLANTE AL AGUA",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² de producto (según soporte)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Secado al tacto (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Penetración mínima antes de pulir"
+        },
+        {
+          "value": "5 L",
+          "label": "Formato del envase"
+        }
+      ],
+      "sections": [
+        {
+          "title": "COMPOSICIÓN",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Las veladuras de efecto metálico (Gold, Silver, Copper y Bronze) y de color (Black y Pearl) funcionan como un sellador al agua: se aplican sobre superficies de materiales porosos y los protegen de la penetración de agua, sales disueltas y manchas de aceite."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Se adhieren perfectamente a cualquier paramento de construcción: morteros, hormigones, piedras naturales, cerámicas, fibrocementos, etc., y de forma especial a nuestra gama de morteros."
+            }
+          ]
+        },
+        {
+          "title": "PROPIEDADES",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Reducen de forma notable la absorción de agua de los materiales tratados y, en consecuencia:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mantienen el color natural y el acabado de la superficie.",
+                "Las superficies tratadas son completamente seguras para el contacto con alimentos.",
+                "Mínima sensibilidad a los ciclos de hielo-deshielo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IMPORTANTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Por su carácter alcalino, los materiales empleados para el almacenamiento y la manipulación deben ser adecuados para productos alcalinos; hay que evitar el aluminio y las aleaciones de metales ligeros. No aplicar sobre carpinterías de aluminio, madera ni herrajes de aleaciones ligeras."
+            }
+          ]
+        },
+        {
+          "title": "MODO DE EMPLEO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Cubrir generosamente toda la superficie (con llana, rodillo, esponja, etc.).",
+                "Dejar que el producto penetre al menos 1 hora.",
+                "Eliminar el exceso con un paño seco de pulir o con un disco de fieltro a máquina.",
+                "Limpiar los utensilios con agua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RECOMENDACIONES GENERALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La superficie debe estar limpia, sólida, libre de polvo y exenta de partes mal adheridas.",
+                "Las superficies deben estar completamente secas antes de la aplicación.",
+                "Sobre cemento reciente, esperar un curado mínimo de 3 días.",
+                "La superficie tratada debe permanecer sin alteraciones (lluvias, hielo, condensación) durante un mínimo de 24 horas.",
+                "Evitar el contacto con la humedad durante las 15 horas siguientes.",
+                "Para limpiar las superficies selladas, usar detergentes de pH neutro disueltos en agua templada."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Metálico: Gold, Silver, Copper, Bronze. De color: Black y Pearl. Posibilidad de otro color."
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "50 ml/m² de producto (según soporte)"
+                    },
+                    {
+                      "key": "Secado al tacto (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Profundidad de penetración",
+                      "value": "Según la porosidad del material y la climatología"
+                    },
+                    {
+                      "key": "Composición",
+                      "value": "Emulsión acuosa, base agua"
+                    },
+                    {
+                      "key": "Densidad",
+                      "value": "ca. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Apariencia",
+                      "value": "Concentrado"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Resistencia a la congelación",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Envases de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Almacenar en su envase original cerrado, a temperaturas entre -20 y +30 °C. Una vez abierto el envase, hay que utilizar todo el producto."
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS TÉCNICAS DEL LIGANTE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Contenido en sólidos (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosidad (DIN EN ISO 2555; husillo 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "Valor pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Tamaño de partícula (dispersión)",
+                      "value": "Aprox. 0,5 µm"
+                    },
+                    {
+                      "key": "Temp. mínima de formación de película, TMFP (DIN ISO 2115)",
+                      "value": "Aprox. 0 °C"
+                    },
+                    {
+                      "key": "Densidad (ISO 8962)",
+                      "value": "Aprox. 1 g/cm³"
+                    },
+                    {
+                      "key": "Película*: aspecto",
+                      "value": "Casi clara, muy pegajosa"
+                    },
+                    {
+                      "key": "Temp. de transición vítrea Tg (DIN 53 765; DSC; velocidad de calentamiento 10 K/min)",
+                      "value": "Por debajo de -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Película secada en clima normalizado de 23 °C y 50 % de humedad relativa (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Otros datos: estos datos sirven para caracterizar mejor el producto. No se determinan con regularidad y no forman parte de la especificación."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "METALLIC LASUR FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Metallic Lasur",
+      "subtitle": "VESIPOHJAINEN METALLIHOHTOINEN TIIVISTÄVÄ LASUURI",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² tuotetta (alustasta riippuen)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Kosketuskuiva (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Vähimmäisimeytymisaika ennen kiillotusta"
+        },
+        {
+          "value": "5 L",
+          "label": "Pakkauskoko"
+        }
+      ],
+      "sections": [
+        {
+          "title": "KOOSTUMUS",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Metallihohtoiset lasuurit (Gold, Silver, Copper ja Bronze) sekä värilliset lasuurit (Black ja Pearl) toimivat vesipohjaisena tiivistysaineena: ne levitetään huokoisten materiaalien pinnoille, ja ne suojaavat niitä veden, liuenneiden suolojen ja öljytahrojen tunkeutumiselta."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tarttuvat erinomaisesti kaikkiin rakennuspintoihin: laasteihin, betoniin, luonnonkiveen, keramiikkaan, kuitusementtiin jne. ja erityisesti laastivalikoimaamme."
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vähentävät merkittävästi käsiteltyjen materiaalien vedenimeytymistä ja siten:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Säilyttävät pinnan luonnollisen värin ja viimeistelyn.",
+                "Käsitellyt pinnat ovat täysin turvallisia elintarvikkeiden kanssa kosketuksiin joutuessaan.",
+                "Erittäin vähäinen herkkyys jäätymis-sulamissykleille."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TÄRKEÄÄ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Emäksisen luonteensa vuoksi varastointiin ja käsittelyyn käytettävien materiaalien on sovelluttava emäksisille tuotteille; alumiinia ja kevytmetalliseoksia on vältettävä. Ei saa levittää alumiini- tai puuikkunakehyksille eikä kevytmetalliseoksista valmistetuille rakennustarvikkeille."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖOHJE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Peitä koko pinta runsaasti tuotteella (lastalla, telalla, sienellä jne.).",
+                "Anna tuotteen imeytyä vähintään 1 tunti.",
+                "Poista ylimäärä kuivalla kiillotusliinalla tai koneella huopalaikalla.",
+                "Puhdista työvälineet vedellä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "YLEISET SUOSITUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Pinnan on oltava puhdas, kiinteä, pölytön ja irtonaisista osista vapaa.",
+                "Pintojen on oltava täysin kuivia ennen levitystä.",
+                "Tuoreella sementtipinnalla on odotettava vähintään 3 vrk:n kovettumisaika.",
+                "Käsitelty pinta on suojattava häiriöiltä (sade, jää, kondensoituminen) vähintään 24 tunnin ajan.",
+                "Vältä kosketusta kosteuden kanssa seuraavien 15 tunnin aikana.",
+                "Tiivistettyjen pintojen puhdistukseen on käytettävä haaleaan veteen liuotettuja pH-neutraaleja puhdistusaineita."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Väri",
+                      "value": "Metallinen: Gold, Silver, Copper, Bronze. Värillinen: Black ja Pearl. Muu väri mahdollinen."
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "50 ml/m² tuotetta (alustasta riippuen)"
+                    },
+                    {
+                      "key": "Kosketuskuiva (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Imeytymissyvyys",
+                      "value": "Materiaalin huokoisuudesta ja sääolosuhteista riippuen"
+                    },
+                    {
+                      "key": "Koostumus",
+                      "value": "Vesiemulsio, vesipohjainen"
+                    },
+                    {
+                      "key": "Tiheys",
+                      "value": "n. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Konsentraatti"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Pakkasenkestävyys",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L:n astiat"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Säilytetään avaamattomassa alkuperäispakkauksessa, lämpötilassa -20…+30 °C. Pakkauksen avaamisen jälkeen koko tuote on käytettävä."
+            }
+          ]
+        },
+        {
+          "title": "SIDEAINEEN TEKNISET TIEDOT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Kuiva-ainepitoisuus (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskositeetti (DIN EN ISO 2555; karaa 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "pH-arvo (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Hiukkaskoko (dispersio)",
+                      "value": "Noin 0,5 µm"
+                    },
+                    {
+                      "key": "Kalvonmuodostuksen alin lämpötila, TMFP (DIN ISO 2115)",
+                      "value": "Noin 0 °C"
+                    },
+                    {
+                      "key": "Tiheys (ISO 8962)",
+                      "value": "Noin 1 g/cm³"
+                    },
+                    {
+                      "key": "Kalvo*: ulkonäkö",
+                      "value": "Lähes kirkas, erittäin tahmea"
+                    },
+                    {
+                      "key": "Lasittumislämpötila Tg (DIN 53 765; DSC; lämmitysnopeus 10 K/min)",
+                      "value": "Alle -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Kalvo kuivattu standardiolosuhteissa, 23 °C ja 50 % suhteellinen ilmankosteus (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Muut tiedot: nämä tiedot kuvaavat tuotetta tarkemmin. Niitä ei määritetä säännöllisesti, eivätkä ne kuulu eritelmään."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "METALLIC LASUR FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Metallic Lasur",
+      "subtitle": "LASURE MÉTALLIQUE HYDROFUGE À L'EAU",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² de produit (selon le support)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Sec au toucher (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Pénétration minimale avant polissage"
+        },
+        {
+          "value": "5 L",
+          "label": "Format du conditionnement"
+        }
+      ],
+      "sections": [
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Les lasures à effet métallique (Gold, Silver, Copper et Bronze) et colorées (Black et Pearl) agissent comme un fixateur à l'eau : elles s'appliquent sur des surfaces de matériaux poreux et les protègent contre la pénétration de l'eau, des sels dissous et des taches d'huile."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Elles adhèrent parfaitement à tous les supports de construction : mortiers, bétons, pierres naturelles, céramiques, fibrociments, etc., et tout particulièrement à notre gamme de mortiers."
+            }
+          ]
+        },
+        {
+          "title": "PROPRIÉTÉS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Elles réduisent de manière notable l'absorption d'eau des matériaux traités et, par conséquent :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Elles conservent la couleur naturelle et l'aspect de la surface.",
+                "Les surfaces traitées sont parfaitement sûres au contact des aliments.",
+                "Sensibilité minimale aux cycles de gel-dégel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IMPORTANT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "En raison de son caractère alcalin, les matériaux utilisés pour le stockage et la manipulation doivent être adaptés aux produits alcalins ; éviter l'aluminium et les alliages de métaux légers. Ne pas appliquer sur les menuiseries en aluminium, le bois ni les ferrures en alliages légers."
+            }
+          ]
+        },
+        {
+          "title": "MODE D'EMPLOI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Couvrir généreusement toute la surface (à la lisseuse, au rouleau, à l'éponge, etc.).",
+                "Laisser pénétrer le produit au moins 1 heure.",
+                "Éliminer l'excédent avec un chiffon de polissage sec ou avec un disque en feutre à la machine.",
+                "Nettoyer les outils à l'eau."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RECOMMANDATIONS GÉNÉRALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La surface doit être propre, solide, exempte de poussière et de parties mal adhérentes.",
+                "Les surfaces doivent être parfaitement sèches avant l'application.",
+                "Sur ciment récent, attendre un temps de cure minimal de 3 jours.",
+                "La surface traitée doit rester à l'abri de toute altération (pluie, gel, condensation) pendant au moins 24 heures.",
+                "Éviter tout contact avec l'humidité pendant les 15 heures suivantes.",
+                "Pour nettoyer les surfaces traitées, utiliser des détergents à pH neutre dilués dans de l'eau tiède."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Couleur",
+                      "value": "Métallique : Gold, Silver, Copper, Bronze. Colorée : Black et Pearl. Autre couleur possible."
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "50 ml/m² de produit (selon le support)"
+                    },
+                    {
+                      "key": "Sec au toucher (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Profondeur de pénétration",
+                      "value": "Selon la porosité du matériau et les conditions climatiques"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Émulsion aqueuse, à base d'eau"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "env. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Aspect",
+                      "value": "Concentré"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Résistance au gel",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bidons de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conserver dans son emballage d'origine fermé, à des températures comprises entre -20 et +30 °C. Une fois l'emballage ouvert, utiliser la totalité du produit."
+            }
+          ]
+        },
+        {
+          "title": "DONNÉES TECHNIQUES DU LIANT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Extrait sec (DIN ISO 1625 ; 1 h ; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosité (DIN EN ISO 2555 ; broche 3 ; 20 min⁻¹ ; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "Valeur du pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Taille des particules (dispersion)",
+                      "value": "Env. 0,5 µm"
+                    },
+                    {
+                      "key": "Temp. minimale de formation du film, TMFP (DIN ISO 2115)",
+                      "value": "Env. 0 °C"
+                    },
+                    {
+                      "key": "Masse volumique (ISO 8962)",
+                      "value": "Env. 1 g/cm³"
+                    },
+                    {
+                      "key": "Film* : aspect",
+                      "value": "Presque clair, très collant"
+                    },
+                    {
+                      "key": "Temp. de transition vitreuse Tg (DIN 53 765 ; DSC ; vitesse de chauffage 10 K/min)",
+                      "value": "Inférieure à -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film séché en climat normalisé à 23 °C et 50 % d'humidité relative (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Autres données : ces données servent à mieux caractériser le produit. Elles ne sont pas déterminées régulièrement et ne font pas partie de la spécification."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "METALLIC LASUR ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Metallic Lasur",
+      "subtitle": "VELATURA METALLICA SIGILLANTE ALL'ACQUA",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² di prodotto (a seconda del supporto)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Asciutto al tatto (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Penetrazione minima prima della lucidatura"
+        },
+        {
+          "value": "5 L",
+          "label": "Formato della confezione"
+        }
+      ],
+      "sections": [
+        {
+          "title": "COMPOSIZIONE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Le velature ad effetto metallico (Gold, Silver, Copper e Bronze) e colorate (Black e Pearl) funzionano come un sigillante all'acqua: si applicano su superfici di materiali porosi e le proteggono dalla penetrazione di acqua, sali disciolti e macchie di olio."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Aderiscono perfettamente a qualsiasi supporto edile: malte, calcestruzzi, pietre naturali, ceramiche, fibrocementi, ecc., e in modo particolare alla nostra gamma di malte."
+            }
+          ]
+        },
+        {
+          "title": "PROPRIETÀ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Riducono in modo notevole l'assorbimento d'acqua dei materiali trattati e, di conseguenza:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mantengono il colore naturale e la finitura della superficie.",
+                "Le superfici trattate sono completamente sicure per il contatto con gli alimenti.",
+                "Sensibilità minima ai cicli di gelo-disgelo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IMPORTANTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Per il suo carattere alcalino, i materiali utilizzati per lo stoccaggio e la manipolazione devono essere idonei ai prodotti alcalini; evitare l'alluminio e le leghe di metalli leggeri. Non applicare su serramenti in alluminio, legno né su ferramenta in leghe leggere."
+            }
+          ]
+        },
+        {
+          "title": "MODO D'USO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Coprire generosamente l'intera superficie (con spatola, rullo, spugna, ecc.).",
+                "Lasciare penetrare il prodotto per almeno 1 ora.",
+                "Rimuovere l'eccesso con un panno asciutto per lucidare o con un disco in feltro a macchina.",
+                "Pulire gli attrezzi con acqua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RACCOMANDAZIONI GENERALI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "La superficie deve essere pulita, solida, priva di polvere e di parti poco aderenti.",
+                "Le superfici devono essere completamente asciutte prima dell'applicazione.",
+                "Su cemento fresco, attendere una stagionatura minima di 3 giorni.",
+                "La superficie trattata deve rimanere protetta da qualsiasi alterazione (pioggia, gelo, condensa) per almeno 24 ore.",
+                "Evitare il contatto con l'umidità nelle 15 ore successive.",
+                "Per pulire le superfici sigillate, utilizzare detergenti a pH neutro diluiti in acqua tiepida."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Colore",
+                      "value": "Metallico: Gold, Silver, Copper, Bronze. Colorato: Black e Pearl. Possibilità di altri colori."
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "50 ml/m² di prodotto (a seconda del supporto)"
+                    },
+                    {
+                      "key": "Asciutto al tatto (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Profondità di penetrazione",
+                      "value": "In base alla porosità del materiale e alle condizioni climatiche"
+                    },
+                    {
+                      "key": "Composizione",
+                      "value": "Emulsione acquosa, a base d'acqua"
+                    },
+                    {
+                      "key": "Massa volumica",
+                      "value": "ca. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Aspetto",
+                      "value": "Concentrato"
+                    },
+                    {
+                      "key": "Punto di infiammabilità",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Resistenza al gelo",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Confezioni da 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conservare nella confezione originale chiusa, a temperature comprese tra -20 e +30 °C. Una volta aperta la confezione, il prodotto va utilizzato interamente."
+            }
+          ]
+        },
+        {
+          "title": "DATI TECNICI DEL LEGANTE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Contenuto di solidi (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viscosità (DIN EN ISO 2555; mandrino 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "Valore pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Dimensione delle particelle (dispersione)",
+                      "value": "Circa 0,5 µm"
+                    },
+                    {
+                      "key": "Temp. minima di formazione del film, TMFP (DIN ISO 2115)",
+                      "value": "Circa 0 °C"
+                    },
+                    {
+                      "key": "Massa volumica (ISO 8962)",
+                      "value": "Circa 1 g/cm³"
+                    },
+                    {
+                      "key": "Film*: aspetto",
+                      "value": "Quasi trasparente, molto appiccicoso"
+                    },
+                    {
+                      "key": "Temp. di transizione vetrosa Tg (DIN 53 765; DSC; velocità di riscaldamento 10 K/min)",
+                      "value": "Inferiore a -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film essiccato in clima normalizzato a 23 °C e 50 % di umidità relativa (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Altri dati: questi dati servono a caratterizzare meglio il prodotto. Non vengono determinati regolarmente e non fanno parte della specifica."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "METALLIC LASUR NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Metallic Lasur",
+      "subtitle": "FORSEGLENDE METALLISK LASUR PÅ VANNBASIS",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² produkt (avhengig av underlag)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Berøringstørr (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Minste inntrengningstid før polering"
+        },
+        {
+          "value": "5 L",
+          "label": "Emballasjestørrelse"
+        }
+      ],
+      "sections": [
+        {
+          "title": "SAMMENSETNING",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Lasurene med metalliske effekter (Gold, Silver, Copper og Bronze) og fargede lasurer (Black og Pearl) fungerer som en vannbasert forsegler: De påføres overflater av porøse materialer og beskytter dem mot inntrengning av vann, oppløste salter og oljeflekker."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hefter utmerket til alle byggeunderlag: mørtel, betong, naturstein, keramikk, fibersement osv., og særlig godt til vårt sortiment av mørtler."
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Reduserer vannopptaket i de behandlede materialene betydelig, og som en følge av dette:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Materialets naturlige farge og overflatefinish bevares.",
+                "De behandlede overflatene er helt trygge ved kontakt med matvarer.",
+                "Minimal følsomhet for fryse-tine-sykluser."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIKTIG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "På grunn av det alkaliske innholdet må materialer som brukes til oppbevaring og håndtering være egnet for alkaliske produkter; unngå aluminium og lettmetallegeringer. Må ikke påføres på aluminiumsvinduer og -dører, tre eller beslag av lettmetallegeringer."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dekk hele overflaten rikelig (med sparkel, rulle, svamp osv.).",
+                "La produktet trekke inn i minst 1 time.",
+                "Fjern overskuddet med en tørr poleringsklut eller med en filtskive på maskin.",
+                "Rengjør verktøyet med vann."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "GENERELLE ANBEFALINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Overflaten må være ren, fast, støvfri og fri for løse partier.",
+                "Overflatene må være helt tørre før påføring.",
+                "På fersk sement må man vente minst 3 dager med herding.",
+                "Den behandlede overflaten må ikke utsettes for påvirkning (regn, frost, kondens) i minst 24 timer.",
+                "Unngå kontakt med fuktighet de påfølgende 15 timene.",
+                "Til rengjøring av forseglede overflater brukes pH-nøytrale rengjøringsmidler oppløst i lunkent vann."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Farge",
+                      "value": "Metallic: Gold, Silver, Copper, Bronze. Farget: Black og Pearl. Andre farger kan fås."
+                    },
+                    {
+                      "key": "Forbruk",
+                      "value": "50 ml/m² produkt (avhengig av underlag)"
+                    },
+                    {
+                      "key": "Berøringstørr (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Inntrengningsdybde",
+                      "value": "Avhenger av materialets porøsitet og værforholdene"
+                    },
+                    {
+                      "key": "Sammensetning",
+                      "value": "Vandig emulsjon, vannbasert"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "ca. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Utseende",
+                      "value": "Konsentrat"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Frostbestandighet",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Beholdere på 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Oppbevares i uåpnet originalemballasje ved temperaturer mellom -20 og +30 °C. Når emballasjen er åpnet, må hele innholdet brukes."
+            }
+          ]
+        },
+        {
+          "title": "TEKNISKE DATA FOR BINDEMIDLET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tørrstoffinnhold (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Viskositet (DIN EN ISO 2555; spindel 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "pH-verdi (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Partikkelstørrelse (dispersjon)",
+                      "value": "Ca. 0,5 µm"
+                    },
+                    {
+                      "key": "Min. filmdannelsestemperatur, TMFP (DIN ISO 2115)",
+                      "value": "Ca. 0 °C"
+                    },
+                    {
+                      "key": "Densitet (ISO 8962)",
+                      "value": "Ca. 1 g/cm³"
+                    },
+                    {
+                      "key": "Film*: utseende",
+                      "value": "Nesten klar, svært klebrig"
+                    },
+                    {
+                      "key": "Glassovergangstemperatur Tg (DIN 53 765; DSC; oppvarmingshastighet 10 K/min)",
+                      "value": "Under -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film tørket under normalklima 23 °C og 50 % relativ luftfuktighet (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Andre data: disse dataene brukes til å karakterisere produktet nærmere. De bestemmes ikke regelmessig og er ikke en del av spesifikasjonen."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "METALLIC LASUR POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Metallic Lasur",
+      "subtitle": "METALICZNA LAZURA USZCZELNIAJĄCA NA BAZIE WODY",
+      "stats": [
+        {
+          "value": "50",
+          "label": "ml/m² produktu (w zależności od podłoża)"
+        },
+        {
+          "value": "> 12 h",
+          "label": "Suchość na dotyk (20 °C)"
+        },
+        {
+          "value": "1 h",
+          "label": "Minimalny czas wnikania przed polerowaniem"
+        },
+        {
+          "value": "5 L",
+          "label": "Pojemność opakowania"
+        }
+      ],
+      "sections": [
+        {
+          "title": "SKŁAD",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Lazury o efekcie metalicznym (Gold, Silver, Copper i Bronze) oraz kolorowe (Black i Pearl) działają jak uszczelniacz na bazie wody: nakłada się je na powierzchnie materiałów porowatych, chroniąc je przed wnikaniem wody, rozpuszczonych soli i plam oleju."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Doskonale przywierają do wszelkich podłoży budowlanych: zapraw, betonów, kamienia naturalnego, ceramiki, płyt włóknisto-cementowych itp., a w szczególności do naszej gamy zapraw."
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Znacznie zmniejszają nasiąkliwość traktowanych materiałów, a w konsekwencji:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Zachowują naturalny kolor i wykończenie powierzchni.",
+                "Powierzchnie po zabezpieczeniu są całkowicie bezpieczne w kontakcie z żywnością.",
+                "Minimalna wrażliwość na cykle zamrażania i rozmrażania."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WAŻNE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ze względu na odczyn zasadowy materiały stosowane do przechowywania i obróbki muszą być odpowiednie dla produktów zasadowych; należy unikać aluminium i stopów metali lekkich. Nie stosować na stolarce aluminiowej, drewnie ani okuciach ze stopów lekkich."
+            }
+          ]
+        },
+        {
+          "title": "SPOSÓB UŻYCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Pokryć obficie całą powierzchnię (pacą, wałkiem, gąbką itp.).",
+                "Pozostawić produkt do wniknięcia na co najmniej 1 godzinę.",
+                "Usunąć nadmiar suchą ściereczką do polerowania lub maszynowo tarczą filcową.",
+                "Narzędzia czyścić wodą."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALECENIA OGÓLNE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Powierzchnia musi być czysta, nośna, wolna od kurzu i luźnych elementów.",
+                "Powierzchnie muszą być całkowicie suche przed aplikacją.",
+                "Na świeżym cemencie odczekać minimum 3 dni dojrzewania.",
+                "Powierzchnia po aplikacji musi pozostać nienaruszona (deszcz, mróz, kondensacja) przez co najmniej 24 godziny.",
+                "Unikać kontaktu z wilgocią w ciągu kolejnych 15 godzin.",
+                "Do czyszczenia uszczelnionych powierzchni stosować detergenty o neutralnym pH rozpuszczone w letniej wodzie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Kolor",
+                      "value": "Metaliczne: Gold, Silver, Copper, Bronze. Kolorowe: Black i Pearl. Możliwość uzyskania innego koloru."
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "50 ml/m² produktu (w zależności od podłoża)"
+                    },
+                    {
+                      "key": "Suchość na dotyk (20 °C)",
+                      "value": "> 12 h"
+                    },
+                    {
+                      "key": "Głębokość wnikania",
+                      "value": "W zależności od porowatości materiału i warunków atmosferycznych"
+                    },
+                    {
+                      "key": "Skład",
+                      "value": "Emulsja wodna, na bazie wody"
+                    },
+                    {
+                      "key": "Gęstość",
+                      "value": "ok. 0,78 g/cm³"
+                    },
+                    {
+                      "key": "Wygląd",
+                      "value": "Koncentrat"
+                    },
+                    {
+                      "key": "Temperatura zapłonu",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Odporność na zamarzanie",
+                      "value": "—"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Opakowania 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przechowywać w oryginalnym, zamkniętym opakowaniu, w temperaturze od -20 do +30 °C. Po otwarciu opakowania należy zużyć cały produkt."
+            }
+          ]
+        },
+        {
+          "title": "DANE TECHNICZNE SPOIWA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Zawartość części stałych (DIN ISO 1625; 1 h; 105 °C)",
+                      "value": "60 ± 1 %"
+                    },
+                    {
+                      "key": "Lepkość (DIN EN ISO 2555; wrzeciono 3; 20 min⁻¹; 23 °C)",
+                      "value": "3000 ± 1000 mPa·s"
+                    },
+                    {
+                      "key": "Wartość pH (DIN ISO 976)",
+                      "value": "8 ± 1"
+                    },
+                    {
+                      "key": "Wielkość cząstek (dyspersja)",
+                      "value": "Ok. 0,5 µm"
+                    },
+                    {
+                      "key": "Min. temperatura tworzenia filmu, TMFP (DIN ISO 2115)",
+                      "value": "Ok. 0 °C"
+                    },
+                    {
+                      "key": "Gęstość (ISO 8962)",
+                      "value": "Ok. 1 g/cm³"
+                    },
+                    {
+                      "key": "Film*: wygląd",
+                      "value": "Prawie przezroczysty, bardzo lepki"
+                    },
+                    {
+                      "key": "Temp. zeszklenia Tg (DIN 53 765; DSC; szybkość nagrzewania 10 K/min)",
+                      "value": "Poniżej -65 °C"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "* Film wysuszony w znormalizowanych warunkach klimatycznych: 23 °C i 50 % wilgotności względnej (DIN EN 23 270)."
+            },
+            {
+              "type": "p",
+              "text": "Pozostałe dane: dane te służą do lepszej charakterystyki produktu. Nie są oznaczane regularnie i nie stanowią części specyfikacji."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Gold · Silver",
+                  "rows": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "metallic-lasur.jpg"
+  ]
+}

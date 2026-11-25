@@ -1,0 +1,1455 @@
+{
+  "key": "zement-quartz-sand",
+  "source": "ZEMENT QUARTZ SAND",
+  "languages": {
+    "de": {
+      "file": "ZEMENT QUARTZ SAND ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "REINER, TROCKENER QUARZSAND, KÖRNUNG 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Nennkörnung"
+        },
+        {
+          "value": "> 99 %",
+          "label": "SiO₂-Gehalt"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Feuchtigkeit"
+        },
+        {
+          "value": "7",
+          "label": "Mohs-Härte"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Reiner, gewaschener, trockener Quarzsand (Siliciumdioxid), Nennkörnung 0,6 mm. Inerter Zuschlag mit hartem, sauberem Korn."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Frei von Ton, Salzen und organischen Bestandteilen.",
+                "Trocken: gebrauchsfertig zum Mischen oder Abstreuen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hohe Härte und Verschleißfestigkeit.",
+                "Chemisch inert und beständig.",
+                "Gleichmäßige Körnung für einheitliche Oberflächen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Beschaffenheit",
+                      "value": "Gewaschener, getrockneter Quarzsand"
+                    },
+                    {
+                      "key": "SiO₂-Gehalt",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Körnung",
+                      "value": "0,6 mm nominal (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Feinanteil < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Feuchtigkeit",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Glühverlust",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Verunreinigungen",
+                      "value": "Keine Tone, Salze oder organische Bestandteile"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Körnung 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Trocken in der original verschlossenen Verpackung und vor Feuchtigkeit geschützt lagern."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Füllstoff oder Zuschlag für Mörtel, Mikrozemente und Harzsysteme.",
+                "Abstreuen auf Harze und Lacke für rutschhemmende Oberflächen.",
+                "Verstärkung der mechanischen Verankerung in Grundierungen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HANDHABUNG UND SICHERHEIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Staub vermeiden: einatembarer kristalliner Quarzstaub ist gesundheitsschädlich.",
+                "Atemschutz, Handschuhe und Schutzbrille tragen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PHYSIKALISCHE EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Reindichte",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Schüttdichte",
+                      "value": "Ca. 1,5 kg/l"
+                    },
+                    {
+                      "key": "Mohs-Härte",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Kornform",
+                      "value": "Gerundet bis kantengerundet"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Produktionszielwerte."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "en": {
+      "file": "ZEMENT QUARTZ SAND INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "PURE, DRY QUARTZ SAND, 0.6 MM GRAIN SIZE",
+      "stats": [
+        {
+          "value": "0.6 mm",
+          "label": "Nominal grain size"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Silica content (SiO₂)"
+        },
+        {
+          "value": "< 0.1 %",
+          "label": "Moisture"
+        },
+        {
+          "value": "7",
+          "label": "Mohs hardness"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Pure, washed and dried quartz (silica) sand with a nominal grain size of 0.6 mm. Inert aggregate with hard, clean grains."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Free of clays, salts and organic matter.",
+                "Dry: ready to mix or broadcast without adding moisture."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "High hardness and wear resistance.",
+                "Chemically inert and stable.",
+                "Even grain size for uniform finishes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Nature",
+                      "value": "Washed and dried quartz sand"
+                    },
+                    {
+                      "key": "SiO₂ content",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Grain size",
+                      "value": "0.6 mm nominal (0.4-0.8 mm)"
+                    },
+                    {
+                      "key": "Fines < 0.063 mm",
+                      "value": "< 0.5 %"
+                    },
+                    {
+                      "key": "Moisture",
+                      "value": "< 0.1 %"
+                    },
+                    {
+                      "key": "Loss on ignition",
+                      "value": "< 0.5 %"
+                    },
+                    {
+                      "key": "Impurities",
+                      "value": "No clays, salts or organic matter"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Grain size 0.6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Store dry, in its original closed packaging and protected from moisture."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Filler or aggregate for mortars, microcements and resin systems.",
+                "Broadcast over resins and varnishes for anti-slip or textured finishes.",
+                "Mechanical anchoring reinforcement in primers."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HANDLING AND SAFETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Avoid dust formation: respirable crystalline silica is harmful if inhaled.",
+                "Wear respiratory protection, gloves and safety goggles."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PHYSICAL PROPERTIES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "True density",
+                      "value": "2.65 g/cm³"
+                    },
+                    {
+                      "key": "Bulk density",
+                      "value": "Approx. 1.5 kg/l"
+                    },
+                    {
+                      "key": "Mohs hardness",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Grain shape",
+                      "value": "Rounded to subangular"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Target production values."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "es": {
+      "file": "ZEMENT QUARTZ SAND ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "ARENA DE CUARZO PURA Y SECA, GRANULOMETRÍA 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Granulometría nominal"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Contenido en sílice (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Humedad"
+        },
+        {
+          "value": "7",
+          "label": "Dureza Mohs"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Arena de cuarzo (sílice) pura, lavada y seca, de granulometría nominal 0,6 mm. Árido inerte, de grano duro y limpio."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Exenta de arcillas, sales y materia orgánica.",
+                "Seca: lista para mezclar o espolvorear sin aportar humedad."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Alta dureza y resistencia al desgaste.",
+                "Químicamente inerte y estable.",
+                "Granulometría regular, para acabados uniformes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Naturaleza",
+                      "value": "Arena de cuarzo lavada y seca"
+                    },
+                    {
+                      "key": "Contenido en SiO₂",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Granulometría",
+                      "value": "0,6 mm nominal (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Finos < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Humedad",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Pérdida al fuego",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Impurezas",
+                      "value": "Sin arcillas, sales ni materia orgánica"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Granulometría 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Almacenar en seco, en su envase original cerrado y protegido de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Carga o árido para morteros, microcementos y sistemas de resina.",
+                "Espolvoreo sobre resinas y barnices para acabados antideslizantes o rugosos.",
+                "Refuerzo de anclaje mecánico en imprimaciones."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MANIPULACIÓN Y SEGURIDAD",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Evitar la formación de polvo: la sílice cristalina respirable es nociva por inhalación.",
+                "Usar protección respiratoria, guantes y gafas protectoras."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPIEDADES FÍSICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Densidad real",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Dens. aparente",
+                      "value": "Aprox. 1,5 kg/l"
+                    },
+                    {
+                      "key": "Dureza Mohs",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Grano",
+                      "value": "Redondeado a subangular"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valores objetivo de producción."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fi": {
+      "file": "ZEMENT QUARTZ SAND FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "PUHDAS, KUIVA KVARTSIHIEKKA, RAEKOKO 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Nimellisraekoko"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Piidioksidipitoisuus (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Kosteus"
+        },
+        {
+          "value": "7",
+          "label": "Mohsin kovuus"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Puhdas, pesty ja kuivattu kvartsihiekka (piidioksidi), nimellisraekoko 0,6 mm. Inertti kiviaines, kova ja puhdas rae."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ei savea, suoloja eikä orgaanista ainesta.",
+                "Kuiva: valmis sekoitettavaksi tai sirotettavaksi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Suuri kovuus ja kulutuskestävyys.",
+                "Kemiallisesti inertti ja stabiili.",
+                "Tasainen raekoko, tasaiselle pinnalle."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Laji",
+                      "value": "Pesty ja kuivattu kvartsihiekka"
+                    },
+                    {
+                      "key": "SiO₂-pitoisuus",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Raekoko",
+                      "value": "0,6 mm nimellinen (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Hienoaines < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Kosteus",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Hehkutushäviö",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Epäpuhtaudet",
+                      "value": "Ei savea, suoloja eikä orgaanista ainesta"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Raekoko 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Säilytä kuivassa, alkuperäisessä suljetussa pakkauksessa kosteudelta suojattuna."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Täyte- tai kiviaines laasteihin, mikrosementteihin ja hartsijärjestelmiin.",
+                "Sirotus hartsien ja lakkojen päälle liukuesteeksi tai karkeaksi pinnaksi.",
+                "Mekaanisen tartunnan lisääminen pohjusteissa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄSITTELY JA TURVALLISUUS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vältä pölyä: hengitettävä kiteinen piidioksidi on haitallista hengitettynä.",
+                "Käytä hengityssuojainta, käsineitä ja suojalaseja."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FYSIKAALISET OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Todellinen tiheys",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Irtotiheys",
+                      "value": "Noin 1,5 kg/l"
+                    },
+                    {
+                      "key": "Mohsin kovuus",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Raemuoto",
+                      "value": "Pyöristynyt – suuntaissärmäinen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Tuotannon tavoitearvot."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "fr": {
+      "file": "ZEMENT QUARTZ SAND FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "SABLE DE QUARTZ PUR ET SEC, GRANULOMÉTRIE 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Granulométrie nominale"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Teneur en silice (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Humidité"
+        },
+        {
+          "value": "7",
+          "label": "Dureté Mohs"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sable de quartz (silice) pur, lavé et sec, de granulométrie nominale 0,6 mm. Granulat inerte, à grain dur et propre."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Exempt d'argiles, de sels et de matières organiques.",
+                "Sec : prêt à mélanger ou à saupoudrer sans apport d'humidité."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dureté élevée et résistance à l'usure.",
+                "Chimiquement inerte et stable.",
+                "Granulométrie régulière, pour des finitions uniformes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Nature",
+                      "value": "Sable de quartz lavé et sec"
+                    },
+                    {
+                      "key": "Teneur en SiO₂",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Granulométrie",
+                      "value": "0,6 mm nominal (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Fines < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Humidité",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Perte au feu",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Impuretés",
+                      "value": "Sans argiles, sels ni matières organiques"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Granulométrie 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Stocker au sec, dans l'emballage d'origine fermé et à l'abri de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Charge ou granulat pour mortiers, microciments et systèmes de résine.",
+                "Saupoudrage sur résines et vernis pour des finitions antidérapantes ou rugueuses.",
+                "Renfort d'ancrage mécanique dans les primaires."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MANIPULATION ET SÉCURITÉ",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Éviter la formation de poussière : la silice cristalline respirable est nocive par inhalation.",
+                "Utiliser une protection respiratoire, des gants et des lunettes de protection."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIÉTÉS PHYSIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Densité réelle",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Dens. apparente",
+                      "value": "Env. 1,5 kg/l"
+                    },
+                    {
+                      "key": "Dureté Mohs",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Grain",
+                      "value": "Arrondi à subanguleux"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valeurs cibles de production."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "it": {
+      "file": "ZEMENT QUARTZ SAND ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "SABBIA DI QUARZO PURA E SECCA, GRANULOMETRIA 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Granulometria nominale"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Contenuto di silice (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Umidità"
+        },
+        {
+          "value": "7",
+          "label": "Durezza Mohs"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sabbia di quarzo (silice) pura, lavata e asciutta, con granulometria nominale di 0,6 mm. Inerte a grano duro e pulito."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Priva di argille, sali e materia organica.",
+                "Asciutta: pronta da miscelare o spolverare."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Elevata durezza e resistenza all'usura.",
+                "Chimicamente inerte e stabile.",
+                "Granulometria regolare, per finiture uniformi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Natura",
+                      "value": "Sabbia di quarzo lavata e asciutta"
+                    },
+                    {
+                      "key": "Contenuto di SiO₂",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Granulometria",
+                      "value": "0,6 mm nominale (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Fini < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Umidità",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Perdita al fuoco",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Impurità",
+                      "value": "Senza argille, sali né materia organica"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Granulometria 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conservare all'asciutto, nella confezione originale chiusa e al riparo dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Carica o inerte per malte, microcementi e sistemi a resina.",
+                "Spolvero su resine e vernici per finiture antiscivolo o ruvide.",
+                "Rinforzo dell'ancoraggio meccanico nei primer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MANIPOLAZIONE E SICUREZZA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Evitare la formazione di polvere: la silice cristallina respirabile è nociva per inalazione.",
+                "Usare protezione respiratoria, guanti e occhiali."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIETÀ FISICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Densità reale",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Dens. apparente",
+                      "value": "Circa 1,5 kg/l"
+                    },
+                    {
+                      "key": "Durezza Mohs",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Grano",
+                      "value": "Da arrotondato a subangolare"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valori obiettivo di produzione."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "no": {
+      "file": "ZEMENT QUARTZ SAND NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "REN, TØRR KVARTSSAND, KORNSTØRRELSE 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Nominell kornstørrelse"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Silikainnhold (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Fuktighet"
+        },
+        {
+          "value": "7",
+          "label": "Mohs hardhet"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Ren, vasket og tørr kvartssand (silika) med nominell kornstørrelse 0,6 mm. Inert tilslag med hardt og rent korn."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fri for leire, salter og organisk materiale.",
+                "Tørr: klar til blanding eller strøing uten å tilføre fuktighet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Høy hardhet og slitestyrke.",
+                "Kjemisk inert og stabil.",
+                "Jevn kornfordeling gir ensartede overflater."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Vasket og tørr kvartssand"
+                    },
+                    {
+                      "key": "SiO₂-innhold",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Kornstørrelse",
+                      "value": "0,6 mm nominell (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Finstoff < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Fuktighet",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Glødetap",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Urenheter",
+                      "value": "Ingen leire, salter eller organisk materiale"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Kornstørrelse 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Oppbevares tørt i uåpnet originalemballasje, beskyttet mot fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fyllstoff eller tilslag i mørtel, mikrosement og epoksysystemer.",
+                "Strøing på harpiks og lakk for sklisikre eller ru overflater.",
+                "Forsterket mekanisk heft i primere."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HÅNDTERING OG SIKKERHET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unngå støvdannelse: respirabelt krystallinsk silika er helseskadelig ved innånding.",
+                "Bruk åndedrettsvern, hansker og vernebriller."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FYSISKE EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Reell tetthet",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Bulktetthet",
+                      "value": "Ca. 1,5 kg/l"
+                    },
+                    {
+                      "key": "Mohs hardhet",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Kornform",
+                      "value": "Rundet til subangulær"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Produksjonsmålverdier."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    },
+    "pl": {
+      "file": "ZEMENT QUARTZ SAND POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Quartz Sand",
+      "subtitle": "CZYSTY, SUCHY PIASEK KWARCOWY, UZIARNIENIE 0,6 MM",
+      "stats": [
+        {
+          "value": "0,6 mm",
+          "label": "Uziarnienie nominalne"
+        },
+        {
+          "value": "> 99 %",
+          "label": "Zawartość krzemionki (SiO₂)"
+        },
+        {
+          "value": "< 0,1 %",
+          "label": "Wilgotność"
+        },
+        {
+          "value": "7",
+          "label": "Twardość w skali Mohsa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Czysty, płukany i suchy piasek kwarcowy (krzemionkowy) o uziarnieniu nominalnym 0,6 mm. Kruszywo obojętne, o twardym, czystym ziarnie."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wolny od glin, soli i materii organicznej.",
+                "Suchy: gotowy do mieszania lub posypywania."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wysoka twardość i odporność na ścieranie.",
+                "Obojętny chemicznie i stabilny.",
+                "Równomierne uziarnienie, dla jednolitych wykończeń."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Charakter",
+                      "value": "Płukany i suchy piasek kwarcowy"
+                    },
+                    {
+                      "key": "Zawartość SiO₂",
+                      "value": "> 99 %"
+                    },
+                    {
+                      "key": "Uziarnienie",
+                      "value": "0,6 mm nominalnie (0,4-0,8 mm)"
+                    },
+                    {
+                      "key": "Frakcja drobna < 0,063 mm",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Wilgotność",
+                      "value": "< 0,1 %"
+                    },
+                    {
+                      "key": "Strata prażenia",
+                      "value": "< 0,5 %"
+                    },
+                    {
+                      "key": "Zanieczyszczenia",
+                      "value": "Brak glin, soli i materii organicznej"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Quartz Sand",
+                "Uziarnienie 0,6 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przechowywać w suchym miejscu, w oryginalnym, szczelnym opakowaniu, z dala od wilgoci."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wypełniacz lub kruszywo do zapraw, mikrocementów i żywic.",
+                "Posypka na żywice i lakiery dla wykończeń antypoślizgowych lub szorstkich.",
+                "Wzmocnienie mechanicznej przyczepności w gruntach."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OBSŁUGA I BEZPIECZEŃSTWO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unikać pylenia: respirabilna krystaliczna krzemionka jest szkodliwa przy wdychaniu.",
+                "Stosować ochronę dróg oddechowych, rękawice i okulary ochronne."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI FIZYCZNE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Gęstość",
+                      "value": "2,65 g/cm³"
+                    },
+                    {
+                      "key": "Gęst. nasypowa",
+                      "value": "Ok. 1,5 kg/l"
+                    },
+                    {
+                      "key": "Twardość Mohsa",
+                      "value": "7"
+                    },
+                    {
+                      "key": "Ziarno",
+                      "value": "Obtoczone do podkątnego"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Docelowe wartości produkcyjne."
+            }
+          ]
+        }
+      ],
+      "pages": 1
+    }
+  },
+  "images": []
+}

@@ -1,0 +1,1903 @@
+{
+  "key": "zement-latex",
+  "source": "ZEMENT LATEX",
+  "languages": {
+    "de": {
+      "file": "ZEMENT LATEX ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Latex",
+      "subtitle": "ACRYLHARZ-DISPERSION FÜR ZWEIKOMPONENTEN-MIKROZEMENT",
+      "stats": [
+        {
+          "value": "3-5 Std.",
+          "label": "Verarbeitungszeit der Mischung"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Dichte"
+        },
+        {
+          "value": "27 %",
+          "label": "Feststoffgehalt (Gewicht)"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wässrige Acrylpolymer-Dispersion auf Basis organischer Polymere. Verleiht den Zweikomponenten-Mikrozementen Zement Direkt 2K Haftung, Härte und Verarbeitbarkeit."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Weiße Flüssigkeit auf Wasserbasis.",
+                "Lässt sich problemlos mit den Zement-Pigmenten mischen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Anmischen des gesamten Sortiments an Zweikomponenten-Mikrozementen (flüssige Komponente B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGSMERKMALE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Höhere Härte des Mikrozements.",
+                "Sehr gute Verarbeitbarkeit und Applizierbarkeit.",
+                "Einwandfreies Verhalten beim Mischen mit Pigmenten.",
+                "Auf Wasserbasis."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNGSVERHÄLTNIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Je nach verwendetem Produkt. Je nach Temperatur, Luftfeuchtigkeit, Arbeitsweise oder Gewohnheiten können Trocknung, Härte, Verarbeitbarkeit und Körnung nach Kundenwunsch angepasst werden."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Feiner Mikrozement: 1 kg Pulver auf ca. 0,25-0,35 l Harz.",
+                "Grober Mikrozement: 1 kg Pulver auf ca. 0,25-0,35 l Harz."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ANMISCHEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In einem sauberen Kunststoffgefäß Komponente A (fest: Mikrozement, im Verhältnis je nach Körnung) nach und nach zu Komponente B (flüssig: Zement Latex) geben und mit einem langsam laufenden Rührwerk (300-500 U/min) mehr als 3 Minuten rühren."
+            },
+            {
+              "type": "p",
+              "text": "Etwa 10 Minuten ruhen lassen."
+            },
+            {
+              "type": "p",
+              "text": "Erneut mehr als 2 Minuten rühren, bis eine homogene, klumpenfreie Paste entsteht."
+            }
+          ]
+        },
+        {
+          "title": "SICHERHEIT UND HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bei normaler Handhabung weder giftig, gefährlich noch entzündbar.",
+                "Verwendung ohne besondere Schutzmaßnahmen möglich; es gelten lediglich die gesetzlichen Arbeitsschutzvorschriften."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Aussehen",
+                      "value": "Weiße Flüssigkeit"
+                    },
+                    {
+                      "key": "Art",
+                      "value": "Wässrige Acryldispersion organischer Polymere"
+                    },
+                    {
+                      "key": "Dichte",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viskosität",
+                      "value": "4 ± 3 P (Poise)"
+                    },
+                    {
+                      "key": "Feststoffgehalt (Volumen)",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Feststoffgehalt (Gewicht)",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Verarbeitungszeit der Mischung",
+                      "value": "3-5 Std."
+                    }
+                  ]
+                },
+                {
+                  "title": "Lieferform und Lagerung",
+                  "rows": [
+                    {
+                      "key": "Gebinde",
+                      "value": "Kanister 5 L; Paletten 1,15 × 1,15 m mit 144 Stück"
+                    },
+                    {
+                      "key": "Lagerung",
+                      "value": "5 bis 40 °C; max. 12 Monate"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Kanister 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zwischen 5 und 40 °C, in der Originalverpackung. Nicht länger als 12 Monate lagern."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG MIT MIKROZEMENT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Verhältnis",
+                      "value": "1 kg Pulver auf 0,25-0,35 l Harz."
+                    },
+                    {
+                      "key": "Mischen",
+                      "value": "300-500 U/min, mehr als 3 Min."
+                    },
+                    {
+                      "key": "Ruhezeit",
+                      "value": "Ca. 10 Min."
+                    },
+                    {
+                      "key": "Erneutes Rühren",
+                      "value": "Mehr als 2 Min., klumpenfreie Paste."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Richtwerte; anpassbar je nach Temperatur, Luftfeuchtigkeit und Arbeitsweise."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT LATEX INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Latex",
+      "subtitle": "ACRYLIC DISPERSION RESIN FOR TWO-COMPONENT MICROCEMENTS",
+      "stats": [
+        {
+          "value": "3-5 h",
+          "label": "Pot life"
+        },
+        {
+          "value": "1.01 kg/l",
+          "label": "Specific weight"
+        },
+        {
+          "value": "27 %",
+          "label": "Solids by weight"
+        },
+        {
+          "value": "5 L",
+          "label": "Jerrycan"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Aqueous acrylic polymer dispersion resin based on organic polymers. It adds adhesion, hardness and workability to Zement Direkt 2K two-component microcements."
+            },
+            {
+              "type": "list",
+              "items": [
+                "White, water-based liquid.",
+                "Mixes without problems with Zement pigments."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Preparation and mixing of the whole range of two-component microcements (liquid component B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Increased hardness of the microcement.",
+                "Very good workability and applicability.",
+                "Perfect behavior when mixed with pigments.",
+                "Water-based."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MIXING RATIO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Depends on the product used. Depending on temperature, humidity, working system or habits, drying, hardness, workability and grain size can be adapted to the customer's preference."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fine microcement: approx. 0.25-0.35 l of resin per 1 kg of powder.",
+                "Coarse microcement: approx. 0.25-0.35 l of resin per 1 kg of powder."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MIXING PROCEDURE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In a clean plastic container, add component A (solid: microcement, in the ratio for its grain size) little by little to component B (liquid: Zement Latex), using a low-speed mechanical mixer (300-500 rpm) for more than 3 minutes."
+            },
+            {
+              "type": "p",
+              "text": "Let stand for about 10 minutes."
+            },
+            {
+              "type": "p",
+              "text": "Mix again for more than 2 minutes, until a homogeneous, lump-free paste is obtained."
+            }
+          ]
+        },
+        {
+          "title": "SAFETY AND HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Not toxic, hazardous or flammable under normal handling conditions.",
+                "Can be used without special safety measures, only following the legal occupational health rules."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Appearance",
+                      "value": "White liquid"
+                    },
+                    {
+                      "key": "Nature",
+                      "value": "Aqueous acrylic dispersion of organic polymers"
+                    },
+                    {
+                      "key": "Specific weight",
+                      "value": "1.01 ± 0.05 kg/l"
+                    },
+                    {
+                      "key": "Viscosity",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Solids by volume",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Solids by weight",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Pot life",
+                      "value": "3-5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Packaging and storage",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "5 L jerrycan; 1.15 × 1.15 m pallet with 144 units"
+                    },
+                    {
+                      "key": "Storage",
+                      "value": "5 to 40 °C; max. 12 months"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "5 L jerrycan"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Between 5 and 40 °C, in its original packaging. Do not store for more than 12 months."
+            }
+          ]
+        },
+        {
+          "title": "MIXING WITH MICROCEMENT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ratio",
+                      "value": "0.25-0.35 l of resin per 1 kg of powder."
+                    },
+                    {
+                      "key": "Mixing",
+                      "value": "300-500 rpm, more than 3 min."
+                    },
+                    {
+                      "key": "Standing",
+                      "value": "About 10 min."
+                    },
+                    {
+                      "key": "Re-mixing",
+                      "value": "More than 2 min, lump-free paste."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Approximate values; adjustable according to temperature, humidity and working system."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT LATEX ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Latex",
+      "subtitle": "RESINA ACRÍLICA EN DISPERSIÓN PARA MICROCEMENTOS BICOMPONENTES",
+      "stats": [
+        {
+          "value": "3-5 h",
+          "label": "Vida de la mezcla"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Peso específico"
+        },
+        {
+          "value": "27 %",
+          "label": "Sólidos en peso"
+        },
+        {
+          "value": "5 L",
+          "label": "Garrafa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Resina polimérica acrílica en dispersión acuosa, a base de polímeros orgánicos. Aporta adherencia, dureza y trabajabilidad a los microcementos bicomponentes Zement Direkt 2K."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Líquido blanco, de base agua.",
+                "Se mezcla sin problemas con los pigmentos Zement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Preparación y mezcla de toda la gama de microcementos bicomponentes (componente líquido B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Mayor dureza del microcemento.",
+                "Muy buena trabajabilidad y aplicabilidad.",
+                "Comportamiento perfecto en la mezcla con pigmentos.",
+                "Base agua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RELACIÓN DE MEZCLA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Según el producto utilizado. Según la temperatura, la humedad, el sistema de trabajo o las costumbres, pueden adaptarse el secado, la dureza, la trabajabilidad y la granulometría al gusto del cliente."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Microcemento fino: 1 kg de polvo por 0,25-0,35 l de resina aprox.",
+                "Microcemento grueso: 1 kg de polvo por 0,25-0,35 l de resina aprox."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DE LA MEZCLA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "En un recipiente de plástico limpio, añadir poco a poco el componente A (sólido: microcemento, en la relación según su granulometría) al componente B (líquido: Zement Latex), con agitador mecánico de bajas revoluciones (300-500 r.p.m.) durante más de 3 minutos."
+            },
+            {
+              "type": "p",
+              "text": "Dejar reposar unos 10 minutos."
+            },
+            {
+              "type": "p",
+              "text": "Agitar de nuevo durante más de 2 minutos, hasta lograr una pasta homogénea y sin grumos."
+            }
+          ]
+        },
+        {
+          "title": "SEGURIDAD E HIGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No es tóxica, peligrosa ni inflamable en condiciones normales de manipulación.",
+                "Se recomienda su uso sin medidas especiales de seguridad, solo con las normas legales de salud laboral."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Aspecto",
+                      "value": "Líquido blanco"
+                    },
+                    {
+                      "key": "Naturaleza",
+                      "value": "Dispersión acrílica acuosa de polímeros orgánicos"
+                    },
+                    {
+                      "key": "Peso específico",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viscosidad",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Sólidos en volumen",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Sólidos en peso",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Vida de la mezcla",
+                      "value": "3-5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Presentación y almacenaje",
+                  "rows": [
+                    {
+                      "key": "Formato",
+                      "value": "Garrafa de 5 L; palé de 1,15 × 1,15 m con 144 uds."
+                    },
+                    {
+                      "key": "Almacenaje",
+                      "value": "5 a 40 °C; máx. 12 meses"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Garrafa de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 y 40 °C, en su envase original. No almacenar más de 12 meses."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA CON MICROCEMENTO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Relación",
+                      "value": "1 kg de polvo por 0,25-0,35 l de resina."
+                    },
+                    {
+                      "key": "Mezclado",
+                      "value": "300-500 r.p.m., más de 3 min."
+                    },
+                    {
+                      "key": "Reposo",
+                      "value": "Unos 10 min."
+                    },
+                    {
+                      "key": "Reagitado",
+                      "value": "Más de 2 min, pasta sin grumos."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valores aproximados; ajustables según temperatura, humedad y sistema de trabajo."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT LATEX FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Latex",
+      "subtitle": "AKRYYLIHARTSIDISPERSIO KAKSIKOMPONENTTISILLE MIKROSEMENTEILLE",
+      "stats": [
+        {
+          "value": "3–5 h",
+          "label": "Käyttöaika"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Ominaispaino"
+        },
+        {
+          "value": "27 %",
+          "label": "Kuiva-aine painosta"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanisteri"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen akryylipolymeerihartsidispersio, jonka perustana ovat orgaaniset polymeerit. Parantaa Zement Direkt 2K -kaksikomponenttisten mikrosementtien tartuntaa, kovuutta ja työstettävyyttä."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Valkoinen, vesipohjainen neste.",
+                "Sekoittuu ongelmitta Zement-pigmenttien kanssa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Koko kaksikomponenttisten mikrosementtien valikoiman valmistelu ja sekoitus (nestemäinen komponentti B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Mikrosementin suurempi kovuus.",
+                "Erittäin hyvä työstettävyys ja levitettävyys.",
+                "Moitteeton toiminta pigmenttisekoituksissa.",
+                "Vesipohjainen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUSSUHDE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Käytetystä tuotteesta riippuen. Lämpötilan, kosteuden, työtavan tai tottumusten mukaan kuivumista, kovuutta, työstettävyyttä ja raekokoa voi säätää asiakkaan toiveiden mukaan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hieno mikrosementti: 1 kg jauhetta / n. 0,25–0,35 l hartsia.",
+                "Karkea mikrosementti: 1 kg jauhetta / n. 0,25–0,35 l hartsia."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUKSEN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lisää puhtaassa muoviastiassa komponentti A (kiinteä: mikrosementti, suhteessa raekokonsa mukaan) vähitellen komponenttiin B (neste: Zement Latex) hidaskierroksisella sähkösekoittimella (300–500 r/min) yli 3 minuutin ajan."
+            },
+            {
+              "type": "p",
+              "text": "Anna levätä noin 10 minuuttia."
+            },
+            {
+              "type": "p",
+              "text": "Sekoita uudelleen yli 2 minuuttia, kunnes massa on tasaista ja paakutonta."
+            }
+          ]
+        },
+        {
+          "title": "TURVALLISUUS JA HYGIENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei myrkyllinen, vaarallinen eikä syttyvä normaaleissa käsittelyolosuhteissa.",
+                "Käyttö ei vaadi erityisiä turvatoimia, vain työterveyttä koskevien lakisääteisten ohjeiden noudattamista."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Valkoinen neste"
+                    },
+                    {
+                      "key": "Laatu",
+                      "value": "Orgaanisten polymeerien vesipohjainen akryylidispersio"
+                    },
+                    {
+                      "key": "Ominaispaino",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viskositeetti",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Kuiva-aine tilavuudesta",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Kuiva-aine painosta",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Käyttöaika",
+                      "value": "3–5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pakkaus ja varastointi",
+                  "rows": [
+                    {
+                      "key": "Pakkauskoko",
+                      "value": "5 L:n kanisteri; 1,15 × 1,15 m:n lavat, 144 kpl"
+                    },
+                    {
+                      "key": "Varastointi",
+                      "value": "5–40 °C; enintään 12 kk"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "5 L:n kanisteri"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "5–40 °C:ssa, alkuperäispakkauksessa. Älä säilytä yli 12 kuukautta."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS MIKROSEMENTTIIN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Suhde",
+                      "value": "1 kg jauhetta / 0,25–0,35 l hartsia."
+                    },
+                    {
+                      "key": "Sekoitus",
+                      "value": "300–500 r/min, yli 3 min."
+                    },
+                    {
+                      "key": "Lepo",
+                      "value": "Noin 10 min."
+                    },
+                    {
+                      "key": "Uudelleensekoitus",
+                      "value": "Yli 2 min, paakuton massa."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Likimääräiset arvot; säädettävissä lämpötilan, kosteuden ja työtavan mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT LATEX FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Latex",
+      "subtitle": "RÉSINE ACRYLIQUE EN DISPERSION POUR MICROCIMENTS BICOMPOSANTS",
+      "stats": [
+        {
+          "value": "3-5 h",
+          "label": "Durée de vie du mélange"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Masse volumique"
+        },
+        {
+          "value": "27 %",
+          "label": "Extrait sec en poids"
+        },
+        {
+          "value": "5 L",
+          "label": "Bidon"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Résine polymère acrylique en dispersion aqueuse, à base de polymères organiques. Elle apporte adhérence, dureté et maniabilité aux microciments bicomposants Zement Direkt 2K."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquide blanc, à base d'eau.",
+                "Se mélange sans problème avec les pigments Zement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Préparation et mélange de toute la gamme de microciments bicomposants (composant liquide B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dureté accrue du microciment.",
+                "Très bonne maniabilité et facilité d'application.",
+                "Comportement parfait dans le mélange avec les pigments.",
+                "À base d'eau."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RAPPORT DE MÉLANGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Selon le produit utilisé. Selon la température, l'humidité, le système de travail ou les habitudes, le séchage, la dureté, la maniabilité et la granulométrie peuvent être adaptés au goût du client."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Microciment fin : 1 kg de poudre pour 0,25-0,35 l de résine env.",
+                "Microciment gros : 1 kg de poudre pour 0,25-0,35 l de résine env."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU MÉLANGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dans un récipient en plastique propre, ajouter peu à peu le composant A (solide : microciment, dans le rapport selon sa granulométrie) au composant B (liquide : Zement Latex), avec un agitateur mécanique à basse vitesse (300-500 tr/min) pendant plus de 3 minutes."
+            },
+            {
+              "type": "p",
+              "text": "Laisser reposer environ 10 minutes."
+            },
+            {
+              "type": "p",
+              "text": "Agiter de nouveau pendant plus de 2 minutes, jusqu'à obtenir une pâte homogène et sans grumeaux."
+            }
+          ]
+        },
+        {
+          "title": "SÉCURITÉ ET HYGIÈNE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non toxique, non dangereux et non inflammable dans des conditions normales de manipulation.",
+                "Utilisation recommandée sans mesures de sécurité particulières, uniquement avec les règles légales de santé au travail."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Aspect",
+                      "value": "Liquide blanc"
+                    },
+                    {
+                      "key": "Nature",
+                      "value": "Dispersion acrylique aqueuse de polymères organiques"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viscosité",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Extrait sec en volume",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Extrait sec en poids",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Durée de vie du mélange",
+                      "value": "3-5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Conditionnement et stockage",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Bidon de 5 L ; palette de 1,15 × 1,15 m avec 144 unités"
+                    },
+                    {
+                      "key": "Stockage",
+                      "value": "5 à 40 °C ; 12 mois max."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Bidon de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 et 40 °C, dans son emballage d'origine. Ne pas stocker plus de 12 mois."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE AVEC LE MICROCIMENT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Rapport",
+                      "value": "1 kg de poudre pour 0,25-0,35 l de résine."
+                    },
+                    {
+                      "key": "Mélange",
+                      "value": "300-500 tr/min, plus de 3 min."
+                    },
+                    {
+                      "key": "Repos",
+                      "value": "Environ 10 min."
+                    },
+                    {
+                      "key": "Second malaxage",
+                      "value": "Plus de 2 min, pâte sans grumeaux."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valeurs approximatives ; ajustables selon la température, l'humidité et le système de travail."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT LATEX ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Latex",
+      "subtitle": "RESINA ACRILICA IN DISPERSIONE PER MICROCEMENTI BICOMPONENTI",
+      "stats": [
+        {
+          "value": "3-5 h",
+          "label": "Durata della miscela"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Massa volumica"
+        },
+        {
+          "value": "27 %",
+          "label": "Solidi in peso"
+        },
+        {
+          "value": "5 L",
+          "label": "Tanica"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Resina polimerica acrilica in dispersione acquosa, a base di polimeri organici. Conferisce adesione, durezza e lavorabilità ai microcementi bicomponenti Zement Direkt 2K."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquido bianco, a base acqua.",
+                "Si miscela senza problemi con i pigmenti Zement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Preparazione e miscelazione di tutta la gamma di microcementi bicomponenti (componente liquido B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Maggiore durezza del microcemento.",
+                "Ottima lavorabilità e applicabilità.",
+                "Comportamento perfetto nella miscela con i pigmenti.",
+                "A base acqua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RAPPORTO DI MISCELAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In base al prodotto utilizzato. A seconda di temperatura, umidità, sistema di lavoro o abitudini, essiccazione, durezza, lavorabilità e granulometria possono essere adattate al gusto del cliente."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Microcemento fine: 1 kg di polvere per 0,25-0,35 l di resina circa.",
+                "Microcemento grosso: 1 kg di polvere per 0,25-0,35 l di resina circa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DELLA MISCELA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In un recipiente di plastica pulito, aggiungere gradualmente il componente A (solido: microcemento, nel rapporto indicato per la sua granulometria) al componente B (liquido: Zement Latex), con miscelatore meccanico a basso numero di giri (300-500 giri/min) per più di 3 minuti."
+            },
+            {
+              "type": "p",
+              "text": "Lasciare riposare per circa 10 minuti."
+            },
+            {
+              "type": "p",
+              "text": "Miscelare di nuovo per più di 2 minuti, fino a ottenere un impasto omogeneo e privo di grumi."
+            }
+          ]
+        },
+        {
+          "title": "SICUREZZA E IGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non è tossica, pericolosa né infiammabile in normali condizioni di manipolazione.",
+                "Se ne raccomanda l'uso senza misure di sicurezza particolari, nel solo rispetto delle norme di legge sulla salute sul lavoro."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Aspetto",
+                      "value": "Liquido bianco"
+                    },
+                    {
+                      "key": "Natura",
+                      "value": "Dispersione acrilica acquosa di polimeri organici"
+                    },
+                    {
+                      "key": "Massa volumica",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viscosità",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Solidi in volume",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Solidi in peso",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Durata della miscela",
+                      "value": "3-5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Confezione e stoccaggio",
+                  "rows": [
+                    {
+                      "key": "Formato",
+                      "value": "Tanica da 5 L; pallet da 1,15 × 1,15 m con 144 pz."
+                    },
+                    {
+                      "key": "Stoccaggio",
+                      "value": "Da 5 a 40 °C; max. 12 mesi"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Tanica da 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tra 5 e 40 °C, nella confezione originale. Non stoccare per più di 12 mesi."
+            }
+          ]
+        },
+        {
+          "title": "MISCELA CON MICROCEMENTO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Rapporto",
+                      "value": "1 kg di polvere per 0,25-0,35 l di resina."
+                    },
+                    {
+                      "key": "Miscelazione",
+                      "value": "300-500 giri/min, oltre 3 min."
+                    },
+                    {
+                      "key": "Riposo",
+                      "value": "Circa 10 min."
+                    },
+                    {
+                      "key": "Rimiscelazione",
+                      "value": "Oltre 2 min, impasto senza grumi."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valori indicativi; regolabili in base a temperatura, umidità e sistema di lavoro."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT LATEX NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Latex",
+      "subtitle": "AKRYLDISPERSJON FOR TOKOMPONENTS MIKROSEMENT",
+      "stats": [
+        {
+          "value": "3-5 t",
+          "label": "Brukstid etter blanding"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Densitet"
+        },
+        {
+          "value": "27 %",
+          "label": "Tørrstoff (vekt)"
+        },
+        {
+          "value": "5 L",
+          "label": "Dunk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Akrylpolymerharpiks i vandig dispersjon, basert på organiske polymerer. Gir heft, hardhet og god bearbeidbarhet til tokomponents mikrosement av typen Zement Direkt 2K."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hvit, vannbasert væske.",
+                "Blandes uten problemer med Zement-pigmenter."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Klargjøring og blanding av hele serien med tokomponents mikrosement (flytende komponent B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "YTELSE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Økt hardhet i mikrosementen.",
+                "Meget god bearbeidbarhet og påføring.",
+                "Perfekt oppførsel i blanding med pigmenter.",
+                "Vannbasert."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BLANDINGSFORHOLD",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Avhenger av produktet som brukes. Avhengig av temperatur, fuktighet, arbeidsmetode eller vaner kan tørking, hardhet, bearbeidbarhet og kornstørrelse tilpasses kundens ønsker."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fin mikrosement: 1 kg pulver per ca. 0,25-0,35 l harpiks.",
+                "Grov mikrosement: 1 kg pulver per ca. 0,25-0,35 l harpiks."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV BLANDINGEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tilsett komponent A (fast: mikrosement, i forhold etter kornstørrelse) litt etter litt til komponent B (flytende: Zement Latex) i en ren plastbeholder, og rør med langsomtgående elektrisk rører (300-500 o/min) i mer enn 3 minutter."
+            },
+            {
+              "type": "p",
+              "text": "La blandingen hvile i ca. 10 minutter."
+            },
+            {
+              "type": "p",
+              "text": "Rør igjen i mer enn 2 minutter til du får en jevn masse uten klumper."
+            }
+          ]
+        },
+        {
+          "title": "SIKKERHET OG HYGIENE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ikke giftig, farlig eller brannfarlig under normale håndteringsforhold.",
+                "Kan brukes uten spesielle sikkerhetstiltak, kun med lovpålagte regler for arbeidsmiljø."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Utseende",
+                      "value": "Hvit væske"
+                    },
+                    {
+                      "key": "Type",
+                      "value": "Vandig akryldispersjon av organiske polymerer"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Viskositet",
+                      "value": "4 ± 3 P (poise)"
+                    },
+                    {
+                      "key": "Tørrstoff (volum)",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Tørrstoff (vekt)",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Brukstid etter blanding",
+                      "value": "3-5 t"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leveringsform og lagring",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Dunk 5 L; paller på 1,15 × 1,15 m à 144 stk."
+                    },
+                    {
+                      "key": "Lagring",
+                      "value": "5 til 40 °C; maks. 12 måneder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Dunk 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mellom 5 og 40 °C, i original emballasje. Må ikke lagres lenger enn 12 måneder."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING MED MIKROSEMENT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Forhold",
+                      "value": "1 kg pulver per 0,25-0,35 l harpiks."
+                    },
+                    {
+                      "key": "Blanding",
+                      "value": "300-500 o/min, mer enn 3 min."
+                    },
+                    {
+                      "key": "Hviletid",
+                      "value": "Ca. 10 min."
+                    },
+                    {
+                      "key": "Omrøring på ny",
+                      "value": "Mer enn 2 min, masse uten klumper."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Omtrentlige verdier; kan justeres etter temperatur, fuktighet og arbeidsmetode."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT LATEX POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Latex",
+      "subtitle": "DYSPERSJA AKRYLOWA DO MIKROCEMENTÓW DWUSKŁADNIKOWYCH",
+      "stats": [
+        {
+          "value": "3-5 h",
+          "label": "Czas przydatności mieszanki"
+        },
+        {
+          "value": "1,01 kg/l",
+          "label": "Ciężar właściwy"
+        },
+        {
+          "value": "27 %",
+          "label": "Części stałe wagowo"
+        },
+        {
+          "value": "5 L",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Akrylowa żywica polimerowa w dyspersji wodnej, na bazie polimerów organicznych. Zapewnia przyczepność, twardość i dobrą urabialność mikrocementów dwuskładnikowych Zement Direkt 2K."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Biała ciecz na bazie wody.",
+                "Doskonale miesza się z pigmentami Zement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Przygotowanie i mieszanie całej gamy mikrocementów dwuskładnikowych (składnik płynny B)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI UŻYTKOWE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Większa twardość mikrocementu.",
+                "Bardzo dobra urabialność i łatwość aplikacji.",
+                "Doskonałe zachowanie w mieszance z pigmentami.",
+                "Na bazie wody."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPORCJA MIESZANIA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zależnie od stosowanego produktu. W zależności od temperatury, wilgotności, systemu pracy lub przyzwyczajeń można dostosować schnięcie, twardość, urabialność i uziarnienie do preferencji klienta."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mikrocement drobny: 1 kg proszku na ok. 0,25-0,35 l żywicy.",
+                "Mikrocement gruby: 1 kg proszku na ok. 0,25-0,35 l żywicy."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE MIESZANKI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "W czystym plastikowym pojemniku stopniowo dodawać składnik A (stały: mikrocement, w proporcji zależnej od uziarnienia) do składnika B (płynnego: Zement Latex), mieszając mieszadłem mechanicznym o niskich obrotach (300-500 obr./min) przez ponad 3 minuty."
+            },
+            {
+              "type": "p",
+              "text": "Odstawić na ok. 10 minut."
+            },
+            {
+              "type": "p",
+              "text": "Ponownie mieszać przez ponad 2 minuty, aż do uzyskania jednorodnej masy bez grudek."
+            }
+          ]
+        },
+        {
+          "title": "BEZPIECZEŃSTWO I HIGIENA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nietoksyczna, niebezpieczna ani łatwopalna w normalnych warunkach użytkowania.",
+                "Zaleca się stosowanie bez szczególnych środków bezpieczeństwa, wyłącznie z zachowaniem przepisów BHP."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Wygląd",
+                      "value": "Biała ciecz"
+                    },
+                    {
+                      "key": "Charakter",
+                      "value": "Wodna dyspersja akrylowa polimerów organicznych"
+                    },
+                    {
+                      "key": "Ciężar właściwy",
+                      "value": "1,01 ± 0,05 kg/l"
+                    },
+                    {
+                      "key": "Lepkość",
+                      "value": "4 ± 3 P (puaz)"
+                    },
+                    {
+                      "key": "Części stałe objętościowo",
+                      "value": "24 ± 1 %"
+                    },
+                    {
+                      "key": "Części stałe wagowo",
+                      "value": "27 ± 1 %"
+                    },
+                    {
+                      "key": "Czas przydatności mieszanki",
+                      "value": "3-5 h"
+                    }
+                  ]
+                },
+                {
+                  "title": "Opakowanie i przechowywanie",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Kanister 5 L; paleta 1,15 × 1,15 m, 144 szt."
+                    },
+                    {
+                      "key": "Przechowywanie",
+                      "value": "5 do 40 °C; maks. 12 miesięcy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Latex",
+                "Kanister 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Od 5 do 40 °C, w oryginalnym opakowaniu. Nie przechowywać dłużej niż 12 miesięcy."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANIE Z MIKROCEMENTEM",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Proporcja",
+                      "value": "1 kg proszku na 0,25-0,35 l żywicy."
+                    },
+                    {
+                      "key": "Mieszanie",
+                      "value": "300-500 obr./min, ponad 3 min."
+                    },
+                    {
+                      "key": "Odstawienie",
+                      "value": "Ok. 10 min."
+                    },
+                    {
+                      "key": "Ponowne mieszanie",
+                      "value": "Ponad 2 min, masa bez grudek."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wartości przybliżone; do dostosowania zależnie od temperatury, wilgotności i systemu pracy."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

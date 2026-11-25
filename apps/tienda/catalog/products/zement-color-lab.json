@@ -1,0 +1,2775 @@
+{
+  "key": "zement-color-lab",
+  "source": "ZEMENT COLOR LAB",
+  "languages": {
+    "de": {
+      "file": "ZEMENT COLOR LAB ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Color Lab",
+      "subtitle": "PIGMENTPASTEN FÜR MÖRTEL UND MIKROZEMENTE",
+      "stats": [
+        {
+          "value": "50",
+          "label": "NCS-Farben in Farbkarte"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Dichte (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viskosität (mPa·s)"
+        },
+        {
+          "value": "12 Monate",
+          "label": "Lagerung"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Pigmentsystem, formuliert für die Leistungsanforderungen der Zement-Produkte, sowohl in industriellen Anwendungen als auch in der hochwertigen Dekoration, mit ausgezeichneter Witterungsbeständigkeit im Außenbereich."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Farbkarte mit Farbtönen nach dem NCS-System; jede weitere Farbe der Karte kann gefertigt werden.",
+                "Untereinander vollständig kompatibel: Sie lassen sich mischen, um ein individuelles System zu schaffen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Einfärben von Mörteln, Mikrozementen und der gesamten zementgebundenen Zement-Produktpalette."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Leicht zu mischen: gebrauchsfertig und vorverdünnt geliefert.",
+                "Jedes Pigment hat eine bestimmte Einwaage, um den in der NCS-Karte angegebenen Farbton zu erzielen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TECHNISCHE DATEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Aussehen",
+                      "value": "Flüssig (Paste)"
+                    },
+                    {
+                      "key": "Farbe",
+                      "value": "Zement-Farbkarte (NCS)"
+                    },
+                    {
+                      "key": "Geruch",
+                      "value": "Schwach"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Dichte",
+                      "value": "Ca. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viskosität",
+                      "value": "Ca. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Zusammensetzung",
+                      "value": "Pigmentpasten aus Mineraloxiden auf Wasserbasis"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lassen sich hervorragend in zementgebundene Produkte und vor allem in Mikrozement einmischen. Bei Mikrozement sind die Pigmente exakt auf die Gebindegröße des Eimers dosiert."
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "NCS-FARBKARTE FÜR ZEMENTGEBUNDENE UNTERGRÜNDE",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Zusätzlich zu den Farben der Karte liefern wir auf Anfrage jeden anderen NCS-Farbton. Als Hersteller können wir jede Wunschfarbe liefern: Wenden Sie sich an unsere Vertriebsabteilung."
+            },
+            {
+              "type": "p",
+              "text": "Aus technischen und drucktechnischen Gründen können die aufgetragenen Farben geringfügig von der Karte abweichen, bedingt durch Art der Lackierung, Trocknungszeit, Schichtdicke, Oberflächenbeschaffenheit und Verarbeitungsmethode. Diese Abweichungen begründen keine Reklamation."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT COLOR LAB INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Color Lab",
+      "subtitle": "PIGMENT PASTES FOR MORTARS AND MICROCEMENTS",
+      "stats": [
+        {
+          "value": "50",
+          "label": "NCS colours in the chart"
+        },
+        {
+          "value": "1.23-2.90",
+          "label": "Density (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viscosity (mPa·s)"
+        },
+        {
+          "value": "12 months",
+          "label": "Storage"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Pigment system formulated to meet the performance needs of Zement products, in both industrial applications and high-end decoration, with excellent weather resistance outdoors."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Colour chart referenced to the NCS system, with the option of producing any other colour from the chart.",
+                "Fully compatible with one another: they can be mixed to create a completely customised system."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Colouring mortars, microcements and the entire Zement cement-based range."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPERTIES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Easy to mix: supplied ready-made and pre-diluted.",
+                "Each pigment carries a specific weight to achieve the colour referenced in the NCS chart."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TECHNICAL CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Appearance",
+                      "value": "Liquid (paste)"
+                    },
+                    {
+                      "key": "Colour",
+                      "value": "Zement colour chart (NCS)"
+                    },
+                    {
+                      "key": "Odour",
+                      "value": "Slight"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Density",
+                      "value": "Approx. 1.23-2.90 g/cm³"
+                    },
+                    {
+                      "key": "Viscosity",
+                      "value": "Approx. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Water-based mineral oxide pigment pastes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "They mix perfectly with cement-based products and, above all, with microcement. In microcement, the pigments carry the exact dosage for the bucket format."
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "NCS COLOUR CHART FOR CEMENT-BASED SUBSTRATES",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "In addition to the colours in the chart, any other NCS colour is supplied on request. As manufacturers, we can supply any colour to your taste: please contact our sales department."
+            },
+            {
+              "type": "p",
+              "text": "For technical and printing reasons, the colours once applied may show slight differences from the chart, due to the type of lacquering, drying time, applied thickness, surface appearance and application method. These differences shall not be grounds for complaint."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT COLOR LAB ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Color Lab",
+      "subtitle": "PASTAS PIGMENTARIAS PARA MORTEROS Y MICROCEMENTOS",
+      "stats": [
+        {
+          "value": "50",
+          "label": "Colores NCS en carta"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Densidad (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viscosidad (mPa·s)"
+        },
+        {
+          "value": "12 meses",
+          "label": "Conservación"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sistema de pigmentos formulado para cubrir las necesidades de rendimiento de los productos Zement, tanto en aplicaciones industriales como en alta decoración, con excelente resistencia a la intemperie en exteriores."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Carta de colores referenciados con el sistema NCS, con la posibilidad de fabricar cualquier otro color de la carta.",
+                "Totalmente compatibles entre sí: pueden mezclarse para crear un sistema completamente personalizado."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Colorear morteros, microcementos y toda la gama Zement de base cemento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPIEDADES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fáciles de mezclar: se suministran preparados y prediluidos.",
+                "Cada pigmento lleva un peso específico para conseguir el color referenciado en la carta NCS."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS TÉCNICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Aspecto",
+                      "value": "Líquido (pasta)"
+                    },
+                    {
+                      "key": "Color",
+                      "value": "Carta de colores Zement (NCS)"
+                    },
+                    {
+                      "key": "Olor",
+                      "value": "Ligero"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Densidad",
+                      "value": "Aprox. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viscosidad",
+                      "value": "Aprox. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Composición",
+                      "value": "Pastas pigmentarias de óxidos minerales de base acuosa"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Se mezclan perfectamente con los productos de base cementosa y, sobre todo, con el microcemento. En microcemento, los pigmentos llevan la dosificación exacta para el formato del cubo."
+            }
+          ]
+        },
+        {
+          "title": "ALMACENAJE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "CARTA DE COLORES NCS PARA BASES CEMENTICIAS",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Además de los colores de la carta, bajo pedido se sirve cualquier otro color NCS. Al ser fabricantes, podemos servir cualquier color a su gusto: consulte con nuestro departamento comercial."
+            },
+            {
+              "type": "p",
+              "text": "Por razones técnicas y de impresión, los colores una vez aplicados pueden presentar pequeñas diferencias respecto a la carta, debido al tipo de lacado, al tiempo de secado, al espesor aplicado, al aspecto superficial y al método de aplicación. Estas diferencias no serán motivo de reclamación."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT COLOR LAB FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Color Lab",
+      "subtitle": "PIGMENTTITAHNAT LAASTEILLE JA MIKROSEMENTEILLE",
+      "stats": [
+        {
+          "value": "50",
+          "label": "NCS-sävyä värikartassa"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Tiheys (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viskositeetti (mPa·s)"
+        },
+        {
+          "value": "12 kk",
+          "label": "Säilyvyys"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Pigmenttijärjestelmä, joka on kehitetty vastaamaan Zement-tuotteiden suorituskykyvaatimuksia sekä teollisissa käyttökohteissa että korkeatasoisessa sisustuksessa. Erinomainen säänkestävyys ulkokäytössä."
+            },
+            {
+              "type": "list",
+              "items": [
+                "NCS-järjestelmään viitattu värikartta; mikä tahansa muu kartan väri on mahdollista valmistaa.",
+                "Täysin yhteensopivia keskenään: niitä voi sekoittaa täysin yksilöllisen järjestelmän luomiseksi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖ",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laastien, mikrosementtien ja koko sementtipohjaisen Zement-valikoiman värjäys."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Helppo sekoittaa: toimitetaan valmiiksi sekoitettuina ja esilaimennettuina.",
+                "Jokaiselle pigmentille on määritetty tietty paino, jotta NCS-kartan väri saavutetaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TEKNISET TIEDOT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Neste (tahna)"
+                    },
+                    {
+                      "key": "Väri",
+                      "value": "Zementin värikartta (NCS)"
+                    },
+                    {
+                      "key": "Haju",
+                      "value": "Heikko"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Tiheys",
+                      "value": "Noin 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viskositeetti",
+                      "value": "Noin 1200 mPa·s"
+                    },
+                    {
+                      "key": "Koostumus",
+                      "value": "Vesipohjaiset mineraalioksidipigmenttitahnat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoittuvat täydellisesti sementtipohjaisiin tuotteisiin ja erityisesti mikrosementtiin. Mikrosementissä pigmenttien annostus on mitoitettu tarkasti sangon koon mukaan."
+            }
+          ]
+        },
+        {
+          "title": "VARASTOINTI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "NCS-VÄRIKARTTA SEMENTTIPOHJAISILLE ALUSTOILLE",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Kartan värien lisäksi toimitamme tilauksesta mitä tahansa muuta NCS-väriä. Valmistajana voimme toimittaa minkä tahansa toivomasi sävyn: ota yhteyttä myyntiosastoomme."
+            },
+            {
+              "type": "p",
+              "text": "Teknisistä ja painotuksellisista syistä levitetyt värit voivat poiketa hieman kartasta lakkaustavan, kuivumisajan, levityspaksuuden, pinnan ulkonäön ja levitystavan vuoksi. Tällaiset poikkeamat eivät ole reklamaation peruste."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT COLOR LAB FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Color Lab",
+      "subtitle": "PÂTES PIGMENTAIRES POUR MORTIERS ET MICROCIMENTS",
+      "stats": [
+        {
+          "value": "50",
+          "label": "Couleurs NCS au nuancier"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Densité (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viscosité (mPa·s)"
+        },
+        {
+          "value": "12 mois",
+          "label": "Conservation"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Système de pigments formulé pour répondre aux exigences de performance des produits Zement, aussi bien en applications industrielles qu'en haute décoration, avec une excellente résistance aux intempéries en extérieur."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nuancier de couleurs référencées selon le système NCS, avec la possibilité de fabriquer toute autre couleur du nuancier.",
+                "Totalement compatibles entre eux : ils peuvent être mélangés pour créer un système entièrement personnalisé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Colorer les mortiers, les microciments et toute la gamme Zement à base de ciment."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIÉTÉS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Faciles à mélanger : fournis prêts à l'emploi et prédilués.",
+                "Chaque pigment est dosé selon un poids spécifique pour obtenir la couleur référencée dans le nuancier NCS."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES TECHNIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Aspect",
+                      "value": "Liquide (pâte)"
+                    },
+                    {
+                      "key": "Couleur",
+                      "value": "Nuancier Zement (NCS)"
+                    },
+                    {
+                      "key": "Odeur",
+                      "value": "Légère"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Densité",
+                      "value": "Env. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viscosité",
+                      "value": "Env. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Pâtes pigmentaires d'oxydes minéraux à base aqueuse"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ils se mélangent parfaitement aux produits à base de ciment et, surtout, au microciment. Pour le microciment, les pigments sont dosés avec précision pour le format du seau."
+            }
+          ]
+        },
+        {
+          "title": "STOCKAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "NUANCIER NCS POUR BASES CIMENTAIRES",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Outre les couleurs du nuancier, toute autre couleur NCS est fournie sur demande. En tant que fabricants, nous pouvons fournir la couleur de votre choix : consultez notre service commercial."
+            },
+            {
+              "type": "p",
+              "text": "Pour des raisons techniques et d'impression, les couleurs une fois appliquées peuvent présenter de légères différences par rapport au nuancier, en fonction du type de finition, du temps de séchage, de l'épaisseur appliquée, de l'aspect de surface et de la méthode d'application. Ces différences ne pourront donner lieu à aucune réclamation."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT COLOR LAB ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Color Lab",
+      "subtitle": "PASTE PIGMENTARIE PER MALTE E MICROCEMENTI",
+      "stats": [
+        {
+          "value": "50",
+          "label": "Colori NCS in cartella"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Densità (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viscosità (mPa·s)"
+        },
+        {
+          "value": "12 mesi",
+          "label": "Conservazione"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sistema di pigmenti formulato per soddisfare le esigenze prestazionali dei prodotti Zement, sia nelle applicazioni industriali sia nell'alta decorazione, con eccellente resistenza agli agenti atmosferici in esterno."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cartella colori riferita al sistema NCS, con la possibilità di produrre qualsiasi altro colore della cartella.",
+                "Totalmente compatibili tra loro: possono essere miscelati per creare un sistema completamente personalizzato."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Colorazione di malte, microcementi e di tutta la gamma Zement a base cemento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIETÀ",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Facili da miscelare: forniti pronti e prediluiti.",
+                "Ogni pigmento è dosato con un peso specifico per ottenere il colore di riferimento della cartella NCS."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE TECNICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Aspetto",
+                      "value": "Liquido (pasta)"
+                    },
+                    {
+                      "key": "Colore",
+                      "value": "Cartella colori Zement (NCS)"
+                    },
+                    {
+                      "key": "Odore",
+                      "value": "Lieve"
+                    },
+                    {
+                      "key": "Punto di infiamm.",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Densità",
+                      "value": "Ca. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viscosità",
+                      "value": "Ca. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Composizione",
+                      "value": "Paste pigmentarie di ossidi minerali a base acquosa"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Si miscelano perfettamente con i prodotti a base cementizia e, soprattutto, con il microcemento. Nel microcemento, i pigmenti sono dosati con precisione per il formato del secchio."
+            }
+          ]
+        },
+        {
+          "title": "STOCCAGGIO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "CARTELLA COLORI NCS PER BASI CEMENTIZIE",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Oltre ai colori della cartella, su richiesta è disponibile qualsiasi altro colore NCS. Essendo produttori, possiamo fornire qualsiasi colore a vostro piacimento: contattate il nostro ufficio commerciale."
+            },
+            {
+              "type": "p",
+              "text": "Per ragioni tecniche e di stampa, una volta applicati i colori possono presentare lievi differenze rispetto alla cartella, a causa del tipo di finitura, del tempo di essiccazione, dello spessore applicato, dell'aspetto superficiale e del metodo di applicazione. Tali differenze non saranno motivo di reclamo."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT COLOR LAB NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Color Lab",
+      "subtitle": "PIGMENTPASTAER FOR MØRTEL OG MIKROSEMENT",
+      "stats": [
+        {
+          "value": "50",
+          "label": "NCS-farger i fargekartet"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Tetthet (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Viskositet (mPa·s)"
+        },
+        {
+          "value": "12 mnd.",
+          "label": "Holdbarhet"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Pigmentsystem utviklet for å dekke ytelseskravene til Zement-produktene, både i industrielle bruksområder og i høykvalitets dekorasjon, med utmerket værbestandighet utendørs."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fargekart referert til NCS-systemet, med mulighet for å produsere enhver annen farge fra kartet.",
+                "Fullt kompatible med hverandre: kan blandes for å skape et helt tilpasset system."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Farging av mørtel, mikrosement og hele det sementbaserte Zement-sortimentet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enkle å blande: leveres ferdige og forhåndsfortynnede.",
+                "Hvert pigment har en bestemt vekt for å oppnå fargen som er referert i NCS-kartet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TEKNISKE DATA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Utseende",
+                      "value": "Flytende (pasta)"
+                    },
+                    {
+                      "key": "Farge",
+                      "value": "Zement fargekart (NCS)"
+                    },
+                    {
+                      "key": "Lukt",
+                      "value": "Svak"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Tetthet",
+                      "value": "Ca. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Viskositet",
+                      "value": "Ca. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Sammensetning",
+                      "value": "Vannbaserte pigmentpastaer av mineralske oksider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "De blandes perfekt med sementbaserte produkter og framfor alt med mikrosement. I mikrosement er pigmentene dosert nøyaktig for beholderstørrelsen (bøtteformatet)."
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "NCS-FARGEKART FOR SEMENTBASERTE UNDERLAG",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "I tillegg til fargene i kartet leveres enhver annen NCS-farge på bestilling. Som produsent kan vi levere hvilken som helst farge etter ønske: ta kontakt med vår salgsavdeling."
+            },
+            {
+              "type": "p",
+              "text": "Av tekniske og trykktekniske årsaker kan fargene etter påføring avvike noe fra kartet, avhengig av type finish, tørketid, påført tykkelse, overflateutseende og påføringsmetode. Slike avvik gir ikke grunnlag for reklamasjon."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT COLOR LAB POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Color Lab",
+      "subtitle": "PASTY PIGMENTOWE DO ZAPRAW I MIKROCEMENTÓW",
+      "stats": [
+        {
+          "value": "50",
+          "label": "Kolorów NCS w karcie"
+        },
+        {
+          "value": "1,23-2,90",
+          "label": "Gęstość (g/cm³)"
+        },
+        {
+          "value": "1200",
+          "label": "Lepkość (mPa·s)"
+        },
+        {
+          "value": "12 mies.",
+          "label": "Przechowywanie"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "System pigmentów opracowany tak, aby spełniać wymagania eksploatacyjne produktów Zement, zarówno w zastosowaniach przemysłowych, jak i w wysokiej klasy dekoracji, z doskonałą odpornością na warunki atmosferyczne na zewnątrz."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Karta kolorów odniesiona do systemu NCS, z możliwością wykonania dowolnego innego koloru z karty.",
+                "W pełni kompatybilne ze sobą: można je mieszać, tworząc całkowicie indywidualny system."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Barwienie zapraw, mikrocementów i całej gamy produktów Zement na bazie cementu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Łatwe do mieszania: dostarczane gotowe i wstępnie rozcieńczone.",
+                "Każdy pigment ma określoną masę, aby uzyskać kolor odniesiony do karty NCS."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DANE TECHNICZNE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Wygląd",
+                      "value": "Ciecz (pasta)"
+                    },
+                    {
+                      "key": "Kolor",
+                      "value": "Karta kolorów Zement (NCS)"
+                    },
+                    {
+                      "key": "Zapach",
+                      "value": "Lekki"
+                    },
+                    {
+                      "key": "Temp. zapłonu",
+                      "value": "100 °C"
+                    },
+                    {
+                      "key": "Gęstość",
+                      "value": "Ok. 1,23-2,90 g/cm³"
+                    },
+                    {
+                      "key": "Lepkość",
+                      "value": "Ok. 1200 mPa·s"
+                    },
+                    {
+                      "key": "Skład",
+                      "value": "Pasty pigmentowe z tlenków mineralnych na bazie wodnej"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Doskonale mieszają się z produktami na bazie cementu, a przede wszystkim z mikrocementem. W przypadku mikrocementu pigmenty mają dokładne dozowanie dla wielkości wiadra."
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "KARTA KOLORÓW NCS DO PODŁOŻY CEMENTOWYCH",
+          "blocks": [
+            {
+              "type": "swatches",
+              "items": [
+                {
+                  "code": "S 0500-N",
+                  "color": "#f0ece7"
+                },
+                {
+                  "code": "S 1502-Y",
+                  "color": "#d2cac0"
+                },
+                {
+                  "code": "S 3000-N",
+                  "color": "#aaa9a5"
+                },
+                {
+                  "code": "S 5502-B",
+                  "color": "#6d7174"
+                },
+                {
+                  "code": "S 7500-N",
+                  "color": "#494846"
+                },
+                {
+                  "code": "S 8500-N",
+                  "color": "#2a2927"
+                },
+                {
+                  "code": "S 0505-Y10R",
+                  "color": "#f4eed5"
+                },
+                {
+                  "code": "S 0515-G90Y",
+                  "color": "#f7e7b4"
+                },
+                {
+                  "code": "S 1010-Y20R",
+                  "color": "#e5d6b0"
+                },
+                {
+                  "code": "S 1505-Y30R",
+                  "color": "#d6c8b5"
+                },
+                {
+                  "code": "S 2030-Y20R",
+                  "color": "#d5a466"
+                },
+                {
+                  "code": "S 3030-Y20R",
+                  "color": "#bd7f55"
+                },
+                {
+                  "code": "S 1020-Y30R",
+                  "color": "#f3c493"
+                },
+                {
+                  "code": "S 1020-Y40R",
+                  "color": "#e8b8a8"
+                },
+                {
+                  "code": "S 2005-Y40R",
+                  "color": "#c7b9ae"
+                },
+                {
+                  "code": "S 3010-Y30R",
+                  "color": "#b49881"
+                },
+                {
+                  "code": "S 4005-Y20R",
+                  "color": "#8e847b"
+                },
+                {
+                  "code": "S 4010-Y10R",
+                  "color": "#a18d73"
+                },
+                {
+                  "code": "S 0502-Y50R",
+                  "color": "#efe8dd"
+                },
+                {
+                  "code": "S 1002-Y50R",
+                  "color": "#e1d9d0"
+                },
+                {
+                  "code": "S 1002-R",
+                  "color": "#dedad5"
+                },
+                {
+                  "code": "S 0505-Y70R",
+                  "color": "#f4e4da"
+                },
+                {
+                  "code": "S 0510-R",
+                  "color": "#f2dbd4"
+                },
+                {
+                  "code": "S 2010-Y90R",
+                  "color": "#c6ada5"
+                },
+                {
+                  "code": "S 3020-Y70R",
+                  "color": "#bf9181"
+                },
+                {
+                  "code": "S 4010-Y70R",
+                  "color": "#9c8377"
+                },
+                {
+                  "code": "S 4020-Y90R",
+                  "color": "#99706a"
+                },
+                {
+                  "code": "S 2002-R50B",
+                  "color": "#bebec1"
+                },
+                {
+                  "code": "S 1020-R60B",
+                  "color": "#c3c4dc"
+                },
+                {
+                  "code": "S 1015-R80B",
+                  "color": "#bcd0de"
+                },
+                {
+                  "code": "S 0530-R90B",
+                  "color": "#9acbe6"
+                },
+                {
+                  "code": "S 3010-B",
+                  "color": "#8ea1a9"
+                },
+                {
+                  "code": "S 2040-R90B",
+                  "color": "#5b98bf"
+                },
+                {
+                  "code": "S 0510-G20Y",
+                  "color": "#dfe9d6"
+                },
+                {
+                  "code": "S 0907-G60Y",
+                  "color": "#dfdec7"
+                },
+                {
+                  "code": "S 1002-G50Y",
+                  "color": "#ddddd4"
+                },
+                {
+                  "code": "S 1510-G80Y",
+                  "color": "#d1cba9"
+                },
+                {
+                  "code": "S 0530-G50Y",
+                  "color": "#dbe192"
+                },
+                {
+                  "code": "S 3030-G70Y",
+                  "color": "#a3995c"
+                },
+                {
+                  "code": "S 4010-G90Y",
+                  "color": "#968b70"
+                },
+                {
+                  "code": "S 0560-Y",
+                  "color": "#fdc62a"
+                },
+                {
+                  "code": "S 1070-Y",
+                  "color": "#f5b700"
+                },
+                {
+                  "code": "S 4050-Y",
+                  "color": "#95701e"
+                },
+                {
+                  "code": "S 6010-Y50R",
+                  "color": "#71584b"
+                },
+                {
+                  "code": "S 6005-Y80R",
+                  "color": "#6d615e"
+                },
+                {
+                  "code": "S 3050-Y70R",
+                  "color": "#ad4f35"
+                },
+                {
+                  "code": "S 4050-Y80R",
+                  "color": "#833324"
+                },
+                {
+                  "code": "S 1080-R",
+                  "color": "#b41f2b"
+                },
+                {
+                  "code": "S 1060-R30B",
+                  "color": "#c85d97"
+                },
+                {
+                  "code": "S 2040-R30B",
+                  "color": "#b67597"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Oprócz kolorów z karty, na zamówienie dostarczamy dowolny inny kolor NCS. Jako producent możemy dostarczyć dowolny kolor według Państwa upodobań: prosimy o kontakt z naszym działem handlowym."
+            },
+            {
+              "type": "p",
+              "text": "Ze względów technicznych i drukarskich kolory po nałożeniu mogą wykazywać niewielkie różnice w stosunku do karty, wynikające z rodzaju lakierowania, czasu schnięcia, grubości nałożonej warstwy, wyglądu powierzchni i metody aplikacji. Różnice te nie stanowią podstawy do reklamacji."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

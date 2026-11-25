@@ -1,0 +1,1911 @@
+{
+  "key": "protect-repel",
+  "source": "PROTECT REPEL",
+  "languages": {
+    "de": {
+      "file": "PROTECT REPEL ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Protect Repel",
+      "subtitle": "WASSERBASIERTES WASSER- UND ÖLABWEISENDES MITTEL",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Verdünnung mit Wasser (Teile)"
+        },
+        {
+          "value": "45 %",
+          "label": "Wirkstoffgehalt"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Ergiebigkeit je Schicht"
+        },
+        {
+          "value": "5 kg",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wasserbasiertes wasser- und ölabweisendes Mittel: fluorhaltige Silan-Siloxan-Verbindung in wässriger Lösung zur Behandlung von Baustoffen, die ihnen eine wasser-und ölabweisende Oberfläche verleiht."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Milchig weiß; verändert die vorhandene Farbe nicht.",
+                "Ausgezeichnete Eindringtiefe in den Untergrund."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGSMERKMALE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wasser- und ölabweisende Wirkung.",
+                "Verhindert Flecken und Ausblühungen.",
+                "Atmungsaktiv: wasserdampfdurchlässig."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wasser- und ölabweisende Behandlung von Mörtel, selbstverlaufenden Estrichen, Marmor, Naturstein, Granit, Ziegel und Sichtmauerwerk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUNDVORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Der Untergrund muss trocken, tragfähig, sauber und staubfrei sein."
+            },
+            {
+              "type": "p",
+              "text": "Bei frisch bearbeiteten Flächen vor der Behandlung mindestens 30 Tage warten."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vor der Verwendung stets Tests durchführen."
+            },
+            {
+              "type": "p",
+              "text": "Mit Wasser verdünnen: 1 Teil Produkt auf 14 Teile Wasser."
+            },
+            {
+              "type": "p",
+              "text": "1-2 Durchgänge mit Mopp, Airless, herkömmlicher Spritzpistole usw. auftragen. Nach mindestens 8 Stunden mit der schnelllaufenden Poliermaschine nachpolieren, bis ein möglichst gleichmäßiges Ergebnis erreicht ist."
+            },
+            {
+              "type": "p",
+              "text": "Auf saugfähigen Flächen genügt in der Regel eine Schicht. Ist eine zweite nötig, diese auftragen, sobald der Glanz der ersten verschwunden ist."
+            },
+            {
+              "type": "p",
+              "text": "Direkte Sonneneinstrahlung vermeiden."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Schutzbrille und Handschuhe tragen. Spritzer in Augen und auf Schleimhäute sowie Hautkontakt vermeiden.",
+                "Nicht zu behandelnde Flächen und nicht zementäre Untergründe abdecken.",
+                "Die Angaben beruhen auf Standardprüfungen und können je nach Baustellenbedingungen und Saugfähigkeit des Untergrunds abweichen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farbe",
+                      "value": "Milchig weiß"
+                    },
+                    {
+                      "key": "Wirkstoffgehalt",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viskosität bei 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Dichte bei 25 °C",
+                      "value": "Ca. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Verdünner",
+                      "value": "Wasser"
+                    }
+                  ]
+                },
+                {
+                  "title": "Lieferform und Lagerung",
+                  "rows": [
+                    {
+                      "key": "Gebinde",
+                      "value": "Kanister 5 kg; Paletten à 72 Stück"
+                    },
+                    {
+                      "key": "Lagerung",
+                      "value": "5 bis 25 °C; max. 6 Monate ab Herstellung"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Kanister 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zwischen 5 und 25 °C. Nicht länger als 6 Monate ab Herstellungsdatum lagern, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "VERDÜNNUNG UND VERBRAUCH",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Verdünnung",
+                      "value": "1 Teil Produkt auf 14 Teile Wasser."
+                    },
+                    {
+                      "key": "Verbrauch",
+                      "value": "1 kg (gebrauchsfertig) reicht für 5 bis 25 m² je Schicht, je nach Untergrund."
+                    },
+                    {
+                      "key": "Zwischen den Durchgängen",
+                      "value": "Mind. 8 Std. vor dem Polieren."
+                    },
+                    {
+                      "key": "Neue Flächen",
+                      "value": "30 Tage vor der Behandlung warten."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Richtwerte; je nach Untergrund."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "PROTECT REPEL INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Protect Repel",
+      "subtitle": "WATER-BASED WATER- AND OIL-REPELLENT FOR STONE AND MORTAR",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Dilution in water (parts)"
+        },
+        {
+          "value": "45 %",
+          "label": "Active content"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Coverage per coat (ready to use)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Jerrycan"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Water-based water- and oil-repellent: fluorinated silane-siloxane compound in aqueous solution for treating building materials, giving them a water- and oil-repellent finish."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Milky white; does not alter the existing color.",
+                "Excellent penetration into the substrate."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Water- and oil-repellent effect.",
+                "Prevents staining and efflorescence.",
+                "Breathable: permeable to water vapor."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Water- and oil-repellent treatment of mortars, self-levelling screeds, marble, natural stone, granite, brick and exposed (fair-faced) masonry."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The substrate must be dry, sound, clean and free of dust."
+            },
+            {
+              "type": "p",
+              "text": "On freshly worked surfaces, wait at least 30 days before treatment."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Always carry out tests before using the product."
+            },
+            {
+              "type": "p",
+              "text": "Dilute with water: 1 part of product to 14 parts of water."
+            },
+            {
+              "type": "p",
+              "text": "Apply 1-2 passes with a mop, airless, conventional spray gun, etc. After 8 hours (minimum), pass the high-speed polishing machine until the most uniform finish is achieved."
+            },
+            {
+              "type": "p",
+              "text": "In general, one coat is enough on porous surfaces. If a second is needed, apply it once the gloss of the first has disappeared."
+            },
+            {
+              "type": "p",
+              "text": "Avoid direct sunlight."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wear protective goggles and gloves. Avoid splashes in the eyes and mucous membranes and contact with the skin.",
+                "Protect surfaces that are not to be treated and non-cementitious substrates.",
+                "The data come from standard tests and may vary depending on site conditions and the absorption of the substrate."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Milky white"
+                    },
+                    {
+                      "key": "Active content",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viscosity at 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Density at 25 °C",
+                      "value": "Approx. 1.1 g/cm³"
+                    },
+                    {
+                      "key": "Diluent",
+                      "value": "Water"
+                    }
+                  ]
+                },
+                {
+                  "title": "Packaging and storage",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "5 kg jerrycan; pallets of 72 units"
+                    },
+                    {
+                      "key": "Storage",
+                      "value": "5 to 25 °C; max. 6 months from manufacture"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "5 kg jerrycan"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Between 5 and 25 °C. Do not store for more than 6 months from the date of manufacture, in the original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION AND CONSUMPTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Dilution",
+                      "value": "1 part of product to 14 parts of water."
+                    },
+                    {
+                      "key": "Consumption",
+                      "value": "1 kg (ready to use) covers 5 to 25 m² per coat, depending on the substrate."
+                    },
+                    {
+                      "key": "Between passes",
+                      "value": "Min. 8 h before polishing."
+                    },
+                    {
+                      "key": "New surfaces",
+                      "value": "Wait 30 days before treating."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Approximate values; depending on the substrate."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "PROTECT REPEL ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Protect Repel",
+      "subtitle": "HIDRO-OLEOFUGANTE DE BASE AGUA PARA PIEDRA Y MORTERO",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Dilución en agua (partes)"
+        },
+        {
+          "value": "45 %",
+          "label": "Materia activa"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Cobertura por capa (listo al uso)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Garrafa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Hidro-oleofugante de base agua: compuesto fluorado de silano-siloxano en solución acuosa para tratar materiales de construcción, que les da un acabado repelente al agua y a los aceites."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Blanco lechoso; no modifica el color existente.",
+                "Excelente penetración en el soporte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Efecto repelente al agua y a los aceites.",
+                "Evita la aparición de manchas y de eflorescencias.",
+                "Transpirable: permeable al vapor de agua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tratamiento hidro-oleofugante de morteros, autonivelantes, mármol, piedra natural, granito, ladrillo y cara vista."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DEL SOPORTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El soporte debe estar seco, sano, limpio y exento de polvo."
+            },
+            {
+              "type": "p",
+              "text": "En superficies recién trabajadas, esperar al menos 30 días antes del tratamiento."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hacer siempre pruebas antes de utilizar el producto."
+            },
+            {
+              "type": "p",
+              "text": "Diluir con agua: 1 parte de producto por 14 partes de agua."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar 1-2 pasadas con mopa, airless, pistola convencional, etc. Pasadas 8 horas (mínimo), pasar la máquina de abrillantar ultrarrápida hasta conseguir el acabado más uniforme."
+            },
+            {
+              "type": "p",
+              "text": "Por lo general, una capa basta en superficies porosas. Si hace falta una segunda, aplicarla cuando desaparezca el brillo de la primera."
+            },
+            {
+              "type": "p",
+              "text": "Evitar la insolación directa."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Usar gafas protectoras y guantes. Evitar salpicaduras en ojos y mucosas y el contacto con la piel.",
+                "Proteger las superficies que no vayan a tratarse y los soportes no cementosos.",
+                "Los datos proceden de ensayos estándar y pueden variar según las condiciones de obra y la absorción del soporte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Color",
+                      "value": "Blanco lechoso"
+                    },
+                    {
+                      "key": "Materia activa",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viscosidad a 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Densidad a 25 °C",
+                      "value": "Aprox. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Diluyente",
+                      "value": "Agua"
+                    }
+                  ]
+                },
+                {
+                  "title": "Presentación y almacenaje",
+                  "rows": [
+                    {
+                      "key": "Formato",
+                      "value": "Garrafa de 5 kg; palés de 72 uds."
+                    },
+                    {
+                      "key": "Almacenaje",
+                      "value": "5 a 25 °C; máx. 6 meses desde fabricación"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Garrafa de 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 y 25 °C. No almacenar más de 6 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y la humedad."
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN Y CONSUMO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Dilución",
+                      "value": "1 parte de producto por 14 partes de agua."
+                    },
+                    {
+                      "key": "Consumo",
+                      "value": "1 kg (listo al uso) cubre 5 a 25 m² por capa, según el soporte."
+                    },
+                    {
+                      "key": "Entre pasadas",
+                      "value": "Mín. 8 h antes de pulir."
+                    },
+                    {
+                      "key": "Superficies nuevas",
+                      "value": "Esperar 30 días antes de tratar."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valores aproximados; según el soporte."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "PROTECT REPEL FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Protect Repel",
+      "subtitle": "VETTÄ JA ÖLJYÄ HYLKIVÄ VESIPOHJAINEN SUOJA-AINE KIVELLE",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Vesilaimennus (osaa)"
+        },
+        {
+          "value": "45 %",
+          "label": "Vaikuttava aine"
+        },
+        {
+          "value": "5–25 m²/kg",
+          "label": "Kate/kerros (käyttövalmis)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Kanisteri"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen vettä ja öljyä hylkivä (hydro-oleofobinen) aine: fluoripitoinen silaani-siloksaaniyhdiste vesiliuoksessa rakennusmateriaalien käsittelyyn. Antaa pinnalle vettä ja öljyä hylkivän viimeistelyn."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Maitovalkoinen; ei muuta olemassa olevaa väriä.",
+                "Erinomainen tunkeutuminen alustaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vettä ja öljyä hylkivä vaikutus.",
+                "Estää tahrojen ja kalkkihärmeen muodostumisen.",
+                "Hengittävä: vesihöyryä läpäisevä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laastien, itsetasoittuvien lattioiden, marmorin, luonnonkiven, graniitin, tiilen ja näkyvien muuripintojen vettä ja öljyä hylkivä käsittely."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Alustan on oltava kuiva, ehjä, puhdas ja pölytön."
+            },
+            {
+              "type": "p",
+              "text": "Vastavalmistetuilla pinnoilla odota ennen käsittelyä vähintään 30 vuorokautta."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tee aina esikokeet ennen tuotteen käyttöä."
+            },
+            {
+              "type": "p",
+              "text": "Laimenna vedellä: 1 osa tuotetta 14 osaan vettä."
+            },
+            {
+              "type": "p",
+              "text": "Levitä 1–2 kertaa moppilevittimellä, airless-ruiskulla, tavallisella ruiskulla tms. Vähintään 8 tunnin kuluttua kiillota nopeakierroksisella kiillotuskoneella, kunnes pinta on mahdollisimman tasainen."
+            },
+            {
+              "type": "p",
+              "text": "Huokoisilla pinnoilla yksi kerros riittää yleensä. Jos tarvitaan toinen, levitä se, kun ensimmäisen kerroksen kiilto on hävinnyt."
+            },
+            {
+              "type": "p",
+              "text": "Vältä suoraa auringonvaloa."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Käytä suojalaseja ja suojakäsineitä. Vältä roiskeita silmiin ja limakalvoille sekä ihokosketusta.",
+                "Suojaa käsittelemättömät pinnat ja muut kuin sementtipohjaiset alustat.",
+                "Tiedot perustuvat standardikokeisiin, ja ne voivat vaihdella työmaaolosuhteiden ja alustan imeytyvyyden mukaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Väri",
+                      "value": "Maitovalkoinen"
+                    },
+                    {
+                      "key": "Vaikuttava aine",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viskositeetti 25 °C:ssa",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Tiheys 25 °C:ssa",
+                      "value": "N. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Ohenne",
+                      "value": "Vesi"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pakkaus ja varastointi",
+                  "rows": [
+                    {
+                      "key": "Pakkauskoko",
+                      "value": "5 kg:n kanisteri; 72 kpl:n lavat"
+                    },
+                    {
+                      "key": "Varastointi",
+                      "value": "5–25 °C; enintään 6 kk valmistuksesta"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "5 kg:n kanisteri"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "5–25 °C:ssa. Älä säilytä yli 6 kuukautta valmistuspäivästä, avaamattomassa alkuperäispakkauksessa, suojassa säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "LAIMENNUS JA KULUTUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Laimennus",
+                      "value": "1 osa tuotetta 14 osaan vettä."
+                    },
+                    {
+                      "key": "Kulutus",
+                      "value": "1 kg (käyttövalmis) kattaa 5–25 m² kerrosta kohti alustan mukaan."
+                    },
+                    {
+                      "key": "Kerrosten välillä",
+                      "value": "Väh. 8 h ennen kiillotusta."
+                    },
+                    {
+                      "key": "Uudet pinnat",
+                      "value": "Odota 30 vrk ennen käsittelyä."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Likimääräiset arvot; alustan mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "PROTECT REPEL FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Protect Repel",
+      "subtitle": "HYDRO-OLÉOFUGE À BASE D'EAU POUR PIERRE ET MORTIER",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Dilution dans l'eau (parties)"
+        },
+        {
+          "value": "45 %",
+          "label": "Matière active"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Rendement (prêt à l'emploi)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Bidon"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Hydro-oléofuge à base d'eau : composé fluoré de silane-siloxane en solution aqueuse pour le traitement des matériaux de construction, qui leur confère un fini hydrofuge et oléofuge."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Blanc laiteux ; ne modifie pas la couleur existante.",
+                "Excellente pénétration dans le support."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Effet hydrofuge et oléofuge.",
+                "Évite l'apparition de taches et d'efflorescences.",
+                "Perméable à la vapeur d'eau (respirant)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Traitement hydro-oléofuge des mortiers, des chapes et sols autolissants, du marbre, de la pierre naturelle, du granit, de la brique et des parements apparents."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU SUPPORT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le support doit être sec, sain, propre et exempt de poussière."
+            },
+            {
+              "type": "p",
+              "text": "Sur les surfaces fraîchement réalisées, attendre au moins 30 jours avant le traitement."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Toujours effectuer des essais avant d'utiliser le produit."
+            },
+            {
+              "type": "p",
+              "text": "Diluer avec de l'eau : 1 partie de produit pour 14 parties d'eau."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer 1 à 2 passes au mop (applicateur), à l'airless, au pistolet conventionnel, etc. Après 8 heures (minimum), passer la machine à lustrer ultra-rapide jusqu'à obtenir le fini le plus uniforme."
+            },
+            {
+              "type": "p",
+              "text": "En général, une couche suffit sur les surfaces poreuses. Si une seconde est nécessaire, l'appliquer lorsque le brillant de la première a disparu."
+            },
+            {
+              "type": "p",
+              "text": "Éviter l'exposition directe au soleil."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Porter des lunettes de protection et des gants. Éviter les projections dans les yeux et sur les muqueuses, ainsi que le contact avec la peau.",
+                "Protéger les surfaces qui ne doivent pas être traitées et les supports non cimentaires.",
+                "Les données proviennent d'essais standard et peuvent varier selon les conditions de chantier et l'absorption du support."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Couleur",
+                      "value": "Blanc laiteux"
+                    },
+                    {
+                      "key": "Matière active",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viscosité à 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Masse volumique à 25 °C",
+                      "value": "Env. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Diluant",
+                      "value": "Eau"
+                    }
+                  ]
+                },
+                {
+                  "title": "Conditionnement et stockage",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Bidon de 5 kg ; palettes de 72 unités"
+                    },
+                    {
+                      "key": "Stockage",
+                      "value": "5 à 25 °C ; 6 mois max. après fabrication"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Bidon de 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Entre 5 et 25 °C. Ne pas stocker plus de 6 mois après la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION ET CONSOMMATION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Dilution",
+                      "value": "1 partie de produit pour 14 parties d'eau."
+                    },
+                    {
+                      "key": "Consommation",
+                      "value": "1 kg (prêt à l'emploi) couvre 5 à 25 m² par couche, selon le support."
+                    },
+                    {
+                      "key": "Entre les passes",
+                      "value": "Min. 8 h avant le lustrage."
+                    },
+                    {
+                      "key": "Surfaces neuves",
+                      "value": "Attendre 30 jours avant le traitement."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valeurs approximatives ; selon le support."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "PROTECT REPEL ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Protect Repel",
+      "subtitle": "IDRO-OLEOREPELLENTE ALL'ACQUA PER PIETRA E MALTA",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Diluizione in acqua (parti)"
+        },
+        {
+          "value": "45 %",
+          "label": "Contenuto di sostanza attiva"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Resa per mano (pronto all'uso)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Tanica"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Idro-oleorepellente all'acqua: composto fluorurato di silano-silossano in soluzione acquosa per il trattamento dei materiali da costruzione, che conferisce una finitura repellente all'acqua e agli oli."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bianco latte; non modifica il colore esistente.",
+                "Eccellente penetrazione nel supporto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Effetto repellente all'acqua e agli oli.",
+                "Previene la comparsa di macchie ed efflorescenze.",
+                "Traspirante: permeabile al vapore acqueo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Trattamento idro-oleorepellente di malte, massetti autolivellanti, marmo, pietra naturale, granito, laterizio e faccia a vista."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DEL SUPPORTO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Il supporto deve essere asciutto, sano, pulito e privo di polvere."
+            },
+            {
+              "type": "p",
+              "text": "Su superfici appena realizzate, attendere almeno 30 giorni prima del trattamento."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Eseguire sempre delle prove prima di utilizzare il prodotto."
+            },
+            {
+              "type": "p",
+              "text": "Diluire con acqua: 1 parte di prodotto per 14 parti di acqua."
+            },
+            {
+              "type": "p",
+              "text": "Applicare 1-2 passate con mop, airless, pistola convenzionale, ecc. Trascorse almeno 8 ore, passare la macchina lucidatrice ad alta velocità fino a ottenere la finitura più uniforme."
+            },
+            {
+              "type": "p",
+              "text": "In genere una mano è sufficiente sulle superfici porose. Se ne occorre una seconda, applicarla quando scompare la lucentezza della prima."
+            },
+            {
+              "type": "p",
+              "text": "Evitare l'esposizione diretta al sole."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Usare occhiali protettivi e guanti. Evitare schizzi negli occhi e sulle mucose e il contatto con la pelle.",
+                "Proteggere le superfici da non trattare e i supporti non cementizi.",
+                "I dati derivano da prove standard e possono variare in base alle condizioni di cantiere e all'assorbimento del supporto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Colore",
+                      "value": "Bianco latte"
+                    },
+                    {
+                      "key": "Sostanza attiva",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Punto di infiammabilità",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viscosità a 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Massa volumica a 25 °C",
+                      "value": "Circa 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Diluente",
+                      "value": "Acqua"
+                    }
+                  ]
+                },
+                {
+                  "title": "Confezione e stoccaggio",
+                  "rows": [
+                    {
+                      "key": "Formato",
+                      "value": "Tanica da 5 kg; pallet da 72 pz."
+                    },
+                    {
+                      "key": "Stoccaggio",
+                      "value": "Da 5 a 25 °C; max. 6 mesi dalla produzione"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Tanica da 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Da 5 a 25 °C. Non stoccare per più di 6 mesi dalla data di produzione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE E CONSUMO",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Diluizione",
+                      "value": "1 parte di prodotto per 14 parti di acqua."
+                    },
+                    {
+                      "key": "Consumo",
+                      "value": "1 kg (pronto all'uso) copre da 5 a 25 m² per mano, a seconda del supporto."
+                    },
+                    {
+                      "key": "Tra le passate",
+                      "value": "Min. 8 h prima della lucidatura."
+                    },
+                    {
+                      "key": "Superfici nuove",
+                      "value": "Attendere 30 giorni prima del trattamento."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Valori indicativi; in base al supporto."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "PROTECT REPEL NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Protect Repel",
+      "subtitle": "VANN- OG OLJEAVVISENDE IMPREGNERING FOR STEIN OG MØRTEL",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Fortynning med vann (deler)"
+        },
+        {
+          "value": "45 %",
+          "label": "Aktivt innhold"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Dekning per strøk (bruksklar)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Dunk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vannbasert vann- og oljeavvisende middel: fluorholdig silan-siloksanforbindelse i vandig løsning for behandling av byggematerialer, som gir en finish som avviser vann og olje."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Melkehvit; endrer ikke eksisterende farge.",
+                "Utmerket inntrengning i underlaget."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "YTELSE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vann- og oljeavvisende effekt.",
+                "Hindrer flekker og utblomstring.",
+                "Pustende: damppermeabel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vann- og oljeavvisende behandling av mørtel, selvutjevnende gulv, marmor, naturstein, granitt, murstein og upusset mur (fair-faced)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV UNDERLAGET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Underlaget må være tørt, sunt, rent og fritt for støv."
+            },
+            {
+              "type": "p",
+              "text": "På nylig utførte flater må man vente minst 30 dager før behandling."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Utfør alltid prøver før produktet tas i bruk."
+            },
+            {
+              "type": "p",
+              "text": "Fortynnes med vann: 1 del produkt til 14 deler vann."
+            },
+            {
+              "type": "p",
+              "text": "Påfør 1-2 strøk med mopp, airless, konvensjonell sprøyte e.l. Etter minst 8 timer kjøres en høyhastighets poleringsmaskin til en mest mulig jevn finish."
+            },
+            {
+              "type": "p",
+              "text": "Vanligvis er ett strøk nok på porøse flater. Hvis et andre strøk er nødvendig, påføres det når glansen fra det første har forsvunnet."
+            },
+            {
+              "type": "p",
+              "text": "Unngå direkte sollys."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bruk vernebriller og hansker. Unngå sprut i øyne og slimhinner og hudkontakt.",
+                "Beskytt flater som ikke skal behandles, og underlag som ikke er sementbaserte.",
+                "Dataene stammer fra standardprøver og kan variere avhengig av forholdene på byggeplassen og underlagets sugeevne."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farge",
+                      "value": "Melkehvit"
+                    },
+                    {
+                      "key": "Aktivt innhold",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Viskositet ved 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Densitet ved 25 °C",
+                      "value": "Ca. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Fortynningsmiddel",
+                      "value": "Vann"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leveringsform og lagring",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Dunk 5 kg; paller à 72 stk."
+                    },
+                    {
+                      "key": "Lagring",
+                      "value": "5 til 25 °C; maks. 6 måneder fra produksjon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Dunk 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mellom 5 og 25 °C. Må ikke lagres lenger enn 6 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "FORTYNNING OG FORBRUK",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Fortynning",
+                      "value": "1 del produkt til 14 deler vann."
+                    },
+                    {
+                      "key": "Forbruk",
+                      "value": "1 kg (bruksklar) dekker 5 til 25 m² per strøk, avhengig av underlaget."
+                    },
+                    {
+                      "key": "Mellom strøkene",
+                      "value": "Min. 8 t før polering."
+                    },
+                    {
+                      "key": "Nye flater",
+                      "value": "Vent 30 dager før behandling."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Omtrentlige verdier; avhengig av underlaget."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "PROTECT REPEL POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Protect Repel",
+      "subtitle": "WODNY ŚRODEK HYDRO- I OLEOFOBOWY DO KAMIENIA I ZAPRAWY",
+      "stats": [
+        {
+          "value": "1:14",
+          "label": "Rozcieńczenie wodą (części)"
+        },
+        {
+          "value": "45 %",
+          "label": "Substancja czynna"
+        },
+        {
+          "value": "5-25 m²/kg",
+          "label": "Wydajność na warstwę (gotowy)"
+        },
+        {
+          "value": "5 kg",
+          "label": "Kanister"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Wodny środek hydro- i oleofobowy: fluorowany związek silanowo-siloksanowy w roztworze wodnym do impregnacji materiałów budowlanych, nadający im właściwości odpychające wodę i oleje."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mleczno-biały; nie zmienia istniejącego koloru.",
+                "Doskonale wnika w podłoże."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI UŻYTKOWE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Działanie hydrofobowe i oleofobowe (odpycha wodę i oleje).",
+                "Zapobiega powstawaniu plam i wykwitów.",
+                "Paroprzepuszczalny: przepuszcza parę wodną."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Impregnacja hydro- i oleofobowa zapraw, posadzek samopoziomujących, marmuru, kamienia naturalnego, granitu, cegły i elewacji z cegły licowej."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Podłoże musi być suche, nośne, czyste i wolne od kurzu."
+            },
+            {
+              "type": "p",
+              "text": "Na świeżo wykonanych powierzchniach odczekać co najmniej 30 dni przed impregnacją."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przed użyciem zawsze wykonać próby."
+            },
+            {
+              "type": "p",
+              "text": "Rozcieńczyć wodą: 1 część produktu na 14 części wody."
+            },
+            {
+              "type": "p",
+              "text": "Nanieść 1-2 razy mopem, airlessem, pistoletem konwencjonalnym itp. Po upływie co najmniej 8 godzin przejść szybkoobrotową maszyną polerską, aż do uzyskania najbardziej jednolitego wykończenia."
+            },
+            {
+              "type": "p",
+              "text": "Zazwyczaj jedna warstwa wystarcza na powierzchniach porowatych. Jeśli potrzebna jest druga, nanieść ją, gdy zniknie połysk pierwszej."
+            },
+            {
+              "type": "p",
+              "text": "Unikać bezpośredniego nasłonecznienia."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Stosować okulary ochronne i rękawice. Unikać rozprysków do oczu i na błony śluzowe oraz kontaktu ze skórą.",
+                "Zabezpieczyć powierzchnie, które nie będą impregnowane, oraz podłoża niecementowe.",
+                "Dane pochodzą z badań standardowych i mogą się różnić w zależności od warunków na budowie i chłonności podłoża."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Kolor",
+                      "value": "Mleczno-biały"
+                    },
+                    {
+                      "key": "Substancja czynna",
+                      "value": "45 %"
+                    },
+                    {
+                      "key": "Temperatura zapłonu",
+                      "value": "> 100 °C"
+                    },
+                    {
+                      "key": "Lepkość w 25 °C",
+                      "value": "< 50 mPa·s (cP)"
+                    },
+                    {
+                      "key": "Gęstość w 25 °C",
+                      "value": "ok. 1,1 g/cm³"
+                    },
+                    {
+                      "key": "Rozcieńczalnik",
+                      "value": "Woda"
+                    }
+                  ]
+                },
+                {
+                  "title": "Opakowanie i przechowywanie",
+                  "rows": [
+                    {
+                      "key": "Format",
+                      "value": "Kanister 5 kg; palety po 72 szt."
+                    },
+                    {
+                      "key": "Przechowywanie",
+                      "value": "5 do 25 °C; maks. 6 miesięcy od daty produkcji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Repel",
+                "Kanister 5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Od 5 do 25 °C. Nie przechowywać dłużej niż 6 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, z dala od warunków atmosferycznych i wilgoci."
+            }
+          ]
+        },
+        {
+          "title": "ROZCIEŃCZENIE I ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Rozcieńczenie",
+                      "value": "1 część produktu na 14 części wody."
+                    },
+                    {
+                      "key": "Zużycie",
+                      "value": "1 kg (gotowego do użycia) pokrywa 5 do 25 m² na warstwę, zależnie od podłoża."
+                    },
+                    {
+                      "key": "Między warstwami",
+                      "value": "Min. 8 h przed polerowaniem."
+                    },
+                    {
+                      "key": "Nowe powierzchnie",
+                      "value": "Odczekać 30 dni przed impregnacją."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wartości przybliżone; zależnie od podłoża."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

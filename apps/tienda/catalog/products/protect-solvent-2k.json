@@ -1,0 +1,2431 @@
+{
+  "key": "protect-solvent-2k",
+  "source": "PROTECT SOLVENT 2K",
+  "languages": {
+    "de": {
+      "file": "PROTECT SOLVENT 2K ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "LÖSEMITTELBASIERTER ZWEIKOMPONENTEN-ACRYL-PU-LACK",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Mischungsverhältnis nach Gewicht (A:B)"
+        },
+        {
+          "value": "3 Std.",
+          "label": "Topfzeit der Mischung"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Feststoffgehalt"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Trockenschichtdicke"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Zweikomponenten-Decklack auf Basis von aliphatischem Acryl-Polyurethan für Böden und Beschichtungen im Innen- und Außenbereich. Der Film ist chemisch und mechanisch hoch beständig und für stark beanspruchte Böden geeignet."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hohe Verschleiß- und Belastungsfestigkeit.",
+                "Vergilbt nicht, UV- und witterungsbeständig.",
+                "Matt, seidenmatt oder glänzend; halbdeckend, einfärbbar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZUSAMMENSETZUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponente A: halbdeckendes Acrylharz. Komponente B: Katalysator (Polyurethan-Härter auf Basis nicht vergilbender Isocyanate)."
+            },
+            {
+              "type": "p",
+              "text": "Härtung durch chemische Reaktion bei Raumtemperatur. Mischungsverhältnis 3:1 nach Gewicht."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dekorative Endbeschichtung begehbarer Böden: geglätteter Beton, Fließestriche, Mikrozemente und Prägebeton, neu oder in der Sanierung.",
+                "Untergründe: abgebundener Zement und Beton, Metalle (Eisen, Stahl, Edelstahl, verzinkter Stahl, Zink, Aluminium), PE- oder PU-Composites, einige Kunststoffe (außer PE und PP), Epoxidgrundierungen, überarbeitete Alkydlacke."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUNDVORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Eisen und Stahl: gemäß UNE 48302 (ISO 8501-1) unmittelbar vor dem Lackieren bis Sa 2 sandstrahlen oder bis St 2 bürsten. Bei Verschmutzung entfetten und mit Körnung 240-260 anschleifen."
+            },
+            {
+              "type": "p",
+              "text": "Composites: gründlich entfetten und je nach Effekt ein oder zwei Anstriche auftragen."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "A mit B mischen und vor Gebrauch stets aufrühren."
+            },
+            {
+              "type": "p",
+              "text": "Spritzpistole (Luft oder Airless): mit passendem Verdünner auf 28-30″ im Ford-Becher Nr. 4. Airless: 100 bis 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Pinsel oder Rolle: mit langsamem Verdünner. Zwischen den Schichten nass in nass oder nach 12-24 Std."
+            },
+            {
+              "type": "p",
+              "text": "Mikrozemente: stets auf die Porenversiegelungsgrundierung; 1. Anstrich mit Normalverdünner (Sommer), schnellem (Winter)."
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. Anstrich: max. 50 g/m² + Katalysator (33 %) + Verdünner (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2. und 3. Anstrich: max. 100 g/m² + Katalysator (33 %) + Verdünner (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "Bei Rollenauftrag gleiche Mengen mit 5 % mehr Verdünner."
+            }
+          ]
+        },
+        {
+          "title": "TROCKNUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lufttrocknung durch chemische Reaktion. Nicht unter 10 °C oder bei über 80 % relativer Luftfeuchtigkeit trocknen. Endeigenschaften nach 7-10 Tagen; durch Wärme (max. 50 °C) nach 30-60 Min. Ablüften beschleunigt."
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGSMERKMALE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sehr geringe Wasseraufnahme; beständig gegen sauren Regen (SO²), Frost-Tau-Wechsel, Pilze, Schimmel, Ausblühungen.",
+                "Beständig gegen gängige und aggressive Reinigungsmittel (mit Salzsäure geprüft).",
+                "Hohe mechanische Beständigkeit dank Flexibilität."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nicht bei Kälte oder Regen verarbeiten. Verarbeitung und Aushärtung bei 6 bis 35 °C.",
+                "Entzündbar (Flammpunkt des Katalysators: 34 °C): nicht rauchen, von Wärme- und Zündquellen fernhalten.",
+                "Gebinde nach Gebrauch gut verschließen, aufrecht lagern. Offener Härter nimmt Feuchtigkeit auf: rasch verbrauchen.",
+                "Etikett und Sicherheitsdatenblatt beachten."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponente A (Lack)",
+                  "rows": [
+                    {
+                      "key": "Dichte",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Feststoffe",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viskosität der Mischung",
+                      "value": "42″ ± 5″ (Ford-Becher Nr. 4)"
+                    },
+                    {
+                      "key": "Oberflächenfinish",
+                      "value": "Matt, seidenmatt oder glänzend; halbdeckend, einfärbbar"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Mischungsverhältnis (A:B)",
+                      "value": "3:1 nach Gewicht"
+                    },
+                    {
+                      "key": "Topfzeit",
+                      "value": "3 Std."
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "6 bis 35 °C"
+                    },
+                    {
+                      "key": "Zeit zwischen den Schichten",
+                      "value": "12 Std. (oder nass in nass)"
+                    },
+                    {
+                      "key": "Trockenschichtdicke",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponente B (Katalysator)",
+                  "rows": [
+                    {
+                      "key": "Dichte bei 20 °C",
+                      "value": "1.029 kg/m³"
+                    },
+                    {
+                      "key": "Siedetemperatur",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Komponente A 3 kg + Komponente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemikalienbeständigkeit: UNE-EN ISO 2812-1. Heißwasserbeständigkeit: UNE-EN ISO 2812-2.",
+                "Tiefung: ISO 1520. Fallprüfung: UNE-EN ISO 6272.",
+                "Stahlvorbereitung: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponente A: 3 kg",
+                "Komponente B (Katalysator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung, entfernt von Wärme- und Zündquellen. Nach dem Öffnen nimmt der Härter Feuchtigkeit aus der Umgebungsluft auf und seine Viskosität steigt, bis er unbrauchbar wird."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG UND VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 nach Gewicht (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Verdünnun g",
+                      "value": "10 bis 20 % mit Verdünner, je nach Untergrund, Temperatur und Auftragsverfahren."
+                    },
+                    {
+                      "key": "Spritzpistol e",
+                      "value": "28-30″ im Ford-Becher Nr. 4."
+                    },
+                    {
+                      "key": "Rolle",
+                      "value": "+5 % Verdünner gegenüber dem Spritzauftrag."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Komponente A mit B mischen und vor Gebrauch stets gut aufrühren."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "PROTECT SOLVENT 2K INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "TWO-COMPONENT SOLVENT-BASED ACRYLIC POLYURETHANE VARNISH",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Mixing ratio by weight (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Pot-life of the mix"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Solids content"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Dry film thickness"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Two-component aliphatic acrylic polyurethane topcoat varnish, developed for varnishing floors and coatings indoors and outdoors. It protects with a film of high chemical and mechanical resistance, suitable for heavily trafficked floors."
+            },
+            {
+              "type": "list",
+              "items": [
+                "High resistance to wear and heavy traffic.",
+                "Non-yellowing; resistant to UV radiation and weathering.",
+                "Matt, satin or gloss; semi-opaque and tintable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Component A: semi-opaque acrylic resin. Component B: catalyst (polyurethane hardener based on non-yellowing isocyanates)."
+            },
+            {
+              "type": "p",
+              "text": "They cure by chemical reaction at room temperature. Mixing ratio 3:1 by weight."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Decorative finish for walkable floors: power-trowelled concrete, self-leveling screeds, microcements and stamped concrete, new or refurbished.",
+                "Substrates: set cement and concrete, metals (iron, steel, stainless steel, galvanized steel, zinc, aluminum), PE or polyurethane composites, certain plastics (except PE and PP), epoxy primers and repaired alkyd enamels."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Iron and steel: in accordance with UNE 48302 (ISO 8501-1), abrasive-blast just before painting to Sa 2 or wire-brush to St 2. If dirty, degrease and sand with no. 240-260 abrasive."
+            },
+            {
+              "type": "p",
+              "text": "Composites: degrease thoroughly and apply one or two coats depending on the finish."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mix A with B and always stir before use."
+            },
+            {
+              "type": "p",
+              "text": "Spray gun (conventional or airless): thin with the appropriate solvent (fast, medium or slow) to 28-30″ Ford cup no. 4. Airless pressure: 100 to 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Brush or roller: thin with slow-drying solvent. Between coats, wet-on-wet or after 12-24 hours."
+            },
+            {
+              "type": "p",
+              "text": "Microcements: always apply over the previous pore-sealing primer; 1st coat with normal solvent in summer and fast solvent in winter."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1st coat: 50 g/m² max. + catalyst (33 %) + solvent (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2nd and 3rd coats: 100 g/m² max. + catalyst (33 %) + solvent (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "By roller, the same quantities with 5 % more solvent."
+            }
+          ]
+        },
+        {
+          "title": "DRYING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Air-dries by chemical reaction. Do not dry below 10 °C or at relative humidity above 80 %. Full properties are reached after 7-10 days; curing is accelerated by heat (max. 50 °C) after 30-60 minutes of flash-off."
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Very low water absorption; resistant to acid rain (SO²), freeze-thaw cycles, fungi, mold and efflorescence.",
+                "Chemical resistance to common and aggressive cleaning products (tested with hydrochloric acid).",
+                "Excellent mechanical resistance thanks to its flexibility."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not apply in cold or rainy weather. Application and curing between 6 and 35 °C.",
+                "Flammable (flash point of the catalyst: 34 °C): do not smoke and keep away from heat and electrical sources.",
+                "Close opened containers tightly and keep them upright. Opened hardener absorbs moisture: use it as soon as possible.",
+                "Follow the label and the Safety Data Sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Component A (varnish)",
+                  "rows": [
+                    {
+                      "key": "Density",
+                      "value": "≤ 1.4 g/cm³"
+                    },
+                    {
+                      "key": "Solids",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viscosity of the mix",
+                      "value": "42″ ± 5″ (Ford cup no. 4)"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, satin or gloss; semi-opaque, tintable"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Mixing ratio (A:B)",
+                      "value": "3:1 by weight"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "6 to 35 °C"
+                    },
+                    {
+                      "key": "Time between coats",
+                      "value": "12 h (or wet-on-wet)"
+                    },
+                    {
+                      "key": "Dry film thickness",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Component B (catalyst)",
+                  "rows": [
+                    {
+                      "key": "Density at 20 °C",
+                      "value": "1,029 kg/m³"
+                    },
+                    {
+                      "key": "Boiling point",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "Component A 3 kg + component B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemical resistance: UNE-EN ISO 2812-1. Hot water resistance: UNE-EN ISO 2812-2.",
+                "Cupping: ISO 1520. Falling mass: UNE-EN ISO 6272.",
+                "Steel preparation: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Component A: 3 kg",
+                "Component B (catalyst): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, away from heat and electrical sources. Once opened, the hardener absorbs moisture from the air and its viscosity increases until it becomes unusable."
+            }
+          ]
+        },
+        {
+          "title": "MIXING AND THINNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 by weight (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Thinning",
+                      "value": "10 to 20 % with solvent, depending on the substrate, temperature and method."
+                    },
+                    {
+                      "key": "Spray gun",
+                      "value": "28-30″ Ford cup no. 4."
+                    },
+                    {
+                      "key": "Roller",
+                      "value": "+5 % solvent compared with spraying."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mix component A with B and always stir before use."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "PROTECT SOLVENT 2K ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "BARNIZ DE POLIURETANO ACRÍLICO BICOMPONENTE AL DISOLVENTE",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Proporción de mezcla en peso (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Pot-life de la mezcla"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Contenido en sólidos"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Espesor de película seca"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Barniz de acabado de poliuretano acrílico alifático, de dos componentes, desarrollado para barnizar pavimentos y revestimientos en interior y exterior. Protege con una película de alta resistencia química y mecánica, apta para suelos de alto tráfico."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Alta resistencia al desgaste y al tráfico intenso.",
+                "No amarillea y resiste la radiación UV y la intemperie.",
+                "Mate, satinado o brillo; semiopaco y coloreable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSICIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: resina acrílica semiopaca. Componente B: catalizador (endurecedor de poliuretano a base de isocianatos no amarilleantes)."
+            },
+            {
+              "type": "p",
+              "text": "Endurecen por reacción química a temperatura ambiente. Proporción de mezcla 3:1 en peso."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Acabado decorativo de pavimentos transitables: hormigón fratasado, autonivelantes, microcementos y hormigón impreso, nuevos o en rehabilitación.",
+                "Soportes: cemento y hormigón fraguados, metales (hierro, acero, acero inoxidable, galvanizado, cinc, aluminio), composites de PE o poliuretano, ciertos plásticos (excepto PE y PP), imprimaciones epoxi y esmaltes alquídicos reparados."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DEL SOPORTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hierro y acero: según UNE 48302 (ISO 8501-1), chorrear con arena justo antes de pintar hasta Sa 2 o cepillar hasta St 2. Si está sucio, desengrasar y lijar con abrasivo n.º 240-260."
+            },
+            {
+              "type": "p",
+              "text": "Composites: desengrasar bien y aplicar una o dos manos según el acabado."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mezclar A con B y agitar siempre antes de usar."
+            },
+            {
+              "type": "p",
+              "text": "Pistola (aire continuo o airless): diluir con el disolvente adecuado (rápido, medio o lento) hasta 28-30″ copa Ford n.º 4. Presión en airless: 100 a 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Brocha o rodillo: diluir con disolvente de secado lento. Entre capas, húmedo sobre húmedo o a las 12-24 horas."
+            },
+            {
+              "type": "p",
+              "text": "Microcementos: aplicar siempre sobre la imprimación previa tapaporos; 1.ª mano con disolvente normal en verano y rápido en invierno."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1.ª mano: 50 g/m² máx. + catalizador (33 %) + disolvente (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2.ª y 3.ª mano: 100 g/m² máx. + catalizador (33 %) + disolvente (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "A rodillo, las mismas cantidades con un 5 % más de disolvente."
+            }
+          ]
+        },
+        {
+          "title": "SECADO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Secado al aire por reacción química. No secar por debajo de 10 °C ni con humedad relativa superior al 80 %. Propiedades máximas a los 7-10 días; se acelera con calor (máx. 50 °C) tras 30-60 minutos de evaporación."
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Muy baja absorción de agua; resiste la lluvia ácida (SO²), el hielo-deshielo, hongos, mohos y eflorescencias.",
+                "Resistencia química a productos de limpieza habituales y agresivos (probado con ácido clorhídrico).",
+                "Excelente resistencia mecánica gracias a su flexibilidad."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No aplicar con frío ni lluvia. Aplicación y curado entre 6 y 35 °C.",
+                "Inflamable (punto de inflamación del catalizador: 34 °C): no fumar y alejar de fuentes de calor y eléctricas.",
+                "Cerrar bien los envases abiertos y mantenerlos en vertical. El endurecedor abierto absorbe humedad: usarlo cuanto antes.",
+                "Seguir la etiqueta y la Ficha de Datos de Seguridad."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (barniz)",
+                  "rows": [
+                    {
+                      "key": "Densidad",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Sólidos",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viscosidad de la mezcla",
+                      "value": "42″ ± 5″ (copa Ford n.º 4)"
+                    },
+                    {
+                      "key": "Acabado",
+                      "value": "Mate, satinado o brillo; semiopaco, coloreable"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Proporción de mezcla (A:B)",
+                      "value": "3:1 en peso"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "6 a 35 °C"
+                    },
+                    {
+                      "key": "Tiempo entre capas",
+                      "value": "12 h (o húmedo sobre húmedo)"
+                    },
+                    {
+                      "key": "Espesor de película seca",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (catalizador)",
+                  "rows": [
+                    {
+                      "key": "Densidad a 20 °C",
+                      "value": "1.029 kg/m³"
+                    },
+                    {
+                      "key": "Temperatura de ebullición",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 3 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Resistencia química: UNE-EN ISO 2812-1. Resistencia al agua caliente: UNE-EN ISO 2812-2.",
+                "Embutición: ISO 1520. Caída de una masa: UNE-EN ISO 6272.",
+                "Preparación de acero: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 3 kg",
+                "Componente B (catalizador): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, aislado de fuentes de calor y eléctricas. Una vez abierto, el endurecedor toma humedad del ambiente y aumenta su viscosidad hasta hacerse inservible."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA Y DILUCIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 en peso (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Dilución",
+                      "value": "10 a 20 % con disolvente, según el soporte, la temperatura y el método."
+                    },
+                    {
+                      "key": "Pistola",
+                      "value": "28-30″ copa Ford n.º 4."
+                    },
+                    {
+                      "key": "Rodillo",
+                      "value": "+5 % de disolvente sobre pistola."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mezclar el componente A con el B y agitar siempre antes de usar."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "PROTECT SOLVENT 2K FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "LIUOTINPOHJAINEN KAKSIKOMPONENTTINEN AKRYYLIPOLYURETAANILAKKA",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Sekoitussuhde painosta (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Seoksen käyttöaika (pot-life)"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Kuiva-ainepitoisuus"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Kuivakalvon paksuus"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Alifaattinen kaksikomponenttinen akryylipolyuretaanipintalakka lattioiden ja pinnoitteiden lakkaukseen sisä- ja ulkotiloissa. Suojaa erittäin kestävällä kemiallisella ja mekaanisella kalvolla, joka soveltuu runsaasti liikennöidyille lattioille."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kestää hyvin kulutusta ja kovaa liikennettä.",
+                "Ei kellastu; kestää UV-säteilyä ja säärasitusta.",
+                "Matta, puolikiiltävä tai kiiltävä; puoliläpikuultamaton ja sävytettävissä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KOOSTUMUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponentti A: puoliläpikuultamaton akryylihartsi. Komponentti B: katalyytti (polyuretaanikovete, joka perustuu kellastumattomiin isosyanaatteihin)."
+            },
+            {
+              "type": "p",
+              "text": "Kovettuvat kemiallisen reaktion avulla huoneenlämmössä. Sekoitussuhde 3:1 painosta."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Liikennöitävien lattioiden koristeellinen pintakäsittely: hierretty betoni, itsetasoittuvat massat, mikrosementit ja kuviobetoni, uudet tai kunnostettavat kohteet.",
+                "Alustat: kovettunut sementti ja betoni, metallit (rauta, teräs, ruostumaton teräs, galvanoitu pinta, sinkki, alumiini), PE- tai polyuretaanikomposiitit, tietyt muovit (paitsi PE ja PP), epoksipohjusteet ja korjatut alkydiemalit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rauta ja teräs: standardin UNE 48302 (ISO 8501-1) mukaisesti hiekkapuhalletaan juuri ennen maalausta tasolle Sa 2 tai harjataan tasolle St 2. Jos pinta on likainen, rasvanpoisto ja hionta hankausaineella nro 240–260."
+            },
+            {
+              "type": "p",
+              "text": "Komposiitit: rasvanpoisto huolellisesti ja yksi tai kaksi kerrosta pintakäsittelystä riippuen."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita A ja B ja sekoita aina ennen käyttöä."
+            },
+            {
+              "type": "p",
+              "text": "Ruisku (jatkuva ilma tai airless): ohenna sopivalla liuottimella (nopea, keskinopea tai hidas) arvoon 28–30″ Ford-kuppi nro 4. Airless-ruiskutuksessa paine 100–150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Sivellin tai telä: ohenna hitaalla liuottimella. Kerrosten välillä märkää märälle tai 12–24 tunnin kuluttua."
+            },
+            {
+              "type": "p",
+              "text": "Mikrosementit: levitä aina huokostukkivan pohjusteen päälle; 1. kerros tavallisella liuottimella kesällä ja nopealla talvella."
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. kerros: enintään 50 g/m² + katalyytti (33 %) + liuotin (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2. ja 3. kerros: enintään 100 g/m² + katalyytti (33 %) + liuotin (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "Telalla levitettäessä samat määrät ja 5 % enemmän liuotinta."
+            }
+          ]
+        },
+        {
+          "title": "KUIVUMINEN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kuivuu ilmassa kemiallisen reaktion vaikutuksesta. Ei saa kuivattaa alle 10 °C:ssa eikä suhteellisen ilmankosteuden ollessa yli 80 %. Lopulliset ominaisuudet 7–10 vuorokaudessa; kuivumista voi nopeuttaa lämmöllä (enintään 50 °C) 30–60 minuutin haihtumisajan jälkeen."
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Erittäin vähäinen vedenimeytyminen; kestää hapanta sadetta (SO²), jäätymis-sulamissyklejä, sieniä, hometta ja kalkkihärmettä.",
+                "Kemiallinen kestävyys tavallisille ja voimakkaille puhdistusaineille (testattu suolahapolla).",
+                "Erinomainen mekaaninen kestävyys joustavuutensa ansiosta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei saa levittää kylmässä eikä sateella. Levitys ja kovettuminen 6–35 °C:ssa.",
+                "Syttyvä (katalyytin leimahduspiste: 34 °C): tupakointi kielletty; pidä etäällä lämmön- ja sähkölähteistä.",
+                "Sulje avatut pakkaukset tiiviisti ja säilytä pystyasennossa. Avattu kovete imee kosteutta: käytä mahdollisimman pian.",
+                "Noudata pakkausmerkintöjä ja käyttöturvallisuustiedotetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponentti A (lakka)",
+                  "rows": [
+                    {
+                      "key": "Tiheys",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Kuiva-aine",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Seoksen viskositeetti",
+                      "value": "42″ ± 5″ (Ford-kuppi nro 4)"
+                    },
+                    {
+                      "key": "Pintakäsittely",
+                      "value": "Matta, puolikiiltävä tai kiiltävä; puoliläpikuultamaton, sävytettävissä"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Sekoitussuhde (A:B)",
+                      "value": "3:1 painosta"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "6–35 °C"
+                    },
+                    {
+                      "key": "Kerrosten väliaika",
+                      "value": "12 h (tai märkää märälle)"
+                    },
+                    {
+                      "key": "Kuivakalvon paksuus",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponentti B (katalyytti)",
+                  "rows": [
+                    {
+                      "key": "Tiheys 20 °C:ssa",
+                      "value": "1 029 kg/m³"
+                    },
+                    {
+                      "key": "Kiehumispiste",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "Komponentti A 3 kg + komponentti B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kemiallinen kestävyys: UNE-EN ISO 2812-1. Kuumanvedenkestävyys: UNE-EN ISO 2812-2.",
+                "Syväveto: ISO 1520. Massan pudotus: UNE-EN ISO 6272.",
+                "Teräksen esikäsittely: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponentti A: 3 kg",
+                "Komponentti B (katalyytti): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, lämmön- ja sähkölähteistä erillään. Avattu kovete imee kosteutta ilmasta ja sen viskositeetti kasvaa, kunnes se on käyttökelvoton."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS JA OHENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 painosta (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Ohennus",
+                      "value": "10–20 % liuottimella alustan, lämpötilan ja levitystavan mukaan."
+                    },
+                    {
+                      "key": "Ruisku",
+                      "value": "28–30″ Ford-kuppi nro 4."
+                    },
+                    {
+                      "key": "Telä",
+                      "value": "+5 % liuotinta ruiskutukseen verrattuna."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Sekoita komponentti A komponenttiin B ja sekoita aina ennen käyttöä."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "PROTECT SOLVENT 2K FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "VERNIS POLYURÉTHANE ACRYLIQUE BICOMPOSANT AU SOLVANT",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Rapport de mélange en poids (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Durée de vie du mélange (pot-life)"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Extrait sec"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Épaisseur de film sec"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vernis de finition polyuréthane acrylique aliphatique bicomposant, conçu pour vernir sols et revêtements en intérieur et en extérieur. Son film, très résistant aux agents chimiques et aux sollicitations mécaniques, convient aux sols à fort trafic."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Haute résistance à l'usure et au trafic intense.",
+                "Ne jaunit pas et résiste aux rayons UV et aux intempéries.",
+                "Mat, satiné ou brillant ; semi-opaque et teintable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Composant A : résine acrylique semi-opaque. Composant B : catalyseur (durcisseur polyuréthane à base d'isocyanates non jaunissants)."
+            },
+            {
+              "type": "p",
+              "text": "Durcissement par réaction chimique à température ambiante. Mélange 3:1 en poids."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finition décorative de sols praticables : béton taloché, autolissants, microciments et béton imprimé, neufs ou en rénovation.",
+                "Supports : ciment et béton durcis, métaux (fer, acier, acier inoxydable, galvanisé, zinc, aluminium), composites de PE ou de polyuréthane, certains plastiques (sauf PE et PP), primaires époxy et émaux alkydes réparés."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU SUPPORT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Fer et acier : selon UNE 48302 (ISO 8501-1), sabler juste avant la mise en peinture jusqu'à Sa 2 ou brosser jusqu'à St 2. Si le support est sale, dégraisser et poncer avec un abrasif n° 240-260."
+            },
+            {
+              "type": "p",
+              "text": "Composites : bien dégraisser et appliquer une ou deux couches selon la finition."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mélanger A avec B et remuer toujours avant l'emploi."
+            },
+            {
+              "type": "p",
+              "text": "Pistolet (air continu ou airless) : diluer avec le solvant adapté (rapide, moyen ou lent) jusqu'à 28-30″ coupe Ford n° 4. Pression en airless : 100 à 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Pinceau ou rouleau : diluer avec un solvant à séchage lent. Entre les couches, frais sur frais ou après 12-24 heures."
+            },
+            {
+              "type": "p",
+              "text": "Microciments : appliquer toujours sur le primaire bouche-pores préalable ; 1re couche avec solvant normal en été et rapide en hiver."
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1re couche : 50 g/m² max. + catalyseur (33 %) + solvant (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2e et 3e couches : 100 g/m² max. + catalyseur (33 %) + solvant (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "Au rouleau, mêmes quantités avec 5 % de solvant en plus."
+            }
+          ]
+        },
+        {
+          "title": "SÉCHAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Séchage à l'air par réaction chimique. Ne pas sécher à moins de 10 °C ni avec une humidité relative supérieure à 80 %. Propriétés maximales après 7-10 jours ; accéléré par la chaleur (max. 50 °C) après 30-60 minutes d'évaporation."
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Très faible absorption d'eau ; résiste aux pluies acides (SO²), au gel-dégel, aux champignons, aux moisissures et aux efflorescences.",
+                "Résistance chimique aux produits d'entretien courants et agressifs (testée avec de l'acide chlorhydrique).",
+                "Excellente résistance mécanique grâce à sa souplesse."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas appliquer par temps froid ni sous la pluie. Application et durcissement entre 6 et 35 °C.",
+                "Inflammable (point d'éclair du catalyseur : 34 °C) : ne pas fumer et tenir à l'écart des sources de chaleur et d'électricité.",
+                "Bien refermer les emballages ouverts, à la verticale. Le durcisseur ouvert absorbe l'humidité : l'utiliser rapidement.",
+                "Suivre l'étiquette et la fiche de données de sécurité."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Composant A (vernis)",
+                  "rows": [
+                    {
+                      "key": "Masse volumique",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Extrait sec",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viscosité du mélange",
+                      "value": "42″ ± 5″ (coupe Ford n° 4)"
+                    },
+                    {
+                      "key": "Finition",
+                      "value": "Mat, satiné ou brillant ; semi-opaque, teintable"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Rapport de mélange (A:B)",
+                      "value": "3:1 en poids"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "6 à 35 °C"
+                    },
+                    {
+                      "key": "Délai entre les couches",
+                      "value": "12 h (ou frais sur frais)"
+                    },
+                    {
+                      "key": "Épaisseur de film sec",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Composant B (catalyseur)",
+                  "rows": [
+                    {
+                      "key": "Masse volumique à 20 °C",
+                      "value": "1 029 kg/m³"
+                    },
+                    {
+                      "key": "Température d'ébullition",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Composant A 3 kg + composant B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Résistance chimique : UNE-EN ISO 2812-1. Résistance à l'eau chaude : UNE-EN ISO 2812-2.",
+                "Emboutissage : ISO 1520. Chute d'une masse : UNE-EN ISO 6272.",
+                "Préparation de l'acier : UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Composant A : 3 kg",
+                "Composant B (catalyseur) : 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des sources de chaleur et d'électricité. Une fois ouvert, le durcisseur absorbe l'humidité de l'air et sa viscosité augmente jusqu'à le rendre inutilisable."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE ET DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 en poids (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Dilution",
+                      "value": "10 à 20 % de solvant, selon le support, la température et la méthode."
+                    },
+                    {
+                      "key": "Pistolet",
+                      "value": "28-30″ coupe Ford n° 4."
+                    },
+                    {
+                      "key": "Rouleau",
+                      "value": "+5 % de solvant par rapport au pistolet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mélanger le composant A avec le B et remuer toujours avant l'emploi."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "PROTECT SOLVENT 2K ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "VERNICE POLIURETANICA ACRILICA BICOMPONENTE A SOLVENTE",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Rapporto di miscelazione in peso (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Pot-life della miscela"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Contenuto di solidi"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Spessore del film secco"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vernice di finitura poliuretanica acrilica alifatica bicomponente per pavimenti e rivestimenti in interni ed esterni. Protegge con un film ad alta resistenza chimica e meccanica, adatto a pavimenti ad alto traffico."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Elevata resistenza all'usura e al traffico intenso.",
+                "Non ingiallisce; resiste a UV e agenti atmosferici.",
+                "Opaca, satinata o lucida; colorabile."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: resina acrilica semiopaca. Componente B: catalizzatore (indurente poliuretanico a base di isocianati non ingiallenti)."
+            },
+            {
+              "type": "p",
+              "text": "Induriscono per reazione chimica a temperatura ambiente. Miscelazione 3:1 in peso."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Finitura decorativa di pavimenti: calcestruzzo lisciato, autolivellanti, microcementi e calcestruzzo stampato, nuovi o da ripristinare.",
+                "Supporti: cemento e calcestruzzo stagionati, metalli (ferro, acciaio, inox, zincato, zinco, alluminio), compositi in PE o poliuretano, alcune plastiche (esclusi PE e PP), primer epossidici e smalti alchidici ripristinati."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DEL SUPPORTO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ferro e acciaio: secondo UNE 48302 (ISO 8501-1), sabbiare subito prima di verniciare fino a Sa 2 o spazzolare fino a St 2. Se sporco, sgrassare e carteggiare (grana 240-260)."
+            },
+            {
+              "type": "p",
+              "text": "Compositi: sgrassare accuratamente e applicare una o due mani in base alla finitura."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Miscelare A con B e mescolare sempre prima dell'uso."
+            },
+            {
+              "type": "p",
+              "text": "Pistola (aria continua o airless): diluire con solvente adatto (rapido, medio o lento) fino a 28-30″ coppa Ford n. 4. Airless: da 100 a 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Pennello o rullo: diluire con solvente lento. Tra le mani: fresco su fresco o dopo 12-24 ore."
+            },
+            {
+              "type": "p",
+              "text": "Microcementi: applicare sempre sul primer sigillante; 1ª mano con solvente normale in estate e rapido in inverno."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1ª mano: 50 g/m² max. + catalizzatore (33 %) + solvente (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2ª e 3ª mano: 100 g/m² max. + catalizzatore (33 %) + solvente (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "A rullo, le stesse quantità con il 5 % in più di solvente."
+            }
+          ]
+        },
+        {
+          "title": "ESSICCAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Essiccazione all'aria per reazione chimica. Non essiccare sotto i 10 °C né con umidità relativa superiore all'80 %. Proprietà massime dopo 7-10 giorni; si accelera con il calore (max. 50 °C) dopo 30-60 minuti di evaporazione."
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Assorbimento d'acqua molto basso; resiste alla pioggia acida (SO²), ai cicli di gelo-disgelo, a funghi, muffe ed efflorescenze.",
+                "Resistenza chimica ai detergenti comuni e aggressivi (testata con acido cloridrico).",
+                "Eccellente resistenza meccanica grazie alla sua flessibilità."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non applicare con freddo o pioggia. Applicazione e indurimento tra 6 e 35 °C.",
+                "Infiammabile (punto di infiammabilità del catalizzatore: 34 °C): non fumare, lontano da fonti di calore ed elettriche.",
+                "Chiudere bene i contenitori aperti e tenerli in verticale. L'indurente aperto assorbe umidità: usarlo il prima possibile.",
+                "Seguire l'etichetta e la Scheda di dati di sicurezza."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (vernice)",
+                  "rows": [
+                    {
+                      "key": "Massa volumica",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Solidi",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viscosità della miscela",
+                      "value": "42″ ± 5″ (coppa Ford n. 4)"
+                    },
+                    {
+                      "key": "Finitura",
+                      "value": "Opaca, satinata o lucida; semiopaca, colorabile"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Rapporto di miscelazione (A:B)",
+                      "value": "3:1 in peso"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 6 a 35 °C"
+                    },
+                    {
+                      "key": "Tempo tra le mani",
+                      "value": "12 h (o fresco su fresco)"
+                    },
+                    {
+                      "key": "Spessore del film secco",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (catalizzatore)",
+                  "rows": [
+                    {
+                      "key": "Massa volumica a 20 °C",
+                      "value": "1.029 kg/m³"
+                    },
+                    {
+                      "key": "Temperatura di ebollizione",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Punto di infiammabilità",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 3 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Resistenza chimica: UNE-EN ISO 2812-1. Resistenza all'acqua calda: UNE-EN ISO 2812-2.",
+                "Imbutitura: ISO 1520. Caduta di una massa: UNE-EN ISO 6272.",
+                "Preparazione dell'acciaio: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 3 kg",
+                "Componente B (catalizzatore): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, lontano da fonti di calore ed elettriche. Una volta aperto, l'indurente assorbe l'umidità dell'ambiente e aumenta la viscosità fino a diventare inutilizzabile."
+            }
+          ]
+        },
+        {
+          "title": "MISCELAZIONE E DILUIZIONE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 in peso (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Diluizione",
+                      "value": "Dal 10 al 20 % con solvente, in base al supporto, alla temperatura e al metodo."
+                    },
+                    {
+                      "key": "Pistola",
+                      "value": "28-30″ coppa Ford n. 4."
+                    },
+                    {
+                      "key": "Rullo",
+                      "value": "+5 % di solvente rispetto alla pistola."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Miscelare il componente A con il B e mescolare sempre prima dell'uso."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "PROTECT SOLVENT 2K NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "TOKOMPONENTS AKRYLPOLYURETANLAKK PÅ LØSEMIDDELBASIS",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Blandingsforhold etter vekt (A:B)"
+        },
+        {
+          "value": "3 t",
+          "label": "Brukstid (pot-life) for blandingen"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Tørrstoffinnhold"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Tørr filmtykkelse"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Tokomponents toppstrøk av alifatisk akrylpolyuretan, utviklet til lakkering av gulv og overflater innendørs og utendørs. Beskytter med en film som har høy kjemisk og mekanisk motstandsevne og er egnet for gulv med stor trafikk."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Høy motstand mot slitasje og kraftig trafikk.",
+                "Gulner ikke og tåler UV-stråling og vær og vind.",
+                "Matt, silkeblank eller blank; semiopak og kan farges."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SAMMENSETNING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponent A: semiopak akrylharpiks. Komponent B: katalysator (polyuretanherder basert på ikke-gulnende isocyanater)."
+            },
+            {
+              "type": "p",
+              "text": "Herder ved kjemisk reaksjon ved romtemperatur. Blandingsforhold 3:1 etter vekt."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dekorativ finish på gulv med gangtrafikk: glattet betong, selvutjevnende avrettingsmasser, mikrosement og stemplet betong, nye eller ved rehabilitering.",
+                "Underlag: herdet sement og betong, metaller (jern, stål, rustfritt stål, galvanisert stål, sink, aluminium), kompositter av PE eller polyuretan, enkelte plastmaterialer (unntatt PE og PP), epoksygrunning og reparerte alkydemaljer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV UNDERLAGET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Jern og stål: i henhold til UNE 48302 (ISO 8501-1), sandblåses rett før maling til Sa 2 eller børstes til St 2. Hvis det er skittent, avfettes det og slipes med slipemiddel nr. 240-260."
+            },
+            {
+              "type": "p",
+              "text": "Kompositter: avfettes grundig, og det påføres ett eller to strøk avhengig av finishen."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bland A med B og rør alltid om før bruk."
+            },
+            {
+              "type": "p",
+              "text": "Sprøyte (kontinuerlig luft eller airless): fortynn med egnet tynner (rask, middels eller langsom) til 28-30″ Ford-kopp nr. 4. Trykk ved airless: 100 til 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Pensel eller rulle: fortynn med langsomtørkende tynner. Mellom strøkene våt-i-våt eller etter 12-24 timer."
+            },
+            {
+              "type": "p",
+              "text": "Mikrosement: påføres alltid over forutgående porefyllende grunning; 1. strøk med vanlig tynner om sommeren og rask tynner om vinteren."
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. strøk: maks. 50 g/m² + katalysator (33 %) + tynner (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2. og 3. strøk: maks. 100 g/m² + katalysator (33 %) + tynner (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "Ved rulling de samme mengdene med 5 % mer tynner."
+            }
+          ]
+        },
+        {
+          "title": "TØRKING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lufttørker ved kjemisk reaksjon. Må ikke tørke under 10 °C eller ved relativ luftfuktighet over 80 %. Maksimale egenskaper etter 7-10 dager; kan fremskyndes med varme (maks. 50 °C) etter 30-60 minutters avdunsting."
+            }
+          ]
+        },
+        {
+          "title": "YTELSE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Svært lavt vannopptak; tåler sur nedbør (SO²), frost og tining, sopp, mugg og utslag.",
+                "Kjemisk motstandsevne mot vanlige og sterke rengjøringsmidler (testet med saltsyre).",
+                "Utmerket mekanisk motstandsevne takket være fleksibiliteten."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Må ikke påføres i kulde eller regn. Påføring og herding mellom 6 og 35 °C.",
+                "Brannfarlig (flammepunkt for katalysatoren: 34 °C): røyking forbudt, hold unna varme- og elektriske kilder.",
+                "Lukk åpnede beholdere godt og oppbevar dem stående. Åpnet herder tar opp fuktighet: bruk den så snart som mulig.",
+                "Følg etiketten og sikkerhetsdatabladet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponent A (lakk)",
+                  "rows": [
+                    {
+                      "key": "Densitet",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Tørrstoff",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Viskositet for blandingen",
+                      "value": "42″ ± 5″ (Ford-kopp nr. 4)"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Matt, silkeblank eller blank; semiopak, kan farges"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Blandingsforhold (A:B)",
+                      "value": "3:1 etter vekt"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "3 t"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "6 til 35 °C"
+                    },
+                    {
+                      "key": "Tid mellom strøkene",
+                      "value": "12 t (eller våt-i-våt)"
+                    },
+                    {
+                      "key": "Tørr filmtykkelse",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponent B (katalysator)",
+                  "rows": [
+                    {
+                      "key": "Densitet ved 20 °C",
+                      "value": "1 029 kg/m³"
+                    },
+                    {
+                      "key": "Kokepunkt",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Komponent A 3 kg + komponent B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kjemisk motstandsevne: UNE-EN ISO 2812-1. Motstand mot varmt vann: UNE-EN ISO 2812-2.",
+                "Koppforsøk (Erichsen): ISO 1520. Fallprøve med lodd: UNE-EN ISO 6272.",
+                "Klargjøring av stål: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponent A: 3 kg",
+                "Komponent B (katalysator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, vekk fra varme- og elektriske kilder. Når herderen er åpnet, tar den opp fuktighet fra omgivelsene, og viskositeten øker til den blir ubrukelig."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING OG FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 etter vekt (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Fortynning",
+                      "value": "10 til 20 % tynner, avhengig av underlag, temperatur og metode."
+                    },
+                    {
+                      "key": "Sprøyte",
+                      "value": "28-30″ Ford-kopp nr. 4."
+                    },
+                    {
+                      "key": "Rulle",
+                      "value": "+5 % tynner i forhold til sprøyting."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Bland komponent A med B og rør alltid om før bruk."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "PROTECT SOLVENT 2K POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Protect Solvent 2K",
+      "subtitle": "ROZPUSZCZALNIKOWY LAKIER AKRYLOWO-POLIURETANOWY 2K",
+      "stats": [
+        {
+          "value": "3:1",
+          "label": "Proporcja mieszania wagowo (A:B)"
+        },
+        {
+          "value": "3 h",
+          "label": "Czas użyteczności mieszanki (pot-life)"
+        },
+        {
+          "value": "68 ± 4 %",
+          "label": "Zawartość części stałych"
+        },
+        {
+          "value": "100 ± 20 µm",
+          "label": "Grubość powłoki suchej"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dwuskładnikowy lakier nawierzchniowy z alifatycznego poliuretanu akrylowego do posadzek i okładzin wewnątrz i na zewnątrz. Tworzy powłokę o wysokiej odporności chemicznej i mechanicznej, do podłóg o dużym ruchu."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wysoka odporność na ścieranie i duży ruch.",
+                "Nie żółknie, odporny na UV i warunki atmosferyczne.",
+                "Mat, satyna lub połysk; półkryjący i barwiony."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SKŁAD",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Składnik A: półkryjąca żywica akrylowa. Składnik B: katalizator (utwardzacz poliuretanowy na bazie izocyjanianów niezżółkniających)."
+            },
+            {
+              "type": "p",
+              "text": "Utwardzają się chemicznie w temperaturze otoczenia. Proporcja mieszania 3:1 wagowo."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dekoracyjne wykończenie posadzek: beton zacierany mechanicznie, wylewki samopoziomujące, mikrocementy i beton stemplowany, nowe lub w renowacji.",
+                "Podłoża: cement i beton, metale (żelazo, stal, stal nierdzewna, ocynkowana, cynk, aluminium), kompozyty PE lub poliuretanowe, niektóre tworzywa (poza PE i PP), grunty epoksydowe i naprawione emalie alkidowe."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Żelazo i stal: wg UNE 48302 (ISO 8501-1) piaskować tuż przed malowaniem do Sa 2 lub oczyścić szczotką do St 2. Brudne odtłuścić i przeszlifować papierem nr 240-260."
+            },
+            {
+              "type": "p",
+              "text": "Kompozyty: dokładnie odtłuścić i nałożyć jedną lub dwie warstwy, zależnie od wykończenia."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Wymieszać A z B i zawsze mieszać przed użyciem."
+            },
+            {
+              "type": "p",
+              "text": "Pistolet (powietrzny lub airless): rozcieńczyć odpowiednim rozcieńczalnikiem (szybkim, średnim lub wolnym) do 28-30″ w kubku Forda nr 4. Airless: 100 do 150 bar."
+            },
+            {
+              "type": "p",
+              "text": "Pędzel lub wałek: rozcieńczalnik wolnoschnący. Między warstwami: mokre na mokre lub po 12-24 h."
+            },
+            {
+              "type": "p",
+              "text": "Mikrocementy: zawsze na wcześniej zagruntowane podłoże gruntem do uszczelniania porów; 1. warstwa z rozcieńczalnikiem standardowym latem, szybkim zimą."
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1. warstwa: maks. 50 g/m² + katalizator (33 %) + rozcieńczalnik (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "2. i 3. warstwa: maks. 100 g/m² + katalizator (33 %) + rozcieńczalnik (15 %)."
+            },
+            {
+              "type": "p",
+              "text": "Wałkiem: te same ilości z 5 % więcej rozcieńczalnika."
+            }
+          ]
+        },
+        {
+          "title": "SCHNIĘCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Schnie na powietrzu w wyniku reakcji chemicznej. Nie suszyć poniżej 10 °C ani przy wilgotności względnej powyżej 80 %. Pełne właściwości po 7-10 dniach; przyspiesza ciepło (maks. 50 °C) po 30-60 min odparowania."
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI UŻYTKOWE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bardzo niska nasiąkliwość; odporny na kwaśne deszcze (SO²), mróz, grzyby, pleśnie i wykwity.",
+                "Odporność chemiczna na typowe i agresywne środki czyszczące (próba z kwasem solnym).",
+                "Doskonała odporność mechaniczna dzięki elastyczności."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie stosować podczas mrozu ani deszczu. Aplikacja i utwardzanie w temp. 6 do 35 °C.",
+                "Łatwopalny (temp. zapłonu katalizatora: 34 °C): nie palić, z dala od źródeł ciepła i prądu.",
+                "Otwarte opakowania szczelnie zamykać, przechowywać pionowo. Otwarty utwardzacz chłonie wilgoć: zużyć szybko.",
+                "Przestrzegać etykiety i karty charakterystyki."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Składnik A (lakier)",
+                  "rows": [
+                    {
+                      "key": "Gęstość",
+                      "value": "≤ 1,4 g/cm³"
+                    },
+                    {
+                      "key": "Części stałe",
+                      "value": "68 ± 4 %"
+                    },
+                    {
+                      "key": "Lepkość mieszanki",
+                      "value": "42″ ± 5″ (kubek Forda nr 4)"
+                    },
+                    {
+                      "key": "Wykończenie",
+                      "value": "Mat, satyna lub połysk; półkryjący, barwiony"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Proporcja mieszania (A:B)",
+                      "value": "3:1 wagowo"
+                    },
+                    {
+                      "key": "Czas użyteczności mieszanki (pot-life)",
+                      "value": "3 h"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "6 do 35 °C"
+                    },
+                    {
+                      "key": "Czas między warstwami",
+                      "value": "12 h (lub mokre na mokre)"
+                    },
+                    {
+                      "key": "Grubość powłoki suchej",
+                      "value": "100 ± 20 µm"
+                    }
+                  ]
+                },
+                {
+                  "title": "Składnik B (katalizator)",
+                  "rows": [
+                    {
+                      "key": "Gęstość w 20 °C",
+                      "value": "1 029 kg/m³"
+                    },
+                    {
+                      "key": "Temperatura wrzenia",
+                      "value": "139 °C"
+                    },
+                    {
+                      "key": "Temperatura zapłonu",
+                      "value": "34 °C"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Składnik A 3 kg + składnik B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Odporność chemiczna: UNE-EN ISO 2812-1. Odporność na gorącą wodę: UNE-EN ISO 2812-2.",
+                "Tłoczenie: ISO 1520. Odporność na uderzenie: UNE-EN ISO 6272.",
+                "Przygotowanie stali: UNE 48302 (ISO 8501-1)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Składnik A: 3 kg",
+                "Składnik B (katalizator): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, z dala od źródeł ciepła i prądu. Otwarty utwardzacz chłonie wilgoć z otoczenia, gęstnieje i staje się bezużyteczny."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANIE I ROZCIEŃCZANIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "3:1 wagowo (3 kg + 1 kg)."
+                    },
+                    {
+                      "key": "Rozcieńcze nie",
+                      "value": "10 do 20 % rozcieńczalnika, w zależności od podłoża, temperatury i metody."
+                    },
+                    {
+                      "key": "Pistolet",
+                      "value": "28-30″ w kubku Forda nr 4."
+                    },
+                    {
+                      "key": "Wałek",
+                      "value": "+5 % rozcieńczalnika w stosunku do pistoletu."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wymieszać składnik A ze składnikiem B i zawsze mieszać przed użyciem."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

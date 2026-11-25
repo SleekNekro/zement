@@ -1,0 +1,2279 @@
+{
+  "key": "zement-prime",
+  "source": "ZEMENT PRIME",
+  "languages": {
+    "de": {
+      "file": "ZEMENT PRIME ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Prime",
+      "subtitle": "VERSIEGELNDE UND VERFESTIGENDE GRUNDIERUNG AUF WASSERBASIS",
+      "stats": [
+        {
+          "value": "1 Std.",
+          "label": "Grifffest (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Ungefährer Verbrauch"
+        },
+        {
+          "value": "bis 1:3",
+          "label": "Verdünnung mit Wasser"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "VOC: ohne organische Lösemittel"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Versiegelnde und verfestigende Grundierung auf Wasserbasis, als wässrige Lösung von Acrylemulsionen, frei von organischen Lösemitteln und bituminösen Bestandteilen. Sie reguliert die Saugfähigkeit des Untergrunds, verfestigt ihn und verbessert die Haftung nachfolgender Beschichtungen."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Geringe Wasseraufnahme: bildet einen Oberflächenfilm.",
+                "Aliphatisch und UV-beständig.",
+                "Bei normaler Handhabung nicht giftig, gefährlich oder entzündbar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESCHREIBUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Gebrauchsfertige Flüssigkeit, je nach Porosität des Untergrunds mit Wasser verdünnbar, zur Vorbereitung von Flächen vor dem Auftragen von Mikrozement und anderen Beschichtungen."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Auf einen sauberen, festen Untergrund auftragen, der frei von Staub, Fett und losen Teilen ist."
+            },
+            {
+              "type": "p",
+              "text": "Vor Gebrauch aufrühren. Mit Pinsel, Rolle oder Sprühgerät in einer gleichmäßigen Schicht auftragen, ohne Pfützen zu bilden."
+            },
+            {
+              "type": "p",
+              "text": "Je nach Porosität, Art und Beschaffenheit des Untergrunds sowie den Anforderungen des Deckprodukts kann das Produkt unverdünnt oder im Verhältnis 1/1, 1/2 oder 1/3 mit Leitungswasser verdünnt verwendet werden."
+            },
+            {
+              "type": "p",
+              "text": "Vor dem Auftragen der Deckschicht mindestens 4 Stunden trocknen lassen."
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ungefährer Verbrauch: 20 m² pro kg bei einer Schichtdicke von 50 µm, je nach Untergrund und Verdünnung."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Versiegelung und Verfestigung von zementgebundenen Untergründen, Mörtel, Beton und Gips, sofern erforderlich.",
+                "Grundierung vor Mikrozement, Beschichtungen und Anstrichen.",
+                "Optimierung von Haftung und Verdichtung der Untergründe.",
+                "Für den Innen- und Außenbereich geeignet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Einfach aufzutragen und mit Leitungswasser zu verdünnen.",
+                "Gute Haftung auf saugenden Untergründen.",
+                "Gute Beständigkeit gegen Verseifung und Frost.",
+                "Gebrauchsfertiges Produkt: keine Mischung mit anderen Komponenten erforderlich."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Verwendung ohne besondere Sicherheitsmaßnahmen, vorbehaltlich der gesetzlichen Arbeitsschutzvorschriften.",
+                "Außerhalb der Reichweite von Kindern aufbewahren.",
+                "Nicht bei Temperaturen unter 5 °C oder über 35 °C verarbeiten.",
+                "Bei Transport und Lagerung vor Frost schützen.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Versiegelnde und verfestigende Grundierung auf Wasserbasis"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "Acrylemulsionen in wässriger Lösung, ohne Lösemittel und Bitumen"
+                    },
+                    {
+                      "key": "Dichte",
+                      "value": "ca. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH-Wert",
+                      "value": "7,5 bis 9,0"
+                    },
+                    {
+                      "key": "Feststoffgehalt",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Empfohlene Schichtdicke",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Verbrauch",
+                      "value": "ca. 20 m²/kg, je nach Untergrund"
+                    },
+                    {
+                      "key": "Grifffest (20 °C)",
+                      "value": "1 Std."
+                    },
+                    {
+                      "key": "Überarbeitbar nach",
+                      "value": "4 bis 12 Std."
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "5 bis 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leistungsmerkmale",
+                  "rows": [
+                    {
+                      "key": "Haftung (EN 1542), zementgebundener Untergrund",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Verseifungsbeständigkeit",
+                      "value": "Gut"
+                    },
+                    {
+                      "key": "Witterungsbeständigkeit",
+                      "value": "Aliphatisch, UV-beständig"
+                    },
+                    {
+                      "key": "Oberfläche",
+                      "value": "Glanz je nach Verbrauch"
+                    },
+                    {
+                      "key": "VOC (2004/42/EG)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Kanister à 5 L und 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Haftzugfestigkeit: UNE-EN 1542.",
+                "Gehalt an flüchtigen organischen Verbindungen: Richtlinie 2004/42/EG."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Kanister à 5 L",
+                "Kanister à 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung. Zwischen 5 und 40 °C lagern. Vor Frost schützen."
+            }
+          ]
+        },
+        {
+          "title": "VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Rein",
+                      "value": "Wenig saugende Untergründe und Oberflächenversiegelung."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Mäßig saugende Untergründe."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Stark saugende Untergründe."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Sehr poröse oder sandende Untergründe, die verfestigt werden müssen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Mit Leitungswasser. Die Verdünnung nach Porosität und Art des Untergrunds sowie den Anforderungen des Deckprodukts wählen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT PRIME INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Prime",
+      "subtitle": "WATER-BASED SEALING AND CONSOLIDATING PRIMER",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Touch dry (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Approximate coverage"
+        },
+        {
+          "value": "up to 1:3",
+          "label": "Dilution with water"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "VOC: no organic solvent"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Water-based sealing and consolidating primer, an aqueous solution of acrylic emulsions, free of organic solvents and bituminous products. It regulates the absorption of the substrate, consolidates it and improves the bonding of subsequent coatings."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Low water absorption: forms a surface film.",
+                "Aliphatic and UV-resistant.",
+                "Non-toxic, non-hazardous and non-flammable under normal handling conditions."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ready-to-use liquid, dilutable in water according to the porosity of the substrate, for preparing surfaces before applying microcements and other coatings."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Apply on a clean, sound substrate free of dust, grease and loose parts."
+            },
+            {
+              "type": "p",
+              "text": "Stir before use. Apply with a brush, roller or sprayer in a uniform coat, without puddling."
+            },
+            {
+              "type": "p",
+              "text": "Depending on the porosity, nature and characteristics of the substrate, as well as the requirements of the finishing product, it can be used neat or diluted 1/1, 1/2 or 1/3 with tap water."
+            },
+            {
+              "type": "p",
+              "text": "Allow to dry for at least 4 hours before applying the finish."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Approximate coverage: 20 m² per kg for a film thickness of 50 µm, depending on the surface and the dilution."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sealing and consolidation of cementitious substrates, mortars, concrete and plaster where required.",
+                "Primer prior to microcements, coatings and paints.",
+                "Optimization of the bonding and compaction of substrates.",
+                "Suitable for indoor and outdoor use."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Easy to apply and to dilute with tap water.",
+                "Good bonding on absorbent substrates.",
+                "Good resistance to saponification and frost.",
+                "Ready-to-use product: no mixing with other components required."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Use without special safety measures, other than the legal occupational health regulations.",
+                "Keep out of the reach of children.",
+                "Do not apply at temperatures below 5 °C or above 35 °C.",
+                "Protect from frost during transport and storage.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Water-based sealing and consolidating primer"
+                    },
+                    {
+                      "key": "Base",
+                      "value": "Acrylic emulsions in aqueous solution, solvent-free and bitumen-free"
+                    },
+                    {
+                      "key": "Density",
+                      "value": "approx. 1.02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7.5 to 9.0"
+                    },
+                    {
+                      "key": "Solids content",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Recommended film thickness",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "approx. 20 m²/kg, depending on the surface"
+                    },
+                    {
+                      "key": "Touch dry (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Recoating",
+                      "value": "4 to 12 h"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "5 to 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performance",
+                  "rows": [
+                    {
+                      "key": "Adhesion (EN 1542), cementitious substrate",
+                      "value": "> 2.0 N/mm²"
+                    },
+                    {
+                      "key": "Saponification resistance",
+                      "value": "Good"
+                    },
+                    {
+                      "key": "Weathering resistance",
+                      "value": "Aliphatic, UV-resistant"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Gloss depending on the coverage"
+                    },
+                    {
+                      "key": "VOC (2004/42/EC)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "5 L and 25 L jerrycan"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Pull-off adhesion: UNE-EN 1542.",
+                "Volatile organic compound content: Directive 2004/42/EC."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L jerrycan",
+                "25 L jerrycan"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging. Store between 5 and 40 °C. Protect from frost."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Pure",
+                      "value": "Low-absorbency substrates and surface sealing."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Medium-absorbency substrates."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Highly absorbent substrates."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Very porous or dusty substrates requiring consolidation."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "With tap water. Choose the dilution according to the porosity and nature of the substrate and the requirements of the finishing product."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT PRIME ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Prime",
+      "subtitle": "IMPRIMACIÓN SELLADORA Y CONSOLIDANTE AL AGUA",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Secado al tacto (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Rendimiento aproximado"
+        },
+        {
+          "value": "hasta 1:3",
+          "label": "Dilución con agua"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "COV: sin disolvente orgánico"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Imprimación selladora y consolidante al agua, en solución acuosa de emulsiones acrílicas, sin disolventes orgánicos y exenta de productos bituminosos. Regula la absorción del soporte, lo consolida y mejora el anclaje de los revestimientos posteriores."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Baja absorción de agua: forma una película superficial.",
+                "Alifática y resistente a los rayos UV.",
+                "No tóxica, peligrosa ni inflamable en condiciones normales de manipulación."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPCIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Líquido listo al uso, diluible en agua según la porosidad del soporte, para la preparación de superficies antes de aplicar microcementos y otros revestimientos."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Aplicar sobre un soporte limpio, firme y libre de polvo, grasa y partes sueltas."
+            },
+            {
+              "type": "p",
+              "text": "Remover antes de usar. Aplicar a brocha, rodillo o pulverizador en una capa uniforme, sin encharcar."
+            },
+            {
+              "type": "p",
+              "text": "Según la porosidad, la naturaleza y las características del soporte, así como los requisitos del producto de acabado, se puede usar puro o diluido 1/1, 1/2 o 1/3 con agua corriente."
+            },
+            {
+              "type": "p",
+              "text": "Dejar secar al menos 4 horas antes de aplicar el acabado."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rendimiento aproximado: 20 m² por kg para un espesor de película de 50 µm, según la superficie y la dilución."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sellado y consolidación de soportes cementosos, morteros, hormigón y yeso que lo requieran.",
+                "Imprimación previa a microcementos, revestimientos y pinturas.",
+                "Optimización del anclaje y la compactación de soportes.",
+                "Apto para interior y exterior."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fácil de aplicar y de diluir con agua corriente.",
+                "Buen anclaje en soportes absorbentes.",
+                "Buena resistencia a la saponificación y a las heladas.",
+                "Producto al uso: no requiere mezcla con otros componentes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Uso sin medidas especiales de seguridad, salvo las normas legales de salud laboral.",
+                "Mantener fuera del alcance de los niños.",
+                "No aplicar a temperaturas inferiores a 5 °C ni superiores a 35 °C.",
+                "Proteger de las heladas durante el transporte y el almacenamiento.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Imprimación selladora y consolidante al agua"
+                    },
+                    {
+                      "key": "Base",
+                      "value": "Emulsiones acrílicas en solución acuosa, sin disolvente ni betunes"
+                    },
+                    {
+                      "key": "Densidad",
+                      "value": "ca. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7,5 a 9,0"
+                    },
+                    {
+                      "key": "Contenido en sólidos",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Espesor de película recomendado",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "ca. 20 m²/kg, según la superficie"
+                    },
+                    {
+                      "key": "Secado al tacto (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Repintado",
+                      "value": "4 a 12 h"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "5 a 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestaciones",
+                  "rows": [
+                    {
+                      "key": "Adherencia (EN 1542), soporte cementoso",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Resistencia a la saponificación",
+                      "value": "Buena"
+                    },
+                    {
+                      "key": "Resistencia a la intemperie",
+                      "value": "Alifático, resistente a los rayos UV"
+                    },
+                    {
+                      "key": "Acabado",
+                      "value": "Brillo según el rendimiento"
+                    },
+                    {
+                      "key": "COV (2004/42/CE)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Garrafa de 5 L y 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Adherencia por tracción directa: UNE-EN 1542.",
+                "Contenido en compuestos orgánicos volátiles: Directiva 2004/42/CE."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Garrafa de 5 L",
+                "Garrafa de 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado. Almacenar entre 5 y 40 °C. Proteger de las heladas."
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puro",
+                      "value": "Soportes poco absorbentes y sellado de superficie."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Soportes de absorción media."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Soportes muy absorbentes."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Soportes muy porosos o pulverulentos que requieren consolidación."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Con agua corriente. Elegir la dilución según la porosidad y la naturaleza del soporte y los requisitos del producto de acabado."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT PRIME FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Prime",
+      "subtitle": "VESIPOHJAINEN TIIVISTÄVÄ JA LUJITTAVA POHJUSTE",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Kosketuskuiva (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Arvioitu riittoisuus"
+        },
+        {
+          "value": "enintään 1:3",
+          "label": "Laimennus vedellä"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "VOC: ei orgaanisia liuottimia"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Vesipohjainen tiivistävä ja lujittava pohjuste, akryylidispersioiden vesiliuos, ei sisällä orgaanisia liuottimia eikä bitumipohjaisia aineita. Säätelee alustan imukykyä, lujittaa sitä ja parantaa myöhempien pinnoitteiden tartuntaa."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Alhainen veden imeytyminen: muodostaa pintakalvon.",
+                "Alifaattinen ja UV-säteilyä kestävä.",
+                "Ei myrkyllinen, vaarallinen eikä syttyvä normaaleissa käsittelyolosuhteissa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KUVAUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Käyttövalmis neste, joka laimennetaan vedellä alustan huokoisuuden mukaan; käytetään pintojen esikäsittelyyn ennen mikrosementtien ja muiden pinnoitteiden levitystä."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Levitetään puhtaalle, kiinteälle alustalle, jossa ei ole pölyä, rasvaa eikä irtonaisia osia."
+            },
+            {
+              "type": "p",
+              "text": "Sekoitetaan ennen käyttöä. Levitetään siveltimellä, telalla tai ruiskulla tasaisena kerroksena lammikoita muodostamatta."
+            },
+            {
+              "type": "p",
+              "text": "Alustan huokoisuudesta, laadusta ja ominaisuuksista sekä päällysteen vaatimuksista riippuen tuotetta voidaan käyttää puhtaana tai laimennettuna vesijohtovedellä suhteessa 1/1, 1/2 tai 1/3."
+            },
+            {
+              "type": "p",
+              "text": "Anna kuivua vähintään 4 tuntia ennen pintakäsittelyn levitystä."
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Arvioitu riittoisuus: 20 m² kiloa kohti, kun kalvon paksuus on 50 µm; riippuu pinnasta ja laimennuksesta."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tiivistää ja lujittaa sementtipohjaisia alustoja, laasteja, betonia ja kipsiä tarpeen mukaan.",
+                "Pohjuste ennen mikrosementtejä, pinnoitteita ja maaleja.",
+                "Parantaa alustojen tartuntaa ja tiiviyttä.",
+                "Soveltuu sekä sisä- että ulkokäyttöön."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Helppo levittää ja laimentaa vesijohtovedellä.",
+                "Hyvä tartunta imeville alustoille.",
+                "Hyvä saippuoitumisen- ja pakkasenkestävyys.",
+                "Käyttövalmis tuote: ei vaadi sekoitusta muiden komponenttien kanssa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Käytetään ilman erityisiä turvatoimia, lukuun ottamatta työterveyttä koskevia lakisääteisiä määräyksiä.",
+                "Säilytä lasten ulottumattomissa.",
+                "Älä levitä alle 5 °C:n tai yli 35 °C:n lämpötilassa.",
+                "Suojaa pakkaselta kuljetuksen ja varastoinnin aikana.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tyyppi",
+                      "value": "Vesipohjainen tiivistävä ja lujittava pohjuste"
+                    },
+                    {
+                      "key": "Pohja",
+                      "value": "Akryylidispersiot vesiliuoksessa, ei liuottimia eikä bitumia"
+                    },
+                    {
+                      "key": "Tiheys",
+                      "value": "n. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7,5–9,0"
+                    },
+                    {
+                      "key": "Kuiva-ainepitoisuus",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Suositeltu kalvonpaksuus",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Riittoisuus",
+                      "value": "n. 20 m²/kg, pinnasta riippuen"
+                    },
+                    {
+                      "key": "Kosketuskuiva (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Pintakäsittely uudelleen",
+                      "value": "4–12 h"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "5–35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Suorituskyky",
+                  "rows": [
+                    {
+                      "key": "Tartunta (EN 1542), sementtipohjainen alusta",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Saippuoitumisenkestävyys",
+                      "value": "Hyvä"
+                    },
+                    {
+                      "key": "Säänkestävyys",
+                      "value": "Alifaattinen, UV-säteilyä kestävä"
+                    },
+                    {
+                      "key": "Pinta",
+                      "value": "Kiilto riippuu riittoisuudesta"
+                    },
+                    {
+                      "key": "VOC (2004/42/EY)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Pakkauskoko",
+                      "value": "5 L:n ja 25 L:n kanisteri"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vetotartunta: UNE-EN 1542.",
+                "Haihtuvien orgaanisten yhdisteiden pitoisuus: direktiivi 2004/42/EY."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "5 L:n kanisteri",
+                "25 L:n kanisteri"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa. Säilytetään 5–40 °C:ssa. Suojattava pakkaselta."
+            }
+          ]
+        },
+        {
+          "title": "LAIMENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puhdas",
+                      "value": "Heikosti imevät alustat ja pinnan tiivistys."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Keskimääräisesti imevät alustat."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Voimakkaasti imevät alustat."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Erittäin huokoiset tai pölyävät alustat, jotka vaativat lujitusta."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vesijohtovedellä. Valitse laimennus alustan huokoisuuden ja laadun sekä päällysteen vaatimusten mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT PRIME FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Prime",
+      "subtitle": "PRIMAIRE D'ACCROCHAGE ET CONSOLIDANT À L'EAU",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Sec au toucher (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Rendement approximatif"
+        },
+        {
+          "value": "jusqu'à 1:3",
+          "label": "Dilution à l'eau"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "COV : sans solvant organique"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Primaire d'accrochage et consolidant à l'eau, en solution aqueuse d'émulsions acryliques, sans solvants organiques et exempt de produits bitumineux. Il régule l'absorption du support, le consolide et améliore l'accroche des revêtements ultérieurs."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Faible absorption d'eau : forme un film en surface.",
+                "Aliphatique et résistant aux rayons UV.",
+                "Non toxique, non dangereux et non inflammable dans des conditions normales de manipulation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Liquide prêt à l'emploi, diluable à l'eau selon la porosité du support, pour la préparation des surfaces avant l'application de microciments et d'autres revêtements."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Appliquer sur un support propre, solide et exempt de poussière, de graisse et de parties friables."
+            },
+            {
+              "type": "p",
+              "text": "Remuer avant l'emploi. Appliquer au pinceau, au rouleau ou au pulvérisateur en une couche uniforme, sans laisser de flaques."
+            },
+            {
+              "type": "p",
+              "text": "Selon la porosité, la nature et les caractéristiques du support, ainsi que les exigences du produit de finition, il peut être utilisé pur ou dilué à 1/1, 1/2 ou 1/3 avec de l'eau du robinet."
+            },
+            {
+              "type": "p",
+              "text": "Laisser sécher au moins 4 heures avant d'appliquer la finition."
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consommation approximative : 20 m² par kg pour une épaisseur de film de 50 µm, selon la surface et la dilution."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Scellement et consolidation de supports cimentaires, mortiers, béton et plâtre qui l'exigent.",
+                "Primaire préalable aux microciments, revêtements et peintures.",
+                "Optimisation de l'accroche et de la compacité des supports.",
+                "Convient à l'intérieur comme à l'extérieur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Facile à appliquer et à diluer avec de l'eau du robinet.",
+                "Bonne accroche sur les supports absorbants.",
+                "Bonne résistance à la saponification et au gel.",
+                "Produit prêt à l'emploi : ne nécessite aucun mélange avec d'autres composants."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Utilisation sans mesures de sécurité particulières, hormis les règles légales de santé au travail.",
+                "Tenir hors de portée des enfants.",
+                "Ne pas appliquer à une température inférieure à 5 °C ni supérieure à 35 °C.",
+                "Protéger du gel pendant le transport et le stockage.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Primaire d'accrochage et consolidant à l'eau"
+                    },
+                    {
+                      "key": "Base",
+                      "value": "Émulsions acryliques en solution aqueuse, sans solvant ni bitume"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "env. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7,5 à 9,0"
+                    },
+                    {
+                      "key": "Extrait sec",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Épaisseur de film recommandée",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "env. 20 m²/kg, selon la surface"
+                    },
+                    {
+                      "key": "Sec au toucher (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Recouvrement",
+                      "value": "4 à 12 h"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "5 à 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performances",
+                  "rows": [
+                    {
+                      "key": "Adhérence (EN 1542), support cimentaire",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Résistance à la saponification",
+                      "value": "Bonne"
+                    },
+                    {
+                      "key": "Résistance aux intempéries",
+                      "value": "Aliphatique, résistant aux rayons UV"
+                    },
+                    {
+                      "key": "Finition",
+                      "value": "Brillance selon le rendement"
+                    },
+                    {
+                      "key": "COV (2004/42/CE)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Bidon de 5 L et 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Adhérence par traction directe : UNE-EN 1542.",
+                "Teneur en composés organiques volatils : Directive 2004/42/CE."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bidon de 5 L",
+                "Bidon de 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé. Stocker entre 5 et 40 °C. Protéger du gel."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Pur",
+                      "value": "Supports peu absorbants et scellement de surface."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Supports d'absorption moyenne."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Supports très absorbants."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Supports très poreux ou farinants nécessitant une consolidation."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "À l'eau du robinet. Choisir la dilution selon la porosité et la nature du support et les exigences du produit de finition."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT PRIME ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Prime",
+      "subtitle": "PRIMER SIGILLANTE E CONSOLIDANTE ALL'ACQUA",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Asciutto al tatto (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Resa approssimativa"
+        },
+        {
+          "value": "fino a 1:3",
+          "label": "Diluizione con acqua"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "COV: privo di solventi organici"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Primer sigillante e consolidante all'acqua, in soluzione acquosa di emulsioni acriliche, privo di solventi organici ed esente da prodotti bituminosi. Regola l'assorbimento del supporto, lo consolida e migliora l'ancoraggio dei rivestimenti successivi."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Basso assorbimento d'acqua: forma una pellicola superficiale.",
+                "Alifatico e resistente ai raggi UV.",
+                "Non tossico, pericoloso né infiammabile in normali condizioni di manipolazione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Liquido pronto all'uso, diluibile in acqua in base alla porosità del supporto, per la preparazione delle superfici prima dell'applicazione di microcementi e altri rivestimenti."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Applicare su un supporto pulito, solido e privo di polvere, grassi e parti incoerenti."
+            },
+            {
+              "type": "p",
+              "text": "Mescolare prima dell'uso. Applicare a pennello, rullo o spruzzo in uno strato uniforme, senza creare ristagni."
+            },
+            {
+              "type": "p",
+              "text": "In base alla porosità, alla natura e alle caratteristiche del supporto, nonché ai requisiti del prodotto di finitura, può essere utilizzato puro o diluito 1/1, 1/2 o 1/3 con normale acqua di rete."
+            },
+            {
+              "type": "p",
+              "text": "Lasciare asciugare per almeno 4 ore prima di applicare la finitura."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Resa approssimativa: 20 m² per kg per uno spessore di pellicola di 50 µm, a seconda della superficie e della diluizione."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sigillatura e consolidamento di supporti cementizi, malte, calcestruzzo e gesso che lo richiedano.",
+                "Primer preliminare per microcementi, rivestimenti e pitture.",
+                "Ottimizzazione dell'ancoraggio e della compattezza dei supporti.",
+                "Adatto per interni ed esterni."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Facile da applicare e da diluire con normale acqua di rete.",
+                "Buon ancoraggio su supporti assorbenti.",
+                "Buona resistenza alla saponificazione e al gelo.",
+                "Prodotto pronto all'uso: non richiede miscelazione con altri componenti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Utilizzo senza misure di sicurezza particolari, fatte salve le norme di legge sulla salute sul lavoro.",
+                "Tenere fuori dalla portata dei bambini.",
+                "Non applicare a temperature inferiori a 5 °C o superiori a 35 °C.",
+                "Proteggere dal gelo durante il trasporto e lo stoccaggio.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Primer sigillante e consolidante all'acqua"
+                    },
+                    {
+                      "key": "Base",
+                      "value": "Emulsioni acriliche in soluzione acquosa, senza solventi né bitumi"
+                    },
+                    {
+                      "key": "Massa volumica",
+                      "value": "ca. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "da 7,5 a 9,0"
+                    },
+                    {
+                      "key": "Contenuto di solidi",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Spessore di pellicola consigliato",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "ca. 20 m²/kg, a seconda della superficie"
+                    },
+                    {
+                      "key": "Asciutto al tatto (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Sovraverniciatura",
+                      "value": "da 4 a 12 h"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 5 a 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestazioni",
+                  "rows": [
+                    {
+                      "key": "Aderenza (EN 1542), supporto cementizio",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Resistenza alla saponificazione",
+                      "value": "Buona"
+                    },
+                    {
+                      "key": "Resistenza agli agenti atmosferici",
+                      "value": "Alifatico, resistente ai raggi UV"
+                    },
+                    {
+                      "key": "Finitura",
+                      "value": "Lucentezza in base alla resa"
+                    },
+                    {
+                      "key": "COV (2004/42/CE)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Tanica da 5 L e 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Aderenza per trazione diretta: UNE-EN 1542.",
+                "Contenuto di composti organici volatili: Direttiva 2004/42/CE."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Tanica da 5 L",
+                "Tanica da 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa. Conservare tra 5 e 40 °C. Proteggere dal gelo."
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Puro",
+                      "value": "Supporti poco assorbenti e sigillatura della superficie."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Supporti a medio assorbimento."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Supporti molto assorbenti."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Supporti molto porosi o polverulenti che richiedono consolidamento."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Con normale acqua di rete. Scegliere la diluizione in base alla porosità e alla natura del supporto e ai requisiti del prodotto di finitura."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT PRIME NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Prime",
+      "subtitle": "FORSEGLENDE OG KONSOLIDERENDE PRIMER PÅ VANNBASIS",
+      "stats": [
+        {
+          "value": "1 t",
+          "label": "Berøringstørr (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Omtrentlig dekningsevne"
+        },
+        {
+          "value": "opptil 1:3",
+          "label": "Fortynning med vann"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "VOC: ingen organiske løsemidler"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Forseglende og konsoliderende primer på vannbasis, i vandig løsning av akrylemulsjoner, uten organiske løsemidler og fri for bituminøse produkter. Regulerer underlagets sugeevne, konsoliderer det og gir bedre heft for etterfølgende belegg."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lavt vannopptak: danner en overflatefilm.",
+                "Alifatisk og UV-bestandig.",
+                "Ikke giftig, farlig eller brannfarlig under normale bruksforhold."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESKRIVELSE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bruksferdig væske som kan fortynnes med vann etter underlagets porøsitet, til klargjøring av overflater før påføring av mikrosement og andre belegg."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Påføres på et rent, fast underlag som er fritt for støv, fett og løse partier."
+            },
+            {
+              "type": "p",
+              "text": "Rør om før bruk. Påfør med pensel, rulle eller sprøyte i et jevnt lag, uten at det blir stående væske på overflaten."
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av underlagets porøsitet, art og egenskaper, samt kravene til sluttproduktet, kan primeren brukes ren eller fortynnet 1/1, 1/2 eller 1/3 med vanlig springvann."
+            },
+            {
+              "type": "p",
+              "text": "La tørke i minst 4 timer før finishlaget påføres."
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Omtrentlig dekningsevne: 20 m² per kg for en filmtykkelse på 50 µm, avhengig av overflaten og fortynningen."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Forsegling og konsolidering av sementbaserte underlag, mørtler, betong og gips som trenger det.",
+                "Primer før mikrosement, belegg og maling.",
+                "Optimalisering av underlagets heft og kompakthet.",
+                "Egnet både innendørs og utendørs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enkel å påføre og å fortynne med vanlig springvann.",
+                "God heft til sugende underlag.",
+                "God motstand mot forsåping og frost.",
+                "Bruksferdig produkt: krever ikke blanding med andre komponenter."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Brukes uten særlige sikkerhetstiltak, bortsett fra de lovfestede reglene for arbeidshelse.",
+                "Oppbevares utilgjengelig for barn.",
+                "Må ikke påføres ved temperaturer under 5 °C eller over 35 °C.",
+                "Beskyttes mot frost under transport og lagring.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Forseglende og konsoliderende primer på vannbasis"
+                    },
+                    {
+                      "key": "Basis",
+                      "value": "Akrylemulsjoner i vandig løsning, uten løsemiddel og bitumen"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "ca. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7,5 til 9,0"
+                    },
+                    {
+                      "key": "Tørrstoffinnhold",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Anbefalt filmtykkelse",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Dekningsevne",
+                      "value": "ca. 20 m²/kg, avhengig av overflaten"
+                    },
+                    {
+                      "key": "Berøringstørr (20 °C)",
+                      "value": "1 t"
+                    },
+                    {
+                      "key": "Overmalingstid",
+                      "value": "4 til 12 t"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "5 til 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ytelse",
+                  "rows": [
+                    {
+                      "key": "Heft (EN 1542), sementbasert underlag",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Motstand mot forsåping",
+                      "value": "God"
+                    },
+                    {
+                      "key": "Værbestandighet",
+                      "value": "Alifatisk, UV-bestandig"
+                    },
+                    {
+                      "key": "Finish",
+                      "value": "Glans avhengig av dekningsevnen"
+                    },
+                    {
+                      "key": "VOC (2004/42/EF)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Kanne på 5 L og 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Heftfasthet ved direkte strekk: UNE-EN 1542.",
+                "Innhold av flyktige organiske forbindelser: direktiv 2004/42/EF."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Kanne på 5 L",
+                "Kanne på 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje. Oppbevares mellom 5 og 40 °C. Beskyttes mot frost."
+            }
+          ]
+        },
+        {
+          "title": "FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ren",
+                      "value": "Lite sugende underlag og overflateforsegling."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Underlag med middels sugeevne."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Svært sugende underlag."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Svært porøse eller støvende underlag som må konsolideres."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Med vanlig springvann. Velg fortynning etter underlagets porøsitet og art og kravene til sluttproduktet."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT PRIME POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Prime",
+      "subtitle": "GRUNT USZCZELNIAJĄCO-WZMACNIAJĄCY NA BAZIE WODY",
+      "stats": [
+        {
+          "value": "1 h",
+          "label": "Suchość na dotyk (20 °C)"
+        },
+        {
+          "value": "20 m²/kg",
+          "label": "Przybliżona wydajność"
+        },
+        {
+          "value": "do 1:3",
+          "label": "Rozcieńczanie wodą"
+        },
+        {
+          "value": "< 5 g/L",
+          "label": "LZO: bez rozpuszczalnika organicznego"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Grunt uszczelniająco-wzmacniający na bazie wody, w roztworze wodnym emulsji akrylowych, bez rozpuszczalników organicznych i wolny od produktów bitumicznych. Reguluje chłonność podłoża, wzmacnia je i poprawia przyczepność kolejnych powłok."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Niska nasiąkliwość: tworzy powłokę powierzchniową.",
+                "Alifatyczny i odporny na promieniowanie UV.",
+                "Nietoksyczny, niegroźny i niepalny w normalnych warunkach użytkowania."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Płyn gotowy do użycia, rozcieńczalny wodą w zależności od porowatości podłoża, do przygotowania powierzchni przed nałożeniem mikrocementów i innych powłok."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Nakładać na podłoże czyste, nośne i wolne od kurzu, tłuszczu oraz luźnych elementów."
+            },
+            {
+              "type": "p",
+              "text": "Przed użyciem wymieszać. Nakładać pędzlem, wałkiem lub natryskiem w jednej równomiernej warstwie, bez tworzenia kałuż."
+            },
+            {
+              "type": "p",
+              "text": "W zależności od porowatości, rodzaju i właściwości podłoża oraz wymagań produktu wykończeniowego można stosować w stanie czystym lub rozcieńczony 1/1, 1/2 albo 1/3 wodą z kranu."
+            },
+            {
+              "type": "p",
+              "text": "Przed nałożeniem wykończenia pozostawić do wyschnięcia na co najmniej 4 godziny."
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przybliżona wydajność: 20 m² na kg przy grubości powłoki 50 µm, w zależności od powierzchni i rozcieńczenia."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Uszczelnianie i wzmacnianie podłoży cementowych, zapraw, betonu i gipsu, które tego wymagają.",
+                "Grunt pod mikrocementy, powłoki i farby.",
+                "Optymalizacja przyczepności i zwartości podłoży.",
+                "Nadaje się do stosowania wewnątrz i na zewnątrz."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Łatwy w aplikacji i w rozcieńczaniu wodą z kranu.",
+                "Dobra przyczepność do podłoży chłonnych.",
+                "Dobra odporność na zmydlanie i mróz.",
+                "Produkt gotowy do użycia: nie wymaga mieszania z innymi składnikami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Stosować bez specjalnych środków ostrożności, z wyjątkiem przepisów prawnych dotyczących bezpieczeństwa i higieny pracy.",
+                "Przechowywać poza zasięgiem dzieci.",
+                "Nie stosować w temperaturze poniżej 5 °C ani powyżej 35 °C.",
+                "Chronić przed mrozem podczas transportu i przechowywania.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Grunt uszczelniająco-wzmacniający na bazie wody"
+                    },
+                    {
+                      "key": "Baza",
+                      "value": "Emulsje akrylowe w roztworze wodnym, bez rozpuszczalników i bitumów"
+                    },
+                    {
+                      "key": "Gęstość",
+                      "value": "ok. 1,02 g/cm³"
+                    },
+                    {
+                      "key": "pH",
+                      "value": "7,5 do 9,0"
+                    },
+                    {
+                      "key": "Zawartość części stałych",
+                      "value": "> 20 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Zalecana grubość powłoki",
+                      "value": "50 µm"
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "ok. 20 m²/kg, w zależności od powierzchni"
+                    },
+                    {
+                      "key": "Suchość na dotyk (20 °C)",
+                      "value": "1 h"
+                    },
+                    {
+                      "key": "Czas przed ponownym malowaniem",
+                      "value": "4 do 12 h"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "5 do 35 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Właściwości użytkowe",
+                  "rows": [
+                    {
+                      "key": "Przyczepność (EN 1542), podłoże cementowe",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Odporność na zmydlanie",
+                      "value": "Dobra"
+                    },
+                    {
+                      "key": "Odporność na warunki atmosferyczne",
+                      "value": "Alifatyczny, odporny na promieniowanie UV"
+                    },
+                    {
+                      "key": "Wykończenie",
+                      "value": "Połysk w zależności od wydajności"
+                    },
+                    {
+                      "key": "LZO (2004/42/CE)",
+                      "value": "< 5 g/L"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Kanister 5 L i 25 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Przyczepność przy odrywaniu: UNE-EN 1542.",
+                "Zawartość lotnych związków organicznych: Dyrektywa 2004/42/CE."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Kanister 5 L",
+                "Kanister 25 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu. Przechowywać w temperaturze od 5 do 40 °C. Chronić przed mrozem."
+            }
+          ]
+        },
+        {
+          "title": "ROZCIEŃCZENIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Czysty",
+                      "value": "Podłoża o niskiej chłonności i uszczelnianie powierzchni."
+                    },
+                    {
+                      "key": "1/1",
+                      "value": "Podłoża o średniej chłonności."
+                    },
+                    {
+                      "key": "1/2",
+                      "value": "Podłoża silnie chłonne."
+                    },
+                    {
+                      "key": "1/3",
+                      "value": "Podłoża bardzo porowate lub pylące, wymagające wzmocnienia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wodą z kranu. Rozcieńczenie dobrać w zależności od porowatości i rodzaju podłoża oraz wymagań produktu wykończeniowego."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

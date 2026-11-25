@@ -1,0 +1,1711 @@
+{
+  "key": "protect-diluent",
+  "source": "PROTECT DILUENT",
+  "languages": {
+    "de": {
+      "file": "PROTECT DILUENT ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Protect Diluent",
+      "subtitle": "MITTELLANGSAM VERDUNSTENDER VERDÜNNER FÜR PU-LACKE",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Gebindegröße"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Dichte bei 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Flammpunkt"
+        },
+        {
+          "value": "Mittel",
+          "label": "Verdunstung"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Spezielle Lösemittelmischung zum Verdünnen der Polyurethanlacke der Reihe Protect Solvent. Mittellangsam verdunstend, mit Anti-Blushing-Wirkung."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Farblose, in Wasser schwach lösliche Flüssigkeit.",
+                "Geeignet für Grundierungen, Acryl- und Kunstharzfarben, Lacke, Email, Füller und Porenversiegler.",
+                "Anti-Blushing: verhindert das Weißanlaufen (Verschleierung) des Films."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Verdünnen von Protect Solvent 2K, Protect Solvent Grip 2K und Protect Solvent Metallic 2K.",
+                "Einstellen der Viskosität für Spritz- oder Rollenauftrag, je nach Untergrund und Temperatur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUND UND ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Der Untergrund muss eben, sauber und frei von Staub, Fett und Fremdstoffen sein."
+            },
+            {
+              "type": "p",
+              "text": "Als lösemittelhaltiges Produkt nur bei guter Belüftung und mit der erforderlichen Schutzausrüstung verarbeiten."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Entzündbar (Flammpunkt: 5 °C): alle Zündquellen beseitigen und von oxidierenden Stoffen fernhalten.",
+                "Bei der Verarbeitung nicht essen, trinken oder rauchen.",
+                "Giftig bei Verschlucken. Darf nicht in die Hände von Kindern gelangen.",
+                "Bei Augenkontakt mit reichlich sauberem Wasser spülen.",
+                "Gebinde vor hohen Temperaturen und direkter Sonneneinstrahlung schützen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG UND AUFBEWAHRUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Gemäß den örtlichen Vorschriften in einem separaten, zugelassenen Bereich lagern.",
+                "In der Originalverpackung an einem trockenen, kühlen, gut belüfteten Ort lagern, entfernt von direktem Sonnenlicht, unverträglichen Stoffen sowie Nahrungs- und Futtermitteln.",
+                "Unter Verschluss aufbewahren. Gebinde dicht verschlossen und aufrecht lagern. Nicht in unbeschrifteten Behältern aufbewahren."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ENTSORGUNG UND UMWELT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Abfallaufkommen so weit wie möglich verringern und Verwertung oder Recycling prüfen. Nicht in die Kanalisation oder in die Umwelt gelangen lassen."
+            },
+            {
+              "type": "p",
+              "text": "Produkt und Gebinde einer zugelassenen Entsorgungsstelle gemäß den örtlichen und nationalen Vorschriften zuführen (kontrollierte Verbrennung in Anlagen für chemische Abfälle)."
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Aussehen",
+                      "value": "Farblose Flüssigkeit"
+                    },
+                    {
+                      "key": "Dichte bei 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Löslichkeit",
+                      "value": "In Wasser schwach löslich"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Verdunstung",
+                      "value": "Mittel-langsam; Anti-Blushing"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Gebinde 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "Gebinde 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In der dicht verschlossenen Originalverpackung aufrecht lagern, an einem trockenen, kühlen, gut belüfteten Ort, entfernt von Zündquellen, direkter Sonne und oxidierenden Stoffen, unter Verschluss."
+            }
+          ]
+        },
+        {
+          "title": "EMPFOHLENE VERDÜNNUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 bis 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 bis 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 bis 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Je nach Untergrund, Temperatur und Auftragsverfahren (Spritzpistole oder Rolle)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "PROTECT DILUENT INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Protect Diluent",
+      "subtitle": "MEDIUM-SLOW EVAPORATION SOLVENT FOR POLYURETHANES",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Container size"
+        },
+        {
+          "value": "0.87 g/cm³",
+          "label": "Density at 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Flash point"
+        },
+        {
+          "value": "Medium-slow",
+          "label": "Evaporation rate"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Special solvent blend for thinning the polyurethane varnishes of the Protect Solvent range. Medium-slow evaporation, with an anti-blushing effect."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Colorless liquid, slightly soluble in water.",
+                "Suitable for primers, acrylic and synthetic paints, varnishes, enamels, fillers and pore sealers.",
+                "Anti-blushing: helps prevent blushing of the film."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Thinning of Protect Solvent 2K, Protect Solvent Grip 2K and Protect Solvent Metallic 2K.",
+                "Viscosity adjustment for spray or roller application, depending on the substrate and temperature."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE AND APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The base surface must be levelled, clean and free of dust, grease and foreign substances."
+            },
+            {
+              "type": "p",
+              "text": "As this is a solvent-based product, apply with good air renewal and with the necessary protective measures."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Flammable (flash point: 5 °C): remove all sources of ignition and keep away from oxidizing materials.",
+                "Do not eat, drink or smoke during application.",
+                "Toxic if swallowed. Keep out of the reach of children.",
+                "In case of contact with the eyes, wash with plenty of clean water.",
+                "Protect containers from high temperatures and direct sunlight."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Store in accordance with local regulations, in a separate, approved area.",
+                "Store in the original container, in a dry, cool and well-ventilated place, away from direct sunlight, incompatible materials, food and drink.",
+                "Keep locked up. Keep the container tightly closed and upright. Do not store in unlabelled containers."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DISPOSAL AND ENVIRONMENT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimize waste generation as far as possible and consider recovery or recycling. Do not pour into drains or release into the environment."
+            },
+            {
+              "type": "p",
+              "text": "Dispose of the product and containers at an authorized facility, in accordance with local and national legislation (controlled incineration in chemical waste plants)."
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Appearance",
+                      "value": "Colorless liquid"
+                    },
+                    {
+                      "key": "Density at 20 °C",
+                      "value": "0.87 g/cm³"
+                    },
+                    {
+                      "key": "Solubility",
+                      "value": "Slightly soluble in water"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Evaporation",
+                      "value": "Medium-slow; anti-blushing"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "5 L container"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "5 L container"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Keep in the original container, tightly closed and upright, in a dry, cool and well-ventilated area, away from sources of ignition, direct sunlight and oxidizing materials, and locked up."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMENDED THINNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 to 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 to 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 to 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Depending on the substrate, temperature and application method (spray or roller)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "PROTECT DILUENT ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Protect Diluent",
+      "subtitle": "DISOLVENTE DE EVAPORACIÓN MEDIA-LENTA PARA POLIURETANOS",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Formato del envase"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Densidad a 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Punto de inflamación"
+        },
+        {
+          "value": "Media-lenta",
+          "label": "Velocidad de evaporación"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mezcla de disolventes especial para diluir los barnices de poliuretano de la gama Protect Solvent. De evaporación media-lenta, con efecto antivelo."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Líquido incoloro, ligeramente soluble en agua.",
+                "Adecuado para imprimaciones, pinturas acrílicas y sintéticas, barnices, esmaltes, aparejos y tapaporos.",
+                "Antivelo: ayuda a evitar el velado de la película."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dilución de Protect Solvent 2K, Protect Solvent Grip 2K y Protect Solvent Metallic 2K.",
+                "Ajuste de la viscosidad para aplicación a pistola o a rodillo, según el soporte y la temperatura."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SOPORTE Y APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie base debe estar regularizada, limpia y libre de polvo, grasa y sustancias extrañas."
+            },
+            {
+              "type": "p",
+              "text": "Al ser un producto al disolvente, aplicar con buena renovación de aire y con las medidas de protección necesarias."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inflamable (punto de inflamación: 5 °C): eliminar todas las fuentes de ignición y mantener alejado de materiales oxidantes.",
+                "No comer, beber ni fumar durante la aplicación.",
+                "Tóxico por ingestión. Mantener fuera del alcance de los niños.",
+                "En caso de contacto con los ojos, lavar con agua limpia y abundante.",
+                "Proteger los envases de las altas temperaturas y de la exposición directa al sol."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN Y ALMACENAJE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conservar según la normativa local, en un área separada y homologada.",
+                "Almacenar en el envase original, en un lugar seco, fresco y bien ventilado, lejos de luz solar directa, materiales incompatibles, comida y bebida.",
+                "Guardar bajo llave. Mantener el envase bien cerrado y en posición vertical. No almacenar en recipientes sin etiquetar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ELIMINACIÓN Y MEDIO AMBIENTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Reducir al máximo la producción de residuos y estudiar su revalorización o reciclado. No verter en desagües ni en el medio ambiente."
+            },
+            {
+              "type": "p",
+              "text": "Eliminar el producto y los envases en un punto autorizado, según la legislación local y nacional (incineración controlada en plantas de residuos químicos)."
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Aspecto",
+                      "value": "Líquido incoloro"
+                    },
+                    {
+                      "key": "Densidad a 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Solubilidad",
+                      "value": "Ligeramente soluble en agua"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Evaporación",
+                      "value": "Media-lenta; antivelo"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Envase de 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "Envase de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conservar en el envase original bien cerrado y en posición vertical, en un área seca, fresca y bien ventilada, alejado de fuentes de ignición, del sol directo y de materiales oxidantes, y bajo llave."
+            }
+          ]
+        },
+        {
+          "title": "DILUCIÓN RECOMENDADA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 a 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 a 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 a 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Según el soporte, la temperatura y el método de aplicación (pistola o rodillo)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "PROTECT DILUENT FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Protect Diluent",
+      "subtitle": "KESKIHIDAS OHENNE POLYURETAANILAKOILLE",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Pakkauskoko"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Tiheys 20 °C:ssa"
+        },
+        {
+          "value": "5 °C",
+          "label": "Leimahduspiste"
+        },
+        {
+          "value": "Keskihidas",
+          "label": "Haihtumisnopeus"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Erikoisliuotinseos Protect Solvent -sarjan polyuretaanilakkojen ohentamiseen. Keskihitaasti haihtuva, himmenemistä (härmettä) estävä."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Väritön neste, liukenee veteen hieman.",
+                "Soveltuu pohjusteille, akryyli- ja synteettisille maaleille, lakoille, emaleille, tasoitepohjusteille ja huokostukkijille.",
+                "Härmettä estävä: auttaa estämään kalvon himmenemistä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Protect Solvent 2K-, Protect Solvent Grip 2K- ja Protect Solvent Metallic 2K -lakkojen ohentaminen.",
+                "Viskositeetin säätö ruisku- tai telalevitykseen alustan ja lämpötilan mukaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTA JA LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Alustan on oltava tasoitettu, puhdas sekä pölystä, rasvasta ja vieraista aineista vapaa."
+            },
+            {
+              "type": "p",
+              "text": "Liuotinpohjaisen tuotteen vuoksi levitä hyvässä ilmanvaihdossa ja käytä tarvittavia suojavarusteita."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Syttyvä (leimahduspiste: 5 °C): poista kaikki sytytyslähteet ja pidä erillään hapettavista aineista.",
+                "Älä syö, juo tai tupakoi levityksen aikana.",
+                "Nieltynä myrkyllistä. Pidä poissa lasten ulottuvilta.",
+                "Silmiin joutuessa huuhtele runsaalla puhtaalla vedellä.",
+                "Suojaa pakkaukset korkeilta lämpötiloilta ja suoralta auringonvalolta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS JA VARASTOINTI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Säilytä paikallisten määräysten mukaisesti erillisessä, hyväksytyssä tilassa.",
+                "Säilytä alkuperäispakkauksessa kuivassa, viileässä ja hyvin ilmastoidussa paikassa, erillään suorasta auringonvalosta, yhteensopimattomista aineista sekä ruoasta ja juomasta.",
+                "Säilytä lukitussa tilassa. Pidä pakkaus tiiviisti suljettuna ja pystyasennossa. Älä säilytä merkitsemättömissä astioissa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HÄVITTÄMINEN JA YMPÄRISTÖ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimoi jätteen syntyminen ja selvitä sen hyödyntäminen tai kierrätys. Älä kaada viemäriin tai ympäristöön."
+            },
+            {
+              "type": "p",
+              "text": "Toimita tuote ja pakkaukset hyväksyttyyn vastaanottopisteeseen paikallisen ja kansallisen lainsäädännön mukaisesti (valvottu poltto kemikaalijätteen käsittelylaitoksessa)."
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Väritön neste"
+                    },
+                    {
+                      "key": "Tiheys 20 °C:ssa",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Liukoisuus",
+                      "value": "Liukenee veteen hieman"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Haihtuminen",
+                      "value": "Keskihidas; härmettä estävä"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "5 L:n pakkaus"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "5 L:n pakkaus"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Säilytä alkuperäispakkauksessa tiiviisti suljettuna ja pystyasennossa kuivassa, viileässä ja hyvin ilmastoidussa tilassa, erillään sytytyslähteistä, suorasta auringonvalosta ja hapettavista aineista sekä lukittuna."
+            }
+          ]
+        },
+        {
+          "title": "SUOSITELTU OHENNUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10–20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10–20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10–30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Alustan, lämpötilan ja levitystavan (ruisku tai telä) mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "PROTECT DILUENT FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Protect Diluent",
+      "subtitle": "DILUANT À ÉVAPORATION MI-LENTE POUR POLYURÉTHANES",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Format du conditionnement"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Masse volumique à 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Point d'éclair"
+        },
+        {
+          "value": "Mi-lente",
+          "label": "Vitesse d'évaporation"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mélange de solvants spécial pour diluer les vernis polyuréthane de la gamme Protect Solvent. À évaporation mi-lente, avec effet anti-blushing."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquide incolore, légèrement soluble dans l'eau.",
+                "Adapté aux primaires, peintures acryliques et synthétiques, vernis, émaux, apprêts et bouche-pores.",
+                "Anti-blushing : aide à éviter le voile blanchâtre du film."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dilution de Protect Solvent 2K, Protect Solvent Grip 2K et Protect Solvent Metallic 2K.",
+                "Ajustement de la viscosité pour l'application au pistolet ou au rouleau, selon le support et la température."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORT ET APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La surface de base doit être régularisée, propre et exempte de poussière, de graisse et de substances étrangères."
+            },
+            {
+              "type": "p",
+              "text": "S'agissant d'un produit à base de solvants, appliquer avec une bonne ventilation et les mesures de protection nécessaires."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inflammable (point d'éclair : 5 °C) : éliminer toutes les sources d'ignition et tenir à l'écart des matières comburantes.",
+                "Ne pas manger, boire ni fumer pendant l'application.",
+                "Toxique en cas d'ingestion. Tenir hors de portée des enfants.",
+                "En cas de contact avec les yeux, rincer abondamment à l'eau propre.",
+                "Protéger les emballages des températures élevées et de l'exposition directe au soleil."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION ET STOCKAGE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conserver conformément à la réglementation locale, dans une zone séparée et agréée.",
+                "Stocker dans l'emballage d'origine, dans un endroit sec, frais et bien ventilé, à l'abri de la lumière directe du soleil, des matières incompatibles, de la nourriture et des boissons.",
+                "Garder sous clé. Maintenir l'emballage bien fermé et en position verticale. Ne pas stocker dans des récipients non étiquetés."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ÉLIMINATION ET ENVIRONNEMENT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Réduire au maximum la production de déchets et envisager leur valorisation ou leur recyclage. Ne pas déverser dans les égouts ni dans l'environnement."
+            },
+            {
+              "type": "p",
+              "text": "Éliminer le produit et les emballages dans un point agréé, conformément à la législation locale et nationale (incinération contrôlée dans des installations de déchets chimiques)."
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Aspect",
+                      "value": "Liquide incolore"
+                    },
+                    {
+                      "key": "Masse volumique à 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Solubilité",
+                      "value": "Légèrement soluble dans l'eau"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Évaporation",
+                      "value": "Mi-lente ; anti-blushing"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Emballage de 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "Emballage de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conserver dans l'emballage d'origine bien fermé et en position verticale, dans un endroit sec, frais et bien ventilé, à l'écart des sources d'ignition, du soleil direct et des matières comburantes, et sous clé."
+            }
+          ]
+        },
+        {
+          "title": "DILUTION RECOMMANDÉE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 à 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 à 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 à 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Selon le support, la température et la méthode d'application (pistolet ou rouleau)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "PROTECT DILUENT ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Protect Diluent",
+      "subtitle": "DILUENTE A EVAPORAZIONE MEDIO-LENTA PER POLIURETANI",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Formato della confezione"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Massa volumica a 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Punto di infiammabilità"
+        },
+        {
+          "value": "Medio-lenta",
+          "label": "Velocità di evaporazione"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Miscela di solventi speciale per diluire le vernici poliuretaniche della gamma Protect Solvent. A evaporazione medio-lenta, con effetto anti-blushing."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liquido incolore, leggermente solubile in acqua.",
+                "Adatto a primer, pitture acriliche e sintetiche, vernici, smalti, fondi riempitivi e turapori.",
+                "Anti-blushing: aiuta a evitare l'opacizzazione (velatura) del film."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Diluizione di Protect Solvent 2K, Protect Solvent Grip 2K e Protect Solvent Metallic 2K.",
+                "Regolazione della viscosità per l'applicazione a spruzzo o a rullo, in base al supporto e alla temperatura."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTO E APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La superficie di base deve essere regolare, pulita e priva di polvere, grasso e sostanze estranee."
+            },
+            {
+              "type": "p",
+              "text": "Trattandosi di un prodotto a solvente, applicare con buon ricambio d'aria e con le misure di protezione necessarie."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Infiammabile (punto di infiammabilità: 5 °C): eliminare tutte le fonti di innesco e tenere lontano da materiali ossidanti.",
+                "Non mangiare, bere né fumare durante l'applicazione.",
+                "Tossico per ingestione. Tenere fuori dalla portata dei bambini.",
+                "In caso di contatto con gli occhi, lavare con acqua pulita e abbondante.",
+                "Proteggere i contenitori dalle alte temperature e dall'esposizione diretta al sole."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE E STOCCAGGIO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Conservare secondo la normativa locale, in un'area separata e omologata.",
+                "Stoccare nella confezione originale, in luogo asciutto, fresco e ben ventilato, lontano dalla luce solare diretta, da materiali incompatibili, cibo e bevande.",
+                "Conservare sotto chiave. Tenere il contenitore ben chiuso e in posizione verticale. Non stoccare in contenitori privi di etichetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SMALTIMENTO E AMBIENTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ridurre al minimo la produzione di rifiuti e valutarne il recupero o il riciclo. Non versare negli scarichi né nell'ambiente."
+            },
+            {
+              "type": "p",
+              "text": "Smaltire il prodotto e i contenitori in un punto autorizzato, secondo la legislazione locale e nazionale (incenerimento controllato in impianti di rifiuti chimici)."
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Aspetto",
+                      "value": "Liquido incolore"
+                    },
+                    {
+                      "key": "Massa volumica a 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Solubilità",
+                      "value": "Leggermente solubile in acqua"
+                    },
+                    {
+                      "key": "Punto di infiammabilità",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Evaporazione",
+                      "value": "Medio-lenta; anti-blushing"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Confezione da 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "Confezione da 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conservare nella confezione originale ben chiusa e in posizione verticale, in un'area asciutta, fresca e ben ventilata, lontano da fonti di innesco, dal sole diretto e da materiali ossidanti, e sotto chiave."
+            }
+          ]
+        },
+        {
+          "title": "DILUIZIONE CONSIGLIATA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10-20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10-20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10-30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "In base al supporto, alla temperatura e al metodo di applicazione (spruzzo o rullo)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "PROTECT DILUENT NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Protect Diluent",
+      "subtitle": "MIDDELS LANGSOMTGÅENDE TYNNER FOR POLYURETANLAKK",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Emballasjestørrelse"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Densitet ved 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Flammepunkt"
+        },
+        {
+          "value": "Middels",
+          "label": "Fordampning"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Spesiell løsemiddelblanding for fortynning av polyuretanlakkene i Protect Solvent-serien. Middels langsomtgående avdunsting, med antiblush-effekt."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Fargeløs væske, litt løselig i vann.",
+                "Egnet for grunning, akryl- og syntetiske malinger, lakker, emaljer, sparkel- og fyllgrunning og porefyllere.",
+                "Antiblush: bidrar til å hindre at filmen sløres."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fortynning av Protect Solvent 2K, Protect Solvent Grip 2K og Protect Solvent Metallic 2K.",
+                "Justering av viskositeten for sprøyte- eller rulleapplikasjon, avhengig av underlag og temperatur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNDERLAG OG PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Underlaget må være jevnt, rent og fritt for støv, fett og fremmedstoffer."
+            },
+            {
+              "type": "p",
+              "text": "Siden produktet er løsemiddelbasert, må det brukes med god utlufting og nødvendig verneutstyr."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Brannfarlig (flammepunkt: 5 °C): fjern alle tennkilder og hold unna oksiderende materialer.",
+                "Ikke spis, drikk eller røyk under påføring.",
+                "Giftig ved svelging. Oppbevares utilgjengelig for barn.",
+                "Ved øyekontakt skylles med rikelig rent vann.",
+                "Beskytt beholderne mot høye temperaturer og direkte sollys."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING OG LAGRING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Oppbevares i henhold til lokale forskrifter, i et adskilt og godkjent område.",
+                "Lagres i originalemballasjen på et tørt, kjølig og godt ventilert sted, unna direkte sollys, uforenlige materialer, mat og drikke.",
+                "Oppbevares innelåst. Hold beholderen tett lukket og stående. Må ikke lagres i beholdere uten etikett."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVFALL OG MILJØ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Begrens avfallsmengden mest mulig og vurder gjenvinning eller resirkulering. Må ikke tømmes i avløp eller ut i miljøet."
+            },
+            {
+              "type": "p",
+              "text": "Lever produkt og emballasje til et godkjent mottak i henhold til lokal og nasjonal lovgivning (kontrollert forbrenning i anlegg for kjemisk avfall)."
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Utseende",
+                      "value": "Fargeløs væske"
+                    },
+                    {
+                      "key": "Densitet ved 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Løselighet",
+                      "value": "Litt løselig i vann"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Avdunsting",
+                      "value": "Middels-langsom; antiblush"
+                    },
+                    {
+                      "key": "Emballasje",
+                      "value": "5 L beholder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "5 L beholder"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Oppbevares i tett lukket originalemballasje, stående, på et tørt, kjølig og godt ventilert sted, unna tennkilder, direkte sollys og oksiderende materialer, og innelåst."
+            }
+          ]
+        },
+        {
+          "title": "ANBEFALT FORTYNNING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 til 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 til 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 til 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av underlag, temperatur og påføringsmetode (sprøyte eller rulle)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "PROTECT DILUENT POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Protect Diluent",
+      "subtitle": "ROZCIEŃCZALNIK ŚREDNIO-WOLNOSCHNĄCY DO POLIURETANÓW",
+      "stats": [
+        {
+          "value": "5 L",
+          "label": "Pojemność opakowania"
+        },
+        {
+          "value": "0,87 g/cm³",
+          "label": "Gęstość w 20 °C"
+        },
+        {
+          "value": "5 °C",
+          "label": "Temperatura zapłonu"
+        },
+        {
+          "value": "Średnio-wolne",
+          "label": "Szybkość odparowania"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Specjalna mieszanina rozpuszczalników do rozcieńczania lakierów poliuretanowych z gamy Protect Solvent. Średnio-wolnoschnąca, o działaniu antyblushingowym."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bezbarwna ciecz, lekko rozpuszczalna w wodzie.",
+                "Nadaje się do gruntów, farb akrylowych i syntetycznych, lakierów, emalii, podkładów wypełniających i uszczelniaczy porów.",
+                "Antyblushing: pomaga zapobiegać zmatowieniu (mleczeniu) powłoki."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rozcieńczanie Protect Solvent 2K, Protect Solvent Grip 2K i Protect Solvent Metallic 2K.",
+                "Regulacja lepkości do aplikacji pistoletem lub wałkiem, w zależności od podłoża i temperatury."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PODŁOŻE I APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Podłoże musi być wyrównane, czyste i wolne od kurzu, tłuszczu i obcych substancji."
+            },
+            {
+              "type": "p",
+              "text": "Ponieważ jest to produkt rozpuszczalnikowy, stosować przy dobrej wymianie powietrza i z zastosowaniem niezbędnych środków ochrony."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Łatwopalny (temperatura zapłonu: 5 °C): usunąć wszystkie źródła zapłonu i przechowywać z dala od materiałów utleniających.",
+                "Nie jeść, nie pić i nie palić podczas aplikacji.",
+                "Działa toksycznie po połknięciu. Chronić przed dziećmi.",
+                "W przypadku kontaktu z oczami przemyć dużą ilością czystej wody.",
+                "Chronić opakowania przed wysoką temperaturą i bezpośrednim działaniem promieni słonecznych."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE I SKŁADOWANIE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Przechowywać zgodnie z lokalnymi przepisami, w wydzielonym i atestowanym miejscu.",
+                "Przechowywać w oryginalnym opakowaniu, w suchym, chłodnym i dobrze wentylowanym miejscu, z dala od bezpośredniego światła słonecznego, materiałów niezgodnych, żywności i napojów.",
+                "Przechowywać pod zamknięciem. Opakowanie szczelnie zamknięte, w pozycji pionowej. Nie przechowywać w pojemnikach bez etykiety."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USUWANIE I ŚRODOWISKO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ograniczyć wytwarzanie odpadów do minimum i rozważyć ich odzysk lub recykling. Nie wylewać do kanalizacji ani do środowiska."
+            },
+            {
+              "type": "p",
+              "text": "Produkt i opakowania usuwać w autoryzowanym punkcie, zgodnie z przepisami lokalnymi i krajowymi (kontrolowane spalanie w zakładach przetwarzania odpadów chemicznych)."
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Wygląd",
+                      "value": "Bezbarwna ciecz"
+                    },
+                    {
+                      "key": "Gęstość w 20 °C",
+                      "value": "0,87 g/cm³"
+                    },
+                    {
+                      "key": "Rozpuszczalność",
+                      "value": "Lekko rozpuszczalny w wodzie"
+                    },
+                    {
+                      "key": "Temperatura zapłonu",
+                      "value": "5 °C"
+                    },
+                    {
+                      "key": "Odparowanie",
+                      "value": "Średnio-wolne; antyblushing"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Pojemnik 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Protect Diluent",
+                "Pojemnik 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przechowywać w oryginalnym, szczelnie zamkniętym opakowaniu, w pozycji pionowej, w suchym, chłodnym i dobrze wentylowanym miejscu, z dala od źródeł zapłonu, bezpośredniego światła słonecznego i materiałów utleniających, pod zamknięciem."
+            }
+          ]
+        },
+        {
+          "title": "ZALECANE ROZCIEŃCZENIE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Protect Solvent 2K",
+                      "value": "10 do 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Grip 2K",
+                      "value": "10 do 20 %."
+                    },
+                    {
+                      "key": "Protect Solvent Metallic 2K",
+                      "value": "10 do 30 %."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "W zależności od podłoża, temperatury i metody aplikacji (pistolet lub wałek)."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

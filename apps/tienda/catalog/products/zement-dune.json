@@ -1,0 +1,1945 @@
+{
+  "key": "zement-dune",
+  "source": "ZEMENT DUNE",
+  "languages": {
+    "de": {
+      "file": "ZEMENT DUNE ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Dune",
+      "subtitle": "NATURSANDBESCHICHTUNG FÜR POOLS IM STRANDSTIL",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Schichtdicke in einer Lage"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Haftzugfestigkeit"
+        },
+        {
+          "value": "> 20 Tage",
+          "label": "Vor dem Befüllen des Pools"
+        },
+        {
+          "value": "25 kg",
+          "label": "Sack Zuschlag"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Hochwetterbeständige Sandbeschichtung für Pools im Strandstil. Sie haftet auf einem bewehrten, abgedichteten Spritzbetonuntergrund und verleiht die Optik von Strandsand, mit einer im trockenen wie im nassen Zustand hochgradig rutschhemmenden Oberfläche."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bindemittel aus organischen Harzen und Quarzzuschlag.",
+                "Farben: gebrochenes Weiß und Sand.",
+                "Vergilbt nicht und ist wartungsfrei."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Beschichtung von Schwimmbecken.",
+                "Wasserdurchlässig; verhindert stehendes Wasser.",
+                "Oberflächenfestiger und Bindemittel zum Verbinden von gebrochenen Zuschlägen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRÜNDE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, im Neu- oder Altbau, mit festen Wänden und Böden, die perfekt abgedichtet sind."
+            }
+          ]
+        },
+        {
+          "title": "BESTÄNDIGKEIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemisch: unempfindlich gegenüber Meeresklima, saurem Regen (Schwefeldämpfe) und Kohlenstoffbelastung; verträgt verdünnte alkalische und saure Lösungen.",
+                "UV-beständig; behält seine Eigenschaften von -30 bis +60 °C.",
+                "Im pastösen Zustand nicht brennbar; trocken ist es wasch-und regenfest.",
+                "Verschließt Poren und kapillare Haarrisse; nach der Polymerisation geruchlos."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Auf den perfekt abgedichteten Untergrund einen Anstrich einkomponentige Abdichtung auftragen (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Anschließend Zement Dune (Sack à 25 kg, weißer Quarzzuschlag oder Sand) mit zweikomponentigem UV-beständigem Harz (A 10 kg + B 5 kg) mit 7-10 % bezogen auf das Gewicht des Zuschlags vermischt auftragen."
+            },
+            {
+              "type": "p",
+              "text": "Bei trockener Oberfläche mit Schleifpapier der Körnung 240 anschleifen. Falls gewünscht, mit der Rolle einen reichlichen Anstrich UV-Harz auf die gesamte Fläche auftragen."
+            },
+            {
+              "type": "p",
+              "text": "Den Pool frühestens 20 Tage nach der Verarbeitung befüllen."
+            }
+          ]
+        },
+        {
+          "title": "EMPFEHLUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Weder Wasser noch Zusatzmittel beimischen. Besondere Bereiche (Risse) mit dem geeigneten Gewebe behandeln.",
+                "Kunststoffgefäße; Kellen aus Kunststoff und Edelstahl. Werkzeuge mit einem speziellen Reinigungslösemittel säubern.",
+                "Nicht bei Regen- oder Frostgefahr, starken Temperaturwechseln, direkter Sonneneinstrahlung oder starkem Wind verarbeiten; Planen bereithalten.",
+                "Handschuhe und Schutzbrille tragen. Außerhalb der Reichweite von Kindern aufbewahren; leere Gebinde gemäß den geltenden Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Beschichtung",
+                  "rows": [
+                    {
+                      "key": "Zusammensetzung",
+                      "value": "Organische Harze und Quarzzuschlag"
+                    },
+                    {
+                      "key": "Farben",
+                      "value": "Gebrochenes Weiß und Sand"
+                    },
+                    {
+                      "key": "Dichte der Paste",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Verbrauch",
+                      "value": "Ca. 7,5 kg/m² Zement Dune; Harz 7-10 % bezogen auf das Zuschlaggewicht"
+                    }
+                  ]
+                },
+                {
+                  "title": "Verarbeitung",
+                  "rows": [
+                    {
+                      "key": "Schichtdicke",
+                      "value": "3-5 mm in einer Lage"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "5 bis 30 °C (auf dem Boden)"
+                    },
+                    {
+                      "key": "Grifffest",
+                      "value": "6-7 Std."
+                    },
+                    {
+                      "key": "Vollständige Aushärtung",
+                      "value": "16-17 Std."
+                    },
+                    {
+                      "key": "Inbetriebnahme",
+                      "value": "> 20 Tage"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leistungsmerkmale",
+                  "rows": [
+                    {
+                      "key": "Haftzugfestigkeit",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Trocknungsschwindung",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Kapillare Wasseraufnahme",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Brandverhalten",
+                      "value": "Nicht brennbar"
+                    }
+                  ]
+                },
+                {
+                  "title": "Lieferform",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Sack 25 kg"
+                    },
+                    {
+                      "key": "Zweikomponentiges UV-Harz",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: Sack 25 kg",
+                "UV-Harz: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT DUNE INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Dune",
+      "subtitle": "NATURAL SAND COATING FOR BEACH-STYLE SWIMMING POOLS",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Thickness in a single coat"
+        },
+        {
+          "value": "> 2.0 MPa",
+          "label": "Adhesion"
+        },
+        {
+          "value": "> 20 days",
+          "label": "Before filling the pool"
+        },
+        {
+          "value": "25 kg",
+          "label": "Aggregate bag"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sand coating with high weather resistance for beach-style swimming pools. It bonds to a reinforced, waterproofed shotcrete substrate and gives the visual look of beach sand, with a highly slip-resistant finish both dry and wet."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Binder of organic resins and quartz aggregate.",
+                "Colours: off-white and sand.",
+                "Does not yellow and requires no maintenance."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Swimming pool coating.",
+                "Water-permeable; prevents standing water.",
+                "Surface fixative and bulk binder for bonding crushed aggregates."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATES",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Concrete, new or old, with walls and floors of good consistency and perfectly waterproofed."
+            }
+          ]
+        },
+        {
+          "title": "RESISTANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemical: unaffected by marine atmospheres, acid rain (sulphurous vapours) and carbon pollution; withstands dilute alkaline and acid solutions.",
+                "UV-resistant; keeps its properties from -30 to +60 °C.",
+                "Non-flammable in paste state; once dry, it is impervious to washing and rain.",
+                "Seals porosities and capillary microcracks; odourless once polymerised."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On the perfectly waterproofed substrate, apply one coat of one-component waterproofing (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Then apply Zement Dune (25 kg bag, white quartz or sand aggregate) mixed with two-component UV-resistant resin (A 10 kg + B 5 kg) at 7-10 % of the aggregate weight."
+            },
+            {
+              "type": "p",
+              "text": "With the surface dry, sand with 240-grit paper. If desired, roller-apply a generous coat of UV resin over the whole surface."
+            },
+            {
+              "type": "p",
+              "text": "Do not fill the pool until at least 20 days have passed since application."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMENDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not add water or additives. Treat critical areas (cracks) with suitable mesh.",
+                "Plastic containers; plastic and stainless steel trowels. Clean tools with a specific cleaning solvent.",
+                "Do not apply if there is a risk of rain, frost, major temperature changes, direct sun or strong wind; keep tarpaulins at hand.",
+                "Gloves and protective goggles. Keep out of the reach of children; dispose of empty containers in accordance with current regulations."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Coating",
+                  "rows": [
+                    {
+                      "key": "Composition",
+                      "value": "Organic resins and quartz aggregate"
+                    },
+                    {
+                      "key": "Colours",
+                      "value": "Off-white and sand"
+                    },
+                    {
+                      "key": "Paste density",
+                      "value": "1.7 kg/l"
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "Approx. 7.5 kg/m² of Zement Dune; resin 7-10 % of aggregate weight"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Thickness",
+                      "value": "3-5 mm in one coat"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "5 to 30 °C (on the pavement)"
+                    },
+                    {
+                      "key": "Touch dry",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Full hardening",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Ready for service",
+                      "value": "> 20 days"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performance",
+                  "rows": [
+                    {
+                      "key": "Adhesion",
+                      "value": "> 2.0 N/mm²"
+                    },
+                    {
+                      "key": "Drying shrinkage",
+                      "value": "< 4.5 mm/m"
+                    },
+                    {
+                      "key": "Capillary water absorption",
+                      "value": "< 0.04 kg/(m²·min0.5)"
+                    },
+                    {
+                      "key": "Reaction to fire",
+                      "value": "Non-combustible"
+                    }
+                  ]
+                },
+                {
+                  "title": "Format",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "25 kg bag"
+                    },
+                    {
+                      "key": "Two-component UV-resistant resin",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: 25 kg bag",
+                "UV resin: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT DUNE ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Dune",
+      "subtitle": "REVESTIMIENTO DE ARENA NATURAL PARA PISCINAS TIPO PLAYA",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Espesor en una sola capa"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Adherencia"
+        },
+        {
+          "value": "> 20 días",
+          "label": "Antes de llenar la piscina"
+        },
+        {
+          "value": "25 kg",
+          "label": "Saco de árido"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revestimiento de arena de alta resistencia a la intemperie para piscinas tipo playa. Se adhiere a un soporte de hormigón gunitado armado e impermeabilizado y da el aspecto visual de la arena de playa, con un acabado altamente antideslizante en seco y en mojado."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Conglomerado de resinas orgánicas y árido de cuarzo.",
+                "Colores: blanquecino y arena.",
+                "No amarillea y no requiere mantenimiento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Revestimiento de piscinas.",
+                "Permeable al agua; evita el agua encharcada.",
+                "Fijador superficial y aglomerante en masa para unir áridos triturados."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SOPORTES",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hormigón, en obra nueva o antigua, con paredes y suelos de buena consistencia y perfectamente impermeabilizados."
+            }
+          ]
+        },
+        {
+          "title": "RESISTENCIAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Química: insensible a atmósferas marinas, lluvias ácidas (vapores sulfurosos) y polución carbónica; soporta soluciones alcalinas y ácidas diluidas.",
+                "Resistente a la radiación UV; conserva sus propiedades de -30 a +60 °C.",
+                "Ininflamable en estado pastoso; seco, es impermeable al lavado y a la lluvia.",
+                "Obtura porosidades y microfisuras capilares; inodoro una vez polimerizado."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sobre el soporte perfectamente impermeabilizado, aplicar una mano de impermeabilizante monocomponente (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "A continuación, aplicar Zement Dune (saco de 25 kg, árido blanco cuarzo o arena) mezclado con resina UV bicomponente (A 10 kg + B 5 kg) en un 7-10 % sobre el peso del árido."
+            },
+            {
+              "type": "p",
+              "text": "Con la superficie seca, lijar con grano 240. Si se desea, dar con rodillo una mano generosa de resina UV sobre toda la superficie."
+            },
+            {
+              "type": "p",
+              "text": "No llenar la piscina hasta pasados 20 días como mínimo desde la aplicación."
+            }
+          ]
+        },
+        {
+          "title": "RECOMENDACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No incorporar agua ni aditivos. Tratar las zonas singulares (fisuras) con la malla adecuada.",
+                "Recipientes de plástico; llanas de plástico y acero inoxidable. Limpiar las herramientas con un disolvente de limpieza específico.",
+                "No aplicar con riesgo de lluvia, heladas, cambios importantes de temperatura, insolación directa o viento fuerte; tener lonas a mano.",
+                "Guantes y gafas protectoras. Mantener fuera del alcance de los niños; eliminar los envases vacíos conforme a la normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Revestimiento",
+                  "rows": [
+                    {
+                      "key": "Composición",
+                      "value": "Resinas orgánicas y árido de cuarzo"
+                    },
+                    {
+                      "key": "Colores",
+                      "value": "Blanquecino y arena"
+                    },
+                    {
+                      "key": "Densidad de la pasta",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "Aprox. 7,5 kg/m² de Zement Dune; resina 7-10 % sobre el peso del árido"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Espesor",
+                      "value": "3-5 mm en una capa"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "5 a 30 °C (sobre el pavimento)"
+                    },
+                    {
+                      "key": "Secado al tacto",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Endurecimiento total",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Puesta en servicio",
+                      "value": "> 20 días"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestaciones",
+                  "rows": [
+                    {
+                      "key": "Adherencia",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Retracción de secado",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Absorción capilar de agua",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Comportamiento al fuego",
+                      "value": "No combustible"
+                    }
+                  ]
+                },
+                {
+                  "title": "Formato",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Saco de 25 kg"
+                    },
+                    {
+                      "key": "Resina UV bicomponente",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: saco de 25 kg",
+                "Resina UV: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT DUNE FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Dune",
+      "subtitle": "LUONNONHIEKKAPINNOITE RANTATYYLISILLE UIMA-ALTAILLE",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Paksuus yhdellä kerroksella"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Tartunta"
+        },
+        {
+          "value": "> 20 vrk",
+          "label": "Ennen altaan täyttöä"
+        },
+        {
+          "value": "25 kg",
+          "label": "Kiviainessäkki"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Erittäin sääkestävä hiekkapinnoite rantatyylisille uima-altaille. Kiinnittyy raudoitettuun, vedeneristettyyn ruiskubetonialustaan ja antaa rantahiekan ulkonäön sekä erittäin hyvän liukuesteisyyden kuivana ja märkänä."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Orgaanisten hartsien ja kvartsikiviaineksen sideaine.",
+                "Värit: luonnonvalkoinen ja hiekka.",
+                "Ei kellastu eikä vaadi huoltoa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Uima-altaiden pinnoitus.",
+                "Vettä läpäisevä; estää veden lammikoitumisen.",
+                "Pintasiloite ja massasideaine murskattujen kiviainesten sitomiseen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betoni, uusi tai vanha, jonka seinät ja lattiat ovat lujia ja täysin vedeneristettyjä."
+            }
+          ]
+        },
+        {
+          "title": "KESTÄVYYS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kemiallinen: ei reagoi merellisiin olosuhteisiin, happosateeseen (rikkihöyryt) eikä hiilipäästöihin; kestää laimeita emäksisiä ja happoliuoksia.",
+                "UV-säteilyn kestävä; säilyttää ominaisuutensa lämpötilassa -30...+60 °C.",
+                "Palamaton tahnamaisessa tilassa; kuivana pesun ja sateen kestävä.",
+                "Tukkii huokoset ja kapillaarihalkeamat; hajuton polymeroiduttuaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Levitä täysin vedeneristetylle alustalle yksi kerros yksikomponenttista vedeneristettä (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Levitä sitten Zement Dune (25 kg:n säkki, valkoinen kvartsikiviaines tai hiekka) sekoitettuna kaksikomponenttiseen UV-hartsiin (A 10 kg + B 5 kg) 7-10 % kiviaineksen painosta."
+            },
+            {
+              "type": "p",
+              "text": "Kun pinta on kuiva, hio 240-karkeuden paperilla. Halutessasi levitä telalla runsas kerros UV-hartsia koko pinnalle."
+            },
+            {
+              "type": "p",
+              "text": "Älä täytä allasta ennen kuin levityksestä on kulunut vähintään 20 vrk."
+            }
+          ]
+        },
+        {
+          "title": "SUOSITUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Älä lisää vettä äläkä lisäaineita. Käsittele erityiskohdat (halkeamat) sopivalla verkolla.",
+                "Muoviastiat; muovi- ja ruostumattomasta teräksestä valmistetut lastat. Puhdista työvälineet erityisellä puhdistusliuottimella.",
+                "Älä levitä sateen, pakkasen, suurten lämpötilanvaihteluiden, suoran auringonpaisteen tai kovan tuulen uhatessa; pidä suojapeitteet käsillä.",
+                "Käytä suojakäsineitä ja suojalaseja. Säilytä lasten ulottumattomissa; hävitä tyhjät pakkaukset voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Pinnoite",
+                  "rows": [
+                    {
+                      "key": "Koostumus",
+                      "value": "Orgaaniset hartsit ja kvartsikiviaines"
+                    },
+                    {
+                      "key": "Värit",
+                      "value": "Luonnonvalkoinen ja hiekka"
+                    },
+                    {
+                      "key": "Massan tiheys",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Riittoisuus",
+                      "value": "n. 7,5 kg/m² Zement Dunea; hartsi 7-10 % kiviaineksen painosta"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Paksuus",
+                      "value": "3-5 mm yhdellä kerroksella"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "5-30 °C (lattiapinnalla)"
+                    },
+                    {
+                      "key": "Pintakuivuus",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Täysi kovettuminen",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Käyttöönotto",
+                      "value": "> 20 vrk"
+                    }
+                  ]
+                },
+                {
+                  "title": "Suorituskyky",
+                  "rows": [
+                    {
+                      "key": "Tartunta",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Kuivumiskutistuma",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Kapillaarinen vedenimeytyminen",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Palokäyttäytyminen",
+                      "value": "Palamaton"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pakkaus",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "25 kg:n säkki"
+                    },
+                    {
+                      "key": "Kaksikomponenttinen UV-hartsi",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: 25 kg:n säkki",
+                "UV-hartsi: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT DUNE FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Dune",
+      "subtitle": "REVÊTEMENT DE SABLE NATUREL POUR PISCINES DE TYPE PLAGE",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Épaisseur en une seule couche"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Adhérence"
+        },
+        {
+          "value": "> 20 jours",
+          "label": "Avant de remplir la piscine"
+        },
+        {
+          "value": "25 kg",
+          "label": "Sac de granulat"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revêtement de sable à haute résistance aux intempéries pour piscines de type plage. Il adhère à un support en béton projeté armé et imperméabilisé et donne l'aspect visuel du sable de plage, avec une finition très antidérapante à sec comme en milieu mouillé."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liant de résines organiques et granulat de quartz.",
+                "Coloris : blanc cassé et sable.",
+                "Ne jaunit pas et ne demande aucun entretien."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Revêtement de piscines.",
+                "Perméable à l'eau ; évite les flaques d'eau stagnante.",
+                "Fixateur de surface et liant dans la masse pour agglomérer des granulats concassés."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Béton, neuf ou ancien, avec des parois et des sols de bonne cohésion et parfaitement imperméabilisés."
+            }
+          ]
+        },
+        {
+          "title": "RÉSISTANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chimique : insensible aux atmosphères marines, aux pluies acides (vapeurs sulfureuses) et à la pollution carbonée ; supporte les solutions alcalines et acides diluées.",
+                "Résistant au rayonnement UV ; conserve ses propriétés de -30 à +60 °C.",
+                "Ininflammable à l'état pâteux ; sec, il résiste au lessivage et à la pluie.",
+                "Obture les porosités et les microfissures capillaires ; inodore une fois polymérisé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sur le support parfaitement imperméabilisé, appliquer une couche d'imperméabilisant monocomposant (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer ensuite Zement Dune (sac de 25 kg, granulat de quartz blanc ou sable) mélangé à de la résine UV bicomposant (A 10 kg + B 5 kg) à raison de 7-10 % du poids du granulat."
+            },
+            {
+              "type": "p",
+              "text": "Surface sèche, poncer au grain 240. Si souhaité, passer au rouleau une couche généreuse de résine UV sur toute la surface."
+            },
+            {
+              "type": "p",
+              "text": "Ne pas remplir la piscine avant 20 jours minimum après l'application."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMANDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas ajouter d'eau ni d'adjuvants. Traiter les points singuliers (fissures) avec la trame adaptée.",
+                "Récipients en plastique ; platoirs en plastique et en acier inoxydable. Nettoyer les outils avec un solvant de nettoyage spécifique.",
+                "Ne pas appliquer en cas de risque de pluie, de gel, de forts écarts de température, d'ensoleillement direct ou de vent fort ; prévoir des bâches.",
+                "Gants et lunettes de protection. Tenir hors de portée des enfants ; éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Revêtement",
+                  "rows": [
+                    {
+                      "key": "Composition",
+                      "value": "Résines organiques et granulat de quartz"
+                    },
+                    {
+                      "key": "Coloris",
+                      "value": "Blanc cassé et sable"
+                    },
+                    {
+                      "key": "Densité de la pâte",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "Env. 7,5 kg/m² de Zement Dune ; résine 7-10 % du poids du granulat"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Épaisseur",
+                      "value": "3-5 mm en une couche"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "5 à 30 °C (sur le sol)"
+                    },
+                    {
+                      "key": "Sec au toucher",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Durcissement complet",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Mise en service",
+                      "value": "> 20 jours"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performances",
+                  "rows": [
+                    {
+                      "key": "Adhérence",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Retrait de séchage",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Absorption capillaire d'eau",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Réaction au feu",
+                      "value": "Non combustible"
+                    }
+                  ]
+                },
+                {
+                  "title": "Conditionnement",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Sac de 25 kg"
+                    },
+                    {
+                      "key": "Résine UV bicomposant",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune : sac de 25 kg",
+                "Résine UV : 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT DUNE ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Dune",
+      "subtitle": "RIVESTIMENTO DI SABBIA NATURALE PER PISCINE IN STILE SPIAGGIA",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Spessore in una sola mano"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Aderenza"
+        },
+        {
+          "value": "> 20 giorni",
+          "label": "Prima di riempire la piscina"
+        },
+        {
+          "value": "25 kg",
+          "label": "Sacco di aggregato"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Rivestimento di sabbia ad alta resistenza agli agenti atmosferici per piscine in stile spiaggia. Aderisce a un supporto in calcestruzzo proiettato armato e impermeabilizzato e restituisce l'aspetto visivo della sabbia di spiaggia, con una finitura altamente antiscivolo sia all'asciutto sia al bagnato."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Legante di resine organiche e aggregato di quarzo.",
+                "Colori: biancastro e sabbia.",
+                "Non ingiallisce e non richiede manutenzione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rivestimento di piscine.",
+                "Permeabile all'acqua; evita i ristagni.",
+                "Fissativo superficiale e legante in massa per unire aggregati frantumati."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Calcestruzzo, di nuova o vecchia realizzazione, con pareti e fondi di buona consistenza e perfettamente impermeabilizzati."
+            }
+          ]
+        },
+        {
+          "title": "RESISTENZE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chimica: insensibile ad atmosfere marine, piogge acide (vapori solforosi) e inquinamento da carbonio; sopporta soluzioni alcaline e acide diluite.",
+                "Resistente ai raggi UV; mantiene le proprie proprietà da -30 a +60 °C.",
+                "Non infiammabile allo stato pastoso; asciutto, è impermeabile al dilavamento e alla pioggia.",
+                "Chiude porosità e microfessure capillari; inodore dopo la polimerizzazione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sul supporto perfettamente impermeabilizzato, applicare una mano di impermeabilizzante monocomponente (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Applicare quindi Zement Dune (sacco da 25 kg, aggregato bianco di quarzo o sabbia) miscelato con resina UV bicomponente (A 10 kg + B 5 kg) al 7-10 % sul peso dell'aggregato."
+            },
+            {
+              "type": "p",
+              "text": "A superficie asciutta, carteggiare con carta a grana 240. Se desiderato, stendere a rullo una mano abbondante di resina UV su tutta la superficie."
+            },
+            {
+              "type": "p",
+              "text": "Non riempire la piscina prima di almeno 20 giorni dall'applicazione."
+            }
+          ]
+        },
+        {
+          "title": "RACCOMANDAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non aggiungere acqua né additivi. Trattare i punti singolari (fessure) con la rete adatta.",
+                "Contenitori di plastica; spatole di plastica e acciaio inox. Pulire gli attrezzi con uno specifico solvente detergente.",
+                "Non applicare con rischio di pioggia, gelo, forti sbalzi di temperatura, sole diretto o vento forte; tenere a portata di mano dei teli.",
+                "Guanti e occhiali di protezione. Tenere fuori dalla portata dei bambini; smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Rivestimento",
+                  "rows": [
+                    {
+                      "key": "Composizione",
+                      "value": "Resine organiche e aggregato di quarzo"
+                    },
+                    {
+                      "key": "Colori",
+                      "value": "Biancastro e sabbia"
+                    },
+                    {
+                      "key": "Densità dell'impasto",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "Ca. 7,5 kg/m² di Zement Dune; resina 7-10 % sul peso dell'aggregato"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Spessore",
+                      "value": "3-5 mm in una mano"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 5 a 30 °C (sulla pavimentazione)"
+                    },
+                    {
+                      "key": "Asciutto al tatto",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Indurimento completo",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Messa in servizio",
+                      "value": "> 20 giorni"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestazioni",
+                  "rows": [
+                    {
+                      "key": "Aderenza",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Ritiro da essiccamento",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Assorbimento capillare d'acqua",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Reazione al fuoco",
+                      "value": "Non combustibile"
+                    }
+                  ]
+                },
+                {
+                  "title": "Formato",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Sacco da 25 kg"
+                    },
+                    {
+                      "key": "Resina UV bicomponente",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: sacco da 25 kg",
+                "Resina UV: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT DUNE NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Dune",
+      "subtitle": "NATURLIG SANDBELEGG FOR BASSENGER I STRANDSTIL",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Tykkelse i ett lag"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Heft"
+        },
+        {
+          "value": "> 20 døgn",
+          "label": "Før bassenget fylles"
+        },
+        {
+          "value": "25 kg",
+          "label": "Sekk med tilslag"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Sandbelegg med høy værbestandighet for bassenger i strandstil. Hefter til et armert, tettet underlag av sprøytebetong og gir det visuelle uttrykket av strandsand, med en svært sklisikker finish både tørr og våt."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bindemiddel av organiske harpikser og kvartstilslag.",
+                "Farger: off-white og sand.",
+                "Gulner ikke og krever ikke vedlikehold."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Belegg for bassenger.",
+                "Vanngjennomtrengelig; hindrer stillestående vann.",
+                "Overflatefikserer og bindemiddel i massen for å binde knust tilslag."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNDERLAG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betong, nytt eller gammelt, med faste vegger og gulv og perfekt tetting."
+            }
+          ]
+        },
+        {
+          "title": "BESTANDIGHET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kjemisk: upåvirket av marint miljø, sur nedbør (svoveldamp) og karbonforurensning; tåler alkaliske og fortynnede sure løsninger.",
+                "UV-bestandig; beholder egenskapene sine fra -30 til +60 °C.",
+                "Ikke brennbar i pastaform; tørr er den upåvirket av vask og regn.",
+                "Tetter porer og kapillære mikrosprekker; luktfri etter polymerisering."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "På det perfekt tettede underlaget påføres ett strøk énkomponent tetningsmiddel (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Påfør deretter Zement Dune (sekk på 25 kg, tilslag av hvit kvarts eller sand) blandet med tokomponent UV-harpiks (A 10 kg + B 5 kg) i 7-10 % av tilslagets vekt."
+            },
+            {
+              "type": "p",
+              "text": "Når overflaten er tørr, slipes den med 240-papir. Om ønskelig rulles et rikelig strøk UV-harpiks over hele overflaten."
+            },
+            {
+              "type": "p",
+              "text": "Bassenget må ikke fylles før det har gått minst 20 døgn siden påføringen."
+            }
+          ]
+        },
+        {
+          "title": "ANBEFALINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ikke tilsett vann eller tilsetningsstoffer. Behandle utsatte partier (sprekker) med egnet nett.",
+                "Bruk plastbeholdere og glattebrett av plast og rustfritt stål. Rengjør verktøyet med et egnet rengjøringsløsemiddel.",
+                "Må ikke påføres ved fare for regn, frost, store temperatursvingninger, direkte sol eller sterk vind; ha presenninger tilgjengelig.",
+                "Bruk hansker og vernebriller. Oppbevares utilgjengelig for barn; tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Belegg",
+                  "rows": [
+                    {
+                      "key": "Sammensetning",
+                      "value": "Organiske harpikser og kvartstilslag"
+                    },
+                    {
+                      "key": "Farger",
+                      "value": "Off-white og sand"
+                    },
+                    {
+                      "key": "Pastaens tetthet",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Forbruk",
+                      "value": "Ca. 7,5 kg/m² Zement Dune; harpiks 7-10 % av tilslagets vekt"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Tykkelse",
+                      "value": "3-5 mm i ett lag"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "5 til 30 °C (på gulvet)"
+                    },
+                    {
+                      "key": "Berøringstørr",
+                      "value": "6-7 t"
+                    },
+                    {
+                      "key": "Full herding",
+                      "value": "16-17 t"
+                    },
+                    {
+                      "key": "Klar til bruk",
+                      "value": "> 20 døgn"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ytelse",
+                  "rows": [
+                    {
+                      "key": "Heft",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Tørkesvinn",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Kapillær vannabsorpsjon",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Brannegenskaper",
+                      "value": "Ikke brennbar"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leveringsform",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Sekk på 25 kg"
+                    },
+                    {
+                      "key": "Tokomponent UV-harpiks",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: sekk på 25 kg",
+                "UV-harpiks: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT DUNE POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Dune",
+      "subtitle": "NATURALNA OKŁADZINA PIASKOWA DO BASENÓW TYPU PLAŻOWEGO",
+      "stats": [
+        {
+          "value": "3-5 mm",
+          "label": "Grubość w jednej warstwie"
+        },
+        {
+          "value": "> 2,0 MPa",
+          "label": "Przyczepność"
+        },
+        {
+          "value": "> 20 dni",
+          "label": "Przed napełnieniem basenu"
+        },
+        {
+          "value": "25 kg",
+          "label": "Worek kruszywa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Okładzina piaskowa o wysokiej odporności na warunki atmosferyczne do basenów typu plażowego. Przylega do zbrojonego, zaizolowanego podłoża z betonu natryskowego (torkretu) i nadaje wygląd plażowego piasku, z wysoce antypoślizgowym wykończeniem na sucho i na mokro."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Spoiwo z żywic organicznych i kruszywo kwarcowe.",
+                "Kolory: złamana biel i piaskowy.",
+                "Nie żółknie i nie wymaga konserwacji."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Okładzina basenów.",
+                "Przepuszczalna dla wody; zapobiega zaleganiu wody.",
+                "Utrwalacz powierzchniowy i spoiwo masowe do łączenia kruszyw łamanych."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, w nowych lub starych obiektach, o ścianach i podłogach o dobrej wytrzymałości i doskonale zaizolowanych."
+            }
+          ]
+        },
+        {
+          "title": "ODPORNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Chemiczna: niewrażliwa na atmosferę morską, kwaśne deszcze (opary siarki) i zanieczyszczenie węglowe; wytrzymuje rozcieńczone roztwory zasadowe i kwaśne.",
+                "Odporna na promieniowanie UV; zachowuje właściwości od -30 do +60 °C.",
+                "Niepalna w stanie plastycznym; po wyschnięciu jest odporna na zmywanie i deszcz.",
+                "Zamyka pory i kapilarne mikropęknięcia; bezwonna po spolimeryzowaniu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Na doskonale zaizolowane podłoże nałożyć jedną warstwę jednoskładnikowej hydroizolacji (20 kg)."
+            },
+            {
+              "type": "p",
+              "text": "Następnie nałożyć Zement Dune (worek 25 kg, kruszywo kwarcowe białe lub piaskowe) wymieszany z dwuskładnikową żywicą UV (A 10 kg + B 5 kg) w ilości 7-10 % masy kruszywa."
+            },
+            {
+              "type": "p",
+              "text": "Gdy powierzchnia jest sucha, przeszlifować papierem o gradacji 240. W razie potrzeby nałożyć wałkiem obficie jedną warstwę żywicy UV na całą powierzchnię."
+            },
+            {
+              "type": "p",
+              "text": "Nie napełniać basenu wcześniej niż po upływie co najmniej 20 dni od aplikacji."
+            }
+          ]
+        },
+        {
+          "title": "ZALECENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie dodawać wody ani dodatków. Miejsca szczególne (rysy) zabezpieczyć odpowiednią siatką.",
+                "Plastikowe pojemniki; pace z tworzywa i ze stali nierdzewnej. Narzędzia czyścić specjalnym rozpuszczalnikiem czyszczącym.",
+                "Nie aplikować przy ryzyku deszczu, mrozu, dużych zmian temperatury, bezpośredniego nasłonecznienia lub silnego wiatru; mieć pod ręką plandeki.",
+                "Rękawice i okulary ochronne. Przechowywać poza zasięgiem dzieci; puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Okładzina",
+                  "rows": [
+                    {
+                      "key": "Skład",
+                      "value": "Żywice organiczne i kruszywo kwarcowe"
+                    },
+                    {
+                      "key": "Kolory",
+                      "value": "Złamana biel i piaskowy"
+                    },
+                    {
+                      "key": "Gęstość masy",
+                      "value": "1,7 kg/l"
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "Ok. 7,5 kg/m² Zement Dune; żywica 7-10 % masy kruszywa"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Grubość",
+                      "value": "3-5 mm w jednej warstwie"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "5 do 30 °C (na posadzce)"
+                    },
+                    {
+                      "key": "Sucha w dotyku",
+                      "value": "6-7 h"
+                    },
+                    {
+                      "key": "Pełne utwardzenie",
+                      "value": "16-17 h"
+                    },
+                    {
+                      "key": "Oddanie do użytku",
+                      "value": "> 20 dni"
+                    }
+                  ]
+                },
+                {
+                  "title": "Właściwości użytkowe",
+                  "rows": [
+                    {
+                      "key": "Przyczepność",
+                      "value": "> 2,0 N/mm²"
+                    },
+                    {
+                      "key": "Skurcz przy wysychaniu",
+                      "value": "< 4,5 mm/m"
+                    },
+                    {
+                      "key": "Kapilarna nasiąkliwość",
+                      "value": "< 0,04 kg/(m²·min0,5)"
+                    },
+                    {
+                      "key": "Reakcja na ogień",
+                      "value": "Niepalna"
+                    }
+                  ]
+                },
+                {
+                  "title": "Opakowanie",
+                  "rows": [
+                    {
+                      "key": "Zement Dune",
+                      "value": "Worek 25 kg"
+                    },
+                    {
+                      "key": "Dwuskładnikowa żywica UV",
+                      "value": "15 kg (A 10 kg + B 5 kg)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Zement Dune: worek 25 kg",
+                "Żywica UV: 15 kg (A 10 + B 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "zement-dune.jpg"
+  ]
+}

@@ -1,0 +1,2 @@
+# Solo para extract_sheets.py (herramienta local, no se despliega).
+pymupdf==1.26.5

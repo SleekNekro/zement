@@ -1,0 +1,2111 @@
+{
+  "key": "protect-sanitary-2k",
+  "source": "PROTECT SANITARY 2K",
+  "languages": {
+    "de": {
+      "file": "PROTECT SANITARY 2K ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "LÖSEMITTELFREIE ZWEIKOMPONENTEN-EPOXIDBESCHICHTUNG",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Mischungsverhältnis nach Gewicht (A:B)"
+        },
+        {
+          "value": "15-20 Min.",
+          "label": "Verarbeitungszeit nach dem Mischen"
+        },
+        {
+          "value": "100 %",
+          "label": "Volumenfestkörper (ca.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Empfohlene Schichtdicke je Anstrich"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Lösemittelfreie, aminhärtende Zweikomponenten-Epoxidbeschichtung für den durchgehenden Abschluss von zuvor grundiertem und versiegeltem Beton. Ergibt einen glatten, ansprechenden, reinigungsfreundlichen Boden mit hoher physikalisch-chemischer Beständigkeit."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Für Lebensmittelindustrie, Lager und Industriehallen.",
+                "Geeignet für Tanks und Silos; fugenlos.",
+                "Hohe chemische und mechanische Beständigkeit sowie Abriebfestigkeit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZUSAMMENSETZUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponente A: pigmentiertes Epoxidharz. Komponente B: Aminhärter. Mischungsverhältnis 4:1 nach Gewicht (20 + 5 Teile)."
+            },
+            {
+              "type": "p",
+              "text": "Volumenfestkörper: ca. 100 %. Farben: Grau, Rot und Grün (andere auf Anfrage)."
+            }
+          ]
+        },
+        {
+          "title": "LEISTUNGSMERKMALE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Staubbindende Beschichtung für Betonböden; leicht zu reinigen.",
+                "Gute Verarbeitungseigenschaften und keine Induktionszeit.",
+                "Hervorragende Wasserbeständigkeit während der Aushärtung; andernfalls können Oberflächenfehler und Haftungsprobleme auftreten."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRUNDVORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Der Beton muss bis zur vollständigen Porensättigung grundiert oder versiegelt sein, ohne die maximale Überarbeitungszeit der vorherigen Schicht überschritten zu haben."
+            },
+            {
+              "type": "p",
+              "text": "Bei ausgeprägten Unebenheiten der Bodenplatte diese zuvor mit einem Mörtel mit derselben Grundierung ausbessern."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponente B in A gießen und mit einem langsam laufenden Rührwerk zu einer homogenen Mischung rühren. Nur 15-20 Minuten Verarbeitungszeit."
+            },
+            {
+              "type": "p",
+              "text": "Airless, Pinsel oder Rolle: bis zu einer geschlossenen Schicht. Mit einer mittelflorigen Rolle und 5-8 % Verdünnung (selbstverlaufendes Produkt). Die konventionelle Luftspritzpistole ist nicht geeignet."
+            },
+            {
+              "type": "p",
+              "text": "600-800 g/m² auf beide Anstriche verteilt auftragen (400-600 µm Film). Wird die maximale Zeit zwischen den Schichten überschritten, die Oberfläche anschleifen, um die Haftung sicherzustellen."
+            }
+          ]
+        },
+        {
+          "title": "ANSTRICHSYSTEM",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Nach der Versiegelung zwei Anstriche kreuzweise. Keine zusätzliche Schicht nötig; als Außenbeschichtung nicht empfohlen."
+            },
+            {
+              "type": "p",
+              "text": "Rutschhemmend: Quarzsand 0,2-0,6 mm bis zur Sättigung auf die frisch aufgetragene erste Schicht einstreuen; Überschuss vor der zweiten Schicht abkehren."
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nicht bei Kälte oder Regen verarbeiten. Hohe relative Luftfeuchtigkeit während Trocknung und Aushärtung vermeiden: Es können Aminschleier (Mattierung der Oberfläche) entstehen. In diesem Fall mit angesäuertem Süßwasser waschen und vollflächig überstreichen.",
+                "Produkt für professionelle Verarbeiter. Bei normaler Handhabung weder giftig noch entzündbar. Etikett und Sicherheitsdatenblatt beachten.",
+                "Geräte sofort mit einem geeigneten Lösemittel reinigen, bevor das Produkt aushärtet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farbe und Aussehen",
+                      "value": "Grau, Rot und Grün (andere auf Anfrage); glänzend"
+                    },
+                    {
+                      "key": "Spezifisches Gewicht",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Verarbeitungszeit",
+                      "value": "15-20 Min. nach dem Mischen"
+                    },
+                    {
+                      "key": "Praktische Ergiebigkeit",
+                      "value": "3,8 m²/kg bei 200 µm trocken"
+                    },
+                    {
+                      "key": "Airless-Druck (Düse)",
+                      "value": "15-19 thou; ca. 140 bar"
+                    },
+                    {
+                      "key": "Temperatur und Feuchtigkeit",
+                      "value": "10 bis 35 °C; relative Luftfeuchtigkeit < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Trocknung und Aushärtung",
+                  "rows": [
+                    {
+                      "key": "Grifffest / klebefrei (25 °C)",
+                      "value": "< 2 Std. / < 6 Std."
+                    },
+                    {
+                      "key": "Zeit zwischen den Schichten",
+                      "value": "12-24 Std. (25 °C); 24 Std. bis 2 Tage (20 °C)"
+                    },
+                    {
+                      "key": "Begehbar (20 °C)",
+                      "value": "2 Tage"
+                    },
+                    {
+                      "key": "Vollständige Aushärtung",
+                      "value": "> 7 Tage (25 °C); > 12 Tage (15 °C)"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Komponente A 4 kg + Komponente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponente A: 4 kg",
+                "Komponente B (Härter): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mindestens 24 Monate (Komponente A) und 12 Monate (Komponente B) bei 20 °C, in ungeöffneter Originalverpackung, entfernt von Wärme- und Zündquellen. Geöffnete Gebinde gut verschließen und aufrecht lagern."
+            }
+          ]
+        },
+        {
+          "title": "CHEMIKALIENBESTÄNDIGKEIT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammoniak, Natronlauge (3 %)",
+                      "value": "Nach 1 Jahr unverändert."
+                    },
+                    {
+                      "key": "Trink- und Meerwasser",
+                      "value": "Nach 6 Jahren unverändert."
+                    },
+                    {
+                      "key": "Wein, Bier, Apfelwein",
+                      "value": "Nach 6 Jahren unverändert."
+                    },
+                    {
+                      "key": "Olivenöl, Zuckerlösung",
+                      "value": "Nach 6 Jahren unverändert."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ergebnisse von Tauchversuchen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "PROTECT SANITARY 2K INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "TWO-COMPONENT SOLVENT-FREE EPOXY COATING",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Mixing ratio by weight (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Working time after mixing"
+        },
+        {
+          "value": "100 %",
+          "label": "Volume solids (approx.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Recommended thickness per coat"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Two-component, solvent-free, amine-cured epoxy coating for the seamless finishing of previously primed and sealed concrete. It leaves a smooth, attractive, washable floor with high physicochemical performance."
+            },
+            {
+              "type": "list",
+              "items": [
+                "For the food industry, warehouses and industrial buildings.",
+                "Suitable for tanks and silos; jointless.",
+                "High chemical, mechanical and abrasion resistance."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Component A: pigmented epoxy resin. Component B: amine hardener. Mixing ratio 4:1 by weight (20 + 5 parts)."
+            },
+            {
+              "type": "p",
+              "text": "Volume solids: approx. 100 %. Colors: grey, red and green (others on request)."
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dust-proof coating for concrete floors; easy to clean.",
+                "Good application properties and no induction time.",
+                "Excellent water resistance during curing; otherwise surface defects and adhesion problems may appear."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATE PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The concrete must be primed or sealed until the pores are fully saturated, without exceeding the maximum recoating time of the previous coat."
+            },
+            {
+              "type": "p",
+              "text": "If the slab has pronounced irregularities, repair them beforehand with a mortar using the same primer."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour component B into A and mix with a slow-speed mixer until homogeneous. Only 15-20 minutes are available for application."
+            },
+            {
+              "type": "p",
+              "text": "Airless, brush or roller: until a continuous coat is formed. With a medium-pile roller and 5-8 % thinning (self-levelling product). Conventional air spray is not suitable."
+            },
+            {
+              "type": "p",
+              "text": "Apply 600-800 g/m² over the two coats (400-600 µm film). If the maximum time between coats is exceeded, sand the surface to ensure adhesion."
+            }
+          ]
+        },
+        {
+          "title": "COATING SYSTEM",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "After sealing, two crosswise coats. No additional coat needed; not recommended as a finish outdoors."
+            },
+            {
+              "type": "p",
+              "text": "Anti-slip: broadcast 0.2-0.6 mm silica sand to saturation over the freshly applied first coat; sweep off the excess before the second coat."
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Do not apply in cold or rainy weather. Avoid high relative humidity during drying and curing: amine blush (surface dulling) may appear. If so, wash with acidulated fresh water and apply an overall coat.",
+                "Product for professional operators. Non-toxic and non-flammable under normal handling conditions. Follow the label and the Safety Data Sheet.",
+                "Clean equipment immediately with a compatible solvent, before the product polymerises."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product",
+                  "rows": [
+                    {
+                      "key": "Color and appearance",
+                      "value": "Grey, red and green (others on request); glossy"
+                    },
+                    {
+                      "key": "Specific weight",
+                      "value": "1.30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Working time",
+                      "value": "15-20 min after mixing"
+                    },
+                    {
+                      "key": "Practical coverage",
+                      "value": "3.8 m²/kg for 200 µm dry"
+                    },
+                    {
+                      "key": "Airless pressure (tip)",
+                      "value": "15-19 thou; approx. 140 bar"
+                    },
+                    {
+                      "key": "Temperature and humidity",
+                      "value": "10 to 35 °C; relative humidity < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Drying and curing",
+                  "rows": [
+                    {
+                      "key": "Touch-dry / tack-free (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Time between coats",
+                      "value": "12-24 h (25 °C); 24 h to 2 days (20 °C)"
+                    },
+                    {
+                      "key": "Walkable (20 °C)",
+                      "value": "2 days"
+                    },
+                    {
+                      "key": "Full cure",
+                      "value": "> 7 days (25 °C); > 12 days (15 °C)"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "Component A 4 kg + component B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Component A: 4 kg",
+                "Component B (hardener): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimum 24 months (component A) and 12 months (component B) at 20 °C, in the original closed packaging, away from heat and electrical sources. Close opened containers tightly and keep them upright."
+            }
+          ]
+        },
+        {
+          "title": "CHEMICAL RESISTANCE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammonia, caustic soda (3 %)",
+                      "value": "Unchanged after 1 year."
+                    },
+                    {
+                      "key": "Drinking water and seawater",
+                      "value": "Unchanged after 6 years."
+                    },
+                    {
+                      "key": "Wine, beer, cider",
+                      "value": "Unchanged after 6 years."
+                    },
+                    {
+                      "key": "Olive oil, sugar solution",
+                      "value": "Unchanged after 6 years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Results of immersion tests."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "PROTECT SANITARY 2K ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "REVESTIMIENTO EPOXI BICOMPONENTE SIN DISOLVENTE",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Proporción de mezcla en peso (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Tiempo de aplicación tras la mezcla"
+        },
+        {
+          "value": "100 %",
+          "label": "Sólidos en volumen (aprox.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Espesor recomendado por capa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revestimiento epoxi de dos componentes, sin disolvente y curado con amina, para el acabado continuo de hormigón previamente imprimado y sellado. Deja un pavimento liso, estético y lavable, con elevadas prestaciones fisicoquímicas."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Para industria alimentaria, almacenes y naves industriales.",
+                "Apto para depósitos y silos; sin juntas.",
+                "Elevada resistencia química, mecánica y a la abrasión."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSICIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: resina epoxi pigmentada. Componente B: endurecedor de amina. Proporción de mezcla 4:1 en peso (20 + 5 partes)."
+            },
+            {
+              "type": "p",
+              "text": "Sólidos en volumen: 100 % aprox. Colores: gris, rojo y verde (otros, consultar)."
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Recubrimiento antipolvo para pavimentos de hormigón; fácilmente limpiable.",
+                "Buenas propiedades de aplicación y sin tiempo de inducción.",
+                "Excelente resistencia al agua durante el curado; de lo contrario, pueden aparecer defectos superficiales y de anclaje."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARACIÓN DEL SOPORTE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El hormigón debe estar imprimado o sellado hasta la saturación total de los poros, sin haber superado el tiempo máximo de repintado de la capa anterior."
+            },
+            {
+              "type": "p",
+              "text": "Si la solera tiene irregularidades pronunciadas, repararlas antes con un mortero con la misma imprimación."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Verter el componente B sobre el A y mezclar con batidor lento hasta obtener una mezcla homogénea. Solo se dispone de 15-20 minutos para aplicar."
+            },
+            {
+              "type": "p",
+              "text": "Airless, brocha o rodillo: hasta formar una capa continua. Con rodillo de pelo medio y dilución del 5-8 % (producto autonivelante). La pistola de aire convencional no es adecuada."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar 600-800 g/m² entre las dos capas (400-600 µm de película). Si se supera el tiempo máximo entre capas, lijar la superficie para asegurar la adherencia."
+            }
+          ]
+        },
+        {
+          "title": "SISTEMA DE PINTADO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tras el sellado, dos manos cruzadas. No necesita capa adicional; no se recomienda como acabado en exterior."
+            },
+            {
+              "type": "p",
+              "text": "Antideslizante: sembrar arena de sílice de 0,2-0,6 mm hasta saturación sobre la primera capa recién aplicada; barrer el exceso antes de la segunda capa."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No aplicar con frío ni lluvia. Evitar humedad relativa elevada durante el secado y curado: pueden aparecer velos amínicos (matizado superficial). En ese caso, lavar con agua dulce acidulada y dar una capa general.",
+                "Producto para operarios profesionales. No tóxico ni inflamable en condiciones normales de manipulación. Seguir la etiqueta y la Ficha de Datos de Seguridad.",
+                "Limpiar los equipos de inmediato con un disolvente compatible, antes de que el producto polimerice."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Producto",
+                  "rows": [
+                    {
+                      "key": "Color y aspecto",
+                      "value": "Gris, rojo y verde (otros, consultar); brillante"
+                    },
+                    {
+                      "key": "Peso específico",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Tiempo de aplicación",
+                      "value": "15-20 min tras la mezcla"
+                    },
+                    {
+                      "key": "Rendimiento práctico",
+                      "value": "3,8 m²/kg para 200 µm secas"
+                    },
+                    {
+                      "key": "Presión airless (boquilla)",
+                      "value": "15-19 milésimas; aprox. 140 bar"
+                    },
+                    {
+                      "key": "Temperatura y humedad",
+                      "value": "10 a 35 °C; humedad relativa < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Secado y curado",
+                  "rows": [
+                    {
+                      "key": "Secado al tacto / sin pegajosidad (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Tiempo entre capas",
+                      "value": "12-24 h (25 °C); 24 h a 2 días (20 °C)"
+                    },
+                    {
+                      "key": "Transitable (20 °C)",
+                      "value": "2 días"
+                    },
+                    {
+                      "key": "Curado completo",
+                      "value": "> 7 días (25 °C); > 12 días (15 °C)"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 4 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 4 kg",
+                "Componente B (endurecedor): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mínimo 24 meses (componente A) y 12 meses (componente B) a 20 °C, en su envase original cerrado, aislado de fuentes de calor y eléctricas. Cerrar bien los envases abiertos y mantenerlos en vertical."
+            }
+          ]
+        },
+        {
+          "title": "RESISTENCIA QUÍMICA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Amoniaco, sosa (3 %)",
+                      "value": "Inalterado tras 1 año."
+                    },
+                    {
+                      "key": "Agua potable y de mar",
+                      "value": "Inalterado tras 6 años."
+                    },
+                    {
+                      "key": "Vino, cerveza, sidra",
+                      "value": "Inalterado tras 6 años."
+                    },
+                    {
+                      "key": "Aceite de oliva, azúcar (disolución)",
+                      "value": "Inalterado tras 6 años."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Resultados de ensayos de inmersión."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "PROTECT SANITARY 2K FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "LIUOTTIMETON 2K-EPOKSIPINNOITE LATTIOILLE",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Sekoitussuhde painosta (A:B)"
+        },
+        {
+          "value": "15–20 min",
+          "label": "Käyttöaika sekoituksen jälkeen"
+        },
+        {
+          "value": "100 %",
+          "label": "Kuiva-aine tilavuudesta (n.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Suositeltu kalvonpaksuus kerrosta kohti"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Kaksikomponenttinen, liuottimeton ja amiinikovetteinen epoksipinnoite pohjustetun ja tiivistetyn betonin jatkuvaan viimeistelyyn. Tuloksena on sileä, esteettinen ja pestävä lattia, jolla on korkeat fysikaalis-kemialliset ominaisuudet."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Elintarviketeollisuuteen, varastoihin ja teollisuushalleihin.",
+                "Soveltuu säiliöille ja siiloille; saumaton.",
+                "Erinomainen kemiallinen, mekaaninen ja kulutuskestävyys."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KOOSTUMUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponentti A: pigmentoitu epoksihartsi. Komponentti B: amiinikovete. Sekoitussuhde 4:1 painosta (20 + 5 osaa)."
+            },
+            {
+              "type": "p",
+              "text": "Kuiva-aine tilavuudesta: n. 100 %. Värit: harmaa, punainen ja vihreä (muut tiedustelun mukaan)."
+            }
+          ]
+        },
+        {
+          "title": "SUORITUSKYKY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Pölyämätön pinnoite betonilattioille; helppo puhdistaa.",
+                "Hyvät levitysominaisuudet, eikä induktioaikaa.",
+                "Erinomainen vedenkestävyys kovettumisen aikana; muuten pintaan ja tartuntaan voi tulla virheitä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAN VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betoni on oltava pohjustettu tai tiivistetty huokosten täydelliseen kyllääntymiseen asti, ylittämättä edellisen kerroksen enimmäismaalausväliä."
+            },
+            {
+              "type": "p",
+              "text": "Jos laatassa on selviä epätasaisuuksia, korjaa ne ensin samalla pohjusteella tehdyllä laastilla."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kaada komponentti B komponentin A joukkoon ja sekoita hidaskierroksisella sekoittimella tasaiseksi. Levitykseen on vain 15–20 minuuttia."
+            },
+            {
+              "type": "p",
+              "text": "Airless, sivellin tai telä: jatkuvaksi kerrokseksi asti. Keskipitkäkarvaisella telalla 5–8 % ohennuksella (itsetasoittuva tuote). Tavallinen paineilmaruisku ei sovellu."
+            },
+            {
+              "type": "p",
+              "text": "Levitä kahden kerroksen välillä 600–800 g/m² (kalvo 400–600 µm). Jos kerrosten enimmäisväli ylittyy, hio pinta tartunnan varmistamiseksi."
+            }
+          ]
+        },
+        {
+          "title": "MAALAUSJÄRJESTELMÄ",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tiivistyksen jälkeen kaksi ristiin levitettyä kerrosta. Ei tarvitse lisäkerrosta; ei suositella ulkopinnoitteeksi."
+            },
+            {
+              "type": "p",
+              "text": "Liukastumisenesto: siroittele 0,2–0,6 mm kvartsihiekkaa kyllästymiseen asti tuoreen ensimmäisen kerroksen päälle; harjaa ylimäärä pois ennen toista kerrosta."
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ei saa levittää kylmässä eikä sateella. Vältä korkeaa suhteellista ilmankosteutta kuivumisen ja kovettumisen aikana: pinnalle voi muodostua amiinihärmettä (pinnan himmeneminen). Pese tällöin happamoidulla makealla vedellä ja levitä yksi kattava kerros.",
+                "Tuote ammattikäyttäjille. Ei myrkyllinen eikä syttyvä normaaleissa käsittelyolosuhteissa. Noudata pakkausmerkintöjä ja käyttöturvallisuustiedotetta.",
+                "Puhdista työvälineet heti yhteensopivalla liuottimella, ennen kuin tuote polymeroituu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuote",
+                  "rows": [
+                    {
+                      "key": "Väri ja ulkonäkö",
+                      "value": "Harmaa, punainen ja vihreä (muut tiedustelun mukaan); kiiltävä"
+                    },
+                    {
+                      "key": "Ominaispaino",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Käyttöaika",
+                      "value": "15–20 min sekoituksen jälkeen"
+                    },
+                    {
+                      "key": "Käytännön kulutus",
+                      "value": "3,8 m²/kg 200 µm kuivalle kalvolle"
+                    },
+                    {
+                      "key": "Airless-paine (suutin)",
+                      "value": "15–19 thou (tuuman tuhannesosaa); n. 140 bar"
+                    },
+                    {
+                      "key": "Lämpötila ja kosteus",
+                      "value": "10–35 °C; suhteellinen kosteus < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Kuivuminen ja kovettuminen",
+                  "rows": [
+                    {
+                      "key": "Pölykuiva / tarttumaton (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Kerrosten väliaika",
+                      "value": "12–24 h (25 °C); 24 h – 2 vrk (20 °C)"
+                    },
+                    {
+                      "key": "Kävelykelpoinen (20 °C)",
+                      "value": "2 vrk"
+                    },
+                    {
+                      "key": "Täysi kovettuminen",
+                      "value": "> 7 vrk (25 °C); > 12 vrk (15 °C)"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "Komponentti A 4 kg + komponentti B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponentti A: 4 kg",
+                "Komponentti B (kovete): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vähintään 24 kuukautta (komponentti A) ja 12 kuukautta (komponentti B) 20 °C:ssa, avaamattomassa alkuperäispakkauksessa, lämmön- ja sähkölähteistä erillään. Sulje avatut pakkaukset tiiviisti ja säilytä pystyasennossa."
+            }
+          ]
+        },
+        {
+          "title": "KEMIALLINEN KESTÄVYYS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammoniakki, lipeä (3 %)",
+                      "value": "Muuttumaton 1 vuoden jälkeen."
+                    },
+                    {
+                      "key": "Juoma- ja merivesi",
+                      "value": "Muuttumaton 6 vuoden jälkeen."
+                    },
+                    {
+                      "key": "Viini, olut, siideri",
+                      "value": "Muuttumaton 6 vuoden jälkeen."
+                    },
+                    {
+                      "key": "Oliiviöljy, sokeriliuos",
+                      "value": "Muuttumaton 6 vuoden jälkeen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Upotuskokeiden tulokset."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "PROTECT SANITARY 2K FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "REVÊTEMENT ÉPOXY BICOMPOSANT SANS SOLVANT",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Rapport de mélange en poids (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Durée d'application après mélange"
+        },
+        {
+          "value": "100 %",
+          "label": "Extrait sec en volume (env.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Épaisseur recommandée par couche"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revêtement époxy bicomposant, sans solvant et durci à l'amine, pour la finition continue du béton préalablement apprêté et scellé. Il donne un sol lisse, esthétique et lavable, aux hautes performances physico-chimiques."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pour l'industrie agroalimentaire, entrepôts et bâtiments industriels.",
+                "Adapté aux réservoirs et silos ; sans joints.",
+                "Haute résistance chimique, mécanique et à l'abrasion."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Composant A : résine époxy pigmentée. Composant B : durcisseur aminé. Rapport de mélange 4:1 en poids (20 + 5 parties)."
+            },
+            {
+              "type": "p",
+              "text": "Extrait sec en volume : 100 % env. Couleurs : gris, rouge et vert (autres, nous consulter)."
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Revêtement antipoussière pour sols en béton ; facile à nettoyer.",
+                "Bonnes propriétés d'application et sans temps d'induction.",
+                "Excellente résistance à l'eau pendant le durcissement ; sinon, des défauts de surface et d'adhérence peuvent apparaître."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉPARATION DU SUPPORT",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le béton doit être apprêté ou scellé jusqu'à saturation complète des pores, sans avoir dépassé le délai maximal de recouvrement de la couche précédente."
+            },
+            {
+              "type": "p",
+              "text": "Si la dalle présente de fortes irrégularités, les réparer au préalable avec un mortier incorporant le même primaire."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Verser le composant B sur le A et mélanger au malaxeur à basse vitesse jusqu'à obtention d'un mélange homogène. On ne dispose que de 15-20 minutes pour appliquer."
+            },
+            {
+              "type": "p",
+              "text": "Airless, pinceau ou rouleau : jusqu'à former une couche continue. Au rouleau à poils moyens, avec 5-8 % de dilution (produit autolissant). Le pistolet à air conventionnel ne convient pas."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer 600-800 g/m² au total pour les deux couches (400-600 µm de film). Si le délai maximal entre couches est dépassé, poncer la surface pour assurer l'adhérence."
+            }
+          ]
+        },
+        {
+          "title": "SYSTÈME DE PEINTURE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Après le scellement, deux couches croisées. Aucune couche supplémentaire n'est nécessaire ; non recommandé comme finition en extérieur."
+            },
+            {
+              "type": "p",
+              "text": "Antidérapant : saupoudrer du sable de silice de 0,2-0,6 mm jusqu'à saturation sur la première couche fraîchement appliquée ; balayer l'excédent avant la deuxième couche."
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ne pas appliquer par temps froid ni sous la pluie. Éviter une humidité relative élevée pendant le séchage et le durcissement : un voile amine (blush, matage superficiel) peut apparaître. Dans ce cas, laver à l'eau douce acidulée et appliquer une couche générale.",
+                "Produit réservé aux professionnels. Ni toxique ni inflammable dans des conditions normales de manipulation. Suivre l'étiquette et la fiche de données de sécurité.",
+                "Nettoyer immédiatement le matériel avec un solvant compatible, avant que le produit ne polymérise."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produit",
+                  "rows": [
+                    {
+                      "key": "Couleur et aspect",
+                      "value": "Gris, rouge et vert (autres, nous consulter) ; brillant"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Durée d'application",
+                      "value": "15-20 min après mélange"
+                    },
+                    {
+                      "key": "Rendement pratique",
+                      "value": "3,8 m²/kg pour 200 µm secs"
+                    },
+                    {
+                      "key": "Pression airless (buse)",
+                      "value": "15-19 millièmes de pouce ; env. 140 bar"
+                    },
+                    {
+                      "key": "Température et humidité",
+                      "value": "10 à 35 °C ; humidité relative < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Séchage et durcissement",
+                  "rows": [
+                    {
+                      "key": "Sec au toucher / hors poisse (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Délai entre les couches",
+                      "value": "12-24 h (25 °C) ; 24 h à 2 jours (20 °C)"
+                    },
+                    {
+                      "key": "Praticable (20 °C)",
+                      "value": "2 jours"
+                    },
+                    {
+                      "key": "Durcissement complet",
+                      "value": "> 7 jours (25 °C) ; > 12 jours (15 °C)"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Composant A 4 kg + composant B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Composant A : 4 kg",
+                "Composant B (durcisseur) : 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimum 24 mois (composant A) et 12 mois (composant B) à 20 °C, dans l'emballage d'origine fermé, à l'abri des sources de chaleur et d'électricité. Bien refermer les emballages ouverts et les maintenir à la verticale."
+            }
+          ]
+        },
+        {
+          "title": "RÉSISTANCE CHIMIQUE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammoniaque, soude (3 %)",
+                      "value": "Inaltéré après 1 an."
+                    },
+                    {
+                      "key": "Eau potable et eau de mer",
+                      "value": "Inaltéré après 6 ans."
+                    },
+                    {
+                      "key": "Vin, bière, cidre",
+                      "value": "Inaltéré après 6 ans."
+                    },
+                    {
+                      "key": "Huile d'olive, solution sucrée",
+                      "value": "Inaltéré après 6 ans."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Résultats d'essais d'immersion."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "PROTECT SANITARY 2K ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "RIVESTIMENTO EPOSSIDICO BICOMPONENTE SENZA SOLVENTI",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Rapporto di miscelazione in peso (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Tempo di applicazione dopo la miscelazione"
+        },
+        {
+          "value": "100 %",
+          "label": "Solidi in volume (circa)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Spessore consigliato per mano"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Rivestimento epossidico bicomponente, senza solventi e indurito con ammina, per la finitura continua di calcestruzzo precedentemente trattato con primer e sigillato. Lascia un pavimento liscio, estetico e lavabile, con elevate prestazioni fisico-chimiche."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Per industria alimentare, magazzini e capannoni industriali.",
+                "Adatto a serbatoi e silos; senza giunti.",
+                "Elevata resistenza chimica, meccanica e all'abrasione."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: resina epossidica pigmentata. Componente B: indurente amminico. Rapporto di miscelazione 4:1 in peso (20 + 5 parti)."
+            },
+            {
+              "type": "p",
+              "text": "Solidi in volume: 100 % circa. Colori: grigio, rosso e verde (altri su richiesta)."
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rivestimento antipolvere per pavimenti in calcestruzzo; facile da pulire.",
+                "Buone proprietà applicative e nessun tempo di induzione.",
+                "Ottima resistenza all'acqua durante l'indurimento; in caso contrario possono comparire difetti superficiali e di ancoraggio."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PREPARAZIONE DEL SUPPORTO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Il calcestruzzo deve essere trattato con primer o sigillato fino alla completa saturazione dei pori, senza aver superato il tempo massimo di sovraverniciatura della mano precedente."
+            },
+            {
+              "type": "p",
+              "text": "Se la soletta presenta forti irregolarità, ripararle prima con una malta con lo stesso primer."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Versare il componente B sul componente A e miscelare con mescolatore a basso numero di giri fino a ottenere una miscela omogenea. Si hanno solo 15-20 minuti per applicare."
+            },
+            {
+              "type": "p",
+              "text": "Airless, pennello o rullo: fino a formare uno strato continuo. Con rullo a pelo medio e diluizione del 5-8 % (prodotto autolivellante). La pistola ad aria convenzionale non è adatta."
+            },
+            {
+              "type": "p",
+              "text": "Applicare 600-800 g/m² in totale tra le due mani (400-600 µm di film). Se si supera il tempo massimo tra le mani, carteggiare la superficie per garantire l'adesione."
+            }
+          ]
+        },
+        {
+          "title": "CICLO DI VERNICIATURA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dopo la sigillatura, due mani incrociate. Non richiede strato aggiuntivo; non consigliato come finitura per esterni."
+            },
+            {
+              "type": "p",
+              "text": "Antiscivolo: spolverare sabbia silicea da 0,2-0,6 mm fino a saturazione sulla prima mano appena applicata; rimuovere l'eccesso prima della seconda mano."
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Non applicare con freddo o pioggia. Evitare un'umidità relativa elevata durante l'essiccazione e l'indurimento: possono comparire veli amminici (opacizzazione superficiale). In tal caso, lavare con acqua dolce acidulata e applicare una mano generale.",
+                "Prodotto per operatori professionali. Non tossico né infiammabile in normali condizioni di manipolazione. Seguire l'etichetta e la Scheda di dati di sicurezza.",
+                "Pulire subito le attrezzature con un solvente compatibile, prima che il prodotto polimerizzi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prodotto",
+                  "rows": [
+                    {
+                      "key": "Colore e aspetto",
+                      "value": "Grigio, rosso e verde (altri su richiesta); lucido"
+                    },
+                    {
+                      "key": "Massa volumica",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Tempo di applicazione",
+                      "value": "15-20 min dopo la miscelazione"
+                    },
+                    {
+                      "key": "Resa pratica",
+                      "value": "3,8 m²/kg per 200 µm a secco"
+                    },
+                    {
+                      "key": "Pressione airless (ugello)",
+                      "value": "15-19 millesimi di pollice; circa 140 bar"
+                    },
+                    {
+                      "key": "Temperatura e umidità",
+                      "value": "da 10 a 35 °C; umidità relativa < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Essiccazione e indurimento",
+                  "rows": [
+                    {
+                      "key": "Secco al tatto / non appiccicoso (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Tempo tra le mani",
+                      "value": "12-24 h (25 °C); da 24 h a 2 giorni (20 °C)"
+                    },
+                    {
+                      "key": "Calpestabile (20 °C)",
+                      "value": "2 giorni"
+                    },
+                    {
+                      "key": "Indurimento completo",
+                      "value": "> 7 giorni (25 °C); > 12 giorni (15 °C)"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Componente A 4 kg + componente B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: 4 kg",
+                "Componente B (indurente): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimo 24 mesi (componente A) e 12 mesi (componente B) a 20 °C, nella confezione originale chiusa, lontano da fonti di calore ed elettriche. Chiudere bene i contenitori aperti e tenerli in verticale."
+            }
+          ]
+        },
+        {
+          "title": "RESISTENZA CHIMICA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammoniaca, soda (3 %)",
+                      "value": "Inalterato dopo 1 anno."
+                    },
+                    {
+                      "key": "Acqua potabile e di mare",
+                      "value": "Inalterato dopo 6 anni."
+                    },
+                    {
+                      "key": "Vino, birra, sidro",
+                      "value": "Inalterato dopo 6 anni."
+                    },
+                    {
+                      "key": "Olio d'oliva, soluzione zuccherina",
+                      "value": "Inalterato dopo 6 anni."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Risultati delle prove di immersione."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "PROTECT SANITARY 2K NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "LØSEMIDDELFRITT TOKOMPONENTS EPOKSYBELEGG",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Blandingsforhold etter vekt (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Brukstid etter blanding"
+        },
+        {
+          "value": "100 %",
+          "label": "Volumtørrstoff (ca.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Anbefalt tykkelse per strøk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Tokomponents, løsemiddelfritt og aminherdet epoksybelegg for sammenhengende finish på betong som på forhånd er grunnet og forseglet. Gir et glatt, estetisk og vaskbart gulv med høy fysikalsk-kjemisk ytelse."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Til næringsmiddelindustri, lagre og industribygg.",
+                "Egnet for tanker og siloer; uten fuger.",
+                "Høy kjemisk og mekanisk motstand og høy slitestyrke."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SAMMENSETNING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponent A: pigmentert epoksyharpiks. Komponent B: aminherder. Blandingsforhold 4:1 etter vekt (20 + 5 deler)."
+            },
+            {
+              "type": "p",
+              "text": "Volumtørrstoff: ca. 100 %. Farger: grå, rød og grønn (andre på forespørsel)."
+            }
+          ]
+        },
+        {
+          "title": "YTELSE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Støvbindende belegg for betonggulv; lett å rengjøre.",
+                "Gode påføringsegenskaper og ingen induksjonstid.",
+                "Utmerket vannmotstand under herding; ellers kan det oppstå overflatefeil og hefteproblemer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KLARGJØRING AV UNDERLAGET",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betongen må være grunnet eller forseglet til porene er fullstendig mettet, uten at maksimal overmalingstid for forrige strøk er overskredet."
+            },
+            {
+              "type": "p",
+              "text": "Hvis betongplaten har markante ujevnheter, repareres de først med en mørtel med samme grunning."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hell komponent B over A og bland med langsomtgående rører til blandingen er homogen. Det er bare 15-20 minutter til å påføre."
+            },
+            {
+              "type": "p",
+              "text": "Airless, pensel eller rulle: til det dannes et sammenhengende lag. Med mellomlugget rulle og 5-8 % fortynning (selvutjevnende produkt). Konvensjonell luftsprøyte egner seg ikke."
+            },
+            {
+              "type": "p",
+              "text": "Påfør 600-800 g/m² fordelt på de to strøkene (400-600 µm film). Hvis maksimal tid mellom strøkene er overskredet, slipes overflaten for å sikre heft."
+            }
+          ]
+        },
+        {
+          "title": "MALINGSSYSTEM",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Etter forsegling: to krysspåførte strøk. Krever ikke ekstra strøk; anbefales ikke som finish utendørs."
+            },
+            {
+              "type": "p",
+              "text": "Sklisikker: strø kvartssand 0,2-0,6 mm til metning over det nypåførte første strøket; fei bort overskuddet før andre strøk."
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Må ikke påføres i kulde eller regn. Unngå høy relativ luftfuktighet under tørking og herding: det kan oppstå aminblush (mattering av overflaten). Vask i så fall med surgjort ferskvann og påfør et strøk over hele flaten.",
+                "Produkt for profesjonelle brukere. Ikke giftig eller brannfarlig under normale håndteringsforhold. Følg etiketten og sikkerhetsdatabladet.",
+                "Rengjør utstyret umiddelbart med et kompatibelt løsemiddel, før produktet polymeriserer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Farge og utseende",
+                      "value": "Grå, rød og grønn (andre på forespørsel); blank"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Brukstid",
+                      "value": "15-20 min etter blanding"
+                    },
+                    {
+                      "key": "Praktisk dekningsevne",
+                      "value": "3,8 m²/kg for 200 µm tørr film"
+                    },
+                    {
+                      "key": "Airless-trykk (dyse)",
+                      "value": "15-19 thou; ca. 140 bar"
+                    },
+                    {
+                      "key": "Temperatur og fuktighet",
+                      "value": "10 til 35 °C; relativ luftfuktighet < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Tørking og herding",
+                  "rows": [
+                    {
+                      "key": "Berøringstørr / klebefri (25 °C)",
+                      "value": "< 2 t / < 6 t"
+                    },
+                    {
+                      "key": "Tid mellom strøkene",
+                      "value": "12-24 t (25 °C); 24 t til 2 dager (20 °C)"
+                    },
+                    {
+                      "key": "Gangbar (20 °C)",
+                      "value": "2 dager"
+                    },
+                    {
+                      "key": "Full herding",
+                      "value": "> 7 dager (25 °C); > 12 dager (15 °C)"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Komponent A 4 kg + komponent B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponent A: 4 kg",
+                "Komponent B (herder): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minst 24 måneder (komponent A) og 12 måneder (komponent B) ved 20 °C, i uåpnet originalemballasje, vekk fra varme- og elektriske kilder. Lukk åpnede beholdere godt og oppbevar dem stående."
+            }
+          ]
+        },
+        {
+          "title": "KJEMISK MOTSTAND",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Ammoniakk, natronlut (3 %)",
+                      "value": "Uendret etter 1 år."
+                    },
+                    {
+                      "key": "Drikkevann og sjøvann",
+                      "value": "Uendret etter 6 år."
+                    },
+                    {
+                      "key": "Vin, øl, sider",
+                      "value": "Uendret etter 6 år."
+                    },
+                    {
+                      "key": "Olivenolje, sukkerløsning",
+                      "value": "Uendret etter 6 år."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Resultater fra nedsenkingsprøver."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "PROTECT SANITARY 2K POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Protect Sanitary 2K",
+      "subtitle": "BEZROZPUSZCZALNIKOWA POWŁOKA EPOKSYDOWA 2K",
+      "stats": [
+        {
+          "value": "4:1",
+          "label": "Proporcja mieszania wagowo (A:B)"
+        },
+        {
+          "value": "15-20 min",
+          "label": "Czas aplikacji po wymieszaniu"
+        },
+        {
+          "value": "100 %",
+          "label": "Części stałe objętościowo (ok.)"
+        },
+        {
+          "value": "200 µm",
+          "label": "Zalecana grubość warstwy"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dwuskładnikowa, bezrozpuszczalnikowa powłoka epoksydowa utwardzana aminą, do ciągłego wykończenia betonu uprzednio zagruntowanego i uszczelnionego. Tworzy gładką, estetyczną i zmywalną posadzkę o wysokich właściwościach fizykochemicznych."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Do przemysłu spożywczego, magazynów i hal przemysłowych.",
+                "Nadaje się do zbiorników i silosów; bez spoin.",
+                "Wysoka odporność chemiczna, mechaniczna i na ścieranie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SKŁAD",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Składnik A: pigmentowana żywica epoksydowa. Składnik B: utwardzacz aminowy. Proporcja mieszania 4:1 wagowo (20 + 5 części)."
+            },
+            {
+              "type": "p",
+              "text": "Części stałe objętościowo: ok. 100 %. Kolory: szary, czerwony i zielony (inne na zapytanie)."
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI UŻYTKOWE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Powłoka przeciwpyłowa do posadzek betonowych; łatwa do czyszczenia.",
+                "Dobre właściwości aplikacyjne i brak czasu indukcji.",
+                "Doskonała odporność na wodę w trakcie utwardzania; w przeciwnym razie mogą pojawić się wady powierzchni i problemy z przyczepnością."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZYGOTOWANIE PODŁOŻA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton musi być zagruntowany lub uszczelniony do całkowitego nasycenia porów, bez przekroczenia maksymalnego czasu przemalowania poprzedniej warstwy."
+            },
+            {
+              "type": "p",
+              "text": "Przy wyraźnych nierównościach posadzki wcześniej naprawić je zaprawą z tym samym gruntem."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Wlać składnik B do A i mieszać mieszadłem wolnoobrotowym do uzyskania jednorodnej mieszanki. Na aplikację jest tylko 15-20 minut."
+            },
+            {
+              "type": "p",
+              "text": "Airless, pędzel lub wałek: do utworzenia ciągłej warstwy. Wałkiem o średnim runie i z rozcieńczeniem 5-8 % (produkt samopoziomujący). Pistolet powietrzny konwencjonalny nie jest odpowiedni."
+            },
+            {
+              "type": "p",
+              "text": "Nanieść 600-800 g/m² łącznie w dwóch warstwach (400-600 µm powłoki). Po przekroczeniu maksymalnego czasu między warstwami przeszlifować powierzchnię, aby zapewnić przyczepność."
+            }
+          ]
+        },
+        {
+          "title": "SYSTEM MALARSKI",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Po uszczelnieniu dwie warstwy krzyżowo. Dodatkowa warstwa nie jest potrzebna; nie zaleca się jako wykończenia na zewnątrz."
+            },
+            {
+              "type": "p",
+              "text": "Antypoślizgowo: na świeżo nałożoną pierwszą warstwę posypać piasek kwarcowy 0,2-0,6 mm do nasycenia; nadmiar zamieść przed drugą warstwą."
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Nie stosować podczas mrozu ani deszczu. Unikać wysokiej wilgotności względnej podczas schnięcia i utwardzania: mogą pojawić się mgiełki aminowe (zmatowienie powierzchni). W takim przypadku umyć zakwaszoną wodą słodką i nałożyć warstwę całościową.",
+                "Produkt dla profesjonalistów. Nietoksyczny i niepalny w normalnych warunkach użytkowania. Przestrzegać etykiety i karty charakterystyki.",
+                "Sprzęt czyścić natychmiast kompatybilnym rozcieńczalnikiem, zanim produkt spolimeryzuje."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produkt",
+                  "rows": [
+                    {
+                      "key": "Kolor i wygląd",
+                      "value": "Szary, czerwony i zielony (inne na zapytanie); błyszczący"
+                    },
+                    {
+                      "key": "Ciężar właściwy",
+                      "value": "1,30 g/cm³"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Czas aplikacji",
+                      "value": "15-20 min po wymieszaniu"
+                    },
+                    {
+                      "key": "Wydajność praktyczna",
+                      "value": "3,8 m²/kg dla 200 µm po wyschnięciu"
+                    },
+                    {
+                      "key": "Ciśnienie airless (dysza)",
+                      "value": "15-19 thou (tysięcznych cala); ok. 140 bar"
+                    },
+                    {
+                      "key": "Temperatura i wilgotność",
+                      "value": "10 do 35 °C; wilgotność względna < 70 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Schnięcie i utwardzanie",
+                  "rows": [
+                    {
+                      "key": "Suchość na dotyk / bez lepkości (25 °C)",
+                      "value": "< 2 h / < 6 h"
+                    },
+                    {
+                      "key": "Czas między warstwami",
+                      "value": "12-24 h (25 °C); 24 h do 2 dni (20 °C)"
+                    },
+                    {
+                      "key": "Możliwość chodzenia (20 °C)",
+                      "value": "2 dni"
+                    },
+                    {
+                      "key": "Pełne utwardzenie",
+                      "value": "> 7 dni (25 °C); > 12 dni (15 °C)"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Składnik A 4 kg + składnik B 1 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Składnik A: 4 kg",
+                "Składnik B (utwardzacz): 1 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Minimum 24 miesiące (składnik A) i 12 miesięcy (składnik B) w 20 °C, w oryginalnym, zamkniętym opakowaniu, z dala od źródeł ciepła i prądu. Otwarte opakowania szczelnie zamykać i przechowywać pionowo."
+            }
+          ]
+        },
+        {
+          "title": "ODPORNOŚĆ CHEMICZNA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Amoniak, soda (3 %)",
+                      "value": "Bez zmian po 1 roku."
+                    },
+                    {
+                      "key": "Woda pitna i morska",
+                      "value": "Bez zmian po 6 latach."
+                    },
+                    {
+                      "key": "Wino, piwo, cydr",
+                      "value": "Bez zmian po 6 latach."
+                    },
+                    {
+                      "key": "Oliwa z oliwek, roztwór cukru",
+                      "value": "Bez zmian po 6 latach."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wyniki badań zanurzeniowych."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

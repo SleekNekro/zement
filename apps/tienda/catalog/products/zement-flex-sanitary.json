@@ -1,0 +1,2207 @@
+{
+  "key": "zement-flex-sanitary",
+  "source": "ZEMENT FLEX SANITARY",
+  "languages": {
+    "de": {
+      "file": "ZEMENT FLEX SANITARY ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "FLEXIBLER, WASSERDICHTER 2K-ZEMENTMÖRTEL",
+      "stats": [
+        {
+          "value": "60 Min.",
+          "label": "Verarbeitungszeit"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Druckfestigkeit"
+        },
+        {
+          "value": "65 %",
+          "label": "Dehnung"
+        },
+        {
+          "value": "2 mm",
+          "label": "Schichtdicke je Auftrag"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Flexibler, wasserdichter Zweikomponentenmörtel zum Ausgleichen von Untergründen mit Schwindrissen und zur Abdichtung. Widersteht positivem Wasserdruck und hält selbst hohem negativem Wasserdruck stand."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Repariert und dichtet Risse ab; geeignet für Untergründe mit geringen Bewegungen.",
+                "Beständig gegen aggressive Wässer und Meerwasser.",
+                "Maschinell spritzbar; überstreichbar bzw. beschichtbar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZUSAMMENSETZUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponente A: Spezialzement, ausgewählte Zuschläge, Harze, Wirkstoffe und Zusatzmittel. Komponente B: elastisches Harz."
+            },
+            {
+              "type": "p",
+              "text": "Dem Mörtel keine Zusatzmittel beimischen: Er enthält bereits sein eigenes Harz."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Abdichtung von Duschen, Bädern und Schwimmbecken vor dem Verlegen von Fliesen.",
+                "Abdichtung von rissgefährdeten Betonwänden und Betonbauwerken sowie von Betonbehältern für Wasser.",
+                "Sanierung von Terrassen, Balkonplatten, Kragplatten, Flachdächern und Gesimsen, die starken Temperaturwechseln ausgesetzt sind.",
+                "Schutzbeschichtung gegen Wasser und chemische Angriffe durch Tausalze, Sulfate und Chloride."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRÜNDE UND VORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, Betonfertigteile, Putze, Keramik; auch Mörtel, Holz, Parkett, Dielen, Gips oder Fließestrich."
+            },
+            {
+              "type": "p",
+              "text": "Tragfähige, saubere Untergründe ohne Zementschlämme und Schalungstrennmittel, eben und ohne Vertiefungen. Bei Bedarf mit Hochdruckwasserstrahl oder Sandstrahlen reinigen."
+            },
+            {
+              "type": "p",
+              "text": "Löcher und Kiesnester mit Reparaturmörtel ausbessern, kritische Details mit Gewebe behandeln und den Untergrund vor dem Auftrag vornässen."
+            }
+          ]
+        },
+        {
+          "title": "MISCHEN UND VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponente B (5 L Harz) mit der gleichen Menge Wasser in ein sauberes Gefäß geben und Komponente A (20 kg) nach und nach zugeben. Ca. 3 Minuten mit einem Rührwerk bei 300-500 U/min mischen."
+            },
+            {
+              "type": "p",
+              "text": "Mit Traufel oder Pinsel auftragen, maximal 2 mm pro Schicht, mit Glasfasergewebe 80 g zwischen der ersten und zweiten Schicht (2 Aufträge). Das Gewebe an den Seiten mindestens 15 cm überlappen."
+            }
+          ]
+        },
+        {
+          "title": "EMPFEHLUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Mindestendschichtdicke 3-4 mm an allen Stellen.",
+                "Verarbeitungstemperatur 10 bis 30 °C. Nicht bei Regen, Frost oder starkem Wind verarbeiten, im Sommer nicht in der prallen Sonne.",
+                "Auf begangenen Böden muss der Mörtel stets geschützt werden."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enthält Zement: Kontakt mit Augen und Haut vermeiden und Staub nicht einatmen. Gummihandschuhe und Schutzbrille tragen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren. Leere Gebinde gemäß den geltenden Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponente A (Mörtel)",
+                  "rows": [
+                    {
+                      "key": "Rohdichte / Frischmörtelrohdichte",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Druckfestigkeit",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Haftzugfestigkeit",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Zugfestigkeit / Dehnung",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Verarbeitungszeit",
+                      "value": "60 Min. (Reifezeit nach dem Mischen: 5 Min.)"
+                    },
+                    {
+                      "key": "Schichtdicke",
+                      "value": "2 mm pro Schicht; gesamt mind. 3-4 mm"
+                    },
+                    {
+                      "key": "Erstarrung / zwischen den Schichten",
+                      "value": "Beginn 4 Std.; Wartezeit zwischen den Schichten 4-5 Std."
+                    },
+                    {
+                      "key": "Wartezeit bis zur Befüllung des Behälters",
+                      "value": "> 28 Tage"
+                    },
+                    {
+                      "key": "Beschichtung oder Anstrich",
+                      "value": "> 6 Tage"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "10 bis 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponente B (Harz)",
+                  "rows": [
+                    {
+                      "key": "Dichte bei 25 °C / pH-Wert",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viskosität (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Flammpunkt",
+                      "value": "Nein"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "A: Sack 20 kg (Palette à 48 Säcke); B: Kanister 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponente A: Sack 20 kg",
+                "Komponente B: Kanister 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + Wasser",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Mischen",
+                      "value": "Ca. 3 Min., Rührwerk mit 300-500 U/min."
+                    },
+                    {
+                      "key": "Reifezeit",
+                      "value": "5 Min. nach dem Mischen."
+                    },
+                    {
+                      "key": "Verarbeitungszeit",
+                      "value": "Ca. 60 Min."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Die Zeiten können je nach Umgebungstemperatur erheblich variieren."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT FLEX SANITARY INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "TWO-COMPONENT FLEXIBLE WATERPROOF CEMENTITIOUS MORTAR",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Pot life"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Compressive strength"
+        },
+        {
+          "value": "65 %",
+          "label": "Elongation"
+        },
+        {
+          "value": "2 mm",
+          "label": "Thickness per coat"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Two-component flexible, waterproof mortar for correcting substrates with shrinkage cracks and for waterproofing. It withstands positive water pressure and even high negative water pressure."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Repairs and waterproofs cracks; suitable for substrates with small movements.",
+                "Resistant to aggressive waters and sea water.",
+                "Machine-sprayable; suitable for receiving paint or tile finishes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Component A: special cement, selected aggregates, resins, active components and additives. Component B: elastic resin."
+            },
+            {
+              "type": "p",
+              "text": "Do not add any admixture to the mortar: it already contains its own resin."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Waterproofing of showers, bathrooms and swimming pools, prior to laying ceramic tiles.",
+                "Waterproofing of concrete walls and structures prone to cracking, and of concrete water tanks.",
+                "Refurbishment of terraces, balcony slabs, cantilevers, flat roofs and cornices exposed to significant thermal changes.",
+                "Protective coating against water and the chemical attack of de-icing salts, sulphates and chlorides."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATES AND PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Concrete, precast concrete, renders, ceramic tiles; also mortar, wood, parquet, wooden flooring, plaster or self-levelling screed."
+            },
+            {
+              "type": "p",
+              "text": "Substrates must be sound, clean, free of laitance and release agents, flat and without indentations. If necessary, wash with pressurised water or sandblast."
+            },
+            {
+              "type": "p",
+              "text": "Repair voids and honeycombing with repair mortar, treat critical details (junctions, corners, penetrations) with mesh, and dampen the substrate before application."
+            }
+          ]
+        },
+        {
+          "title": "MIXING AND APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour component B (5 L of resin) into a clean container together with the same amount of water, and gradually add component A (20 kg). Mix for about 3 minutes with a mechanical mixer at 300-500 rpm."
+            },
+            {
+              "type": "p",
+              "text": "Apply with a trowel or brush, maximum 2 mm per coat, with 80 g glass-fibre mesh between the first and second coats (2 coats). Overlap the mesh by at least 15 cm at the sides."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMENDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Minimum final thickness of 3-4 mm at all points.",
+                "Application temperature from 10 to 30 °C. Do not apply if there is a risk of rain, frost or strong wind, or in full sun in hot weather.",
+                "On trafficked floors, the mortar must always be protected."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contains cement: avoid contact with eyes and skin and do not inhale the dust. Wear rubber gloves and protective goggles.",
+                "Keep out of the reach of children. Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Component A (mortar)",
+                  "rows": [
+                    {
+                      "key": "Bulk density / wet density",
+                      "value": "1.3 / 1.6 g/cm³"
+                    },
+                    {
+                      "key": "Compressive strength",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Pull-off adhesion",
+                      "value": "> 1.5 MPa"
+                    },
+                    {
+                      "key": "Tensile strength / elongation",
+                      "value": "1.6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Pot life",
+                      "value": "60 min (standing time after mixing: 5 min)"
+                    },
+                    {
+                      "key": "Application thickness",
+                      "value": "2 mm per coat; final 3-4 mm minimum"
+                    },
+                    {
+                      "key": "Setting / between coats",
+                      "value": "Start 4 h; wait 4-5 h between coats"
+                    },
+                    {
+                      "key": "Wait before filling the tank",
+                      "value": "> 28 days"
+                    },
+                    {
+                      "key": "Tiling or painting",
+                      "value": "> 6 days"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "10 to 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Component B (resin)",
+                  "rows": [
+                    {
+                      "key": "Density at 25 °C / pH",
+                      "value": "1.09 kg/l / 8.4"
+                    },
+                    {
+                      "key": "Viscosity (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Flash point",
+                      "value": "None"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "A: 20 kg bag (pallet of 48 bags); B: 5 L pail"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Component A: 20 kg bag",
+                "Component B: 5 L pail"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "MIXING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + water",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Mixing",
+                      "value": "About 3 min, mixer at 300-500 rpm."
+                    },
+                    {
+                      "key": "Standing time",
+                      "value": "5 min after mixing."
+                    },
+                    {
+                      "key": "Pot life",
+                      "value": "Approx. 60 min."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Times may vary considerably with ambient temperature."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT FLEX SANITARY ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "MORTERO CEMENTOSO FLEXIBLE E IMPERMEABLE BICOMPONENTE",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Vida de la mezcla"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Resistencia a compresión"
+        },
+        {
+          "value": "65 %",
+          "label": "Alargamiento"
+        },
+        {
+          "value": "2 mm",
+          "label": "Espesor por capa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mortero flexible e impermeable de dos componentes, para corregir soportes con fisuras de retracción y para impermeabilizar. Resiste la presión positiva y soporta incluso presiones negativas elevadas."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Repara e impermeabiliza fisuras; apto en soportes con pequeños movimientos.",
+                "Resistente a aguas agresivas y al agua de mar.",
+                "Proyectable a máquina; apto para recibir pintura o revestimiento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSICIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: cemento especial, áridos seleccionados, resinas, componentes activos y aditivos. Componente B: resina elástica."
+            },
+            {
+              "type": "p",
+              "text": "No incorporar ningún aditivo al mortero: ya dispone de su resina."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Impermeabilización de duchas, baños y piscinas, previa a la colocación del revestimiento cerámico.",
+                "Impermeabilización de muros y estructuras de hormigón sujetos a fisuración, y de depósitos de hormigón para agua.",
+                "Rehabilitación de terrazas, balconeras, voladizos, azoteas y cornisas expuestas a cambios térmicos importantes.",
+                "Revestimiento protector frente al agua y a la agresión química de sales de deshielo, sulfatos y cloruros."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SOPORTES Y PREPARACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hormigón, prefabricados de hormigón, revocos, cerámica; también mortero, madera, parquet, tarima, yeso o autonivelante."
+            },
+            {
+              "type": "p",
+              "text": "Soportes sanos, limpios, sin lechadas ni desencofrantes, planos y sin hendiduras. Si hace falta, lavar con agua a presión o chorro de arena."
+            },
+            {
+              "type": "p",
+              "text": "Reparar huecos y coqueras con mortero reparador, tratar los puntos singulares con malla y humedecer el soporte antes de aplicar."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA Y APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Verter en un recipiente limpio el componente B (5 L de resina) con la misma cantidad de agua, y añadir poco a poco el componente A (20 kg). Mezclar unos 3 minutos con agitador mecánico de 300-500 r.p.m."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar con llana o brocha, máximo 2 mm por capa, con malla de fibra de vidrio de 80 g entre la primera y la segunda capa (2 manos). Solapar la malla al menos 15 cm en los laterales."
+            }
+          ]
+        },
+        {
+          "title": "RECOMENDACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Espesor final mínimo de 3-4 mm en todos los puntos.",
+                "Temperatura de aplicación de 10 a 30 °C. No aplicar con riesgo de lluvia, hielo o fuerte viento, ni a pleno sol en época calurosa.",
+                "En suelos transitados, el mortero debe quedar siempre protegido."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento: evitar el contacto con ojos y piel y no inhalar el polvo. Usar guantes de goma y gafas protectoras.",
+                "Mantener fuera del alcance de los niños. Eliminar los envases vacíos conforme a la normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (mortero)",
+                  "rows": [
+                    {
+                      "key": "Densidad aparente / en pasta",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Resistencia a compresión",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Adherencia por tracción",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Tracción / alargamiento",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Vida de la mezcla",
+                      "value": "60 min (reposo tras amasado: 5 min)"
+                    },
+                    {
+                      "key": "Espesor de aplicación",
+                      "value": "2 mm por capa; final 3-4 mm mínimo"
+                    },
+                    {
+                      "key": "Fraguado / entre capas",
+                      "value": "Inicio 4 h; espera entre capas 4-5 h"
+                    },
+                    {
+                      "key": "Espera para llenado del depósito",
+                      "value": "> 28 días"
+                    },
+                    {
+                      "key": "Revestido o pintura",
+                      "value": "> 6 días"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "10 a 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (resina)",
+                  "rows": [
+                    {
+                      "key": "Densidad a 25 °C / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viscosidad (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Punto de inflamación",
+                      "value": "No"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "A: saco de 20 kg (palé de 48 sacos); B: bidón de 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: saco de 20 kg",
+                "Componente B: bidón de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + agua",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Mezclado",
+                      "value": "Unos 3 min, agitador de 300-500 r.p.m."
+                    },
+                    {
+                      "key": "Reposo",
+                      "value": "5 min tras el amasado."
+                    },
+                    {
+                      "key": "Vida de la mezcla",
+                      "value": "60 min aprox."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Los tiempos pueden variar considerablemente con la temperatura ambiente."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT FLEX SANITARY FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "JOUSTAVA VEDENPITÄVÄ 2K-SEMENTTILAASTI",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Käyttöaika"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Puristuslujuus"
+        },
+        {
+          "value": "65 %",
+          "label": "Venymä"
+        },
+        {
+          "value": "2 mm",
+          "label": "Paksuus kerrosta kohti"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Joustava, vedenpitävä kaksikomponenttinen laasti, jolla korjataan kutistumahalkeilleita alustoja ja tehdään vedeneristys. Kestää positiivisen vedenpaineen ja kestää jopa suuret negatiivisen vedenpaineen kuormitukset."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Korjaa ja tiivistää halkeamat; sopii alustoille, joissa on pieniä liikkeitä.",
+                "Kestää aggressiivisia vesiä ja merivettä.",
+                "Koneellisesti ruiskutettava; sopii maalattavaksi tai päällystettäväksi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KOOSTUMUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponentti A: erikoissementti, valitut kiviainekset, hartsit, aktiiviset aineet ja lisäaineet. Komponentti B: elastinen hartsi."
+            },
+            {
+              "type": "p",
+              "text": "Laastiin ei saa lisätä mitään lisäaineita: siinä on jo oma hartsinsa."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Suihkujen, kylpyhuoneiden ja uima-altaiden vedeneristys ennen keraamisen laatoituksen asennusta.",
+                "Halkeilulle alttiiden betoniseinien ja -rakenteiden sekä betonisten vesisäiliöiden vedeneristys.",
+                "Terassien, parvekelaattojen, ulokkeiden, kattoterassien ja räystäiden kunnostus, kun ne altistuvat suurille lämpötilanvaihteluille.",
+                "Suojapinnoite vettä sekä suolojen, sulfaattien ja kloridien aiheuttamaa kemiallista rasitusta vastaan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAT JA VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betoni, betonielementit, rappaukset, keramiikka; myös laasti, puu, parketti, lankkulattia, kipsi tai itsetasoittuva tasoite."
+            },
+            {
+              "type": "p",
+              "text": "Alustan on oltava kiinteä, puhdas, vapaa sementtiliimasta ja muottiöljyistä, tasainen ja ilman koloja. Tarvittaessa pese painevedellä tai hiekkapuhalla."
+            },
+            {
+              "type": "p",
+              "text": "Korjaa kolot ja ontelot korjauslaastilla, käsittele erityiskohdat (liitokset, kulmat, läpiviennit) verkolla ja kostuta alusta ennen levitystä."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS JA LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kaada puhtaaseen astiaan komponentti B (5 L hartsia) ja sama määrä vettä ja lisää komponentti A (20 kg) vähitellen. Sekoita noin 3 minuuttia mekaanisella sekoittimella 300–500 r/min."
+            },
+            {
+              "type": "p",
+              "text": "Levitä lastalla tai siveltimellä, enintään 2 mm kerrokselle, ja upota 80 g:n lasikuituverkko ensimmäisen ja toisen kerroksen väliin (2 kerrosta). Limitä verkkoa sivuilla vähintään 15 cm."
+            }
+          ]
+        },
+        {
+          "title": "SUOSITUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Lopullinen vähimmäispaksuus 3–4 mm joka kohdassa.",
+                "Levityslämpötila 10–30 °C. Älä levitä sateen, pakkasen tai voimakkaan tuulen uhatessa äläkä paahtavassa auringossa kuumalla säällä.",
+                "Liikennöidyillä lattioilla laasti on aina suojattava."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sisältää sementtiä: vältä kosketusta silmiin ja ihoon äläkä hengitä pölyä. Käytä kumikäsineitä ja suojalaseja.",
+                "Säilytä lasten ulottumattomissa. Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponentti A (laasti)",
+                  "rows": [
+                    {
+                      "key": "Tiheys kuivana / märkänä",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Puristuslujuus",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Vetotartunta",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Vetolujuus / venymä",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Käyttöaika",
+                      "value": "60 min (lepoaika sekoituksen jälkeen: 5 min)"
+                    },
+                    {
+                      "key": "Kerrospaksuus",
+                      "value": "2 mm kerrosta kohti; lopullinen väh. 3–4 mm"
+                    },
+                    {
+                      "key": "Kovettuminen / kerrosten väli",
+                      "value": "Alkaa 4 h; kerrosten väli 4–5 h"
+                    },
+                    {
+                      "key": "Odotusaika ennen säiliön täyttöä",
+                      "value": "> 28 vrk"
+                    },
+                    {
+                      "key": "Päällystys tai maalaus",
+                      "value": "> 6 vrk"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "10–30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponentti B (hartsi)",
+                  "rows": [
+                    {
+                      "key": "Tiheys 25 °C:ssa / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viskositeetti (25 °C)",
+                      "value": "1500–2000 mPa·s"
+                    },
+                    {
+                      "key": "Leimahduspiste",
+                      "value": "Ei"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "A: 20 kg:n säkki (48 säkin lava); B: 5 L:n kanisteri"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponentti A: 20 kg:n säkki",
+                "Komponentti B: 5 L:n kanisteri"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + vesi",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Sekoitus",
+                      "value": "Noin 3 min, sekoitin 300–500 r/min."
+                    },
+                    {
+                      "key": "Lepo",
+                      "value": "5 min sekoituksen jälkeen."
+                    },
+                    {
+                      "key": "Käyttöaika",
+                      "value": "n. 60 min."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ajat voivat vaihdella merkittävästi ympäristön lämpötilan mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT FLEX SANITARY FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "MORTIER-CIMENT SOUPLE IMPERMÉABLE BICOMPOSANT",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Durée de vie du mélange"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Résistance à la compression"
+        },
+        {
+          "value": "65 %",
+          "label": "Allongement"
+        },
+        {
+          "value": "2 mm",
+          "label": "Épaisseur par couche"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mortier souple et imperméable à deux composants, pour corriger les supports présentant des fissures de retrait et pour l'imperméabilisation. Résiste à la pression positive et supporte même des pressions négatives élevées."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Répare et imperméabilise les fissures ; adapté aux supports soumis à de petits mouvements.",
+                "Résistant aux eaux agressives et à l'eau de mer.",
+                "Projetable à la machine ; apte à recevoir une peinture ou un revêtement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSITION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Composant A : ciment spécial, granulats sélectionnés, résines, composants actifs et adjuvants. Composant B : résine élastique."
+            },
+            {
+              "type": "p",
+              "text": "Ne pas ajouter d'adjuvant au mortier : il dispose déjà de sa résine."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Imperméabilisation des douches, salles de bains et piscines, avant la pose du revêtement céramique.",
+                "Imperméabilisation des murs et structures en béton sujets à la fissuration, et des réservoirs en béton pour l'eau.",
+                "Réhabilitation des terrasses, dalles de balcon, porte-à-faux, toitures-terrasses et corniches exposés à d'importants écarts thermiques.",
+                "Revêtement de protection contre l'eau et contre l'agression chimique des sels de déneigement, sulfates et chlorures."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTS ET PRÉPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Béton, éléments préfabriqués en béton, enduits, céramique ; également mortier, bois, parquet, plancher, plâtre ou chape autolissante."
+            },
+            {
+              "type": "p",
+              "text": "Supports sains, propres, exempts de laitance et d'agents de décoffrage, plans et sans creux. Si nécessaire, nettoyer à l'eau sous pression ou par sablage."
+            },
+            {
+              "type": "p",
+              "text": "Réparer les vides et les nids de cailloux avec un mortier de réparation, traiter les points singuliers (jonctions, angles, traversées) avec une trame et humidifier le support avant l'application."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE ET APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Verser dans un récipient propre le composant B (5 L de résine) avec la même quantité d'eau, puis ajouter peu à peu le composant A (20 kg). Mélanger environ 3 minutes au malaxeur mécanique à 300-500 tr/min."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer à la lisseuse ou au pinceau, 2 mm maximum par couche, avec une trame en fibre de verre de 80 g entre la première et la deuxième couche (2 passes). Faire chevaucher la trame d'au moins 15 cm sur les côtés."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMANDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Épaisseur finale minimale de 3-4 mm en tout point.",
+                "Température d'application de 10 à 30 °C. Ne pas appliquer en cas de risque de pluie, de gel ou de vent fort, ni en plein soleil par temps chaud.",
+                "Sur les sols circulés, le mortier doit toujours rester protégé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contient du ciment : éviter le contact avec les yeux et la peau et ne pas inhaler la poussière. Porter des gants en caoutchouc et des lunettes de protection.",
+                "Tenir hors de portée des enfants. Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Composant A (mortier)",
+                  "rows": [
+                    {
+                      "key": "Masse volumique apparente / en pâte",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Résistance à la compression",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Adhérence par traction",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Traction / allongement",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Durée de vie du mélange",
+                      "value": "60 min (repos après gâchage : 5 min)"
+                    },
+                    {
+                      "key": "Épaisseur d'application",
+                      "value": "2 mm par couche ; final 3-4 mm minimum"
+                    },
+                    {
+                      "key": "Prise / entre couches",
+                      "value": "Début 4 h ; attente entre couches 4-5 h"
+                    },
+                    {
+                      "key": "Attente avant remplissage du réservoir",
+                      "value": "> 28 jours"
+                    },
+                    {
+                      "key": "Revêtement ou peinture",
+                      "value": "> 6 jours"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "10 à 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Composant B (résine)",
+                  "rows": [
+                    {
+                      "key": "Masse volumique à 25 °C / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viscosité (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Point d'éclair",
+                      "value": "Non"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "A : sac de 20 kg (palette de 48 sacs) ; B : bidon de 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Composant A : sac de 20 kg",
+                "Composant B : bidon de 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + eau",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Malaxage",
+                      "value": "Environ 3 min, malaxeur à 300-500 tr/min."
+                    },
+                    {
+                      "key": "Repos",
+                      "value": "5 min après le gâchage."
+                    },
+                    {
+                      "key": "Durée de vie du mélange",
+                      "value": "60 min env."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les temps peuvent varier considérablement selon la température ambiante."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT FLEX SANITARY ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "MALTA CEMENTIZIA FLESSIBILE IMPERMEABILE BICOMPONENTE",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Vita utile dell'impasto"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Resistenza a compressione"
+        },
+        {
+          "value": "65 %",
+          "label": "Allungamento"
+        },
+        {
+          "value": "2 mm",
+          "label": "Spessore per mano"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Malta flessibile e impermeabile a due componenti, per correggere supporti con fessure da ritiro e per impermeabilizzare. Resiste alla pressione positiva e sopporta anche elevate pressioni negative."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ripara e impermeabilizza le fessure; adatta su supporti con piccoli movimenti.",
+                "Resistente alle acque aggressive e all'acqua di mare.",
+                "Proiettabile a macchina; adatta a ricevere pittura o rivestimento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "COMPOSIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Componente A: cemento speciale, aggregati selezionati, resine, componenti attivi e additivi. Componente B: resina elastica."
+            },
+            {
+              "type": "p",
+              "text": "Non aggiungere alcun additivo alla malta: dispone già della propria resina."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Impermeabilizzazione di docce, bagni e piscine, prima della posa del rivestimento ceramico.",
+                "Impermeabilizzazione di muri e strutture in calcestruzzo soggetti a fessurazione, e di serbatoi in calcestruzzo per acqua.",
+                "Ripristino di terrazze, balconi, sporti, coperture piane e cornicioni esposti a forti sbalzi termici.",
+                "Rivestimento protettivo contro l'acqua e l'aggressione chimica di sali disgelanti, solfati e cloruri."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTI E PREPARAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Calcestruzzo, prefabbricati in calcestruzzo, intonaci, ceramica; anche malta, legno, parquet, tavolato, gesso o massetto autolivellante."
+            },
+            {
+              "type": "p",
+              "text": "Supporti sani, puliti, privi di lattime e disarmanti, planari e senza avvallamenti. Se necessario, lavare con acqua in pressione o sabbiare."
+            },
+            {
+              "type": "p",
+              "text": "Riparare vuoti e nidi di ghiaia con malta da ripristino, trattare i punti singolari con rete e inumidire il supporto prima dell'applicazione."
+            }
+          ]
+        },
+        {
+          "title": "MISCELAZIONE E APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Versare in un recipiente pulito il componente B (5 L di resina) con la stessa quantità di acqua e aggiungere poco alla volta il componente A (20 kg). Miscelare per circa 3 minuti con agitatore meccanico a 300-500 giri/min."
+            },
+            {
+              "type": "p",
+              "text": "Applicare con spatola o pennello, massimo 2 mm per mano, con rete in fibra di vetro da 80 g tra la prima e la seconda mano (2 mani). Sovrapporre la rete di almeno 15 cm sui lati."
+            }
+          ]
+        },
+        {
+          "title": "RACCOMANDAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Spessore finale minimo di 3-4 mm in tutti i punti.",
+                "Temperatura di applicazione da 10 a 30 °C. Non applicare con rischio di pioggia, gelo o vento forte, né in pieno sole nei periodi caldi.",
+                "Sui pavimenti soggetti a calpestio, la malta deve essere sempre protetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento: evitare il contatto con occhi e pelle e non inalare la polvere. Utilizzare guanti di gomma e occhiali di protezione.",
+                "Tenere fuori dalla portata dei bambini. Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Componente A (malta)",
+                  "rows": [
+                    {
+                      "key": "Massa volumica apparente / in pasta",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Resistenza a compressione",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Aderenza per trazione",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Trazione / allungamento",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Vita utile dell'impasto",
+                      "value": "60 min (riposo dopo la miscelazione: 5 min)"
+                    },
+                    {
+                      "key": "Spessore di applicazione",
+                      "value": "2 mm per mano; finale minimo 3-4 mm"
+                    },
+                    {
+                      "key": "Presa / tra le mani",
+                      "value": "Inizio 4 h; attesa tra le mani 4-5 h"
+                    },
+                    {
+                      "key": "Attesa per il riempimento del serbatoio",
+                      "value": "> 28 giorni"
+                    },
+                    {
+                      "key": "Rivestimento o pittura",
+                      "value": "> 6 giorni"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 10 a 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Componente B (resina)",
+                  "rows": [
+                    {
+                      "key": "Densità a 25 °C / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viscosità (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Punto di infiammabilità",
+                      "value": "No"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "A: sacco da 20 kg (pallet da 48 sacchi); B: tanica da 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Componente A: sacco da 20 kg",
+                "Componente B: tanica da 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "MISCELA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + acqua",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Miscelazione",
+                      "value": "Circa 3 min, agitatore a 300-500 giri/min."
+                    },
+                    {
+                      "key": "Riposo",
+                      "value": "5 min dopo la miscelazione."
+                    },
+                    {
+                      "key": "Vita utile dell'impasto",
+                      "value": "60 min ca."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "I tempi possono variare notevolmente con la temperatura ambiente."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT FLEX SANITARY NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "FLEKSIBEL, VANNTETT SEMENTMØRTEL, TO KOMPONENTER",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Brukstid"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Trykkfasthet"
+        },
+        {
+          "value": "65 %",
+          "label": "Forlengelse"
+        },
+        {
+          "value": "2 mm",
+          "label": "Tykkelse per strøk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Fleksibel og vanntett tokomponentmørtel for utbedring av underlag med svinnsprekker og for tetting. Tåler positivt vanntrykk og selv høyt negativt vanntrykk."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Reparerer og tetter sprekker; egnet på underlag med små bevegelser.",
+                "Bestandig mot aggressivt vann og sjøvann.",
+                "Kan sprøytes maskinelt; egnet for maling eller overflatebelegg."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SAMMENSETNING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Komponent A: spesialsement, utvalgte tilslag, harpikser, aktive komponenter og tilsetningsstoffer. Komponent B: elastisk harpiks."
+            },
+            {
+              "type": "p",
+              "text": "Ikke tilsett noen tilsetningsstoffer i mørtelen: den har allerede sin egen harpiks."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tetting av dusjer, bad og svømmebasseng før flisene legges.",
+                "Tetting av betongvegger og betongkonstruksjoner som utsettes for sprekkdannelse, og av betongtanker for vann.",
+                "Rehabilitering av terrasser, balkongplater, utkragede plater, flate tak og gesimser som utsettes for store temperaturforskjeller.",
+                "Beskyttende belegg mot vann og kjemisk påvirkning fra tinesalter, sulfater og klorider."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNDERLAG OG KLARGJØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betong, betongelementer, puss, keramikk; også mørtel, tre, parkett, tregulv, gips eller selvutjevnende avrettingsmasse."
+            },
+            {
+              "type": "p",
+              "text": "Underlaget må være fast, rent, uten sementslam og forskalingsolje, plant og uten fordypninger. Om nødvendig vaskes det med høytrykksspyler eller sandblåses."
+            },
+            {
+              "type": "p",
+              "text": "Reparer hull og hulrom med reparasjonsmørtel, behandle kritiske detaljer (skjøter, hjørner, gjennomføringer) med nett og fukt underlaget før påføring."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING OG PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hell komponent B (5 L harpiks) i en ren beholder sammen med like mye vann, og tilsett komponent A (20 kg) litt etter litt. Bland i ca. 3 minutter med mekanisk rører på 300-500 o/min."
+            },
+            {
+              "type": "p",
+              "text": "Påfør med slikkestein eller pensel, maksimalt 2 mm per strøk, med glassfibernett på 80 g mellom første og andre strøk (2 strøk). La nettet overlappe minst 15 cm på sidene."
+            }
+          ]
+        },
+        {
+          "title": "ANBEFALINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Minste ferdige tykkelse på 3-4 mm overalt.",
+                "Påføringstemperatur fra 10 til 30 °C. Må ikke påføres ved fare for regn, frost eller sterk vind, og ikke i direkte sol i varmt vær.",
+                "På gulv med trafikk må mørtelen alltid beskyttes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inneholder sement: unngå kontakt med øyne og hud, og ikke pust inn støvet. Bruk gummihansker og vernebriller.",
+                "Oppbevares utilgjengelig for barn. Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Komponent A (mørtel)",
+                  "rows": [
+                    {
+                      "key": "Romvekt / våt densitet",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Trykkfasthet",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Heftfasthet ved strekk",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Strekkfasthet / forlengelse",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Brukstid",
+                      "value": "60 min (hviletid etter blanding: 5 min)"
+                    },
+                    {
+                      "key": "Påføringstykkelse",
+                      "value": "2 mm per strøk; ferdig minst 3-4 mm"
+                    },
+                    {
+                      "key": "Herding / mellom strøk",
+                      "value": "Start 4 t; ventetid mellom strøk 4-5 t"
+                    },
+                    {
+                      "key": "Ventetid før tanken fylles",
+                      "value": "> 28 døgn"
+                    },
+                    {
+                      "key": "Flislegging eller maling",
+                      "value": "> 6 døgn"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "10 til 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Komponent B (harpiks)",
+                  "rows": [
+                    {
+                      "key": "Densitet ved 25 °C / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Viskositet (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Flammepunkt",
+                      "value": "Nei"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "A: sekk på 20 kg (pall med 48 sekker); B: dunk på 5 L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Komponent A: sekk på 20 kg",
+                "Komponent B: dunk på 5 L"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + vann",
+                      "value": "20 kg + 5 L + 5 L."
+                    },
+                    {
+                      "key": "Blanding",
+                      "value": "Ca. 3 min, rører på 300-500 o/min."
+                    },
+                    {
+                      "key": "Hviletid",
+                      "value": "5 min etter blanding."
+                    },
+                    {
+                      "key": "Brukstid",
+                      "value": "Ca. 60 min."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Tidene kan variere betydelig med omgivelsestemperaturen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT FLEX SANITARY POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Flex Sanitary",
+      "subtitle": "ELASTYCZNA, WODOSZCZELNA ZAPRAWA CEMENTOWA 2K",
+      "stats": [
+        {
+          "value": "60 min",
+          "label": "Czas użyteczności mieszanki"
+        },
+        {
+          "value": "> 20 MPa",
+          "label": "Wytrzymałość na ściskanie"
+        },
+        {
+          "value": "65 %",
+          "label": "Wydłużenie"
+        },
+        {
+          "value": "2 mm",
+          "label": "Grubość warstwy"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dwuskładnikowa, elastyczna i wodoszczelna zaprawa do korygowania podłoży z rysami skurczowymi oraz do hydroizolacji. Odporna na ciśnienie dodatnie i wytrzymuje nawet wysokie ciśnienie ujemne."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Naprawia i uszczelnia rysy; odpowiednia na podłożach z niewielkimi ruchami.",
+                "Odporna na wody agresywne i wodę morską.",
+                "Można nakładać maszynowo; nadaje się pod malowanie lub okładziny."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SKŁAD",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Składnik A: cement specjalny, wyselekcjonowane kruszywa, żywice, składniki aktywne i dodatki. Składnik B: żywica elastyczna."
+            },
+            {
+              "type": "p",
+              "text": "Nie dodawać do zaprawy żadnych dodatków: zawiera już własną żywicę."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hydroizolacja pryszniców, łazienek i basenów przed ułożeniem okładziny ceramicznej.",
+                "Hydroizolacja ścian i konstrukcji betonowych narażonych na pękanie oraz betonowych zbiorników na wodę.",
+                "Renowacja tarasów, płyt balkonowych, wsporników, dachów płaskich i gzymsów narażonych na duże zmiany temperatury.",
+                "Powłoka ochronna przed wodą oraz agresją chemiczną soli odladzających, siarczanów i chlorków."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PODŁOŻA I PRZYGOTOWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, prefabrykaty betonowe, tynki, ceramika; także zaprawa, drewno, parkiet, deska podłogowa, gips lub wylewka samopoziomująca."
+            },
+            {
+              "type": "p",
+              "text": "Podłoża zdrowe, czyste, bez mleczka cementowego i środków antyadhezyjnych, równe i bez zagłębień. W razie potrzeby umyć wodą pod ciśnieniem lub piaskować."
+            },
+            {
+              "type": "p",
+              "text": "Ubytki i raki naprawić zaprawą naprawczą, newralgiczne miejsca (połączenia, narożniki, przejścia) zabezpieczyć siatką i zwilżyć podłoże przed aplikacją."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANIE I APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Do czystego pojemnika wlać składnik B (5 l żywicy) z taką samą ilością wody i stopniowo dodawać składnik A (20 kg). Mieszać ok. 3 minut mieszadłem mechanicznym 300-500 obr./min."
+            },
+            {
+              "type": "p",
+              "text": "Nakładać packą lub pędzlem, maksymalnie 2 mm na warstwę, z siatką z włókna szklanego 80 g między pierwszą a drugą warstwą (2 warstwy). Siatkę układać z zakładem co najmniej 15 cm po bokach."
+            }
+          ]
+        },
+        {
+          "title": "ZALECENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Minimalna grubość końcowa 3-4 mm w każdym punkcie.",
+                "Temperatura aplikacji od 10 do 30 °C. Nie stosować przy ryzyku deszczu, mrozu lub silnego wiatru ani w pełnym słońcu w upały.",
+                "Na posadzkach użytkowanych zaprawa musi być zawsze zabezpieczona."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Zawiera cement: unikać kontaktu z oczami i skórą oraz nie wdychać pyłu. Stosować rękawice gumowe i okulary ochronne.",
+                "Przechowywać poza zasięgiem dzieci. Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Składnik A (zaprawa)",
+                  "rows": [
+                    {
+                      "key": "Gęstość nasypowa / w stanie świeżym",
+                      "value": "1,3 / 1,6 g/cm³"
+                    },
+                    {
+                      "key": "Wytrzymałość na ściskanie",
+                      "value": "> 20 N/mm²"
+                    },
+                    {
+                      "key": "Przyczepność przy odrywaniu",
+                      "value": "> 1,5 MPa"
+                    },
+                    {
+                      "key": "Rozciąganie / wydłużenie",
+                      "value": "1,6 MPa / 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Czas użyteczności mieszanki",
+                      "value": "60 min (przerwa po zmieszaniu: 5 min)"
+                    },
+                    {
+                      "key": "Grubość aplikacji",
+                      "value": "2 mm na warstwę; końcowa min. 3-4 mm"
+                    },
+                    {
+                      "key": "Wiązanie / między warstwami",
+                      "value": "Początek 4 h; przerwa między warstwami 4-5 h"
+                    },
+                    {
+                      "key": "Oczekiwanie przed napełnieniem zbiornika",
+                      "value": "> 28 dni"
+                    },
+                    {
+                      "key": "Okładzina lub malowanie",
+                      "value": "> 6 dni"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "10 do 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Składnik B (żywica)",
+                  "rows": [
+                    {
+                      "key": "Gęstość w 25 °C / pH",
+                      "value": "1,09 kg/l / 8,4"
+                    },
+                    {
+                      "key": "Lepkość (25 °C)",
+                      "value": "1500-2000 mPa·s"
+                    },
+                    {
+                      "key": "Temperatura zapłonu",
+                      "value": "Brak"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "A: worek 20 kg (paleta 48 worków); B: kanister 5 l"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Składnik A: worek 20 kg",
+                "Składnik B: kanister 5 l"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A + B + woda",
+                      "value": "20 kg + 5 l + 5 l."
+                    },
+                    {
+                      "key": "Mieszanie",
+                      "value": "Ok. 3 min, mieszadło 300-500 obr./min."
+                    },
+                    {
+                      "key": "Przerwa",
+                      "value": "5 min po zmieszaniu."
+                    },
+                    {
+                      "key": "Czas użyteczności",
+                      "value": "ok. 60 min."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Czasy mogą się znacznie różnić w zależności od temperatury otoczenia."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

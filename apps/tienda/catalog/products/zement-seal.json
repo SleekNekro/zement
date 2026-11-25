@@ -1,0 +1,2119 @@
+{
+  "key": "zement-seal",
+  "source": "ZEMENT SEAL",
+  "languages": {
+    "de": {
+      "file": "ZEMENT SEAL ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Seal",
+      "subtitle": "2K-EPOXIDGRUNDIERUNG, 100 % FESTSTOFFE, DAMPFSPERRE",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Feststoffe nach Gewicht, lösemittelfrei"
+        },
+        {
+          "value": "1 Std.",
+          "label": "Topfzeit bei 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² Haftung auf Beton"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Ungefährer Verbrauch pro Anstrich"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Zweikomponentige, niedrigviskose und lösemittelfreie Grundierung auf Epoxidharzbasis mit 100 % Feststoffen. Sie bildet auf jedem trockenen oder feuchten Untergrund eine Dampfsperre und schützt ihn vor Feuchtigkeit. Wirkt auch unter Wasser."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Dampfsperre gegen Feuchtigkeit im Beton.",
+                "Auf feuchten, aber nicht nassen Untergründen verarbeitbar.",
+                "Für Dauerwasserbelastung geeignet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESCHREIBUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zweikomponentiges System aus Basis (A) und Härter (B) im Mischungsverhältnis 100:60 nach Gewicht, geliefert in Metallgebinden, die fertig zum Mischen abgestimmt sind."
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Untergrund: Der erhärtete Beton muss fest und sauber sein. Er darf feucht, aber nicht nass sein. Öle, Fette, Mörtelreste und alle Fremdstoffe zuvor entfernen."
+            },
+            {
+              "type": "p",
+              "text": "Mischen: Komponente B zur Komponente A geben und 2-3 Minuten lang verrühren, bis eine gleichmäßige Mischung entsteht."
+            },
+            {
+              "type": "p",
+              "text": "Auftrag: mit der Farbrolle. Der erste Anstrich kann zur Sicherung der Haftung mit maximal 10 % BV-Lösemittel verdünnt werden; zweiter Anstrich unverdünnt."
+            },
+            {
+              "type": "p",
+              "text": "Keine Materialien auftragen, solange die Grundierung nicht gut durchgetrocknet ist. Bei Verwendung als Haftbrücke von Frischbeton auf Altbeton den Frischbeton vor Ablauf der offenen Zeit einbringen."
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Empfohlener Verbrauch: 0,4 kg/m² pro Anstrich (4 kg je 10 m²), je nach Saugfähigkeit des Untergrunds."
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dampfsperre in Kellern und an Orten mit anhaltender Feuchtigkeit im Beton.",
+                "Grundierung auf Beton, Mörtel und feuchten, saugfähigen Untergründen bei Dauerwasserbelastung: Becken, Brunnen, Kanäle usw.",
+                "Universalgrundierung vor Epoxid- oder Polyurethanbeschichtungen und -anstrichen.",
+                "Korrosionsschutzgrundierung für Bewehrungsstahl vor dem Auftrag hydraulischer Mörtel bei der Instandsetzung von Stahlbetonbauwerken.",
+                "In Ausnahmefällen zum Verbinden bereits erhärteter Betone."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % Feststoffe und lösemittelfrei.",
+                "Funktioniert auf trockenen und nassen Oberflächen, auch unter Wasser.",
+                "Niedrige Viskosität: gutes Eindringen und gute Verankerung.",
+                "Verträglich mit Epoxid- und Polyurethan-Deckbeschichtungen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kontakt mit Augen und Haut vermeiden. Beim Mischen und Verarbeiten Gummihandschuhe und Schutzbrille tragen.",
+                "Bei Augenkontakt sofort mit reichlich sauberem Wasser spülen, nicht reiben, und einen Arzt aufsuchen.",
+                "Bei Hautkontakt mit warmem Wasser und Seife reinigen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produktdaten",
+                  "rows": [
+                    {
+                      "key": "Lieferform",
+                      "value": "Zwei Komponenten (A + B)"
+                    },
+                    {
+                      "key": "Spezifisches Gewicht",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Viskosität der Mischung",
+                      "value": "600-800 mPa·s bei 20 °C"
+                    },
+                    {
+                      "key": "Feststoffe nach Gewicht",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Mischungsverhältnis (Basis / Härter)",
+                      "value": "100:60 Gewichtsteile"
+                    },
+                    {
+                      "key": "Empfohlener Verbrauch",
+                      "value": "0,4 kg/m² pro Anstrich, je nach Saugfähigkeit"
+                    },
+                    {
+                      "key": "Topfzeit",
+                      "value": "1 Stunde bei 20 °C"
+                    },
+                    {
+                      "key": "Offene Zeit",
+                      "value": "3 Stunden bei 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leistungsmerkmale",
+                  "rows": [
+                    {
+                      "key": "Haftung auf Beton (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Lagerstabilität",
+                      "value": "12 Monate in ungeöffneten Originalgebinden, überdacht gelagert"
+                    },
+                    {
+                      "key": "Gebinde",
+                      "value": "Metallgebinde (A+B) à 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Haftzugfestigkeit: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Metallgebinde (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung und überdacht. Zwischen 5 und 40 °C lagern."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 nach Gewicht (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Mischen",
+                      "value": "2-3 Minuten, bis eine gleichmäßige Mischung entsteht."
+                    },
+                    {
+                      "key": "Erster Anstrich",
+                      "value": "Maximal 10 % Verdünnung mit BV-Lösemittel."
+                    },
+                    {
+                      "key": "Zweiter Anstrich",
+                      "value": "Unverdünnt."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Komponente B zur Komponente A geben. Mit der Farbrolle auftragen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT SEAL INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Seal",
+      "subtitle": "TWO-COMPONENT EPOXY PRIMER, 100 % SOLIDS, VAPOUR BARRIER",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Solids by weight, solvent-free"
+        },
+        {
+          "value": "1 h",
+          "label": "Pot life at 20 °C"
+        },
+        {
+          "value": "> 2.5",
+          "label": "N/mm² adhesion to concrete"
+        },
+        {
+          "value": "0.4 kg/m²",
+          "label": "Approximate consumption per coat"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Two-component primer based on low-viscosity, solvent-free epoxy resins with 100 % solids. It forms a vapour barrier on any dry or damp surface and protects the substrate from moisture. It also works underwater."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vapour barrier against moisture in concrete.",
+                "Can be applied on damp substrates, but not on substrates with standing water.",
+                "Suitable for permanent immersion."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Two-component system: base (Part A) and hardener (Part B), in a 100:60 ratio by weight, supplied in metal containers ready to mix."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Substrate: hardened concrete must be sound and clean. It may be damp, but not with standing water. Beforehand, remove oils, grease, mortar residues and any foreign matter."
+            },
+            {
+              "type": "p",
+              "text": "Mixing: pour Part B into Part A and mix for 2-3 minutes until a uniform appearance is achieved."
+            },
+            {
+              "type": "p",
+              "text": "Application: with a paint roller. On the first coat, up to a maximum of 10 % dilution with BV solvent is allowed to ensure bonding; second coat undiluted."
+            },
+            {
+              "type": "p",
+              "text": "Do not apply any material over the primer unless it is fully dry. When used as a bonding agent between new and old concrete, pour the new concrete before the open time of the primer has elapsed."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Recommended consumption: 0.4 kg/m² per coat (4 kg per 10 m²), depending on the porosity of the substrate."
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vapour barrier in basements and places where moisture persists in the concrete.",
+                "Primer on concrete, mortars and damp porous substrates in permanent immersion applications: tanks, fountains, channels, etc.",
+                "Universal primer prior to epoxy or polyurethane paints and coatings.",
+                "Reinforcement passivation primer before build-up with hydraulic mortars in the repair of reinforced concrete structures.",
+                "In exceptional cases, bonding of already hardened concretes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % solids and solvent-free.",
+                "Works on dry or wet surfaces, even underwater.",
+                "Low viscosity: good penetration and anchorage.",
+                "Compatible with epoxy and polyurethane finishes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Avoid contact with eyes and skin. Wear rubber gloves and protective goggles during mixing and application.",
+                "Splashes in the eyes: rinse immediately with plenty of clean water, without rubbing, and seek medical attention.",
+                "Skin contact: clean with lukewarm water and soap.",
+                "Keep out of the reach of children.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Product data",
+                  "rows": [
+                    {
+                      "key": "Packaging",
+                      "value": "Two components (A + B)"
+                    },
+                    {
+                      "key": "Specific weight",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Mix viscosity",
+                      "value": "600-800 mPa·s at 20 °C"
+                    },
+                    {
+                      "key": "Solids by weight",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Mixing ratio (base / hardener)",
+                      "value": "100:60 parts by weight"
+                    },
+                    {
+                      "key": "Recommended consumption",
+                      "value": "0.4 kg/m² per coat, depending on porosity"
+                    },
+                    {
+                      "key": "Pot life",
+                      "value": "1 hour at 20 °C"
+                    },
+                    {
+                      "key": "Open time",
+                      "value": "3 hours at 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performance",
+                  "rows": [
+                    {
+                      "key": "Adhesion to concrete (EN 1542)",
+                      "value": "> 2.5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Storage stability",
+                      "value": "12 months in original, closed containers, protected from the weather"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "Metal containers (A+B) of 2.5 + 1.5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Pull-off adhesion: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Metal containers (A+B)",
+                "2.5 + 1.5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging and protected from the weather. Store between 5 and 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "MIXING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 by weight (2.5 + 1.5 kg)."
+                    },
+                    {
+                      "key": "Mixing",
+                      "value": "2-3 minutes, until uniform in appearance."
+                    },
+                    {
+                      "key": "First coat",
+                      "value": "Maximum 10 % dilution with BV solvent."
+                    },
+                    {
+                      "key": "Second coat",
+                      "value": "Undiluted."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour Part B into Part A. Apply with a paint roller."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT SEAL ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Seal",
+      "subtitle": "IMPRIMACIÓN EPOXI BICOMPONENTE 100 % SÓLIDOS, BARRERA DE VAPOR",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Sólidos en peso, sin disolventes"
+        },
+        {
+          "value": "1 h",
+          "label": "Pot-life a 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² de adherencia al hormigón"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Consumo aproximado por mano"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Imprimación bicomponente a base de resinas epoxi, de baja viscosidad, libre de disolventes y con 100 % de sólidos. Crea una barrera de vapor sobre cualquier superficie seca o húmeda y protege el soporte de la humedad. Actúa también bajo el agua."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Barrera de vapor frente a la humedad del hormigón.",
+                "Aplicable sobre soportes húmedos, pero no encharcados.",
+                "Apta para inmersión permanente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPCIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sistema de dos componentes: base (A) y reactor (B), en proporción 100:60 en peso, que se suministran en envases metálicos listos para mezclar."
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Soporte: el hormigón endurecido debe estar sólido y limpio. Puede estar húmedo, pero no encharcado. Eliminar previamente aceites, grasas, restos de mortero y cualquier materia extraña."
+            },
+            {
+              "type": "p",
+              "text": "Mezcla: verter el componente B sobre el A y homogeneizar durante 2-3 minutos hasta lograr un aspecto uniforme."
+            },
+            {
+              "type": "p",
+              "text": "Aplicación: con rodillo de pintura plástica. En la primera mano puede diluirse un máximo del 10 % con disolvente BV para asegurar el agarre; segunda mano pura."
+            },
+            {
+              "type": "p",
+              "text": "No aplicar ningún material encima si la imprimación no está bien seca. Como adhesivo de hormigón nuevo sobre viejo, verter el hormigón nuevo antes de que finalice el tiempo abierto de adherencia."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo recomendado: 0,4 kg/m² por mano (4 kg cada 10 m²), según la porosidad del soporte."
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Barrera de vapor en sótanos y lugares donde persiste la humedad en el hormigón.",
+                "Imprimación sobre hormigón, morteros y soportes porosos húmedos en aplicaciones con inmersión permanente: depósitos, fuentes, canales, etc.",
+                "Imprimación universal previa a pinturas y revestimientos epoxi o de poliuretano.",
+                "Pasivador de armaduras antes del recrecido con morteros hidráulicos en reparación de estructuras de hormigón armado.",
+                "En casos excepcionales, unión de hormigones ya endurecidos."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % sólidos y sin disolventes.",
+                "Funciona sobre superficies secas o mojadas, incluso bajo el agua.",
+                "Baja viscosidad: buena penetración y anclaje.",
+                "Compatible con acabados epoxi y de poliuretano."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Evitar el contacto con ojos y piel. Usar guantes de goma y gafas de protección durante la mezcla y la aplicación.",
+                "Salpicaduras en los ojos: enjuagar de inmediato con abundante agua limpia, sin restregar, y acudir al médico.",
+                "Contacto con la piel: limpiar con agua tibia y jabón.",
+                "Mantener fuera del alcance de los niños.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Datos del producto",
+                  "rows": [
+                    {
+                      "key": "Presentación",
+                      "value": "Dos componentes (A + B)"
+                    },
+                    {
+                      "key": "Peso específico",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Viscosidad de la mezcla",
+                      "value": "600-800 mPa·s a 20 °C"
+                    },
+                    {
+                      "key": "Sólidos en peso",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Proporción de mezcla (base / reactor)",
+                      "value": "100:60 partes en peso"
+                    },
+                    {
+                      "key": "Consumo recomendado",
+                      "value": "0,4 kg/m² por mano, según la porosidad"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "1 hora a 20 °C"
+                    },
+                    {
+                      "key": "Tiempo de adherencia",
+                      "value": "3 horas a 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestaciones",
+                  "rows": [
+                    {
+                      "key": "Adherencia al hormigón (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Estabilidad de almacenaje",
+                      "value": "12 meses en envases originales cerrados y a cubierto"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Envases metálicos (A+B) de 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Adherencia por tracción directa: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Envases metálicos (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado y a cubierto. Almacenar entre 5 y 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 en peso (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Mezclado",
+                      "value": "2-3 minutos, hasta aspecto uniforme."
+                    },
+                    {
+                      "key": "Primera mano",
+                      "value": "Dilución máxima del 10 % con disolvente BV."
+                    },
+                    {
+                      "key": "Segunda mano",
+                      "value": "Pura."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Verter el componente B sobre el A. Aplicar con rodillo de pintura plástica."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT SEAL FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Seal",
+      "subtitle": "2K-EPOKSIPOHJUSTE, 100 % KUIVA-AINE, HÖYRYNSULKU",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Kuiva-ainepitoisuus painosta, liuottimeton"
+        },
+        {
+          "value": "1 h",
+          "label": "Käyttöaika (pot-life) 20 °C:ssa"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² tartunta betoniin"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Arvioitu kulutus kerrosta kohti"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Epoksihartseihin perustuva kaksikomponenttinen pohjuste, jonka viskositeetti on alhainen ja joka on liuottimeton ja sisältää 100 % kuiva-ainetta. Muodostaa höyrynsulun kuivalle tai kostealle alustalle ja suojaa sitä kosteudelta. Toimii myös veden alla."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Höyrynsulku betonin kosteutta vastaan.",
+                "Voidaan levittää kosteille, mutta ei märille eikä lammikoituneille alustoille.",
+                "Soveltuu jatkuvaan upotukseen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KUVAUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Kaksikomponenttinen järjestelmä: pohja (A) ja kovete (B) painosuhteessa 100:60, toimitetaan metallipakkauksissa valmiina sekoitettavaksi."
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Alusta: kovettuneen betonin on oltava kiinteää ja puhdasta. Se voi olla kosteaa, mutta ei lammikoitunutta. Poista etukäteen öljyt, rasvat, laastijäämät ja kaikki vieraat aineet."
+            },
+            {
+              "type": "p",
+              "text": "Sekoitus: kaada komponentti B komponentin A joukkoon ja sekoita 2-3 minuuttia, kunnes seos on tasalaatuista."
+            },
+            {
+              "type": "p",
+              "text": "Levitys: muovimaalitelalla. Ensimmäisessä kerroksessa voidaan käyttää enintään 10 % BV-liuotinta laimennukseen tartunnan varmistamiseksi; toinen kerros laimentamattomana."
+            },
+            {
+              "type": "p",
+              "text": "Älä levitä pohjusteen päälle mitään materiaalia ennen kuin se on kunnolla kuivunut. Kun sitä käytetään tartuntasiltana uuden betonin ja vanhan betonin välillä, uusi betoni on valettava ennen tartunta-ajan (avoimen ajan) päättymistä."
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Suositeltu kulutus: 0,4 kg/m² kerrosta kohti (4 kg 10 m²:lle) alustan huokoisuuden mukaan."
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Höyrynsulku kellareissa ja kohteissa, joissa betoni pysyy jatkuvasti kosteana.",
+                "Pohjuste betonille, laasteille ja kosteille huokoisille alustoille jatkuvaa upotusta vaativissa kohteissa: säiliöt, suihkukaivot, kanavat jne.",
+                "Yleispohjuste ennen epoksi- tai polyuretaanimaaleja ja -pinnoitteita.",
+                "Raudoitteiden passivointi ennen hydraulisilla laasteilla tehtävää paikkausta teräsbetonirakenteiden korjauksessa.",
+                "Poikkeustapauksissa jo kovettuneiden betonien liittäminen toisiinsa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % kuiva-ainetta ja liuottimeton.",
+                "Toimii kuivilla ja märillä pinnoilla, myös veden alla.",
+                "Alhainen viskositeetti: hyvä tunkeutuminen ja ankkuroituminen.",
+                "Yhteensopiva epoksi- ja polyuretaanipinnoitteiden kanssa."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vältä kosketusta silmiin ja ihoon. Käytä kumikäsineitä ja suojalaseja sekoituksen ja levityksen aikana.",
+                "Roiskeet silmiin: huuhtele välittömästi runsaalla puhtaalla vedellä hieromatta ja hakeudu lääkäriin.",
+                "Ihokosketus: pese haalealla vedellä ja saippualla.",
+                "Säilytä lasten ulottumattomissa.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Tuotetiedot",
+                  "rows": [
+                    {
+                      "key": "Pakkaus",
+                      "value": "Kaksi komponenttia (A + B)"
+                    },
+                    {
+                      "key": "Ominaispaino",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Seoksen viskositeetti",
+                      "value": "600-800 mPa·s 20 °C:ssa"
+                    },
+                    {
+                      "key": "Kuiva-aine painosta",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Sekoitussuhde (pohja / kovete)",
+                      "value": "100:60 painoosaa"
+                    },
+                    {
+                      "key": "Suositeltu kulutus",
+                      "value": "0,4 kg/m² kerrosta kohti, huokoisuuden mukaan"
+                    },
+                    {
+                      "key": "Seoksen käyttöaika (pot-life)",
+                      "value": "1 tunti 20 °C:ssa"
+                    },
+                    {
+                      "key": "Tartunta-aika",
+                      "value": "3 tuntia 20 °C:ssa"
+                    }
+                  ]
+                },
+                {
+                  "title": "Suorituskyky",
+                  "rows": [
+                    {
+                      "key": "Tartunta betoniin (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Varastointistabiilius",
+                      "value": "12 kuukautta avaamattomissa alkuperäispakkauksissa, suojattuna"
+                    },
+                    {
+                      "key": "Pakkauskoko",
+                      "value": "Metallipakkaukset (A+B) 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vetotartunta: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Metallipakkaukset (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa ja suojattuna. Säilytettävä 5–40 °C:ssa."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 painon mukaan (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Sekoitus",
+                      "value": "2-3 minuuttia, kunnes seos on tasalaatuista."
+                    },
+                    {
+                      "key": "Ensimmäine n kerros",
+                      "value": "Enintään 10 % laimennus BV-liuottimella."
+                    },
+                    {
+                      "key": "Toinen kerros",
+                      "value": "Laimentamattomana."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Kaada komponentti B komponentin A joukkoon. Levitä muovimaalitelalla."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT SEAL FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Seal",
+      "subtitle": "PRIMAIRE ÉPOXY BICOMPOSANT 100 % EXTRAIT SEC, PARE-VAPEUR",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Extrait sec en poids, sans solvants"
+        },
+        {
+          "value": "1 h",
+          "label": "Durée pratique d'utilisation à 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² d'adhérence au béton"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Consommation approximative par couche"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Primaire bicomposant à base de résines époxy, de faible viscosité, sans solvants et à 100 % d'extrait sec. Il crée une barrière vapeur sur toute surface sèche ou humide et protège le support de l'humidité. Il agit également sous l'eau."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Barrière vapeur contre l'humidité du béton.",
+                "Applicable sur supports humides, mais non détrempés.",
+                "Adapté à l'immersion permanente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Système à deux composants : base (A) et durcisseur (B), dans une proportion de 100:60 en poids, fournis en récipients métalliques prêts à mélanger."
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Support : le béton durci doit être sain et propre. Il peut être humide, mais non détrempé. Éliminer au préalable huiles, graisses, résidus de mortier et toute matière étrangère."
+            },
+            {
+              "type": "p",
+              "text": "Mélange : verser le composant B sur le composant A et malaxer pendant 2-3 minutes jusqu'à obtention d'un aspect uniforme."
+            },
+            {
+              "type": "p",
+              "text": "Application : au rouleau pour peinture plastique. Pour la première couche, il est possible de diluer jusqu'à 10 % maximum avec du solvant BV afin d'assurer l'accroche ; deuxième couche pure."
+            },
+            {
+              "type": "p",
+              "text": "Ne rien appliquer par-dessus tant que le primaire n'est pas bien sec. En tant que pont d'adhérence béton neuf sur béton ancien, couler le béton neuf avant la fin du temps ouvert."
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consommation recommandée : 0,4 kg/m² par couche (4 kg pour 10 m²), selon la porosité du support."
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Barrière vapeur dans les sous-sols et les lieux où l'humidité persiste dans le béton.",
+                "Primaire sur béton, mortiers et supports poreux humides dans les applications en immersion permanente : réservoirs, fontaines, canaux, etc.",
+                "Primaire universel avant peintures et revêtements époxy ou polyuréthane.",
+                "Passivation des armatures avant le ragréage avec des mortiers hydrauliques lors de la réparation de structures en béton armé.",
+                "Dans des cas exceptionnels, liaison de bétons déjà durcis."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % d'extrait sec et sans solvants.",
+                "Fonctionne sur surfaces sèches ou mouillées, même sous l'eau.",
+                "Faible viscosité : bonne pénétration et bon ancrage.",
+                "Compatible avec les finitions époxy et polyuréthane."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Éviter le contact avec les yeux et la peau. Porter des gants en caoutchouc et des lunettes de protection pendant le mélange et l'application.",
+                "En cas de projection dans les yeux : rincer immédiatement à grande eau propre, sans frotter, et consulter un médecin.",
+                "Contact avec la peau : nettoyer à l'eau tiède et au savon.",
+                "Tenir hors de portée des enfants.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Données du produit",
+                  "rows": [
+                    {
+                      "key": "Présentation",
+                      "value": "Deux composants (A + B)"
+                    },
+                    {
+                      "key": "Masse volumique",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Viscosité du mélange",
+                      "value": "600-800 mPa·s à 20 °C"
+                    },
+                    {
+                      "key": "Extrait sec en poids",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Proportion de mélange (base / durcisseur)",
+                      "value": "100:60 parties en poids"
+                    },
+                    {
+                      "key": "Consommation recommandée",
+                      "value": "0,4 kg/m² par couche, selon la porosité"
+                    },
+                    {
+                      "key": "Durée de vie du mélange",
+                      "value": "1 heure à 20 °C"
+                    },
+                    {
+                      "key": "Temps ouvert d'adhérence",
+                      "value": "3 heures à 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performances",
+                  "rows": [
+                    {
+                      "key": "Adhérence au béton (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Stabilité au stockage",
+                      "value": "12 mois en emballage d'origine fermé et à l'abri"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Récipients métalliques (A+B) de 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Adhérence par traction directe : UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Récipients métalliques (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé et à l'abri. Stocker entre 5 et 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 en poids (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Malaxage",
+                      "value": "2-3 minutes, jusqu'à aspect uniforme."
+                    },
+                    {
+                      "key": "Première couche",
+                      "value": "Dilution maximale de 10 % avec du solvant BV."
+                    },
+                    {
+                      "key": "Deuxième couche",
+                      "value": "Pure."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Verser le composant B sur le composant A. Appliquer au rouleau pour peinture plastique."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT SEAL ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Seal",
+      "subtitle": "PRIMER EPOSSIDICO BICOMPONENTE 100 % SOLIDI, BARRIERA VAPORE",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Solidi in peso, senza solventi"
+        },
+        {
+          "value": "1 h",
+          "label": "Pot-life a 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² di aderenza al calcestruzzo"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Consumo approssimativo per mano"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Primer bicomponente a base di resine epossidiche, a bassa viscosità, privo di solventi e con 100 % di solidi. Crea una barriera al vapore su qualsiasi superficie asciutta o umida e protegge il supporto dall'umidità. Funziona anche sott'acqua."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Barriera al vapore contro l'umidità del calcestruzzo.",
+                "Applicabile su supporti umidi, ma non bagnati con ristagni d'acqua.",
+                "Adatto all'immersione permanente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DESCRIZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sistema a due componenti: base (A) e indurente (B), in rapporto 100:60 in peso, forniti in confezioni metalliche pronte per la miscelazione."
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Supporto: il calcestruzzo indurito deve essere solido e pulito. Può essere umido, ma non bagnato con ristagni d'acqua. Rimuovere preventivamente oli, grassi, residui di malta e qualsiasi corpo estraneo."
+            },
+            {
+              "type": "p",
+              "text": "Miscelazione: versare il componente B sul componente A e miscelare per 2-3 minuti fino a ottenere un aspetto uniforme."
+            },
+            {
+              "type": "p",
+              "text": "Applicazione: con rullo per pittura a pelo corto in materiale sintetico. Nella prima mano si può diluire al massimo del 10 % con solvente BV per garantire l'aggrappo; seconda mano pura."
+            },
+            {
+              "type": "p",
+              "text": "Non applicare alcun materiale sopra il primer se non è perfettamente asciutto. Come adesivo per getti di calcestruzzo nuovo su vecchio, versare il calcestruzzo nuovo prima che termini il tempo aperto di adesione."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo consigliato: 0,4 kg/m² per mano (4 kg ogni 10 m²), in base alla porosità del supporto."
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Barriera al vapore in seminterrati e in ambienti dove l'umidità persiste nel calcestruzzo.",
+                "Primer su calcestruzzo, malte e supporti porosi umidi in applicazioni con immersione permanente: serbatoi, fontane, canali, ecc.",
+                "Primer universale prima di pitture e rivestimenti epossidici o poliuretanici.",
+                "Passivante per armature prima del ripristino con malte idrauliche nella riparazione di strutture in calcestruzzo armato.",
+                "In casi eccezionali, collegamento di calcestruzzi già induriti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % di solidi e privo di solventi.",
+                "Funziona su superfici asciutte o bagnate, anche sott'acqua.",
+                "Bassa viscosità: buona penetrazione e ancoraggio.",
+                "Compatibile con finiture epossidiche e poliuretaniche."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Evitare il contatto con occhi e pelle. Utilizzare guanti di gomma e occhiali di protezione durante la miscelazione e l'applicazione.",
+                "Schizzi negli occhi: risciacquare subito con abbondante acqua pulita, senza strofinare, e consultare un medico.",
+                "Contatto con la pelle: lavare con acqua tiepida e sapone.",
+                "Tenere fuori dalla portata dei bambini.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Dati del prodotto",
+                  "rows": [
+                    {
+                      "key": "Confezione",
+                      "value": "Due componenti (A + B)"
+                    },
+                    {
+                      "key": "Massa volumica",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Viscosità della miscela",
+                      "value": "600-800 mPa·s a 20 °C"
+                    },
+                    {
+                      "key": "Solidi in peso",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Rapporto di miscela (base / indurente)",
+                      "value": "100:60 parti in peso"
+                    },
+                    {
+                      "key": "Consumo consigliato",
+                      "value": "0,4 kg/m² per mano, in base alla porosità"
+                    },
+                    {
+                      "key": "Pot-life",
+                      "value": "1 ora a 20 °C"
+                    },
+                    {
+                      "key": "Tempo aperto di adesione",
+                      "value": "3 ore a 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestazioni",
+                  "rows": [
+                    {
+                      "key": "Aderenza al calcestruzzo (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Stabilità allo stoccaggio",
+                      "value": "12 mesi in confezioni originali chiuse e al riparo"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Confezioni metalliche (A+B) da 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Aderenza per trazione diretta: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Confezioni metalliche (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa e al riparo. Conservare tra 5 e 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "MISCELA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 in peso (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Miscelazion e",
+                      "value": "2-3 minuti, fino a un aspetto uniforme."
+                    },
+                    {
+                      "key": "Prima mano",
+                      "value": "Diluizione massima del 10 % con solvente BV."
+                    },
+                    {
+                      "key": "Seconda mano",
+                      "value": "Pura."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Versare il componente B sul componente A. Applicare con rullo per pittura a pelo corto in materiale sintetico."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT SEAL NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Seal",
+      "subtitle": "TOKOMPONENT EPOKSYGRUNNING, 100 % TØRRSTOFF, DAMPSPERRE",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Tørrstoff i vekt, uten løsemidler"
+        },
+        {
+          "value": "1 t",
+          "label": "Brukstid ved 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² heft til betong"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Omtrentlig forbruk per strøk"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Tokomponent grunning på basis av epoksyharpikser, med lav viskositet, uten løsemidler og med 100 % tørrstoff. Danner en dampsperre på alle tørre eller fuktige overflater og beskytter underlaget mot fuktighet. Virker også under vann."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Dampsperre mot fuktighet i betong.",
+                "Kan påføres på fuktige, men ikke vannmettede underlag.",
+                "Egnet for permanent nedsenking."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESKRIVELSE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tokomponentsystem: base (komponent A) og herder (komponent B), i blandingsforholdet 100:60 i vekt, levert i metallbeholdere klare til blanding."
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Underlag: herdet betong må være fast og ren. Den kan være fuktig, men ikke vannmettet. Fjern på forhånd olje, fett, mørtelrester og alle fremmedlegemer."
+            },
+            {
+              "type": "p",
+              "text": "Blanding: hell komponent B over komponent A og bland i 2-3 minutter til blandingen er helt ensartet."
+            },
+            {
+              "type": "p",
+              "text": "Påføring: med malerrulle i plast. I første strøk kan den fortynnes med maksimalt 10 % BV-løsemiddel for å sikre heft; andre strøk påføres ufortynnet."
+            },
+            {
+              "type": "p",
+              "text": "Ikke påfør noe materiale oppå grunningen før den er helt tørr. Som heftebro mellom ny og gammel betong skal den nye betongen støpes før grunningens åpne tid for vedheft er utløpt."
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Anbefalt forbruk: 0,4 kg/m² per strøk (4 kg per 10 m²), avhengig av underlagets porøsitet."
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Dampsperre i kjellere og på steder der fuktigheten i betongen vedvarer.",
+                "Grunning på betong, mørtler og porøse, fuktige underlag ved permanent nedsenking: tanker, fontener, kanaler osv.",
+                "Universalgrunning før epoksy- eller polyuretanmaling og -belegg.",
+                "Armeringspassivering før oppbygging med hydrauliske mørtler ved reparasjon av armerte betongkonstruksjoner.",
+                "I særlige tilfeller: sammenføyning av allerede herdet betong."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % tørrstoff og uten løsemidler.",
+                "Fungerer på tørre og våte overflater, også under vann.",
+                "Lav viskositet: god inntrenging og forankring.",
+                "Kompatibel med epoksy- og polyuretanfinisher."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unngå kontakt med øyne og hud. Bruk gummihansker og vernebriller under blanding og påføring.",
+                "Sprut i øynene: skyll straks med store mengder rent vann uten å gni, og oppsøk lege.",
+                "Hudkontakt: vask med lunkent vann og såpe.",
+                "Oppbevares utilgjengelig for barn.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Produktdata",
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "To komponenter (A + B)"
+                    },
+                    {
+                      "key": "Densitet",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Viskositet på blandingen",
+                      "value": "600-800 mPa·s ved 20 °C"
+                    },
+                    {
+                      "key": "Tørrstoff i vekt",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Blandingsforhold (base / herder)",
+                      "value": "100:60 vektdeler"
+                    },
+                    {
+                      "key": "Anbefalt forbruk",
+                      "value": "0,4 kg/m² per strøk, avhengig av porøsiteten"
+                    },
+                    {
+                      "key": "Brukstid",
+                      "value": "1 time ved 20 °C"
+                    },
+                    {
+                      "key": "Åpen tid for vedheft",
+                      "value": "3 timer ved 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ytelse",
+                  "rows": [
+                    {
+                      "key": "Heft til betong (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Lagringsstabilitet",
+                      "value": "12 måneder i uåpnet originalemballasje, under tak"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Metallbeholdere (A+B) på 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Heftfasthet ved direkte strekk: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Metallbeholdere (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje og under tak. Oppbevares mellom 5 og 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 i vekt (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Blanding",
+                      "value": "2-3 minutter, til blandingen er ensartet."
+                    },
+                    {
+                      "key": "Første strøk",
+                      "value": "Maksimalt 10 % fortynning med BV-løsemiddel."
+                    },
+                    {
+                      "key": "Andre strøk",
+                      "value": "Ufortynnet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Hell komponent B over komponent A. Påfør med malerrulle i plast."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT SEAL POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Seal",
+      "subtitle": "GRUNT EPOKSYDOWY 2K, 100 % CZĘŚCI STAŁYCH, PAROIZOLACJA",
+      "stats": [
+        {
+          "value": "100 %",
+          "label": "Części stałych wagowo, bez rozpuszczalników"
+        },
+        {
+          "value": "1 h",
+          "label": "Czas użyteczności mieszanki w 20 °C"
+        },
+        {
+          "value": "> 2,5",
+          "label": "N/mm² przyczepności do betonu"
+        },
+        {
+          "value": "0,4 kg/m²",
+          "label": "Przybliżone zużycie na warstwę"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Dwuskładnikowy grunt na bazie żywic epoksydowych, o niskiej lepkości, bezrozpuszczalnikowy, zawierający 100 % części stałych. Tworzy barierę paroizolacyjną na każdym podłożu, suchym lub wilgotnym, i chroni je przed wilgocią. Działa również pod wodą."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bariera paroizolacyjna przed wilgocią z betonu.",
+                "Do stosowania na podłożach wilgotnych, ale bez stojącej wody.",
+                "Odpowiedni do stałego zanurzenia."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPIS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "System dwuskładnikowy: baza (A) i utwardzacz (B), w proporcji 100:60 wagowo, dostarczany w metalowych opakowaniach gotowych do mieszania."
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Podłoże: stwardniały beton musi być wytrzymały i czysty. Może być wilgotny, ale bez stojącej wody. Wcześniej usunąć oleje, tłuszcze, resztki zaprawy i wszelkie zanieczyszczenia."
+            },
+            {
+              "type": "p",
+              "text": "Mieszanie: wlać składnik B do składnika A i mieszać przez 2-3 minuty do uzyskania jednolitej konsystencji."
+            },
+            {
+              "type": "p",
+              "text": "Nakładanie: wałkiem malarskim z tworzywa. Pierwszą warstwę można rozcieńczyć maksymalnie do 10 % rozpuszczalnikiem BV, aby zapewnić przyczepność; druga warstwa bez rozcieńczania."
+            },
+            {
+              "type": "p",
+              "text": "Nie nakładać żadnego materiału, jeśli grunt nie jest dobrze wyschnięty. Jako łącznik nowego betonu ze starym, nowy beton wylewać przed upływem czasu otwartego."
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Zalecane zużycie: 0,4 kg/m² na warstwę (4 kg na 10 m²), w zależności od porowatości podłoża."
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bariera paroizolacyjna w piwnicach i miejscach, gdzie w betonie utrzymuje się wilgoć.",
+                "Grunt na beton, zaprawy i wilgotne podłoża porowate przy stałym zanurzeniu: zbiorniki, fontanny, kanały itp.",
+                "Uniwersalny grunt pod farby i powłoki epoksydowe lub poliuretanowe.",
+                "Pasywacja zbrojenia przed uzupełnieniem ubytków zaprawami hydraulicznymi w naprawie konstrukcji żelbetowych.",
+                "W wyjątkowych przypadkach łączenie betonów już stwardniałych."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "100 % części stałych, bez rozpuszczalników.",
+                "Działa na powierzchniach suchych i mokrych, także pod wodą.",
+                "Niska lepkość: dobra penetracja i zakotwienie.",
+                "Kompatybilny z wykończeniami epoksydowymi i poliuretanowymi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Unikać kontaktu z oczami i skórą. Podczas mieszania i aplikacji stosować rękawice gumowe i okulary ochronne.",
+                "W razie zachlapania oczu: natychmiast przemyć dużą ilością czystej wody, nie trzeć, i zgłosić się do lekarza.",
+                "Kontakt ze skórą: zmyć ciepłą wodą z mydłem.",
+                "Przechowywać poza zasięgiem dzieci.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Dane produktu",
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Dwuskładnikowy (A + B)"
+                    },
+                    {
+                      "key": "Ciężar właściwy",
+                      "value": "1 g/cm³"
+                    },
+                    {
+                      "key": "Lepkość mieszanki",
+                      "value": "600-800 mPa·s w 20 °C"
+                    },
+                    {
+                      "key": "Części stałe wagowo",
+                      "value": "100 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Proporcja mieszania (baza / utwardzacz)",
+                      "value": "100:60 części wagowych"
+                    },
+                    {
+                      "key": "Zalecane zużycie",
+                      "value": "0,4 kg/m² na warstwę, w zależności od porowatości"
+                    },
+                    {
+                      "key": "Czas użyteczności mieszanki",
+                      "value": "1 godzina w 20 °C"
+                    },
+                    {
+                      "key": "Czas otwarty",
+                      "value": "3 godziny w 20 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Właściwości użytkowe",
+                  "rows": [
+                    {
+                      "key": "Przyczepność do betonu (EN 1542)",
+                      "value": "> 2,5 N/mm² (> 25 kg/cm²)"
+                    },
+                    {
+                      "key": "Trwałość przy przechowywaniu",
+                      "value": "12 miesięcy w oryginalnych, zamkniętych opakowaniach, chronione przed warunkami atmosferycznymi"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Metalowe opakowania (A+B) 2,5 + 1,5 kg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Przyczepność przy odrywaniu: UNE-EN 1542."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Metalowe opakowania (A+B)",
+                "2,5 + 1,5 kg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi. Przechowywać w temperaturze od 5 do 40 °C."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "A : B",
+                      "value": "100:60 wagowo (2,5 + 1,5 kg)."
+                    },
+                    {
+                      "key": "Mieszanie",
+                      "value": "2-3 minuty, do uzyskania jednolitej konsystencji."
+                    },
+                    {
+                      "key": "Pierwsza warstwa",
+                      "value": "Maksymalnie 10 % rozpuszczalnika BV."
+                    },
+                    {
+                      "key": "Druga warstwa",
+                      "value": "Bez rozcieńczania."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wlać składnik B do składnika A. Nakładać wałkiem malarskim z tworzywa."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

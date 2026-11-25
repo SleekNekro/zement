@@ -1,0 +1,2135 @@
+{
+  "key": "zement-repair-20",
+  "source": "ZEMENT REPAIR 20",
+  "languages": {
+    "de": {
+      "file": "ZEMENT REPAIR 20 ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Zement Repair 20",
+      "subtitle": "REPARATUR- UND AUSGLEICHSMÖRTEL FÜR GROSSE SCHICHTDICKEN",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Druckfestigkeit nach 28 Tagen"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Biegezugfestigkeit nach 28 Tagen"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Max. Schichtdicke je Lage"
+        },
+        {
+          "value": "1 Std.",
+          "label": "Verarbeitungszeit"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Druckfester Mörtel zur Reparatur und zum Ausgleich von Unebenheiten oder zum Verbinden von Untergrundwechseln. Wird in zwei Lagen aufgetragen; bei schlechten Untergründen mit Glasfasergewebe 80 g zwischen den Lagen."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Spezialzement, ausgewählte Zuschläge, spezielle Harze und schnell abbindende Zusatzmittel.",
+                "Repariert und dichtet Risse ab; geeignet für Untergründe mit geringen Bewegungen.",
+                "Beständig gegen aggressive Wässer und Meerwasser; überstreichbar bzw. beschichtbar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Reparatur geschädigter Untergründe und Ausgleich von Unebenheiten.",
+                "Sanierung von Terrassen, Balkonplatten, Flachdächern und Gesimsen im Außenbereich oder bei starken Temperaturwechseln.",
+                "Abdichtung im Außenbereich. Mit Zusatzharz verformbar.",
+                "Keine Zusatzmittel beimischen; bei höheren Anforderungen an die Dichtigkeit das Zusatzharz zugeben.",
+                "Auf begangenen Böden muss der Mörtel stets geschützt werden."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNTERGRÜNDE UND VORBEREITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, Betonfertigteile, Putze, Keramik. Tragfähige, trockene und saubere Untergründe, frei von Staub, Farbe, Fett, Kalk, Wachs und Zementschlämmen."
+            },
+            {
+              "type": "p",
+              "text": "Ebenheit mit max. 3 mm Abweichung unter der 2-m-Richtlatte; andernfalls mit selbstnivellierendem Mörtel egalisieren."
+            },
+            {
+              "type": "p",
+              "text": "Mürbe Untergründe: mit Zement Prime Tack verfestigen. Sehr trockene oder poröse Untergründe: leicht anfeuchten oder in Extremfällen mit Zement Prime grundieren."
+            }
+          ]
+        },
+        {
+          "title": "MISCHEN UND VERARBEITUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Das Pulver mit sauberem Wasser (25-30 % je 25-kg-Sack) mit einem langsam laufenden Rührwerk (ca. 500 U/min) zu einer homogenen Masse anmischen."
+            },
+            {
+              "type": "p",
+              "text": "In zwei Lagen von max. 1-30 mm auftragen, bei Terrassen und rissigen Wänden mit Glasfasergewebe zwischen erster und zweiter Lage. Mindest-Endschichtdicke an allen Stellen 3-4 mm."
+            },
+            {
+              "type": "p",
+              "text": "Für mehr Elastizität bzw. Plastizität Zusatzharz zugeben: 4,5 l Harz + 4,5 l Wasser."
+            }
+          ]
+        },
+        {
+          "title": "EMPFEHLUNGEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Untergrund- und Verarbeitungstemperatur 5 bis 30 °C. Nicht bei Regen- oder Frostgefahr verarbeiten, im Sommer nicht in der prallen Sonne.",
+                "Die Witterung kann die Offenzeit der Mischung stark verändern."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enthält Zement: Kontakt mit Augen und Haut vermeiden und Staub nicht einatmen. Gummihandschuhe und Schutzbrille tragen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren. Leere Gebinde gemäß den geltenden Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mörtel (Pulver)",
+                  "rows": [
+                    {
+                      "key": "Zusammensetzung",
+                      "value": "Zement, Zuschläge, Harze und schnell abbindende Zusatzmittel"
+                    },
+                    {
+                      "key": "Verbrauch",
+                      "value": "Ca. 1,4 kg/mm/m²"
+                    }
+                  ]
+                },
+                {
+                  "title": "Anwendung",
+                  "rows": [
+                    {
+                      "key": "Anmachwasser",
+                      "value": "25-30 % je 25-kg-Sack"
+                    },
+                    {
+                      "key": "Reifezeit / Verarbeitungszeit",
+                      "value": "Ca. 5 Min. / 1 Std."
+                    },
+                    {
+                      "key": "Schichtdicke je Lage",
+                      "value": "Max. 1-30 mm; gesamt mind. 3-4 mm"
+                    },
+                    {
+                      "key": "Erstarrung / zwischen den Lagen",
+                      "value": "Beginn 4 Std.; Wartezeit zwischen den Lagen 4 Std."
+                    },
+                    {
+                      "key": "Überstreichbar oder beschichtbar",
+                      "value": "> 6 Tage"
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "5 bis 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Leistungsmerkmale",
+                  "rows": [
+                    {
+                      "key": "Haftzugfestigkeit",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Behinderte Schwindung",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Biegezug- / Druckfestigkeit (28 Tage)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Haftung nach Offenzeit",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Abrutschen",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Lieferform",
+                      "value": "Papiersack 25 kg; Palette à 48 Säcke"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Papiersack 25 kg",
+                "48 Säcke je Palette"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in der ungeöffneten Originalverpackung, vor Witterung und Feuchtigkeit geschützt."
+            }
+          ]
+        },
+        {
+          "title": "MISCHUNG",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Wasser",
+                      "value": "25-30 % je 25-kg-Sack."
+                    },
+                    {
+                      "key": "Mischen",
+                      "value": "Langsam laufendes Rührwerk, ca. 500 U/min."
+                    },
+                    {
+                      "key": "Reifezeit",
+                      "value": "5 Min. nach dem Anmischen."
+                    },
+                    {
+                      "key": "Mit Harz",
+                      "value": "4,5 l Harz + 4,5 l Wasser."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Die Werte können je nach Umgebungstemperatur erheblich variieren."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "ZEMENT REPAIR 20 INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Zement Repair 20",
+      "subtitle": "HIGH-BUILD REPAIR AND LEVELLING MORTAR",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Compressive strength, 28 d"
+        },
+        {
+          "value": "> 6.5 MPa",
+          "label": "Flexural strength, 28 d"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Max. thickness per coat"
+        },
+        {
+          "value": "1 h",
+          "label": "Pot life"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Compressive-strength mortar for repairing and correcting flatness or joining changes of substrate. Applied in two coats; on substrates in poor condition, with 80 g glass-fibre mesh between coats."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Special cement, selected aggregates, specific resins and rapid-setting additives.",
+                "Repairs and waterproofs cracks; suitable for substrates with small movements.",
+                "Resistant to aggressive waters and sea water; suitable for receiving paint or tile finishes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Repair of deteriorated substrates and correction of flatness.",
+                "Refurbishment of terraces, balcony slabs, flat roofs and ledges outdoors or exposed to significant thermal changes.",
+                "Outdoor waterproofing. With admixture resin it is deformable.",
+                "Do not add any additive; if greater impermeability is required, add the admixture resin.",
+                "On trafficked floors, the mortar must always be protected."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUBSTRATES AND PREPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Concrete, precast concrete, renders, ceramic tiles. Substrates must be sound, dry and clean, free of dust, paint, grease, lime, wax and laitance."
+            },
+            {
+              "type": "p",
+              "text": "Flatness with a maximum deviation of 3 mm under a 2 m straightedge; otherwise, level with self-levelling mortar."
+            },
+            {
+              "type": "p",
+              "text": "Crumbling substrates: consolidate with Zement Prime Tack. Very dry or porous substrates: dampen lightly or, in extreme cases, prime with Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "MIXING AND APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mix the powder with clean water (25-30 % per 25 kg bag) using a low-speed electric mixer (approx. 500 rpm) until a homogeneous paste is obtained."
+            },
+            {
+              "type": "p",
+              "text": "Apply in two coats of max. 1-30 mm, with glass-fibre mesh between the first and second coats on cracked terraces and walls. Minimum final thickness of 3-4 mm at all points."
+            },
+            {
+              "type": "p",
+              "text": "For greater elasticity or plasticity, add admixture resin: 4.5 l of resin + 4.5 l of water."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMENDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Substrate and application temperature from 5 to 30 °C. Do not apply if there is a risk of rain or frost, or in full sun in hot weather.",
+                "Weather conditions can greatly alter the open time of the mix."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contains cement: avoid contact with eyes and skin and do not inhale the dust. Wear rubber gloves and protective goggles.",
+                "Keep out of the reach of children. Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mortar (powder)",
+                  "rows": [
+                    {
+                      "key": "Composition",
+                      "value": "Cement, aggregates, resins and rapid-setting additives"
+                    },
+                    {
+                      "key": "Coverage",
+                      "value": "1.4 kg/mm/m² approx."
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Mixing water",
+                      "value": "25-30 % per 25 kg bag"
+                    },
+                    {
+                      "key": "Standing time / pot life",
+                      "value": "5 min / 1 h approx."
+                    },
+                    {
+                      "key": "Thickness per coat",
+                      "value": "1-30 mm max.; minimum final 3-4 mm"
+                    },
+                    {
+                      "key": "Setting / between coats",
+                      "value": "Start 4 h; wait 4 h between coats"
+                    },
+                    {
+                      "key": "Repainting or tiling",
+                      "value": "> 6 days"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "5 to 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performance",
+                  "rows": [
+                    {
+                      "key": "Adhesion",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Restrained shrinkage",
+                      "value": "> 1.5 N/mm²"
+                    },
+                    {
+                      "key": "Flexural / compressive strength (28 d)",
+                      "value": "> 6.5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Adhesion after open time",
+                      "value": "> 0.5 N/mm²"
+                    },
+                    {
+                      "key": "Slip",
+                      "value": "< 0.5 mm"
+                    },
+                    {
+                      "key": "Format",
+                      "value": "25 kg paper bag; pallet of 48 bags"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "25 kg paper bag",
+                "48 bags per pallet"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather and moisture."
+            }
+          ]
+        },
+        {
+          "title": "MIXING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Water",
+                      "value": "25-30 % per 25 kg bag."
+                    },
+                    {
+                      "key": "Mixing",
+                      "value": "Low-speed mixer, approx. 500 rpm."
+                    },
+                    {
+                      "key": "Standing time",
+                      "value": "5 min after mixing."
+                    },
+                    {
+                      "key": "With resin",
+                      "value": "4.5 l of resin + 4.5 l of water."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Values may vary considerably with ambient temperature."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "ZEMENT REPAIR 20 ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Zement Repair 20",
+      "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN DE GRAN ESPESOR",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Compresión a 28 días"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Flexotracción a 28 días"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Espesor máximo por capa"
+        },
+        {
+          "value": "1 h",
+          "label": "Vida de la masa"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mortero resistente a la compresión, para reparar y corregir la planimetría o unir cambios de soporte. Se aplica en dos capas; en soportes en mal estado, con malla de fibra de 80 g entre capas."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cemento especial, áridos seleccionados, resinas específicas y aditivos de fraguado rápido.",
+                "Repara e impermeabiliza fisuras; apto en soportes con pequeños movimientos.",
+                "Resistente a aguas agresivas y al agua de mar; apto para recibir pintura o revestimiento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Reparación de soportes deteriorados y corrección de la planimetría.",
+                "Rehabilitación de terrazas, balconeras, azoteas y cornisas en exteriores o expuestas a cambios térmicos importantes.",
+                "Impermeabilización en exteriores. Con resina de adición es deformable.",
+                "No incorporar ningún aditivo; si se requiere mayor impermeabilidad, añadir la resina de adición.",
+                "En suelos transitados, el mortero debe quedar siempre protegido."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SOPORTES Y PREPARACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hormigón, prefabricados de hormigón, revocos, cerámica. Soportes sanos, secos y limpios, sin polvo, pintura, grasa, cal, cera ni lechadas."
+            },
+            {
+              "type": "p",
+              "text": "Planeidad con desviaciones máximas de 3 mm con regla de 2 m; si no, nivelar con mortero autonivelante."
+            },
+            {
+              "type": "p",
+              "text": "Soportes que se desmoronan: consolidar con Zement Prime Tack. Muy secos o porosos: humedecer ligeramente o, en casos extremos, imprimar con Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA Y APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Amasar el polvo con agua limpia (25-30 % por saco de 25 kg) con agitador eléctrico de bajas revoluciones (aprox. 500 r.p.m.) hasta lograr una masa homogénea."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar en dos capas de 1-30 mm máx., con malla de fibra de vidrio entre la primera y la segunda capa en terrazas y muros fisurados. Espesor final mínimo de 3-4 mm en todos los puntos."
+            },
+            {
+              "type": "p",
+              "text": "Para mayor elasticidad o plasticidad, añadir resina de adición: 4,5 l de resina + 4,5 l de agua."
+            }
+          ]
+        },
+        {
+          "title": "RECOMENDACIONES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Temperatura del soporte y de aplicación de 5 a 30 °C. No aplicar con riesgo de lluvia o hielo, ni a pleno sol en época calurosa.",
+                "Las condiciones meteorológicas pueden variar mucho el tiempo abierto de la mezcla."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento: evitar el contacto con ojos y piel y no inhalar el polvo. Usar guantes de goma y gafas protectoras.",
+                "Mantener fuera del alcance de los niños. Eliminar los envases vacíos conforme a la normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mortero (polvo)",
+                  "rows": [
+                    {
+                      "key": "Composición",
+                      "value": "Cemento, áridos, resinas y aditivos de fraguado rápido"
+                    },
+                    {
+                      "key": "Rendimiento",
+                      "value": "1,4 kg/mm/m² aprox."
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Agua de amasado",
+                      "value": "25-30 % por saco de 25 kg"
+                    },
+                    {
+                      "key": "Reposo / vida de la masa",
+                      "value": "5 min / 1 h aprox."
+                    },
+                    {
+                      "key": "Espesor por capa",
+                      "value": "1-30 mm máx.; final mínimo 3-4 mm"
+                    },
+                    {
+                      "key": "Fraguado / entre capas",
+                      "value": "Inicio 4 h; espera entre capas 4 h"
+                    },
+                    {
+                      "key": "Repintado o revestido",
+                      "value": "> 6 días"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "5 a 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestaciones",
+                  "rows": [
+                    {
+                      "key": "Adherencia",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Retracción restringida",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Flexotracción / compresión (28 d)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Adherencia tras tiempo abierto",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Deslizamiento",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Saco de papel de 25 kg; palé de 48 sacos"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMAS DE ENSAYO DE REFERENCIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Saco de papel de 25 kg",
+                "48 sacos por palé"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie y de la humedad."
+            }
+          ]
+        },
+        {
+          "title": "MEZCLA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Agua",
+                      "value": "25-30 % por saco de 25 kg."
+                    },
+                    {
+                      "key": "Mezclado",
+                      "value": "Agitador de bajas revoluciones, aprox. 500 r.p.m."
+                    },
+                    {
+                      "key": "Reposo",
+                      "value": "5 min tras el amasado."
+                    },
+                    {
+                      "key": "Con resina",
+                      "value": "4,5 l de resina + 4,5 l de agua."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Los valores pueden variar considerablemente con la temperatura ambiente."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "ZEMENT REPAIR 20 FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Zement Repair 20",
+      "subtitle": "PAKSUKERROKSINEN KORJAUS- JA TASAUSLAASTI",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Puristuslujuus 28 vrk"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Taivutusvetolujuus 28 vrk"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Enimmäispaksuus kerrosta kohti"
+        },
+        {
+          "value": "1 h",
+          "label": "Käyttöaika"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Puristuslujuudeltaan luja laasti alustojen korjaukseen ja tasaisuuden korjaamiseen tai alustan vaihtumiskohtien yhdistämiseen. Levitetään kahdessa kerroksessa; huonokuntoisilla alustoilla kerrosten väliin upotetaan 80 g:n lasikuituverkko."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Erikoissementti, valitut kiviainekset, erikoishartsit ja pikakovettuvat lisäaineet.",
+                "Korjaa ja tiivistää halkeamat; sopii alustoille, joissa on pieniä liikkeitä.",
+                "Kestää aggressiivisia vesiä ja merivettä; sopii maalattavaksi tai päällystettäväksi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vaurioituneiden alustojen korjaus ja tasaisuuden korjaaminen.",
+                "Terassien, parvekelaattojen, kattoterassien ja räystäiden kunnostus ulkotiloissa tai kun ne altistuvat suurille lämpötilanvaihteluille.",
+                "Ulkotilojen vedeneristys. Lisähartsin kanssa laasti on muodonmuutoksia sietävä.",
+                "Laastiin ei saa lisätä mitään lisäaineita; jos tarvitaan parempaa vedenpitävyyttä, lisää lisähartsia.",
+                "Liikennöidyillä lattioilla laasti on aina suojattava."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ALUSTAT JA VALMISTELU",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betoni, betonielementit, rappaukset, keramiikka. Alustan on oltava kiinteä, kuiva ja puhdas, ilman pölyä, maalia, rasvaa, kalkkia, vahaa tai sementtiliimaa."
+            },
+            {
+              "type": "p",
+              "text": "Tasaisuuden suurin poikkeama 2 m:n oikolaudalla mitattuna on 3 mm; muuten tasoita itsetasoittuvalla laastilla."
+            },
+            {
+              "type": "p",
+              "text": "Murenevat alustat: lujita Zement Prime Tack -tuotteella. Erittäin kuivat tai huokoiset alustat: kostuta kevyesti tai ääritapauksissa käsittele Zement Prime -pohjusteella."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS JA LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita jauhe puhtaaseen veteen (25–30 % 25 kg:n säkkiä kohti) pienikierroksisella sähkösekoittimella (n. 500 r/min), kunnes massa on tasaista."
+            },
+            {
+              "type": "p",
+              "text": "Levitä kahdessa kerroksessa, enintään 1–30 mm, ja upota lasikuituverkko ensimmäisen ja toisen kerroksen väliin terasseilla ja halkeilleilla seinillä. Lopullinen paksuus vähintään 3–4 mm joka kohdassa."
+            },
+            {
+              "type": "p",
+              "text": "Lisää joustavuutta tai muovautuvuutta varten lisää lisähartsia: 4,5 l hartsia + 4,5 l vettä."
+            }
+          ]
+        },
+        {
+          "title": "SUOSITUKSET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Alustan ja levityksen lämpötila 5–30 °C. Älä levitä sateen tai pakkasen uhatessa äläkä paahtavassa auringossa kuumalla säällä.",
+                "Sääolosuhteet voivat vaikuttaa seoksen avoimeen aikaan merkittävästi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sisältää sementtiä: vältä kosketusta silmiin ja ihoon äläkä hengitä pölyä. Käytä kumikäsineitä ja suojalaseja.",
+                "Säilytä lasten ulottumattomissa. Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Laasti (jauhe)",
+                  "rows": [
+                    {
+                      "key": "Koostumus",
+                      "value": "Sementti, kiviainekset, hartsit ja pikakovettuvat lisäaineet"
+                    },
+                    {
+                      "key": "Riittoisuus",
+                      "value": "n. 1,4 kg/mm/m²"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Sekoitusvesi",
+                      "value": "25–30 % 25 kg:n säkkiä kohti"
+                    },
+                    {
+                      "key": "Lepoaika / käyttöaika",
+                      "value": "n. 5 min / 1 h"
+                    },
+                    {
+                      "key": "Kerrospaksuus",
+                      "value": "enint. 1–30 mm; lopullinen väh. 3–4 mm"
+                    },
+                    {
+                      "key": "Kovettuminen / kerrosten väli",
+                      "value": "Alkaa 4 h; kerrosten väli 4 h"
+                    },
+                    {
+                      "key": "Päällystys tai maalaus",
+                      "value": "> 6 vrk"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "5–30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Suorituskyky",
+                  "rows": [
+                    {
+                      "key": "Tartunta",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Estetty kutistuma",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Taivutusvetolujuus / puristuslujuus (28 vrk)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Tartunta avoimen ajan jälkeen",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Valuma",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Pakkaus",
+                      "value": "25 kg:n paperisäkki; 48 säkin lava"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "25 kg:n paperisäkki",
+                "48 säkkiä lavalla"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna säältä ja kosteudelta."
+            }
+          ]
+        },
+        {
+          "title": "SEKOITUS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Vesi",
+                      "value": "25–30 % 25 kg:n säkkiä kohti."
+                    },
+                    {
+                      "key": "Sekoitus",
+                      "value": "Pienikierroksinen sekoitin, n. 500 r/min."
+                    },
+                    {
+                      "key": "Lepo",
+                      "value": "5 min sekoituksen jälkeen."
+                    },
+                    {
+                      "key": "Hartsin kanssa",
+                      "value": "4,5 l hartsia + 4,5 l vettä."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Arvot voivat vaihdella merkittävästi ympäristön lämpötilan mukaan."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "ZEMENT REPAIR 20 FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Zement Repair 20",
+      "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ DE FORTE ÉPAISSEUR",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Compression à 28 jours"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Flexion à 28 jours"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Épaisseur max. par couche"
+        },
+        {
+          "value": "1 h",
+          "label": "Durée de vie du mélange"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Mortier résistant à la compression, pour réparer et corriger la planéité ou pour raccorder des changements de support. Il s'applique en deux couches ; sur les supports en mauvais état, avec une trame de fibre de 80 g entre les couches."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ciment spécial, granulats sélectionnés, résines spécifiques et adjuvants à prise rapide.",
+                "Répare et imperméabilise les fissures ; adapté aux supports soumis à de petits mouvements.",
+                "Résistant aux eaux agressives et à l'eau de mer ; apte à recevoir une peinture ou un revêtement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Réparation de supports dégradés et correction de la planéité.",
+                "Réhabilitation des terrasses, dalles de balcon, toitures-terrasses et corniches en extérieur ou exposées à d'importants écarts thermiques.",
+                "Imperméabilisation en extérieur. Avec la résine d'adjonction, il est déformable.",
+                "Ne pas incorporer d'adjuvant ; si une plus grande imperméabilité est requise, ajouter la résine d'adjonction.",
+                "Sur les sols circulés, le mortier doit toujours rester protégé."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTS ET PRÉPARATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Béton, éléments préfabriqués en béton, enduits, céramique. Supports sains, secs et propres, exempts de poussière, de peinture, de graisse, de chaux, de cire et de laitance."
+            },
+            {
+              "type": "p",
+              "text": "Planéité avec des écarts maximaux de 3 mm sous la règle de 2 m ; sinon, dresser avec un mortier autolissant."
+            },
+            {
+              "type": "p",
+              "text": "Supports qui s'effritent : consolider avec Zement Prime Tack. Supports très secs ou poreux : humidifier légèrement ou, dans les cas extrêmes, appliquer Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE ET APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Gâcher la poudre avec de l'eau propre (25-30 % par sac de 25 kg) au malaxeur électrique à faible vitesse (env. 500 tr/min) jusqu'à obtenir une pâte homogène."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer en deux couches de 1-30 mm maximum, avec une trame en fibre de verre entre la première et la deuxième couche sur les terrasses et les murs fissurés. Épaisseur finale MINIMALE de 3-4 mm en tout point."
+            },
+            {
+              "type": "p",
+              "text": "Pour une plus grande élasticité ou plasticité, ajouter la résine d'adjonction : 4,5 l de résine + 4,5 l d'eau."
+            }
+          ]
+        },
+        {
+          "title": "RECOMMANDATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Température du support et d'application de 5 à 30 °C. Ne pas appliquer en cas de risque de pluie ou de gel, ni en plein soleil par temps chaud.",
+                "Les conditions météorologiques peuvent faire varier fortement le temps ouvert du mélange."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contient du ciment : éviter le contact avec les yeux et la peau et ne pas inhaler la poussière. Porter des gants en caoutchouc et des lunettes de protection.",
+                "Tenir hors de portée des enfants. Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mortier (poudre)",
+                  "rows": [
+                    {
+                      "key": "Composition",
+                      "value": "Ciment, granulats, résines et adjuvants à prise rapide"
+                    },
+                    {
+                      "key": "Rendement",
+                      "value": "1,4 kg/mm/m² env."
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Eau de gâchage",
+                      "value": "25-30 % par sac de 25 kg"
+                    },
+                    {
+                      "key": "Repos / durée de vie du mélange",
+                      "value": "5 min / 1 h env."
+                    },
+                    {
+                      "key": "Épaisseur par couche",
+                      "value": "1-30 mm max. ; final minimum 3-4 mm"
+                    },
+                    {
+                      "key": "Prise / entre couches",
+                      "value": "Début 4 h ; attente entre couches 4 h"
+                    },
+                    {
+                      "key": "Peinture ou revêtement",
+                      "value": "> 6 jours"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "5 à 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Performances",
+                  "rows": [
+                    {
+                      "key": "Adhérence",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Retrait restreint",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Flexion / compression (28 j)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Adhérence après temps ouvert",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Glissement",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Conditionnement",
+                      "value": "Sac en papier de 25 kg ; palette de 48 sacs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Sac en papier de 25 kg",
+                "48 sacs par palette"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries et de l'humidité."
+            }
+          ]
+        },
+        {
+          "title": "MÉLANGE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Eau",
+                      "value": "25-30 % par sac de 25 kg."
+                    },
+                    {
+                      "key": "Malaxage",
+                      "value": "Malaxeur à faible vitesse, env. 500 tr/min."
+                    },
+                    {
+                      "key": "Repos",
+                      "value": "5 min après le gâchage."
+                    },
+                    {
+                      "key": "Avec résine",
+                      "value": "4,5 l de résine + 4,5 l d'eau."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Les valeurs peuvent varier considérablement selon la température ambiante."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "ZEMENT REPAIR 20 ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Zement Repair 20",
+      "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO DI GRANDE SPESSORE",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Compressione a 28 giorni"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Flessione a 28 giorni"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Spessore massimo per mano"
+        },
+        {
+          "value": "1 h",
+          "label": "Vita utile dell'impasto"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Malta resistente a compressione, per riparare e correggere la planarità o unire cambi di supporto. Si applica in due mani; su supporti in cattivo stato, con rete in fibra da 80 g tra le mani."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cemento speciale, aggregati selezionati, resine specifiche e additivi a presa rapida.",
+                "Ripara e impermeabilizza le fessure; adatta su supporti con piccoli movimenti.",
+                "Resistente alle acque aggressive e all'acqua di mare; adatta a ricevere pittura o rivestimento."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ripristino di supporti degradati e correzione della planarità.",
+                "Risanamento di terrazze, balconi, coperture piane e cornicioni all'esterno o esposti a forti sbalzi termici.",
+                "Impermeabilizzazione all'esterno. Con resina aggiuntiva è deformabile.",
+                "Non aggiungere alcun additivo; se serve maggiore impermeabilità, aggiungere la resina.",
+                "Sui pavimenti soggetti a calpestio, la malta deve essere sempre protetta."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SUPPORTI E PREPARAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Calcestruzzo, prefabbricati in calcestruzzo, intonaci, ceramica. Supporti sani, asciutti e puliti, privi di polvere, pittura, grasso, calce, cera e lattime."
+            },
+            {
+              "type": "p",
+              "text": "Planarità con scostamenti massimi di 3 mm con staggia da 2 m; in caso contrario, livellare con malta autolivellante."
+            },
+            {
+              "type": "p",
+              "text": "Supporti che si sgretolano: consolidare con Zement Prime Tack. Molto asciutti o porosi: inumidire leggermente o, in casi estremi, applicare Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "MISCELAZIONE E APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Impastare la polvere con acqua pulita (25-30 % per sacco da 25 kg) con agitatore elettrico a bassa velocità (ca. 500 giri/min) fino a ottenere un impasto omogeneo."
+            },
+            {
+              "type": "p",
+              "text": "Applicare in due mani da 1-30 mm max, con rete in fibra di vetro tra la prima e la seconda mano su terrazze e muri fessurati. Spessore finale minimo di 3-4 mm in tutti i punti."
+            },
+            {
+              "type": "p",
+              "text": "Per maggiore elasticità o plasticità, aggiungere la resina: 4,5 l di resina + 4,5 l di acqua."
+            }
+          ]
+        },
+        {
+          "title": "RACCOMANDAZIONI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Temperatura del supporto e di applicazione da 5 a 30 °C. Non applicare con rischio di pioggia o gelo, né in pieno sole nei periodi caldi.",
+                "Le condizioni meteorologiche possono variare molto il tempo aperto dell'impasto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Contiene cemento: evitare il contatto con occhi e pelle e non inalare la polvere. Utilizzare guanti di gomma e occhiali di protezione.",
+                "Tenere fuori dalla portata dei bambini. Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Malta (polvere)",
+                  "rows": [
+                    {
+                      "key": "Composizione",
+                      "value": "Cemento, aggregati, resine e additivi a presa rapida"
+                    },
+                    {
+                      "key": "Resa",
+                      "value": "1,4 kg/mm/m² ca."
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Acqua d'impasto",
+                      "value": "25-30 % per sacco da 25 kg"
+                    },
+                    {
+                      "key": "Riposo / vita utile dell'impasto",
+                      "value": "5 min / 1 h ca."
+                    },
+                    {
+                      "key": "Spessore per mano",
+                      "value": "1-30 mm max; finale minimo 3-4 mm"
+                    },
+                    {
+                      "key": "Presa / tra le mani",
+                      "value": "Inizio 4 h; attesa tra le mani 4 h"
+                    },
+                    {
+                      "key": "Pitturazione o rivestimento",
+                      "value": "> 6 giorni"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 5 a 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prestazioni",
+                  "rows": [
+                    {
+                      "key": "Aderenza",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Ritiro contrastato",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Flessione / compressione (28 g)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Aderenza dopo tempo aperto",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Scorrimento",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Formato",
+                      "value": "Sacco di carta da 25 kg; pallet da 48 sacchi"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Sacco di carta da 25 kg",
+                "48 sacchi per pallet"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dalle intemperie e dall'umidità."
+            }
+          ]
+        },
+        {
+          "title": "MISCELA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Acqua",
+                      "value": "25-30 % per sacco da 25 kg."
+                    },
+                    {
+                      "key": "Miscelazione",
+                      "value": "Agitatore a bassa velocità, ca. 500 giri/min."
+                    },
+                    {
+                      "key": "Riposo",
+                      "value": "5 min dopo la miscelazione."
+                    },
+                    {
+                      "key": "Con resina",
+                      "value": "4,5 l di resina + 4,5 l di acqua."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "I valori possono variare notevolmente con la temperatura ambiente."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "ZEMENT REPAIR 20 NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Zement Repair 20",
+      "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL FOR STORE TYKKELSER",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Trykkfasthet etter 28 døgn"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Bøyestrekkfasthet 28 døgn"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Maks. tykkelse per lag"
+        },
+        {
+          "value": "1 t",
+          "label": "Brukstid"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Trykkfast mørtel for utbedring og retting av planhet, eller for sammenføyning av endringer i underlaget. Påføres i to lag; på underlag i dårlig stand med fibernett på 80 g mellom lagene."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Spesialsement, utvalgte tilslag, spesifikke harpikser og hurtigherdende tilsetningsstoffer.",
+                "Reparerer og tetter sprekker; egnet på underlag med små bevegelser.",
+                "Bestandig mot aggressivt vann og sjøvann; egnet for maling eller overflatebelegg."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Utbedring av forvitrede underlag og retting av planhet.",
+                "Rehabilitering av terrasser, balkongplater, flate tak og gesimser utendørs eller utsatt for store temperaturforskjeller.",
+                "Tetting utendørs. Med tilsetningsharpiks blir den deformerbar.",
+                "Ikke tilsett andre tilsetningsstoffer; ved behov for bedre tetthet tilsettes tilsetningsharpiksen.",
+                "På gulv med trafikk må mørtelen alltid beskyttes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UNDERLAG OG KLARGJØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Betong, betongelementer, puss, keramikk. Underlaget må være fast, tørt og rent, uten støv, maling, fett, kalk, voks og sementslam."
+            },
+            {
+              "type": "p",
+              "text": "Planhet med høyst 3 mm avvik målt med 2 m rettholt; ellers avrettes underlaget med selvutjevnende mørtel."
+            },
+            {
+              "type": "p",
+              "text": "Underlag som smuldrer: konsolideres med Zement Prime Tack. Svært tørre eller porøse underlag: fuktes lett eller, i ekstreme tilfeller, grunnes med Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING OG PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bland pulveret med rent vann (25-30 % per sekk på 25 kg) med elektrisk rører på lavt turtall (ca. 500 o/min) til massen er jevn."
+            },
+            {
+              "type": "p",
+              "text": "Påfør i to lag på maks. 1-30 mm, med glassfibernett mellom første og andre lag på sprukne terrasser og vegger. Minste ferdige tykkelse på 3-4 mm overalt."
+            },
+            {
+              "type": "p",
+              "text": "For større elastisitet eller plastisitet tilsettes tilsetningsharpiks: 4,5 l harpiks + 4,5 l vann."
+            }
+          ]
+        },
+        {
+          "title": "ANBEFALINGER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Temperatur på underlag og ved påføring fra 5 til 30 °C. Må ikke påføres ved fare for regn eller frost, og ikke i direkte sol i varmt vær.",
+                "Værforholdene kan påvirke blandingens åpne tid betydelig."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Inneholder sement: unngå kontakt med øyne og hud, og ikke pust inn støvet. Bruk gummihansker og vernebriller.",
+                "Oppbevares utilgjengelig for barn. Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Mørtel (pulver)",
+                  "rows": [
+                    {
+                      "key": "Sammensetning",
+                      "value": "Sement, tilslag, harpikser og hurtigherdende tilsetningsstoffer"
+                    },
+                    {
+                      "key": "Forbruk",
+                      "value": "Ca. 1,4 kg/mm/m²"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Blandevann",
+                      "value": "25-30 % per sekk på 25 kg"
+                    },
+                    {
+                      "key": "Hviletid / brukstid",
+                      "value": "Ca. 5 min / 1 t"
+                    },
+                    {
+                      "key": "Tykkelse per lag",
+                      "value": "Maks. 1-30 mm; minste ferdig 3-4 mm"
+                    },
+                    {
+                      "key": "Herding / mellom lag",
+                      "value": "Start 4 t; ventetid mellom lag 4 t"
+                    },
+                    {
+                      "key": "Overmaling eller belegg",
+                      "value": "> 6 døgn"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "5 til 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ytelse",
+                  "rows": [
+                    {
+                      "key": "Heft",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Hindret svinn",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Bøyestrekkfasthet / trykkfasthet (28 d)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Heft etter åpen tid",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Glidning",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Leveringsform",
+                      "value": "Papirsekk på 25 kg; pall med 48 sekker"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Papirsekk på 25 kg",
+                "48 sekker per pall"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær og fuktighet."
+            }
+          ]
+        },
+        {
+          "title": "BLANDING",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Vann",
+                      "value": "25-30 % per sekk på 25 kg."
+                    },
+                    {
+                      "key": "Blanding",
+                      "value": "Rører på lavt turtall, ca. 500 o/min."
+                    },
+                    {
+                      "key": "Hviletid",
+                      "value": "5 min etter blanding."
+                    },
+                    {
+                      "key": "Med harpiks",
+                      "value": "4,5 l harpiks + 4,5 l vann."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Verdiene kan variere betydelig med omgivelsestemperaturen."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "ZEMENT REPAIR 20 POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Zement Repair 20",
+      "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA DO GRUBYCH WARSTW",
+      "stats": [
+        {
+          "value": "> 50 MPa",
+          "label": "Ściskanie po 28 dniach"
+        },
+        {
+          "value": "> 6,5 MPa",
+          "label": "Zginanie po 28 dniach"
+        },
+        {
+          "value": "1-30 mm",
+          "label": "Maks. grubość warstwy"
+        },
+        {
+          "value": "1 h",
+          "label": "Czas użyteczności masy"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Zaprawa odporna na ściskanie do napraw i korygowania równości podłoży lub łączenia zmian podłoża. Nakładana w dwóch warstwach; na podłożach w złym stanie z siatką 80 g między warstwami."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cement specjalny, wyselekcjonowane kruszywa, specjalne żywice i dodatki szybkowiążące.",
+                "Naprawia i uszczelnia rysy; odpowiednia na podłożach z niewielkimi ruchami.",
+                "Odporna na wody agresywne i wodę morską; nadaje się pod malowanie lub okładziny."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Naprawa zniszczonych podłoży i korygowanie równości.",
+                "Renowacja tarasów, płyt balkonowych, dachów płaskich i gzymsów na zewnątrz lub narażonych na duże zmiany temperatury.",
+                "Hydroizolacja na zewnątrz. Z żywicą dodawaną do zaprawy jest odkształcalna.",
+                "Nie dodawać żadnych dodatków; jeśli wymagana jest większa wodoszczelność, dodać żywicę.",
+                "Na posadzkach użytkowanych zaprawa musi być zawsze zabezpieczona."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PODŁOŻA I PRZYGOTOWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beton, prefabrykaty betonowe, tynki, ceramika. Podłoża zdrowe, suche i czyste, bez pyłu, farby, tłuszczu, wapna, wosku i mleczka cementowego."
+            },
+            {
+              "type": "p",
+              "text": "Równość z maksymalnymi odchyleniami 3 mm pod łatą 2 m; w przeciwnym razie wyrównać zaprawą samopoziomującą."
+            },
+            {
+              "type": "p",
+              "text": "Podłoża kruszące się: wzmocnić środkiem Zement Prime Tack. Bardzo suche lub chłonne: lekko zwilżyć lub, w skrajnych przypadkach, zagruntować środkiem Zement Prime."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANIE I APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Proszek mieszać z czystą wodą (25-30 % na worek 25 kg) mieszadłem elektrycznym o niskich obrotach (ok. 500 obr./min) do uzyskania jednorodnej masy."
+            },
+            {
+              "type": "p",
+              "text": "Nakładać w dwóch warstwach po maks. 1-30 mm, z siatką z włókna szklanego między pierwszą a drugą warstwą na tarasach i spękanych ścianach. Minimalna grubość końcowa 3-4 mm w każdym punkcie."
+            },
+            {
+              "type": "p",
+              "text": "Dla większej elastyczności lub plastyczności dodać żywicę: 4,5 l żywicy + 4,5 l wody."
+            }
+          ]
+        },
+        {
+          "title": "ZALECENIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Temperatura podłoża i aplikacji od 5 do 30 °C. Nie stosować przy ryzyku deszczu lub mrozu ani w pełnym słońcu w upały.",
+                "Warunki atmosferyczne mogą znacznie zmienić czas otwarty mieszanki."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Zawiera cement: unikać kontaktu z oczami i skórą oraz nie wdychać pyłu. Stosować rękawice gumowe i okulary ochronne.",
+                "Przechowywać poza zasięgiem dzieci. Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Zaprawa (proszek)",
+                  "rows": [
+                    {
+                      "key": "Skład",
+                      "value": "Cement, kruszywa, żywice i dodatki szybkowiążące"
+                    },
+                    {
+                      "key": "Wydajność",
+                      "value": "ok. 1,4 kg/mm/m²"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Woda zarobowa",
+                      "value": "25-30 % na worek 25 kg"
+                    },
+                    {
+                      "key": "Przerwa / czas użyteczności",
+                      "value": "5 min / ok. 1 h"
+                    },
+                    {
+                      "key": "Grubość warstwy",
+                      "value": "maks. 1-30 mm; końcowa min. 3-4 mm"
+                    },
+                    {
+                      "key": "Wiązanie / między warstwami",
+                      "value": "Początek 4 h; przerwa między warstwami 4 h"
+                    },
+                    {
+                      "key": "Malowanie lub okładzina",
+                      "value": "> 6 dni"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "5 do 30 °C"
+                    }
+                  ]
+                },
+                {
+                  "title": "Właściwości użytkowe",
+                  "rows": [
+                    {
+                      "key": "Przyczepność",
+                      "value": "> 2 N/mm²"
+                    },
+                    {
+                      "key": "Skurcz skrępowany",
+                      "value": "> 1,5 N/mm²"
+                    },
+                    {
+                      "key": "Zginanie / ściskanie (28 d)",
+                      "value": "> 6,5 / > 50 N/mm²"
+                    },
+                    {
+                      "key": "Przyczepność po czasie otwartym",
+                      "value": "> 0,5 N/mm²"
+                    },
+                    {
+                      "key": "Zsuw",
+                      "value": "< 0,5 mm"
+                    },
+                    {
+                      "key": "Opakowanie",
+                      "value": "Worek papierowy 25 kg; paleta 48 worków"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Worek papierowy 25 kg",
+                "48 worków na palecie"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi i wilgocią."
+            }
+          ]
+        },
+        {
+          "title": "MIESZANKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Woda",
+                      "value": "25-30 % na worek 25 kg."
+                    },
+                    {
+                      "key": "Mieszanie",
+                      "value": "Mieszadło o niskich obrotach, ok. 500 obr./min."
+                    },
+                    {
+                      "key": "Przerwa",
+                      "value": "5 min po zmieszaniu."
+                    },
+                    {
+                      "key": "Z żywicą",
+                      "value": "4,5 l żywicy + 4,5 l wody."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Wartości mogą się znacznie różnić w zależności od temperatury otoczenia."
+            }
+          ]
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": []
+}

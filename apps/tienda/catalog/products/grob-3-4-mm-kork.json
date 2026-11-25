@@ -1,0 +1,2265 @@
+{
+  "key": "grob-3-4-mm-kork",
+  "source": "GROB 3-4 MM KORK",
+  "languages": {
+    "de": {
+      "file": "GROB 3-4 MM KORK ALEMÁN.pdf",
+      "label": "TECHNISCHES DATENBLATT",
+      "disclaimer": "Diese Angaben entsprechen dem aktuellen Stand unseres Wissens und informieren über unsere Produkte und deren Anwendungsmöglichkeiten. Sie dienen daher nicht der Zusicherung bestimmter Produkteigenschaften oder der Eignung für einen konkreten Anwendungszweck. Bestehende gewerbliche Schutzrechte sind zu beachten. Die Qualitätskontrollparameter werden im Spezifikationsblatt des jeweiligen Produkts aufgeführt.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Wärmeleitfähigkeit (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Brandverhalten"
+        },
+        {
+          "value": "3,0",
+          "label": "Verbrauch pro Lage (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Eimer"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Gebrauchsfertige Acrylspachtelmasse mit natürlichem Grobkork (Körnung 3 bis 4 mm). Sie vereint die Wärme des Korks mit einer fugenlosen, wasserundurchlässigen, dämmenden Oberfläche. Für Innenwände konzipiert, bietet sie den höchsten Wärme- und Schallschutz der Produktreihe."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wasserundurchlässig und wasserdampfdurchlässig.",
+                "Höchster Wärme- und Schallschutz: je gröber die Körnung und je dicker die Schicht, desto besser der Schutz.",
+                "Raue, dekorative Oberfläche mit natürlichem Erscheinungsbild."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VERWENDUNG",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wandverkleidung im Innenbereich und senkrechte Flächen.",
+                "Bereiche, die höchste Wärme- und Schalldämmung erfordern."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Abdichtend: schützt den Untergrund vor Wasser.",
+                "Wärmedämmend: verringert Wärmebrücken und erhöht den Komfort.",
+                "Schalldämmend: mindert Lärm und verbessert die Raumakustik.",
+                "Atmungsaktiv: lässt Wasserdampf passieren."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TECHNISCHE LEISTUNGSMERKMALE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Wärme- und Schallschutz",
+                  "rows": [
+                    {
+                      "key": "Wärmeleitfähigkeit λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Schallabsorption αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Wasserschutz",
+                  "rows": [
+                    {
+                      "key": "Wasseraufnahme w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Dampfdiffusion Sd",
+                      "value": "< 0,5 m (Klasse I)"
+                    },
+                    {
+                      "key": "Haftung Beton, 28 T.",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ANWENDUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Im Gebinde aufrühren, bis die Masse homogen ist. Weder Wasser noch andere Produkte zugeben."
+            },
+            {
+              "type": "p",
+              "text": "Auf einen sauberen, festen, trockenen und korrekt grundierten Untergrund auftragen."
+            },
+            {
+              "type": "p",
+              "text": "Mit der Kelle in 2 Lagen von 3 bis 4 mm auftragen; zwischen den Lagen trocknen lassen."
+            },
+            {
+              "type": "p",
+              "text": "Nicht für Fußgängerverkehr geeignet."
+            },
+            {
+              "type": "p",
+              "text": "Je nach Temperatur, Luftfeuchtigkeit und Arbeitsweise kann das Produkt in Trocknung, Härte und Verarbeitbarkeit an den Kundenwunsch angepasst werden."
+            }
+          ]
+        },
+        {
+          "title": "VERBRAUCH",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ungefährer Verbrauch (je nach Untergrund): 3,0 kg/m² pro Lage; 6,0 kg/m² bei 2 Lagen."
+            }
+          ]
+        },
+        {
+          "title": "VORTEILE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sehr gute Verarbeitbarkeit: lässt sich leicht mit der Kelle verteilen.",
+                "Hohe Haftung auf vielen Untergründen.",
+                "Leicht zu reinigen mit feuchtem Tuch und neutralem Reiniger.",
+                "Wasserbasiert, lösemittelfrei und mit geringem VOC-Gehalt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BESONDERE VORSICHTSMASSNAHMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Schutzhandschuhe und Schutzbrille tragen.",
+                "Außerhalb der Reichweite von Kindern aufbewahren.",
+                "Nicht unter 5 °C und nicht über 35 °C verarbeiten.",
+                "Beim Transport und bei der Lagerung vor Frost schützen.",
+                "Leere Gebinde gemäß den geltenden gesetzlichen Vorschriften entsorgen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EIGENSCHAFTEN",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Gebrauchsfertige Acrylspachtelmasse auf Wasserbasis"
+                    },
+                    {
+                      "key": "Zusammensetzung",
+                      "value": "Naturkorkgranulat in Acryldispersion"
+                    },
+                    {
+                      "key": "Aussehen",
+                      "value": "Spachtelmasse in natürlicher Korkfarbe"
+                    },
+                    {
+                      "key": "Körnung",
+                      "value": "3 bis 4 mm"
+                    },
+                    {
+                      "key": "Rohdichte der Masse",
+                      "value": "Ca. 800 kg/m³"
+                    },
+                    {
+                      "key": "Feststoffgehalt",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Verarbeitung",
+                  "rows": [
+                    {
+                      "key": "Schichtdicke pro Lage",
+                      "value": "3 bis 4 mm"
+                    },
+                    {
+                      "key": "Gesamtschichtdicke (2 Lagen)",
+                      "value": "6 bis 8 mm"
+                    },
+                    {
+                      "key": "Grifffest (20 °C)",
+                      "value": "4 Std."
+                    },
+                    {
+                      "key": "Zwischen den Lagen (20 °C)",
+                      "value": "12 Std."
+                    },
+                    {
+                      "key": "Verarbeitungstemperatur",
+                      "value": "5 bis 35 °C"
+                    },
+                    {
+                      "key": "Brandverhalten",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MASSGEBLICHE PRÜFNORMEN",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Die Qualitätskontrollparameter werden im Spezifikationsblatt des Produkts aufgeführt."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LIEFERFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Eimer à 12 kg",
+                "Palette mit 36 Stück"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LAGERUNG",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 Monate ab Herstellungsdatum, in ungeöffneter Originalverpackung, vor Witterung, Frost und direkter Sonneneinstrahlung geschützt. Zwischen 5 und 30 °C lagern."
+            }
+          ]
+        },
+        {
+          "title": "OBERFLÄCHENEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "en": {
+      "file": "GROB 3-4 MM KORK INGLÉS.pdf",
+      "label": "TECHNICAL DATA SHEET",
+      "disclaimer": "This information reflects the current state of our knowledge and provides information about our products and their possible applications. Its purpose is therefore not to guarantee specific properties of the products or their suitability for a particular application. Any existing industrial property rights must be respected. Quality control parameters will be detailed in the specification sheet of each product.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+      "stats": [
+        {
+          "value": "< 0.050",
+          "label": "Thermal conductivity (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Reaction to fire"
+        },
+        {
+          "value": "3.0",
+          "label": "Consumption per coat (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Bucket"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Ready-to-use acrylic paste coating made with coarse-grain natural cork (3 to 4 mm). It combines the warmth of cork with a continuous, joint-free, waterproof and insulating finish. Designed for interior walls, it offers the highest thermal and acoustic protection in the range."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Waterproof and water-vapor permeable.",
+                "Maximum thermal and acoustic protection: the coarser the grain and the thicker the coat, the greater the protection.",
+                "Rough, decorative finish with a natural look."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Interior wall cladding and vertical surfaces.",
+                "Areas requiring maximum thermal and acoustic insulation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPERTIES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Waterproofing: protects the substrate against water.",
+                "Thermal insulation: reduces thermal bridges and improves comfort.",
+                "Acoustic insulation: dampens noise and improves the acoustics of the space.",
+                "Breathable: allows water vapor to pass through."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TECHNICAL PERFORMANCE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Thermal and acoustic performance",
+                  "rows": [
+                    {
+                      "key": "Thermal conductivity λ",
+                      "value": "< 0.050 W/m·K"
+                    },
+                    {
+                      "key": "Sound absorption αw",
+                      "value": "> 0.25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Water protection",
+                  "rows": [
+                    {
+                      "key": "Capillary absorption w",
+                      "value": "< 0.05 kg/(m²·h0.5)"
+                    },
+                    {
+                      "key": "Water vapor permeability Sd",
+                      "value": "< 0.5 m (class I)"
+                    },
+                    {
+                      "key": "Adhesion to concrete, 28 d",
+                      "value": "> 1.0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Stir in the container until the paste is homogeneous. Do not add water or other products."
+            },
+            {
+              "type": "p",
+              "text": "Apply to a clean, firm, dry and properly primed substrate."
+            },
+            {
+              "type": "p",
+              "text": "Spread with a trowel in 2 coats of 3 to 4 mm, allowing to dry between coats."
+            },
+            {
+              "type": "p",
+              "text": "Not suitable for foot traffic."
+            },
+            {
+              "type": "p",
+              "text": "Depending on temperature, humidity and working method, the product can be adjusted in terms of drying, hardness and workability to the customer's request."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMPTION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Approximate consumption (depending on the substrate): 3.0 kg/m² per coat; 6.0 kg/m² in 2 coats."
+            }
+          ]
+        },
+        {
+          "title": "ADVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Very good workability: spreads easily with a trowel.",
+                "High adhesion to a wide range of substrates.",
+                "Easy to clean with a damp cloth and neutral detergent.",
+                "Water-based, solvent-free and low in VOC."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL PRECAUTIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Wear gloves and safety goggles.",
+                "Keep out of the reach of children.",
+                "Do not apply below 5 °C or above 35 °C.",
+                "Protect from frost during transport and storage.",
+                "Dispose of empty containers in accordance with current legislation."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARACTERISTICS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Ready-to-use water-based acrylic paste"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Natural cork granules in acrylic dispersion"
+                    },
+                    {
+                      "key": "Appearance",
+                      "value": "Natural cork-colored paste"
+                    },
+                    {
+                      "key": "Grain size",
+                      "value": "3 to 4 mm"
+                    },
+                    {
+                      "key": "Bulk density of paste",
+                      "value": "Approx. 800 kg/m³"
+                    },
+                    {
+                      "key": "Solids content",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Thickness per coat",
+                      "value": "3 to 4 mm"
+                    },
+                    {
+                      "key": "Total thickness (2 coats)",
+                      "value": "6 to 8 mm"
+                    },
+                    {
+                      "key": "Touch dry (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Time between coats (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Application temperature",
+                      "value": "5 to 35 °C"
+                    },
+                    {
+                      "key": "Reaction to fire",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERENCE TEST STANDARDS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Quality control parameters are detailed in the product specification sheet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PACKAGING",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "12 kg bucket",
+                "Pallet of 36 units"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "STORAGE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 months from the date of manufacture, in its original closed packaging, protected from the weather, frost and direct sunlight. Store between 5 and 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "FINISH EFFECT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "es": {
+      "file": "GROB 3-4 MM KORK ESPAÑOL.pdf",
+      "label": "FICHA TÉCNICA",
+      "disclaimer": "La información contenida en esta ficha refleja el estado actual de nuestros conocimientos y describe nuestros productos y sus posibilidades de aplicación. No pretende garantizar propiedades determinadas ni la idoneidad para una aplicación concreta. Deben respetarse los derechos de propiedad industrial existentes. Los parámetros de control de calidad se detallan en la hoja de especificaciones de cada producto.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Conductividad térmica (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Reacción al fuego"
+        },
+        {
+          "value": "3,0",
+          "label": "Consumo por capa (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Cubo"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUCTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revestimiento acrílico en pasta, listo al uso, elaborado con corcho natural de granulometría gruesa (3 a 4 mm). Une la calidez del corcho con un acabado continuo, sin juntas, impermeable y aislante. Pensado para fachadas interiores, ofrece la máxima protección térmica y acústica de la gama."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Impermeable y permeable al vapor de agua.",
+                "Máxima protección térmica y acústica: a mayor granulometría y mayor espesor de capa, mayor protección.",
+                "Acabado rugoso y decorativo, de aspecto natural."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "USOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Fachadas interiores y paramentos verticales.",
+                "Zonas que requieren máximo aislamiento térmico y acústico."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPIEDADES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Impermeabilizante: protege el soporte frente al agua.",
+                "Aislante térmico: reduce los puentes térmicos y mejora el confort.",
+                "Aislante acústico: atenúa el ruido y mejora la acústica del espacio.",
+                "Transpirable: deja pasar el vapor de agua."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTACIONES TÉCNICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prestaciones térmicas y acústicas",
+                  "rows": [
+                    {
+                      "key": "Conductividad térmica λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Absorción acústica αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Protección frente al agua",
+                  "rows": [
+                    {
+                      "key": "Absorción capilar w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Permeabilidad al vapor de agua Sd",
+                      "value": "< 0,5 m (clase I)"
+                    },
+                    {
+                      "key": "Adherencia al hormigón, 28 días",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLICACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Remover en el envase hasta que la pasta quede homogénea. No añadir agua ni otros productos."
+            },
+            {
+              "type": "p",
+              "text": "Aplicar sobre un soporte limpio, firme, seco y correctamente imprimado."
+            },
+            {
+              "type": "p",
+              "text": "Extender con llana en 2 capas de 3 a 4 mm, dejando secar entre capas."
+            },
+            {
+              "type": "p",
+              "text": "Uso no apto para tránsito peatonal."
+            },
+            {
+              "type": "p",
+              "text": "Según la temperatura, la humedad y el método de trabajo, el producto puede adaptarse en secado, dureza y trabajabilidad a la petición del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo aproximado (según soporte): 3,0 kg/m² por capa; 6,0 kg/m² en 2 capas."
+            }
+          ]
+        },
+        {
+          "title": "VENTAJAS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Muy buena trabajabilidad: se extiende con facilidad a llana.",
+                "Gran adherencia sobre múltiples soportes.",
+                "Fácil de limpiar con un paño húmedo y detergente neutro.",
+                "Base agua, sin disolventes y con bajo contenido en COV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUCIONES ESPECIALES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Usar guantes y gafas de seguridad.",
+                "Mantener fuera del alcance de los niños.",
+                "No aplicar por debajo de 5 °C ni por encima de 35 °C.",
+                "Proteger de las heladas durante el transporte y el almacenamiento.",
+                "Eliminar los envases vacíos conforme a la normativa legal vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTERÍSTICAS",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Pasta acrílica al agua, lista para usar"
+                    },
+                    {
+                      "key": "Composición",
+                      "value": "Granulado de corcho natural en dispersión acrílica"
+                    },
+                    {
+                      "key": "Aspecto",
+                      "value": "Pasta de color corcho natural"
+                    },
+                    {
+                      "key": "Granulometría",
+                      "value": "3 a 4 mm"
+                    },
+                    {
+                      "key": "Densidad aparente de la pasta",
+                      "value": "Aprox. 800 kg/m³"
+                    },
+                    {
+                      "key": "Contenido en sólidos",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplicación",
+                  "rows": [
+                    {
+                      "key": "Espesor por capa",
+                      "value": "3 a 4 mm"
+                    },
+                    {
+                      "key": "Espesor total (2 capas)",
+                      "value": "6 a 8 mm"
+                    },
+                    {
+                      "key": "Secado al tacto (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Tiempo entre capas (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Temperatura de aplicación",
+                      "value": "5 a 35 °C"
+                    },
+                    {
+                      "key": "Reacción al fuego",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CERTIFICADOS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Los parámetros de control de calidad se detallan en la hoja de especificaciones del producto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESENTACIÓN",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Cubo de 12 kg",
+                "Palé de 36 unidades"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVACIÓN",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 meses desde la fecha de fabricación, en su envase original cerrado, al abrigo de la intemperie, de las heladas y del sol directo. Almacenar entre 5 y 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFECTO ACABADO",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fi": {
+      "file": "GROB 3-4 MM KORK FINLANDÉS.pdf",
+      "label": "TEKNINEN TIETOLEHTI",
+      "disclaimer": "Nämä tiedot vastaavat nykyistä tietämystämme ja antavat tietoa tuotteistamme sekä niiden käyttömahdollisuuksista. Niiden tarkoituksena ei siten ole taata tuotteille tiettyjä ominaisuuksia tai soveltuvuutta tiettyyn käyttötarkoitukseen. Mahdolliset olemassa olevat teollisoikeudet on otettava huomioon. Laadunvalvonnan parametrit on eritelty kunkin tuotteen eritelmälehdessä.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Lämmönjohtavuus (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Palonkestävyys"
+        },
+        {
+          "value": "3,0",
+          "label": "Kulutus kerrosta kohti (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Sanko"
+        }
+      ],
+      "sections": [
+        {
+          "title": "TUOTE",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Käyttövalmis akryylitahna, joka on valmistettu karkearakeisesta luonnonkorkista (3–4 mm). Yhdistää korkin lämpimän tuntuman saumattomaan, vedenpitävään ja eristävään pintaan. Sisäseinien pinnoitteeksi suunniteltuna se tarjoaa valikoiman parhaan lämpö- ja ääneneristyksen."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vedenpitävä ja vesihöyryä läpäisevä.",
+                "Paras lämpö- ja ääneneristys: mitä karkeampi raekoko ja mitä paksumpi kerros, sitä parempi suoja.",
+                "Karhea ja koristeellinen pinta, luonnollinen ulkonäkö."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "KÄYTTÖKOHTEET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Sisäseinien pinnoitus ja pystysuorat pinnat.",
+                "Tilat, joissa vaaditaan parasta lämpö- ja ääneneristystä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Vedeneristävä: suojaa alustaa vedeltä.",
+                "Lämmöneristävä: vähentää kylmäsiltoja ja parantaa viihtyisyyttä.",
+                "Ääneneristävä: vaimentaa melua ja parantaa tilan akustiikkaa.",
+                "Hengittävä: päästää vesihöyryn läpi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TEKNISET SUORITUSARVOT",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Lämpö- ja akustiset arvot",
+                  "rows": [
+                    {
+                      "key": "Lämmönjohtavuus λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Ääniabsorptio αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Vedeneristys",
+                  "rows": [
+                    {
+                      "key": "Kapillaarinen imeytyminen w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Vesihöyrynläpäisevyys Sd",
+                      "value": "< 0,5 m (luokka I)"
+                    },
+                    {
+                      "key": "Tartunta betoniin, 28 vrk",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVITYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sekoita astiassa, kunnes tahna on tasaisen homogeenista. Älä lisää vettä tai muita tuotteita."
+            },
+            {
+              "type": "p",
+              "text": "Levitä puhtaalle, kiinteälle, kuivalle ja asianmukaisesti pohjustetulle alustalle."
+            },
+            {
+              "type": "p",
+              "text": "Levitä lastalla 2 kerroksena, kummankin paksuus 3–4 mm, ja anna kuivua kerrosten välillä."
+            },
+            {
+              "type": "p",
+              "text": "Ei sovellu jalankulkuliikenteelle."
+            },
+            {
+              "type": "p",
+              "text": "Lämpötilasta, kosteudesta ja työtavasta riippuen tuotteen kuivumista, kovuutta ja työstettävyyttä voidaan mukauttaa asiakkaan toiveiden mukaan."
+            }
+          ]
+        },
+        {
+          "title": "KULUTUS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Arvioitu kulutus (alustasta riippuen): 3,0 kg/m² kerrosta kohti; 6,0 kg/m² kahdella kerroksella."
+            }
+          ]
+        },
+        {
+          "title": "EDUT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Erittäin hyvä työstettävyys: levittyy helposti lastalla.",
+                "Erinomainen tartunta useille alustoille.",
+                "Helppo puhdistaa kostealla liinalla ja miedolla pesuaineella.",
+                "Vesiohenteinen, liuotteeton ja vähäpäästöinen (VOC)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ERITYISET VAROTOIMET",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Käytä käsineitä ja suojalaseja.",
+                "Säilytä lasten ulottumattomissa.",
+                "Älä levitä, kun lämpötila on alle 5 °C tai yli 35 °C.",
+                "Suojaa pakkaselta kuljetuksen ja varastoinnin aikana.",
+                "Tyhjät pakkaukset on hävitettävä voimassa olevien säännösten mukaisesti."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OMINAISUUDET",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tyyppi",
+                      "value": "Vesiohenteinen käyttövalmis akryylitahna"
+                    },
+                    {
+                      "key": "Koostumus",
+                      "value": "Luonnonkorkkirouhe akryylidispersiossa"
+                    },
+                    {
+                      "key": "Ulkonäkö",
+                      "value": "Luonnonkorkin värinen tahna"
+                    },
+                    {
+                      "key": "Raekoko",
+                      "value": "3–4 mm"
+                    },
+                    {
+                      "key": "Tahnan irtotiheys",
+                      "value": "Noin 800 kg/m³"
+                    },
+                    {
+                      "key": "Kiintoainepitoisuus",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Levitys",
+                  "rows": [
+                    {
+                      "key": "Kerrospaksuus",
+                      "value": "3–4 mm"
+                    },
+                    {
+                      "key": "Kokonaispaksuus (2 kerrosta)",
+                      "value": "6–8 mm"
+                    },
+                    {
+                      "key": "Pintakuiva (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Kerrosten väli (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Levityslämpötila",
+                      "value": "5–35 °C"
+                    },
+                    {
+                      "key": "Palonkestävyys",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "< 10 g/l"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "VIITESTANDARDIT",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Laadunvalvonnan parametrit on eritelty tuotteen eritelmälehdessä."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PAKKAUS",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "12 kg:n sanko",
+                "Lava, 36 kpl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÄILYTYS",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 kuukautta valmistuspäivästä alkaen, avaamattomassa alkuperäispakkauksessa, suojattuna sääolosuhteilta, pakkaselta ja suoralta auringonvalolta. Säilytettävä 5–30 °C:ssa."
+            }
+          ]
+        },
+        {
+          "title": "PINTAEFEKTI",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "fr": {
+      "file": "GROB 3-4 MM KORK FRANCÉS.pdf",
+      "label": "FICHE TECHNIQUE",
+      "disclaimer": "Ces informations correspondent à l'état actuel de nos connaissances et renseignent sur nos produits et leurs possibilités d'application. Elles n'ont donc pas pour objet de garantir des propriétés déterminées des produits ni leur adéquation à une application concrète. Les éventuels droits de propriété industrielle existants doivent être respectés. Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification de chaque produit.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Conductivité thermique (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Réaction au feu"
+        },
+        {
+          "value": "3,0",
+          "label": "Consommation par couche (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Seau"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUIT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Revêtement acrylique en pâte, prêt à l'emploi, élaboré avec du liège naturel de grosse granulométrie (3 à 4 mm). Il allie la chaleur du liège à une finition continue, sans joints, imperméable et isolante. Conçu pour le revêtement des murs intérieurs, il offre la protection thermique et acoustique maximale de la gamme."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Imperméable à l'eau et perméable à la vapeur d'eau.",
+                "Protection thermique et acoustique maximale : plus la granulométrie et l'épaisseur de couche sont élevées, plus la protection est grande.",
+                "Finition rugueuse et décorative, d'aspect naturel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILISATIONS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Revêtement des murs et parois verticales intérieurs.",
+                "Zones nécessitant une isolation thermique et acoustique maximale."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIÉTÉS",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Imperméabilisant : protège le support contre l'eau.",
+                "Isolant thermique : réduit les ponts thermiques et améliore le confort.",
+                "Isolant acoustique : atténue le bruit et améliore l'acoustique de la pièce.",
+                "Respirant : laisse passer la vapeur d'eau."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PERFORMANCES TECHNIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Performances thermiques et acoustiques",
+                  "rows": [
+                    {
+                      "key": "Conductivité thermique λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Absorption acoustique αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Protection contre l'eau",
+                  "rows": [
+                    {
+                      "key": "Absorption capillaire w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Perméabilité vapeur Sd",
+                      "value": "< 0,5 m (classe I)"
+                    },
+                    {
+                      "key": "Adhérence au béton, 28 j",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mélanger dans le seau jusqu'à obtention d'une pâte homogène. Ne pas ajouter d'eau ni d'autres produits."
+            },
+            {
+              "type": "p",
+              "text": "Appliquer sur un support propre, solide, sec et correctement apprêté."
+            },
+            {
+              "type": "p",
+              "text": "Étaler à la lisseuse en 2 couches de 3 à 4 mm, en laissant sécher entre les couches."
+            },
+            {
+              "type": "p",
+              "text": "Ne convient pas à la circulation piétonne."
+            },
+            {
+              "type": "p",
+              "text": "Selon la température, l'humidité et la méthode de travail, le produit peut être adapté en termes de séchage, de dureté et de maniabilité au goût du client."
+            }
+          ]
+        },
+        {
+          "title": "CONSOMMATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consommation approximative (selon le support) : 3,0 kg/m² par couche ; 6,0 kg/m² en 2 couches."
+            }
+          ]
+        },
+        {
+          "title": "AVANTAGES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Très bonne maniabilité : s'étale facilement à la lisseuse.",
+                "Forte adhérence sur de nombreux supports.",
+                "Facile à nettoyer avec un chiffon humide et un détergent neutre.",
+                "À base d'eau, sans solvants et à faible teneur en COV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRÉCAUTIONS PARTICULIÈRES",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Utiliser des gants et des lunettes de protection.",
+                "Tenir hors de portée des enfants.",
+                "Ne pas appliquer à une température inférieure à 5 °C ni supérieure à 35 °C.",
+                "Protéger du gel pendant le transport et le stockage.",
+                "Éliminer les emballages vides conformément à la réglementation en vigueur."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARACTÉRISTIQUES",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Pâte acrylique à l'eau, prête à l'emploi"
+                    },
+                    {
+                      "key": "Composition",
+                      "value": "Granulat de liège naturel en dispersion acrylique"
+                    },
+                    {
+                      "key": "Aspect",
+                      "value": "Pâte de couleur liège naturel"
+                    },
+                    {
+                      "key": "Granulométrie",
+                      "value": "3 à 4 mm"
+                    },
+                    {
+                      "key": "Masse volumique apparente de la pâte",
+                      "value": "Env. 800 kg/m³"
+                    },
+                    {
+                      "key": "Teneur en matières solides",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Application",
+                  "rows": [
+                    {
+                      "key": "Épaisseur par couche",
+                      "value": "3 à 4 mm"
+                    },
+                    {
+                      "key": "Épaisseur totale (2 couches)",
+                      "value": "6 à 8 mm"
+                    },
+                    {
+                      "key": "Sec au toucher (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Temps entre couches (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Température d'application",
+                      "value": "5 à 35 °C"
+                    },
+                    {
+                      "key": "Réaction au feu",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMES D'ESSAI DE RÉFÉRENCE",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Les paramètres de contrôle qualité sont détaillés dans la fiche de spécification du produit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONDITIONNEMENT",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Seau de 12 kg",
+                "Palette de 36 unités"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVATION",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mois à compter de la date de fabrication, dans l'emballage d'origine fermé, à l'abri des intempéries, du gel et du soleil direct. Stocker entre 5 et 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFFET DE FINITION",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "it": {
+      "file": "GROB 3-4 MM KORK ITALIANO.pdf",
+      "label": "SCHEDA TECNICA",
+      "disclaimer": "Le presenti informazioni corrispondono allo stato attuale delle nostre conoscenze e forniscono informazioni sui nostri prodotti e sulle loro possibilità di applicazione. Non hanno quindi lo scopo di garantire determinate proprietà dei prodotti né la loro idoneità a un'applicazione specifica. Devono essere rispettati gli eventuali diritti di proprietà industriale esistenti. I parametri di controllo qualità sono dettagliati nella scheda di specifica di ciascun prodotto.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Conducibilità termica (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Reazione al fuoco"
+        },
+        {
+          "value": "3,0",
+          "label": "Consumo per mano (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Secchio"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODOTTO",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Rivestimento acrilico in pasta, pronto all'uso, realizzato con sughero naturale a granulometria grossa (da 3 a 4 mm). Unisce il calore del sughero a una finitura continua, senza giunti, impermeabile e isolante. Pensato per il rivestimento di pareti interne verticali, offre la massima protezione termica e acustica della gamma."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Impermeabile e permeabile al vapore acqueo.",
+                "Massima protezione termica e acustica: maggiore è la granulometria e lo spessore dello strato, maggiore è la protezione.",
+                "Finitura ruvida e decorativa, dall'aspetto naturale."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UTILIZZI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Rivestimento di pareti e superfici verticali interne.",
+                "Ambienti che richiedono il massimo isolamento termico e acustico."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PROPRIETÀ",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Impermeabilizzante: protegge il supporto dall'acqua.",
+                "Isolante termico: riduce i ponti termici e migliora il comfort.",
+                "Isolante acustico: attenua il rumore e migliora l'acustica dell'ambiente.",
+                "Traspirante: lascia passare il vapore acqueo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRESTAZIONI TECNICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Prestazioni termiche e acustiche",
+                  "rows": [
+                    {
+                      "key": "Conducibilità termica λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Assorbimento acustico αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Protezione dall'acqua",
+                  "rows": [
+                    {
+                      "key": "Assorbimento capillare w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Permeabilità al vapore Sd",
+                      "value": "< 0,5 m (classe I)"
+                    },
+                    {
+                      "key": "Aderenza al calcestruzzo, 28 g",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APPLICAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mescolare nel contenitore fino a ottenere una pasta omogenea. Non aggiungere acqua né altri prodotti."
+            },
+            {
+              "type": "p",
+              "text": "Applicare su un supporto pulito, solido, asciutto e correttamente trattato con primer."
+            },
+            {
+              "type": "p",
+              "text": "Stendere con spatola in 2 mani da 3 a 4 mm, lasciando asciugare tra una mano e l'altra."
+            },
+            {
+              "type": "p",
+              "text": "Non adatto al transito pedonale."
+            },
+            {
+              "type": "p",
+              "text": "In base a temperatura, umidità e metodo di lavoro, il prodotto può essere adattato per quanto riguarda essiccazione, durezza e lavorabilità secondo la richiesta del cliente."
+            }
+          ]
+        },
+        {
+          "title": "CONSUMO",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Consumo approssimativo (a seconda del supporto): 3,0 kg/m² per mano; 6,0 kg/m² in 2 mani."
+            }
+          ]
+        },
+        {
+          "title": "VANTAGGI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ottima lavorabilità: si stende con facilità a spatola.",
+                "Elevata aderenza su numerosi supporti.",
+                "Facile da pulire con un panno umido e detergente neutro.",
+                "A base d'acqua, senza solventi e a basso contenuto di COV."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRECAUZIONI PARTICOLARI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Utilizzare guanti e occhiali di protezione.",
+                "Tenere fuori dalla portata dei bambini.",
+                "Non applicare a temperature inferiori a 5 °C o superiori a 35 °C.",
+                "Proteggere dal gelo durante il trasporto e lo stoccaggio.",
+                "Smaltire i contenitori vuoti in conformità alla normativa vigente."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CARATTERISTICHE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Tipo",
+                      "value": "Pasta acrilica all'acqua, pronta all'uso"
+                    },
+                    {
+                      "key": "Composizione",
+                      "value": "Granulato di sughero naturale in dispersione acrilica"
+                    },
+                    {
+                      "key": "Aspetto",
+                      "value": "Pasta color sughero naturale"
+                    },
+                    {
+                      "key": "Granulometria",
+                      "value": "da 3 a 4 mm"
+                    },
+                    {
+                      "key": "Massa volumica apparente della pasta",
+                      "value": "Circa 800 kg/m³"
+                    },
+                    {
+                      "key": "Contenuto di solidi",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Applicazione",
+                  "rows": [
+                    {
+                      "key": "Spessore per mano",
+                      "value": "da 3 a 4 mm"
+                    },
+                    {
+                      "key": "Spessore totale (2 mani)",
+                      "value": "da 6 a 8 mm"
+                    },
+                    {
+                      "key": "Asciutto al tatto (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Tempo tra le mani (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Temperatura di applicazione",
+                      "value": "da 5 a 35 °C"
+                    },
+                    {
+                      "key": "Reazione al fuoco",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "COV",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORME DI PROVA DI RIFERIMENTO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "I parametri di controllo qualità sono dettagliati nella scheda di specifica del prodotto."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONFEZIONE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Secchio da 12 kg",
+                "Pallet da 36 unità"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CONSERVAZIONE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 mesi dalla data di fabbricazione, nella confezione originale chiusa, al riparo dagli agenti atmosferici, dal gelo e dal sole diretto. Conservare tra 5 e 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFFETTO DI FINITURA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "no": {
+      "file": "GROB 3-4 MM KORK NORUEGO.pdf",
+      "label": "TEKNISK DATABLAD",
+      "disclaimer": "Denne informasjonen tilsvarer vår nåværende kunnskapsstand og gir opplysninger om produktene våre og deres bruksmuligheter. Hensikten er derfor ikke å garantere bestemte egenskaper ved produktene eller deres egnethet for en konkret anvendelse. Eventuelle eksisterende industrielle eiendomsrettigheter må respekteres. Kvalitetskontrollparametrene er nærmere beskrevet i spesifikasjonsarket for hvert enkelt produkt.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Varmeledningsevne (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Brannreaksjon"
+        },
+        {
+          "value": "3,0",
+          "label": "Forbruk per lag (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Bøtte"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Bruksferdig akrylbelegg i pastaform, laget av naturlig kork med grov kornstørrelse (3 til 4 mm). Kombinerer korkens varme og følelse med en sammenhengende, fugefri, vanntett og isolerende finish. Beregnet på innvendig veggkledning og gir den høyeste varme- og lydbeskyttelsen i serien."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vanntett og damppermeabelt.",
+                "Høyeste varme- og lydbeskyttelse: jo grovere kornstørrelse og jo tykkere lag, desto bedre beskyttelse.",
+                "Ru og dekorativ finish med naturlig utseende."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BRUK",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Innvendig veggkledning og vertikale flater.",
+                "Områder som krever maksimal varme- og lydisolering."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Tettende: beskytter underlaget mot vann.",
+                "Varmeisolerende: reduserer kuldebroer og øker komforten.",
+                "Lydisolerende: demper støy og forbedrer akustikken i rommet.",
+                "Pustende: slipper gjennom vanndamp."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TEKNISKE YTELSER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Varme- og lydytelse",
+                  "rows": [
+                    {
+                      "key": "Varmeledningsevne λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Lydabsorpsjon αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Beskyttelse mot vann",
+                  "rows": [
+                    {
+                      "key": "Kapillær absorpsjon w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Vanndampgjennomgang Sd",
+                      "value": "< 0,5 m (klasse I)"
+                    },
+                    {
+                      "key": "Heft til betong, 28 d",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PÅFØRING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rør i emballasjen til pastaen er helt ensartet. Ikke tilsett vann eller andre produkter."
+            },
+            {
+              "type": "p",
+              "text": "Påfør på et rent, fast, tørt og riktig grunnet underlag."
+            },
+            {
+              "type": "p",
+              "text": "Fordel med sparkel i 2 lag på 3 til 4 mm, og la det tørke mellom lagene."
+            },
+            {
+              "type": "p",
+              "text": "Ikke egnet for gange."
+            },
+            {
+              "type": "p",
+              "text": "Avhengig av temperatur, fuktighet og arbeidsmetode kan produktet tilpasses med hensyn til tørking, hardhet og bearbeidbarhet etter kundens ønske."
+            }
+          ]
+        },
+        {
+          "title": "FORBRUK",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Omtrentlig forbruk (avhengig av underlag): 3,0 kg/m² per lag; 6,0 kg/m² i 2 lag."
+            }
+          ]
+        },
+        {
+          "title": "FORDELER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Svært god bearbeidbarhet: lett å fordele med sparkel.",
+                "Stor heft til mange typer underlag.",
+                "Enkelt å rengjøre med en fuktig klut og nøytralt rengjøringsmiddel.",
+                "Vannbasert, uten løsemidler og med lavt VOC-innhold."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SÆRLIGE FORHOLDSREGLER",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bruk hansker og vernebriller.",
+                "Oppbevares utilgjengelig for barn.",
+                "Må ikke påføres under 5 °C eller over 35 °C.",
+                "Beskyttes mot frost under transport og lagring.",
+                "Tomme emballasjer skal kasseres i samsvar med gjeldende regelverk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "EGENSKAPER",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Type",
+                      "value": "Vannbasert akrylpasta, klar til bruk"
+                    },
+                    {
+                      "key": "Sammensetning",
+                      "value": "Naturlig korkgranulat i akryldispersjon"
+                    },
+                    {
+                      "key": "Utseende",
+                      "value": "Pasta i naturlig korkfarge"
+                    },
+                    {
+                      "key": "Kornstørrelse",
+                      "value": "3 til 4 mm"
+                    },
+                    {
+                      "key": "Tilsynelatende densitet, pasta",
+                      "value": "Ca. 800 kg/m³"
+                    },
+                    {
+                      "key": "Tørrstoffinnhold",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Påføring",
+                  "rows": [
+                    {
+                      "key": "Tykkelse per lag",
+                      "value": "3 til 4 mm"
+                    },
+                    {
+                      "key": "Total tykkelse (2 lag)",
+                      "value": "6 til 8 mm"
+                    },
+                    {
+                      "key": "Berøringstørr (20 °C)",
+                      "value": "4 t"
+                    },
+                    {
+                      "key": "Tid mellom lag (20 °C)",
+                      "value": "12 t"
+                    },
+                    {
+                      "key": "Påføringstemperatur",
+                      "value": "5 til 35 °C"
+                    },
+                    {
+                      "key": "Brannreaksjon",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "VOC",
+                      "value": "< 10 g/l"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "REFERANSESTANDARDER FOR PRØVING",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Kvalitetskontrollparametrene er nærmere beskrevet i produktets spesifikasjonsark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LEVERINGSFORM",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Bøtte på 12 kg",
+                "Pall med 36 enheter"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPPBEVARING",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 måneder fra produksjonsdato, i uåpnet originalemballasje, beskyttet mot vær, frost og direkte sol. Oppbevares mellom 5 og 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "FINISHEFFEKT",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    },
+    "pl": {
+      "file": "GROB 3-4 MM KORK POLACO.pdf",
+      "label": "KARTA TECHNICZNA",
+      "disclaimer": "Niniejsze informacje odpowiadają aktualnemu stanowi naszej wiedzy i dostarczają informacji o naszych produktach oraz możliwościach ich zastosowania. Nie mają one zatem na celu zagwarantowania określonych właściwości produktów ani ich przydatności do konkretnego zastosowania. Należy przestrzegać istniejących praw własności przemysłowej. Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji każdego produktu.",
+      "name": "Grob 3/4 mm Kork",
+      "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+      "stats": [
+        {
+          "value": "< 0,050",
+          "label": "Przewodność cieplna (W/m·K)"
+        },
+        {
+          "value": "B-s1, d0",
+          "label": "Reakcja na ogień"
+        },
+        {
+          "value": "3,0",
+          "label": "Zużycie na warstwę (kg/m²)"
+        },
+        {
+          "value": "12 kg",
+          "label": "Wiadro"
+        }
+      ],
+      "sections": [
+        {
+          "title": "PRODUKT",
+          "blocks": [
+            {
+              "type": "lead",
+              "text": "Akrylowa okładzina w paście, gotowa do użycia, wykonana z naturalnego korka o grubym uziarnieniu (3 do 4 mm). Łączy ciepło korka z jednolitym wykończeniem bez spoin, wodoodpornym i izolacyjnym. Przeznaczona do okładzin ścian wewnętrznych, zapewnia najwyższą ochronę termiczną i akustyczną w całej gamie."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wodoodporna i paroprzepuszczalna.",
+                "Najwyższa ochrona termiczna i akustyczna: im grubsze uziarnienie i grubsza warstwa, tym wyższa ochrona.",
+                "Chropowate, dekoracyjne wykończenie o naturalnym wyglądzie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ZASTOSOWANIA",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Okładziny ścian wewnętrznych i powierzchni pionowych.",
+                "Strefy wymagające maksymalnej izolacji termicznej i akustycznej."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WŁAŚCIWOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Hydroizolacyjna: chroni podłoże przed wodą.",
+                "Izolacja termiczna: ogranicza mostki termiczne i poprawia komfort.",
+                "Izolacja akustyczna: tłumi hałas i poprawia akustykę pomieszczenia.",
+                "Przepuszczalna dla pary: przepuszcza parę wodną."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PARAMETRY TECHNICZNE",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": "Parametry termiczne i akustyczne",
+                  "rows": [
+                    {
+                      "key": "Przewodność cieplna λ",
+                      "value": "< 0,050 W/m·K"
+                    },
+                    {
+                      "key": "Pochłanianie dźw. αw",
+                      "value": "> 0,25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ochrona przed wodą",
+                  "rows": [
+                    {
+                      "key": "Nasiąkliwość kap. w",
+                      "value": "< 0,05 kg/(m²·h0,5)"
+                    },
+                    {
+                      "key": "Paroprzepuszcz. Sd",
+                      "value": "< 0,5 m (klasa I)"
+                    },
+                    {
+                      "key": "Przycz. do betonu, 28 d",
+                      "value": "> 1,0 N/mm²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "APLIKACJA",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Wymieszać w opakowaniu do uzyskania jednorodnej pasty. Nie dodawać wody ani innych produktów."
+            },
+            {
+              "type": "p",
+              "text": "Nakładać na czyste, stabilne, suche i odpowiednio zagruntowane podłoże."
+            },
+            {
+              "type": "p",
+              "text": "Rozprowadzać pacą w 2 warstwach po 3 do 4 mm, pozostawiając czas na wyschnięcie między warstwami."
+            },
+            {
+              "type": "p",
+              "text": "Produkt nieprzeznaczony do ruchu pieszego."
+            },
+            {
+              "type": "p",
+              "text": "W zależności od temperatury, wilgotności i metody pracy produkt można dostosować pod względem schnięcia, twardości i urabialności do preferencji klienta."
+            }
+          ]
+        },
+        {
+          "title": "ZUŻYCIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Przybliżone zużycie (w zależności od podłoża): 3,0 kg/m² na warstwę; 6,0 kg/m² w 2 warstwach."
+            }
+          ]
+        },
+        {
+          "title": "ZALETY",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Bardzo dobra urabialność: łatwo rozprowadza się pacą.",
+                "Wysoka przyczepność do wielu podłoży.",
+                "Łatwa w czyszczeniu wilgotną ściereczką i neutralnym detergentem.",
+                "Na bazie wody, bez rozpuszczalników i o niskiej zawartości LZO."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SZCZEGÓLNE ŚRODKI OSTROŻNOŚCI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Stosować rękawice i okulary ochronne.",
+                "Przechowywać poza zasięgiem dzieci.",
+                "Nie stosować w temperaturze poniżej 5 °C ani powyżej 35 °C.",
+                "Chronić przed mrozem podczas transportu i przechowywania.",
+                "Puste opakowania utylizować zgodnie z obowiązującymi przepisami."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHARAKTERYSTYKA",
+          "blocks": [
+            {
+              "type": "table",
+              "groups": [
+                {
+                  "title": null,
+                  "rows": [
+                    {
+                      "key": "Typ",
+                      "value": "Wodna pasta akrylowa gotowa do użycia"
+                    },
+                    {
+                      "key": "Skład",
+                      "value": "Granulat naturalnego korka w dyspersji akrylowej"
+                    },
+                    {
+                      "key": "Wygląd",
+                      "value": "Pasta w kolorze naturalnego korka"
+                    },
+                    {
+                      "key": "Uziarnienie",
+                      "value": "3 do 4 mm"
+                    },
+                    {
+                      "key": "Gęstość nasypowa pasty",
+                      "value": "Ok. 800 kg/m³"
+                    },
+                    {
+                      "key": "Zawartość części stałych",
+                      "value": "> 65 %"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aplikacja",
+                  "rows": [
+                    {
+                      "key": "Grubość warstwy",
+                      "value": "3 do 4 mm"
+                    },
+                    {
+                      "key": "Grubość całkowita (2 warstwy)",
+                      "value": "6 do 8 mm"
+                    },
+                    {
+                      "key": "Sucha w dotyku (20 °C)",
+                      "value": "4 h"
+                    },
+                    {
+                      "key": "Czas między warstwami (20 °C)",
+                      "value": "12 h"
+                    },
+                    {
+                      "key": "Temperatura aplikacji",
+                      "value": "5 do 35 °C"
+                    },
+                    {
+                      "key": "Reakcja na ogień",
+                      "value": "B-s1, d0"
+                    },
+                    {
+                      "key": "LZO",
+                      "value": "< 10 g/L"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "NORMY BADAŃ REFERENCYJNYCH",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Parametry kontroli jakości są szczegółowo opisane w karcie specyfikacji produktu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OPAKOWANIE",
+          "blocks": [
+            {
+              "type": "packs",
+              "items": [
+                "Wiadro 12 kg",
+                "Paleta 36 sztuk"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PRZECHOWYWANIE",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "12 miesięcy od daty produkcji, w oryginalnym, zamkniętym opakowaniu, chronione przed warunkami atmosferycznymi, mrozem i bezpośrednim słońcem. Przechowywać w temperaturze od 5 do 30 °C."
+            }
+          ]
+        },
+        {
+          "title": "EFEKT WYKOŃCZENIA",
+          "blocks": []
+        }
+      ],
+      "pages": 2
+    }
+  },
+  "images": [
+    "grob-3-4-mm-kork.jpg"
+  ]
+}

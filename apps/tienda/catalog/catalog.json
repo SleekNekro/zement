@@ -1,0 +1,178 @@
+{
+  "$comment": "Familias de la tienda y datos comerciales de cada producto. Los textos técnicos salen de products/*.json (extraídos de las fichas PDF). Lo que vale null está pendiente de Zement (TODO: contenido real): mientras falte el precio, el producto se importa desactivado.",
+  "languages": ["es", "en", "de", "fr", "it", "pl", "no", "fi"],
+  "categories": [
+    {
+      "key": "microcemento",
+      "name": {
+        "es": "Microcemento",
+        "en": "Microcement",
+        "de": "Mikrozement",
+        "fr": "Microciment",
+        "it": "Microcemento",
+        "pl": "Mikrocement",
+        "no": "Mikrosement",
+        "fi": "Mikrosementti"
+      }
+    },
+    {
+      "key": "corcho",
+      "name": {
+        "es": "Revestimientos con corcho",
+        "en": "Cork coatings",
+        "de": "Korkbeschichtungen",
+        "fr": "Revêtements au liège",
+        "it": "Rivestimenti con sughero",
+        "pl": "Powłoki z korkiem",
+        "no": "Belegg med kork",
+        "fi": "Korkkipinnoitteet"
+      }
+    },
+    {
+      "key": "imprimaciones",
+      "name": {
+        "es": "Imprimaciones y selladores",
+        "en": "Primers and sealers",
+        "de": "Grundierungen und Versiegelungen",
+        "fr": "Primaires et bouche-pores",
+        "it": "Primer e sigillanti",
+        "pl": "Grunty i uszczelniacze",
+        "no": "Primere og forseglere",
+        "fi": "Pohjusteet ja tiivisteet"
+      }
+    },
+    {
+      "key": "proteccion",
+      "name": {
+        "es": "Barnices y protección",
+        "en": "Varnishes and protection",
+        "de": "Lacke und Schutz",
+        "fr": "Vernis et protection",
+        "it": "Vernici e protezione",
+        "pl": "Lakiery i ochrona",
+        "no": "Lakk og beskyttelse",
+        "fi": "Lakat ja suojaus"
+      }
+    },
+    {
+      "key": "metalicos",
+      "name": {
+        "es": "Efectos metálicos",
+        "en": "Metallic effects",
+        "de": "Metalleffekte",
+        "fr": "Effets métalliques",
+        "it": "Effetti metallici",
+        "pl": "Efekty metaliczne",
+        "no": "Metalliske effekter",
+        "fi": "Metalliefektit"
+      }
+    },
+    {
+      "key": "morteros",
+      "name": {
+        "es": "Morteros de reparación e impermeabilización",
+        "en": "Repair and waterproofing mortars",
+        "de": "Reparatur- und Abdichtungsmörtel",
+        "fr": "Mortiers de réparation et d'étanchéité",
+        "it": "Malte da riparazione e impermeabilizzazione",
+        "pl": "Zaprawy naprawcze i hydroizolacyjne",
+        "no": "Reparasjons- og tetningsmørtler",
+        "fi": "Korjaus- ja vedeneristyslaastit"
+      }
+    },
+    {
+      "key": "piscinas",
+      "name": {
+        "es": "Piscinas",
+        "en": "Swimming pools",
+        "de": "Schwimmbecken",
+        "fr": "Piscines",
+        "it": "Piscine",
+        "pl": "Baseny",
+        "no": "Svømmebasseng",
+        "fi": "Uima-altaat"
+      }
+    },
+    {
+      "key": "complementos",
+      "name": {
+        "es": "Aditivos y complementos",
+        "en": "Additives and accessories",
+        "de": "Zusatzmittel und Zubehör",
+        "fr": "Additifs et accessoires",
+        "it": "Additivi e accessori",
+        "pl": "Dodatki i akcesoria",
+        "no": "Tilsetninger og tilbehør",
+        "fi": "Lisäaineet ja tarvikkeet"
+      }
+    }
+  ],
+  "products": [
+    { "key": "basis-0-4-aqua-mix", "category": "microcemento", "reference": null, "price": null },
+    {
+      "key": "basis-grob-0-6-aqua-mix",
+      "category": "microcemento",
+      "reference": null,
+      "price": null
+    },
+    { "key": "basis-direkt-1k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "basis-direkt-2k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "mittel-0-2-aqua-mix", "category": "microcemento", "reference": null, "price": null },
+    { "key": "mittel-direkt-1k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "mittel-direkt-2k", "category": "microcemento", "reference": null, "price": null },
+    {
+      "key": "mittel-direkt-level-2k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "fein-0-02-0-06-aqua-mix",
+      "category": "microcemento",
+      "reference": null,
+      "price": null
+    },
+    { "key": "fein-direkt-1k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "fein-direkt-2k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "fein-direkt-level-2k", "category": "microcemento", "reference": null, "price": null },
+    { "key": "grob-3-4-mm-kork", "category": "corcho", "reference": null, "price": null },
+    { "key": "mittel-0-2-kork", "category": "corcho", "reference": null, "price": null },
+    { "key": "fein-0-02-0-06-kork", "category": "corcho", "reference": null, "price": null },
+    { "key": "zement-prime", "category": "imprimaciones", "reference": null, "price": null },
+    { "key": "zement-prime-grip", "category": "imprimaciones", "reference": null, "price": null },
+    { "key": "zement-prime-tack", "category": "imprimaciones", "reference": null, "price": null },
+    { "key": "zement-seal", "category": "imprimaciones", "reference": null, "price": null },
+    { "key": "zement-seal-pore", "category": "imprimaciones", "reference": null, "price": null },
+    { "key": "protect-aqua-2k", "category": "proteccion", "reference": null, "price": null },
+    { "key": "protect-solvent-2k", "category": "proteccion", "reference": null, "price": null },
+    {
+      "key": "protect-solvent-grip-2k",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
+    { "key": "protect-sanitary-2k", "category": "proteccion", "reference": null, "price": null },
+    { "key": "protect-repel", "category": "proteccion", "reference": null, "price": null },
+    { "key": "protect-diluent", "category": "proteccion", "reference": null, "price": null },
+    { "key": "zement-metallic", "category": "metalicos", "reference": null, "price": null },
+    { "key": "metallic-lasur", "category": "metalicos", "reference": null, "price": null },
+    {
+      "key": "protect-solvent-metallic-2k",
+      "category": "metalicos",
+      "reference": null,
+      "price": null
+    },
+    { "key": "zement-repair-10", "category": "morteros", "reference": null, "price": null },
+    { "key": "zement-repair-20", "category": "morteros", "reference": null, "price": null },
+    { "key": "zement-repair-40", "category": "morteros", "reference": null, "price": null },
+    { "key": "zement-flex-sanitary", "category": "morteros", "reference": null, "price": null },
+    { "key": "zement-dune", "category": "piscinas", "reference": null, "price": null },
+    { "key": "zement-dune-fix", "category": "piscinas", "reference": null, "price": null },
+    { "key": "zement-latex", "category": "complementos", "reference": null, "price": null },
+    { "key": "zement-latex-flex", "category": "complementos", "reference": null, "price": null },
+    { "key": "zement-color-lab", "category": "complementos", "reference": null, "price": null },
+    { "key": "zement-quartz-sand", "category": "complementos", "reference": null, "price": null },
+    { "key": "malla-80g", "category": "complementos", "reference": null, "price": null },
+    { "key": "malla-160g", "category": "complementos", "reference": null, "price": null }
+  ]
+}

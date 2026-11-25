@@ -29,18 +29,19 @@ pnpm dev                                          # web Astro en http://localhos
 
 ## Comandos
 
-| Comando                                          | Qué hace                                                        |
-| ------------------------------------------------ | --------------------------------------------------------------- |
-| `pnpm dev`                                       | Web en modo desarrollo                                          |
-| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos y build           |
-| `pnpm format` / `pnpm format:check`              | Formatear / comprobar formato (Prettier)                        |
-| `pnpm lint` / `pnpm lint:fix`                    | ESLint + Stylelint / con autocorrección                         |
-| `pnpm check`                                     | `astro check` + `tsc`                                           |
-| `pnpm build`                                     | Copia tokens al tema y genera la web estática (`apps/web/dist`) |
-| `pnpm tokens:sync`                               | Copia tokens y tipografías al tema de la tienda                 |
-| `pnpm tienda:up` / `tienda:down` / `tienda:logs` | Contenedores de la tienda                                       |
-| `pnpm tienda:css`                                | Regenera el CSS combinado de la tienda tras cambiar estilos     |
-| `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`        |
+| Comando                                          | Qué hace                                                                          |
+| ------------------------------------------------ | --------------------------------------------------------------------------------- |
+| `pnpm dev`                                       | Web en modo desarrollo                                                            |
+| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos y build                             |
+| `pnpm format` / `pnpm format:check`              | Formatear / comprobar formato (Prettier)                                          |
+| `pnpm lint` / `pnpm lint:fix`                    | ESLint + Stylelint / con autocorrección                                           |
+| `pnpm check`                                     | `astro check` + `tsc`                                                             |
+| `pnpm build`                                     | Copia tokens al tema y genera la web estática (`apps/web/dist`)                   |
+| `pnpm tokens:sync`                               | Copia tokens y tipografías al tema de la tienda                                   |
+| `pnpm tienda:up` / `tienda:down` / `tienda:logs` | Contenedores de la tienda                                                         |
+| `pnpm tienda:css`                                | Regenera el CSS combinado de la tienda tras cambiar estilos                       |
+| `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`                          |
+| `pnpm tienda:catalog "<carpeta de fichas PDF>"`  | Instala los 8 idiomas e importa el catálogo (ver `apps/tienda/catalog/README.md`) |
 
 ## Formulario de contacto
 
