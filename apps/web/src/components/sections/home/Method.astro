@@ -1,6 +1,5 @@
 ---
 import RevealHeading from '../../ui/RevealHeading.astro';
-import Todo from '../../ui/Todo.astro';
 import Value from '../../ui/Value.astro';
 import type { HomeContent } from '../../../data/home';
 
@@ -14,50 +13,34 @@ const { method, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
 ---
 
-<section class="py-section">
-  <div class="container-site grid gap-16 md:grid-cols-12 md:items-center">
-    <div
-      class="surface-microcement-light border-line relative flex aspect-[4/5] items-end overflow-hidden border p-6 md:col-span-5 md:p-8"
-      role="img"
-      aria-label={method.imageTodo}
+<!-- Método como recorrido: titular a todo el ancho y los compromisos en una fila, de izquierda a derecha -->
+<section class="bg-stone text-navy py-section">
+  <div class="container-site">
+    <RevealHeading
+      as={headingTag}
+      lines={[method.title.join(' ')]}
+      class="display-xl max-w-6xl"
+    />
+    <p
+      class="text-navy/80 mt-8 max-w-2xl"
       data-reveal
     >
-      <span
-        class="display text-navy/10 absolute -top-4 -left-2 text-[9rem] leading-none md:text-[12rem]"
-        aria-hidden="true"
-      >
-        Z
-      </span>
-      <Todo text={method.imageTodo} />
-    </div>
-    <div class="md:col-span-6 md:col-start-7">
-      <RevealHeading
-        as={headingTag}
-        lines={method.title}
-        emphasis={1}
-        class="display-lg text-navy"
-      />
-      <p
-        class="text-muted mt-8 max-w-lg"
-        data-reveal
-      >
-        <Value text={method.text} />
-      </p>
-      <ul class="mt-10 grid sm:grid-cols-2 sm:gap-x-10">
-        {method.points.map((point, index) => (
-          <li
-            class="label border-line text-navy flex items-center gap-4 border-t py-4"
-            data-reveal
-            style={`--reveal-index: ${index}`}
-          >
-            <span
-              class="bg-gold size-1.5"
-              aria-hidden="true"
-            />
-            <Value text={point} />
-          </li>
-        ))}
-      </ul>
-    </div>
+      <Value text={method.text} />
+    </p>
+    <ol class="mt-16 grid gap-x-8 sm:grid-cols-2 lg:grid-cols-4">
+      {method.points.map((point, index) => (
+        <li
+          class="border-navy label grid content-start gap-6 border-t pt-5 pb-8"
+          data-reveal
+          style={`--reveal-index: ${index}`}
+        >
+          <span
+            class="bg-gold size-1.5"
+            aria-hidden="true"
+          />
+          <Value text={point} />
+        </li>
+      ))}
+    </ol>
   </div>
 </section>

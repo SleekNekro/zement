@@ -14,6 +14,7 @@ if (!reducedMotion) {
 }
 
 setupHeader();
+setupShopBar();
 setupMobileMenu();
 
 if (!reducedMotion) {
@@ -82,6 +83,48 @@ function setupScrubWords(): void {
     }
   };
 
+  onScrollFrame(update);
+}
+
+/**
+ * Barra de la tienda (móvil/tablet): visible tras el hero, oculta con el menú abierto o mientras se
+ * escribe en un campo (el teclado en pantalla la empujaría sobre el formulario).
+ */
+function setupShopBar(): void {
+  const bar = document.querySelector<HTMLElement>('[data-shop-bar]');
+  const link = bar?.querySelector<HTMLAnchorElement>('[data-shop-bar-link]');
+  if (!bar || !link) return;
+  const hero = document.querySelector<HTMLElement>('[data-hero]');
+  const menu = document.querySelector<HTMLDetailsElement>('[data-mobile-menu]');
+  let showFrom = 0;
+  let isTyping = false;
+  let lastVisible = '';
+
+  const measure = (): void => {
+    showFrom = hero ? hero.offsetTop + hero.offsetHeight * 0.6 : window.innerHeight * 0.5;
+  };
+  const update = (): void => {
+    const visible = String(window.scrollY > showFrom && !isTyping && !menu?.open);
+    if (visible === lastVisible) return;
+    bar.dataset.visible = lastVisible = visible;
+    // Fuera de la vista no recibe el foco del teclado.
+    link.tabIndex = visible === 'true' ? 0 : -1;
+    root.classList.toggle('has-shop-bar', visible === 'true');
+  };
+  const isField = (target: EventTarget | null): boolean =>
+    target instanceof HTMLElement && target.matches('input, textarea, select');
+
+  measure();
+  window.addEventListener('resize', measure, { passive: true });
+  document.addEventListener('focusin', (event) => {
+    isTyping = isField(event.target);
+    update();
+  });
+  document.addEventListener('focusout', () => {
+    isTyping = false;
+    update();
+  });
+  menu?.addEventListener('toggle', update);
   onScrollFrame(update);
 }
 

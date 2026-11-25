@@ -190,6 +190,11 @@
     border-color var(--zm-duration) var(--zm-ease);
 }
 
+/* Barra de la tienda en móvil: entra desde abajo. */
+.shop-bar {
+  transition: translate var(--zm-duration) var(--zm-ease);
+}
+
 /* Menú móvil: el botón cambia a «Cerrar» y se ve sobre el panel oscuro. */
 [data-mobile-menu] .menu-label-open,
 [data-mobile-menu][open] .menu-label-closed {
@@ -298,6 +303,10 @@
 
   .site-header {
     transition-property: background-color, color, border-color;
+  }
+
+  .shop-bar {
+    transition: none;
   }
 
   .btn::before,

@@ -35,7 +35,6 @@ const field = 'field tracking-normal normal-case';
       <RevealHeading
         as={headingTag}
         lines={contact.title}
-        emphasis={1}
         class="display-lg"
       />
       <p
@@ -264,7 +263,7 @@ const field = 'field tracking-normal normal-case';
             required
           />
           <span>
-            {text.privacyBefore}
+            {text.privacyBefore}{' '}
             <a
               class="text-paper underline"
               href={legalPath(locale, 'privacy')}

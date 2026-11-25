@@ -75,7 +75,14 @@ export interface HomeContent {
     fullSystemText: string;
     fullSystemCta: string;
   };
-  application: { title: string[]; text: string; cta: string; shopCta: string; areas: string[] };
+  application: {
+    title: string[];
+    text: string;
+    cta: string;
+    shopCta: string;
+    areas: string[];
+    imageTodo: string;
+  };
   shop: {
     title: string[];
     text: string;
@@ -89,7 +96,7 @@ export interface HomeContent {
     /** Cómo funciona el alta; el plazo sale de data/company.ts. */
     proSignupSteps: string;
   };
-  method: { title: string[]; text: string; points: string[]; imageTodo: string };
+  method: { title: string[]; text: string; points: string[] };
   contact: {
     title: string[];
     text: string;
@@ -118,15 +125,18 @@ export const home: Record<Locale, HomeContent> = {
           id: 'pro',
           title: 'Soy profesional',
           text: 'Distribuidores y aplicadores: materiales del sistema, tarifa propia y documentación técnica.',
-          primary: { label: 'Ver materiales', target: { kind: 'shop' } },
-          secondary: { label: 'Acceso profesional', target: { kind: 'shop', route: 'login' } },
+          primary: { label: 'Acceso profesional', target: { kind: 'shop', route: 'login' } },
+          secondary: {
+            label: 'Ver cómo funciona',
+            target: { kind: 'section', id: 'profesionales' },
+          },
         },
         {
           id: 'project',
           title: 'Tengo un proyecto',
           text: 'Particulares y estudios: aplicamos el sistema en tu espacio o te ayudamos a elegir los materiales.',
           primary: { label: 'Pedir presupuesto', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'Comprar los materiales', target: { kind: 'shop' } },
+          secondary: { label: 'Comprar en la tienda', target: { kind: 'shop' } },
         },
       ],
       imageTodo: 'TODO: fotografía real de proyecto',
@@ -175,7 +185,7 @@ export const home: Record<Locale, HomeContent> = {
       title: ['Tu espacio,', 'con el sistema completo.'],
       text: 'Realizamos trabajos de microcemento con atención al soporte, la preparación y el acabado final. Una solución versátil para renovar sin recargar, con continuidad visual y personalidad.',
       cta: 'Pedir presupuesto',
-      shopCta: 'Comprar los materiales',
+      shopCta: 'Comprar en la tienda',
       areas: [
         'Suelos y paredes',
         'Baños y duchas',
@@ -184,6 +194,7 @@ export const home: Record<Locale, HomeContent> = {
         'Revestimientos',
         'Proyectos a medida',
       ],
+      imageTodo: 'TODO: fotografía real de obra aplicada',
     },
     shop: {
       title: ['Los materiales', 'de cada capa.'],
@@ -233,7 +244,6 @@ export const home: Record<Locale, HomeContent> = {
         'Ficha técnica de cada producto',
         'Materiales también en la tienda online',
       ],
-      imageTodo: 'TODO: fotografía real de acabado',
     },
     contact: {
       title: ['¿Empezamos', 'tu proyecto?'],
@@ -265,15 +275,18 @@ export const home: Record<Locale, HomeContent> = {
           id: 'pro',
           title: 'I am a professional',
           text: 'Distributors and applicators: system materials, your own price list and technical documentation.',
-          primary: { label: 'View materials', target: { kind: 'shop' } },
-          secondary: { label: 'Professional access', target: { kind: 'shop', route: 'login' } },
+          primary: { label: 'Professional access', target: { kind: 'shop', route: 'login' } },
+          secondary: {
+            label: 'See how it works',
+            target: { kind: 'section', id: 'profesionales' },
+          },
         },
         {
           id: 'project',
           title: 'I have a project',
           text: 'Homeowners and studios: we apply the system in your space or help you choose the materials.',
           primary: { label: 'Request a quote', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'Buy the materials', target: { kind: 'shop' } },
+          secondary: { label: 'Buy in the shop', target: { kind: 'shop' } },
         },
       ],
       imageTodo: 'TODO: real project photograph',
@@ -322,7 +335,7 @@ export const home: Record<Locale, HomeContent> = {
       title: ['Your space,', 'with the complete system.'],
       text: 'We carry out microcement work with attention to the substrate, preparation and final finish. A versatile way to renovate without clutter, with visual continuity and character.',
       cta: 'Request a quote',
-      shopCta: 'Buy the materials',
+      shopCta: 'Buy in the shop',
       areas: [
         'Floors and walls',
         'Bathrooms and showers',
@@ -331,6 +344,7 @@ export const home: Record<Locale, HomeContent> = {
         'Wall coverings',
         'Bespoke projects',
       ],
+      imageTodo: 'TODO: real photograph of a finished job',
     },
     shop: {
       title: ['The materials', 'for every layer.'],
@@ -380,7 +394,6 @@ export const home: Record<Locale, HomeContent> = {
         'A data sheet for every product',
         'Materials also in the online shop',
       ],
-      imageTodo: 'TODO: real finish photograph',
     },
     contact: {
       title: ['Shall we start', 'your project?'],

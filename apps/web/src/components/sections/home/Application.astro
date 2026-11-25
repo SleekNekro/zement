@@ -1,9 +1,12 @@
 ---
+import { Image } from 'astro:assets';
 import Button from '../../ui/Button.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
+import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
+import hall from '../../../assets/provisional/nave-suelo-continuo.jpg';
 
 interface Props {
   locale: Locale;
@@ -18,49 +21,66 @@ const headingTag = `h${level}` as 'h2' | 'h3';
 
 <section
   id="aplicacion"
-  class="bg-navy text-paper border-line-dark py-section border-t"
+  class="bg-paper text-navy"
 >
-  <div class="container-site grid gap-16 lg:grid-cols-12">
-    <div class="lg:col-span-6">
+  <!-- La única sección que arranca desde la imagen: el espacio terminado, con el titular encima -->
+  <div class="bg-night text-paper relative isolate flex min-h-[70svh] items-end overflow-hidden">
+    <Image
+      src={hall}
+      alt=""
+      widths={[640, 1024, 1600, 2000]}
+      sizes="100vw"
+      class="hero-media absolute inset-0 -z-10 size-full object-cover object-[50%_70%]"
+    />
+    <div
+      class="from-night/85 via-night/30 to-night/0 absolute inset-0 -z-10 bg-linear-to-t"
+      aria-hidden="true"
+    />
+    <div class="container-site pt-32 pb-12 md:pb-16">
       <RevealHeading
         as={headingTag}
         lines={application.title}
-        emphasis={1}
-        class="display-lg"
+        class="display-xl max-w-5xl"
       />
+      <p class="mt-6">
+        <Todo text={application.imageTodo} />
+      </p>
+    </div>
+  </div>
+
+  <div class="container-site py-section grid gap-16 lg:grid-cols-12">
+    <div class="lg:col-span-6">
       <p
-        class="text-paper/70 mt-8 max-w-md"
+        class="text-muted max-w-md"
         data-reveal
       >
         {application.text}
       </p>
       <div
-        class="mt-10"
+        class="mt-10 flex flex-wrap gap-3"
         data-reveal
       >
-        <div class="flex flex-wrap gap-3">
-          <Button
-            href={shopUrl(locale)}
-            variant="solid-light"
-            arrow="out"
-          >
-            {application.shopCta}
-            <span class="sr-only"> {t(locale, 'nav.external')}</span>
-          </Button>
-          <Button
-            href="#contacto"
-            variant="outline-light"
-            arrow="down"
-            data-interest="application"
-          >
-            {application.cta}
-          </Button>
-        </div>
+        <Button
+          href="#contacto"
+          variant="solid-dark"
+          arrow="down"
+          data-interest="application"
+        >
+          {application.cta}
+        </Button>
+        <Button
+          href={shopUrl(locale)}
+          variant="outline-dark"
+          arrow="out"
+        >
+          {application.shopCta}
+          <span class="sr-only"> {t(locale, 'nav.external')}</span>
+        </Button>
       </div>
     </div>
 
     <!-- Dónde se aplica: una lista de texto corrido, sin numerar ni simular interacción -->
-    <ul class="display text-paper/90 grid content-end gap-x-8 gap-y-4 text-2xl sm:grid-cols-2 md:text-3xl lg:col-span-5 lg:col-start-8 lg:grid-cols-1">
+    <ul class="display grid content-start gap-x-8 gap-y-4 text-2xl sm:grid-cols-2 md:text-3xl lg:col-span-5 lg:col-start-8 lg:grid-cols-1">
       {application.areas.map((area, index) => (
         <li
           class="flex items-baseline gap-3"

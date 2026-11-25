@@ -1,0 +1,38 @@
+---
+import { t, type Locale } from '../../i18n/ui';
+import { shopUrl } from '../../lib/shop';
+import Arrow from '../ui/Arrow.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<!--
+  Móvil y tablet: la tienda siempre a mano, en la zona del pulgar. Aparece al dejar atrás el hero
+  (motion.ts) y se aparta mientras se escribe en un formulario o está abierto el menú.
+  Sin JavaScript no se muestra: la cabecera ya enlaza a la tienda.
+-->
+<div
+  class="shop-bar border-line-dark bg-night text-paper fixed inset-x-0 bottom-0 z-(--zm-z-header) translate-y-full border-t pb-[env(safe-area-inset-bottom)] data-[visible=true]:translate-y-0 lg:hidden"
+  data-shop-bar
+  data-visible="false"
+>
+  <a
+    class="container-site label flex min-h-14 items-center justify-between gap-6 no-underline"
+    href={shopUrl(locale)}
+    tabindex="-1"
+    data-shop-bar-link
+  >
+    <span>
+      {t(locale, 'shop.buy')}
+      <span class="sr-only"> {t(locale, 'nav.external')}</span>
+    </span>
+    <Arrow
+      direction="out"
+      class="btn-arrow size-4"
+    />
+  </a>
+</div>
