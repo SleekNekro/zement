@@ -75,15 +75,21 @@ h5,
   --bs-btn-padding-y: 0.9rem;
   --bs-btn-font-size: 0.6875rem;
 
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   letter-spacing: var(--zm-tracking-label);
   text-transform: uppercase;
+  transition: color var(--zm-duration) var(--zm-ease);
 }
 
+/* Barrido dorado al pasar el ratón (relleno en .btn::before), como en la web. */
 .btn-primary {
+  --zm-btn-fill: var(--zm-color-gold);
   --bs-btn-bg: var(--zm-color-navy);
   --bs-btn-border-color: var(--zm-color-navy);
-  --bs-btn-hover-bg: transparent;
-  --bs-btn-hover-color: var(--zm-color-navy);
+  --bs-btn-hover-bg: var(--zm-color-navy);
+  --bs-btn-hover-color: var(--zm-color-night);
   --bs-btn-hover-border-color: var(--zm-color-navy);
   --bs-btn-active-bg: var(--zm-color-night);
   --bs-btn-active-border-color: var(--zm-color-night);
@@ -93,9 +99,10 @@ h5,
 
 .btn-outline-primary,
 .btn-outline-secondary {
+  --zm-btn-fill: var(--zm-color-navy);
   --bs-btn-color: var(--zm-color-navy);
   --bs-btn-border-color: var(--zm-color-navy);
-  --bs-btn-hover-bg: var(--zm-color-navy);
+  --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: var(--zm-color-navy);
   --bs-btn-hover-color: var(--zm-color-paper);
 }
@@ -124,10 +131,13 @@ h5,
 
 /* Cabecera: barra superior intensa y cabecera clara con filete. */
 .header-top {
+  padding-block: 0.375rem;
   background: var(--zm-color-night);
   color: var(--zm-color-sand);
   font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
   letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .header-top a,
@@ -169,11 +179,11 @@ h5,
   border-bottom: 1px solid var(--zm-color-line);
 }
 
-/* Logotipo del tema con el dominio en pequeño (mismo patrón que «.com» en la web). */
+/* Logotipo + «Shop»: nombre de la tienda (no dominio), separado por un filete. */
 .zement-brand {
   display: inline-flex;
-  gap: 0.375rem;
-  align-items: flex-end;
+  gap: 0.875rem;
+  align-items: center;
   color: var(--zm-color-navy);
   line-height: 1;
   text-decoration: none;
@@ -186,11 +196,12 @@ h5,
 }
 
 .zement-brand__suffix {
+  padding: 0.25rem 0 0.25rem 0.875rem;
+  border-left: var(--zm-hairline) solid var(--zm-color-line);
   font-size: 0.6875rem;
   font-weight: var(--zm-weight-ui);
-  letter-spacing: 0.12em;
-  opacity: 0.75;
-  transform: translateY(1px);
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
 }
 
 @media (width >= 768px) {
@@ -228,6 +239,7 @@ h5,
 
 /* Pie intenso. */
 .footer__main {
+  padding-top: 4rem;
   background: var(--zm-color-night);
   color: var(--zm-color-sand);
 }
@@ -453,4 +465,323 @@ button:focus-visible {
 
 .zm-sheet-download__languages a:hover {
   border-color: var(--zm-color-navy);
+}
+
+/*
+ * Aspecto de la web de marca (apps/web): etiquetas en mayúsculas espaciadas, titulares
+ * expandidos y finos, botones con barrido de color, bandas claras y pie intenso.
+ */
+
+/* Cabecera: barra fina oscura + fila del logotipo + barra de familias. */
+.header-bottom__container {
+  padding-block: 1rem;
+}
+
+@media (width >= 1200px) {
+  .header-bottom__row {
+    row-gap: 1rem;
+  }
+
+  /* Las familias van en su propia línea, a todo el ancho y sin partir. */
+  .header-bottom .ps-mainmenu--desktop {
+    flex: 0 0 100%;
+    order: 10;
+    width: 100%;
+    border-top: var(--zm-hairline) solid var(--zm-color-line);
+  }
+
+  /* 8 familias: rejilla de 4 × 2 con filetes, ordenada y sin desbordar. */
+  .ps-mainmenu__tree {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ps-mainmenu__tree-item + .ps-mainmenu__tree-item:nth-child(n + 5) {
+    border-top: var(--zm-hairline) solid var(--zm-color-line);
+  }
+
+  .ps-mainmenu__tree-link {
+    position: relative;
+    display: inline-block;
+    padding: 0.75rem 0 0.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--zm-color-navy);
+    font-size: 0.6875rem;
+    font-weight: var(--zm-weight-ui);
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .ps-mainmenu__tree-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: currentcolor;
+    content: '';
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform var(--zm-duration) var(--zm-ease);
+  }
+
+  .ps-mainmenu__tree-item.current .ps-mainmenu__tree-link::after {
+    transform: scaleX(1);
+  }
+}
+
+@media (hover: hover) and (width >= 1200px) {
+  .ps-mainmenu__tree-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* Búsqueda: solo filete inferior. */
+.ps-searchbar .form-control,
+.ps-searchbar__input {
+  border-width: 0 0 1px;
+  border-color: var(--zm-color-line);
+  background: transparent;
+}
+
+/* Titulares de página: Archivo expandida y fina, como los de la web. */
+.page-title,
+.category__title,
+.product__name,
+#js-product-list-header h1,
+main h1 {
+  font-size: clamp(1.85rem, 3.8vw, 3.25rem);
+  font-weight: var(--zm-weight-display);
+  line-height: 1.02;
+}
+
+/* Ruta de navegación: etiqueta técnica. */
+.breadcrumb {
+  --bs-breadcrumb-divider-color: var(--zm-color-muted);
+  --bs-breadcrumb-item-active-color: var(--zm-color-muted);
+
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.breadcrumb__wrapper,
+.breadcrumb-wrapper {
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+  background: transparent;
+}
+
+/* Columna de familias: lista con filetes. */
+.left-block__title {
+  margin-bottom: 1rem;
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+.left-block__title-link {
+  color: var(--zm-color-muted);
+  text-decoration: none;
+}
+
+.category-tree__list {
+  margin: 0;
+  padding: 0;
+  border-top: var(--zm-hairline) solid var(--zm-color-navy);
+  list-style: none;
+}
+
+.category-tree__item {
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.category-tree__item-link {
+  display: block;
+  padding-block: 0.5rem;
+  color: var(--zm-color-navy);
+  font-size: 0.875rem;
+  font-weight: var(--zm-weight-body);
+  text-decoration: none;
+  transition: padding var(--zm-duration-fast) var(--zm-ease);
+}
+
+.category-tree__item-link[aria-current='page'],
+.category-tree__item-link.current {
+  font-weight: var(--zm-weight-ui);
+}
+
+@media (hover: hover) {
+  .category-tree__item-link:hover {
+    padding-left: 0.5rem;
+    color: var(--zm-color-navy);
+  }
+}
+
+/* Botones: barrido de izquierda a derecha, como en la web. */
+.btn::before {
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: var(--zm-btn-fill, var(--zm-color-gold));
+  content: '';
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+@media (hover: hover) {
+  .btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* Rejilla de productos: sin caja, imagen limpia, nombre en titular. */
+.product-miniature__inner {
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.product-miniature__bottom {
+  padding-inline: 0;
+}
+
+.product-miniature__title {
+  color: var(--zm-color-navy);
+  font-family: var(--zm-font-display);
+  font-size: 1.125rem;
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.product-miniature__price {
+  font-size: 0.875rem;
+}
+
+.product-flags .badge {
+  padding: 0.35rem 0.5rem;
+  border: var(--zm-hairline) solid var(--zm-color-navy);
+  font-size: 0.625rem;
+}
+
+/* Boletín: banda secundaria como las de la web. */
+.footer__before .ps-emailsubscription {
+  /* Bootstrap pinta .bg-body-tertiary con !important a partir de esta variable: = stone. */
+  --bs-tertiary-bg-rgb: 235, 231, 223;
+}
+
+.footer__before .ps-emailsubscription .h3 {
+  font-family: var(--zm-font-display);
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  line-height: 1.1;
+}
+
+/* Pie: títulos en etiqueta arena, enlaces claros, firma con el logotipo a todo el ancho. */
+.footer__main .footer-block__title,
+.footer__main .h3,
+.footer__main .h4 {
+  color: var(--zm-color-sand);
+  font-family: var(--zm-font-body);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+.footer__main a {
+  color: var(--zm-color-paper);
+  text-decoration: none;
+}
+
+.footer__main a:hover {
+  color: var(--zm-color-sand);
+}
+
+.zement-signature {
+  margin-top: 3rem;
+}
+
+.zement-signature__logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zement-footer-legal {
+  margin-top: 1.5rem;
+  padding-block: 1rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-line-dark);
+  color: var(--zm-color-sand);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zement-footer-legal a {
+  color: var(--zm-color-sand);
+}
+
+/* Cabecera alta (barra, logotipo y familias): no se queda fija para no tapar el contenido. */
+.header.js-sticky-header {
+  position: relative;
+}
+
+/* En móvil las familias ya están en el menú: la columna no empuja los productos hacia abajo. */
+@media (width < 768px) {
+  .left-column .ps-categorytree {
+    display: none;
+  }
+}
+
+/* Menú móvil como el de la web: fondo intenso, familias en titular con filetes. */
+.ps-mainmenu--mobile.offcanvas {
+  --bs-offcanvas-bg: var(--zm-color-night);
+  --bs-offcanvas-color: var(--zm-color-paper);
+
+  color: var(--zm-color-paper);
+}
+
+.ps-mainmenu--mobile .btn-close {
+  filter: invert(1);
+}
+
+.ps-mainmenu--mobile .menu__list > li {
+  border-top: var(--zm-hairline) solid var(--zm-color-line-dark);
+}
+
+.ps-mainmenu--mobile .menu__link {
+  display: block;
+  padding-block: 1rem;
+  color: var(--zm-color-paper);
+  font-family: var(--zm-font-display);
+  font-size: 1.375rem;
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.ps-mainmenu--mobile a,
+.ps-mainmenu--mobile .form-select {
+  color: var(--zm-color-sand);
+}
+
+.ps-mainmenu--mobile .form-select option {
+  color: var(--zm-color-navy);
 }

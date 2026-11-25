@@ -1,6 +1,6 @@
 // Copia tokens, tipografías y logotipo al tema hijo de PrestaShop para que web y tienda
 // compartan exactamente el mismo aspecto. No editar las copias.
-import { cp, mkdir, rm } from 'node:fs/promises';
+import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 
 const here = new URL('./', import.meta.url);
 const themeCss = new URL('../../apps/tienda/theme/zement/assets/css/', import.meta.url);
@@ -16,6 +16,12 @@ await mkdir(themeImg, { recursive: true });
 for (const file of ['zement-logo-navy.svg', 'zement-favicon.svg', 'zement-touch-icon.png']) {
   await cp(new URL(`brand/${file}`, here), new URL(file, themeImg));
 }
+// Versión clara del logotipo para fondos oscuros (firma del pie de la tienda).
+const logo = await readFile(new URL('brand/zement-logo.svg', here), 'utf8');
+await writeFile(
+  new URL('zement-logo-paper.svg', themeImg),
+  logo.replaceAll('currentColor', '#f6f5f1'),
+);
 // iOS busca /apple-touch-icon.png en la raíz y no acepta bien iconos en línea.
 const webPublic = new URL('../../apps/web/public/', import.meta.url);
 await mkdir(webPublic, { recursive: true });

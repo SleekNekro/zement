@@ -36,6 +36,8 @@ catalog/
 
 ## Cómo se ve en la tienda
 
+- **Menú principal**: las 8 familias en el orden de `catalog.json` (la importación ajusta `MOD_BLOCKTOPMENU_ITEMS` de `ps_mainmenu` y la posición de cada categoría).
+
 - **Resumen** (junto al botón de compra): subtítulo de la ficha + párrafo «Producto».
 - **Descripción**: cifras destacadas, todas las secciones (tablas, listas, envases, carta de colores NCS) y el aviso legal de la ficha.
 - **Ficha técnica**: el PDF del idioma de la página y enlaces a los otros 7 (plantilla `theme/zement/templates/catalog/product.tpl`).

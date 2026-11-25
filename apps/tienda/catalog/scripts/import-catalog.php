@@ -59,6 +59,8 @@ final class ZementCatalogImporter
             $this->categories[$category['key']] = $this->saveCategory($category, $position);
         }
 
+        $this->orderCategories();
+
         foreach ($catalog['products'] as $entry) {
             $sheet = $this->readJson(self::ROOT . "/products/{$entry['key']}.json");
             $this->importedProducts[] = $this->saveProduct($entry, $sheet);
@@ -93,6 +95,22 @@ final class ZementCatalogImporter
         echo ($existing ? '= ' : '+ ') . "familia {$data['key']} (id {$category->id})\n";
 
         return (int) $category->id;
+    }
+
+    /** Orden de catalog.json en el árbol de categorías y en el menú principal (ps_mainmenu). */
+    private function orderCategories(): void
+    {
+        $db = Db::getInstance();
+        $position = 0;
+
+        foreach ($this->categories as $id) {
+            $db->update('category', ['position' => $position], 'id_category = ' . (int) $id);
+            $db->update('category_shop', ['position' => $position], 'id_category = ' . (int) $id);
+            ++$position;
+        }
+
+        $items = implode(',', array_map(static fn (int $id): string => 'CAT' . $id, $this->categories));
+        Configuration::updateValue('MOD_BLOCKTOPMENU_ITEMS', $items);
     }
 
     /**
