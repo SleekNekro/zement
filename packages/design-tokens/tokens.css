@@ -48,4 +48,10 @@
   --zm-duration-fast: 250ms;
   --zm-duration: 600ms;
   --zm-duration-slow: 1100ms;
+
+  /* Capas (z-index): de abajo arriba */
+  --zm-z-raised: 10; /* elementos fijos dentro de una sección (corte de capas) */
+  --zm-z-header: 50; /* cabecera y panel del menú móvil */
+  --zm-z-menu-toggle: 55; /* botón Menú/Cerrar, por encima del panel */
+  --zm-z-skip: 60; /* enlace «Saltar al contenido» */
 }

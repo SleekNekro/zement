@@ -128,16 +128,33 @@ function setupHeader(): void {
   const hero = document.querySelector<HTMLElement>('[data-hero]');
   let lastY = window.scrollY;
 
+  // Medidas que solo cambian al redimensionar: se leen entonces, no en cada fotograma de scroll.
+  let heroBottom = 0;
+  let headerHeight = 0;
+  const measure = (): void => {
+    headerHeight = header.offsetHeight;
+    heroBottom = hero ? hero.offsetTop + hero.offsetHeight - headerHeight : 0;
+  };
+  measure();
+  window.addEventListener('resize', measure, { passive: true });
+
+  // Solo se escribe en el DOM cuando el valor cambia (evita recalcular estilos en cada fotograma).
+  let lastOverHero = '';
+  let lastHidden = '';
+  let lastOffset = '';
   const update = (): void => {
     const y = window.scrollY;
-    const heroBottom = hero ? hero.offsetTop + hero.offsetHeight - header.offsetHeight : 0;
-    // En pantallas estrechas el texto del hero pasa bajo la cabecera enseguida: se vuelve sólida al empezar el scroll.
+    // En pantallas estrechas el texto del hero pasa bajo la cabecera enseguida: sólida al empezar el scroll.
     const transparentUntil = narrowScreen.matches ? 24 : heroBottom;
-    header.dataset.overHero = String(Boolean(hero) && y < transparentUntil);
+    const overHero = String(Boolean(hero) && y < transparentUntil);
     const menuOpen = header.querySelector('details[open]') !== null;
     const isHidden = !reducedMotion && !menuOpen && y > 400 && y > lastY + 2;
-    header.dataset.hidden = String(isHidden);
-    root.style.setProperty('--header-offset', isHidden ? '0px' : `${header.offsetHeight}px`);
+    const hidden = String(isHidden);
+    const offset = isHidden ? '0px' : `${headerHeight}px`;
+
+    if (overHero !== lastOverHero) header.dataset.overHero = lastOverHero = overHero;
+    if (hidden !== lastHidden) header.dataset.hidden = lastHidden = hidden;
+    if (offset !== lastOffset) root.style.setProperty('--header-offset', (lastOffset = offset));
     if (Math.abs(y - lastY) > 2) lastY = y;
   };
 

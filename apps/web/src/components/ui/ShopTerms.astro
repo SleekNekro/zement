@@ -1,0 +1,55 @@
+---
+/**
+ * Condiciones de compra junto a las salidas a la tienda (envío, entrega, pago, devoluciones).
+ * Los valores salen de data/company.ts y deben coincidir con los de PrestaShop.
+ */
+import Value from './Value.astro';
+import { company } from '../../data/company';
+import type { Locale } from '../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  tone?: 'light' | 'dark';
+  class?: string;
+}
+
+const { locale, tone = 'light', class: className } = Astro.props;
+const labels = {
+  es: {
+    shipping: 'Envío',
+    delivery: 'Entrega',
+    payment: 'Pago',
+    returns: 'Devoluciones',
+    title: 'Comprar en la tienda',
+  },
+  en: {
+    shipping: 'Shipping',
+    delivery: 'Delivery',
+    payment: 'Payment',
+    returns: 'Returns',
+    title: 'Buying in the shop',
+  },
+}[locale];
+const items = (['shipping', 'delivery', 'payment', 'returns'] as const).map((key) => ({
+  label: labels[key],
+  value: company.shopTerms[key][locale],
+}));
+---
+
+<dl
+  class:list={[
+    'grid gap-x-8 gap-y-3 text-sm sm:grid-cols-2 lg:grid-cols-4',
+    tone === 'dark' ? 'text-paper/75' : 'text-ink/75',
+    className,
+  ]}
+  aria-label={labels.title}
+>
+  {items.map((item) => (
+    <div class="grid gap-1">
+      <dt class:list={['label', tone === 'dark' ? 'text-sand' : 'text-navy']}>{item.label}</dt>
+      <dd>
+        <Value text={item.value} />
+      </dd>
+    </div>
+  ))}
+</dl>

@@ -81,8 +81,8 @@
   transition: color var(--zm-duration) var(--zm-ease);
 }
 
-/* En pantallas muy estrechas (≤ 360 px) el texto del botón puede partirse en dos líneas. */
-@media (width < 22.5rem) {
+/* En móvil (< 480 px) el texto del botón puede partirse en dos líneas si no cabe. */
+@media (width < 30rem) {
   .btn {
     padding-block: 0.75rem;
     white-space: normal;
@@ -188,7 +188,7 @@
   z-index: -1;
   background: radial-gradient(
     38rem circle at var(--light-x, 70%) var(--light-y, 35%),
-    rgb(45 79 112 / 70%),
+    color-mix(in srgb, var(--zm-color-navy-soft) 70%, transparent),
     transparent 70%
   );
   pointer-events: none;
@@ -224,36 +224,10 @@
   initial-value: 35%;
 }
 
-.scroll-cue {
-  position: relative;
-  width: 1px;
-  height: 3.5rem;
-  overflow: hidden;
-  background: var(--zm-color-line-dark);
-}
-
-.scroll-cue::after {
-  position: absolute;
-  inset: 0;
-  background: var(--zm-color-sand);
-  content: '';
-  animation: scroll-cue 2.4s var(--zm-ease-inout) infinite;
-}
-
-@keyframes scroll-cue {
-  from {
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
 /* ---------- Cabecera: transiciones (los estados se aplican con variantes data-* en SiteHeader) ---------- */
 .site-header {
   transition:
-    transform var(--zm-duration) var(--zm-ease),
+    translate var(--zm-duration) var(--zm-ease),
     background-color var(--zm-duration) var(--zm-ease),
     color var(--zm-duration) var(--zm-ease),
     border-color var(--zm-duration) var(--zm-ease);
@@ -337,12 +311,30 @@
 
 /* ---------- Preferencia del sistema: reducir movimiento ---------- */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+  /*
+   * Las apariciones, el texto que se ilumina y la luz del cursor ya no se activan (motion.ts no añade
+   * la clase `motion`). Aquí se quitan los desplazamientos; se conservan los cambios breves de color
+   * y opacidad, que informan del estado (hover, foco, capa activa).
+   */
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-light {
+    animation: none;
+  }
+
+  .site-header {
+    transition-property: background-color, color, border-color;
+  }
+
+  .btn::before,
+  .row-wipe::before,
+  .layer-fill {
+    transition: none;
+  }
+
+  :is(.btn, .link-arrow):hover .btn-arrow {
+    transform: none;
   }
 }

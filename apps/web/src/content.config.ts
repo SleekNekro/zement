@@ -46,7 +46,15 @@ const systems = defineCollection({
         highlight: z.boolean().default(false),
       }),
     ),
-    steps: z.array(z.object({ title: localized, text: localized, time: localized })),
+    steps: z.array(
+      z.object({
+        title: localized,
+        text: localized,
+        time: localized,
+        /** Capa que se aplica en este paso (p. ej. «Z.02»); vacío = trabajo sobre el soporte. */
+        code: z.string().default(''),
+      }),
+    ),
     colors: localized,
     documents: z.array(
       z.object({

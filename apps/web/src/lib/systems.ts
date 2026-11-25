@@ -26,7 +26,7 @@ export interface LocalizedSystem {
     buyHref: string;
   }[];
   specs: { label: string; values: string[]; highlight: boolean }[];
-  steps: { title: string; text: string; time: string }[];
+  steps: { title: string; text: string; time: string; code: string }[];
   colors: string;
   documents: { kind: 'technical' | 'safety'; label: string; href: string }[];
   faqs: { question: string; answer: string }[];
@@ -82,6 +82,7 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
       title: l(step.title),
       text: l(step.text),
       time: l(step.time),
+      code: step.code,
     })),
     colors: l(data.colors),
     documents: data.documents.map((doc) => ({

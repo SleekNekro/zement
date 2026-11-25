@@ -1,5 +1,6 @@
 ---
 import Arrow from '../../ui/Arrow.astro';
+import ShopTerms from '../../ui/ShopTerms.astro';
 import Value from '../../ui/Value.astro';
 import type { SystemPageText } from '../../../data/systemPage';
 import type { LocalizedSystem } from '../../../lib/systems';
@@ -66,5 +67,10 @@ const { locale, system, text } = Astro.props;
         </li>
       ))}
     </ol>
+
+    <ShopTerms
+      locale={locale}
+      class="mt-8"
+    />
   </div>
 </section>

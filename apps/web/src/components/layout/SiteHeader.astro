@@ -22,12 +22,12 @@ const links = [
 
 <a
   href="#contenido"
-  class="label bg-paper text-navy sr-only px-4 py-3 focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60]"
+  class="label bg-paper text-navy sr-only px-4 py-3 focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-(--zm-z-skip)"
 >
   {t(locale, 'a11y.skip')}
 </a>
 <header
-  class="site-header border-line bg-paper text-navy data-[over-hero=true]:text-paper fixed inset-x-0 top-0 z-50 border-b data-[hidden=true]:-translate-y-full data-[over-hero=true]:border-transparent data-[over-hero=true]:bg-transparent"
+  class="site-header border-line bg-paper text-navy data-[over-hero=true]:text-paper fixed inset-x-0 top-0 z-(--zm-z-header) border-b data-[hidden=true]:-translate-y-full data-[over-hero=true]:border-transparent data-[over-hero=true]:bg-transparent"
   data-site-header
   data-over-hero="false"
 >
@@ -54,7 +54,7 @@ const links = [
         {links.map((link) => (
           <li>
             <a
-              class="relative text-current no-underline after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-500 hover:after:origin-left hover:after:scale-x-100"
+              class="relative text-current no-underline after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-(--zm-duration) hover:after:origin-left hover:after:scale-x-100"
               href={link.href}
             >
               {link.label}
@@ -93,11 +93,11 @@ const links = [
         class="lg:hidden"
         data-mobile-menu
       >
-        <summary class="label relative z-[55] flex min-h-11 cursor-pointer list-none items-center gap-3 border border-current px-3 py-3 whitespace-nowrap sm:px-4 [&::-webkit-details-marker]:hidden">
+        <summary class="label relative z-(--zm-z-menu-toggle) flex min-h-11 cursor-pointer list-none items-center gap-3 border border-current px-3 py-3 whitespace-nowrap sm:px-4 [&::-webkit-details-marker]:hidden">
           <span class="menu-label-closed">{t(locale, 'nav.menu')}</span>
           <span class="menu-label-open">{t(locale, 'nav.close')}</span>
         </summary>
-        <div class="bg-night text-paper fixed inset-0 z-50 flex flex-col justify-between px-[var(--zm-gutter)] pt-28 pb-10">
+        <div class="bg-night text-paper fixed inset-0 z-(--zm-z-header) flex flex-col justify-between px-[var(--zm-gutter)] pt-28 pb-10">
           <nav aria-label={t(locale, 'a11y.menu')}>
             <ul class="grid">
               {links.map((link) => (

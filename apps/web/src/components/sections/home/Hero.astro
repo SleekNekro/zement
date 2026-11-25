@@ -56,16 +56,16 @@ const { locale, hero, shopStrip, layers } = Astro.props;
 
   <!-- Franja fija (sin movimiento) que lleva a la tienda: la salida comercial siempre a la vista -->
   <a
-    class="group border-line-dark hover:bg-paper hover:text-night relative block border-t no-underline transition-colors duration-500"
+    class="group border-line-dark hover:bg-paper hover:text-night relative block border-t no-underline transition-colors duration-(--zm-duration)"
     href={shopUrl(locale)}
   >
     <span class="container-site flex min-h-16 items-center justify-between gap-6 py-4">
       <span class="flex items-center gap-8">
-        <span class="label text-sand group-hover:text-night transition-colors duration-500">
+        <span class="label text-sand group-hover:text-night transition-colors duration-(--zm-duration)">
           {shopStrip.label}
         </span>
         <span
-          class="label text-paper/60 group-hover:text-night/70 hidden gap-6 transition-colors duration-500 lg:flex"
+          class="label text-paper/60 group-hover:text-night/70 hidden gap-6 transition-colors duration-(--zm-duration) lg:flex"
           aria-hidden="true"
         >
           {layers.map((layer) => (
@@ -80,7 +80,7 @@ const { locale, hero, shopStrip, layers } = Astro.props;
         <span class="sr-only"> {t(locale, 'nav.external')}</span>
         <Arrow
           direction="out"
-          class="btn-arrow size-4 transition-transform duration-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+          class="btn-arrow size-4 transition-transform duration-(--zm-duration) group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
         />
       </span>
     </span>

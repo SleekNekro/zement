@@ -29,7 +29,12 @@ const { system, text } = Astro.props;
             {String(index + 1).padStart(2, '0')}
           </span>
           <div>
-            <h3 class="display-md">{step.title}</h3>
+            <p class="label text-sand">
+              {step.code
+                ? `${step.code} · ${system.products.find((product) => product.code === step.code)?.layer ?? ''}`
+                : text.supportLabel}
+            </p>
+            <h3 class="display-md mt-2">{step.title}</h3>
             <p class="text-paper/70 mt-3 max-w-md">
               <Value text={step.text} />
             </p>

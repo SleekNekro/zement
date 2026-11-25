@@ -5,6 +5,7 @@ import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
 import Arrow from '../../ui/Arrow.astro';
+import ShopTerms from '../../ui/ShopTerms.astro';
 import Todo from '../../ui/Todo.astro';
 import { company } from '../../../data/company';
 
@@ -46,7 +47,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
       Familias de producto ligadas a las capas del sistema (Z.0x). La primera, el microcemento,
       va destacada; las demás, en filas. Cada una abre su búsqueda en la tienda.
     -->
-    <ul class="border-navy mt-16 mb-section grid border-t md:mt-20 lg:grid-cols-12">
+    <ul class="border-navy mt-16 grid border-t md:mt-20 lg:grid-cols-12">
       {shop.categories.map((category, index) => {
         const isFeatured = index === 0;
         return (
@@ -62,7 +63,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
           >
             <a
               class:list={[
-                'row-wipe group hover:text-paper flex h-full no-underline transition-colors duration-500 [--row-fill:var(--zm-color-night)]',
+                'row-wipe group hover:text-paper flex h-full no-underline transition-colors duration-(--zm-duration) [--row-fill:var(--zm-color-night)]',
                 isFeatured
                   ? 'min-h-72 flex-col justify-between gap-10 py-8 lg:min-h-[30rem] lg:p-10'
                   : 'items-center justify-between gap-6 py-6 lg:px-10 lg:py-8',
@@ -71,13 +72,13 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
             >
               <span class="grid gap-3">
                 {category.codes.length > 0 && (
-                  <span class="label text-ink/75 group-hover:text-sand transition-colors duration-500">
+                  <span class="label text-ink/75 group-hover:text-sand transition-colors duration-(--zm-duration)">
                     {category.codes.join(' · ')}
                   </span>
                 )}
                 <span
                   class:list={[
-                    'display text-navy group-hover:text-paper block transition-colors duration-500',
+                    'display text-navy group-hover:text-paper block transition-colors duration-(--zm-duration)',
                     isFeatured ? 'text-4xl md:text-6xl' : 'text-2xl md:text-3xl',
                   ]}
                 >
@@ -85,19 +86,19 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
                 </span>
                 <span
                   class:list={[
-                    'text-ink/75 group-hover:text-paper/70 max-w-sm transition-colors duration-500',
+                    'text-ink/75 group-hover:text-paper/70 max-w-sm transition-colors duration-(--zm-duration)',
                     !isFeatured && 'hidden sm:block',
                   ]}
                 >
                   {category.text}
                 </span>
               </span>
-              <span class="label text-navy group-hover:text-paper flex shrink-0 items-center gap-3 transition-colors duration-500">
+              <span class="label text-navy group-hover:text-paper flex shrink-0 items-center gap-3 transition-colors duration-(--zm-duration)">
                 <span class:list={[!isFeatured && 'sr-only']}>{shop.cta}</span>
                 <span class="sr-only"> {t(locale, 'nav.external')}</span>
                 <Arrow
                   direction="out"
-                  class="btn-arrow size-5 transition-transform duration-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  class="btn-arrow size-5 transition-transform duration-(--zm-duration) group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                 />
               </span>
             </a>
@@ -105,6 +106,11 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
         );
       })}
     </ul>
+
+    <ShopTerms
+      locale={locale}
+      class="border-line mt-8 mb-section border-t pt-6"
+    />
   </div>
 
   <!-- Ventaja profesional: la tarifa aparece al iniciar sesión; alta para quien aún no tiene cuenta. -->

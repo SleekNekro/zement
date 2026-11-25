@@ -187,7 +187,7 @@
   }
 
   .field::placeholder {
-    color: rgb(246 245 241 / 55%); /* ≥ 4,5:1 sobre el fondo oscuro */
+    color: color-mix(in srgb, var(--zm-color-paper) 55%, transparent); /* ≥ 4,5:1 sobre oscuro */
   }
 
   .field:focus {

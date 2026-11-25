@@ -50,7 +50,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
       para que `sticky` funcione respecto a toda la sección.
     -->
     <div class="mt-16 md:mt-24 lg:grid lg:grid-cols-12 lg:gap-12">
-      <figure class="bg-paper sticky top-[var(--header-offset)] z-10 transition-[top] duration-500 -mx-[var(--zm-gutter)] px-[var(--zm-gutter)] pt-4 pb-5 lg:top-[calc(var(--header-offset)+1.5rem)] lg:col-span-6 lg:mx-0 lg:self-start lg:px-0 lg:pt-0 lg:pb-0">
+      <figure class="bg-paper sticky top-[var(--header-offset)] z-(--zm-z-raised) -mx-[var(--zm-gutter)] px-[var(--zm-gutter)] pt-4 pb-5 lg:top-[calc(var(--header-offset)+1.5rem)] lg:col-span-6 lg:mx-0 lg:self-start lg:px-0 lg:pt-0 lg:pb-0">
         <figcaption class="label text-muted mb-3 flex items-center justify-between gap-4 lg:mb-5">
           <span>{system.layersLabel}</span>
           <span class="hidden items-center gap-2 sm:flex">
@@ -80,7 +80,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
           >
             <span
               aria-hidden="true"
-              class="display text-line group-data-[active=true]:text-navy text-5xl transition-colors duration-500 md:text-7xl"
+              class="display text-line group-data-[active=true]:text-navy text-5xl transition-colors duration-(--zm-duration) md:text-7xl"
             >
               {String(index + 1).padStart(2, '0')}
             </span>
