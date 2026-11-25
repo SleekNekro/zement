@@ -2,8 +2,7 @@
 import Arrow from '../../ui/Arrow.astro';
 import Value from '../../ui/Value.astro';
 import type { SystemPageText } from '../../../data/systemPage';
-import { isTodo, type LocalizedSystem } from '../../../lib/systems';
-import { shopUrl } from '../../../lib/shop';
+import type { LocalizedSystem } from '../../../lib/systems';
 import { t, type Locale } from '../../../i18n/ui';
 
 interface Props {
@@ -51,11 +50,7 @@ const { locale, system, text } = Astro.props;
           <div class="md:col-span-2 md:text-right">
             <a
               class="link-arrow label text-navy w-fit bg-none pb-0 min-h-11 items-center"
-              href={shopUrl(
-                locale,
-                'search',
-                isTodo(product.sku) ? `${system.shopQuery} ${product.layer}` : product.sku,
-              )}
+              href={product.buyHref}
             >
               {text.buy}
               <span class="sr-only">

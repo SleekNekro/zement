@@ -11,6 +11,13 @@ const shopRoutes = {
 
 export type ShopRoute = keyof typeof shopRoutes;
 
+/** URL de una ruta concreta de la tienda (categoría, pack o producto) en el idioma indicado. */
+export function shopPathUrl(locale: Locale, path: string): string {
+  const base = (import.meta.env.PUBLIC_TIENDA_URL ?? DEFAULT_SHOP_URL).replace(/\/$/, '');
+  const prefix = locale === 'es' ? '' : `/${locale}`;
+  return `${base}${prefix}/${path.replace(/^\//, '')}`;
+}
+
 /**
  * URL de la tienda PrestaShop en el idioma indicado.
  * PrestaShop 9.2 sirve el idioma por defecto (es) sin prefijo y el resto con /<iso>/.

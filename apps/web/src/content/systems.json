@@ -40,6 +40,10 @@
         "formats": {
           "es": "TODO: envases",
           "en": "TODO: pack sizes"
+        },
+        "shopPath": {
+          "es": "",
+          "en": ""
         }
       },
       {
@@ -60,6 +64,10 @@
         "formats": {
           "es": "TODO: envases",
           "en": "TODO: pack sizes"
+        },
+        "shopPath": {
+          "es": "",
+          "en": ""
         }
       },
       {
@@ -80,6 +88,10 @@
         "formats": {
           "es": "TODO: envases",
           "en": "TODO: pack sizes"
+        },
+        "shopPath": {
+          "es": "",
+          "en": ""
         }
       },
       {
@@ -100,6 +112,10 @@
         "formats": {
           "es": "TODO: envases",
           "en": "TODO: pack sizes"
+        },
+        "shopPath": {
+          "es": "",
+          "en": ""
         }
       }
     ],
@@ -355,6 +371,10 @@
           "en": "TODO: real answer"
         }
       }
-    ]
+    ],
+    "shopPath": {
+      "es": "",
+      "en": ""
+    }
   }
 ]

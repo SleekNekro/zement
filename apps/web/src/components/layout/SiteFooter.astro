@@ -3,6 +3,7 @@ import Arrow from '../ui/Arrow.astro';
 import Todo from '../ui/Todo.astro';
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
+import { systemsIndexPath } from '../../lib/systems';
 
 interface Props {
   locale: Locale;
@@ -11,6 +12,7 @@ interface Props {
 const { locale } = Astro.props;
 const year = new Date().getFullYear();
 const links = [
+  { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
   { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },

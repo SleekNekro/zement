@@ -3,6 +3,7 @@ import type { Locale } from '../i18n/ui';
 
 export const systemPageText = {
   es: {
+    breadcrumbLabel: 'Ruta de navegación',
     breadcrumbHome: 'Inicio',
     breadcrumbProducts: 'Sistemas',
     buySystem: 'Comprar el sistema',
@@ -29,8 +30,15 @@ export const systemPageText = {
     ctaText:
       'Cuéntanos el soporte y los metros: te ayudamos a elegir el sistema y a calcular las cantidades.',
     talkToTech: 'Hablar con un técnico',
+    quote: 'Pedir presupuesto de aplicación',
+    proTitle: '¿Eres profesional?',
+    proText:
+      'Inicia sesión en la tienda y verás tu tarifa, sin IVA, en cada producto de este sistema.',
+    proCta: 'Acceso profesional',
+    proSignup: 'Solicitar el alta',
   },
   en: {
+    breadcrumbLabel: 'Breadcrumb',
     breadcrumbHome: 'Home',
     breadcrumbProducts: 'Systems',
     buySystem: 'Buy the system',
@@ -57,7 +65,40 @@ export const systemPageText = {
     ctaText:
       'Tell us about the substrate and the area: we help you choose the system and work out the quantities.',
     talkToTech: 'Talk to a technician',
+    quote: 'Request an application quote',
+    proTitle: 'Are you a professional?',
+    proText:
+      'Sign in to the shop to see your price list, excluding VAT, on every product in this system.',
+    proCta: 'Professional access',
+    proSignup: 'Request an account',
   },
 } as const satisfies Record<Locale, Record<string, string | readonly string[]>>;
 
 export type SystemPageText = (typeof systemPageText)[Locale];
+
+/** Textos del índice de sistemas (/sistemas/, /en/systems/). */
+export const systemsIndexText = {
+  es: {
+    breadcrumbLabel: 'Ruta de navegación',
+    breadcrumbHome: 'Inicio',
+    title: 'Sistemas',
+    intro:
+      'Cada sistema reúne los productos de todas sus capas, con datos técnicos, aplicación y documentación.',
+    see: 'Ver el sistema',
+    buy: 'Comprar',
+    proText: '¿Eres profesional? Inicia sesión y verás tu tarifa sin IVA en cada producto.',
+    proCta: 'Acceso profesional',
+  },
+  en: {
+    breadcrumbLabel: 'Breadcrumb',
+    breadcrumbHome: 'Home',
+    title: 'Systems',
+    intro:
+      'Each system brings together the products for every layer, with technical data, application and documentation.',
+    see: 'See the system',
+    buy: 'Buy',
+    proText:
+      'Are you a professional? Sign in to see your price list, excluding VAT, on every product.',
+    proCta: 'Professional access',
+  },
+} as const satisfies Record<Locale, Record<string, string>>;

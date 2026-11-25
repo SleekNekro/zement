@@ -1,0 +1,99 @@
+---
+import Arrow from '../../ui/Arrow.astro';
+import Button from '../../ui/Button.astro';
+import Value from '../../ui/Value.astro';
+import { systemsIndexText } from '../../../data/systemPage';
+import { systemPath, type LocalizedSystem } from '../../../lib/systems';
+import { shopUrl } from '../../../lib/shop';
+import { localePath, t, type Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  systems: LocalizedSystem[];
+}
+
+const { locale, systems } = Astro.props;
+const text = systemsIndexText[locale];
+---
+
+<!-- Índice de sistemas: cada sistema enlaza a su página (información) y a la tienda (compra). -->
+<section class="pt-28 pb-section md:pt-36">
+  <div class="container-site">
+    <nav
+      aria-label={text.breadcrumbLabel}
+      class="label text-muted"
+    >
+      <ol class="flex flex-wrap gap-2">
+        <li>
+          <a
+            class="hover:text-navy"
+            href={localePath(locale, '/')}
+          >
+            {text.breadcrumbHome}
+          </a>
+          <span aria-hidden="true"> /</span>
+        </li>
+        <li aria-current="page">{text.title}</li>
+      </ol>
+    </nav>
+    <div class="mt-8 grid gap-6 md:grid-cols-12 md:items-end">
+      <h1 class="display-xl text-navy md:col-span-7">{text.title}</h1>
+      <p class="text-muted md:col-span-4 md:col-start-9">{text.intro}</p>
+    </div>
+
+    <ul class="border-navy mt-14 border-t">
+      {systems.map((system) => (
+        <li class="border-line grid gap-6 border-b py-10 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-7">
+            <h2 class="display-lg text-navy">
+              <a
+                class="hover:text-navy-soft no-underline"
+                href={systemPath(locale, system.slug)}
+              >
+                {system.name}
+              </a>
+            </h2>
+            <p class="text-muted mt-4 max-w-xl">
+              <Value text={system.audience} />
+            </p>
+            <p class="label text-ink/75 mt-4">
+              {system.products.map((product) => `${product.code} ${product.layer}`).join(' · ')}
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-3 md:col-span-5 md:justify-end">
+            <Button
+              href={systemPath(locale, system.slug)}
+              variant="solid-dark"
+              arrow="next"
+            >
+              {text.see}
+            </Button>
+            <Button
+              href={system.buyHref}
+              variant="outline-dark"
+              arrow="out"
+            >
+              {text.buy}
+              <span class="sr-only"> {t(locale, 'nav.external')}</span>
+            </Button>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <p class="text-muted mt-10 flex flex-wrap items-center gap-x-3 text-sm">
+      {text.proText}
+      <a
+        class="link-arrow label text-navy inline-flex min-h-11 items-center bg-none pb-0"
+        href={shopUrl(locale, 'login')}
+      >
+        {text.proCta}
+        <span class="sr-only"> {t(locale, 'nav.external')}</span>
+        <Arrow
+          direction="out"
+          class="btn-arrow"
+        />
+      </a>
+    </p>
+  </div>
+</section>

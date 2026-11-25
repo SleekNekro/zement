@@ -1,6 +1,7 @@
 ---
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
+import { systemsIndexPath } from '../../lib/systems';
 import Arrow from '../ui/Arrow.astro';
 
 interface Props {
@@ -12,6 +13,7 @@ interface Props {
 const { locale, alternateHref } = Astro.props;
 const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
 const links = [
+  { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
   { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
@@ -29,16 +31,17 @@ const links = [
   data-site-header
   data-over-hero="false"
 >
-  <div class="container-site flex h-20 items-center justify-between gap-8">
+  <div class="container-site flex h-20 items-center justify-between gap-4 sm:gap-8">
     <a
+      data-menu-behind
       href={localePath(locale, '/')}
-      class="flex flex-col text-current no-underline"
+      class="flex min-w-0 shrink flex-col text-current no-underline"
       aria-label="Zement"
     >
-      <span class="display text-xl leading-none font-medium tracking-[0.28em] md:text-2xl">
+      <span class="display text-lg leading-none font-medium tracking-[0.2em] sm:text-xl sm:tracking-[0.28em] md:text-2xl">
         ZEMENT
       </span>
-      <span class="label mt-1.5 text-[0.6875rem] tracking-[0.2em] whitespace-nowrap opacity-75">
+      <span class="label mt-1.5 hidden tracking-[0.2em] whitespace-nowrap opacity-75 sm:block">
         {t(locale, 'brand.tagline')}
       </span>
     </a>
@@ -61,17 +64,19 @@ const links = [
       </ul>
     </nav>
 
-    <div class="flex items-center gap-6">
+    <div class="flex shrink-0 items-center gap-2 sm:gap-6">
       <a
         class="label hidden py-3 text-current no-underline opacity-80 hover:opacity-100 sm:inline"
         href={alternateHref}
+        data-menu-behind
         hreflang={otherLocale}
         lang={otherLocale}
       >
         {otherLocale.toUpperCase()}
       </a>
       <a
-        class="btn hidden min-h-11 border-current text-current [--btn-fill:var(--zm-color-gold)] [--btn-hover-color:var(--zm-color-night)] md:inline-flex"
+        class="btn min-h-11 gap-3 border-current px-3 text-current [--btn-fill:var(--zm-color-gold)] [--btn-hover-color:var(--zm-color-night)] sm:gap-10 sm:px-6"
+        data-menu-behind
         href={shopUrl(locale)}
       >
         <span>
@@ -80,7 +85,7 @@ const links = [
         </span>
         <Arrow
           direction="out"
-          class="btn-arrow"
+          class="btn-arrow hidden min-[400px]:block"
         />
       </a>
 
@@ -88,26 +93,25 @@ const links = [
         class="lg:hidden"
         data-mobile-menu
       >
-        <summary
-          class="label relative z-[55] flex cursor-pointer list-none items-center gap-3 border border-current px-4 py-3 whitespace-nowrap [&::-webkit-details-marker]:hidden"
-          aria-label={t(locale, 'a11y.menu')}
-        >
+        <summary class="label relative z-[55] flex min-h-11 cursor-pointer list-none items-center gap-3 border border-current px-3 py-3 whitespace-nowrap sm:px-4 [&::-webkit-details-marker]:hidden">
           <span class="menu-label-closed">{t(locale, 'nav.menu')}</span>
           <span class="menu-label-open">{t(locale, 'nav.close')}</span>
         </summary>
         <div class="bg-night text-paper fixed inset-0 z-50 flex flex-col justify-between px-[var(--zm-gutter)] pt-28 pb-10">
-          <ul class="grid">
-            {links.map((link) => (
-              <li class="border-line-dark border-t">
-                <a
-                  class="display flex items-baseline gap-5 py-5 text-3xl no-underline"
-                  href={link.href}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <nav aria-label={t(locale, 'a11y.menu')}>
+            <ul class="grid">
+              {links.map((link) => (
+                <li class="border-line-dark border-t">
+                  <a
+                    class="display flex items-baseline gap-5 py-5 text-3xl no-underline"
+                    href={link.href}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
           <div class="grid gap-3">
             <a
               class="btn btn-solid-light"

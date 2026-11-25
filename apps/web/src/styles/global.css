@@ -80,6 +80,9 @@
   :root {
     /* Altura visible de la cabecera fija; motion.ts la pone a 0 cuando se oculta. */
     --header-offset: 5rem;
+
+    /* Color del contorno de foco por defecto (fondos claros); en fondos oscuros pasa a dorado. */
+    --focus-ring: var(--zm-color-navy);
   }
 
   html {
@@ -146,9 +149,20 @@
     border-radius: 0;
   }
 
+  /* Contorno de foco: azul sobre fondos claros, dorado sobre oscuros (≥ 3:1, WCAG 1.4.11). */
+
+  .bg-navy,
+  .bg-night,
+  .surface-material,
+  .surface-microcement-dark,
+  [data-site-header][data-over-hero='true'],
+  [data-mobile-menu][open] {
+    --focus-ring: var(--zm-color-gold);
+  }
+
   :focus-visible {
-    outline: 1px solid var(--zm-color-gold);
-    outline-offset: 4px;
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
   }
 }
 

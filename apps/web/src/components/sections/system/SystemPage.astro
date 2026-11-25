@@ -1,6 +1,7 @@
 ---
 import SystemHero from './SystemHero.astro';
 import SystemRange from './SystemRange.astro';
+import SystemPro from './SystemPro.astro';
 import SystemSpecs from './SystemSpecs.astro';
 import SystemSteps from './SystemSteps.astro';
 import SystemResources from './SystemResources.astro';
@@ -31,6 +32,10 @@ const text = systemPageText[locale];
 <SystemRange
   locale={locale}
   system={system}
+  text={text}
+/>
+<SystemPro
+  locale={locale}
   text={text}
 />
 <SystemSpecs

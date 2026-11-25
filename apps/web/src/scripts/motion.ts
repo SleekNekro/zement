@@ -157,8 +157,11 @@ function setupMobileMenu(): void {
       menu.querySelector('summary')?.focus();
     }
   });
+  // Mientras el menú está abierto, todo lo que queda detrás es inerte (no recibe foco ni clics).
+  const behind = [...document.querySelectorAll<HTMLElement>('main, footer, [data-menu-behind]')];
   menu.addEventListener('toggle', () => {
     document.body.style.overflow = menu.open ? 'hidden' : '';
+    for (const element of behind) element.inert = menu.open;
   });
 }
 

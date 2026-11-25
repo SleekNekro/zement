@@ -47,7 +47,7 @@ const { locale, label, paths } = Astro.props;
             {primary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
           </Button>
           <a
-            class="link-arrow label text-sand hover:text-paper min-h-11 w-fit items-center bg-none pb-0 whitespace-nowrap"
+            class="link-arrow label text-sand hover:text-paper min-h-11 w-fit items-center bg-none pb-0 sm:whitespace-nowrap"
             href={secondary.href}
           >
             {path.secondary.label}

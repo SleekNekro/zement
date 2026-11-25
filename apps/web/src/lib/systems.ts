@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import type { Locale } from '../i18n/ui';
+import { shopPathUrl, shopUrl } from './shop';
 
 type Localized = Record<Locale, string>;
 type SystemData = CollectionEntry<'systems'>['data'];
@@ -12,6 +13,8 @@ export interface LocalizedSystem {
   audience: string;
   summary: string;
   shopQuery: string;
+  /** URL de compra del sistema completo (categoría/pack o, si no existe, búsqueda). */
+  buyHref: string;
   products: {
     code: string;
     layer: string;
@@ -19,6 +22,8 @@ export interface LocalizedSystem {
     benefit: string;
     sku: string;
     formats: string;
+    /** URL de compra del producto (ficha o, si no existe, búsqueda por SKU o capa). */
+    buyHref: string;
   }[];
   specs: { label: string; values: string[]; highlight: boolean }[];
   steps: { title: string; text: string; time: string }[];
@@ -30,6 +35,11 @@ export interface LocalizedSystem {
 }
 
 const basePath: Record<Locale, string> = { es: '/sistemas/', en: '/en/systems/' };
+
+/** URL del índice de sistemas en un idioma. */
+export function systemsIndexPath(locale: Locale): string {
+  return basePath[locale];
+}
 
 /** URL de un sistema en un idioma. */
 export function systemPath(locale: Locale, slug: string): string {
@@ -45,6 +55,9 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
     audience: l(data.audience),
     summary: l(data.summary),
     shopQuery: l(data.shopQuery),
+    buyHref: l(data.shopPath)
+      ? shopPathUrl(locale, l(data.shopPath))
+      : shopUrl(locale, 'search', l(data.shopQuery)),
     products: data.products.map((product) => ({
       code: product.code,
       layer: l(product.layer),
@@ -52,6 +65,13 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
       benefit: l(product.benefit),
       sku: product.sku,
       formats: l(product.formats),
+      buyHref: l(product.shopPath)
+        ? shopPathUrl(locale, l(product.shopPath))
+        : shopUrl(
+            locale,
+            'search',
+            product.sku.startsWith('TODO') ? l(product.layer) : product.sku,
+          ),
     })),
     specs: data.specs.map((row) => ({
       label: l(row.label),

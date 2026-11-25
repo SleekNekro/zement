@@ -77,7 +77,16 @@
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  max-width: 100%;
   transition: color var(--zm-duration) var(--zm-ease);
+}
+
+/* En pantallas muy estrechas (≤ 360 px) el texto del botón puede partirse en dos líneas. */
+@media (width < 22.5rem) {
+  .btn {
+    padding-block: 0.75rem;
+    white-space: normal;
+  }
 }
 
 .btn::before {

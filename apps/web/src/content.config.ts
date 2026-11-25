@@ -9,6 +9,9 @@ import { file } from 'astro/loaders';
 
 const localized = z.object({ es: z.string(), en: z.string() });
 
+/** Ruta en la tienda (p. ej. «/12-microcemento»); vacía = se usa la búsqueda de la tienda. */
+const shopPath = z.object({ es: z.string(), en: z.string() }).default({ es: '', en: '' });
+
 /** Sistema de microcemento: conjunto de productos que se aplican por capas (Z.01 → Z.04). */
 const systems = defineCollection({
   loader: file('src/content/systems.json'),
@@ -20,6 +23,8 @@ const systems = defineCollection({
     summary: localized,
     /** Búsqueda en la tienda para «Comprar el sistema» hasta que exista su categoría. */
     shopQuery: localized,
+    /** Categoría o pack del sistema completo en la tienda (TODO al crearlos en PrestaShop). */
+    shopPath,
     products: z.array(
       z.object({
         code: z.string(),
@@ -27,6 +32,8 @@ const systems = defineCollection({
         name: localized,
         benefit: localized,
         sku: z.string(),
+        /** Ficha del producto en la tienda (TODO al crearla en PrestaShop). */
+        shopPath,
         formats: localized,
       }),
     ),

@@ -1,8 +1,8 @@
 ---
+import Arrow from '../../ui/Arrow.astro';
 import Button from '../../ui/Button.astro';
 import type { SystemPageText } from '../../../data/systemPage';
 import type { LocalizedSystem } from '../../../lib/systems';
-import { shopUrl } from '../../../lib/shop';
 import { localePath, t, type Locale } from '../../../i18n/ui';
 
 interface Props {
@@ -23,23 +23,33 @@ const { locale, system, text } = Astro.props;
     </h2>
     <div class="grid gap-8 lg:col-span-5">
       <p class="text-paper/75">{text.ctaText}</p>
-      <div class="flex flex-col gap-3 sm:flex-row">
+      <div class="flex flex-wrap gap-3">
         <Button
-          href={localePath(locale, '/?interes=other#contacto')}
+          href={system.buyHref}
           variant="solid-light"
-          arrow="next"
-        >
-          {text.talkToTech}
-        </Button>
-        <Button
-          href={shopUrl(locale, 'search', system.shopQuery)}
-          variant="outline-light"
           arrow="out"
         >
           {text.buySystem}
           <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </Button>
+        <Button
+          href={localePath(locale, '/?interes=application#contacto')}
+          variant="outline-light"
+          arrow="next"
+        >
+          {text.quote}
+        </Button>
       </div>
+      <a
+        class="link-arrow label text-sand hover:text-paper inline-flex min-h-11 w-fit items-center bg-none pb-0"
+        href={localePath(locale, '/?interes=other#contacto')}
+      >
+        {text.talkToTech}
+        <Arrow
+          direction="next"
+          class="btn-arrow"
+        />
+      </a>
     </div>
   </div>
 </section>
