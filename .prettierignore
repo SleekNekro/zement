@@ -7,3 +7,6 @@ apps/tienda/theme/zement/assets/css/tokens.css
 apps/tienda/theme/zement/assets/css/fonts.css
 *.woff2
 *.png
+
+# Skills de terceros (Impeccable)
+.claude/skills/
