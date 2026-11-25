@@ -3,6 +3,7 @@ import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
 import Arrow from '../ui/Arrow.astro';
+import Logo from '../ui/Logo.astro';
 
 interface Props {
   locale: Locale;
@@ -38,10 +39,11 @@ const links = [
       class="flex min-w-0 shrink flex-col text-current no-underline"
       aria-label="Zement"
     >
-      <span class="display text-lg leading-none font-medium tracking-[0.2em] sm:text-xl sm:tracking-[0.28em] md:text-2xl">
-        ZEMENT
-      </span>
-      <span class="label mt-1.5 hidden tracking-[0.2em] whitespace-nowrap opacity-75 sm:block">
+      <Logo
+        suffix=".com"
+        class="h-5 sm:h-6 md:h-7"
+      />
+      <span class="label mt-2 hidden tracking-[0.2em] whitespace-nowrap opacity-75 sm:block">
         {t(locale, 'brand.tagline')}
       </span>
     </a>

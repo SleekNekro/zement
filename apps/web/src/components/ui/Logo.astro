@@ -1,0 +1,22 @@
+---
+import ZementLogo from '@zement/design-tokens/brand/zement-logo.svg';
+
+interface Props {
+  /** Dominio en pequeño junto al logotipo: «.com» en la web, «.shop» en la tienda. */
+  suffix?: string;
+  /** Altura del logotipo (clases de Tailwind); el ancho sale de la proporción. */
+  class?: string;
+}
+
+const { suffix, class: className } = Astro.props;
+---
+
+<span class="flex items-end gap-1.5 leading-none">
+  <ZementLogo
+    class:list={['block w-auto shrink-0', className]}
+    aria-hidden="true"
+  />
+  {suffix && (
+    <span class="label translate-y-px tracking-[0.12em] normal-case opacity-75">{suffix}</span>
+  )}
+</span>

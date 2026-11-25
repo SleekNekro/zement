@@ -3,6 +3,7 @@ import '../styles/global.css';
 import SiteHeader from '../components/layout/SiteHeader.astro';
 import SiteFooter from '../components/layout/SiteFooter.astro';
 import type { Locale } from '../i18n/ui';
+import favicon from '@zement/design-tokens/brand/zement-favicon.svg?url';
 import displayFont from '@zement/design-tokens/fonts/archivo-latin-wdth-normal.woff2?url';
 
 interface Props {
@@ -33,6 +34,15 @@ const canonical = locale === 'es' ? esUrl : enUrl;
       content="width=device-width, initial-scale=1"
     />
     <title>{title}</title>
+    <link
+      rel="icon"
+      href={favicon}
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/apple-touch-icon.png"
+    />
     <meta
       name="description"
       content={description}
