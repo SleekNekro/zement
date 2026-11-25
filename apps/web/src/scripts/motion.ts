@@ -7,7 +7,6 @@
 
 const root = document.documentElement;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 const narrowScreen = window.matchMedia('(width < 64rem)');
 
 if (!reducedMotion) {
@@ -20,7 +19,6 @@ setupMobileMenu();
 if (!reducedMotion) {
   setupReveals();
   setupScrubWords();
-  setupHeroLight();
 }
 setupLayers();
 
@@ -85,40 +83,6 @@ function setupScrubWords(): void {
   };
 
   onScrollFrame(update);
-}
-
-/** Luz que sigue al puntero en el hero (solo ratón; en táctil hay una deriva automática en CSS). */
-function setupHeroLight(): void {
-  const hero = document.querySelector<HTMLElement>('[data-hero]');
-  if (!hero || !finePointer) return;
-
-  let targetX = 70;
-  let targetY = 35;
-  let currentX = targetX;
-  let currentY = targetY;
-  let frame = 0;
-
-  const animate = (): void => {
-    currentX += (targetX - currentX) * 0.08;
-    currentY += (targetY - currentY) * 0.08;
-    hero.style.setProperty('--light-x', `${currentX.toFixed(2)}%`);
-    hero.style.setProperty('--light-y', `${currentY.toFixed(2)}%`);
-    frame =
-      Math.abs(targetX - currentX) > 0.05 || Math.abs(targetY - currentY) > 0.05
-        ? requestAnimationFrame(animate)
-        : 0;
-  };
-
-  hero.addEventListener(
-    'pointermove',
-    (event) => {
-      const rect = hero.getBoundingClientRect();
-      targetX = ((event.clientX - rect.left) / rect.width) * 100;
-      targetY = ((event.clientY - rect.top) / rect.height) * 100;
-      if (!frame) frame = requestAnimationFrame(animate);
-    },
-    { passive: true },
-  );
 }
 
 /** Cabecera: transparente sobre el hero, se oculta al bajar y reaparece al subir. */

@@ -1,5 +1,6 @@
 ---
 import AudiencePaths from './AudiencePaths.astro';
+import HeroCollage from './HeroCollage.astro';
 import Arrow from '../../ui/Arrow.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Todo from '../../ui/Todo.astro';
@@ -22,10 +23,7 @@ const { locale, hero, shopStrip, layers } = Astro.props;
   class="surface-microcement-dark text-paper relative isolate flex min-h-svh flex-col overflow-hidden"
   data-hero
 >
-  <div
-    class="hero-light"
-    aria-hidden="true"
-  ></div>
+  <HeroCollage />
 
   <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-10 md:pt-32 md:pb-14">
     <RevealHeading

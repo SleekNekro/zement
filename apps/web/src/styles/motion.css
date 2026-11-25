@@ -181,49 +181,6 @@
   }
 }
 
-/* ---------- Hero: luz que sigue al puntero sobre la materia ---------- */
-.hero-light {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: radial-gradient(
-    38rem circle at var(--light-x, 70%) var(--light-y, 35%),
-    color-mix(in srgb, var(--zm-color-navy-soft) 70%, transparent),
-    transparent 70%
-  );
-  pointer-events: none;
-}
-
-@media (hover: none) {
-  .motion .hero-light {
-    animation: light-drift 14s var(--zm-ease-inout) infinite alternate;
-  }
-}
-
-@keyframes light-drift {
-  from {
-    --light-x: 25%;
-    --light-y: 30%;
-  }
-
-  to {
-    --light-x: 80%;
-    --light-y: 60%;
-  }
-}
-
-@property --light-x {
-  syntax: '<percentage>';
-  inherits: true;
-  initial-value: 70%;
-}
-
-@property --light-y {
-  syntax: '<percentage>';
-  inherits: true;
-  initial-value: 35%;
-}
-
 /* ---------- Cabecera: transiciones (los estados se aplican con variantes data-* en SiteHeader) ---------- */
 .site-header {
   transition:
@@ -309,10 +266,25 @@
   }
 }
 
+/* ---------- Hero: las fotos del collage se acercan lentamente al cargar ---------- */
+.motion .hero-media {
+  animation: hero-media-settle 2.4s var(--zm-ease) both;
+}
+
+@keyframes hero-media-settle {
+  from {
+    transform: scale(1.06);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
 /* ---------- Preferencia del sistema: reducir movimiento ---------- */
 @media (prefers-reduced-motion: reduce) {
   /*
-   * Las apariciones, el texto que se ilumina y la luz del cursor ya no se activan (motion.ts no añade
+   * Las apariciones y el texto que se ilumina ya no se activan (motion.ts no añade
    * la clase `motion`). Aquí se quitan los desplazamientos; se conservan los cambios breves de color
    * y opacidad, que informan del estado (hover, foco, capa activa).
    */
@@ -320,7 +292,7 @@
     scroll-behavior: auto;
   }
 
-  .hero-light {
+  .motion .hero-media {
     animation: none;
   }
 
