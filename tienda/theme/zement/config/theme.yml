@@ -1,0 +1,53 @@
+# Tema hijo de Zement sobre Hummingbird (tema por defecto de PrestaShop 9.2, Bootstrap 5).
+# Solo se sobrescribe lo necesario: tokens de marca + estilos propios.
+# Para cambiar una plantilla, copiarla de themes/hummingbird/templates/ a templates/ con la misma ruta.
+parent: hummingbird
+name: zement
+display_name: Zement
+version: 0.1.0
+author:
+  name: 'Zement'
+
+meta:
+  compatibility:
+    from: 9.2.0
+    to: ~9.2.0
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: Sin columnas laterales.
+    layout-both-columns:
+      name: Three Columns
+      description: Columna central y dos laterales.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Columna izquierda estrecha.
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Columna derecha estrecha.
+
+assets:
+  use_parent_assets: true
+  css:
+    all:
+      - id: zement-tokens
+        path: assets/css/tokens.css
+        media: all
+        priority: 200
+      - id: zement-theme
+        path: assets/css/zement.css
+        media: all
+        priority: 210
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    search: layout-left-column
+    manufacturer: layout-left-column
+    supplier: layout-left-column
+    module-ps_facetedsearch-category: layout-left-column

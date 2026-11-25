@@ -1,0 +1,65 @@
+---
+import { localePath, shopUrl, t, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+
+const { locale, path } = Astro.props;
+const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
+const links = [
+  { href: localePath(locale, '/'), label: t(locale, 'nav.home') },
+  { href: localePath(locale, '/#productos'), label: t(locale, 'nav.products') },
+  { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
+];
+---
+
+<header class="bg-navy text-cream">
+  <a
+    href="#contenido"
+    class="sr-only focus:not-sr-only"
+  >
+    Saltar al contenido
+  </a>
+  <div class="container-site flex items-center justify-between gap-6 py-5">
+    <a
+      href={localePath(locale, '/')}
+      class="font-display text-2xl tracking-wide text-cream no-underline"
+    >
+      ZEMENT
+    </a>
+    <nav aria-label="Principal">
+      <ul class="flex flex-wrap items-center gap-5 text-sm">
+        {links.map((link) => (
+          <li>
+            <a
+              class="text-cream hover:text-gold"
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a
+            class="rounded border border-gold px-3 py-1.5 text-cream hover:bg-gold hover:text-navy"
+            href={shopUrl(locale)}
+          >
+            {t(locale, 'nav.shop')}
+          </a>
+        </li>
+        <li>
+          <a
+            class="text-cream/80 hover:text-gold"
+            href={localePath(otherLocale, path)}
+            hreflang={otherLocale}
+            lang={otherLocale}
+          >
+            {t(locale, 'nav.language')}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

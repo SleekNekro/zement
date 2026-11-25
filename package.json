@@ -1,0 +1,21 @@
+{
+  "name": "zement",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.28.3",
+  "scripts": {
+    "dev": "pnpm --filter zement-web dev",
+    "build": "pnpm tokens:sync && pnpm --filter zement-web build",
+    "check": "pnpm --filter zement-web check",
+    "format": "prettier --write \"web/src/**/*.{astro,ts,css}\" \"design-tokens/**/*.{css,mjs}\" \"tienda/theme/**/*.css\" *.json",
+    "format:check": "prettier --check \"web/src/**/*.{astro,ts,css}\" \"design-tokens/**/*.{css,mjs}\" \"tienda/theme/**/*.css\" *.json",
+    "tokens:sync": "node design-tokens/sync.mjs",
+    "tienda:up": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement up -d",
+    "tienda:down": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement down",
+    "tienda:logs": "docker compose --env-file infra/.env -f infra/docker-compose.yml -p zement logs --tail=80 prestashop"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "prettier-plugin-astro": "^1.1.0"
+  }
+}
