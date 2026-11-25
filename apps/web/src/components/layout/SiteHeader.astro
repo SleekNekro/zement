@@ -1,6 +1,7 @@
 ---
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
+import Arrow from '../ui/Arrow.astro';
 
 interface Props {
   locale: Locale;
@@ -10,9 +11,8 @@ interface Props {
 const { locale, path } = Astro.props;
 const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
 const links = [
-  { href: localePath(locale, '/#sistema'), label: t(locale, 'nav.system') },
-  { href: localePath(locale, '/#aplicacion'), label: t(locale, 'nav.application') },
-  { href: localePath(locale, '/#tienda'), label: t(locale, 'nav.products') },
+  { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
+  { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
 ];
 ---
@@ -37,7 +37,7 @@ const links = [
       <span class="display text-xl leading-none font-medium tracking-[0.28em] md:text-2xl">
         ZEMENT
       </span>
-      <span class="label mt-1.5 text-[0.5rem] tracking-[0.3em] whitespace-nowrap opacity-60">
+      <span class="label mt-1.5 text-[0.6875rem] tracking-[0.2em] whitespace-nowrap opacity-75">
         {t(locale, 'brand.tagline')}
       </span>
     </a>
@@ -62,7 +62,7 @@ const links = [
 
     <div class="flex items-center gap-6">
       <a
-        class="label hidden text-current no-underline opacity-60 hover:opacity-100 sm:inline"
+        class="label hidden py-3 text-current no-underline opacity-80 hover:opacity-100 sm:inline"
         href={localePath(otherLocale, path)}
         hreflang={otherLocale}
         lang={otherLocale}
@@ -73,13 +73,14 @@ const links = [
         class="btn hidden min-h-11 border-current text-current [--btn-fill:var(--zm-color-gold)] [--btn-hover-color:var(--zm-color-night)] md:inline-flex"
         href={shopUrl(locale)}
       >
-        <span>{t(locale, 'nav.shop')}</span>
-        <span
-          class="btn-arrow"
-          aria-hidden="true"
-        >
-          ↗
+        <span>
+          {t(locale, 'nav.shop')}
+          <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </span>
+        <Arrow
+          direction="out"
+          class="btn-arrow"
+        />
       </a>
 
       <details
@@ -95,13 +96,12 @@ const links = [
         </summary>
         <div class="bg-night text-paper fixed inset-0 z-50 flex flex-col justify-between px-[var(--zm-gutter)] pt-28 pb-10">
           <ul class="grid">
-            {links.map((link, index) => (
+            {links.map((link) => (
               <li class="border-line-dark border-t">
                 <a
                   class="display flex items-baseline gap-5 py-5 text-3xl no-underline"
                   href={link.href}
                 >
-                  <span class="label text-sand">{String(index + 1).padStart(2, '0')}</span>
                   {link.label}
                 </a>
               </li>
@@ -112,13 +112,14 @@ const links = [
               class="btn btn-solid-light"
               href={shopUrl(locale)}
             >
-              <span>{t(locale, 'nav.shop')}</span>
-              <span
-                class="btn-arrow"
-                aria-hidden="true"
-              >
-                ↗
+              <span>
+                {t(locale, 'nav.shop')}
+                <span class="sr-only"> {t(locale, 'nav.external')}</span>
               </span>
+              <Arrow
+                direction="out"
+                class="btn-arrow"
+              />
             </a>
             <a
               class="label text-sand py-3 no-underline"

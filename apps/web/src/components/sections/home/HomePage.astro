@@ -1,9 +1,10 @@
 ---
 import Hero from './Hero.astro';
 import Manifesto from './Manifesto.astro';
+import ChapterBand from './ChapterBand.astro';
 import SystemLayers from './SystemLayers.astro';
-import Application from './Application.astro';
 import ShopCategories from './ShopCategories.astro';
+import Application from './Application.astro';
 import Method from './Method.astro';
 import Contact from './Contact.astro';
 import { home } from '../../../data/home';
@@ -15,6 +16,7 @@ interface Props {
 
 const { locale } = Astro.props;
 const content = home[locale];
+const { pro, project } = content.chapters;
 ---
 
 <Hero
@@ -23,11 +25,43 @@ const content = home[locale];
   marquee={content.marquee}
 />
 <Manifesto intro={content.intro} />
-<SystemLayers system={content.system} />
-<Application application={content.application} />
-<ShopCategories
-  locale={locale}
-  shop={content.shop}
-/>
-<Method method={content.method} />
-<Contact contact={content.contact} />
+
+<!-- Capítulo 1: profesionales (prueba de calidad → materiales → acceso con tarifa) -->
+<section
+  id={pro.id}
+  aria-label={pro.title}
+>
+  <ChapterBand chapter={pro} />
+  <SystemLayers
+    system={content.system}
+    level={3}
+  />
+  <ShopCategories
+    locale={locale}
+    shop={content.shop}
+    level={3}
+  />
+</section>
+
+<!-- Capítulo 2: proyecto (qué aplicamos → cómo trabajamos → pedir presupuesto) -->
+<section
+  id={project.id}
+  aria-label={project.title}
+>
+  <ChapterBand
+    chapter={project}
+    tone="dark"
+  />
+  <Application
+    application={content.application}
+    level={3}
+  />
+  <Method
+    method={content.method}
+    level={3}
+  />
+  <Contact
+    contact={content.contact}
+    level={3}
+  />
+</section>

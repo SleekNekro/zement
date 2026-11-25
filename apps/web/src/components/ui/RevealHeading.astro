@@ -5,7 +5,7 @@
  */
 interface Props {
   lines: string[];
-  as?: 'h1' | 'h2' | 'h3';
+  as?: 'h1' | 'h2' | 'h3' | 'h4';
   class?: string;
   /** Índice de la línea que se muestra con más peso (énfasis). */
   emphasis?: number;
@@ -23,7 +23,10 @@ const { lines, as: Tag = 'h2', class: className, emphasis } = Astro.props;
       class="reveal-line"
       style={`--line-index: ${index}`}
     >
-      <span class:list={[index === emphasis && 'font-semibold']}>{line}</span>
+      <span class:list={[index === emphasis && 'font-semibold']}>
+        {line}
+        {index < lines.length - 1 && ' '}
+      </span>
     </span>
   ))}
 </Tag>

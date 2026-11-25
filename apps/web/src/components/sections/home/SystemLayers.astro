@@ -1,36 +1,60 @@
 ---
-import SectionLabel from '../../ui/SectionLabel.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
+import Arrow from '../../ui/Arrow.astro';
 import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
+  /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
+  level?: 2 | 3;
   system: HomeContent['system'];
 }
 
-const { system } = Astro.props;
+const { system, level = 2 } = Astro.props;
+const headingTag = `h${level}` as 'h2' | 'h3';
+const SubHeading = `h${level + 1}` as 'h3' | 'h4';
 
-// Textura y grosor de cada capa en la sección (de abajo arriba: soporte → protección).
-const layerStyles = [
-  'h-16 bg-[repeating-linear-gradient(135deg,var(--zm-color-line)_0_1px,transparent_1px_9px)] bg-stone',
-  'h-20 bg-[radial-gradient(var(--zm-color-muted)_0.7px,transparent_0.8px)] bg-[length:7px_7px] bg-stone',
-  'h-12 bg-[radial-gradient(var(--zm-color-navy-soft)_0.5px,transparent_0.6px)] bg-[length:4px_4px] bg-white',
-  'h-5 bg-[linear-gradient(90deg,var(--zm-color-white),var(--zm-color-stone),var(--zm-color-white))]',
+/*
+ * Cada capa del corte: textura dibujada con la paleta de la marca y grosor relativo (flex-grow).
+ * Los grosores son una representación visual, no medidas: las reales van en `thicknessTodo`.
+ * Orden de abajo arriba: preparación → base → acabado → protección.
+ */
+const layers = [
+  {
+    grow: 1.1,
+    texture:
+      'bg-stone bg-[repeating-linear-gradient(135deg,color-mix(in_srgb,var(--zm-color-navy)_30%,transparent)_0_1px,transparent_1px_7px)]',
+  },
+  {
+    grow: 2.2,
+    texture:
+      'bg-[color-mix(in_srgb,var(--zm-color-stone),var(--zm-color-navy)_9%)] bg-[radial-gradient(color-mix(in_srgb,var(--zm-color-navy)_45%,transparent)_1px,transparent_1.2px)] bg-[length:9px_9px]',
+  },
+  {
+    grow: 1.4,
+    texture:
+      'bg-white bg-[radial-gradient(color-mix(in_srgb,var(--zm-color-navy-soft)_30%,transparent)_0.6px,transparent_0.8px)] bg-[length:5px_5px]',
+  },
+  {
+    grow: 0.55,
+    texture:
+      'bg-white bg-[linear-gradient(100deg,transparent_20%,color-mix(in_srgb,var(--zm-color-white)_90%,transparent)_45%,transparent_70%),linear-gradient(var(--zm-color-white),var(--zm-color-stone))]',
+  },
 ];
 ---
 
 <section
   id="sistema"
-  class="border-line py-section border-t"
+  class="py-section"
 >
   <div class="container-site">
     <div class="grid gap-10 md:grid-cols-12">
       <div class="md:col-span-7">
-        <SectionLabel text={system.label} />
         <RevealHeading
+          as={headingTag}
           lines={system.title}
           emphasis={1}
-          class="display-xl text-navy mt-8"
+          class="display-xl text-navy"
         />
       </div>
       <p
@@ -41,49 +65,75 @@ const layerStyles = [
       </p>
     </div>
 
-    <div class="mt-16 grid gap-12 md:mt-24 lg:grid-cols-12">
-      <!-- Sección transversal: las capas se construyen al avanzar por los pasos -->
-      <figure class="lg:col-span-5">
-        <div class="lg:sticky lg:top-28">
-          <figcaption class="label text-muted mb-6">{system.layersLabel}</figcaption>
+    <!--
+      Corte transversal fijo (en escritorio a la izquierda, en móvil arriba) mientras pasan los pasos:
+      cada capa se extiende de abajo arriba al llegar a su paso. En móvil se usa bloque (no grid)
+      para que `sticky` funcione respecto a toda la sección.
+    -->
+    <div class="mt-16 md:mt-24 lg:grid lg:grid-cols-12 lg:gap-12">
+      <figure class="bg-paper sticky top-[var(--header-offset)] z-10 transition-[top] duration-500 -mx-[var(--zm-gutter)] px-[var(--zm-gutter)] pt-4 pb-5 lg:top-[calc(var(--header-offset)+1.5rem)] lg:col-span-6 lg:mx-0 lg:self-start lg:px-0 lg:pt-0 lg:pb-0">
+        <figcaption class="label text-muted mb-3 flex items-center justify-between gap-4 lg:mb-5">
+          <span>{system.layersLabel}</span>
+          <span class="hidden items-center gap-2 sm:flex">
+            <Arrow
+              direction="next"
+              class="-rotate-90"
+            />
+            {system.layersDirection}
+          </span>
+        </figcaption>
+
+        <div
+          class="layers border-navy flex h-[34svh] min-h-56 flex-col-reverse border lg:h-[min(68svh,40rem)]"
+          role="img"
+          aria-label={`${system.layersLabel}: ${system.steps.map((step) => step.name).join(', ')}`}
+        >
+          <!-- Soporte: la superficie existente sobre la que se aplica el sistema -->
           <div
-            class="layers border-line flex flex-col-reverse border"
-            role="img"
-            aria-label={system.steps.map((step) => step.name).join(', ')}
+            class="relative flex items-end bg-[color-mix(in_srgb,var(--zm-color-stone),var(--zm-color-navy)_28%)] bg-[repeating-linear-gradient(45deg,color-mix(in_srgb,var(--zm-color-night)_30%,transparent)_0_1px,transparent_1px_12px)] px-4 pb-2"
+            style="flex-grow: 1.3"
           >
-            <div class="bg-muted/30 h-10"></div>
-            {system.steps.map((step, index) => (
-              <div
-                class:list={['layer border-line relative border-t', layerStyles[index]]}
-                data-layer={index}
-              >
-                <span class="label bg-paper/90 text-navy absolute top-1/2 right-3 -translate-y-1/2 px-2">
-                  {step.code}
-                </span>
-              </div>
-            ))}
+            <span class="label text-night">{system.supportLabel}</span>
           </div>
-          <p class="label text-muted mt-4 flex justify-between">
-            <span>{system.steps[0]?.name}</span>
-            <span aria-hidden="true">↑</span>
-            <span>{system.steps.at(-1)?.name}</span>
-          </p>
+          {system.steps.map((step, index) => (
+            <div
+              class:list={[
+                'layer border-navy/40 group/layer relative flex items-center justify-between gap-4 border-t px-4',
+                layers[index]?.texture,
+              ]}
+              style={`flex-grow: ${layers[index]?.grow ?? 1}`}
+              data-layer={index}
+            >
+              <span class="bg-paper/90 text-navy flex items-baseline gap-3 px-2 py-0.5">
+                <span class="label">{step.code}</span>
+                <span class="display text-base sm:text-lg lg:text-2xl">{step.name}</span>
+              </span>
+              <span class="label bg-paper/90 text-navy hidden px-2 py-0.5 sm:inline">
+                {system.thicknessTodo}
+              </span>
+            </div>
+          ))}
         </div>
       </figure>
 
-      <ol class="lg:col-span-6 lg:col-start-7">
+      <ol class="mt-6 lg:col-span-5 lg:col-start-8 lg:mt-0">
         {system.steps.map((step, index) => (
           <li
-            class="group border-line flex gap-6 border-t py-10 transition-colors duration-500 data-[active=true]:text-navy md:gap-10 lg:min-h-[42vh]"
+            class="group border-line flex gap-6 border-t py-10 md:gap-10 lg:min-h-[44svh] lg:py-14"
             data-layer-step={index}
             data-active="false"
           >
-            <span class="display text-line group-data-[active=true]:text-gold text-5xl transition-colors duration-500 md:text-7xl">
+            <span
+              aria-hidden="true"
+              class="display text-line group-data-[active=true]:text-navy text-5xl transition-colors duration-500 md:text-7xl"
+            >
               {String(index + 1).padStart(2, '0')}
             </span>
             <div class="pt-2">
-              <p class="label text-muted">{step.code}</p>
-              <h3 class="display-lg text-navy mt-3">{step.name}</h3>
+              <p class="label text-muted">
+                {system.stepLabel} {index + 1} · {step.code}
+              </p>
+              <SubHeading class="display-lg text-navy mt-3">{step.name}</SubHeading>
               <p class="text-muted mt-4 max-w-sm">{step.text}</p>
             </div>
           </li>

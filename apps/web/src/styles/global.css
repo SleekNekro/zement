@@ -44,7 +44,7 @@
 @utility display-hero {
   @apply display uppercase;
 
-  font-size: clamp(1.9rem, 8.2vw, 9.5rem);
+  font-size: clamp(2.15rem, 6.6vw, 8.5rem);
   font-stretch: var(--hero-stretch, var(--zm-stretch-display));
   line-height: 0.9;
 }
@@ -73,11 +73,17 @@
   /* En móvil, el titular del hero algo menos expandido para que las palabras largas quepan. */
   @media (width < 40rem) {
     :root {
-      --hero-stretch: 108%;
+      --hero-stretch: 100%;
     }
   }
 
+  :root {
+    /* Altura visible de la cabecera fija; motion.ts la pone a 0 cuando se oculta. */
+    --header-offset: 5rem;
+  }
+
   html {
+    scrollbar-color: var(--zm-color-navy) var(--zm-color-paper);
     scroll-padding-top: 6rem;
     -webkit-tap-highlight-color: transparent;
   }
@@ -106,9 +112,25 @@
     }
   }
 
+  /* Evita palabras sueltas en la última línea de los párrafos. */
+  p,
+  li,
+  dd {
+    text-wrap: pretty;
+  }
+
   strong,
   b {
     font-weight: var(--zm-weight-display-strong);
+  }
+
+  input,
+  textarea {
+    caret-color: var(--zm-color-gold);
+  }
+
+  a {
+    text-underline-offset: 0.25em;
   }
 
   ::selection {
@@ -151,7 +173,7 @@
   }
 
   .field::placeholder {
-    color: rgb(246 245 241 / 40%);
+    color: rgb(246 245 241 / 55%); /* ≥ 4,5:1 sobre el fondo oscuro */
   }
 
   .field:focus {

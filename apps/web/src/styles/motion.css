@@ -55,7 +55,7 @@
 
 /* ---------- Texto que se «llena» palabra a palabra con el scroll ---------- */
 .motion [data-scrub-words] .word {
-  opacity: calc(0.14 + 0.86 * var(--word-on, 0));
+  opacity: calc(0.22 + 0.78 * var(--word-on, 0));
   transition: opacity 200ms linear;
 }
 
@@ -91,7 +91,7 @@
   transition: transform var(--zm-duration) var(--zm-ease);
 }
 
-.btn .btn-arrow {
+.btn-arrow {
   transition: transform var(--zm-duration) var(--zm-ease);
 }
 
@@ -101,8 +101,17 @@
     transform-origin: left;
   }
 
-  .btn:hover .btn-arrow {
-    transform: translate3d(0.25rem, -0.25rem, 0);
+  /* La flecha se mueve en su propia dirección. */
+  :is(.btn, .link-arrow):hover .btn-arrow[data-direction='out'] {
+    transform: translate3d(0.2rem, -0.2rem, 0);
+  }
+
+  :is(.btn, .link-arrow):hover .btn-arrow[data-direction='down'] {
+    transform: translate3d(0, 0.25rem, 0);
+  }
+
+  :is(.btn, .link-arrow):hover .btn-arrow[data-direction='next'] {
+    transform: translate3d(0.3rem, 0, 0);
   }
 
   .btn:hover {
@@ -176,13 +185,8 @@
   gap: 3rem;
   align-items: center;
   padding-right: 3rem;
-  animation: marquee 38s linear infinite;
-}
-
-@keyframes marquee {
-  to {
-    transform: translate3d(-100%, 0, 0);
-  }
+  transform: translate3d(calc(var(--marquee-shift, 0) * -1px), 0, 0);
+  will-change: transform;
 }
 
 /* ---------- Hero: luz que sigue al puntero sobre la materia ---------- */
@@ -279,21 +283,25 @@
 }
 
 /* ---------- Sistema por capas ---------- */
+
+/* Cada capa se extiende de abajo arriba, como si se aplicara con llana. */
 .layer {
   transition:
-    transform var(--zm-duration-slow) var(--zm-ease),
-    opacity var(--zm-duration) var(--zm-ease),
-    background-color var(--zm-duration) var(--zm-ease);
+    clip-path var(--zm-duration-slow) var(--zm-ease-inout),
+    filter var(--zm-duration) var(--zm-ease);
 }
 
 .motion .layers .layer {
-  opacity: 0.18;
-  transform: translate3d(0, -1.5rem, 0);
+  clip-path: inset(100% 0 0 0);
 }
 
 .motion .layers .layer.is-built {
-  opacity: 1;
-  transform: none;
+  clip-path: inset(0);
+}
+
+/* Las capas ya construidas se atenúan; la activa queda nítida y marcada en oro. */
+.layers .layer.is-built:not(.is-active) {
+  filter: saturate(0.6) brightness(0.97);
 }
 
 .layers .layer.is-active {
@@ -335,9 +343,5 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-
-  .marquee-track {
-    animation: none;
   }
 }

@@ -1,0 +1,63 @@
+---
+import Arrow from '../../ui/Arrow.astro';
+import Button from '../../ui/Button.astro';
+import type { AudiencePath } from '../../../data/home';
+import { resolveLink } from '../../../lib/links';
+import { t, type Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  label: string;
+  paths: AudiencePath[];
+}
+
+const { locale, label, paths } = Astro.props;
+---
+
+<!-- Dos caminos claros: cada público tiene una acción principal y una secundaria. -->
+<nav
+  aria-label={label}
+  class="border-line-dark grid border-t md:grid-cols-2"
+>
+  {paths.map((path, index) => {
+    const primary = resolveLink(locale, path.primary.target);
+    const secondary = resolveLink(locale, path.secondary.target);
+    return (
+      <div
+        class:list={[
+          'grid content-between gap-8 py-8 md:py-10',
+          index > 0 && 'border-line-dark border-t md:border-t-0 md:border-l md:pl-10',
+          index === 0 && 'md:pr-10',
+        ]}
+        data-reveal
+        style={`--reveal-index: ${index + 1}`}
+      >
+        <div>
+          <h2 class="display-md">{path.title}</h2>
+          <p class="text-paper/70 mt-3 max-w-sm">{path.text}</p>
+        </div>
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
+          <Button
+            href={primary.href}
+            variant={index === 0 ? 'solid-light' : 'outline-light'}
+            arrow={primary.isExternal ? 'out' : 'down'}
+          >
+            {path.primary.label}
+            {primary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
+          </Button>
+          <a
+            class="link-arrow label text-sand hover:text-paper w-fit bg-none pb-0 whitespace-nowrap"
+            href={secondary.href}
+          >
+            {path.secondary.label}
+            {secondary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
+            <Arrow
+              direction={secondary.isExternal ? 'out' : 'down'}
+              class="btn-arrow"
+            />
+          </a>
+        </div>
+      </div>
+    );
+  })}
+</nav>

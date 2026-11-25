@@ -20,6 +20,7 @@ if (!reducedMotion) {
   setupReveals();
   setupScrubWords();
   setupHeroLight();
+  setupMarquee();
 }
 setupLayers();
 
@@ -47,17 +48,26 @@ function setupScrubWords(): void {
   if (blocks.length === 0) return;
 
   const prepared = blocks.map((block) => {
-    const words = block.textContent?.trim().split(/\s+/) ?? [];
-    block.setAttribute('aria-label', words.join(' '));
-    block.replaceChildren(
+    const text = block.textContent?.trim() ?? '';
+    const words = text.split(/\s+/);
+
+    // Copia accesible del texto completo; las palabras animadas quedan ocultas a lectores de pantalla.
+    const accessibleCopy = document.createElement('span');
+    accessibleCopy.className = 'sr-only';
+    accessibleCopy.textContent = text;
+
+    const visual = document.createElement('span');
+    visual.setAttribute('aria-hidden', 'true');
+    visual.append(
       ...words.flatMap((word, index) => {
         const span = document.createElement('span');
         span.className = 'word';
-        span.setAttribute('aria-hidden', 'true');
         span.textContent = word;
         return index < words.length - 1 ? [span, document.createTextNode(' ')] : [span];
       }),
     );
+
+    block.replaceChildren(accessibleCopy, visual);
     return { block, words: [...block.querySelectorAll<HTMLElement>('.word')] };
   });
 
@@ -111,6 +121,23 @@ function setupHeroLight(): void {
   );
 }
 
+/**
+ * Cinta del hero: avanza al hacer scroll (no se mueve sola).
+ * El desplazamiento se repite cada ancho de pista para que la cinta no se acabe nunca.
+ */
+function setupMarquee(): void {
+  const marquee = document.querySelector<HTMLElement>('.marquee');
+  const track = marquee?.querySelector<HTMLElement>('.marquee-track');
+  if (!marquee || !track) return;
+
+  onScrollFrame(() => {
+    const width = track.offsetWidth;
+    if (width === 0) return;
+    const shift = (window.scrollY * 0.6) % width;
+    marquee.style.setProperty('--marquee-shift', shift.toFixed(1));
+  });
+}
+
 /** Cabecera: transparente sobre el hero, se oculta al bajar y reaparece al subir. */
 function setupHeader(): void {
   const header = document.querySelector<HTMLElement>('[data-site-header]');
@@ -123,7 +150,9 @@ function setupHeader(): void {
     const heroBottom = hero ? hero.offsetTop + hero.offsetHeight - header.offsetHeight : 0;
     header.dataset.overHero = String(Boolean(hero) && y < heroBottom);
     const menuOpen = header.querySelector('details[open]') !== null;
-    header.dataset.hidden = String(!reducedMotion && !menuOpen && y > 400 && y > lastY + 2);
+    const isHidden = !reducedMotion && !menuOpen && y > 400 && y > lastY + 2;
+    header.dataset.hidden = String(isHidden);
+    root.style.setProperty('--header-offset', isHidden ? '0px' : `${header.offsetHeight}px`);
     if (Math.abs(y - lastY) > 2) lastY = y;
   };
 

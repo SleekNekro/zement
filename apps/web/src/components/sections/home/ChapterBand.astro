@@ -1,0 +1,50 @@
+---
+import Arrow from '../../ui/Arrow.astro';
+import RevealHeading from '../../ui/RevealHeading.astro';
+import type { Chapter } from '../../../data/home';
+
+interface Props {
+  chapter: Chapter;
+  tone?: 'light' | 'dark';
+}
+
+const { chapter, tone = 'light' } = Astro.props;
+---
+
+<!-- Apertura de capítulo: nombra al público y ofrece el salto al otro capítulo. -->
+<header
+  class:list={[
+    'border-y',
+    tone === 'dark' ? 'border-line-dark bg-night text-paper' : 'border-navy bg-paper text-navy',
+  ]}
+>
+  <div class="container-site grid gap-6 py-10 md:grid-cols-12 md:items-end md:py-14">
+    <RevealHeading
+      as="h2"
+      lines={[chapter.title]}
+      class="display-xl md:col-span-7"
+    />
+    <div class="grid gap-5 md:col-span-4 md:col-start-9">
+      <p
+        class:list={[tone === 'dark' ? 'text-paper/70' : 'text-muted']}
+        data-reveal
+      >
+        {chapter.text}
+      </p>
+      <a
+        class:list={[
+          'link-arrow label w-fit bg-none pb-0 whitespace-nowrap',
+          tone === 'dark' ? 'text-sand hover:text-paper' : 'text-muted hover:text-navy',
+        ]}
+        href={`#${chapter.jumpTo}`}
+        data-reveal
+      >
+        {chapter.jumpLabel}
+        <Arrow
+          direction="down"
+          class="btn-arrow"
+        />
+      </a>
+    </div>
+  </div>
+</header>

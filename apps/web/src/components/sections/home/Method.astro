@@ -1,14 +1,16 @@
 ---
-import SectionLabel from '../../ui/SectionLabel.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
+  /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
+  level?: 2 | 3;
   method: HomeContent['method'];
 }
 
-const { method } = Astro.props;
+const { method, level = 2 } = Astro.props;
+const headingTag = `h${level}` as 'h2' | 'h3';
 ---
 
 <section class="py-section">
@@ -28,11 +30,11 @@ const { method } = Astro.props;
       <Todo text={method.imageTodo} />
     </div>
     <div class="md:col-span-6 md:col-start-7">
-      <SectionLabel text={method.label} />
       <RevealHeading
+        as={headingTag}
         lines={method.title}
         emphasis={1}
-        class="display-lg text-navy mt-8"
+        class="display-lg text-navy"
       />
       <p
         class="text-muted mt-8 max-w-lg"

@@ -1,5 +1,5 @@
 ---
-import SectionLabel from '../../ui/SectionLabel.astro';
+import Arrow from '../../ui/Arrow.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import type { HomeContent } from '../../../data/home';
 
@@ -17,10 +17,9 @@ const [lead, ...rest] = intro.paragraphs;
 >
   <div class="container-site grid gap-12 md:grid-cols-12">
     <div class="md:col-span-5">
-      <SectionLabel text={intro.label} />
       <RevealHeading
         lines={intro.title}
-        class="display-lg text-navy mt-8"
+        class="display-lg text-navy"
       />
     </div>
     <div class="grid content-start gap-10 md:col-span-6 md:col-start-7">
@@ -44,7 +43,10 @@ const [lead, ...rest] = intro.paragraphs;
         data-reveal
       >
         {intro.link}
-        <span aria-hidden="true">→</span>
+        <Arrow
+          direction="down"
+          class="btn-arrow"
+        />
       </a>
     </div>
   </div>

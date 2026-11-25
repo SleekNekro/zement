@@ -1,30 +1,30 @@
 ---
-import SectionLabel from '../../ui/SectionLabel.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
+import Arrow from '../../ui/Arrow.astro';
 import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
+  /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
+  level?: 2 | 3;
   contact: HomeContent['contact'];
 }
 
-const { contact } = Astro.props;
+const { contact, level = 2 } = Astro.props;
+const headingTag = `h${level}` as 'h2' | 'h3';
 ---
 
 <section
   id="contacto"
-  class="surface-material text-paper py-section"
+  class="bg-navy text-paper py-section"
 >
   <div class="container-site grid gap-16 md:grid-cols-12">
     <div class="md:col-span-5">
-      <SectionLabel
-        text={contact.label}
-        tone="dark"
-      />
       <RevealHeading
+        as={headingTag}
         lines={contact.title}
         emphasis={1}
-        class="display-lg mt-8"
+        class="display-lg"
       />
       <p
         class="text-paper/70 mt-8 max-w-sm"
@@ -37,23 +37,28 @@ const { contact } = Astro.props;
 
     <form
       class="grid gap-8 md:col-span-6 md:col-start-7"
-      novalidate
       data-reveal
     >
       <label class="label text-sand grid gap-1">
-        {contact.fields.name}
+        <span>
+          {contact.fields.name} <span aria-hidden="true">*</span>
+        </span>
         <input
           class="field tracking-normal normal-case"
           name="name"
+          required
           autocomplete="name"
           placeholder={contact.placeholders.name}
         />
       </label>
       <label class="label text-sand grid gap-1">
-        {contact.fields.email}
+        <span>
+          {contact.fields.email} <span aria-hidden="true">*</span>
+        </span>
         <input
           class="field tracking-normal normal-case"
           type="email"
+          required
           name="email"
           autocomplete="email"
           placeholder={contact.placeholders.email}
@@ -78,21 +83,27 @@ const { contact } = Astro.props;
           placeholder={contact.placeholders.message}
         ></textarea>
       </label>
-      <div class="flex flex-wrap items-center gap-6">
+      <p class="text-paper/60 text-sm">{contact.requiredNote}</p>
+      <div class="grid gap-5">
         <button
-          class="btn btn-solid-light cursor-not-allowed opacity-60"
+          class="btn btn-solid-light w-fit cursor-not-allowed opacity-60"
           type="submit"
           disabled
+          aria-describedby="contact-status"
         >
           <span>{contact.submit}</span>
-          <span
+          <Arrow
+            direction="next"
             class="btn-arrow"
-            aria-hidden="true"
-          >
-            ↗
-          </span>
+          />
         </button>
-        <Todo text={contact.todo} />
+        <p
+          id="contact-status"
+          class="text-paper/75 max-w-md text-sm"
+        >
+          {contact.unavailable} <Todo text={contact.emailTodo} />. {contact.nextStep}{' '}
+          <Todo text={contact.responseTodo} />.
+        </p>
       </div>
     </form>
   </div>

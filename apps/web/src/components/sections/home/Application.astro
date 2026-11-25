@@ -1,30 +1,29 @@
 ---
 import Button from '../../ui/Button.astro';
-import SectionLabel from '../../ui/SectionLabel.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
+  /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
+  level?: 2 | 3;
   application: HomeContent['application'];
 }
 
-const { application } = Astro.props;
+const { application, level = 2 } = Astro.props;
+const headingTag = `h${level}` as 'h2' | 'h3';
 ---
 
 <section
   id="aplicacion"
-  class="bg-night text-paper py-section"
+  class="bg-navy text-paper py-section"
 >
   <div class="container-site grid gap-16 lg:grid-cols-12">
     <div class="lg:col-span-6">
-      <SectionLabel
-        text={application.label}
-        tone="dark"
-      />
       <RevealHeading
+        as={headingTag}
         lines={application.title}
         emphasis={1}
-        class="display-lg mt-8"
+        class="display-lg"
       />
       <p
         class="text-paper/70 mt-8 max-w-md"
@@ -39,24 +38,26 @@ const { application } = Astro.props;
         <Button
           href="#contacto"
           variant="outline-light"
-          arrow={false}
+          arrow="down"
         >
           {application.cta}
         </Button>
       </div>
     </div>
 
-    <ul class="border-line-dark border-b lg:col-span-5 lg:col-start-8 lg:self-end">
+    <!-- Dónde se aplica: una lista de texto corrido, sin numerar ni simular interacción -->
+    <ul class="display text-paper/90 flex flex-wrap content-end items-baseline gap-x-8 gap-y-3 text-2xl md:text-3xl lg:col-span-5 lg:col-start-8">
       {application.areas.map((area, index) => (
         <li
-          class="row-wipe border-line-dark group hover:text-night flex items-baseline gap-6 border-t py-5 transition-colors duration-500 [--row-fill:var(--zm-color-paper)] md:py-6"
+          class="flex items-baseline gap-3"
           data-reveal
           style={`--reveal-index: ${index}`}
         >
-          <span class="label text-sand group-hover:text-muted w-8 shrink-0 pl-1 transition-colors duration-500">
-            {String(index + 1).padStart(2, '0')}
-          </span>
-          <span class="display-md">{area}</span>
+          <span
+            class="bg-gold inline-block size-1.5 shrink-0 -translate-y-1.5"
+            aria-hidden="true"
+          />
+          {area}
         </li>
       ))}
     </ul>

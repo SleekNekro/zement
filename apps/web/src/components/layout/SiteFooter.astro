@@ -1,4 +1,5 @@
 ---
+import Arrow from '../ui/Arrow.astro';
 import Todo from '../ui/Todo.astro';
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
@@ -10,10 +11,10 @@ interface Props {
 const { locale } = Astro.props;
 const year = new Date().getFullYear();
 const links = [
-  { href: localePath(locale, '/#sistema'), label: t(locale, 'nav.system') },
-  { href: localePath(locale, '/#aplicacion'), label: t(locale, 'nav.application') },
-  { href: shopUrl(locale), label: t(locale, 'nav.shop') },
+  { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
+  { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
+  { href: shopUrl(locale), label: t(locale, 'nav.shop'), isExternal: true },
 ];
 ---
 
@@ -24,10 +25,19 @@ const links = [
       {links.map((link) => (
         <li>
           <a
-            class="link-arrow hover:text-paper bg-none pb-0 no-underline"
+            class="link-arrow hover:text-paper inline-flex min-h-11 items-center bg-none pb-0 no-underline"
             href={link.href}
           >
             {link.label}
+            {link.isExternal && (
+              <>
+                <span class="sr-only"> {t(locale, 'nav.external')}</span>
+                <Arrow
+                  direction="out"
+                  class="btn-arrow"
+                />
+              </>
+            )}
           </a>
         </li>
       ))}

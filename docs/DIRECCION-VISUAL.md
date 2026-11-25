@@ -15,6 +15,14 @@
 | **Distante y puro**  | Mucho aire, paleta fría y contenida, textos breves; el oro solo como acento (foco, avisos).                        |
 | **Intenso**          | Contraste fuerte entre bandas claras y oscuras, titulares serif muy grandes.                                       |
 
+## Reglas de composición (tras la crítica de Impeccable, 25/11/2026)
+
+- **Sin etiquetas encima de los titulares** («01 — Sección»): el titular se sostiene solo.
+- **Numeración solo si indica un orden real** (pasos y capas del sistema). Nunca como adorno en listas o tarjetas.
+- **Flechas dibujadas en SVG** con significado fijo: diagonal = abre la tienda; abajo = baja en la página; derecha = avanza.
+- **Dos recorridos**: «Para profesionales» y «Para tu proyecto», cada uno con una acción principal.
+- **Cada sección con su propia estructura**: no repetir el mismo arranque en todas.
+
 ## La calidad como argumento
 
 Sin años de trayectoria que enseñar, la web enseña **método y comprobación**:

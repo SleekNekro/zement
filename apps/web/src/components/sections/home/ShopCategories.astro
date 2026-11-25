@@ -1,87 +1,124 @@
 ---
 import Button from '../../ui/Button.astro';
-import SectionLabel from '../../ui/SectionLabel.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
-import type { Locale } from '../../../i18n/ui';
+import { t, type Locale } from '../../../i18n/ui';
+import Arrow from '../../ui/Arrow.astro';
 
 interface Props {
+  /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
+  level?: 2 | 3;
   locale: Locale;
   shop: HomeContent['shop'];
 }
 
-const { locale, shop } = Astro.props;
+const { locale, shop, level = 2 } = Astro.props;
+const headingTag = `h${level}` as 'h2' | 'h3';
+const SubHeading = `h${level + 1}` as 'h3' | 'h4';
 ---
 
 <section
   id="tienda"
-  class="bg-stone py-section overflow-hidden"
+  class="bg-stone py-section"
 >
   <div class="container-site">
     <div class="grid gap-10 md:grid-cols-12">
       <div class="md:col-span-7">
-        <SectionLabel text={shop.label} />
         <RevealHeading
+          as={headingTag}
           lines={shop.title}
           emphasis={1}
-          class="display-xl text-navy mt-8"
+          class="display-xl text-navy"
         />
       </div>
       <p
-        class="text-muted self-end md:col-span-4 md:col-start-9"
+        class="text-ink/75 self-end md:col-span-4 md:col-start-9"
         data-reveal
       >
         {shop.text}
       </p>
     </div>
 
-    <!-- En móvil: carrusel horizontal con imán; en escritorio: rejilla de 4 -->
-    <ul class="-mx-gutter px-gutter mt-16 flex snap-x snap-mandatory gap-px overflow-x-auto pb-4 md:mt-20 lg:mx-0 lg:grid lg:grid-cols-4 lg:overflow-visible lg:px-0 lg:pb-0">
-      {shop.categories.map((category, index) => (
-        <li
-          class="w-[78vw] shrink-0 snap-start sm:w-[45vw] lg:w-auto"
-          data-reveal
-          style={`--reveal-index: ${index}`}
-        >
-          <a
-            class="row-wipe group hover:text-paper flex aspect-[4/5] flex-col justify-between bg-white p-7 no-underline transition-colors duration-500 [--row-fill:var(--zm-color-night)] md:p-8"
-            href={shopUrl(locale)}
+    <!--
+      Familias de producto ligadas a las capas del sistema (Z.0x). La primera, el microcemento,
+      va destacada; las demás, en filas. Cada una abre su búsqueda en la tienda.
+    -->
+    <ul class="border-navy mt-16 grid border-t md:mt-20 lg:grid-cols-12">
+      {shop.categories.map((category, index) => {
+        const isFeatured = index === 0;
+        return (
+          <li
+            class:list={[
+              'border-line border-b',
+              isFeatured
+                ? 'lg:col-span-6 lg:row-span-3 lg:border-r lg:border-b-0'
+                : 'lg:col-span-6',
+            ]}
+            data-reveal
+            style={`--reveal-index: ${index}`}
           >
-            <span class="display text-line group-hover:text-gold text-6xl transition-colors duration-500 md:text-7xl">
-              {String(index + 1).padStart(2, '0')}
-            </span>
-            <span>
-              <span class="display-md text-navy group-hover:text-paper block transition-colors duration-500">
-                {category}
-              </span>
-              <span class="label border-line text-navy group-hover:border-line-dark group-hover:text-paper mt-6 flex items-center justify-between border-t pt-4 transition-colors duration-500">
-                {shop.cta}
+            <a
+              class:list={[
+                'row-wipe group hover:text-paper flex h-full no-underline transition-colors duration-500 [--row-fill:var(--zm-color-night)]',
+                isFeatured
+                  ? 'min-h-72 flex-col justify-between gap-10 py-8 lg:min-h-[30rem] lg:p-10'
+                  : 'items-center justify-between gap-6 py-6 lg:px-10 lg:py-8',
+              ]}
+              href={shopUrl(locale, 'search', category.query)}
+            >
+              <span class="grid gap-3">
+                {category.codes.length > 0 && (
+                  <span class="label text-ink/75 group-hover:text-sand transition-colors duration-500">
+                    {category.codes.join(' · ')}
+                  </span>
+                )}
                 <span
-                  class="transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1"
-                  aria-hidden="true"
+                  class:list={[
+                    'display text-navy group-hover:text-paper block transition-colors duration-500',
+                    isFeatured ? 'text-4xl md:text-6xl' : 'text-2xl md:text-3xl',
+                  ]}
                 >
-                  ↗
+                  {category.name}
+                </span>
+                <span
+                  class:list={[
+                    'text-ink/75 group-hover:text-paper/70 max-w-sm transition-colors duration-500',
+                    !isFeatured && 'hidden sm:block',
+                  ]}
+                >
+                  {category.text}
                 </span>
               </span>
-            </span>
-          </a>
-        </li>
-      ))}
+              <span class="label text-navy group-hover:text-paper flex shrink-0 items-center gap-3 transition-colors duration-500">
+                <span class:list={[!isFeatured && 'sr-only']}>{shop.cta}</span>
+                <span class="sr-only"> {t(locale, 'nav.external')}</span>
+                <Arrow
+                  direction="out"
+                  class="btn-arrow size-5 transition-transform duration-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </span>
+            </a>
+          </li>
+        );
+      })}
     </ul>
 
     <div
-      class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12 md:items-center"
+      id="acceso-profesional"
+      class="mt-16 grid gap-8 md:grid-cols-12 md:items-center"
       data-reveal
     >
-      <h3 class="display-md text-navy md:col-span-5">{shop.proTitle}</h3>
-      <p class="text-muted md:col-span-4">{shop.proText}</p>
+      <SubHeading class="display-md text-navy md:col-span-5">{shop.proTitle}</SubHeading>
+      <p class="text-ink/75 md:col-span-4">{shop.proText}</p>
       <div class="md:col-span-3 md:text-right">
         <Button
           href={shopUrl(locale, 'login')}
           variant="solid-dark"
+          arrow="out"
         >
           {shop.proCta}
+          <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </Button>
       </div>
     </div>
