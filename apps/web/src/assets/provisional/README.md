@@ -10,3 +10,5 @@ de Zement antes de publicar.**
 | `nave-suelo-continuo.jpg` | https://unsplash.com/photos/F985EJTGrxA |
 | `textura-llana.jpg`       | https://unsplash.com/photos/OL2tYVcApI4 |
 | `aplicacion-llana.jpg`    | https://unsplash.com/photos/Re1O5byZ8bY |
+| `fase-soporte.jpg`        | https://unsplash.com/photos/v01rpdnjTg0 |
+| `fase-preparacion.jpg`    | https://unsplash.com/photos/rMVjOX8nm2U |

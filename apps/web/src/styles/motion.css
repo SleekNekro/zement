@@ -212,38 +212,292 @@
 
 /* ---------- Sistema por capas ---------- */
 
-/*
- * Cada capa existe desde el principio como contorno con su nombre (estado fantasma);
- * su relleno se extiende de abajo arriba, como aplicado con llana, al llegar a su paso.
- */
-.layer-fill {
-  transition: clip-path var(--zm-duration-slow) var(--zm-ease-inout);
-}
-
-.layer-label {
-  transition: opacity var(--zm-duration) var(--zm-ease);
-}
-
-.motion .layers .layer:not(.is-built) .layer-fill {
-  clip-path: inset(100% 0 0 0);
-}
-
-.motion .layers .layer:not(.is-built) .layer-label {
-  opacity: 0.7;
-}
-
-.layer {
-  transition: filter var(--zm-duration) var(--zm-ease);
-}
-
-/* Las capas ya construidas se atenúan; la activa queda nítida y marcada en oro. */
-.layers .layer.is-built:not(.is-active) {
+/* Corte de capas de la página del sistema: texturas algo atenuadas para no competir con el texto. */
+.layers .layer {
   filter: saturate(0.6) brightness(0.97);
 }
 
-.layers .layer.is-active {
-  outline: 1px solid var(--zm-color-gold);
-  outline-offset: -1px;
+/*
+ * Cubo del sistema (portada), en CSS 3D sin librerías. Cada losa es una caja de 5 caras centrada en
+ * su eje: `--y` es la altura de su base y `--h` su grosor, en unidades `--u` (1/16 del ancho).
+ * Las losas sin montar esperan arriba, invisibles; al montarse caen y se asientan. La fase en curso
+ * queda algo levantada y marcada en oro, como recién aplicada.
+ */
+.cube-scene {
+  --w: clamp(11rem, 36vw, 22rem);
+  --u: calc(var(--w) / 16);
+
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: calc(var(--w) * 1.75);
+  overflow: hidden;
+  perspective: calc(var(--w) * 7);
+}
+
+.cube {
+  position: relative;
+  width: 0;
+  height: 0;
+  transform: translateY(calc(var(--u) * 7)) rotateX(-26deg) rotateY(-36deg);
+  transform-style: preserve-3d;
+}
+
+.slab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(calc((var(--y) + var(--h) / 2) * -1));
+  transform-style: preserve-3d;
+  transition: transform var(--zm-duration-slow) var(--zm-ease);
+}
+
+.slab:not(.is-built) {
+  transform: translateY(calc((var(--y) + var(--h) / 2 + var(--u) * 10) * -1));
+}
+
+.slab.is-active {
+  transform: translateY(calc((var(--y) + var(--h) / 2 + var(--u) * 1.4) * -1));
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--zm-color-navy) 35%, transparent);
+  transition: opacity var(--zm-duration) var(--zm-ease);
+}
+
+.slab:not(.is-built) .face {
+  opacity: 0;
+}
+
+.slab.is-active .face {
+  border-color: var(--zm-color-gold);
+}
+
+.face-top {
+  width: var(--w);
+  height: var(--w);
+  transform: translate(-50%, -50%) rotateX(90deg) translateZ(calc(var(--h) / 2));
+}
+
+.face-side {
+  width: var(--w);
+  height: var(--h);
+}
+
+.face-front {
+  transform: translate(-50%, -50%) translateZ(calc(var(--w) / 2));
+}
+
+.face-right {
+  transform: translate(-50%, -50%) rotateY(90deg) translateZ(calc(var(--w) / 2));
+}
+
+.face-back {
+  transform: translate(-50%, -50%) rotateY(180deg) translateZ(calc(var(--w) / 2));
+}
+
+.face-left {
+  transform: translate(-50%, -50%) rotateY(-90deg) translateZ(calc(var(--w) / 2));
+}
+
+/* Luz fija desde arriba a la izquierda: cada cara lateral, un tono más oscura. */
+.face-side::after {
+  position: absolute;
+  inset: 0;
+  background: var(--zm-color-night);
+  content: '';
+  opacity: 0.08;
+}
+
+.face-right::after {
+  opacity: 0.22;
+}
+
+.face-back::after,
+.face-left::after {
+  opacity: 0.3;
+}
+
+/*
+ * Reparación: el mortero cae sobre el soporte, rellena las grietas (se desvanecen) y se funde con
+ * él: la losa se hunde en el soporte y desaparece, y la siguiente capa apoya en un soporte sano.
+ */
+.cracks {
+  position: absolute;
+  inset: 0;
+  transition: opacity var(--zm-duration-slow) var(--zm-ease) 0.8s;
+}
+
+.slab-support.is-repaired .cracks {
+  opacity: 0;
+}
+
+.slab-repair.is-built:not(.is-active) {
+  transform: translateY(calc((var(--y) - var(--h) / 2) * -1));
+}
+
+.slab-repair.is-built:not(.is-active) .face {
+  opacity: 0;
+}
+
+.slab-repair.is-active {
+  animation: repair-fuse 2s var(--zm-ease-inout) 1.1s both;
+}
+
+.slab-repair.is-active .face {
+  animation: repair-fade 2s var(--zm-ease-inout) 1.1s both;
+}
+
+@keyframes repair-fuse {
+  to {
+    transform: translateY(calc((var(--y) - var(--h) / 2) * -1));
+  }
+}
+
+@keyframes repair-fade {
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.35;
+  }
+}
+
+/* Preparación: la malla de fibra de vidrio sobre la imprimación. */
+.mesh {
+  position: absolute;
+  inset: 0;
+}
+
+/*
+ * Bloque compacto: al terminar, la protección se asienta, desaparecen las juntas entre capas y sus
+ * cantos se cubren con el acabado: el sistema queda como una sola pieza sobre el soporte.
+ */
+.skin {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity var(--zm-duration-slow) var(--zm-ease);
+}
+
+.cube.is-complete .skin {
+  opacity: 1;
+}
+
+.cube.is-complete .slab:not(.slab-support) .face-side {
+  border-color: transparent;
+}
+
+.cube.is-complete .slab.is-active {
+  transform: translateY(calc((var(--y) + var(--h) / 2) * -1));
+}
+
+.cube.is-complete .slab.is-active .face {
+  border-color: color-mix(in srgb, var(--zm-color-white) 80%, transparent);
+}
+
+/* Fondo por fase: la foto de la fase en pantalla se funde sobre la anterior. */
+.cube-backdrop {
+  transition: opacity var(--zm-duration-slow) var(--zm-ease);
+}
+
+.cube-backdrop[data-visible='false'] {
+  opacity: 0;
+}
+
+/*
+ * Protección: capa cristalina (translúcida, deja ver el acabado) que al asentarse reluce: un
+ * destello la recorre y después vuelve a brillar cada pocos segundos.
+ */
+.slab-protection .face {
+  border-color: color-mix(in srgb, var(--zm-color-white) 80%, transparent);
+}
+
+.slab-protection .face-top::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    color-mix(in srgb, var(--zm-color-white) 70%, transparent) 50%,
+    transparent 70%
+  );
+  content: '';
+  transform: translateX(-110%);
+}
+
+.slab-protection.is-built .face-top::after {
+  animation: cube-shine 5s var(--zm-ease-inout) 0.6s infinite;
+}
+
+@keyframes cube-shine {
+  0% {
+    transform: translateX(-110%);
+  }
+
+  30%,
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+/* Pistas de los controles: hechas, en curso (se llena mientras se reproduce) o pendientes. */
+.cube-progress {
+  transform: scaleX(0);
+}
+
+.cube-step[data-state='done'] .cube-progress,
+[data-playing='false'] .cube-step[data-state='current'] .cube-progress {
+  transform: scaleX(1);
+}
+
+[data-playing='true'] .cube-step[data-state='current'] .cube-progress {
+  animation: cube-progress var(--phase-ms) linear both;
+}
+
+.cube-step[data-state='current'] {
+  background: var(--zm-color-white);
+}
+
+@keyframes cube-progress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+[data-playing='true'] .cube-icon-play,
+[data-playing='false'] .cube-icon-pause,
+[data-cube]:not([data-playing]) .cube-icon-pause {
+  display: none;
+}
+
+/* Fichas bajo el cubo: todas en la misma celda, solo se ve la fase en pantalla (sin saltos). */
+[data-cube][data-ready] .info-stack {
+  display: grid;
+}
+
+[data-cube][data-ready] .info-stack > * {
+  grid-area: 1 / 1;
+  transition: opacity var(--zm-duration) var(--zm-ease);
+}
+
+[data-cube][data-ready] .info-stack > [data-visible='false'] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+[data-cube]:not([data-ready]) .info-stack > [data-cube-panel] {
+  margin-top: 2rem;
 }
 
 /* ---------- Filas con barrido al pasar el ratón ---------- */
@@ -311,8 +565,19 @@
 
   .btn::before,
   .row-wipe::before,
-  .layer-fill {
+  .slab,
+  .face,
+  .cracks,
+  .skin,
+  .cube-backdrop,
+  [data-cube] .info-stack > * {
     transition: none;
+  }
+
+  .slab-protection.is-built .face-top::after,
+  .slab-repair.is-active,
+  .slab-repair.is-active .face {
+    animation: none;
   }
 
   :is(.btn, .link-arrow):hover .btn-arrow {

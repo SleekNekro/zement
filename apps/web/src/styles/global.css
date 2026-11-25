@@ -271,6 +271,131 @@
     background-size: cover, cover;
   }
 
+  /*
+   * Materiales simulados del cubo del sistema (portada): cómo se ve cada capa, sin fotos.
+   * Soporte con grieta → reparación con parches → imprimación satinada → base con grano →
+   * acabado liso con nubes de color → protección con brillo.
+   */
+  .mat-support {
+    background-color: color-mix(in srgb, var(--zm-color-stone), var(--zm-color-navy) 26%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.17 0 0 0 0 0.23 0 0 0 .35 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+  }
+
+  /* Grietas del soporte: capa aparte para que desaparezcan al aplicar la reparación. */
+  .mat-cracks {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M8 30 L22 34 L30 44 L41 46 L50 58 L62 61 L70 72 L84 76 L95 88' fill='none' stroke='%230f1c26' stroke-opacity='.55' stroke-width='.7'/%3E%3Cpath d='M50 58 L47 70 L52 82' fill='none' stroke='%230f1c26' stroke-opacity='.4' stroke-width='.5'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+  }
+
+  /* Reparación: mortero en pasta, denso y con relieve de llana (luz rasante sobre la masa). */
+  .mat-repair {
+    background-color: color-mix(in srgb, var(--zm-color-stone), var(--zm-color-navy) 12%);
+    background-image:
+      repeating-radial-gradient(
+        circle at 120% 140%,
+        transparent 0 22px,
+        color-mix(in srgb, var(--zm-color-white) 22%, transparent) 22px 24px,
+        transparent 24px 46px
+      ),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.035' numOctaves='4' seed='9'/%3E%3CfeDiffuseLighting lighting-color='%23ebe7df' surfaceScale='3.2'%3E%3CfeDistantLight azimuth='225' elevation='38'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.17 0 0 0 0 0.23 0 0 0 .28 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size:
+      100% 100%,
+      300px 300px,
+      200px 200px;
+    background-blend-mode: normal, soft-light, normal;
+  }
+
+  /* Preparación: imprimación grisácea, mate y uniforme (la malla va por encima, `mat-mesh`). */
+  .mat-preparation {
+    background-color: color-mix(in srgb, var(--zm-color-stone), var(--zm-color-navy) 18%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='1' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.17 0 0 0 0 0.23 0 0 0 .1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+  }
+
+  /* Malla de fibra de vidrio sobre la imprimación: hilos claros, finos y ligeramente irregulares. */
+  .mat-mesh {
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent 0 9px,
+        color-mix(in srgb, var(--zm-color-white) 75%, transparent) 9px 10.5px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 9px,
+        color-mix(in srgb, var(--zm-color-white) 75%, transparent) 9px 10.5px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0 46px,
+        color-mix(in srgb, var(--zm-color-gold) 35%, transparent) 46px 47px
+      );
+  }
+
+  /* Base: pasta de microcemento gris, con cuerpo y marcas suaves de llana. */
+  .mat-base {
+    background-color: color-mix(in srgb, var(--zm-color-stone), var(--zm-color-navy) 30%);
+    background-image:
+      repeating-radial-gradient(
+        circle at -20% 130%,
+        transparent 0 30px,
+        color-mix(in srgb, var(--zm-color-white) 12%, transparent) 30px 32px,
+        transparent 32px 60px
+      ),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.035' numOctaves='4' seed='21'/%3E%3CfeDiffuseLighting lighting-color='%23b9bcbd' surfaceScale='2.2'%3E%3CfeDistantLight azimuth='225' elevation='38'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E");
+    background-size:
+      100% 100%,
+      300px 300px;
+    background-blend-mode: normal, soft-light;
+  }
+
+  /* Acabado: microcemento decorativo, cálido, con nubes de color, aguas de llana y un satinado suave. */
+  .mat-finish {
+    background-color: color-mix(in srgb, var(--zm-color-stone), var(--zm-color-sand) 30%);
+    background-image:
+      linear-gradient(
+        115deg,
+        transparent 20%,
+        color-mix(in srgb, var(--zm-color-white) 35%, transparent) 45%,
+        transparent 65%
+      ),
+      repeating-radial-gradient(
+        ellipse at 110% -10%,
+        transparent 0 40px,
+        color-mix(in srgb, var(--zm-color-navy) 7%, transparent) 40px 43px,
+        transparent 43px 85px
+      ),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.012' numOctaves='5' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.17 0 0 0 0 0.23 1.6 0 0 0 -.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)' opacity='.35'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='1' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.09 0 0 0 0 0.17 0 0 0 0 0.23 0 0 0 .1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size:
+      100% 100%,
+      100% 100%,
+      cover,
+      200px 200px;
+  }
+
+  /* Protección: capa cristalina, translúcida, que deja ver el acabado y refleja la luz. */
+  .mat-protection {
+    background-color: color-mix(in srgb, var(--zm-color-white) 22%, transparent);
+    background-image:
+      linear-gradient(
+        125deg,
+        color-mix(in srgb, var(--zm-color-white) 70%, transparent) 0%,
+        transparent 30%,
+        transparent 55%,
+        color-mix(in srgb, var(--zm-color-white) 45%, transparent) 70%,
+        transparent 85%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--zm-color-navy-soft) 10%, transparent),
+        transparent
+      );
+    backdrop-filter: blur(1px) saturate(1.2);
+  }
+
   /* Superficie oscura con grano muy fino: la «materia» del microcemento. */
   .surface-material {
     background-color: var(--zm-color-night);

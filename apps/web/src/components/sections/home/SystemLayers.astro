@@ -1,9 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import RevealHeading from '../../ui/RevealHeading.astro';
-import Arrow from '../../ui/Arrow.astro';
-import LayerStack from '../../ui/LayerStack.astro';
 import Button from '../../ui/Button.astro';
+import Todo from '../../ui/Todo.astro';
 import Value from '../../ui/Value.astro';
+import { cubeBackdrops } from '../../../data/systemCube';
 import type { LocalizedSystem } from '../../../lib/systems';
 import type { HomeContent } from '../../../data/home';
 
@@ -19,7 +20,45 @@ interface Props {
 
 const { system, systemHref, specs, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
-const SubHeading = `h${level + 1}` as 'h3' | 'h4';
+
+/*
+ * Fases del montaje: el soporte existente (siempre presente) y una losa por capa. Grosores en
+ * unidades `--u` (1/16 del ancho del cubo), exagerados para que cada capa se vea; los reales están
+ * pendientes (thicknessTodo). Cada fase lleva su material simulado (`mat-*`, en global.css).
+ */
+const support = {
+  code: '',
+  name: system.supportLabel,
+  text: system.supportText,
+  material: 'mat-support',
+  height: 7,
+  values: [] as string[],
+  todo: system.supportTodo,
+};
+const layerMaterials = [
+  'mat-repair',
+  'mat-preparation',
+  'mat-base',
+  'mat-finish',
+  'mat-protection',
+];
+const thickness = [0.7, 0.6, 1.7, 1.1, 0.5];
+const layers = [system.repair, ...system.steps].map((layer, index) => ({
+  ...layer,
+  material: layerMaterials[index] ?? 'mat-finish',
+  height: thickness[index] ?? 1,
+  // Los datos técnicos son por producto: la reparación aún no tiene.
+  values: specs.map((row) => (index === 0 ? 'TODO' : (row.values[index - 1] ?? 'TODO'))),
+  todo: '',
+}));
+let bottom = 0;
+// La reparación se funde con el soporte (rellena sus grietas): no suma altura a la pila.
+const phases = [support, ...layers].map((phase, index) => {
+  const slab = { ...phase, index, bottom };
+  if (index !== 1) bottom += phase.height;
+  return slab;
+});
+const sides = ['front', 'right', 'back', 'left'] as const;
 ---
 
 <section
@@ -45,69 +84,194 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
     </div>
 
     <!--
-      Corte transversal fijo (en escritorio a la izquierda, en móvil arriba) mientras pasan los pasos:
-      cada capa se extiende de abajo arriba al llegar a su paso. En móvil se usa bloque (no grid)
-      para que `sticky` funcione respecto a toda la sección.
+      Cubo del sistema: un bloque de soporte y una losa por fase que cae y se asienta en su orden,
+      como un vídeo que se puede pausar o recorrer por fases (layerCube.ts). Cada losa lleva en su
+      cara superior la foto de esa fase (o su textura). Sin JavaScript: cubo montado y todas las
+      fichas seguidas; con «reducir movimiento», cubo montado y sin reproducción automática.
     -->
-    <div class="mt-16 md:mt-24 lg:grid lg:grid-cols-12 lg:gap-12">
-      <figure class="bg-paper sticky top-[var(--header-offset)] z-(--zm-z-raised) -mx-[var(--zm-gutter)] px-[var(--zm-gutter)] pt-4 pb-5 lg:top-[calc(var(--header-offset)+1.5rem)] lg:col-span-6 lg:mx-0 lg:self-start lg:px-0 lg:pt-0 lg:pb-0">
-        <figcaption class="label text-muted mb-3 flex items-center justify-between gap-4 lg:mb-5">
-          <span>{system.layersLabel}</span>
-          <span class="hidden items-center gap-2 sm:flex">
-            <Arrow
-              direction="next"
-              class="-rotate-90"
+    <figure
+      class="mt-14 md:mt-20"
+      data-cube
+    >
+      <figcaption class="label text-muted mb-4 flex flex-wrap justify-between gap-x-6 gap-y-1">
+        <span>{system.layersLabel}</span>
+        <span class="text-navy hidden [[data-cube][data-ready]_&]:inline">{system.layersHint}</span>
+      </figcaption>
+
+      <div
+        class="cube-scene border-navy/30 bg-stone relative isolate border"
+        role="img"
+        aria-label={`${system.layersLabel}: ${phases.map((phase) => phase.name).join(', ')}`}
+      >
+        <!-- Fondo: foto real de la fase en pantalla; se funden al cambiar de fase -->
+        {cubeBackdrops.map((photo, index) =>
+          photo ? (
+            <Image
+              src={photo}
+              alt=""
+              widths={[640, 1024, 1600]}
+              sizes="(min-width: 1280px) 80rem, 100vw"
+              class="cube-backdrop absolute inset-0 -z-10 size-full object-cover"
+              data-cube-backdrop={index}
+              data-visible={String(index === cubeBackdrops.length - 1)}
             />
-            {system.layersDirection}
-          </span>
-        </figcaption>
-
-        <LayerStack
-          layers={system.steps}
-          label={system.layersLabel}
-          supportLabel={system.supportLabel}
-          thicknessLabel={system.thicknessTodo}
-          class="h-[26svh] min-h-44 lg:h-[min(68svh,40rem)]"
+          ) : null,
+        )}
+        <div
+          class="bg-paper/55 absolute inset-0 -z-10"
+          aria-hidden="true"
         />
-      </figure>
-
-      <ol class="mt-6 lg:col-span-5 lg:col-start-8 lg:mt-0">
-        {system.steps.map((step, index) => (
-          <li
-            class="group border-line flex gap-6 border-t py-10 md:gap-10 lg:min-h-[44svh] lg:py-14"
-            data-layer-step={index}
-            data-active="false"
-          >
-            <span
-              aria-hidden="true"
-              class="display text-line group-data-[active=true]:text-navy text-5xl transition-colors duration-(--zm-duration) md:text-7xl"
+        <div class="cube is-complete">
+          {phases.map((phase) => (
+            <div
+              class:list={[
+                'slab is-built',
+                phase.index === 0 && 'slab-support is-repaired',
+                phase.index === 1 && 'slab-repair',
+                phase.index === phases.length - 1 && 'slab-protection',
+              ]}
+              style={`--h: calc(var(--u) * ${phase.height}); --y: calc(var(--u) * ${phase.bottom})`}
+              data-slab={phase.index}
             >
-              {String(index + 1).padStart(2, '0')}
-            </span>
-            <div class="pt-2">
-              <p class="label text-muted">
-                {system.stepLabel} {index + 1} · {step.code}
-              </p>
-              <SubHeading class="display-lg text-navy mt-3">{step.name}</SubHeading>
-              <p class="text-muted mt-4 max-w-sm">{step.text}</p>
-              <dl class="border-line mt-6 grid max-w-sm grid-cols-2 gap-x-6 border-t pt-4">
-                {specs.map((row) => (
-                  <div>
-                    <dt class="label text-muted">{row.label}</dt>
-                    <dd class="text-navy mt-1 tabular-nums">
-                      <Value text={row.values[index] ?? 'TODO'} />
-                    </dd>
-                  </div>
-                ))}
-              </dl>
+              <div class:list={['face face-top', phase.material]}>
+                {phase.index === 0 && <span class="cracks mat-cracks" />}
+                {phase.index === 2 && <span class="mesh mat-mesh" />}
+              </div>
+              {sides.map((side) => (
+                <div class:list={['face face-side', `face-${side}`, phase.material]}>
+                  {phase.index === 0 && <span class="cracks mat-cracks" />}
+                  {/* Al terminar, los cantos de las capas se unen en un solo bloque acabado */}
+                  {phase.index > 1 && <span class="skin mat-finish" />}
+                </div>
+              ))}
             </div>
-          </li>
+          ))}
+        </div>
+      </div>
+
+      <!-- Controles tipo vídeo: reproducir/pausar y una pista por fase con su progreso -->
+      <div
+        class="border-navy mt-4 hidden border [[data-cube][data-ready]_&]:flex"
+        data-cube-controls
+      >
+        <button
+          type="button"
+          class="border-navy text-navy hover:bg-navy hover:text-paper grid w-14 shrink-0 place-items-center border-r transition-colors duration-(--zm-duration)"
+          aria-label={system.player.play}
+          data-cube-play
+          data-label-play={system.player.play}
+          data-label-pause={system.player.pause}
+          data-label-replay={system.player.replay}
+        >
+          <svg
+            class="cube-icon-play size-4"
+            viewBox="0 0 16 16"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 2.5v11l9-5.5z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            class="cube-icon-pause size-4"
+            viewBox="0 0 16 16"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 2.5h3v11H4zM9 2.5h3v11H9z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <ol
+          class="grid flex-1 grid-cols-6"
+          aria-label={system.player.phases}
+        >
+          {phases.map((phase) => (
+            <li class="border-navy/30 border-l first:border-l-0">
+              <button
+                type="button"
+                class="cube-step text-navy hover:bg-white relative flex h-full min-h-14 w-full flex-col justify-center px-2 text-left transition-colors duration-(--zm-duration) sm:px-4"
+                aria-controls={`cube-info-${phase.index}`}
+                aria-pressed="false"
+                data-cube-step={phase.index}
+                data-state="todo"
+              >
+                <span class="label text-muted">{phase.index + 1}</span>
+                <span class="hidden text-sm sm:block">{phase.name}</span>
+                <span
+                  class="cube-progress bg-gold absolute inset-x-0 bottom-0 h-0.5 origin-left"
+                  aria-hidden="true"
+                />
+              </button>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <!-- Ficha de la fase en pantalla, debajo del cubo. Todas en la misma celda: sin saltos. -->
+      <div
+        class="info-stack mt-6"
+        aria-live="polite"
+      >
+        <p
+          class="display-md text-navy/40 self-center"
+          data-cube-intro
+        >
+          {phases.map((phase) => phase.name).join(' · ')}
+        </p>
+        {phases.map((phase) => (
+          <div
+            class="grid gap-3 md:grid-cols-12 md:gap-8"
+            id={`cube-info-${phase.index}`}
+            data-cube-panel={phase.index}
+          >
+            <div class="md:col-span-4">
+              <p class="label text-muted">
+                {phase.index === 0 ? (
+                  phase.name
+                ) : (
+                  <>
+                    {system.stepLabel} {phase.index} · <Value text={phase.code} />
+                  </>
+                )}
+              </p>
+              <p class="display-md text-navy mt-2">{phase.name}</p>
+            </div>
+            <p class="text-muted md:col-span-4 md:self-end">{phase.text}</p>
+            {phase.todo && (
+              <p class="md:col-span-4 md:self-end">
+                <Todo text={phase.todo} />
+              </p>
+            )}
+            <dl
+              class:list={[
+                'grid grid-cols-2 gap-x-6 gap-y-2 md:col-span-4 md:self-end',
+                phase.values.length === 0 && 'hidden',
+              ]}
+            >
+              {specs.map((row, rowIndex) => (
+                <div>
+                  <dt class="label text-muted">{row.label}</dt>
+                  <dd class="text-navy mt-1 text-sm tabular-nums">
+                    <Value text={phase.values[rowIndex] ?? 'TODO'} />
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         ))}
-      </ol>
-    </div>
+      </div>
+
+      <p class="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+        <Todo text={system.photoTodo} />
+        <Todo text={system.thicknessTodo} />
+      </p>
+    </figure>
 
     <div
-      class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12 md:items-center"
+      class="border-navy mt-14 grid gap-8 border-t pt-10 md:grid-cols-12 md:items-center"
       data-reveal
     >
       <p class="text-muted md:col-span-6">{system.fullSystemText}</p>
@@ -123,3 +287,5 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
     </div>
   </div>
 </section>
+
+<script src="../../../scripts/layerCube.ts"></script>

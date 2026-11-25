@@ -62,13 +62,25 @@ export interface HomeContent {
   system: {
     title: string[];
     text: string;
+    /**
+     * Fase previa sobre el soporte (grietas, fisuras, desniveles). Su producto y código están por
+     * definir: se muestran como TODO en el corte.
+     */
+    repair: { code: string; name: string; text: string };
     steps: { code: string; name: string; text: string }[];
     layersLabel: string;
-    /** Cómo leer el corte de capas. */
-    layersDirection: string;
+    /** Indicación de uso del cubo y textos de sus controles (reproducir, pausar, volver a ver). */
+    layersHint: string;
+    player: { play: string; pause: string; replay: string; phases: string };
     stepLabel: string;
+    /** Foto real del producto aplicado para el fondo del cubo, hasta tenerla. */
+    photoTodo: string;
     /** Capa base del corte (la superficie existente). */
     supportLabel: string;
+    /** Explicación del soporte: el sistema se aplica sobre la superficie existente. */
+    supportText: string;
+    /** Soportes compatibles concretos: pendiente de ficha técnica, no inventar. */
+    supportTodo: string;
     /** Espesor de cada capa: pendiente de ficha técnica, no inventar. */
     thicknessTodo: string;
     /** Enlace a la página completa del sistema (datos técnicos, aplicación, documentación). */
@@ -166,6 +178,11 @@ export const home: Record<Locale, HomeContent> = {
     system: {
       title: ['Calidad que', 'se puede comprobar.'],
       text: 'Cada superficie es un sistema de capas. Cada producto tiene una función precisa y una documentación técnica que la respalda.',
+      repair: {
+        code: 'TODO: código',
+        name: 'Reparación',
+        text: 'Se tratan grietas, fisuras y desniveles del soporte antes de empezar.',
+      },
       steps: [
         { code: 'Z.01', name: 'Preparación', text: 'Producto de preparación para el soporte.' },
         { code: 'Z.02', name: 'Base', text: 'Revestimiento base para sistemas de microcemento.' },
@@ -173,10 +190,20 @@ export const home: Record<Locale, HomeContent> = {
         { code: 'Z.04', name: 'Protección', text: 'Protección final para el sistema aplicado.' },
       ],
       layersLabel: 'Cómo se construye una superficie Zement',
-      layersDirection: 'Se lee de abajo arriba: del soporte a la protección',
+      layersHint: 'Reproduce el montaje o elige una fase',
+      player: {
+        play: 'Reproducir el montaje',
+        pause: 'Pausar el montaje',
+        replay: 'Volver a ver el montaje',
+        phases: 'Fases del montaje',
+      },
       stepLabel: 'Capa',
+      photoTodo: 'TODO: foto real del producto aplicado (fondo)',
       supportLabel: 'Soporte existente',
-      thicknessTodo: 'TODO: mm',
+      supportText:
+        'Se aplica sobre la superficie que ya tienes, sea cual sea: sin levantar suelos ni paredes y sin obra de derribo.',
+      supportTodo: 'TODO: soportes compatibles según la ficha técnica',
+      thicknessTodo: 'TODO: espesor de cada capa (mm)',
       fullSystemText:
         'Datos técnicos, aplicación paso a paso, colores y fichas para descargar: todo en la página del sistema.',
       fullSystemCta: 'Ver el sistema completo',
@@ -316,6 +343,11 @@ export const home: Record<Locale, HomeContent> = {
     system: {
       title: ['Quality you', 'can verify.'],
       text: 'Every surface is a system of layers. Every product has a precise role and technical documentation to support it.',
+      repair: {
+        code: 'TODO: code',
+        name: 'Repair',
+        text: 'Cracks, fissures and uneven areas in the substrate are dealt with before starting.',
+      },
       steps: [
         { code: 'Z.01', name: 'Preparation', text: 'Substrate preparation product.' },
         { code: 'Z.02', name: 'Base', text: 'Base coat for microcement systems.' },
@@ -323,10 +355,20 @@ export const home: Record<Locale, HomeContent> = {
         { code: 'Z.04', name: 'Protection', text: 'Final protection for the applied system.' },
       ],
       layersLabel: 'How a Zement surface is built',
-      layersDirection: 'Read from bottom to top: from substrate to protection',
+      layersHint: 'Play the build-up or choose a phase',
+      player: {
+        play: 'Play the build-up',
+        pause: 'Pause the build-up',
+        replay: 'Watch the build-up again',
+        phases: 'Build-up phases',
+      },
       stepLabel: 'Layer',
+      photoTodo: 'TODO: real photograph of the applied product (background)',
       supportLabel: 'Existing substrate',
-      thicknessTodo: 'TODO: mm',
+      supportText:
+        'It goes on the surface you already have, whatever it is: no lifting floors or walls, no demolition.',
+      supportTodo: 'TODO: compatible substrates according to the data sheet',
+      thicknessTodo: 'TODO: thickness of each layer (mm)',
       fullSystemText:
         'Technical data, step-by-step application, colours and downloadable sheets: all on the system page.',
       fullSystemCta: 'See the full system',

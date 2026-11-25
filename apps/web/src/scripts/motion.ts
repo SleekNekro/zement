@@ -21,7 +21,6 @@ if (!reducedMotion) {
   setupReveals();
   setupScrubWords();
 }
-setupLayers();
 
 /** Apariciones al entrar en pantalla (`data-reveal`, `data-reveal-lines`, `data-reveal-rule`). */
 function setupReveals(): void {
@@ -187,37 +186,6 @@ function setupMobileMenu(): void {
     document.body.style.overflow = menu.open ? 'hidden' : '';
     for (const element of behind) element.inert = menu.open;
   });
-}
-
-/**
- * Sistema por capas: al llegar cada paso, se «construye» su capa en la sección del sistema
- * y queda resaltada la activa.
- */
-function setupLayers(): void {
-  const steps = [...document.querySelectorAll<HTMLElement>('[data-layer-step]')];
-  const layers = [...document.querySelectorAll<HTMLElement>('[data-layer]')];
-  if (steps.length === 0 || layers.length === 0) return;
-
-  const activate = (index: number): void => {
-    layers.forEach((layer) => {
-      const layerIndex = Number(layer.dataset.layer);
-      layer.classList.toggle('is-built', layerIndex <= index);
-      layer.classList.toggle('is-active', layerIndex === index);
-    });
-    steps.forEach((step) => {
-      step.dataset.active = String(Number(step.dataset.layerStep) === index);
-    });
-  };
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) {
-        if (entry.isIntersecting) activate(Number((entry.target as HTMLElement).dataset.layerStep));
-      }
-    },
-    { rootMargin: '-45% 0px -45% 0px' },
-  );
-  for (const step of steps) observer.observe(step);
 }
 
 /** Ejecuta `callback` como mucho una vez por fotograma mientras haya scroll o cambio de tamaño. */
