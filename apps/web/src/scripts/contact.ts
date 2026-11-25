@@ -51,6 +51,8 @@ function setupContactForm(contactForm: HTMLFormElement): void {
     const originalLabel = submitLabel?.textContent ?? '';
     setBusy(true);
     try {
+      // Turnstile oculto: si se envía muy rápido, se espera a que genere su comprobación.
+      await waitForTurnstile(contactForm);
       const response = await fetch(contactForm.action, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -93,6 +95,16 @@ function setupContactForm(contactForm: HTMLFormElement): void {
     status.classList.toggle('border-gold', !isSuccess);
     status.classList.toggle('border-sand', isSuccess);
     status.focus();
+  }
+}
+
+/** Espera (máx. 5 s) a que Turnstile rellene su campo; el servidor rechaza el envío si sigue vacío. */
+async function waitForTurnstile(contactForm: HTMLFormElement): Promise<void> {
+  const field = (): HTMLInputElement | null =>
+    contactForm.querySelector<HTMLInputElement>('input[name="cf-turnstile-response"]');
+  if (!contactForm.querySelector('.cf-turnstile')) return;
+  for (let waited = 0; waited < 5000 && !field()?.value; waited += 200) {
+    await new Promise((resolve) => setTimeout(resolve, 200));
   }
 }
 

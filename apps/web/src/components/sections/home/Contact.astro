@@ -282,17 +282,6 @@ const field = 'field tracking-normal normal-case';
         ></span>
       </div>
 
-      {siteKey ? (
-        <div
-          class="cf-turnstile"
-          data-sitekey={siteKey}
-          data-action="contact"
-          data-theme="dark"
-        />
-      ) : (
-        <Todo text="TODO: clave pública de Turnstile (PUBLIC_TURNSTILE_SITE_KEY)" />
-      )}
-
       <div class="flex flex-wrap items-center gap-6">
         <button
           class="btn btn-solid-light"
@@ -307,6 +296,18 @@ const field = 'field tracking-normal normal-case';
           />
         </button>
         <p class="text-paper/60 text-sm">{text.required}</p>
+        <!-- Turnstile oculto: widget «Invisible» en Cloudflare; con -ml-6 no añade hueco y solo aparecería si pidiera interacción -->
+        {siteKey ? (
+          <div
+            class="cf-turnstile -ml-6"
+            data-sitekey={siteKey}
+            data-action="contact"
+            data-theme="dark"
+            data-appearance="interaction-only"
+          />
+        ) : (
+          <Todo text="TODO: clave pública de Turnstile (PUBLIC_TURNSTILE_SITE_KEY)" />
+        )}
       </div>
     </form>
   </div>

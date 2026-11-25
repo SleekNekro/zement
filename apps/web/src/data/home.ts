@@ -56,7 +56,8 @@ export interface HomeContent {
   };
   /** Franja fija al pie del hero que lleva a la tienda. */
   shopStrip: { label: string; cta: string };
-  chapters: { pro: Chapter; project: Chapter };
+  /** El capítulo «proyecto» no lleva apertura propia: solo el ancla y su nombre accesible. */
+  chapters: { pro: Chapter; project: Pick<Chapter, 'id' | 'title'> };
   intro: { title: string[]; paragraphs: string[]; link: string };
   system: {
     title: string[];
@@ -142,7 +143,6 @@ export const home: Record<Locale, HomeContent> = {
       project: {
         id: 'proyecto',
         title: 'Para tu proyecto',
-        text: 'Aplicamos el sistema en tu espacio o te llevas los materiales para hacerlo tú.',
       },
     },
     intro: {
@@ -290,7 +290,6 @@ export const home: Record<Locale, HomeContent> = {
       project: {
         id: 'proyecto',
         title: 'For your project',
-        text: 'We apply the system in your space, or you take the materials and do it yourself.',
       },
     },
     intro: {

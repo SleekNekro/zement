@@ -50,27 +50,23 @@ if (!system) throw new Error('No hay ningún sistema en src/content/systems.json
   />
 </section>
 
-<!-- Capítulo 2: proyecto (qué aplicamos → cómo trabajamos → pedir presupuesto) -->
+<!-- Capítulo 2: proyecto (qué aplicamos → cómo trabajamos → pedir presupuesto), sin apertura propia -->
 <section
   id={project.id}
   aria-label={project.title}
 >
-  <ChapterBand
-    chapter={project}
-    tone="dark"
-  />
   <Application
     locale={locale}
     application={content.application}
-    level={3}
+    level={2}
   />
   <Method
     method={content.method}
-    level={3}
+    level={2}
   />
   <Contact
     locale={locale}
     contact={content.contact}
-    level={3}
+    level={2}
   />
 </section>
