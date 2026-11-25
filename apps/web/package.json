@@ -11,8 +11,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@zement/design-tokens": "workspace:*",
     "astro": "^7.3.5",
-    "@zement/design-tokens": "workspace:*"
+    "marked": "^18.3.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",

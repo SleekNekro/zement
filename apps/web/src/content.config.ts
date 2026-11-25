@@ -5,7 +5,7 @@
  */
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
-import { file } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 
 const localized = z.object({ es: z.string(), en: z.string() });
 
@@ -68,4 +68,20 @@ const systems = defineCollection({
   }),
 });
 
-export const collections = { systems };
+/**
+ * Textos legales en Markdown, uno por página e idioma (src/content/legal/<idioma>/<página>.md).
+ * Los datos de la empresa se escriben como marcadores {{clave}} y salen de data/company.ts.
+ */
+const legal = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/legal' }),
+  schema: z.object({
+    page: z.enum(['notice', 'privacy', 'cookies', 'terms']),
+    lang: z.enum(['es', 'en']),
+    title: z.string(),
+    description: z.string(),
+    /** true mientras el texto no haya sido revisado por la asesoría legal. */
+    draft: z.boolean().default(true),
+  }),
+});
+
+export const collections = { systems, legal };

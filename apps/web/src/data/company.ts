@@ -25,6 +25,22 @@ export const company = {
     payment: { es: 'TODO: formas de pago reales', en: 'TODO: real payment methods' },
     returns: { es: 'TODO: condiciones de devolución', en: 'TODO: return conditions' },
   },
+  /**
+   * Datos legales del titular de la web y la tienda (LSSI art. 10, RGPD art. 13).
+   * Se insertan en los textos legales mediante marcadores {{clave}} (ver lib/legal.ts).
+   */
+  legal: {
+    name: 'TODO: razón social',
+    taxId: 'TODO: CIF',
+    address: 'TODO: domicilio social completo',
+    registry: 'TODO: datos de inscripción en el Registro Mercantil',
+    email: 'TODO: correo para privacidad y consultas legales',
+    website: 'TODO: dominio de la web',
+    shopWebsite: 'TODO: dominio de la tienda',
+    paymentProvider: 'TODO: pasarela de pago (Redsys o Stripe)',
+    carrier: 'TODO: empresa de transporte',
+    updated: '25/11/2026',
+  },
   /** Plazo de revisión de las altas profesionales. */
   proApprovalTime: { es: 'TODO: plazo real de alta', en: 'TODO: real approval time' },
 } as const;

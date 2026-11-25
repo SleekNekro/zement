@@ -25,6 +25,7 @@ export const ui = {
     'footer.legal': 'Aviso legal',
     'footer.privacy': 'Privacidad',
     'footer.cookies': 'Cookies',
+    'footer.terms': 'Condiciones de venta',
   },
   en: {
     'nav.home': 'Home',
@@ -49,6 +50,7 @@ export const ui = {
     'footer.legal': 'Legal notice',
     'footer.privacy': 'Privacy',
     'footer.cookies': 'Cookies',
+    'footer.terms': 'Terms of sale',
   },
 } as const;
 

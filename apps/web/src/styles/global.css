@@ -194,6 +194,59 @@
     border-bottom-color: var(--zm-color-sand);
   }
 
+  /* Textos largos (páginas legales): medida, ritmo y jerarquía legibles. */
+  .prose-legal {
+    line-height: 1.75;
+  }
+
+  .prose-legal :where(h2) {
+    @apply mt-14 mb-4 display-md text-navy;
+  }
+
+  .prose-legal :where(h3) {
+    @apply mt-8 mb-2 label text-navy;
+  }
+
+  .prose-legal :where(p, ul, ol, table) {
+    @apply mb-4;
+  }
+
+  .prose-legal :where(ul) {
+    @apply list-disc pl-6;
+  }
+
+  .prose-legal :where(ol) {
+    @apply list-decimal pl-6;
+  }
+
+  .prose-legal :where(li) {
+    @apply mb-1;
+  }
+
+  .prose-legal :where(a) {
+    @apply text-navy underline;
+  }
+
+  .prose-legal :where(strong) {
+    @apply text-navy;
+  }
+
+  .prose-legal :where(table) {
+    @apply w-full border-collapse text-left text-sm;
+  }
+
+  .prose-legal :where(th, td) {
+    @apply border-b border-line py-2 pr-4 align-top;
+  }
+
+  .prose-legal :where(th) {
+    @apply label text-navy;
+  }
+
+  .prose-legal :where(blockquote) {
+    @apply border-l-2 border-line pl-4 text-muted;
+  }
+
   /*
    * Superficie de microcemento generada (no es una fotografía): nubes suaves y vetas de llana
    * sobre los colores de la marca. Sustituible por fotografía real cuando exista.

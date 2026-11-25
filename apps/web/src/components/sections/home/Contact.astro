@@ -5,6 +5,7 @@ import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 import { company, isPending } from '../../../data/company';
 import { formText, interestValues } from '../../../i18n/form';
+import { legalPath } from '../../../lib/legal';
 import type { Locale } from '../../../i18n/ui';
 
 interface Props {
@@ -263,7 +264,16 @@ const field = 'field tracking-normal normal-case';
             required
           />
           <span>
-            {text.privacy} <Todo text={text.privacyTodo} />
+            {text.privacyBefore}
+            <a
+              class="text-paper underline"
+              href={legalPath(locale, 'privacy')}
+              target="_blank"
+              rel="noopener"
+            >
+              {text.privacyLink}
+            </a>
+            .
           </span>
         </label>
         <span

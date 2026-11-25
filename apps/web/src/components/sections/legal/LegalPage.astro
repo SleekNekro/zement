@@ -1,0 +1,73 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { company } from '../../../data/company';
+import { renderLegal } from '../../../lib/legal';
+import { localePath, type Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  entry: CollectionEntry<'legal'>;
+}
+
+const { locale, entry } = Astro.props;
+const html = renderLegal(entry.body ?? '');
+const text = {
+  es: {
+    home: 'Inicio',
+    crumbs: 'Ruta de navegación',
+    updated: 'Última actualización',
+    draft:
+      'Borrador pendiente de revisión legal. Este texto no es definitivo hasta que lo valide la asesoría de Zement.',
+  },
+  en: {
+    home: 'Home',
+    crumbs: 'Breadcrumb',
+    updated: 'Last updated',
+    draft:
+      'Draft pending legal review. This text is not final until it has been approved by Zement’s legal advisers.',
+  },
+}[locale];
+---
+
+<article class="pt-28 pb-section md:pt-36">
+  <div class="container-site">
+    <nav
+      aria-label={text.crumbs}
+      class="label text-muted"
+    >
+      <ol class="flex flex-wrap gap-2">
+        <li>
+          <a
+            class="hover:text-navy"
+            href={localePath(locale, '/')}
+          >
+            {text.home}
+          </a>
+          <span aria-hidden="true"> /</span>
+        </li>
+        <li aria-current="page">{entry.data.title}</li>
+      </ol>
+    </nav>
+
+    <header class="border-navy mt-8 grid gap-6 border-b pb-10 md:grid-cols-12 md:items-end">
+      <h1 class="display-xl text-navy md:col-span-8">{entry.data.title}</h1>
+      <p class="label text-muted md:col-span-4 md:text-right">
+        {text.updated}: {company.legal.updated}
+      </p>
+    </header>
+
+    {entry.data.draft && (
+      <p
+        class="border-gold text-ink mt-8 max-w-3xl border border-dashed p-4 text-sm"
+        role="note"
+      >
+        {text.draft}
+      </p>
+    )}
+
+    <div
+      class="prose-legal mt-10 max-w-3xl"
+      set:html={html}
+    />
+  </div>
+</article>

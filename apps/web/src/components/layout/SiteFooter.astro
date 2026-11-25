@@ -1,6 +1,6 @@
 ---
 import Arrow from '../ui/Arrow.astro';
-import Todo from '../ui/Todo.astro';
+import { legalPath } from '../../lib/legal';
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
@@ -11,6 +11,12 @@ interface Props {
 
 const { locale } = Astro.props;
 const year = new Date().getFullYear();
+const legalLinks = [
+  { href: legalPath(locale, 'notice'), label: t(locale, 'footer.legal') },
+  { href: legalPath(locale, 'privacy'), label: t(locale, 'footer.privacy') },
+  { href: legalPath(locale, 'cookies'), label: t(locale, 'footer.cookies') },
+  { href: legalPath(locale, 'terms'), label: t(locale, 'footer.terms') },
+];
 const links = [
   { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
@@ -57,16 +63,17 @@ const links = [
   </p>
 
   <div class="border-line-dark mt-6 border-t">
-    <ul class="container-site flex flex-wrap gap-4 py-5">
-      <li>
-        <Todo text={`TODO: ${t(locale, 'footer.legal')}`} />
-      </li>
-      <li>
-        <Todo text={`TODO: ${t(locale, 'footer.privacy')}`} />
-      </li>
-      <li>
-        <Todo text={`TODO: ${t(locale, 'footer.cookies')}`} />
-      </li>
+    <ul class="container-site label flex flex-wrap gap-x-8 gap-y-1 py-3">
+      {legalLinks.map((link) => (
+        <li>
+          <a
+            class="hover:text-paper inline-flex min-h-11 items-center no-underline"
+            href={link.href}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
     </ul>
   </div>
 </footer>
