@@ -148,8 +148,8 @@ export const home: Record<Locale, HomeContent> = {
     intro: {
       title: ['Un material.', 'Dos maneras', 'de transformar.'],
       paragraphs: [
-        'TODO: presentación de Zement con hechos comprobables (qué fabrica, dónde y para quién)',
-        'TODO: qué diferencia al sistema Zement, con datos y no con adjetivos',
+        'Zement es un sistema de microcemento por capas: preparación, base, acabado y protección. Lo vendemos en nuestra tienda online, con envíos a España y Europa, y lo aplicamos en obra en España.',
+        'Cada capa tiene un producto con una función concreta y su ficha técnica. Los profesionales compran con su propia tarifa; si tienes un proyecto, puedes encargarnos la aplicación o hacerlo por tu cuenta.',
       ],
       link: 'Ver cómo se construye',
     },
@@ -226,12 +226,12 @@ export const home: Record<Locale, HomeContent> = {
     },
     method: {
       title: ['Del primer gesto', 'al último detalle.'],
-      text: 'TODO: cómo trabaja Zement en una obra, con hechos comprobables',
+      text: 'En cada obra revisamos primero el soporte, proponemos el sistema adecuado y lo aplicamos capa a capa, respetando los tiempos de cada producto hasta la protección final.',
       points: [
-        'TODO: compromiso comprobable (p. ej. ficha técnica por producto)',
-        'TODO: compromiso comprobable (p. ej. sistema completo de un solo fabricante)',
-        'TODO: compromiso comprobable',
-        'TODO: compromiso comprobable',
+        'Revisión del soporte antes de empezar',
+        'Sistema completo de una sola marca',
+        'Ficha técnica de cada producto',
+        'Materiales también en la tienda online',
       ],
       imageTodo: 'TODO: fotografía real de acabado',
     },
@@ -296,8 +296,8 @@ export const home: Record<Locale, HomeContent> = {
     intro: {
       title: ['One material.', 'Two ways', 'to transform.'],
       paragraphs: [
-        'TODO: introduction to Zement with verifiable facts (what it makes, where and for whom)',
-        'TODO: what sets the Zement system apart, with data rather than adjectives',
+        'Zement is a layered microcement system: preparation, base, finish and protection. We sell it in our online shop, shipping to Spain and Europe, and we apply it on site in Spain.',
+        'Each layer has a product with a specific role and its own data sheet. Professionals buy at their own price list; if you have a project, you can have us apply it or do it yourself.',
       ],
       link: 'See how it is built',
     },
@@ -374,12 +374,12 @@ export const home: Record<Locale, HomeContent> = {
     },
     method: {
       title: ['From the first gesture', 'to the final detail.'],
-      text: 'TODO: how Zement works on a job, with verifiable facts',
+      text: 'On every job we first check the substrate, propose the right system and apply it layer by layer, respecting the times of each product through to the final protection.',
       points: [
-        'TODO: verifiable commitment (e.g. data sheet for every product)',
-        'TODO: verifiable commitment (e.g. complete system from one manufacturer)',
-        'TODO: verifiable commitment',
-        'TODO: verifiable commitment',
+        'Substrate check before we start',
+        'A complete system from a single brand',
+        'A data sheet for every product',
+        'Materials also in the online shop',
       ],
       imageTodo: 'TODO: real finish photograph',
     },

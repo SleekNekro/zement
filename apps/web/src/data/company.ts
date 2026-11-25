@@ -16,9 +16,10 @@ export const company = {
   responseTime: { es: 'TODO: plazo real de respuesta', en: 'TODO: real response time' },
   /** Condiciones de compra en la tienda (deben coincidir con PrestaShop: una sola verdad). */
   shopTerms: {
+    area: { es: 'España y Europa', en: 'Spain and Europe' },
     shipping: {
-      es: 'TODO: envío gratis desde X € / coste',
-      en: 'TODO: free shipping from X € / cost',
+      es: 'TODO: coste y envío gratis desde X €',
+      en: 'TODO: cost and free shipping from X €',
     },
     delivery: { es: 'TODO: plazo real de entrega', en: 'TODO: real delivery time' },
     payment: { es: 'TODO: formas de pago reales', en: 'TODO: real payment methods' },

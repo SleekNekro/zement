@@ -10,12 +10,12 @@
       "en": "Zement microcement system"
     },
     "audience": {
-      "es": "TODO: para quién es el sistema y qué ofrece, en una frase",
-      "en": "TODO: who the system is for and what it offers, in one sentence"
+      "es": "Para aplicadores profesionales y para proyectos de suelos, paredes, baños y cocinas que buscan una superficie continua.",
+      "en": "For professional applicators and for floor, wall, bathroom and kitchen projects that call for a seamless surface."
     },
     "summary": {
-      "es": "TODO: descripción real del sistema",
-      "en": "TODO: real system description"
+      "es": "Cuatro productos que se aplican en orden sobre el soporte existente: preparación, base, acabado y protección. Cada capa cumple una función y cada producto se compra por separado en la tienda.",
+      "en": "Four products applied in order over the existing substrate: preparation, base, finish and protection. Each layer has a role and each product can be bought separately in the shop."
     },
     "shopQuery": {
       "es": "microcemento",
@@ -33,8 +33,8 @@
           "en": "TODO: product name"
         },
         "benefit": {
-          "es": "TODO: beneficio en una línea",
-          "en": "TODO: one-line benefit"
+          "es": "Prepara el soporte para recibir el sistema.",
+          "en": "Prepares the substrate to receive the system."
         },
         "sku": "TODO",
         "formats": {
@@ -57,8 +57,8 @@
           "en": "TODO: product name"
         },
         "benefit": {
-          "es": "TODO: beneficio en una línea",
-          "en": "TODO: one-line benefit"
+          "es": "Revestimiento base que da cuerpo al sistema.",
+          "en": "Base coat that gives the system its body."
         },
         "sku": "TODO",
         "formats": {
@@ -81,8 +81,8 @@
           "en": "TODO: product name"
         },
         "benefit": {
-          "es": "TODO: beneficio en una línea",
-          "en": "TODO: one-line benefit"
+          "es": "Acabado decorativo de textura suave y natural.",
+          "en": "Decorative finish with a soft, natural texture."
         },
         "sku": "TODO",
         "formats": {
@@ -105,8 +105,8 @@
           "en": "TODO: product name"
         },
         "benefit": {
-          "es": "TODO: beneficio en una línea",
-          "en": "TODO: one-line benefit"
+          "es": "Protección final para el sistema aplicado.",
+          "en": "Final protection for the applied system."
         },
         "sku": "TODO",
         "formats": {
@@ -348,8 +348,8 @@
     "faqs": [
       {
         "question": {
-          "es": "TODO: pregunta frecuente real",
-          "en": "TODO: real frequently asked question"
+          "es": "¿Sobre qué superficies se puede aplicar el sistema?",
+          "en": "Which surfaces can the system be applied to?"
         },
         "answer": {
           "es": "TODO: respuesta real",
@@ -358,8 +358,8 @@
       },
       {
         "question": {
-          "es": "TODO: pregunta frecuente real",
-          "en": "TODO: real frequently asked question"
+          "es": "¿Se puede aplicar en baños y duchas?",
+          "en": "Can it be applied in bathrooms and showers?"
         },
         "answer": {
           "es": "TODO: respuesta real",
@@ -368,8 +368,8 @@
       },
       {
         "question": {
-          "es": "TODO: pregunta frecuente real",
-          "en": "TODO: real frequently asked question"
+          "es": "¿Cuánto material necesito para mi superficie?",
+          "en": "How much material do I need for my surface?"
         },
         "answer": {
           "es": "TODO: respuesta real",

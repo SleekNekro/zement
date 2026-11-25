@@ -16,21 +16,23 @@ interface Props {
 const { locale, tone = 'light', class: className } = Astro.props;
 const labels = {
   es: {
-    shipping: 'Envío',
+    area: 'Envíos a',
+    shipping: 'Coste de envío',
     delivery: 'Entrega',
     payment: 'Pago',
     returns: 'Devoluciones',
     title: 'Comprar en la tienda',
   },
   en: {
-    shipping: 'Shipping',
+    area: 'Shipping to',
+    shipping: 'Shipping cost',
     delivery: 'Delivery',
     payment: 'Payment',
     returns: 'Returns',
     title: 'Buying in the shop',
   },
 }[locale];
-const items = (['shipping', 'delivery', 'payment', 'returns'] as const).map((key) => ({
+const items = (['area', 'shipping', 'delivery', 'payment', 'returns'] as const).map((key) => ({
   label: labels[key],
   value: company.shopTerms[key][locale],
 }));
@@ -38,7 +40,7 @@ const items = (['shipping', 'delivery', 'payment', 'returns'] as const).map((key
 
 <dl
   class:list={[
-    'grid gap-x-8 gap-y-3 text-sm sm:grid-cols-2 lg:grid-cols-4',
+    'grid gap-x-8 gap-y-3 text-sm sm:grid-cols-3 lg:grid-cols-5',
     tone === 'dark' ? 'text-paper/75' : 'text-ink/75',
     className,
   ]}
