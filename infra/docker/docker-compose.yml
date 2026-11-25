@@ -50,6 +50,8 @@ services:
       - prestashop-data:/var/www/html
       # Tema hijo versionado en Git (se edita en apps/tienda/theme/zement).
       - ../../apps/tienda/theme/zement:/var/www/html/themes/zement
+      # Módulos propios versionados en Git (apps/tienda/modules).
+      - ../../apps/tienda/modules/zementhome:/var/www/html/modules/zementhome
 
 volumes:
   mysql-data:
