@@ -6,6 +6,7 @@ const DEFAULT_SHOP_URL = 'http://localhost:8090';
 const shopRoutes = {
   login: { es: 'iniciar-sesion', en: 'login' },
   search: { es: 'busqueda', en: 'search' },
+  register: { es: 'registro', en: 'registration' },
 } as const satisfies Record<string, Record<Locale, string>>;
 
 export type ShopRoute = keyof typeof shopRoutes;

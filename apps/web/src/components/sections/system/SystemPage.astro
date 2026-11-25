@@ -1,0 +1,56 @@
+---
+import SystemHero from './SystemHero.astro';
+import SystemRange from './SystemRange.astro';
+import SystemSpecs from './SystemSpecs.astro';
+import SystemSteps from './SystemSteps.astro';
+import SystemResources from './SystemResources.astro';
+import SystemFaq from './SystemFaq.astro';
+import SystemCta from './SystemCta.astro';
+import { systemPageText } from '../../../data/systemPage';
+import type { LocalizedSystem } from '../../../lib/systems';
+import type { Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  system: LocalizedSystem;
+}
+
+const { locale, system } = Astro.props;
+const text = systemPageText[locale];
+---
+
+<!--
+  Página de sistema (orden comercial): qué es → gama con «Comprar» por producto → datos técnicos →
+  cómo se aplica → colores y documentación → preguntas frecuentes → hablar con un técnico o comprar.
+-->
+<SystemHero
+  locale={locale}
+  system={system}
+  text={text}
+/>
+<SystemRange
+  locale={locale}
+  system={system}
+  text={text}
+/>
+<SystemSpecs
+  system={system}
+  text={text}
+/>
+<SystemSteps
+  system={system}
+  text={text}
+/>
+<SystemResources
+  system={system}
+  text={text}
+/>
+<SystemFaq
+  system={system}
+  text={text}
+/>
+<SystemCta
+  locale={locale}
+  system={system}
+  text={text}
+/>

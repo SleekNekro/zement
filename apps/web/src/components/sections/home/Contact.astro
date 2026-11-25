@@ -3,15 +3,26 @@ import RevealHeading from '../../ui/RevealHeading.astro';
 import Arrow from '../../ui/Arrow.astro';
 import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
+import { company, isPending } from '../../../data/company';
+import { formText, interestValues } from '../../../i18n/form';
+import type { Locale } from '../../../i18n/ui';
 
 interface Props {
+  locale: Locale;
   /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
   level?: 2 | 3;
   contact: HomeContent['contact'];
 }
 
-const { contact, level = 2 } = Astro.props;
+const { locale, contact, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
+const text = formText[locale];
+const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? '';
+const phoneHref = isPending(company.phone) ? '' : `tel:${company.phone.replace(/\s+/g, '')}`;
+const emailHref = isPending(company.email) ? '' : `mailto:${company.email}`;
+const whatsappHref = company.whatsapp ? `https://wa.me/${company.whatsapp}` : '';
+const fieldLabel = 'label text-sand grid gap-1';
+const field = 'field tracking-normal normal-case';
 ---
 
 <section
@@ -32,79 +43,271 @@ const headingTag = `h${level}` as 'h2' | 'h3';
       >
         {contact.text}
       </p>
-      <p class="label text-sand mt-12">{contact.signature}</p>
+
+      <!-- Canales directos: siempre disponibles, también si el formulario falla -->
+      <div class="border-line-dark mt-12 grid gap-4 border-t pt-8">
+        <p class="label text-sand">{text.directTitle}</p>
+        <div class="flex flex-wrap gap-3">
+          {phoneHref ? (
+            <a
+              class="btn btn-outline-light"
+              href={phoneHref}
+            >
+              <span>
+                {text.callUs} · {company.phone}
+              </span>
+            </a>
+          ) : (
+            <Todo text={company.phone} />
+          )}
+          {emailHref ? (
+            <a
+              class="btn btn-outline-light"
+              href={emailHref}
+            >
+              <span>{text.writeUs}</span>
+            </a>
+          ) : (
+            <Todo text={company.email} />
+          )}
+          {whatsappHref && (
+            <a
+              class="btn btn-outline-light"
+              href={whatsappHref}
+              rel="noopener"
+            >
+              <span>{text.whatsapp}</span>
+              <Arrow
+                direction="out"
+                class="btn-arrow"
+              />
+            </a>
+          )}
+        </div>
+        <dl class="text-paper/70 grid gap-1 text-sm">
+          <div class="flex flex-wrap gap-2">
+            <dt>{text.hours}:</dt>
+            <dd>
+              <Todo text={company.hours[locale]} />
+            </dd>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <dt>{text.responseTime}:</dt>
+            <dd>
+              <Todo text={company.responseTime[locale]} />
+            </dd>
+          </div>
+        </dl>
+      </div>
     </div>
 
     <form
-      class="grid gap-8 md:col-span-6 md:col-start-7"
+      class="grid gap-7 md:col-span-6 md:col-start-7"
+      action="/api/contact.php"
+      method="post"
+      data-contact-form
       data-reveal
     >
-      <label class="label text-sand grid gap-1">
-        <span>
-          {contact.fields.name} <span aria-hidden="true">*</span>
-        </span>
-        <input
-          class="field tracking-normal normal-case"
-          name="name"
-          required
-          autocomplete="name"
-          placeholder={contact.placeholders.name}
-        />
-      </label>
-      <label class="label text-sand grid gap-1">
-        <span>
-          {contact.fields.email} <span aria-hidden="true">*</span>
-        </span>
-        <input
-          class="field tracking-normal normal-case"
-          type="email"
-          required
-          name="email"
-          autocomplete="email"
-          placeholder={contact.placeholders.email}
-        />
-      </label>
-      <label class="label text-sand grid gap-1">
-        {contact.fields.interest}
+      <input
+        type="hidden"
+        name="lang"
+        value={locale}
+      />
+      <!-- Campo trampa contra bots: oculto para personas y lectores de pantalla -->
+      <div
+        class="sr-only"
+        aria-hidden="true"
+      >
+        <label>
+          Website
+          <input
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+          />
+        </label>
+      </div>
+
+      <p
+        class="border-line-dark hidden border p-4 text-sm"
+        role="status"
+        aria-live="polite"
+        tabindex="-1"
+        data-form-status
+      ></p>
+
+      <label class={fieldLabel}>
+        {text.interest}
         <select
-          class="field [&>option]:text-navy tracking-normal normal-case"
+          class:list={[field, '[&>option]:text-navy']}
           name="interest"
+          data-interest-select
         >
-          {contact.interests.map((option) => (
-            <option>{option}</option>
+          {interestValues.map((value, index) => (
+            <option value={value}>{contact.interests[index] ?? value}</option>
           ))}
         </select>
       </label>
-      <label class="label text-sand grid gap-1">
-        {contact.fields.message}
+
+      <div class="grid gap-7 sm:grid-cols-2">
+        <label class={fieldLabel}>
+          <span>
+            {text.name} <span aria-hidden="true">*</span>
+          </span>
+          <input
+            class={field}
+            name="name"
+            autocomplete="name"
+            required
+            minlength="2"
+            maxlength="100"
+            placeholder={contact.placeholders.name}
+          />
+          <span
+            class="text-xs tracking-normal text-gold normal-case"
+            data-error-for="name"
+          ></span>
+        </label>
+        <label class={fieldLabel}>
+          <span>
+            {text.email} <span aria-hidden="true">*</span>
+          </span>
+          <input
+            class={field}
+            type="email"
+            name="email"
+            autocomplete="email"
+            required
+            maxlength="254"
+            placeholder={contact.placeholders.email}
+          />
+          <span
+            class="text-xs tracking-normal text-gold normal-case"
+            data-error-for="email"
+          ></span>
+        </label>
+      </div>
+
+      <div class="grid gap-7 sm:grid-cols-3">
+        <label class={fieldLabel}>
+          <span>
+            {text.phone} <span class="text-paper/50 normal-case">({text.optional})</span>
+          </span>
+          <input
+            class={field}
+            type="tel"
+            name="phone"
+            autocomplete="tel"
+            maxlength="30"
+            placeholder={contact.placeholders.phone}
+          />
+          <span
+            class="text-xs tracking-normal text-gold normal-case"
+            data-error-for="phone"
+          ></span>
+        </label>
+        <label class={fieldLabel}>
+          <span>
+            {text.postalCode} <span class="text-paper/50 normal-case">({text.optional})</span>
+          </span>
+          <input
+            class={field}
+            name="postalCode"
+            autocomplete="postal-code"
+            maxlength="20"
+            placeholder={contact.placeholders.postalCode}
+          />
+        </label>
+        <label class={fieldLabel}>
+          <span>
+            {text.area} <span class="text-paper/50 normal-case">({text.optional})</span>
+          </span>
+          <input
+            class={field}
+            name="area"
+            inputmode="decimal"
+            pattern="\d{1,6}([.,]\d{1,2})?"
+            placeholder="40"
+          />
+          <span
+            class="text-xs tracking-normal text-gold normal-case"
+            data-error-for="area"
+          ></span>
+        </label>
+      </div>
+
+      <label class={fieldLabel}>
+        <span>
+          {text.message} <span aria-hidden="true">*</span>
+        </span>
         <textarea
-          class="field min-h-28 resize-y tracking-normal normal-case"
+          class:list={[field, 'min-h-28 resize-y']}
           name="message"
+          required
+          minlength="10"
+          maxlength="5000"
           placeholder={contact.placeholders.message}
         ></textarea>
+        <span
+          class="text-xs tracking-normal text-gold normal-case"
+          data-error-for="message"
+        ></span>
       </label>
-      <p class="text-paper/60 text-sm">{contact.requiredNote}</p>
-      <div class="grid gap-5">
+
+      <div class="grid gap-2">
+        <label class="text-paper/80 flex items-start gap-3 text-sm">
+          <input
+            class="accent-gold mt-1 size-4 shrink-0"
+            type="checkbox"
+            name="privacy"
+            required
+          />
+          <span>
+            {text.privacy} <Todo text={text.privacyTodo} />
+          </span>
+        </label>
+        <span
+          class="text-xs text-gold"
+          data-error-for="privacy"
+        ></span>
+      </div>
+
+      {siteKey ? (
+        <div
+          class="cf-turnstile"
+          data-sitekey={siteKey}
+          data-action="contact"
+          data-theme="dark"
+        />
+      ) : (
+        <Todo text="TODO: clave pública de Turnstile (PUBLIC_TURNSTILE_SITE_KEY)" />
+      )}
+
+      <div class="flex flex-wrap items-center gap-6">
         <button
-          class="btn btn-solid-light w-fit cursor-not-allowed opacity-60"
+          class="btn btn-solid-light"
           type="submit"
-          disabled
-          aria-describedby="contact-status"
+          data-submit
+          data-sending-label={text.sending}
         >
-          <span>{contact.submit}</span>
+          <span data-submit-label>{text.submit}</span>
           <Arrow
             direction="next"
             class="btn-arrow"
           />
         </button>
-        <p
-          id="contact-status"
-          class="text-paper/75 max-w-md text-sm"
-        >
-          {contact.unavailable} <Todo text={contact.emailTodo} />. {contact.nextStep}{' '}
-          <Todo text={contact.responseTodo} />.
-        </p>
+        <p class="text-paper/60 text-sm">{text.required}</p>
       </div>
     </form>
   </div>
 </section>
+
+{siteKey && (
+  <script
+    is:inline
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer
+  />
+)}
+<script src="../../../scripts/contact.ts"></script>

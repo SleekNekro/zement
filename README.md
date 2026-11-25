@@ -42,6 +42,14 @@ pnpm dev                                          # web Astro en http://localhos
 | `pnpm tienda:css`                                | Regenera el CSS combinado de la tienda tras cambiar estilos     |
 | `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`        |
 
+## Formulario de contacto
+
+- La web es estática; el envío lo hace `/api/contact.php` (PHP en IONOS), que el build copia a `apps/web/dist/api/`.
+- Validación en servidor, campo trampa, Cloudflare Turnstile, límite de tamaño y de 10 intentos por IP cada 10 minutos, envío con Resend.
+- Configuración privada: copiar `infra/hosting/zement-contact.example.php` como `zement-contact.php` **fuera** de la carpeta pública. Sin ella, el endpoint responde «no disponible» y la web muestra los canales directos.
+- Datos de contacto visibles (correo, teléfono, WhatsApp, horario, plazos): `apps/web/src/data/company.ts`.
+- En `pnpm dev` no hay PHP: el formulario muestra el aviso de «no disponible». Para probar el endpoint se puede usar el PHP del contenedor de la tienda.
+
 ## Editor
 
 VS Code propone las extensiones de `.vscode/extensions.json` y formatea y corrige al guardar.

@@ -2,14 +2,17 @@
 import Button from '../../ui/Button.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import type { HomeContent } from '../../../data/home';
+import { shopUrl } from '../../../lib/shop';
+import { t, type Locale } from '../../../i18n/ui';
 
 interface Props {
+  locale: Locale;
   /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
   level?: 2 | 3;
   application: HomeContent['application'];
 }
 
-const { application, level = 2 } = Astro.props;
+const { locale, application, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
 ---
 
@@ -35,18 +38,29 @@ const headingTag = `h${level}` as 'h2' | 'h3';
         class="mt-10"
         data-reveal
       >
-        <Button
-          href="#contacto"
-          variant="outline-light"
-          arrow="down"
-        >
-          {application.cta}
-        </Button>
+        <div class="flex flex-col gap-3 sm:flex-row">
+          <Button
+            href={shopUrl(locale)}
+            variant="solid-light"
+            arrow="out"
+          >
+            {application.shopCta}
+            <span class="sr-only"> {t(locale, 'nav.external')}</span>
+          </Button>
+          <Button
+            href="#contacto"
+            variant="outline-light"
+            arrow="down"
+            data-interest="application"
+          >
+            {application.cta}
+          </Button>
+        </div>
       </div>
     </div>
 
     <!-- Dónde se aplica: una lista de texto corrido, sin numerar ni simular interacción -->
-    <ul class="display text-paper/90 flex flex-wrap content-end items-baseline gap-x-8 gap-y-3 text-2xl md:text-3xl lg:col-span-5 lg:col-start-8">
+    <ul class="display text-paper/90 grid content-end gap-x-8 gap-y-4 text-2xl sm:grid-cols-2 md:text-3xl lg:col-span-5 lg:col-start-8 lg:grid-cols-1">
       {application.areas.map((area, index) => (
         <li
           class="flex items-baseline gap-3"

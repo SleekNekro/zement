@@ -8,6 +8,7 @@ import Application from './Application.astro';
 import Method from './Method.astro';
 import Contact from './Contact.astro';
 import { home } from '../../../data/home';
+import { getSystems, systemPath } from '../../../lib/systems';
 import type { Locale } from '../../../i18n/ui';
 
 interface Props {
@@ -17,12 +18,16 @@ interface Props {
 const { locale } = Astro.props;
 const content = home[locale];
 const { pro, project } = content.chapters;
+// De momento hay un único sistema; con más, la portada enlazará al índice de productos.
+const [system] = await getSystems(locale);
+if (!system) throw new Error('No hay ningún sistema en src/content/systems.json');
 ---
 
 <Hero
   locale={locale}
   hero={content.hero}
-  marquee={content.marquee}
+  shopStrip={content.shopStrip}
+  layers={system.products.map((product) => ({ code: product.code, name: product.layer }))}
 />
 <Manifesto intro={content.intro} />
 
@@ -34,6 +39,8 @@ const { pro, project } = content.chapters;
   <ChapterBand chapter={pro} />
   <SystemLayers
     system={content.system}
+    systemHref={systemPath(locale, system.slug)}
+    specs={system.specs.filter((row) => row.highlight)}
     level={3}
   />
   <ShopCategories
@@ -53,6 +60,7 @@ const { pro, project } = content.chapters;
     tone="dark"
   />
   <Application
+    locale={locale}
     application={content.application}
     level={3}
   />
@@ -61,6 +69,7 @@ const { pro, project } = content.chapters;
     level={3}
   />
   <Contact
+    locale={locale}
     contact={content.contact}
     level={3}
   />

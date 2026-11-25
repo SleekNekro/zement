@@ -8,6 +8,7 @@
 const root = document.documentElement;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+const narrowScreen = window.matchMedia('(width < 64rem)');
 
 if (!reducedMotion) {
   root.classList.add('motion');
@@ -20,7 +21,6 @@ if (!reducedMotion) {
   setupReveals();
   setupScrubWords();
   setupHeroLight();
-  setupMarquee();
 }
 setupLayers();
 
@@ -121,23 +121,6 @@ function setupHeroLight(): void {
   );
 }
 
-/**
- * Cinta del hero: avanza al hacer scroll (no se mueve sola).
- * El desplazamiento se repite cada ancho de pista para que la cinta no se acabe nunca.
- */
-function setupMarquee(): void {
-  const marquee = document.querySelector<HTMLElement>('.marquee');
-  const track = marquee?.querySelector<HTMLElement>('.marquee-track');
-  if (!marquee || !track) return;
-
-  onScrollFrame(() => {
-    const width = track.offsetWidth;
-    if (width === 0) return;
-    const shift = (window.scrollY * 0.6) % width;
-    marquee.style.setProperty('--marquee-shift', shift.toFixed(1));
-  });
-}
-
 /** Cabecera: transparente sobre el hero, se oculta al bajar y reaparece al subir. */
 function setupHeader(): void {
   const header = document.querySelector<HTMLElement>('[data-site-header]');
@@ -148,7 +131,9 @@ function setupHeader(): void {
   const update = (): void => {
     const y = window.scrollY;
     const heroBottom = hero ? hero.offsetTop + hero.offsetHeight - header.offsetHeight : 0;
-    header.dataset.overHero = String(Boolean(hero) && y < heroBottom);
+    // En pantallas estrechas el texto del hero pasa bajo la cabecera enseguida: se vuelve sólida al empezar el scroll.
+    const transparentUntil = narrowScreen.matches ? 24 : heroBottom;
+    header.dataset.overHero = String(Boolean(hero) && y < transparentUntil);
     const menuOpen = header.querySelector('details[open]') !== null;
     const isHidden = !reducedMotion && !menuOpen && y > 400 && y > lastY + 2;
     header.dataset.hidden = String(isHidden);

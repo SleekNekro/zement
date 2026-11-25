@@ -1,0 +1,75 @@
+---
+import Arrow from '../../ui/Arrow.astro';
+import Value from '../../ui/Value.astro';
+import type { SystemPageText } from '../../../data/systemPage';
+import { isTodo, type LocalizedSystem } from '../../../lib/systems';
+import { shopUrl } from '../../../lib/shop';
+import { t, type Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  system: LocalizedSystem;
+  text: SystemPageText;
+}
+
+const { locale, system, text } = Astro.props;
+---
+
+<!-- La gama: un producto por capa, en orden de aplicación, cada uno con su «Comprar». -->
+<section
+  id="gama"
+  class="py-section"
+>
+  <div class="container-site">
+    <div class="grid gap-6 md:grid-cols-12">
+      <h2 class="display-lg text-navy md:col-span-6">{text.rangeTitle}</h2>
+      <p class="text-muted self-end md:col-span-5 md:col-start-8">{text.rangeText}</p>
+    </div>
+
+    <ol class="border-navy mt-14 border-t">
+      {system.products.map((product, index) => (
+        <li
+          class="border-line grid gap-4 border-b py-8 md:grid-cols-12 md:items-center md:gap-8"
+          data-reveal
+          style={`--reveal-index: ${index}`}
+        >
+          <p class="label text-muted md:col-span-2">
+            {product.code} · {product.layer}
+          </p>
+          <div class="md:col-span-5">
+            <h3 class="display-md text-navy">
+              <Value text={product.name} />
+            </h3>
+            <p class="text-muted mt-2">
+              <Value text={product.benefit} />
+            </p>
+          </div>
+          <p class="text-muted text-sm md:col-span-3">
+            <span class="label text-ink/75 block">{text.formats}</span>
+            <Value text={product.formats} />
+          </p>
+          <div class="md:col-span-2 md:text-right">
+            <a
+              class="link-arrow label text-navy w-fit bg-none pb-0 min-h-11 items-center"
+              href={shopUrl(
+                locale,
+                'search',
+                isTodo(product.sku) ? `${system.shopQuery} ${product.layer}` : product.sku,
+              )}
+            >
+              {text.buy}
+              <span class="sr-only">
+                {' '}
+                {product.layer} {t(locale, 'nav.external')}
+              </span>
+              <Arrow
+                direction="out"
+                class="btn-arrow"
+              />
+            </a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

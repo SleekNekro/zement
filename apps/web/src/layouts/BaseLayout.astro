@@ -9,14 +9,18 @@ interface Props {
   locale: Locale;
   title: string;
   description: string;
-  /** Ruta equivalente sin prefijo de idioma, para hreflang y el selector de idioma. */
+  /** Ruta equivalente sin prefijo de idioma (si es igual en ambos idiomas). */
   path?: string;
+  /** Rutas completas por idioma, cuando cada idioma tiene su propia URL (p. ej. /sistemas/ y /en/systems/). */
+  paths?: Record<Locale, string>;
 }
 
-const { locale, title, description, path = '/' } = Astro.props;
+const { locale, title, description, path = '/', paths } = Astro.props;
+const alternates: Record<Locale, string> = paths ?? { es: path, en: `/en${path}` };
+const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
 const site = Astro.site ?? new URL('http://localhost:4321');
-const esUrl = new URL(path, site).href;
-const enUrl = new URL(`/en${path}`, site).href;
+const esUrl = new URL(alternates.es, site).href;
+const enUrl = new URL(alternates.en, site).href;
 const canonical = locale === 'es' ? esUrl : enUrl;
 ---
 
@@ -87,7 +91,7 @@ const canonical = locale === 'es' ? esUrl : enUrl;
   <body class="flex min-h-screen flex-col">
     <SiteHeader
       locale={locale}
-      path={path}
+      alternateHref={alternates[otherLocale]}
     />
     <main
       id="contenido"

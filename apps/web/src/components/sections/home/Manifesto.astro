@@ -1,6 +1,8 @@
 ---
 import Arrow from '../../ui/Arrow.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
+import Value from '../../ui/Value.astro';
+import { isTodo } from '../../../lib/systems';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
@@ -23,22 +25,28 @@ const [lead, ...rest] = intro.paragraphs;
       />
     </div>
     <div class="grid content-start gap-10 md:col-span-6 md:col-start-7">
-      <p
-        class="display-md text-navy font-light"
-        data-scrub-words
-      >
-        {lead}
-      </p>
+      {isTodo(lead ?? '') ? (
+        <p>
+          <Value text={lead ?? ''} />
+        </p>
+      ) : (
+        <p
+          class="display-md text-navy font-light"
+          data-scrub-words
+        >
+          {lead}
+        </p>
+      )}
       {rest.map((paragraph) => (
         <p
           class="text-muted max-w-xl"
           data-reveal
         >
-          {paragraph}
+          <Value text={paragraph} />
         </p>
       ))}
       <a
-        class="link-arrow label text-navy w-fit"
+        class="link-arrow label text-navy min-h-11 w-fit items-end"
         href="#sistema"
         data-reveal
       >

@@ -5,6 +5,8 @@ import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
 import Arrow from '../../ui/Arrow.astro';
+import Todo from '../../ui/Todo.astro';
+import { company } from '../../../data/company';
 
 interface Props {
   /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
@@ -20,7 +22,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
 
 <section
   id="tienda"
-  class="bg-stone py-section"
+  class="bg-stone pt-section"
 >
   <div class="container-site">
     <div class="grid gap-10 md:grid-cols-12">
@@ -29,7 +31,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
           as={headingTag}
           lines={shop.title}
           emphasis={1}
-          class="display-xl text-navy"
+          class="display-lg text-navy"
         />
       </div>
       <p
@@ -44,7 +46,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
       Familias de producto ligadas a las capas del sistema (Z.0x). La primera, el microcemento,
       va destacada; las demás, en filas. Cada una abre su búsqueda en la tienda.
     -->
-    <ul class="border-navy mt-16 grid border-t md:mt-20 lg:grid-cols-12">
+    <ul class="border-navy mt-16 mb-section grid border-t md:mt-20 lg:grid-cols-12">
       {shop.categories.map((category, index) => {
         const isFeatured = index === 0;
         return (
@@ -103,23 +105,47 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
         );
       })}
     </ul>
+  </div>
 
-    <div
-      id="acceso-profesional"
-      class="mt-16 grid gap-8 md:grid-cols-12 md:items-center"
-      data-reveal
-    >
-      <SubHeading class="display-md text-navy md:col-span-5">{shop.proTitle}</SubHeading>
-      <p class="text-ink/75 md:col-span-4">{shop.proText}</p>
-      <div class="md:col-span-3 md:text-right">
+  <!-- Ventaja profesional: la tarifa aparece al iniciar sesión; alta para quien aún no tiene cuenta. -->
+  <div
+    id="acceso-profesional"
+    class="bg-navy text-paper"
+    data-reveal
+  >
+    <div class="container-site grid gap-8 py-12 md:grid-cols-12 md:items-end md:py-16">
+      <div class="md:col-span-7">
+        <SubHeading class="display-md">{shop.proTitle}</SubHeading>
+        <p class="text-paper/75 mt-4 max-w-lg">{shop.proText}</p>
+      </div>
+      <div class="flex flex-col gap-4 md:col-span-5 md:items-end">
         <Button
           href={shopUrl(locale, 'login')}
-          variant="solid-dark"
+          variant="solid-light"
           arrow="out"
         >
           {shop.proCta}
           <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </Button>
+        <div class="grid gap-2 md:justify-items-end md:text-right">
+          <p class="text-paper/70 flex flex-wrap items-center gap-x-3 text-sm md:justify-end">
+            {shop.proSignupText}
+            <a
+              class="link-arrow label text-sand hover:text-paper inline-flex min-h-11 items-center bg-none pb-0"
+              href={shopUrl(locale, 'register')}
+            >
+              {shop.proSignupCta}
+              <span class="sr-only"> {t(locale, 'nav.external')}</span>
+              <Arrow
+                direction="out"
+                class="btn-arrow"
+              />
+            </a>
+          </p>
+          <p class="text-paper/60 max-w-sm text-xs">
+            {shop.proSignupSteps} <Todo text={company.proApprovalTime[locale]} />.
+          </p>
+        </div>
       </div>
     </div>
   </div>

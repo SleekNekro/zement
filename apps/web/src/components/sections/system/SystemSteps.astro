@@ -1,0 +1,45 @@
+---
+import Value from '../../ui/Value.astro';
+import type { SystemPageText } from '../../../data/systemPage';
+import type { LocalizedSystem } from '../../../lib/systems';
+
+interface Props {
+  system: LocalizedSystem;
+  text: SystemPageText;
+}
+
+const { system, text } = Astro.props;
+---
+
+<!-- Aplicación paso a paso: aquí la numeración sí indica un orden real. -->
+<section
+  id="aplicacion-sistema"
+  class="bg-navy text-paper py-section"
+>
+  <div class="container-site grid gap-14 lg:grid-cols-12">
+    <h2 class="display-lg lg:col-span-4">{text.stepsTitle}</h2>
+    <ol class="border-line-dark border-t lg:col-span-7 lg:col-start-6">
+      {system.steps.map((step, index) => (
+        <li
+          class="border-line-dark grid gap-4 border-b py-8 sm:grid-cols-[4rem_1fr_auto] sm:gap-8"
+          data-reveal
+          style={`--reveal-index: ${index}`}
+        >
+          <span class="display text-sand text-3xl tabular-nums">
+            {String(index + 1).padStart(2, '0')}
+          </span>
+          <div>
+            <h3 class="display-md">{step.title}</h3>
+            <p class="text-paper/70 mt-3 max-w-md">
+              <Value text={step.text} />
+            </p>
+          </div>
+          <p class="label text-sand sm:text-right">
+            <span class="sr-only">{text.stepTime}: </span>
+            <Value text={step.time} />
+          </p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

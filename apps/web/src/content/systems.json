@@ -1,0 +1,360 @@
+[
+  {
+    "id": "microcemento",
+    "slug": {
+      "es": "microcemento",
+      "en": "microcement"
+    },
+    "name": {
+      "es": "Sistema de microcemento Zement",
+      "en": "Zement microcement system"
+    },
+    "audience": {
+      "es": "TODO: para quién es el sistema y qué ofrece, en una frase",
+      "en": "TODO: who the system is for and what it offers, in one sentence"
+    },
+    "summary": {
+      "es": "TODO: descripción real del sistema",
+      "en": "TODO: real system description"
+    },
+    "shopQuery": {
+      "es": "microcemento",
+      "en": "microcement"
+    },
+    "products": [
+      {
+        "code": "Z.01",
+        "layer": {
+          "es": "Preparación",
+          "en": "Preparation"
+        },
+        "name": {
+          "es": "TODO: nombre del producto",
+          "en": "TODO: product name"
+        },
+        "benefit": {
+          "es": "TODO: beneficio en una línea",
+          "en": "TODO: one-line benefit"
+        },
+        "sku": "TODO",
+        "formats": {
+          "es": "TODO: envases",
+          "en": "TODO: pack sizes"
+        }
+      },
+      {
+        "code": "Z.02",
+        "layer": {
+          "es": "Base",
+          "en": "Base"
+        },
+        "name": {
+          "es": "TODO: nombre del producto",
+          "en": "TODO: product name"
+        },
+        "benefit": {
+          "es": "TODO: beneficio en una línea",
+          "en": "TODO: one-line benefit"
+        },
+        "sku": "TODO",
+        "formats": {
+          "es": "TODO: envases",
+          "en": "TODO: pack sizes"
+        }
+      },
+      {
+        "code": "Z.03",
+        "layer": {
+          "es": "Acabado",
+          "en": "Finish"
+        },
+        "name": {
+          "es": "TODO: nombre del producto",
+          "en": "TODO: product name"
+        },
+        "benefit": {
+          "es": "TODO: beneficio en una línea",
+          "en": "TODO: one-line benefit"
+        },
+        "sku": "TODO",
+        "formats": {
+          "es": "TODO: envases",
+          "en": "TODO: pack sizes"
+        }
+      },
+      {
+        "code": "Z.04",
+        "layer": {
+          "es": "Protección",
+          "en": "Protection"
+        },
+        "name": {
+          "es": "TODO: nombre del producto",
+          "en": "TODO: product name"
+        },
+        "benefit": {
+          "es": "TODO: beneficio en una línea",
+          "en": "TODO: one-line benefit"
+        },
+        "sku": "TODO",
+        "formats": {
+          "es": "TODO: envases",
+          "en": "TODO: pack sizes"
+        }
+      }
+    ],
+    "specs": [
+      {
+        "label": {
+          "es": "Rendimiento por capa (kg/m²)",
+          "en": "Coverage per coat (kg/m²)"
+        },
+        "values": [
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "label": {
+          "es": "Número de capas",
+          "en": "Number of coats"
+        },
+        "values": [
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          }
+        ],
+        "highlight": false
+      },
+      {
+        "label": {
+          "es": "Secado entre capas",
+          "en": "Drying between coats"
+        },
+        "values": [
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "label": {
+          "es": "Norma de ensayo",
+          "en": "Test standard"
+        },
+        "values": [
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          }
+        ],
+        "highlight": false
+      },
+      {
+        "label": {
+          "es": "Envases",
+          "en": "Pack sizes"
+        },
+        "values": [
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          },
+          {
+            "es": "TODO",
+            "en": "TODO"
+          }
+        ],
+        "highlight": false
+      }
+    ],
+    "steps": [
+      {
+        "title": {
+          "es": "Preparación del soporte",
+          "en": "Substrate preparation"
+        },
+        "text": {
+          "es": "TODO: instrucciones reales de aplicación",
+          "en": "TODO: real application instructions"
+        },
+        "time": {
+          "es": "TODO: tiempo",
+          "en": "TODO: time"
+        }
+      },
+      {
+        "title": {
+          "es": "Imprimación",
+          "en": "Priming"
+        },
+        "text": {
+          "es": "TODO: instrucciones reales de aplicación",
+          "en": "TODO: real application instructions"
+        },
+        "time": {
+          "es": "TODO: tiempo",
+          "en": "TODO: time"
+        }
+      },
+      {
+        "title": {
+          "es": "Capas de base",
+          "en": "Base coats"
+        },
+        "text": {
+          "es": "TODO: instrucciones reales de aplicación",
+          "en": "TODO: real application instructions"
+        },
+        "time": {
+          "es": "TODO: tiempo",
+          "en": "TODO: time"
+        }
+      },
+      {
+        "title": {
+          "es": "Capas de acabado",
+          "en": "Finish coats"
+        },
+        "text": {
+          "es": "TODO: instrucciones reales de aplicación",
+          "en": "TODO: real application instructions"
+        },
+        "time": {
+          "es": "TODO: tiempo",
+          "en": "TODO: time"
+        }
+      },
+      {
+        "title": {
+          "es": "Sellado y protección",
+          "en": "Sealing and protection"
+        },
+        "text": {
+          "es": "TODO: instrucciones reales de aplicación",
+          "en": "TODO: real application instructions"
+        },
+        "time": {
+          "es": "TODO: tiempo",
+          "en": "TODO: time"
+        }
+      }
+    ],
+    "colors": {
+      "es": "TODO: carta de colores real",
+      "en": "TODO: real colour chart"
+    },
+    "documents": [
+      {
+        "kind": "technical",
+        "label": {
+          "es": "Ficha técnica del sistema",
+          "en": "System technical data sheet"
+        },
+        "href": ""
+      },
+      {
+        "kind": "safety",
+        "label": {
+          "es": "Hojas de seguridad",
+          "en": "Safety data sheets"
+        },
+        "href": ""
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "es": "TODO: pregunta frecuente real",
+          "en": "TODO: real frequently asked question"
+        },
+        "answer": {
+          "es": "TODO: respuesta real",
+          "en": "TODO: real answer"
+        }
+      },
+      {
+        "question": {
+          "es": "TODO: pregunta frecuente real",
+          "en": "TODO: real frequently asked question"
+        },
+        "answer": {
+          "es": "TODO: respuesta real",
+          "en": "TODO: real answer"
+        }
+      },
+      {
+        "question": {
+          "es": "TODO: pregunta frecuente real",
+          "en": "TODO: real frequently asked question"
+        },
+        "answer": {
+          "es": "TODO: respuesta real",
+          "en": "TODO: real answer"
+        }
+      }
+    ]
+  }
+]

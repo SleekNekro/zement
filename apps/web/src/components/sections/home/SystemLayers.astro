@@ -1,46 +1,25 @@
 ---
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Arrow from '../../ui/Arrow.astro';
-import Todo from '../../ui/Todo.astro';
+import LayerStack from '../../ui/LayerStack.astro';
+import Button from '../../ui/Button.astro';
+import Value from '../../ui/Value.astro';
+import type { LocalizedSystem } from '../../../lib/systems';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
   /** Nivel del titular: 3 cuando la sección va dentro de un capítulo. */
   level?: 2 | 3;
   system: HomeContent['system'];
+  /** URL de la página completa del sistema. */
+  systemHref: string;
+  /** Datos técnicos del sistema (misma fuente que su página): una fila por dato, un valor por capa. */
+  specs: LocalizedSystem['specs'];
 }
 
-const { system, level = 2 } = Astro.props;
+const { system, systemHref, specs, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
 const SubHeading = `h${level + 1}` as 'h3' | 'h4';
-
-/*
- * Cada capa del corte: textura dibujada con la paleta de la marca y grosor relativo (flex-grow).
- * Los grosores son una representación visual, no medidas: las reales van en `thicknessTodo`.
- * Orden de abajo arriba: preparación → base → acabado → protección.
- */
-const layers = [
-  {
-    grow: 1.1,
-    texture:
-      'bg-stone bg-[repeating-linear-gradient(135deg,color-mix(in_srgb,var(--zm-color-navy)_30%,transparent)_0_1px,transparent_1px_7px)]',
-  },
-  {
-    grow: 2.2,
-    texture:
-      'bg-[color-mix(in_srgb,var(--zm-color-stone),var(--zm-color-navy)_9%)] bg-[radial-gradient(color-mix(in_srgb,var(--zm-color-navy)_45%,transparent)_1px,transparent_1.2px)] bg-[length:9px_9px]',
-  },
-  {
-    grow: 1.4,
-    texture:
-      'bg-white bg-[radial-gradient(color-mix(in_srgb,var(--zm-color-navy-soft)_30%,transparent)_0.6px,transparent_0.8px)] bg-[length:5px_5px]',
-  },
-  {
-    grow: 0.55,
-    texture:
-      'bg-white bg-[linear-gradient(100deg,transparent_20%,color-mix(in_srgb,var(--zm-color-white)_90%,transparent)_45%,transparent_70%),linear-gradient(var(--zm-color-white),var(--zm-color-stone))]',
-  },
-];
 ---
 
 <section
@@ -54,7 +33,7 @@ const layers = [
           as={headingTag}
           lines={system.title}
           emphasis={1}
-          class="display-xl text-navy"
+          class="display-lg text-navy"
         />
       </div>
       <p
@@ -83,37 +62,13 @@ const layers = [
           </span>
         </figcaption>
 
-        <div
-          class="layers border-navy flex h-[34svh] min-h-56 flex-col-reverse border lg:h-[min(68svh,40rem)]"
-          role="img"
-          aria-label={`${system.layersLabel}: ${system.steps.map((step) => step.name).join(', ')}`}
-        >
-          <!-- Soporte: la superficie existente sobre la que se aplica el sistema -->
-          <div
-            class="relative flex items-end bg-[color-mix(in_srgb,var(--zm-color-stone),var(--zm-color-navy)_28%)] bg-[repeating-linear-gradient(45deg,color-mix(in_srgb,var(--zm-color-night)_30%,transparent)_0_1px,transparent_1px_12px)] px-4 pb-2"
-            style="flex-grow: 1.3"
-          >
-            <span class="label text-night">{system.supportLabel}</span>
-          </div>
-          {system.steps.map((step, index) => (
-            <div
-              class:list={[
-                'layer border-navy/40 group/layer relative flex items-center justify-between gap-4 border-t px-4',
-                layers[index]?.texture,
-              ]}
-              style={`flex-grow: ${layers[index]?.grow ?? 1}`}
-              data-layer={index}
-            >
-              <span class="bg-paper/90 text-navy flex items-baseline gap-3 px-2 py-0.5">
-                <span class="label">{step.code}</span>
-                <span class="display text-base sm:text-lg lg:text-2xl">{step.name}</span>
-              </span>
-              <span class="label bg-paper/90 text-navy hidden px-2 py-0.5 sm:inline">
-                {system.thicknessTodo}
-              </span>
-            </div>
-          ))}
-        </div>
+        <LayerStack
+          layers={system.steps}
+          label={system.layersLabel}
+          supportLabel={system.supportLabel}
+          thicknessLabel={system.thicknessTodo}
+          class="h-[26svh] min-h-44 lg:h-[min(68svh,40rem)]"
+        />
       </figure>
 
       <ol class="mt-6 lg:col-span-5 lg:col-start-8 lg:mt-0">
@@ -135,28 +90,36 @@ const layers = [
               </p>
               <SubHeading class="display-lg text-navy mt-3">{step.name}</SubHeading>
               <p class="text-muted mt-4 max-w-sm">{step.text}</p>
+              <dl class="border-line mt-6 grid max-w-sm grid-cols-2 gap-x-6 border-t pt-4">
+                {specs.map((row) => (
+                  <div>
+                    <dt class="label text-muted">{row.label}</dt>
+                    <dd class="text-navy mt-1 tabular-nums">
+                      <Value text={row.values[index] ?? 'TODO'} />
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </li>
         ))}
       </ol>
     </div>
 
-    <div class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12">
-      <p class="label text-navy md:col-span-3">{system.specsTitle}</p>
-      <dl class="grid gap-x-10 md:col-span-9 md:grid-cols-2">
-        {system.specs.map((spec, index) => (
-          <div
-            class="border-line flex items-center justify-between gap-6 border-b py-4"
-            data-reveal
-            style={`--reveal-index: ${index}`}
-          >
-            <dt class="text-navy">{spec.name}</dt>
-            <dd>
-              <Todo text={spec.todo} />
-            </dd>
-          </div>
-        ))}
-      </dl>
+    <div
+      class="border-navy mt-16 grid gap-8 border-t pt-10 md:grid-cols-12 md:items-center"
+      data-reveal
+    >
+      <p class="text-muted md:col-span-6">{system.fullSystemText}</p>
+      <div class="md:col-span-5 md:col-start-8 md:text-right">
+        <Button
+          href={systemHref}
+          variant="solid-dark"
+          arrow="next"
+        >
+          {system.fullSystemCta}
+        </Button>
+      </div>
     </div>
   </div>
 </section>

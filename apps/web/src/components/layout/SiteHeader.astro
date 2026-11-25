@@ -5,10 +5,11 @@ import Arrow from '../ui/Arrow.astro';
 
 interface Props {
   locale: Locale;
-  path: string;
+  /** URL de esta misma página en el otro idioma. */
+  alternateHref: string;
 }
 
-const { locale, path } = Astro.props;
+const { locale, alternateHref } = Astro.props;
 const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
 const links = [
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
@@ -63,7 +64,7 @@ const links = [
     <div class="flex items-center gap-6">
       <a
         class="label hidden py-3 text-current no-underline opacity-80 hover:opacity-100 sm:inline"
-        href={localePath(otherLocale, path)}
+        href={alternateHref}
         hreflang={otherLocale}
         lang={otherLocale}
       >
@@ -123,7 +124,7 @@ const links = [
             </a>
             <a
               class="label text-sand py-3 no-underline"
-              href={localePath(otherLocale, path)}
+              href={alternateHref}
               hreflang={otherLocale}
               lang={otherLocale}
             >

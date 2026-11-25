@@ -27,8 +27,9 @@ export interface Chapter {
   id: 'profesionales' | 'proyecto';
   title: string;
   text: string;
-  jumpLabel: string;
-  jumpTo: 'profesionales' | 'proyecto';
+  /** Salto opcional al otro capítulo. */
+  jumpLabel?: string;
+  jumpTo?: 'profesionales' | 'proyecto';
 }
 
 /**
@@ -53,7 +54,8 @@ export interface HomeContent {
     paths: AudiencePath[];
     imageTodo: string;
   };
-  marquee: string[];
+  /** Franja fija al pie del hero que lleva a la tienda. */
+  shopStrip: { label: string; cta: string };
   chapters: { pro: Chapter; project: Chapter };
   intro: { title: string[]; paragraphs: string[]; link: string };
   system: {
@@ -68,10 +70,11 @@ export interface HomeContent {
     supportLabel: string;
     /** Espesor de cada capa: pendiente de ficha técnica, no inventar. */
     thicknessTodo: string;
-    specsTitle: string;
-    specs: { name: string; todo: string }[];
+    /** Enlace a la página completa del sistema (datos técnicos, aplicación, documentación). */
+    fullSystemText: string;
+    fullSystemCta: string;
   };
-  application: { title: string[]; text: string; cta: string; areas: string[] };
+  application: { title: string[]; text: string; cta: string; shopCta: string; areas: string[] };
   shop: {
     title: string[];
     text: string;
@@ -80,21 +83,25 @@ export interface HomeContent {
     proTitle: string;
     proText: string;
     proCta: string;
+    proSignupText: string;
+    proSignupCta: string;
+    /** Cómo funciona el alta; el plazo sale de data/company.ts. */
+    proSignupSteps: string;
   };
   method: { title: string[]; text: string; points: string[]; imageTodo: string };
   contact: {
     title: string[];
     text: string;
     signature: string;
-    fields: { name: string; email: string; interest: string; message: string };
-    placeholders: { name: string; email: string; message: string };
+    placeholders: {
+      name: string;
+      email: string;
+      phone: string;
+      postalCode: string;
+      message: string;
+    };
+    /** Opciones de «Te interesa», en el orden de interestValues (application, products, professional, other). */
     interests: string[];
-    requiredNote: string;
-    submit: string;
-    unavailable: string;
-    emailTodo: string;
-    nextStep: string;
-    responseTodo: string;
   };
 }
 
@@ -118,12 +125,12 @@ export const home: Record<Locale, HomeContent> = {
           title: 'Tengo un proyecto',
           text: 'Particulares y estudios: aplicamos el sistema en tu espacio o te ayudamos a elegir los materiales.',
           primary: { label: 'Pedir presupuesto', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'Ver aplicaciones', target: { kind: 'section', id: 'aplicacion' } },
+          secondary: { label: 'Dónde se aplica', target: { kind: 'section', id: 'aplicacion' } },
         },
       ],
       imageTodo: 'TODO: fotografía real de proyecto',
     },
-    marquee: ['Preparación', 'Base', 'Acabado', 'Protección', 'Superficies continuas'],
+    shopStrip: { label: 'Todo el sistema, en la tienda online', cta: 'Comprar en la tienda' },
     chapters: {
       pro: {
         id: 'profesionales',
@@ -135,18 +142,16 @@ export const home: Record<Locale, HomeContent> = {
       project: {
         id: 'proyecto',
         title: 'Para tu proyecto',
-        text: 'Aplicamos el sistema en tu espacio, de la preparación del soporte al último detalle.',
-        jumpLabel: '¿Eres profesional?',
-        jumpTo: 'profesionales',
+        text: 'Aplicamos el sistema en tu espacio o te llevas los materiales para hacerlo tú.',
       },
     },
     intro: {
       title: ['Un material.', 'Dos maneras', 'de transformar.'],
       paragraphs: [
-        'En ZEMENT unimos experiencia en aplicación de microcemento y una selección de productos especializados. Acompañamos tanto a quienes quieren renovar sus espacios como a profesionales que buscan materiales de confianza.',
-        'Superficies continuas, acabados cuidados y soluciones pensadas para cada proyecto. La calidad está en el material, en la técnica y en cada detalle.',
+        'TODO: presentación de Zement con hechos comprobables (qué fabrica, dónde y para quién)',
+        'TODO: qué diferencia al sistema Zement, con datos y no con adjetivos',
       ],
-      link: 'Descubre nuestra filosofía',
+      link: 'Ver cómo se construye',
     },
     system: {
       title: ['Calidad que', 'se puede comprobar.'],
@@ -162,18 +167,15 @@ export const home: Record<Locale, HomeContent> = {
       stepLabel: 'Capa',
       supportLabel: 'Soporte existente',
       thicknessTodo: 'TODO: mm',
-      specsTitle: 'Documentación por producto',
-      specs: [
-        { name: 'Ficha técnica', todo: 'TODO: PDF real' },
-        { name: 'Hoja de seguridad', todo: 'TODO: PDF real' },
-        { name: 'Rendimiento', todo: 'TODO: kg/m² reales' },
-        { name: 'Ensayos y normativa', todo: 'TODO: datos reales' },
-      ],
+      fullSystemText:
+        'Datos técnicos, aplicación paso a paso, colores y fichas para descargar: todo en la página del sistema.',
+      fullSystemCta: 'Ver el sistema completo',
     },
     application: {
-      title: ['Tu espacio.', 'Nuestra experiencia.'],
+      title: ['Tu espacio,', 'con el sistema completo.'],
       text: 'Realizamos trabajos de microcemento con atención al soporte, la preparación y el acabado final. Una solución versátil para renovar sin recargar, con continuidad visual y personalidad.',
       cta: 'Pedir presupuesto',
+      shopCta: 'Comprar los materiales',
       areas: [
         'Suelos y paredes',
         'Baños y duchas',
@@ -184,7 +186,7 @@ export const home: Record<Locale, HomeContent> = {
       ],
     },
     shop: {
-      title: ['Materiales para', 'crear sin límites.'],
+      title: ['Los materiales', 'de cada capa.'],
       text: 'Descubre una selección de productos para preparar, aplicar y proteger superficies de microcemento.',
       categories: [
         {
@@ -214,17 +216,22 @@ export const home: Record<Locale, HomeContent> = {
       ],
       cta: 'Ver en la tienda',
       proTitle: 'Distribuidores y profesionales',
-      proText: 'Los clientes profesionales acceden a su tarifa iniciando sesión en la tienda.',
+      proText:
+        'Inicia sesión y la tienda te muestra tu tarifa, sin IVA, en cada producto. Sin pedir precios por correo.',
       proCta: 'Acceso profesional',
+      proSignupText: '¿Aún no tienes cuenta profesional?',
+      proSignupCta: 'Solicitar el alta',
+      proSignupSteps:
+        'Regístrate en la tienda con los datos de tu empresa (razón social y CIF). Revisamos la solicitud y activamos tu tarifa en',
     },
     method: {
       title: ['Del primer gesto', 'al último detalle.'],
-      text: 'Creemos en los materiales bien elegidos y en el trabajo hecho con criterio. Por eso ZEMENT reúne aplicación especializada y productos para que cada proyecto tenga una solución coherente.',
+      text: 'TODO: cómo trabaja Zement en una obra, con hechos comprobables',
       points: [
-        'Asesoramiento cercano',
-        'Selección especializada',
-        'Acabados cuidados',
-        'Soluciones a medida',
+        'TODO: compromiso comprobable (p. ej. ficha técnica por producto)',
+        'TODO: compromiso comprobable (p. ej. sistema completo de un solo fabricante)',
+        'TODO: compromiso comprobable',
+        'TODO: compromiso comprobable',
       ],
       imageTodo: 'TODO: fotografía real de acabado',
     },
@@ -232,26 +239,19 @@ export const home: Record<Locale, HomeContent> = {
       title: ['¿Empezamos', 'tu proyecto?'],
       text: 'Cuéntanos si buscas un aplicador profesional o si necesitas productos para tu propio proyecto. Te ayudaremos a encontrar el siguiente paso.',
       signature: 'Zement · Microcemento & Materials',
-      fields: {
-        name: 'Nombre',
-        email: 'Correo electrónico',
-        interest: 'Estoy interesado/a en',
-        message: 'Cuéntanos más',
+      placeholders: {
+        name: 'Tu nombre',
+        email: 'tu@email.com',
+        phone: '+34 …',
+        postalCode: 'Ej.: 28001',
+        message: 'Qué espacio, en qué estado está el soporte, plazos…',
       },
-      placeholders: { name: 'Tu nombre', email: 'tu@email.com', message: '¿Qué tienes en mente?' },
       interests: [
-        'Aplicación de microcemento',
+        'Aplicación del sistema en mi espacio',
         'Comprar productos',
-        'Información profesional',
+        'Alta o información profesional',
         'Otro',
       ],
-      requiredNote: 'Los campos con * son obligatorios.',
-      submit: 'Enviar consulta',
-      unavailable:
-        'El envío desde la web estará disponible muy pronto. Mientras tanto, escríbenos a',
-      emailTodo: 'TODO: correo real de contacto',
-      nextStep: 'Te responderemos en',
-      responseTodo: 'TODO: plazo real de respuesta',
     },
   },
   en: {
@@ -273,12 +273,12 @@ export const home: Record<Locale, HomeContent> = {
           title: 'I have a project',
           text: 'Homeowners and studios: we apply the system in your space or help you choose the materials.',
           primary: { label: 'Request a quote', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'See applications', target: { kind: 'section', id: 'aplicacion' } },
+          secondary: { label: 'Where it is used', target: { kind: 'section', id: 'aplicacion' } },
         },
       ],
       imageTodo: 'TODO: real project photograph',
     },
-    marquee: ['Preparation', 'Base', 'Finish', 'Protection', 'Seamless surfaces'],
+    shopStrip: { label: 'The whole system, in the online shop', cta: 'Buy in the shop' },
     chapters: {
       pro: {
         id: 'profesionales',
@@ -290,18 +290,16 @@ export const home: Record<Locale, HomeContent> = {
       project: {
         id: 'proyecto',
         title: 'For your project',
-        text: 'We apply the system in your space, from substrate preparation to the final detail.',
-        jumpLabel: 'Are you a professional?',
-        jumpTo: 'profesionales',
+        text: 'We apply the system in your space, or you take the materials and do it yourself.',
       },
     },
     intro: {
       title: ['One material.', 'Two ways', 'to transform.'],
       paragraphs: [
-        'At ZEMENT we combine expertise in microcement application with a selection of specialist products. We support both those who want to renew their spaces and professionals looking for reliable materials.',
-        'Seamless surfaces, careful finishes and solutions designed for each project. Quality lies in the material, the technique and every detail.',
+        'TODO: introduction to Zement with verifiable facts (what it makes, where and for whom)',
+        'TODO: what sets the Zement system apart, with data rather than adjectives',
       ],
-      link: 'Discover our philosophy',
+      link: 'See how it is built',
     },
     system: {
       title: ['Quality you', 'can verify.'],
@@ -317,18 +315,15 @@ export const home: Record<Locale, HomeContent> = {
       stepLabel: 'Layer',
       supportLabel: 'Existing substrate',
       thicknessTodo: 'TODO: mm',
-      specsTitle: 'Documentation for every product',
-      specs: [
-        { name: 'Technical data sheet', todo: 'TODO: real PDF' },
-        { name: 'Safety data sheet', todo: 'TODO: real PDF' },
-        { name: 'Coverage', todo: 'TODO: real kg/m²' },
-        { name: 'Tests and standards', todo: 'TODO: real data' },
-      ],
+      fullSystemText:
+        'Technical data, step-by-step application, colours and downloadable sheets: all on the system page.',
+      fullSystemCta: 'See the full system',
     },
     application: {
-      title: ['Your space.', 'Our expertise.'],
+      title: ['Your space,', 'with the complete system.'],
       text: 'We carry out microcement work with attention to the substrate, preparation and final finish. A versatile way to renovate without clutter, with visual continuity and character.',
       cta: 'Request a quote',
+      shopCta: 'Buy the materials',
       areas: [
         'Floors and walls',
         'Bathrooms and showers',
@@ -339,7 +334,7 @@ export const home: Record<Locale, HomeContent> = {
       ],
     },
     shop: {
-      title: ['Materials to', 'create without limits.'],
+      title: ['The materials', 'for every layer.'],
       text: 'Discover a selection of products to prepare, apply and protect microcement surfaces.',
       categories: [
         {
@@ -369,43 +364,42 @@ export const home: Record<Locale, HomeContent> = {
       ],
       cta: 'View in the shop',
       proTitle: 'Distributors and professionals',
-      proText: 'Professional customers see their own prices after signing in to the shop.',
+      proText:
+        'Sign in and the shop shows your own price list, excluding VAT, on every product. No need to ask for prices by email.',
       proCta: 'Professional access',
+      proSignupText: 'No professional account yet?',
+      proSignupCta: 'Request an account',
+      proSignupSteps:
+        'Register in the shop with your company details (company name and tax ID). We review the request and activate your price list within',
     },
     method: {
       title: ['From the first gesture', 'to the final detail.'],
-      text: 'We believe in well-chosen materials and work done with judgement. That is why ZEMENT brings together specialist application and products, so every project has a coherent solution.',
-      points: ['Close advice', 'Specialist selection', 'Careful finishes', 'Bespoke solutions'],
+      text: 'TODO: how Zement works on a job, with verifiable facts',
+      points: [
+        'TODO: verifiable commitment (e.g. data sheet for every product)',
+        'TODO: verifiable commitment (e.g. complete system from one manufacturer)',
+        'TODO: verifiable commitment',
+        'TODO: verifiable commitment',
+      ],
       imageTodo: 'TODO: real finish photograph',
     },
     contact: {
       title: ['Shall we start', 'your project?'],
       text: 'Tell us whether you are looking for a professional applicator or need products for your own project. We will help you find the next step.',
       signature: 'Zement · Microcement & Materials',
-      fields: {
-        name: 'Name',
-        email: 'Email',
-        interest: 'I am interested in',
-        message: 'Tell us more',
-      },
       placeholders: {
         name: 'Your name',
         email: 'you@email.com',
-        message: 'What do you have in mind?',
+        phone: '+44 …',
+        postalCode: 'E.g. SW1A 1AA',
+        message: 'Which space, the state of the substrate, timing…',
       },
       interests: [
-        'Microcement application',
+        'Applying the system in my space',
         'Buying products',
-        'Professional information',
+        'Professional account or information',
         'Other',
       ],
-      requiredNote: 'Fields marked * are required.',
-      submit: 'Send enquiry',
-      unavailable:
-        'Sending from the website will be available very soon. In the meantime, write to us at',
-      emailTodo: 'TODO: real contact email',
-      nextStep: 'We will reply within',
-      responseTodo: 'TODO: real response time',
     },
   },
 };

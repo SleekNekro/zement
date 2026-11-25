@@ -1,0 +1,66 @@
+---
+import Value from '../../ui/Value.astro';
+import type { SystemPageText } from '../../../data/systemPage';
+import type { LocalizedSystem } from '../../../lib/systems';
+
+interface Props {
+  system: LocalizedSystem;
+  text: SystemPageText;
+}
+
+const { system, text } = Astro.props;
+---
+
+<!-- Comparativa técnica: filas = datos, columnas = productos (desplazable en móvil). -->
+<section
+  id="datos-tecnicos"
+  class="bg-stone py-section"
+>
+  <div class="container-site">
+    <div class="grid gap-6 md:grid-cols-12">
+      <h2 class="display-lg text-navy md:col-span-6">{text.specsTitle}</h2>
+      <p class="text-ink/75 self-end md:col-span-5 md:col-start-8">{text.specsText}</p>
+    </div>
+
+    <div class="-mx-gutter px-gutter mt-14 overflow-x-auto">
+      <table class="w-full min-w-[44rem] border-collapse text-left tabular-nums">
+        <thead>
+          <tr class="border-navy border-b">
+            <th
+              scope="col"
+              class="label text-ink/75 py-4 pr-6 font-medium"
+            >
+              <span class="sr-only">{text.specsTitle}</span>
+            </th>
+            {system.products.map((product) => (
+              <th
+                scope="col"
+                class="py-4 pr-6 align-bottom font-normal"
+              >
+                <span class="label text-ink/75 block">{product.code}</span>
+                <span class="display text-navy text-lg">{product.layer}</span>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {system.specs.map((row) => (
+            <tr class="border-line border-b">
+              <th
+                scope="row"
+                class="text-navy py-4 pr-6 font-normal"
+              >
+                {row.label}
+              </th>
+              {row.values.map((value) => (
+                <td class="py-4 pr-6">
+                  <Value text={value} />
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

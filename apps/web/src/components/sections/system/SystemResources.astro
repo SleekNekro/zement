@@ -1,0 +1,56 @@
+---
+import Arrow from '../../ui/Arrow.astro';
+import Todo from '../../ui/Todo.astro';
+import Value from '../../ui/Value.astro';
+import type { SystemPageText } from '../../../data/systemPage';
+import type { LocalizedSystem } from '../../../lib/systems';
+
+interface Props {
+  system: LocalizedSystem;
+  text: SystemPageText;
+}
+
+const { system, text } = Astro.props;
+---
+
+<!-- Colores y documentación descargable, uno junto al otro. -->
+<section
+  id="documentacion"
+  class="py-section"
+>
+  <div class="container-site grid gap-16 lg:grid-cols-12">
+    <div class="lg:col-span-5">
+      <h2 class="display-lg text-navy">{text.colorsTitle}</h2>
+      <p class="text-muted mt-6">
+        <Value text={system.colors} />
+      </p>
+    </div>
+
+    <div class="lg:col-span-6 lg:col-start-7">
+      <h2 class="display-lg text-navy">{text.docsTitle}</h2>
+      <p class="text-muted mt-6">{text.docsText}</p>
+      <ul class="border-navy mt-10 border-t">
+        {system.documents.map((doc) => (
+          <li class="border-line flex min-h-16 items-center justify-between gap-6 border-b py-4">
+            <span class="text-navy">{doc.label}</span>
+            {doc.href ? (
+              <a
+                class="link-arrow label text-navy bg-none pb-0 min-h-11 items-center"
+                href={doc.href}
+                download
+              >
+                {text.download}
+                <Arrow
+                  direction="down"
+                  class="btn-arrow"
+                />
+              </a>
+            ) : (
+              <Todo text={text.docPending} />
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

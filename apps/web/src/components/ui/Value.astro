@@ -1,0 +1,13 @@
+---
+/** Muestra un valor de contenido; si está pendiente («TODO…»), lo marca visiblemente. */
+import Todo from './Todo.astro';
+import { isTodo } from '../../lib/systems';
+
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+{isTodo(text) ? <Todo text={text} /> : text}

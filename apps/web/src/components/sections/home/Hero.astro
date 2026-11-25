@@ -1,21 +1,25 @@
 ---
 import AudiencePaths from './AudiencePaths.astro';
+import Arrow from '../../ui/Arrow.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
-import type { Locale } from '../../../i18n/ui';
+import { shopUrl } from '../../../lib/shop';
+import { t, type Locale } from '../../../i18n/ui';
 
 interface Props {
   locale: Locale;
   hero: HomeContent['hero'];
-  marquee: string[];
+  shopStrip: HomeContent['shopStrip'];
+  /** Capas del sistema (código y nombre) para la franja de la tienda. */
+  layers: { code: string; name: string }[];
 }
 
-const { locale, hero, marquee } = Astro.props;
+const { locale, hero, shopStrip, layers } = Astro.props;
 ---
 
 <section
-  class="surface-material text-paper relative isolate flex min-h-svh flex-col overflow-hidden"
+  class="surface-microcement-dark text-paper relative isolate flex min-h-svh flex-col overflow-hidden"
   data-hero
 >
   <div
@@ -23,60 +27,62 @@ const { locale, hero, marquee } = Astro.props;
     aria-hidden="true"
   ></div>
 
-  <!-- Retícula de 12 columnas visible: orden y precisión -->
-  <div
-    aria-hidden="true"
-    class="container-site pointer-events-none absolute inset-0 -z-10 grid grid-cols-4 md:grid-cols-12"
-  >
-    {Array.from({ length: 12 }, (_, i) => (
-      <span class:list={['border-line-dark/40 border-l', i >= 4 && 'hidden md:block']} />
-    ))}
-  </div>
-
-  <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-6 md:pt-32">
+  <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-10 md:pt-32 md:pb-14">
     <RevealHeading
       as="h1"
       lines={hero.title}
       emphasis={1}
       class="display-hero"
     />
+    <p
+      class="text-paper/75 order-2 mt-8 max-w-xl md:order-none md:mt-8"
+      data-reveal
+    >
+      {hero.text}
+    </p>
 
-    <div class="mt-8 grid gap-8 md:mt-12 xl:grid-cols-12 xl:items-end xl:gap-10">
-      <p
-        class="text-paper/75 max-w-md xl:col-span-4 xl:pb-10"
-        data-reveal
-      >
-        {hero.text}
-      </p>
-      <div class="xl:col-span-8">
-        <AudiencePaths
-          locale={locale}
-          label={hero.pathsLabel}
-          paths={hero.paths}
-        />
-      </div>
+    <div class="order-1 mt-8 md:order-none md:mt-12">
+      <AudiencePaths
+        locale={locale}
+        label={hero.pathsLabel}
+        paths={hero.paths}
+      />
     </div>
 
-    <p class="mt-2">
+    <p class="order-3 mt-6 md:order-none">
       <Todo text={hero.imageTodo} />
     </p>
   </div>
 
-  <div
-    class="border-line-dark display text-paper/90 border-t py-5 text-xl md:text-2xl"
-    aria-hidden="true"
+  <!-- Franja fija (sin movimiento) que lleva a la tienda: la salida comercial siempre a la vista -->
+  <a
+    class="group border-line-dark hover:bg-paper hover:text-night relative block border-t no-underline transition-colors duration-500"
+    href={shopUrl(locale)}
   >
-    <div class="marquee">
-      {[0, 1].map(() => (
-        <div class="marquee-track">
-          {marquee.map((word) => (
-            <>
-              <span class="uppercase">{word}</span>
-              <span class="text-gold">■</span>
-            </>
+    <span class="container-site flex min-h-16 items-center justify-between gap-6 py-4">
+      <span class="flex items-center gap-8">
+        <span class="label text-sand group-hover:text-night transition-colors duration-500">
+          {shopStrip.label}
+        </span>
+        <span
+          class="label text-paper/60 group-hover:text-night/70 hidden gap-6 transition-colors duration-500 lg:flex"
+          aria-hidden="true"
+        >
+          {layers.map((layer) => (
+            <span>
+              {layer.code} {layer.name}
+            </span>
           ))}
-        </div>
-      ))}
-    </div>
-  </div>
+        </span>
+      </span>
+      <span class="label flex shrink-0 items-center gap-3">
+        {shopStrip.cta}
+        <span class="sr-only"> {t(locale, 'nav.external')}</span>
+        <Arrow
+          direction="out"
+          class="btn-arrow size-4 transition-transform duration-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+        />
+      </span>
+    </span>
+  </a>
 </section>

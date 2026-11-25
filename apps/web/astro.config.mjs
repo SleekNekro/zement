@@ -12,4 +12,15 @@ export default defineConfig({
     routing: { prefixDefaultLocale: false },
   },
   vite: { plugins: [tailwindcss()] },
+  integrations: [
+    {
+      name: 'zement-php-contact',
+      hooks: {
+        'astro:build:done': async ({ dir }) => {
+          const { preparePhpContact } = await import('./scripts/php-contact.mjs');
+          await preparePhpContact(dir);
+        },
+      },
+    },
+  ],
 });

@@ -1,6 +1,7 @@
 ---
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Todo from '../../ui/Todo.astro';
+import Value from '../../ui/Value.astro';
 import type { HomeContent } from '../../../data/home';
 
 interface Props {
@@ -16,13 +17,13 @@ const headingTag = `h${level}` as 'h2' | 'h3';
 <section class="py-section">
   <div class="container-site grid gap-16 md:grid-cols-12 md:items-center">
     <div
-      class="surface-material relative flex aspect-[4/5] items-end overflow-hidden p-6 md:col-span-5 md:p-8"
+      class="surface-microcement-light border-line relative flex aspect-[4/5] items-end overflow-hidden border p-6 md:col-span-5 md:p-8"
       role="img"
       aria-label={method.imageTodo}
       data-reveal
     >
       <span
-        class="display text-paper/10 absolute -top-4 -left-2 text-[9rem] leading-none md:text-[12rem]"
+        class="display text-navy/10 absolute -top-4 -left-2 text-[9rem] leading-none md:text-[12rem]"
         aria-hidden="true"
       >
         Z
@@ -40,7 +41,7 @@ const headingTag = `h${level}` as 'h2' | 'h3';
         class="text-muted mt-8 max-w-lg"
         data-reveal
       >
-        {method.text}
+        <Value text={method.text} />
       </p>
       <ul class="mt-10 grid sm:grid-cols-2 sm:gap-x-10">
         {method.points.map((point, index) => (
@@ -53,7 +54,7 @@ const headingTag = `h${level}` as 'h2' | 'h3';
               class="bg-gold size-1.5"
               aria-hidden="true"
             />
-            {point}
+            <Value text={point} />
           </li>
         ))}
       </ul>

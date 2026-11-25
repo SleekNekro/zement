@@ -31,20 +31,22 @@ const { chapter, tone = 'light' } = Astro.props;
       >
         {chapter.text}
       </p>
-      <a
-        class:list={[
-          'link-arrow label w-fit bg-none pb-0 whitespace-nowrap',
-          tone === 'dark' ? 'text-sand hover:text-paper' : 'text-muted hover:text-navy',
-        ]}
-        href={`#${chapter.jumpTo}`}
-        data-reveal
-      >
-        {chapter.jumpLabel}
-        <Arrow
-          direction="down"
-          class="btn-arrow"
-        />
-      </a>
+      {chapter.jumpLabel && chapter.jumpTo && (
+        <a
+          class:list={[
+            'link-arrow label min-h-11 w-fit items-center bg-none pb-0 whitespace-nowrap',
+            tone === 'dark' ? 'text-sand hover:text-paper' : 'text-muted hover:text-navy',
+          ]}
+          href={`#${chapter.jumpTo}`}
+          data-reveal
+        >
+          {chapter.jumpLabel}
+          <Arrow
+            direction="down"
+            class="btn-arrow"
+          />
+        </a>
+      )}
     </div>
   </div>
 </header>

@@ -1,0 +1,77 @@
+---
+import Button from '../../ui/Button.astro';
+import LayerStack from '../../ui/LayerStack.astro';
+import Value from '../../ui/Value.astro';
+import type { SystemPageText } from '../../../data/systemPage';
+import type { LocalizedSystem } from '../../../lib/systems';
+import { shopUrl } from '../../../lib/shop';
+import { localePath, t, type Locale } from '../../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  system: LocalizedSystem;
+  text: SystemPageText;
+}
+
+const { locale, system, text } = Astro.props;
+const layers = system.products.map((product) => ({ code: product.code, name: product.layer }));
+---
+
+<section class="border-navy border-b pt-28 pb-16 md:pt-36 md:pb-24">
+  <div class="container-site grid gap-12 lg:grid-cols-12 lg:items-end">
+    <div class="lg:col-span-7">
+      <nav
+        aria-label="Breadcrumb"
+        class="label text-muted"
+      >
+        <ol class="flex flex-wrap gap-2">
+          <li>
+            <a
+              class="hover:text-navy"
+              href={localePath(locale, '/')}
+            >
+              {text.breadcrumbHome}
+            </a>
+            <span aria-hidden="true"> /</span>
+          </li>
+          <li>{text.breadcrumbProducts}</li>
+        </ol>
+      </nav>
+      <h1 class="display-xl text-navy mt-8">{system.name}</h1>
+      <p class="text-ink mt-8 max-w-xl text-lg">
+        <Value text={system.audience} />
+      </p>
+      <p class="text-muted mt-4 max-w-xl">
+        <Value text={system.summary} />
+      </p>
+      <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+        <Button
+          href={shopUrl(locale, 'search', system.shopQuery)}
+          variant="solid-dark"
+          arrow="out"
+        >
+          {text.buySystem}
+          <span class="sr-only"> {t(locale, 'nav.external')}</span>
+        </Button>
+        <Button
+          href="#documentacion"
+          variant="outline-dark"
+          arrow="down"
+        >
+          {text.seeDocs}
+        </Button>
+      </div>
+    </div>
+    <figure class="lg:col-span-5">
+      <figcaption class="label text-muted mb-3">{text.layersLabel}</figcaption>
+      <LayerStack
+        layers={layers}
+        label={text.layersLabel}
+        supportLabel={text.supportLabel}
+        thicknessLabel={text.thicknessTodo}
+        isStatic
+        class="h-80 md:h-[26rem]"
+      />
+    </figure>
+  </div>
+</section>

@@ -172,23 +172,6 @@
   }
 }
 
-/* ---------- Cinta continua (marquee) ---------- */
-.marquee {
-  display: flex;
-  overflow: hidden;
-  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
-}
-
-.marquee-track {
-  display: flex;
-  flex-shrink: 0;
-  gap: 3rem;
-  align-items: center;
-  padding-right: 3rem;
-  transform: translate3d(calc(var(--marquee-shift, 0) * -1px), 0, 0);
-  will-change: transform;
-}
-
 /* ---------- Hero: luz que sigue al puntero sobre la materia ---------- */
 .hero-light {
   position: absolute;
@@ -284,19 +267,28 @@
 
 /* ---------- Sistema por capas ---------- */
 
-/* Cada capa se extiende de abajo arriba, como si se aplicara con llana. */
-.layer {
-  transition:
-    clip-path var(--zm-duration-slow) var(--zm-ease-inout),
-    filter var(--zm-duration) var(--zm-ease);
+/*
+ * Cada capa existe desde el principio como contorno con su nombre (estado fantasma);
+ * su relleno se extiende de abajo arriba, como aplicado con llana, al llegar a su paso.
+ */
+.layer-fill {
+  transition: clip-path var(--zm-duration-slow) var(--zm-ease-inout);
 }
 
-.motion .layers .layer {
+.layer-label {
+  transition: opacity var(--zm-duration) var(--zm-ease);
+}
+
+.motion .layers .layer:not(.is-built) .layer-fill {
   clip-path: inset(100% 0 0 0);
 }
 
-.motion .layers .layer.is-built {
-  clip-path: inset(0);
+.motion .layers .layer:not(.is-built) .layer-label {
+  opacity: 0.7;
+}
+
+.layer {
+  transition: filter var(--zm-duration) var(--zm-ease);
 }
 
 /* Las capas ya construidas se atenúan; la activa queda nítida y marcada en oro. */
