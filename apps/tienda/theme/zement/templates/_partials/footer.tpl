@@ -1,5 +1,6 @@
 {**
- * Pie de Hummingbird con la firma de la web de marca: el logotipo a todo el ancho al final.
+ * Pie de Hummingbird con la firma de la web de marca: el logotipo a todo el ancho al final
+ * y una barra con el copyright y los textos legales (displayFooterAfter).
  *}
 {extends file='parent:_partials/footer.tpl'}
 
@@ -11,15 +12,6 @@
                 {block name='hook_footer_main'}
                     <div class="footer__main-top row">
                         {$smarty.capture.footer_main_top nofilter}
-                    </div>
-                {/block}
-            {/if}
-
-            {capture name="footer_main_bottom"}{hook h='displayFooterAfter'}{/capture}
-            {if isset($smarty.capture.footer_main_bottom) && $smarty.capture.footer_main_bottom}
-                {block name='hook_footer_after'}
-                    <div class="footer__main-bottom row">
-                        {$smarty.capture.footer_main_bottom nofilter}
                     </div>
                 {/block}
             {/if}
@@ -36,9 +28,11 @@
             >
         </div>
 
+        {* displayFooterAfter: textos legales (ps_linklist), en la barra final junto al copyright *}
         <div class="zement-footer-legal">
-            <div class="container">
+            <div class="container zement-footer-legal__inner">
                 {include file='_partials/copyright.tpl'}
+                {hook h='displayFooterAfter'}
             </div>
         </div>
     </div>

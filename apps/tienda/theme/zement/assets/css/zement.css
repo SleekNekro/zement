@@ -745,6 +745,60 @@ main h1 {
   color: var(--zm-color-sand);
 }
 
+/* Barra final como la de la web: copyright y textos legales en línea, sin acordeón. */
+.zement-footer-legal__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.zement-footer-legal .copyright {
+  margin: 0;
+  padding: 0;
+}
+
+.zement-footer-legal .ps-linklist {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.zement-footer-legal .footer-block__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.zement-footer-legal .footer-block__content.collapse {
+  display: block;
+}
+
+.zement-footer-legal .footer-block__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zement-footer-legal .footer-block__list a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+}
+
+.zement-footer-legal .footer-block__list a:hover {
+  color: var(--zm-color-paper);
+}
+
 /* Cabecera alta (barra, logotipo y familias): no se queda fija para no tapar el contenido. */
 .header.js-sticky-header {
   position: relative;

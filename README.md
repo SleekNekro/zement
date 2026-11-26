@@ -43,6 +43,7 @@ pnpm dev                                          # web Astro en http://localhos
 | `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`                          |
 | `pnpm tienda:catalog "<carpeta de fichas PDF>"`  | Instala los 8 idiomas e importa el catálogo (ver `apps/tienda/catalog/README.md`) |
 | `pnpm tienda:home`                               | Instala la portada (módulo `zementhome`) y quita los bloques de demostración      |
+| `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales  |
 
 ## Formulario de contacto
 

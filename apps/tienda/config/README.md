@@ -33,3 +33,18 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - Local: `pnpm tienda:home` (25/11/2026). El módulo se monta en el contenedor desde `infra/docker/docker-compose.yml`; tras actualizar el repo, `pnpm tienda:up` recrea el contenedor con el montaje.
 - IONOS: subir `apps/tienda/modules/zementhome` a `modules/`, instalarlo desde Módulos y desenganchar esos bloques en Diseño → Posiciones.
 - TODO: fotos para las familias sin imagen (imprimaciones, barnices, morteros, aditivos); hasta entonces muestran una superficie azul de marca.
+
+## Pie
+
+- Script [`scripts/setup-footer.php`](scripts/setup-footer.php) (`pnpm tienda:footer`, 26/11/2026). Rehace los bloques de `ps_linklist` cada vez que se ejecuta:
+  - **Productos:** las 8 familias en el orden del catálogo.
+  - **Zement:** Sistema, Profesionales y Contacto de la web de marca.
+  - **Textos legales** (aviso legal, privacidad, cookies y condiciones de venta): van en la barra final, junto a «© año Zement» (`displayFooterAfter`, del que se quita `blockreassurance`).
+- Los enlaces a la web usan `ZEMENT_WEB_URL` (por defecto `http://localhost:4321`). En producción: `ZEMENT_WEB_URL=https://… php setup-footer.php`.
+- La web solo está en español e inglés: en DE, FR, IT, PL, NO y FI los enlaces llevan a la versión inglesa.
+- Nombre de la tienda: «Zement» (`PS_SHOP_NAME`).
+- El correo de la tienda se oculta en «Información de la tienda» mientras sea el de pruebas (`*.test`).
+- Los textos del pie que no son de PrestaShop (títulos de columna y enlaces) se traducen en el script.
+- TODO (contenido real que tiene que facilitar Zement):
+  - Correo, teléfono y domicilio de la tienda (Parámetros de la tienda → Contacto → Tiendas). Son los mismos datos que faltan en `apps/web/src/data/company.ts`.
+  - Textos legales de la tienda en los 8 idiomas, antes de vender fuera de España y del mundo anglosajón.
