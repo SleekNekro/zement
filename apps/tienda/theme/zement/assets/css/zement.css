@@ -1697,3 +1697,219 @@ img[src*='/img/p/'][src*='-default-'] {
     transition: none;
   }
 }
+
+/* ---------------------------------------------------------------------------------------------
+ * Movimiento (assets/js/motion.js), con el lenguaje de la web de marca: lo que entra en pantalla
+ * sube y aparece, los filetes se dibujan de izquierda a derecha, el titular de la portada sube
+ * línea a línea y la foto se asienta. Solo con la clase `motion` en <html>: sin JavaScript o con
+ * «reducir movimiento», todo se ve quieto. Solo se animan transform, opacity y clip-path.
+ * ------------------------------------------------------------------------------------------- */
+.motion
+  :is(
+    .zm-proof__item,
+    .zm-projects__title,
+    .zm-projects__list > li,
+    .zm-home-row__head,
+    .products > *,
+    .zm-listing__bar,
+    .zm-sheet__stat,
+    .zm-system__step,
+    .zm-trust,
+    .footer__before
+  ) {
+  opacity: 0;
+  transform: translate3d(0, 1.5rem, 0);
+  transition:
+    opacity var(--zm-duration-slow) var(--zm-ease),
+    transform var(--zm-duration-slow) var(--zm-ease);
+  transition-delay: calc(var(--zm-reveal-index, 0) * 90ms);
+}
+
+.motion
+  :is(
+    .zm-proof__item,
+    .zm-projects__title,
+    .zm-projects__list > li,
+    .zm-home-row__head,
+    .products > *,
+    .zm-listing__bar,
+    .zm-sheet__stat,
+    .zm-system__step,
+    .zm-trust,
+    .footer__before
+  ).is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Filetes que se dibujan: el borde superior pasa a un ::before que crece desde la izquierda. */
+.motion :is(.zm-proof__item, .zm-home-row__head) {
+  position: relative;
+  border-top-color: transparent;
+}
+
+.motion :is(.zm-proof__item, .zm-home-row__head)::before {
+  position: absolute;
+  top: calc(-1 * var(--zm-hairline));
+  left: 0;
+  width: 100%;
+  height: var(--zm-hairline);
+  background: var(--zm-color-navy);
+  content: '';
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1400ms var(--zm-ease-inout);
+  transition-delay: calc(var(--zm-reveal-index, 0) * 90ms);
+}
+
+.motion :is(.zm-proof__item, .zm-home-row__head).is-visible::before {
+  transform: none;
+}
+
+/* Portada: la foto se asienta y el titular sube línea a línea; después, los botones. */
+.motion .zm-home-hero__image {
+  animation: zm-settle 2.4s var(--zm-ease) both;
+}
+
+.motion .zm-home-hero__title > span {
+  display: block;
+  animation: zm-line-up var(--zm-duration-slow) var(--zm-ease) both;
+}
+
+.motion .zm-home-hero__title > span:nth-child(2) {
+  animation-delay: 110ms;
+}
+
+.motion .zm-home-hero__title > span:nth-child(3) {
+  animation-delay: 220ms;
+}
+
+.motion .zm-home-hero__actions {
+  animation: zm-fade-up var(--zm-duration-slow) var(--zm-ease) 350ms both;
+}
+
+@keyframes zm-settle {
+  from {
+    transform: scale(1.08);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes zm-line-up {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: translate3d(0, 0.5em, 0);
+  }
+
+  to {
+    clip-path: inset(0 0 -0.1em 0);
+    transform: none;
+  }
+}
+
+@keyframes zm-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Listado: al filtrar o cambiar de vista, lo que vuelve a verse entra escalonado. */
+.motion .zm-enter {
+  animation: zm-fade-up var(--zm-duration) var(--zm-ease) both;
+  animation-delay: calc(var(--zm-enter-index, 0) * 45ms);
+}
+
+/* ---------------------------------------------------------------------------------------------
+ * Respuesta al ratón (solo con ratón y sin «reducir movimiento»).
+ * ------------------------------------------------------------------------------------------- */
+.product-miniature__image-container {
+  overflow: hidden;
+}
+
+.product-miniature__image,
+.product-miniature .zm-no-photo,
+.zm-project__media img {
+  transition: transform var(--zm-duration-slow) var(--zm-ease);
+}
+
+/* Nombre del producto: filete que se dibuja bajo el texto. */
+.product-miniature .product-miniature__title {
+  background: linear-gradient(currentcolor, currentcolor) left bottom / 0 var(--zm-hairline)
+    no-repeat;
+  transition: background-size var(--zm-duration) var(--zm-ease);
+}
+
+/* Accesos «¿Qué va a hacer?»: barrido de marino de abajo arriba, como las filas de la web. */
+.zm-projects .zm-project {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition:
+    border-color var(--zm-duration) var(--zm-ease),
+    color var(--zm-duration) var(--zm-ease);
+}
+
+.zm-project::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--zm-color-navy);
+  content: '';
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+.zm-home-row .zm-home-row__all {
+  background: linear-gradient(currentcolor, currentcolor) right bottom / 0 var(--zm-hairline)
+    no-repeat;
+  transition: background-size var(--zm-duration) var(--zm-ease);
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .product-miniature:hover .product-miniature__image,
+  .product-miniature:hover .zm-no-photo {
+    transform: scale(1.05);
+  }
+
+  .product-miniature:hover .product-miniature__title,
+  .product-miniature__title:focus-visible {
+    background-size: 100% var(--zm-hairline);
+  }
+
+  .zm-project:hover {
+    color: var(--zm-color-paper);
+  }
+
+  .zm-project:hover::before {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  .zm-project:hover .zm-project__media img {
+    transform: scale(1.12);
+  }
+
+  .zm-home-row__all:hover {
+    background-position: left bottom;
+    background-size: 100% var(--zm-hairline);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-miniature__image,
+  .product-miniature .zm-no-photo,
+  .zm-project__media img,
+  .zm-project::before {
+    transition: none;
+  }
+}

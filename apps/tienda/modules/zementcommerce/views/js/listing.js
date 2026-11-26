@@ -27,20 +27,43 @@
   const viewButtons = [...root.querySelectorAll('[data-zm-view]')];
   const cardList = () => document.getElementById('js-product-list');
 
+  /** Entrada escalonada de lo que vuelve a verse (estilo .zm-enter del tema, solo con movimiento). */
+  const enter = (elements) => {
+    elements.forEach((element, position) => {
+      element.classList.remove('zm-enter');
+      element.style.setProperty('--zm-enter-index', String(Math.min(position, 11)));
+    });
+    // Forzar el cálculo para que la animación vuelva a empezar.
+    void root.offsetWidth;
+    for (const element of elements) {
+      element.classList.add('zm-enter');
+    }
+  };
+
   const matches = (product) =>
     Object.entries(filters).every(([field, value]) => !value || product[field] === value);
 
-  const apply = () => {
+  const apply = (animate = false) => {
     const visible = new Set(index.filter(matches).map((product) => String(product.id)));
     const active = Object.values(filters).some(Boolean);
 
+    const shown = [];
     for (const card of document.querySelectorAll('#js-product-list [data-id-product]')) {
       // La tarjeta va dentro de una columna de la rejilla: se oculta la columna entera.
       const cell = card.closest('.products > *') ?? card;
       cell.hidden = !visible.has(card.getAttribute('data-id-product'));
+      if (!cell.hidden) {
+        shown.push(cell);
+      }
     }
     for (const row of root.querySelectorAll('[data-zm-row]')) {
       row.hidden = !visible.has(row.getAttribute('data-zm-row'));
+      if (!row.hidden) {
+        shown.push(row);
+      }
+    }
+    if (animate) {
+      enter(shown);
     }
 
     status.textContent = active
@@ -52,12 +75,19 @@
     empty.hidden = visible.size > 0;
   };
 
-  const setView = (view) => {
+  const setView = (view, animate = false) => {
     const isTable = view === 'table';
     table.hidden = !isTable;
     const list = cardList();
     if (list) {
       list.hidden = isTable;
+    }
+    if (animate) {
+      enter(
+        isTable
+          ? [...root.querySelectorAll('[data-zm-row]:not([hidden])')]
+          : [...document.querySelectorAll('#js-product-list .products > :not([hidden])')],
+      );
     }
     for (const button of viewButtons) {
       button.setAttribute('aria-pressed', String(button.getAttribute('data-zm-view') === view));
@@ -76,7 +106,7 @@
         button.setAttribute('aria-pressed', String(button.getAttribute('data-zm-value') === value));
       }
     }
-    apply();
+    apply(true);
   };
 
   for (const button of filterButtons) {
@@ -85,7 +115,7 @@
     );
   }
   for (const button of viewButtons) {
-    button.addEventListener('click', () => setView(button.getAttribute('data-zm-view')));
+    button.addEventListener('click', () => setView(button.getAttribute('data-zm-view'), true));
   }
   root.querySelector('[data-zm-clear]')?.addEventListener('click', () => {
     for (const field of Object.keys(filters)) {
