@@ -5,7 +5,8 @@
  *
  * - Instala el módulo y lo engancha (miniaturas, ficha, portada, barra superior, rutas).
  * - Enlace «Profesionales» de la barra superior: sección de profesionales de la web en cada
- *   idioma (config/web-routes.php), guardado en ZEMENT_PROFESSIONALS_URL.
+ *   idioma (config/web-routes.php), guardado en ZEMENT_PROFESSIONALS_URL; «Volver a la web»: portada
+ *   de la web en cada idioma, guardada en ZEMENT_WEB_HOME_URL.
  * - Productos relacionados nativos (accesorios) que citan las fichas: malla entre capas,
  *   disolvente, imprimación, resina… (apps/tienda/catalog/commerce.json → related).
  * - Fase 2: datos de empresa para la barra de confianza (config/company.php → ZEMENT_COMPANY)
@@ -56,6 +57,15 @@ foreach (Language::getLanguages(false) as $language) {
 }
 Configuration::updateValue('ZEMENT_PROFESSIONALS_URL', $professionals);
 echo "· «Profesionales» → {$webUrl}{$webRoutes['es']['professionals']} (y el resto de idiomas)\n";
+
+// «Volver a la web» en la barra superior: portada de la web en el idioma de la tienda.
+$webHome = [];
+foreach (Language::getLanguages(false) as $language) {
+    $routes = $webRoutes[$language['iso_code']] ?? $webRoutes['en'];
+    $webHome[(int) $language['id_lang']] = $webUrl . $routes['home'];
+}
+Configuration::updateValue('ZEMENT_WEB_HOME_URL', $webHome);
+echo "· «Volver a la web» → {$webUrl}{$webRoutes['es']['home']} (y el resto de idiomas)\n";
 
 // Productos relacionados (accesorios nativos), por clave del catálogo (= URL amigable en español).
 $data = json_decode((string) file_get_contents(_PS_MODULE_DIR_ . 'zementcommerce/data/commerce.json'), true, 512, JSON_THROW_ON_ERROR);

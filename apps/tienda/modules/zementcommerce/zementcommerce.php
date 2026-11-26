@@ -213,17 +213,23 @@ class ZementCommerce extends Module
         return $this->fetch('module:' . $this->name . '/views/templates/hook/projects.tpl');
     }
 
-    /** Barra superior: «Profesionales» → sección de profesionales de la web en el idioma. */
+    /**
+     * Barra superior: «Volver a la web» (portada de la web) y «Profesionales» (sección de
+     * profesionales de la web), en el idioma de la tienda. En móvil pasan al menú lateral.
+     */
     public function hookDisplayNav1(): string
     {
-        $url = (string) Configuration::get('ZEMENT_PROFESSIONALS_URL', (int) $this->context->language->id);
+        $idLang = (int) $this->context->language->id;
+        $webUrl = (string) Configuration::get('ZEMENT_WEB_HOME_URL', $idLang);
+        $professionalsUrl = (string) Configuration::get('ZEMENT_PROFESSIONALS_URL', $idLang);
 
-        if ($url === '') {
+        if ($webUrl === '' && $professionalsUrl === '') {
             return '';
         }
 
         $this->context->smarty->assign([
-            'zementProfessionalsUrl' => $url,
+            'zementWebUrl' => $webUrl,
+            'zementProfessionalsUrl' => $professionalsUrl,
             'zementStrings' => ZementCommerceStrings::forLanguage($this->context->language->iso_code),
         ]);
 

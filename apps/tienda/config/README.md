@@ -88,7 +88,7 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
     - calculadora de cantidades;
     - «Complete su sistema», con las cantidades de cada capa.
   - **Portada:** asesor «¿Qué va a hacer?».
-  - **Barra superior:** enlace «Profesionales» a la web, en cada idioma.
+  - **Barra superior:** enlaces «Volver a la web» (portada) y «Profesionales» a la web, en cada idioma; en móvil, en el menú lateral.
 - **Datos:** [`catalog/commerce.json`](../catalog/commerce.json): consumos y envases, sistemas, productos relacionados y proyectos.
   - Cada cifra lleva la frase de la ficha de la que sale.
   - Cuando la ficha da un intervalo, se toma el valor que pide más producto.

@@ -2,7 +2,7 @@
 
 /**
  * Rutas de la web de marca (apps/web) en los 8 idiomas, para los enlaces de la tienda hacia la
- * web (pie, consentimiento de privacidad, condiciones, «Profesionales»).
+ * web (pie, consentimiento de privacidad, condiciones, «Profesionales» y «Volver a la web»).
  *
  * Copia de las rutas de la web: si cambian allí, cambiarlas aquí.
  *   - Prefijo de idioma: apps/web/src/i18n/locales.ts (es sin prefijo; el resto /<iso>/)
@@ -28,6 +28,7 @@ $routes = [];
 foreach ($segments as $iso => $segment) {
     $prefix = $iso === 'es' ? '' : '/' . $iso;
     $routes[$iso] = [
+        'home' => "{$prefix}/",
         'system' => "{$prefix}/{$segment['systems']}/",
         'professionals' => "{$prefix}/#profesionales",
         'contact' => "{$prefix}/#contacto",
