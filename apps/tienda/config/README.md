@@ -77,7 +77,7 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - Portada (`zementhome` 0.3.0), al estilo de una tienda clásica:
   - Contenido: bloque principal compacto, accesos a las familias y una fila de 4 productos por familia, con las miniaturas del tema.
   - Caché: por idioma. `pnpm tienda:home` registra los ganchos que la vacían.
-- TODO: correo real del contacto «Servicio al cliente» (sigue el de pruebas).
+- Correo de la tienda: info@zement.es (`config/company.php`) como remitente, contacto «Servicio al cliente» y destino de los avisos (solicitudes profesionales). Para que los correos salgan de verdad hay que configurar el SMTP de ese buzón en el panel: Parámetros avanzados → Correo electrónico.
 
 ## Cuentas profesionales
 
