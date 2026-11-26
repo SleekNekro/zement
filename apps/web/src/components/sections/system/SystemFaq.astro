@@ -22,7 +22,7 @@ const { system, text } = Astro.props;
       {system.faqs.map((faq) => (
         <details class="group border-line border-b">
           <summary class="text-navy flex min-h-16 cursor-pointer list-none items-center justify-between gap-6 py-5 [&::-webkit-details-marker]:hidden">
-            <span class="display-md">
+            <span class="display-md leading-snug">
               <Value text={faq.question} />
             </span>
             <span

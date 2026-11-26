@@ -4,6 +4,7 @@ import SiteHeader from '../components/layout/SiteHeader.astro';
 import SiteFooter from '../components/layout/SiteFooter.astro';
 import ShopBar from '../components/layout/ShopBar.astro';
 import type { Locale } from '../i18n/ui';
+import { isIndexable } from '../lib/seo';
 import favicon from '@zement/design-tokens/brand/zement-favicon.svg?url';
 import displayFont from '@zement/design-tokens/fonts/archivo-latin-wdth-normal.woff2?url';
 
@@ -15,15 +16,27 @@ interface Props {
   path?: string;
   /** Rutas completas por idioma, cuando cada idioma tiene su propia URL (p. ej. /sistemas/ y /en/systems/). */
   paths?: Record<Locale, string>;
+  /** Fuera de buscadores aunque la web se publique (p. ej. borradores legales, 404). */
+  noindex?: boolean;
 }
 
-const { locale, title, description, path = '/', paths } = Astro.props;
+const { locale, title, description, path = '/', paths, noindex = false } = Astro.props;
 const alternates: Record<Locale, string> = paths ?? { es: path, en: `/en${path}` };
 const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
 const site = Astro.site ?? new URL('http://localhost:4321');
 const esUrl = new URL(alternates.es, site).href;
 const enUrl = new URL(alternates.en, site).href;
 const canonical = locale === 'es' ? esUrl : enUrl;
+const robots = isIndexable && !noindex ? 'index, follow' : 'noindex, nofollow';
+const ogImage = new URL('/og.png', site).href;
+// Datos estructurados mínimos y verificables: nombre, web y logotipo (sin datos pendientes).
+const organization = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Zement',
+  url: new URL('/', site).href,
+  logo: new URL('/apple-touch-icon.png', site).href,
+});
 ---
 
 <!doctype html>
@@ -84,8 +97,41 @@ const canonical = locale === 'es' ? esUrl : enUrl;
       content="website"
     />
     <meta
+      property="og:site_name"
+      content="Zement"
+    />
+    <meta
+      property="og:locale"
+      content={locale === 'es' ? 'es_ES' : 'en_GB'}
+    />
+    <meta
+      property="og:image"
+      content={ogImage}
+    />
+    <meta
+      property="og:image:width"
+      content="1200"
+    />
+    <meta
+      property="og:image:height"
+      content="630"
+    />
+    <meta
+      property="og:image:alt"
+      content="Zement"
+    />
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
       name="robots"
-      content="noindex"
+      content={robots}
+    />
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={organization}
     />
     <meta
       name="theme-color"

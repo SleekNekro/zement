@@ -1,0 +1,2 @@
+# Web de marca en IONOS (Apache): página propia para las direcciones que no existen.
+ErrorDocument 404 /404.html

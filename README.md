@@ -32,7 +32,8 @@ pnpm dev                                          # web Astro en http://localhos
 | Comando                                          | Qué hace                                                                          |
 | ------------------------------------------------ | --------------------------------------------------------------------------------- |
 | `pnpm dev`                                       | Web en modo desarrollo                                                            |
-| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos y build                             |
+| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos, build y pruebas                    |
+| `pnpm test`                                      | Pruebas de la web compilada: enlaces internos y metadatos de cada página          |
 | `pnpm format` / `pnpm format:check`              | Formatear / comprobar formato (Prettier)                                          |
 | `pnpm lint` / `pnpm lint:fix`                    | ESLint + Stylelint / con autocorrección                                           |
 | `pnpm check`                                     | `astro check` + `tsc`                                                             |
@@ -45,6 +46,16 @@ pnpm dev                                          # web Astro en http://localhos
 | `pnpm tienda:home`                               | Instala la portada (módulo `zementhome`) y quita los bloques de demostración      |
 | `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales  |
 | `pnpm tienda:settings`                           | Quita restos de demostración: moneda, tiendas, páginas, avisos y traducciones     |
+
+## Publicar la web
+
+- Compilar con el dominio y el permiso de indexación:
+  `ZEMENT_SITE=https://<dominio> ZEMENT_INDEXABLE=true pnpm build`.
+  - Sin `ZEMENT_INDEXABLE=true`, todas las páginas llevan `noindex` y `robots.txt` lo prohíbe todo (local y pruebas).
+  - `ZEMENT_SITE` fija las URL absolutas: canónicas, `hreflang`, sitemap e imagen para redes (`/og.png`).
+- Se genera `sitemap.xml` (las dos versiones de cada página enlazadas), `robots.txt` y `404.html`.
+- Subir el contenido de `apps/web/dist/` a la carpeta pública de IONOS. El `.htaccess` incluido sirve `404.html` para las direcciones que no existen.
+- La integración continua (`.github/workflows/verify.yml`) ejecuta `pnpm verify` en cada cambio cuando el repositorio esté en GitHub.
 
 ## Formulario de contacto
 
