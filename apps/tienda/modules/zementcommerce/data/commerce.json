@@ -13,6 +13,8 @@
   "basis-0-4-aqua-mix": {
    "de": {
     "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Grundschicht",
+    "aggregate": "Körnung 0,4 mm",
     "format": "Eimer à 20 kg",
     "stat": {
      "value": "2 Std.",
@@ -31,6 +33,8 @@
    },
    "en": {
     "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "layer": "Base coat",
+    "aggregate": "Aggregate 0.4 mm",
     "format": "20 kg bucket",
     "stat": {
      "value": "2 h",
@@ -49,6 +53,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Capa base",
+    "aggregate": "Árido 0,4 mm",
     "format": "Cubo de 20 kg",
     "stat": {
      "value": "2 h",
@@ -67,6 +73,8 @@
    },
    "fi": {
     "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Pohjakerros",
+    "aggregate": "Raekoko 0,4 mm",
     "format": "20 kg:n sanko",
     "stat": {
      "value": "2 h",
@@ -85,6 +93,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "layer": "Couche de base",
+    "aggregate": "Granulat 0,4 mm",
     "format": "Seau de 20 kg",
     "stat": {
      "value": "2 h",
@@ -103,6 +113,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Strato di base",
+    "aggregate": "Granulometria 0,4 mm",
     "format": "Secchio da 20 kg",
     "stat": {
      "value": "2 h",
@@ -121,6 +133,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "layer": "Grunnstrøk",
+    "aggregate": "Tilslag 0,4 mm",
     "format": "Bøtte på 20 kg",
     "stat": {
      "value": "2 t",
@@ -139,6 +153,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "layer": "Warstwa bazowa",
+    "aggregate": "Kruszywo 0,4 mm",
     "format": "Wiadro 20 kg",
     "stat": {
      "value": "2 h",
@@ -159,6 +175,8 @@
   "basis-direkt-1k": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Grundschicht",
+    "aggregate": "Körnung 0,4 mm",
     "format": "Eimer à 20 kg",
     "stat": {
      "value": "A1",
@@ -177,6 +195,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "layer": "Base coat",
+    "aggregate": "Aggregate 0.4 mm",
     "format": "20 kg bucket",
     "stat": {
      "value": "A1",
@@ -195,6 +215,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "layer": "Capa base",
+    "aggregate": "Árido 0,4 mm",
     "format": "Cubo de 20 kg",
     "stat": {
      "value": "A1",
@@ -213,6 +235,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Pohjakerros",
+    "aggregate": "Raekoko 0,4 mm",
     "format": "20 kg:n sanko",
     "stat": {
      "value": "A1",
@@ -231,6 +255,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "layer": "Couche de base",
+    "aggregate": "Granulat 0,4 mm",
     "format": "Seau de 20 kg",
     "stat": {
      "value": "A1",
@@ -249,6 +275,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "layer": "Strato di base",
+    "aggregate": "Granulometria 0,4 mm",
     "format": "Secchio da 20 kg",
     "stat": {
      "value": "A1",
@@ -267,6 +295,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "layer": "Grunnstrøk",
+    "aggregate": "Tilslag 0,4 mm",
     "format": "Bøtte på 20 kg",
     "stat": {
      "value": "A1",
@@ -285,6 +315,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "layer": "Warstwa bazowa",
+    "aggregate": "Kruszywo 0,4 mm",
     "format": "Wiadro 20 kg",
     "stat": {
      "value": "A1",
@@ -305,6 +337,8 @@
   "basis-direkt-2k": {
    "de": {
     "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": "Grundschicht",
+    "aggregate": "Körnung 0,4 mm",
     "format": "Eimer à 19 kg + Flasche à 1 kg",
     "stat": {
      "value": "A1",
@@ -319,6 +353,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "layer": "Base coat",
+    "aggregate": "Aggregate 0.4 mm",
     "format": "19 kg bucket + 1 kg bottle",
     "stat": {
      "value": "A1",
@@ -333,6 +369,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Capa base",
+    "aggregate": "Árido 0,4 mm",
     "format": "Cubo de 19 kg + botella de 1 kg",
     "stat": {
      "value": "A1",
@@ -347,6 +385,8 @@
    },
    "fi": {
     "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Pohjakerros",
+    "aggregate": "Raekoko 0,4 mm",
     "format": "19 kg:n sanko + 1 kg:n pullo",
     "stat": {
      "value": "A1",
@@ -361,6 +401,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT BICOMPOSANT",
+    "layer": "Couche de base",
+    "aggregate": "Granulat 0,4 mm",
     "format": "Seau de 19 kg + bouteille de 1 kg",
     "stat": {
      "value": "A1",
@@ -375,6 +417,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Strato di base",
+    "aggregate": "Granulometria 0,4 mm",
     "format": "Secchio da 19 kg + flacone da 1 kg",
     "stat": {
      "value": "A1",
@@ -389,6 +433,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "layer": "Grunnstrøk",
+    "aggregate": "Tilslag 0,4 mm",
     "format": "Bøtte på 19 kg + flaske på 1 kg",
     "stat": {
      "value": "A1",
@@ -403,6 +449,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "layer": "Warstwa bazowa",
+    "aggregate": "Kruszywo 0,4 mm",
     "format": "Wiadro 19 kg + butelka 1 kg",
     "stat": {
      "value": "A1",
@@ -419,6 +467,8 @@
   "basis-grob-0-6-aqua-mix": {
    "de": {
     "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Grundschicht",
+    "aggregate": "Körnung 0,6 mm",
     "format": "Eimer à 20 kg",
     "stat": {
      "value": "2 Std.",
@@ -437,6 +487,8 @@
    },
    "en": {
     "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "layer": "Base coat",
+    "aggregate": "Aggregate 0.6 mm",
     "format": "20 kg bucket",
     "stat": {
      "value": "2 h",
@@ -455,6 +507,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Capa base",
+    "aggregate": "Árido 0,6 mm",
     "format": "Cubo de 20 kg",
     "stat": {
      "value": "2 h",
@@ -473,6 +527,8 @@
    },
    "fi": {
     "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Pohjakerros",
+    "aggregate": "Raekoko 0,6 mm",
     "format": "20 kg:n sanko",
     "stat": {
      "value": "2 h",
@@ -491,6 +547,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "layer": "Couche de base",
+    "aggregate": "Granulat 0,6 mm",
     "format": "Seau de 20 kg",
     "stat": {
      "value": "2 h",
@@ -509,6 +567,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Strato di base",
+    "aggregate": "Granulometria 0,6 mm",
     "format": "Secchio da 20 kg",
     "stat": {
      "value": "2 h",
@@ -527,6 +587,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "layer": "Grunnstrøk",
+    "aggregate": "Tilslag 0,6 mm",
     "format": "Bøtte på 20 kg",
     "stat": {
      "value": "2 t",
@@ -545,6 +607,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "layer": "Warstwa bazowa",
+    "aggregate": "Kruszywo 0,6 mm",
     "format": "Wiadro 20 kg",
     "stat": {
      "value": "2 h",
@@ -565,6 +629,8 @@
   "fein-0-02-0-06-aqua-mix": {
    "de": {
     "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Feine Deckschicht",
+    "aggregate": "Körnung 0,02 bis 0,06 mm",
     "format": "Eimer à 15 kg",
     "stat": {
      "value": "2 Std.",
@@ -583,6 +649,8 @@
    },
    "en": {
     "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "layer": "Fine finish",
+    "aggregate": "Aggregate 0.02 to 0.06 mm",
     "format": "15 kg bucket",
     "stat": {
      "value": "2 h",
@@ -601,6 +669,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Acabado fino",
+    "aggregate": "Árido 0,02 a 0,06 mm",
     "format": "Cubo de 15 kg",
     "stat": {
      "value": "2 h",
@@ -619,6 +689,8 @@
    },
    "fi": {
     "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Hieno pinta",
+    "aggregate": "Raekoko 0,02–0,06 mm",
     "format": "15 kg:n sanko",
     "stat": {
      "value": "2 h",
@@ -637,6 +709,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "layer": "Finition fine",
+    "aggregate": "Granulat 0,02 à 0,06 mm",
     "format": "Seau de 15 kg",
     "stat": {
      "value": "2 h",
@@ -655,6 +729,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Finitura fine",
+    "aggregate": "Granulometria da 0,02 a 0,06 mm",
     "format": "Secchio da 15 kg",
     "stat": {
      "value": "2 h",
@@ -673,6 +749,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "layer": "Fin finish",
+    "aggregate": "Tilslag 0,02 til 0,06 mm",
     "format": "Bøtte på 15 kg",
     "stat": {
      "value": "2 t",
@@ -691,6 +769,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "layer": "Wykończenie drobne",
+    "aggregate": "Kruszywo 0,02 do 0,06 mm",
     "format": "Wiadro 15 kg",
     "stat": {
      "value": "2 h",
@@ -711,6 +791,8 @@
   "fein-0-02-0-06-kork": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "layer": null,
+    "aggregate": "Körnung 0,02 bis 0,06 mm",
     "format": "Eimer à 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -720,6 +802,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "layer": null,
+    "aggregate": "Aggregate 0.02 to 0.06 mm",
     "format": "12 kg bucket",
     "stat": {
      "value": "< 0.060",
@@ -729,6 +813,8 @@
    },
    "es": {
     "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "layer": null,
+    "aggregate": "Árido 0,02 a 0,06 mm",
     "format": "Cubo de 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -738,6 +824,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "layer": null,
+    "aggregate": "Raekoko 0,02–0,06 mm",
     "format": "12 kg:n sanko",
     "stat": {
      "value": "< 0,060",
@@ -747,6 +835,8 @@
    },
    "fr": {
     "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "layer": null,
+    "aggregate": "Granulat 0,02 à 0,06 mm",
     "format": "Seau de 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -756,6 +846,8 @@
    },
    "it": {
     "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "layer": null,
+    "aggregate": "Granulometria da 0,02 a 0,06 mm",
     "format": "Secchio da 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -765,6 +857,8 @@
    },
    "no": {
     "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "layer": null,
+    "aggregate": "Tilslag 0,02 til 0,06 mm",
     "format": "Bøtte på 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -774,6 +868,8 @@
    },
    "pl": {
     "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "layer": null,
+    "aggregate": "Kruszywo 0,02 do 0,06 mm",
     "format": "Wiadro 12 kg",
     "stat": {
      "value": "< 0,060",
@@ -785,6 +881,8 @@
   "fein-direkt-1k": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Feine Deckschicht",
+    "aggregate": "Körnung 0,08 mm",
     "format": "Eimer à 15 kg",
     "stat": {
      "value": "A1",
@@ -803,6 +901,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "layer": "Fine finish",
+    "aggregate": "Aggregate 0.08 mm",
     "format": "15 kg bucket",
     "stat": {
      "value": "A1",
@@ -821,6 +921,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "layer": "Acabado fino",
+    "aggregate": "Árido 0,08 mm",
     "format": "Cubo de 15 kg",
     "stat": {
      "value": "A1",
@@ -839,6 +941,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Hieno pinta",
+    "aggregate": "Raekoko 0,08 mm",
     "format": "15 kg:n sanko",
     "stat": {
      "value": "A1",
@@ -857,6 +961,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "layer": "Finition fine",
+    "aggregate": "Granulat 0,08 mm",
     "format": "Seau de 15 kg",
     "stat": {
      "value": "A1",
@@ -875,6 +981,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "layer": "Finitura fine",
+    "aggregate": "Granulometria 0,08 mm",
     "format": "Secchio da 15 kg",
     "stat": {
      "value": "A1",
@@ -893,6 +1001,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "layer": "Fin finish",
+    "aggregate": "Tilslag 0,08 mm",
     "format": "Bøtte på 15 kg",
     "stat": {
      "value": "A1",
@@ -911,6 +1021,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "layer": "Wykończenie drobne",
+    "aggregate": "Kruszywo 0,08 mm",
     "format": "Wiadro 15 kg",
     "stat": {
      "value": "A1",
@@ -931,6 +1043,8 @@
   "fein-direkt-2k": {
    "de": {
     "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": "Feine Deckschicht",
+    "aggregate": "Körnung 0,08 mm",
     "format": "Eimer à 14 kg + Flasche à 1 kg",
     "stat": {
      "value": "A1",
@@ -945,6 +1059,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "layer": "Fine finish",
+    "aggregate": "Aggregate 0.08 mm",
     "format": "14 kg bucket + 1 kg bottle",
     "stat": {
      "value": "A1",
@@ -959,6 +1075,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Acabado fino",
+    "aggregate": "Árido 0,08 mm",
     "format": "Cubo de 14 kg + botella de 1 kg",
     "stat": {
      "value": "A1",
@@ -973,6 +1091,8 @@
    },
    "fi": {
     "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Hieno pinta",
+    "aggregate": "Raekoko 0,08 mm",
     "format": "14 kg:n sanko + 1 kg:n pullo",
     "stat": {
      "value": "A1",
@@ -987,6 +1107,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT BICOMPOSANT",
+    "layer": "Finition fine",
+    "aggregate": "Granulat 0,08 mm",
     "format": "Seau de 14 kg + bouteille de 1 kg",
     "stat": {
      "value": "A1",
@@ -1001,6 +1123,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Finitura fine",
+    "aggregate": "Granulometria 0,08 mm",
     "format": "Secchio da 14 kg + flacone da 1 kg",
     "stat": {
      "value": "A1",
@@ -1015,6 +1139,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "layer": "Fin finish",
+    "aggregate": "Tilslag 0,08 mm",
     "format": "Bøtte på 14 kg + flaske på 1 kg",
     "stat": {
      "value": "A1",
@@ -1029,6 +1155,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "layer": "Wykończenie drobne",
+    "aggregate": "Kruszywo 0,08 mm",
     "format": "Wiadro 14 kg + butelka 1 kg",
     "stat": {
      "value": "A1",
@@ -1045,6 +1173,8 @@
   "fein-direkt-level-2k": {
    "de": {
     "subtitle": "SELBSTNIVELLIERENDER ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": "Feine Deckschicht",
+    "aggregate": "Körnung 0,08 mm",
     "format": "Eimer à 14 kg + Flasche à 1 kg",
     "stat": {
      "value": "A1",
@@ -1059,6 +1189,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT SELF-LEVELING MICROCEMENT",
+    "layer": "Fine finish",
+    "aggregate": "Aggregate 0.08 mm",
     "format": "14 kg bucket + 1 kg bottle",
     "stat": {
      "value": "A1",
@@ -1073,6 +1205,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO AUTONIVELANTE BICOMPONENTE",
+    "layer": "Acabado fino",
+    "aggregate": "Árido 0,08 mm",
     "format": "Cubo de 14 kg + botella de 1 kg",
     "stat": {
      "value": "A1",
@@ -1087,6 +1221,8 @@
    },
    "fi": {
     "subtitle": "KAKSIKOMPONENTTINEN ITSETASOITTUVA MIKROSEMENTTI",
+    "layer": "Hieno pinta",
+    "aggregate": "Raekoko 0,08 mm",
     "format": "14 kg:n sanko + 1 kg:n pullo",
     "stat": {
      "value": "A1",
@@ -1101,6 +1237,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT AUTOLISSANT BICOMPOSANT",
+    "layer": "Finition fine",
+    "aggregate": "Granulat 0,08 mm",
     "format": "Seau de 14 kg + bouteille de 1 kg",
     "stat": {
      "value": "A1",
@@ -1115,6 +1253,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO AUTOLIVELLANTE BICOMPONENTE",
+    "layer": "Finitura fine",
+    "aggregate": "Granulometria 0,08 mm",
     "format": "Secchio da 14 kg + flacone da 1 kg",
     "stat": {
      "value": "A1",
@@ -1129,6 +1269,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS SELVUTJEVNENDE MIKROSEMENT",
+    "layer": "Fin finish",
+    "aggregate": "Tilslag 0,08 mm",
     "format": "Bøtte på 14 kg + flaske på 1 kg",
     "stat": {
      "value": "A1",
@@ -1143,6 +1285,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT SAMOPOZIOMUJĄCY DWUSKŁADNIKOWY",
+    "layer": "Wykończenie drobne",
+    "aggregate": "Kruszywo 0,08 mm",
     "format": "Wiadro 14 kg + butelka 1 kg",
     "stat": {
      "value": "A1",
@@ -1159,6 +1303,8 @@
   "grob-3-4-mm-kork": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "layer": null,
+    "aggregate": "Körnung 3 bis 4 mm",
     "format": "Eimer à 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1168,6 +1314,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "layer": null,
+    "aggregate": "Aggregate 3 to 4 mm",
     "format": "12 kg bucket",
     "stat": {
      "value": "< 0.050",
@@ -1177,6 +1325,8 @@
    },
    "es": {
     "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "layer": null,
+    "aggregate": "Árido 3 a 4 mm",
     "format": "Cubo de 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1186,6 +1336,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "layer": null,
+    "aggregate": "Raekoko 3–4 mm",
     "format": "12 kg:n sanko",
     "stat": {
      "value": "< 0,050",
@@ -1195,6 +1347,8 @@
    },
    "fr": {
     "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "layer": null,
+    "aggregate": "Granulat 3 à 4 mm",
     "format": "Seau de 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1204,6 +1358,8 @@
    },
    "it": {
     "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "layer": null,
+    "aggregate": "Granulometria da 3 a 4 mm",
     "format": "Secchio da 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1213,6 +1369,8 @@
    },
    "no": {
     "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "layer": null,
+    "aggregate": "Tilslag 3 til 4 mm",
     "format": "Bøtte på 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1222,6 +1380,8 @@
    },
    "pl": {
     "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "layer": null,
+    "aggregate": "Kruszywo 3 do 4 mm",
     "format": "Wiadro 12 kg",
     "stat": {
      "value": "< 0,050",
@@ -1233,6 +1393,8 @@
   "malla-160g": {
    "de": {
     "subtitle": "GLASFASERGEWEBE ZUR ARMIERUNG VON MIKROZEMENT-SYSTEMEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Rolle 50 m × 1 m Breite",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1242,6 +1404,8 @@
    },
    "en": {
     "subtitle": "FIBERGLASS MESH FOR REINFORCING MICROCEMENT SYSTEMS",
+    "layer": null,
+    "aggregate": null,
     "format": "Roll of 50 m × 1 m wide",
     "stat": {
      "value": "3.5 × 3.8 mm",
@@ -1251,6 +1415,8 @@
    },
    "es": {
     "subtitle": "MALLA DE FIBRA DE VIDRIO PARA REFORZAR SISTEMAS DE MICROCEMENTO",
+    "layer": null,
+    "aggregate": null,
     "format": "Rollo de 50 m × 1 m de ancho",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1260,6 +1426,8 @@
    },
    "fi": {
     "subtitle": "LASIKUITUVERKKO MIKROSEMENTTIJÄRJESTELMIEN VAHVISTAMISEEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Rulla, 50 m × 1 m (leveys)",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1269,6 +1437,8 @@
    },
    "fr": {
     "subtitle": "TREILLIS EN FIBRE DE VERRE POUR RENFORCER LE MICROCIMENT",
+    "layer": null,
+    "aggregate": null,
     "format": "Rouleau de 50 m × 1 m de large",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1278,6 +1448,8 @@
    },
    "it": {
     "subtitle": "RETE IN FIBRA DI VETRO PER RINFORZARE I SISTEMI DI MICROCEMENTO",
+    "layer": null,
+    "aggregate": null,
     "format": "Rotolo da 50 m × 1 m di larghezza",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1287,6 +1459,8 @@
    },
    "no": {
     "subtitle": "GLASSFIBERNETT FOR ARMERING AV MIKROSEMENTSYSTEMER",
+    "layer": null,
+    "aggregate": null,
     "format": "Rull på 50 m × 1 m bredde",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1296,6 +1470,8 @@
    },
    "pl": {
     "subtitle": "SIATKA Z WŁÓKNA SZKLANEGO DO WZMACNIANIA MIKROCEMENTU",
+    "layer": null,
+    "aggregate": null,
     "format": "Rolka 50 m × 1 m szerokości",
     "stat": {
      "value": "3,5 × 3,8 mm",
@@ -1307,6 +1483,8 @@
   "malla-80g": {
    "de": {
     "subtitle": "GLASFASERGEWEBE ZUR ARMIERUNG VON MIKROZEMENT-SYSTEMEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Rolle 50 m × 1 m Breite",
     "stat": {
      "value": "5 × 5 mm",
@@ -1316,6 +1494,8 @@
    },
    "en": {
     "subtitle": "FIBERGLASS MESH FOR REINFORCING MICROCEMENT SYSTEMS",
+    "layer": null,
+    "aggregate": null,
     "format": "Roll of 50 m × 1 m wide",
     "stat": {
      "value": "5 × 5 mm",
@@ -1325,6 +1505,8 @@
    },
    "es": {
     "subtitle": "MALLA DE FIBRA DE VIDRIO PARA REFORZAR SISTEMAS DE MICROCEMENTO",
+    "layer": null,
+    "aggregate": null,
     "format": "Rollo de 50 m × 1 m de ancho",
     "stat": {
      "value": "5 × 5 mm",
@@ -1334,6 +1516,8 @@
    },
    "fi": {
     "subtitle": "LASIKUITUVERKKO MIKROSEMENTTIJÄRJESTELMIEN VAHVISTAMISEEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Rulla, 50 m × 1 m (leveys)",
     "stat": {
      "value": "5 × 5 mm",
@@ -1343,6 +1527,8 @@
    },
    "fr": {
     "subtitle": "TREILLIS EN FIBRE DE VERRE POUR RENFORCER LE MICROCIMENT",
+    "layer": null,
+    "aggregate": null,
     "format": "Rouleau de 50 m × 1 m de large",
     "stat": {
      "value": "5 × 5 mm",
@@ -1352,6 +1538,8 @@
    },
    "it": {
     "subtitle": "RETE IN FIBRA DI VETRO PER RINFORZARE I SISTEMI DI MICROCEMENTO",
+    "layer": null,
+    "aggregate": null,
     "format": "Rotolo da 50 m × 1 m di larghezza",
     "stat": {
      "value": "5 × 5 mm",
@@ -1361,6 +1549,8 @@
    },
    "no": {
     "subtitle": "GLASSFIBERNETT FOR ARMERING AV MIKROSEMENTSYSTEMER",
+    "layer": null,
+    "aggregate": null,
     "format": "Rull på 50 m × 1 m bredde",
     "stat": {
      "value": "5 × 5 mm",
@@ -1370,6 +1560,8 @@
    },
    "pl": {
     "subtitle": "SIATKA Z WŁÓKNA SZKLANEGO DO WZMACNIANIA MIKROCEMENTU",
+    "layer": null,
+    "aggregate": null,
     "format": "Rolka 50 m × 1 m szerokości",
     "stat": {
      "value": "5 × 5 mm",
@@ -1381,6 +1573,8 @@
   "metallic-lasur": {
    "de": {
     "subtitle": "VERSIEGELNDE METALLIC-LASUR AUF WASSERBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Gebinde à 5 L",
     "stat": {
      "value": "50",
@@ -1390,6 +1584,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED METALLIC SEALING GLAZE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L containers",
     "stat": {
      "value": "50",
@@ -1399,6 +1595,8 @@
    },
    "es": {
     "subtitle": "VELADURA METÁLICA SELLANTE AL AGUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Envases de 5 L",
     "stat": {
      "value": "50",
@@ -1408,6 +1606,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN METALLIHOHTOINEN TIIVISTÄVÄ LASUURI",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n astiat",
     "stat": {
      "value": "50",
@@ -1417,6 +1617,8 @@
    },
    "fr": {
     "subtitle": "LASURE MÉTALLIQUE HYDROFUGE À L'EAU",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidons de 5 L",
     "stat": {
      "value": "50",
@@ -1426,6 +1628,8 @@
    },
    "it": {
     "subtitle": "VELATURA METALLICA SIGILLANTE ALL'ACQUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Confezioni da 5 L",
     "stat": {
      "value": "50",
@@ -1435,6 +1639,8 @@
    },
    "no": {
     "subtitle": "FORSEGLENDE METALLISK LASUR PÅ VANNBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Beholdere på 5 L",
     "stat": {
      "value": "50",
@@ -1444,6 +1650,8 @@
    },
    "pl": {
     "subtitle": "METALICZNA LAZURA USZCZELNIAJĄCA NA BAZIE WODY",
+    "layer": null,
+    "aggregate": null,
     "format": "Opakowania 5 L",
     "stat": {
      "value": "50",
@@ -1455,6 +1663,8 @@
   "mittel-0-2-aqua-mix": {
    "de": {
     "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Mittlere Deckschicht",
+    "aggregate": "Körnung 0,2 mm",
     "format": "Eimer à 20 kg",
     "stat": {
      "value": "2 Std.",
@@ -1473,6 +1683,8 @@
    },
    "en": {
     "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "layer": "Medium finish",
+    "aggregate": "Aggregate 0.2 mm",
     "format": "20 kg bucket",
     "stat": {
      "value": "2 h",
@@ -1491,6 +1703,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Acabado medio",
+    "aggregate": "Árido 0,2 mm",
     "format": "Cubo de 20 kg",
     "stat": {
      "value": "2 h",
@@ -1509,6 +1723,8 @@
    },
    "fi": {
     "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Keskikarkea pinta",
+    "aggregate": "Raekoko 0,2 mm",
     "format": "20 kg:n sanko",
     "stat": {
      "value": "2 h",
@@ -1527,6 +1743,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "layer": "Finition moyenne",
+    "aggregate": "Granulat 0,2 mm",
     "format": "Seau de 20 kg",
     "stat": {
      "value": "2 h",
@@ -1545,6 +1763,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "layer": "Finitura media",
+    "aggregate": "Granulometria 0,2 mm",
     "format": "Secchio da 20 kg",
     "stat": {
      "value": "2 h",
@@ -1563,6 +1783,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "layer": "Middels finish",
+    "aggregate": "Tilslag 0,2 mm",
     "format": "Bøtte på 20 kg",
     "stat": {
      "value": "2 t",
@@ -1581,6 +1803,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "layer": "Wykończenie średnie",
+    "aggregate": "Kruszywo 0,2 mm",
     "format": "Wiadro 20 kg",
     "stat": {
      "value": "2 h",
@@ -1601,6 +1825,8 @@
   "mittel-0-2-kork": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "layer": null,
+    "aggregate": "Körnung 0,2 mm",
     "format": "Eimer à 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1610,6 +1836,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "layer": null,
+    "aggregate": "Aggregate 0.2 mm",
     "format": "12 kg bucket",
     "stat": {
      "value": "< 0.055",
@@ -1619,6 +1847,8 @@
    },
    "es": {
     "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "layer": null,
+    "aggregate": "Árido 0,2 mm",
     "format": "Cubo de 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1628,6 +1858,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "layer": null,
+    "aggregate": "Raekoko 0,2 mm",
     "format": "12 kg:n sanko",
     "stat": {
      "value": "< 0,055",
@@ -1637,6 +1869,8 @@
    },
    "fr": {
     "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "layer": null,
+    "aggregate": "Granulat 0,2 mm",
     "format": "Seau de 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1646,6 +1880,8 @@
    },
    "it": {
     "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "layer": null,
+    "aggregate": "Granulometria 0,2 mm",
     "format": "Secchio da 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1655,6 +1891,8 @@
    },
    "no": {
     "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "layer": null,
+    "aggregate": "Tilslag 0,2 mm",
     "format": "Bøtte på 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1664,6 +1902,8 @@
    },
    "pl": {
     "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "layer": null,
+    "aggregate": "Kruszywo 0,2 mm",
     "format": "Wiadro 12 kg",
     "stat": {
      "value": "< 0,055",
@@ -1675,6 +1915,8 @@
   "mittel-direkt-1k": {
    "de": {
     "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "layer": "Mittlere Deckschicht",
+    "aggregate": "Körnung 0,2 mm",
     "format": "Eimer à 20 kg",
     "stat": {
      "value": "A1",
@@ -1693,6 +1935,8 @@
    },
    "en": {
     "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "layer": "Medium finish",
+    "aggregate": "Aggregate 0.2 mm",
     "format": "20 kg bucket",
     "stat": {
      "value": "A1",
@@ -1711,6 +1955,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "layer": "Acabado medio",
+    "aggregate": "Árido 0,2 mm",
     "format": "Cubo de 20 kg",
     "stat": {
      "value": "A1",
@@ -1729,6 +1975,8 @@
    },
    "fi": {
     "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Keskikarkea pinta",
+    "aggregate": "Raekoko 0,2 mm",
     "format": "20 kg:n sanko",
     "stat": {
      "value": "A1",
@@ -1747,6 +1995,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "layer": "Finition moyenne",
+    "aggregate": "Granulat 0,2 mm",
     "format": "Seau de 20 kg",
     "stat": {
      "value": "A1",
@@ -1765,6 +2015,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "layer": "Finitura media",
+    "aggregate": "Granulometria 0,2 mm",
     "format": "Secchio da 20 kg",
     "stat": {
      "value": "A1",
@@ -1783,6 +2035,8 @@
    },
    "no": {
     "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "layer": "Middels finish",
+    "aggregate": "Tilslag 0,2 mm",
     "format": "Bøtte på 20 kg",
     "stat": {
      "value": "A1",
@@ -1801,6 +2055,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "layer": "Wykończenie średnie",
+    "aggregate": "Kruszywo 0,2 mm",
     "format": "Wiadro 20 kg",
     "stat": {
      "value": "A1",
@@ -1821,6 +2077,8 @@
   "mittel-direkt-2k": {
    "de": {
     "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": "Mittlere Deckschicht",
+    "aggregate": "Körnung 0,2 mm",
     "format": "Eimer à 19 kg + Flasche à 1 kg",
     "stat": {
      "value": "A1",
@@ -1835,6 +2093,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "layer": "Medium finish",
+    "aggregate": "Aggregate 0.2 mm",
     "format": "19 kg bucket + 1 kg bottle",
     "stat": {
      "value": "A1",
@@ -1849,6 +2109,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Acabado medio",
+    "aggregate": "Árido 0,2 mm",
     "format": "Cubo de 19 kg + botella de 1 kg",
     "stat": {
      "value": "A1",
@@ -1863,6 +2125,8 @@
    },
    "fi": {
     "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "layer": "Keskikarkea pinta",
+    "aggregate": "Raekoko 0,2 mm",
     "format": "19 kg:n sanko + 1 kg:n pullo",
     "stat": {
      "value": "A1",
@@ -1877,6 +2141,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT BICOMPOSANT",
+    "layer": "Finition moyenne",
+    "aggregate": "Granulat 0,2 mm",
     "format": "Seau de 19 kg + bouteille de 1 kg",
     "stat": {
      "value": "A1",
@@ -1891,6 +2157,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "layer": "Finitura media",
+    "aggregate": "Granulometria 0,2 mm",
     "format": "Secchio da 19 kg + flacone da 1 kg",
     "stat": {
      "value": "A1",
@@ -1905,6 +2173,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "layer": "Middels finish",
+    "aggregate": "Tilslag 0,2 mm",
     "format": "Bøtte på 19 kg + flaske på 1 kg",
     "stat": {
      "value": "A1",
@@ -1919,6 +2189,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "layer": "Wykończenie średnie",
+    "aggregate": "Kruszywo 0,2 mm",
     "format": "Wiadro 19 kg + butelka 1 kg",
     "stat": {
      "value": "A1",
@@ -1935,6 +2207,8 @@
   "mittel-direkt-level-2k": {
    "de": {
     "subtitle": "SELBSTNIVELLIERENDER ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": "Mittlere Deckschicht",
+    "aggregate": "Körnung 0,2 mm",
     "format": "Eimer à 19 kg + Flasche à 1 kg",
     "stat": {
      "value": "A1",
@@ -1949,6 +2223,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT SELF-LEVELING MICROCEMENT",
+    "layer": "Medium finish",
+    "aggregate": "Aggregate 0.2 mm",
     "format": "19 kg bucket + 1 kg bottle",
     "stat": {
      "value": "A1",
@@ -1963,6 +2239,8 @@
    },
    "es": {
     "subtitle": "MICROCEMENTO AUTONIVELANTE BICOMPONENTE",
+    "layer": "Acabado medio",
+    "aggregate": "Árido 0,2 mm",
     "format": "Cubo de 19 kg + botella de 1 kg",
     "stat": {
      "value": "A1",
@@ -1977,6 +2255,8 @@
    },
    "fi": {
     "subtitle": "KAKSIKOMPONENTTINEN ITSETASOITTUVA MIKROSEMENTTI",
+    "layer": "Keskikarkea pinta",
+    "aggregate": "Raekoko 0,2 mm",
     "format": "19 kg:n sanko + 1 kg:n pullo",
     "stat": {
      "value": "A1",
@@ -1991,6 +2271,8 @@
    },
    "fr": {
     "subtitle": "MICROCIMENT AUTOLISSANT BICOMPOSANT",
+    "layer": "Finition moyenne",
+    "aggregate": "Granulat 0,2 mm",
     "format": "Seau de 19 kg + bouteille de 1 kg",
     "stat": {
      "value": "A1",
@@ -2005,6 +2287,8 @@
    },
    "it": {
     "subtitle": "MICROCEMENTO AUTOLIVELLANTE BICOMPONENTE",
+    "layer": "Finitura media",
+    "aggregate": "Granulometria 0,2 mm",
     "format": "Secchio da 19 kg + flacone da 1 kg",
     "stat": {
      "value": "A1",
@@ -2019,6 +2303,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS SELVUTJEVNENDE MIKROSEMENT",
+    "layer": "Middels finish",
+    "aggregate": "Tilslag 0,2 mm",
     "format": "Bøtte på 19 kg + flaske på 1 kg",
     "stat": {
      "value": "A1",
@@ -2033,6 +2319,8 @@
    },
    "pl": {
     "subtitle": "MIKROCEMENT SAMOPOZIOMUJĄCY DWUSKŁADNIKOWY",
+    "layer": "Wykończenie średnie",
+    "aggregate": "Kruszywo 0,2 mm",
     "format": "Wiadro 19 kg + butelka 1 kg",
     "stat": {
      "value": "A1",
@@ -2049,6 +2337,8 @@
   "protect-aqua-2k": {
    "de": {
     "subtitle": "WASSERBASIERTER ALIPHATISCHER ZWEIKOMPONENTEN-ACRYLLACK",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 Std.",
@@ -2058,6 +2348,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT WATER-BASED ALIPHATIC ACRYLIC VARNISH",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2067,6 +2359,8 @@
    },
    "es": {
     "subtitle": "BARNIZ ACRÍLICO ALIFÁTICO BICOMPONENTE AL AGUA",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2076,6 +2370,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN KAKSIKOMPONENTTINEN ALIFAATTINEN AKRYYLILAKKA",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2085,6 +2381,8 @@
    },
    "fr": {
     "subtitle": "VERNIS ACRYLIQUE ALIPHATIQUE BICOMPOSANT À L'EAU",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2094,6 +2392,8 @@
    },
    "it": {
     "subtitle": "VERNICE ACRILICA ALIFATICA BICOMPONENTE ALL'ACQUA",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2103,6 +2403,8 @@
    },
    "no": {
     "subtitle": "VANNBASERT ALIFATISK AKRYLLAKK, TO KOMPONENTER",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 t",
@@ -2112,6 +2414,8 @@
    },
    "pl": {
     "subtitle": "WODNY LAKIER AKRYLOWY ALIFATYCZNY 2K",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "1 h",
@@ -2123,6 +2427,8 @@
   "protect-diluent": {
    "de": {
     "subtitle": "MITTELLANGSAM VERDUNSTENDER VERDÜNNER FÜR PU-LACKE",
+    "layer": null,
+    "aggregate": null,
     "format": "Gebinde 5 L",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2132,6 +2438,8 @@
    },
    "en": {
     "subtitle": "MEDIUM-SLOW EVAPORATION SOLVENT FOR POLYURETHANES",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L container",
     "stat": {
      "value": "0.87 g/cm³",
@@ -2141,6 +2449,8 @@
    },
    "es": {
     "subtitle": "DISOLVENTE DE EVAPORACIÓN MEDIA-LENTA PARA POLIURETANOS",
+    "layer": null,
+    "aggregate": null,
     "format": "Envase de 5 L",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2150,6 +2460,8 @@
    },
    "fi": {
     "subtitle": "KESKIHIDAS OHENNE POLYURETAANILAKOILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n pakkaus",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2159,6 +2471,8 @@
    },
    "fr": {
     "subtitle": "DILUANT À ÉVAPORATION MI-LENTE POUR POLYURÉTHANES",
+    "layer": null,
+    "aggregate": null,
     "format": "Emballage de 5 L",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2168,6 +2482,8 @@
    },
    "it": {
     "subtitle": "DILUENTE A EVAPORAZIONE MEDIO-LENTA PER POLIURETANI",
+    "layer": null,
+    "aggregate": null,
     "format": "Confezione da 5 L",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2177,6 +2493,8 @@
    },
    "no": {
     "subtitle": "MIDDELS LANGSOMTGÅENDE TYNNER FOR POLYURETANLAKK",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L beholder",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2186,6 +2504,8 @@
    },
    "pl": {
     "subtitle": "ROZCIEŃCZALNIK ŚREDNIO-WOLNOSCHNĄCY DO POLIURETANÓW",
+    "layer": null,
+    "aggregate": null,
     "format": "Pojemnik 5 L",
     "stat": {
      "value": "0,87 g/cm³",
@@ -2197,6 +2517,8 @@
   "protect-repel": {
    "de": {
     "subtitle": "WASSERBASIERTES WASSER- UND ÖLABWEISENDES MITTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 kg",
     "stat": {
      "value": "1:14",
@@ -2206,6 +2528,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED WATER- AND OIL-REPELLENT FOR STONE AND MORTAR",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg jerrycan",
     "stat": {
      "value": "1:14",
@@ -2215,6 +2539,8 @@
    },
    "es": {
     "subtitle": "HIDRO-OLEOFUGANTE DE BASE AGUA PARA PIEDRA Y MORTERO",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 kg",
     "stat": {
      "value": "1:14",
@@ -2224,6 +2550,8 @@
    },
    "fi": {
     "subtitle": "VETTÄ JA ÖLJYÄ HYLKIVÄ VESIPOHJAINEN SUOJA-AINE KIVELLE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg:n kanisteri",
     "stat": {
      "value": "1:14",
@@ -2233,6 +2561,8 @@
    },
    "fr": {
     "subtitle": "HYDRO-OLÉOFUGE À BASE D'EAU POUR PIERRE ET MORTIER",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 kg",
     "stat": {
      "value": "1:14",
@@ -2242,6 +2572,8 @@
    },
    "it": {
     "subtitle": "IDRO-OLEOREPELLENTE ALL'ACQUA PER PIETRA E MALTA",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 kg",
     "stat": {
      "value": "1:14",
@@ -2251,6 +2583,8 @@
    },
    "no": {
     "subtitle": "VANN- OG OLJEAVVISENDE IMPREGNERING FOR STEIN OG MØRTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Dunk 5 kg",
     "stat": {
      "value": "1:14",
@@ -2260,6 +2594,8 @@
    },
    "pl": {
     "subtitle": "WODNY ŚRODEK HYDRO- I OLEOFOBOWY DO KAMIENIA I ZAPRAWY",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 kg",
     "stat": {
      "value": "1:14",
@@ -2271,6 +2607,8 @@
   "protect-sanitary-2k": {
    "de": {
     "subtitle": "LÖSEMITTELFREIE ZWEIKOMPONENTEN-EPOXIDBESCHICHTUNG",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2280,6 +2618,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT SOLVENT-FREE EPOXY COATING",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2289,6 +2629,8 @@
    },
    "es": {
     "subtitle": "REVESTIMIENTO EPOXI BICOMPONENTE SIN DISOLVENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2298,6 +2640,8 @@
    },
    "fi": {
     "subtitle": "LIUOTTIMETON 2K-EPOKSIPINNOITE LATTIOILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2307,6 +2651,8 @@
    },
    "fr": {
     "subtitle": "REVÊTEMENT ÉPOXY BICOMPOSANT SANS SOLVANT",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2316,6 +2662,8 @@
    },
    "it": {
     "subtitle": "RIVESTIMENTO EPOSSIDICO BICOMPONENTE SENZA SOLVENTI",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2325,6 +2673,8 @@
    },
    "no": {
     "subtitle": "LØSEMIDDELFRITT TOKOMPONENTS EPOKSYBELEGG",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2334,6 +2684,8 @@
    },
    "pl": {
     "subtitle": "BEZROZPUSZCZALNIKOWA POWŁOKA EPOKSYDOWA 2K",
+    "layer": null,
+    "aggregate": null,
     "format": "4 kg + 1 kg",
     "stat": {
      "value": "4:1",
@@ -2345,6 +2697,8 @@
   "protect-solvent-2k": {
    "de": {
     "subtitle": "LÖSEMITTELBASIERTER ZWEIKOMPONENTEN-ACRYL-PU-LACK",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2354,6 +2708,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT SOLVENT-BASED ACRYLIC POLYURETHANE VARNISH",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2363,6 +2719,8 @@
    },
    "es": {
     "subtitle": "BARNIZ DE POLIURETANO ACRÍLICO BICOMPONENTE AL DISOLVENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2372,6 +2730,8 @@
    },
    "fi": {
     "subtitle": "LIUOTINPOHJAINEN KAKSIKOMPONENTTINEN AKRYYLIPOLYURETAANILAKKA",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2381,6 +2741,8 @@
    },
    "fr": {
     "subtitle": "VERNIS POLYURÉTHANE ACRYLIQUE BICOMPOSANT AU SOLVANT",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2390,6 +2752,8 @@
    },
    "it": {
     "subtitle": "VERNICE POLIURETANICA ACRILICA BICOMPONENTE A SOLVENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2399,6 +2763,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENTS AKRYLPOLYURETANLAKK PÅ LØSEMIDDELBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2408,6 +2774,8 @@
    },
    "pl": {
     "subtitle": "ROZPUSZCZALNIKOWY LAKIER AKRYLOWO-POLIURETANOWY 2K",
+    "layer": null,
+    "aggregate": null,
     "format": "3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2419,6 +2787,8 @@
   "protect-solvent-grip-2k": {
    "de": {
     "subtitle": "RUTSCHHEMMENDER ZWEIKOMPONENTEN-ACRYL-PU-LACK",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2428,6 +2798,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT ACRYLIC POLYURETHANE ANTI-SLIP VARNISH",
+    "layer": null,
+    "aggregate": null,
     "format": "3.3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2437,6 +2809,8 @@
    },
    "es": {
     "subtitle": "BARNIZ ANTIDESLIZANTE DE POLIURETANO ACRÍLICO BICOMPONENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2446,6 +2820,8 @@
    },
    "fi": {
     "subtitle": "LIUKUMATON KAKSIKOMPONENTTINEN AKRYYLIPOLYURETAANILAKKA",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2455,6 +2831,8 @@
    },
    "fr": {
     "subtitle": "VERNIS ANTIDÉRAPANT POLYURÉTHANE ACRYLIQUE BICOMPOSANT",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2464,6 +2842,8 @@
    },
    "it": {
     "subtitle": "VERNICE ANTISCIVOLO POLIURETANICA ACRILICA BICOMPONENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2473,6 +2853,8 @@
    },
    "no": {
     "subtitle": "SKLISIKKER TOKOMPONENTS AKRYLPOLYURETANLAKK",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2482,6 +2864,8 @@
    },
    "pl": {
     "subtitle": "ANTYPOŚLIZGOWY LAKIER AKRYLOWO-POLIURETANOWY 2K",
+    "layer": null,
+    "aggregate": null,
     "format": "3,3 kg + 1 kg",
     "stat": {
      "value": "3:1",
@@ -2493,6 +2877,8 @@
   "protect-solvent-metallic-2k": {
    "de": {
     "subtitle": "TRANSPARENTER ACRYL-PU-KLARLACK FÜR METALLEFFEKTE",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2502,6 +2888,8 @@
    },
    "en": {
     "subtitle": "CLEAR ACRYLIC POLYURETHANE VARNISH FOR METALLIC EFFECTS",
+    "layer": null,
+    "aggregate": null,
     "format": "2.5 kg + 1 kg",
     "stat": {
      "value": "2.5:1",
@@ -2511,6 +2899,8 @@
    },
    "es": {
     "subtitle": "BARNIZ TRANSPARENTE DE POLIURETANO ACRÍLICO PARA EFECTOS METÁLICOS",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2520,6 +2910,8 @@
    },
    "fi": {
     "subtitle": "KIRKAS AKRYYLIPOLYURETAANILAKKA METALLITEHOSTEILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2529,6 +2921,8 @@
    },
    "fr": {
     "subtitle": "VERNIS TRANSPARENT POLYURÉTHANE ACRYLIQUE POUR EFFETS MÉTALLIQUES",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2538,6 +2932,8 @@
    },
    "it": {
     "subtitle": "VERNICE TRASPARENTE POLIURETANICA PER EFFETTI METALLICI",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2547,6 +2943,8 @@
    },
    "no": {
     "subtitle": "TRANSPARENT AKRYLPOLYURETANLAKK FOR METALLISKE EFFEKTER",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2556,6 +2954,8 @@
    },
    "pl": {
     "subtitle": "PRZEZROCZYSTY LAKIER AKRYLOWO-PU DO EFEKTÓW METALICZNYCH",
+    "layer": null,
+    "aggregate": null,
     "format": "2,5 kg + 1 kg",
     "stat": {
      "value": "2,5:1",
@@ -2567,6 +2967,8 @@
   "zement-color-lab": {
    "de": {
     "subtitle": "PIGMENTPASTEN FÜR MÖRTEL UND MIKROZEMENTE",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2576,6 +2978,8 @@
    },
    "en": {
     "subtitle": "PIGMENT PASTES FOR MORTARS AND MICROCEMENTS",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2585,6 +2989,8 @@
    },
    "es": {
     "subtitle": "PASTAS PIGMENTARIAS PARA MORTEROS Y MICROCEMENTOS",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2594,6 +3000,8 @@
    },
    "fi": {
     "subtitle": "PIGMENTTITAHNAT LAASTEILLE JA MIKROSEMENTEILLE",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2603,6 +3011,8 @@
    },
    "fr": {
     "subtitle": "PÂTES PIGMENTAIRES POUR MORTIERS ET MICROCIMENTS",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2612,6 +3022,8 @@
    },
    "it": {
     "subtitle": "PASTE PIGMENTARIE PER MALTE E MICROCEMENTI",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2621,6 +3033,8 @@
    },
    "no": {
     "subtitle": "PIGMENTPASTAER FOR MØRTEL OG MIKROSEMENT",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2630,6 +3044,8 @@
    },
    "pl": {
     "subtitle": "PASTY PIGMENTOWE DO ZAPRAW I MIKROCEMENTÓW",
+    "layer": null,
+    "aggregate": null,
     "format": null,
     "stat": {
      "value": "50",
@@ -2641,6 +3057,8 @@
   "zement-dune-fix": {
    "de": {
     "subtitle": "BINDEHARZ FÜR DIE SANDBESCHICHTUNG ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Gebinde 5 kg",
     "stat": {
      "value": "7 %",
@@ -2650,6 +3068,8 @@
    },
    "en": {
     "subtitle": "BINDER RESIN FOR THE ZEMENT DUNE SAND COATING",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg container",
     "stat": {
      "value": "7 %",
@@ -2659,6 +3079,8 @@
    },
    "es": {
     "subtitle": "RESINA AGLUTINANTE PARA EL REVESTIMIENTO DE ARENA ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Envase de 5 kg",
     "stat": {
      "value": "7 %",
@@ -2668,6 +3090,8 @@
    },
    "fi": {
     "subtitle": "SIDEAINEHARTSI ZEMENT DUNE -HIEKKAPINNOITTEELLE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg:n pakkaus",
     "stat": {
      "value": "7 %",
@@ -2677,6 +3101,8 @@
    },
    "fr": {
     "subtitle": "RÉSINE LIANTE POUR LE REVÊTEMENT DE SABLE ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 kg",
     "stat": {
      "value": "7 %",
@@ -2686,6 +3112,8 @@
    },
    "it": {
     "subtitle": "RESINA LEGANTE PER IL RIVESTIMENTO DI SABBIA ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Confezione da 5 kg",
     "stat": {
      "value": "7 %",
@@ -2695,6 +3123,8 @@
    },
    "no": {
     "subtitle": "BINDEHARPIKS FOR SANDBELEGGET ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Beholder på 5 kg",
     "stat": {
      "value": "7 %",
@@ -2704,6 +3134,8 @@
    },
    "pl": {
     "subtitle": "ŻYWICA WIĄŻĄCA DO OKŁADZINY PIASKOWEJ ZEMENT DUNE",
+    "layer": null,
+    "aggregate": null,
     "format": "Opakowanie 5 kg",
     "stat": {
      "value": "7 %",
@@ -2715,6 +3147,8 @@
   "zement-dune": {
    "de": {
     "subtitle": "NATURSANDBESCHICHTUNG FÜR POOLS IM STRANDSTIL",
+    "layer": null,
+    "aggregate": null,
     "format": "Sack 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2724,6 +3158,8 @@
    },
    "en": {
     "subtitle": "NATURAL SAND COATING FOR BEACH-STYLE SWIMMING POOLS",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg bag",
     "stat": {
      "value": "3-5 mm",
@@ -2733,6 +3169,8 @@
    },
    "es": {
     "subtitle": "REVESTIMIENTO DE ARENA NATURAL PARA PISCINAS TIPO PLAYA",
+    "layer": null,
+    "aggregate": null,
     "format": "Saco de 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2742,6 +3180,8 @@
    },
    "fi": {
     "subtitle": "LUONNONHIEKKAPINNOITE RANTATYYLISILLE UIMA-ALTAILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg:n säkki",
     "stat": {
      "value": "3-5 mm",
@@ -2751,6 +3191,8 @@
    },
    "fr": {
     "subtitle": "REVÊTEMENT DE SABLE NATUREL POUR PISCINES DE TYPE PLAGE",
+    "layer": null,
+    "aggregate": null,
     "format": "Sac de 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2760,6 +3202,8 @@
    },
    "it": {
     "subtitle": "RIVESTIMENTO DI SABBIA NATURALE PER PISCINE IN STILE SPIAGGIA",
+    "layer": null,
+    "aggregate": null,
     "format": "Sacco da 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2769,6 +3213,8 @@
    },
    "no": {
     "subtitle": "NATURLIG SANDBELEGG FOR BASSENGER I STRANDSTIL",
+    "layer": null,
+    "aggregate": null,
     "format": "Sekk på 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2778,6 +3224,8 @@
    },
    "pl": {
     "subtitle": "NATURALNA OKŁADZINA PIASKOWA DO BASENÓW TYPU PLAŻOWEGO",
+    "layer": null,
+    "aggregate": null,
     "format": "Worek 25 kg",
     "stat": {
      "value": "3-5 mm",
@@ -2789,6 +3237,8 @@
   "zement-flex-sanitary": {
    "de": {
     "subtitle": "FLEXIBLER, WASSERDICHTER 2K-ZEMENTMÖRTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Sack 20 kg + Kanister 5 L",
     "stat": {
      "value": "60 Min.",
@@ -2798,6 +3248,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT FLEXIBLE WATERPROOF CEMENTITIOUS MORTAR",
+    "layer": null,
+    "aggregate": null,
     "format": "20 kg bag + 5 L pail",
     "stat": {
      "value": "60 min",
@@ -2807,6 +3259,8 @@
    },
    "es": {
     "subtitle": "MORTERO CEMENTOSO FLEXIBLE E IMPERMEABLE BICOMPONENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "Saco de 20 kg + bidón de 5 L",
     "stat": {
      "value": "60 min",
@@ -2816,6 +3270,8 @@
    },
    "fi": {
     "subtitle": "JOUSTAVA VEDENPITÄVÄ 2K-SEMENTTILAASTI",
+    "layer": null,
+    "aggregate": null,
     "format": "20 kg:n säkki + 5 L:n kanisteri",
     "stat": {
      "value": "60 min",
@@ -2825,6 +3281,8 @@
    },
    "fr": {
     "subtitle": "MORTIER-CIMENT SOUPLE IMPERMÉABLE BICOMPOSANT",
+    "layer": null,
+    "aggregate": null,
     "format": "Sac de 20 kg + bidon de 5 L",
     "stat": {
      "value": "60 min",
@@ -2834,6 +3292,8 @@
    },
    "it": {
     "subtitle": "MALTA CEMENTIZIA FLESSIBILE IMPERMEABILE BICOMPONENTE",
+    "layer": null,
+    "aggregate": null,
     "format": "Sacco da 20 kg + tanica da 5 L",
     "stat": {
      "value": "60 min",
@@ -2843,6 +3303,8 @@
    },
    "no": {
     "subtitle": "FLEKSIBEL, VANNTETT SEMENTMØRTEL, TO KOMPONENTER",
+    "layer": null,
+    "aggregate": null,
     "format": "Sekk på 20 kg + dunk på 5 L",
     "stat": {
      "value": "60 min",
@@ -2852,6 +3314,8 @@
    },
    "pl": {
     "subtitle": "ELASTYCZNA, WODOSZCZELNA ZAPRAWA CEMENTOWA 2K",
+    "layer": null,
+    "aggregate": null,
     "format": "Worek 20 kg + kanister 5 l",
     "stat": {
      "value": "60 min",
@@ -2863,6 +3327,8 @@
   "zement-latex-flex": {
    "de": {
     "subtitle": "WÄSSRIGES BINDEMITTEL ZUR VERFESTIGUNG UND HAFTVERBESSERUNG",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "1:1",
@@ -2872,6 +3338,8 @@
    },
    "en": {
     "subtitle": "AQUEOUS DISPERSION BINDER FOR CONSOLIDATING AND BONDING SUBSTRATES",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L jerrycan",
     "stat": {
      "value": "1:1",
@@ -2881,6 +3349,8 @@
    },
    "es": {
     "subtitle": "LIGANTE EN DISPERSIÓN ACUOSA PARA CONSOLIDAR Y ANCLAR SOPORTES",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 L",
     "stat": {
      "value": "1:1",
@@ -2890,6 +3360,8 @@
    },
    "fi": {
     "subtitle": "SIDEAINE-DISPERSIO ALUSTAN LUJITTAMISEEN JA TARTUNNAN PARANTAMISEEN",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n kanisteri",
     "stat": {
      "value": "1:1",
@@ -2899,6 +3371,8 @@
    },
    "fr": {
     "subtitle": "LIANT EN DISPERSION AQUEUSE POUR CONSOLIDER ET FIXER LES SUPPORTS",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 L",
     "stat": {
      "value": "1:1",
@@ -2908,6 +3382,8 @@
    },
    "it": {
     "subtitle": "LEGANTE IN DISPERSIONE ACQUOSA PER CONSOLIDARE E ANCORARE I SUPPORTI",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 L",
     "stat": {
      "value": "1:1",
@@ -2917,6 +3393,8 @@
    },
    "no": {
     "subtitle": "VANDIG BINDEMIDDEL FOR KONSOLIDERING OG HEFT PÅ UNDERLAG",
+    "layer": null,
+    "aggregate": null,
     "format": "Dunk 5 L",
     "stat": {
      "value": "1:1",
@@ -2926,6 +3404,8 @@
    },
    "pl": {
     "subtitle": "ŻYWICA W DYSPERSJI WODNEJ DO WZMACNIANIA I KOTWIENIA PODŁOŻY",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "1:1",
@@ -2937,6 +3417,8 @@
   "zement-latex": {
    "de": {
     "subtitle": "ACRYLHARZ-DISPERSION FÜR ZWEIKOMPONENTEN-MIKROZEMENT",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "3-5 Std.",
@@ -2946,6 +3428,8 @@
    },
    "en": {
     "subtitle": "ACRYLIC DISPERSION RESIN FOR TWO-COMPONENT MICROCEMENTS",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L jerrycan",
     "stat": {
      "value": "3-5 h",
@@ -2955,6 +3439,8 @@
    },
    "es": {
     "subtitle": "RESINA ACRÍLICA EN DISPERSIÓN PARA MICROCEMENTOS BICOMPONENTES",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 L",
     "stat": {
      "value": "3-5 h",
@@ -2964,6 +3450,8 @@
    },
    "fi": {
     "subtitle": "AKRYYLIHARTSIDISPERSIO KAKSIKOMPONENTTISILLE MIKROSEMENTEILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n kanisteri",
     "stat": {
      "value": "3–5 h",
@@ -2973,6 +3461,8 @@
    },
    "fr": {
     "subtitle": "RÉSINE ACRYLIQUE EN DISPERSION POUR MICROCIMENTS BICOMPOSANTS",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 L",
     "stat": {
      "value": "3-5 h",
@@ -2982,6 +3472,8 @@
    },
    "it": {
     "subtitle": "RESINA ACRILICA IN DISPERSIONE PER MICROCEMENTI BICOMPONENTI",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 L",
     "stat": {
      "value": "3-5 h",
@@ -2991,6 +3483,8 @@
    },
    "no": {
     "subtitle": "AKRYLDISPERSJON FOR TOKOMPONENTS MIKROSEMENT",
+    "layer": null,
+    "aggregate": null,
     "format": "Dunk 5 L",
     "stat": {
      "value": "3-5 t",
@@ -3000,6 +3494,8 @@
    },
    "pl": {
     "subtitle": "DYSPERSJA AKRYLOWA DO MIKROCEMENTÓW DWUSKŁADNIKOWYCH",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "3-5 h",
@@ -3011,6 +3507,8 @@
   "zement-metallic": {
    "de": {
     "subtitle": "VERSIEGELNDE METALLIC-LASUR AUF WASSERBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Gebinde à 5 L",
     "stat": {
      "value": "50",
@@ -3020,6 +3518,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED METALLIC SEALING GLAZE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L containers",
     "stat": {
      "value": "50",
@@ -3029,6 +3529,8 @@
    },
    "es": {
     "subtitle": "VELADURA METÁLICA SELLANTE AL AGUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Envases de 5 L",
     "stat": {
      "value": "50",
@@ -3038,6 +3540,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN METALLIHOHTOINEN TIIVISTÄVÄ LASUURI",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n astiat",
     "stat": {
      "value": "50",
@@ -3047,6 +3551,8 @@
    },
    "fr": {
     "subtitle": "LASURE MÉTALLIQUE HYDROFUGE À L'EAU",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidons de 5 L",
     "stat": {
      "value": "50",
@@ -3056,6 +3562,8 @@
    },
    "it": {
     "subtitle": "VELATURA METALLICA SIGILLANTE ALL'ACQUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Confezioni da 5 L",
     "stat": {
      "value": "50",
@@ -3065,6 +3573,8 @@
    },
    "no": {
     "subtitle": "FORSEGLENDE METALLISK LASUR PÅ VANNBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Beholdere på 5 L",
     "stat": {
      "value": "50",
@@ -3074,6 +3584,8 @@
    },
    "pl": {
     "subtitle": "METALICZNA LAZURA USZCZELNIAJĄCA NA BAZIE WODY",
+    "layer": null,
+    "aggregate": null,
     "format": "Opakowania 5 L",
     "stat": {
      "value": "50",
@@ -3085,6 +3597,8 @@
   "zement-prime-grip": {
    "de": {
     "subtitle": "WASSERBASIERTE ACRYLDISPERSION FÜR GRUNDIERUNG UND MÖRTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Eimer à 5 kg",
     "stat": {
      "value": "60 %",
@@ -3094,6 +3608,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED ACRYLIC DISPERSION FOR PRIMING AND MORTAR MODIFICATION",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg bucket",
     "stat": {
      "value": "60 %",
@@ -3103,6 +3619,8 @@
    },
    "es": {
     "subtitle": "DISPERSIÓN ACRÍLICA AL AGUA PARA IMPRIMACIÓN Y MORTEROS",
+    "layer": null,
+    "aggregate": null,
     "format": "Cubo de 5 kg",
     "stat": {
      "value": "60 %",
@@ -3112,6 +3630,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN AKRYYLIDISPERSIO POHJUSTEEKSI JA LAASTIEN MUUNTELUUN",
+    "layer": null,
+    "aggregate": null,
     "format": "5 kg:n sanko",
     "stat": {
      "value": "60 %",
@@ -3121,6 +3641,8 @@
    },
    "fr": {
     "subtitle": "DISPERSION ACRYLIQUE À L'EAU POUR PRIMAIRE ET MORTIERS",
+    "layer": null,
+    "aggregate": null,
     "format": "Seau de 5 kg",
     "stat": {
      "value": "60 %",
@@ -3130,6 +3652,8 @@
    },
    "it": {
     "subtitle": "DISPERSIONE ACRILICA ALL'ACQUA PER PRIMER E MODIFICA DELLE MALTE",
+    "layer": null,
+    "aggregate": null,
     "format": "Secchio da 5 kg",
     "stat": {
      "value": "60 %",
@@ -3139,6 +3663,8 @@
    },
    "no": {
     "subtitle": "VANNBASERT AKRYLDISPERSJON FOR GRUNNING OG MODIFISERING AV MØRTLER",
+    "layer": null,
+    "aggregate": null,
     "format": "Bøtte på 5 kg",
     "stat": {
      "value": "60 %",
@@ -3148,6 +3674,8 @@
    },
    "pl": {
     "subtitle": "DYSPERSJA AKRYLOWA NA BAZIE WODY DO GRUNTOWANIA I MODYFIKACJI ZAPRAW",
+    "layer": null,
+    "aggregate": null,
     "format": "Wiadro 5 kg",
     "stat": {
      "value": "60 %",
@@ -3159,6 +3687,8 @@
   "zement-prime-tack": {
    "de": {
     "subtitle": "WASSERBASIERTE ACRYLDISPERSION FÜR GRUNDIERUNG UND MÖRTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister à 5 L",
     "stat": {
      "value": "60 %",
@@ -3168,6 +3698,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED ACRYLIC DISPERSION FOR PRIMING AND MORTAR MODIFICATION",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L jerrycan",
     "stat": {
      "value": "60 %",
@@ -3177,6 +3709,8 @@
    },
    "es": {
     "subtitle": "DISPERSIÓN ACRÍLICA AL AGUA PARA IMPRIMACIÓN Y MORTEROS",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 L",
     "stat": {
      "value": "60 %",
@@ -3186,6 +3720,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN AKRYYLIDISPERSIO POHJUSTEEKSI JA LAASTIEN MUUNTELUUN",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n kanisteri",
     "stat": {
      "value": "60 %",
@@ -3195,6 +3731,8 @@
    },
    "fr": {
     "subtitle": "DISPERSION ACRYLIQUE À L'EAU POUR PRIMAIRE ET MORTIERS",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 L",
     "stat": {
      "value": "60 %",
@@ -3204,6 +3742,8 @@
    },
    "it": {
     "subtitle": "DISPERSIONE ACRILICA ALL'ACQUA PER PRIMER E MODIFICA DELLE MALTE",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 L",
     "stat": {
      "value": "60 %",
@@ -3213,6 +3753,8 @@
    },
    "no": {
     "subtitle": "VANNBASERT AKRYLDISPERSJON FOR GRUNNING OG MODIFISERING AV MØRTLER",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanne på 5 L",
     "stat": {
      "value": "60 %",
@@ -3222,6 +3764,8 @@
    },
    "pl": {
     "subtitle": "DYSPERSJA AKRYLOWA NA BAZIE WODY DO GRUNTOWANIA I MODYFIKACJI ZAPRAW",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "60 %",
@@ -3233,6 +3777,8 @@
   "zement-prime": {
    "de": {
     "subtitle": "VERSIEGELNDE UND VERFESTIGENDE GRUNDIERUNG AUF WASSERBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister à 5 L",
     "stat": {
      "value": "1 Std.",
@@ -3242,6 +3788,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED SEALING AND CONSOLIDATING PRIMER",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L jerrycan",
     "stat": {
      "value": "1 h",
@@ -3251,6 +3799,8 @@
    },
    "es": {
     "subtitle": "IMPRIMACIÓN SELLADORA Y CONSOLIDANTE AL AGUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 L",
     "stat": {
      "value": "1 h",
@@ -3260,6 +3810,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN TIIVISTÄVÄ JA LUJITTAVA POHJUSTE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n kanisteri",
     "stat": {
      "value": "1 h",
@@ -3269,6 +3821,8 @@
    },
    "fr": {
     "subtitle": "PRIMAIRE D'ACCROCHAGE ET CONSOLIDANT À L'EAU",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 L",
     "stat": {
      "value": "1 h",
@@ -3278,6 +3832,8 @@
    },
    "it": {
     "subtitle": "PRIMER SIGILLANTE E CONSOLIDANTE ALL'ACQUA",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 L",
     "stat": {
      "value": "1 h",
@@ -3287,6 +3843,8 @@
    },
    "no": {
     "subtitle": "FORSEGLENDE OG KONSOLIDERENDE PRIMER PÅ VANNBASIS",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanne på 5 L",
     "stat": {
      "value": "1 t",
@@ -3296,6 +3854,8 @@
    },
    "pl": {
     "subtitle": "GRUNT USZCZELNIAJĄCO-WZMACNIAJĄCY NA BAZIE WODY",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "1 h",
@@ -3307,6 +3867,8 @@
   "zement-quartz-sand": {
    "de": {
     "subtitle": "REINER, TROCKENER QUARZSAND, KÖRNUNG 0,6 MM",
+    "layer": null,
+    "aggregate": "Körnung 0,6 mm nominal (0,4-0,8 mm)",
     "format": "Körnung 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3316,6 +3878,8 @@
    },
    "en": {
     "subtitle": "PURE, DRY QUARTZ SAND, 0.6 MM GRAIN SIZE",
+    "layer": null,
+    "aggregate": "Aggregate 0.6 mm nominal (0.4-0.8 mm)",
     "format": "Grain size 0.6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3325,6 +3889,8 @@
    },
    "es": {
     "subtitle": "ARENA DE CUARZO PURA Y SECA, GRANULOMETRÍA 0,6 MM",
+    "layer": null,
+    "aggregate": "Árido 0,6 mm nominal (0,4-0,8 mm)",
     "format": "Granulometría 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3334,6 +3900,8 @@
    },
    "fi": {
     "subtitle": "PUHDAS, KUIVA KVARTSIHIEKKA, RAEKOKO 0,6 MM",
+    "layer": null,
+    "aggregate": "Raekoko 0,6 mm nimellinen (0,4-0,8 mm)",
     "format": "Raekoko 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3343,6 +3911,8 @@
    },
    "fr": {
     "subtitle": "SABLE DE QUARTZ PUR ET SEC, GRANULOMÉTRIE 0,6 MM",
+    "layer": null,
+    "aggregate": "Granulat 0,6 mm nominal (0,4-0,8 mm)",
     "format": "Granulométrie 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3352,6 +3922,8 @@
    },
    "it": {
     "subtitle": "SABBIA DI QUARZO PURA E SECCA, GRANULOMETRIA 0,6 MM",
+    "layer": null,
+    "aggregate": "Granulometria 0,6 mm nominale (0,4-0,8 mm)",
     "format": "Granulometria 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3361,6 +3933,8 @@
    },
    "no": {
     "subtitle": "REN, TØRR KVARTSSAND, KORNSTØRRELSE 0,6 MM",
+    "layer": null,
+    "aggregate": "Tilslag 0,6 mm nominell (0,4-0,8 mm)",
     "format": "Kornstørrelse 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3370,6 +3944,8 @@
    },
    "pl": {
     "subtitle": "CZYSTY, SUCHY PIASEK KWARCOWY, UZIARNIENIE 0,6 MM",
+    "layer": null,
+    "aggregate": "Kruszywo 0,6 mm nominalnie (0,4-0,8 mm)",
     "format": "Uziarnienie 0,6 mm",
     "stat": {
      "value": "> 99 %",
@@ -3381,6 +3957,8 @@
   "zement-repair-10": {
    "de": {
     "subtitle": "DRUCKFESTER REPARATUR- UND AUSGLEICHSMÖRTEL",
+    "layer": null,
+    "aggregate": null,
     "format": "Papiersack 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3390,6 +3968,8 @@
    },
    "en": {
     "subtitle": "COMPRESSIVE-STRENGTH REPAIR AND LEVELLING MORTAR",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg paper bag",
     "stat": {
      "value": "> 40 MPa",
@@ -3399,6 +3979,8 @@
    },
    "es": {
     "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN RESISTENTE A COMPRESIÓN",
+    "layer": null,
+    "aggregate": null,
     "format": "Saco de papel de 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3408,6 +3990,8 @@
    },
    "fi": {
     "subtitle": "PURISTUSLUJUUDELTAAN LUJA KORJAUS- JA TASAUSLAASTI",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg:n paperisäkki",
     "stat": {
      "value": "> 40 MPa",
@@ -3417,6 +4001,8 @@
    },
    "fr": {
     "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ RÉSISTANT À LA COMPRESSION",
+    "layer": null,
+    "aggregate": null,
     "format": "Sac en papier de 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3426,6 +4012,8 @@
    },
    "it": {
     "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO RESISTENTE A COMPRESSIONE",
+    "layer": null,
+    "aggregate": null,
     "format": "Sacco di carta da 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3435,6 +4023,8 @@
    },
    "no": {
     "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL, TRYKKFAST",
+    "layer": null,
+    "aggregate": null,
     "format": "Papirsekk på 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3444,6 +4034,8 @@
    },
    "pl": {
     "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA ODPORNA NA ŚCISKANIE",
+    "layer": null,
+    "aggregate": null,
     "format": "Worek papierowy 25 kg",
     "stat": {
      "value": "> 40 MPa",
@@ -3455,6 +4047,8 @@
   "zement-repair-20": {
    "de": {
     "subtitle": "REPARATUR- UND AUSGLEICHSMÖRTEL FÜR GROSSE SCHICHTDICKEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Papiersack 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3464,6 +4058,8 @@
    },
    "en": {
     "subtitle": "HIGH-BUILD REPAIR AND LEVELLING MORTAR",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg paper bag",
     "stat": {
      "value": "> 50 MPa",
@@ -3473,6 +4069,8 @@
    },
    "es": {
     "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN DE GRAN ESPESOR",
+    "layer": null,
+    "aggregate": null,
     "format": "Saco de papel de 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3482,6 +4080,8 @@
    },
    "fi": {
     "subtitle": "PAKSUKERROKSINEN KORJAUS- JA TASAUSLAASTI",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg:n paperisäkki",
     "stat": {
      "value": "> 50 MPa",
@@ -3491,6 +4091,8 @@
    },
    "fr": {
     "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ DE FORTE ÉPAISSEUR",
+    "layer": null,
+    "aggregate": null,
     "format": "Sac en papier de 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3500,6 +4102,8 @@
    },
    "it": {
     "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO DI GRANDE SPESSORE",
+    "layer": null,
+    "aggregate": null,
     "format": "Sacco di carta da 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3509,6 +4113,8 @@
    },
    "no": {
     "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL FOR STORE TYKKELSER",
+    "layer": null,
+    "aggregate": null,
     "format": "Papirsekk på 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3518,6 +4124,8 @@
    },
    "pl": {
     "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA DO GRUBYCH WARSTW",
+    "layer": null,
+    "aggregate": null,
     "format": "Worek papierowy 25 kg",
     "stat": {
      "value": "> 50 MPa",
@@ -3529,6 +4137,8 @@
   "zement-repair-40": {
    "de": {
     "subtitle": "REPARATUR- UND AUSGLEICHSMÖRTEL FÜR SEHR GROSSE SCHICHTDICKEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Papiersack 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3538,6 +4148,8 @@
    },
    "en": {
     "subtitle": "VERY HIGH-BUILD REPAIR AND LEVELLING MORTAR",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg paper bag",
     "stat": {
      "value": "> 60 MPa",
@@ -3547,6 +4159,8 @@
    },
    "es": {
     "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN DE MUY GRAN ESPESOR",
+    "layer": null,
+    "aggregate": null,
     "format": "Saco de papel de 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3556,6 +4170,8 @@
    },
    "fi": {
     "subtitle": "ERITTÄIN PAKSUKERROKSINEN KORJAUS- JA TASAUSLAASTI",
+    "layer": null,
+    "aggregate": null,
     "format": "25 kg:n paperisäkki",
     "stat": {
      "value": "> 60 MPa",
@@ -3565,6 +4181,8 @@
    },
    "fr": {
     "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ DE TRÈS FORTE ÉPAISSEUR",
+    "layer": null,
+    "aggregate": null,
     "format": "Sac en papier de 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3574,6 +4192,8 @@
    },
    "it": {
     "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO DI GRANDISSIMO SPESSORE",
+    "layer": null,
+    "aggregate": null,
     "format": "Sacco di carta da 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3583,6 +4203,8 @@
    },
    "no": {
     "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL FOR SVÆRT STORE TYKKELSER",
+    "layer": null,
+    "aggregate": null,
     "format": "Papirsekk på 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3592,6 +4214,8 @@
    },
    "pl": {
     "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA DO BARDZO GRUBYCH WARSTW",
+    "layer": null,
+    "aggregate": null,
     "format": "Worek papierowy 25 kg",
     "stat": {
      "value": "> 60 MPa",
@@ -3603,6 +4227,8 @@
   "zement-seal-pore": {
    "de": {
     "subtitle": "WASSERBASIERTER ALIPHATISCHER ACRYL-VERSIEGLER FÜR BÖDEN",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 L",
     "stat": {
      "value": "1 Std.",
@@ -3612,6 +4238,8 @@
    },
    "en": {
     "subtitle": "WATER-BASED ALIPHATIC ACRYLIC SEALER FOR FLOORS",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L jerrycan",
     "stat": {
      "value": "1 h",
@@ -3621,6 +4249,8 @@
    },
    "es": {
     "subtitle": "SELLADOR ACRÍLICO ALIFÁTICO AL AGUA PARA PAVIMENTOS",
+    "layer": null,
+    "aggregate": null,
     "format": "Garrafa de 5 L",
     "stat": {
      "value": "1 h",
@@ -3630,6 +4260,8 @@
    },
    "fi": {
     "subtitle": "VESIPOHJAINEN ALIFAATTINEN AKRYYLITIIVISTYSAINE LATTIOILLE",
+    "layer": null,
+    "aggregate": null,
     "format": "5 L:n kanisteri",
     "stat": {
      "value": "1 h",
@@ -3639,6 +4271,8 @@
    },
    "fr": {
     "subtitle": "SCELLANT ACRYLIQUE ALIPHATIQUE À L'EAU POUR SOLS",
+    "layer": null,
+    "aggregate": null,
     "format": "Bidon de 5 L",
     "stat": {
      "value": "1 h",
@@ -3648,6 +4282,8 @@
    },
    "it": {
     "subtitle": "SIGILLANTE ACRILICO ALIFATICO ALL'ACQUA PER PAVIMENTI",
+    "layer": null,
+    "aggregate": null,
     "format": "Tanica da 5 L",
     "stat": {
      "value": "1 h",
@@ -3657,6 +4293,8 @@
    },
    "no": {
     "subtitle": "VANNBASERT ALIFATISK AKRYLFORSEGLER FOR GULV",
+    "layer": null,
+    "aggregate": null,
     "format": "Dunk 5 L",
     "stat": {
      "value": "1 t",
@@ -3666,6 +4304,8 @@
    },
    "pl": {
     "subtitle": "WODNY ALIFATYCZNY USZCZELNIACZ AKRYLOWY DO POSADZEK",
+    "layer": null,
+    "aggregate": null,
     "format": "Kanister 5 l",
     "stat": {
      "value": "1 h",
@@ -3677,6 +4317,8 @@
   "zement-seal": {
    "de": {
     "subtitle": "2K-EPOXIDGRUNDIERUNG, 100 % FESTSTOFFE, DAMPFSPERRE",
+    "layer": null,
+    "aggregate": null,
     "format": "Metallgebinde (A+B)",
     "stat": {
      "value": "100 %",
@@ -3686,6 +4328,8 @@
    },
    "en": {
     "subtitle": "TWO-COMPONENT EPOXY PRIMER, 100 % SOLIDS, VAPOUR BARRIER",
+    "layer": null,
+    "aggregate": null,
     "format": "Metal containers (A+B)",
     "stat": {
      "value": "100 %",
@@ -3695,6 +4339,8 @@
    },
    "es": {
     "subtitle": "IMPRIMACIÓN EPOXI BICOMPONENTE 100 % SÓLIDOS, BARRERA DE VAPOR",
+    "layer": null,
+    "aggregate": null,
     "format": "Envases metálicos (A+B)",
     "stat": {
      "value": "100 %",
@@ -3704,6 +4350,8 @@
    },
    "fi": {
     "subtitle": "2K-EPOKSIPOHJUSTE, 100 % KUIVA-AINE, HÖYRYNSULKU",
+    "layer": null,
+    "aggregate": null,
     "format": "Metallipakkaukset (A+B)",
     "stat": {
      "value": "100 %",
@@ -3713,6 +4361,8 @@
    },
    "fr": {
     "subtitle": "PRIMAIRE ÉPOXY BICOMPOSANT 100 % EXTRAIT SEC, PARE-VAPEUR",
+    "layer": null,
+    "aggregate": null,
     "format": "Récipients métalliques (A+B)",
     "stat": {
      "value": "100 %",
@@ -3722,6 +4372,8 @@
    },
    "it": {
     "subtitle": "PRIMER EPOSSIDICO BICOMPONENTE 100 % SOLIDI, BARRIERA VAPORE",
+    "layer": null,
+    "aggregate": null,
     "format": "Confezioni metalliche (A+B)",
     "stat": {
      "value": "100 %",
@@ -3731,6 +4383,8 @@
    },
    "no": {
     "subtitle": "TOKOMPONENT EPOKSYGRUNNING, 100 % TØRRSTOFF, DAMPSPERRE",
+    "layer": null,
+    "aggregate": null,
     "format": "Metallbeholdere (A+B)",
     "stat": {
      "value": "100 %",
@@ -3740,6 +4394,8 @@
    },
    "pl": {
     "subtitle": "GRUNT EPOKSYDOWY 2K, 100 % CZĘŚCI STAŁYCH, PAROIZOLACJA",
+    "layer": null,
+    "aggregate": null,
     "format": "Metalowe opakowania (A+B)",
     "stat": {
      "value": "100 %",
@@ -4255,7 +4911,7 @@
   {
    "key": "interior",
    "target": {
-    "category": "microcemento"
+    "product": "basis-0-4-aqua-mix"
    },
    "image": "basis-0-4-aqua-mix",
    "label": {
@@ -4289,7 +4945,7 @@
   {
    "key": "piscina",
    "target": {
-    "category": "piscinas"
+    "product": "zement-dune"
    },
    "image": "zement-dune",
    "label": {
@@ -4306,7 +4962,7 @@
   {
    "key": "metalico",
    "target": {
-    "category": "metalicos"
+    "product": "zement-metallic"
    },
    "image": "zement-metallic",
    "label": {

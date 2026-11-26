@@ -101,6 +101,11 @@ final class ZementCatalogImporter
             $name = $data['name'][$iso] ?? $data['name']['es'];
             $category->name[$idLang] = $name;
             $category->link_rewrite[$idLang] = Tools::str2url($name);
+            // Texto de la familia (opcional): explica los nombres de los productos para elegir.
+            $description = $data['description'][$iso] ?? $data['description']['es'] ?? null;
+            $category->description[$idLang] = $description === null
+                ? ''
+                : '<p>' . htmlspecialchars($description, ENT_QUOTES | ENT_HTML5, 'UTF-8') . '</p>';
         }
 
         $category->save();

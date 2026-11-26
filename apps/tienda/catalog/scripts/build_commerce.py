@@ -52,8 +52,29 @@ def norms(content: dict) -> list[dict[str, str]]:
     return found
 
 
-def product_info(sheet: dict) -> dict[str, dict]:
+AGGREGATE = re.compile(r"árido|granulometr", re.IGNORECASE)
+
+
+def aggregate_position(content: dict) -> tuple[int, int, int, int] | None:
+    """Posición de la fila «Tamaño (máximo) del árido» o «Granulometría» en la ficha en español.
+
+    Las fichas de los 8 idiomas tienen la misma estructura, así que la misma posición da el
+    valor traducido en cada idioma.
+    """
+    for s, section in enumerate(content["sections"]):
+        for b, block in enumerate(section["blocks"]):
+            if block["type"] != "table":
+                continue
+            for g, group in enumerate(block["groups"]):
+                for r, row in enumerate(group["rows"]):
+                    if AGGREGATE.search(row["key"]):
+                        return s, b, g, r
+    return None
+
+
+def product_info(sheet: dict, layer: dict[str, str] | None, aggregate_label: dict[str, str]) -> dict[str, dict]:
     info: dict[str, dict] = {}
+    position = aggregate_position(sheet["languages"]["es"])
     for iso, content in sheet["languages"].items():
         packs = [
             item
@@ -68,8 +89,15 @@ def product_info(sheet: dict) -> dict[str, dict]:
             (s for s in content["stats"] if not format_ or s["value"] not in format_),
             None,
         )
+        aggregate = None
+        if position is not None:
+            s_, b_, g_, r_ = position
+            row = content["sections"][s_]["blocks"][b_]["groups"][g_]["rows"][r_]
+            aggregate = f"{aggregate_label.get(iso, aggregate_label['en'])} {row['value']}"
         info[iso] = {
             "subtitle": content["subtitle"],
+            "layer": layer.get(iso, layer["en"]) if layer else None,
+            "aggregate": aggregate,
             "format": format_,
             "stat": {"value": stat["value"], "label": stat["label"]} if stat else None,
             "norms": norms(content),
@@ -81,10 +109,16 @@ def main() -> None:
     commerce = json.loads((CATALOG / "commerce.json").read_text(encoding="utf-8"))
     catalog = json.loads((CATALOG / "catalog.json").read_text(encoding="utf-8"))
     products = {}
+    # Capa (base / acabado) solo en los microcementos: en corcho, Mittel y Fein son el grano.
+    categories_by_product = {entry["key"]: entry["category"] for entry in catalog["products"]}
+    layers = {key: value for key, value in commerce["layers"].items() if not key.startswith("$")}
 
     for path in sorted((CATALOG / "products").glob("*.json")):
         sheet = json.loads(path.read_text(encoding="utf-8"))
-        products[sheet["key"]] = product_info(sheet)
+        layer = None
+        if categories_by_product.get(sheet["key"]) == "microcemento":
+            layer = layers.get(sheet["key"].split("-")[0])
+        products[sheet["key"]] = product_info(sheet, layer, commerce["aggregateLabel"])
 
     related = {k: v for k, v in commerce["related"].items() if not k.startswith("$")}
     keys = set(products)

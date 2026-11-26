@@ -176,13 +176,17 @@ class ZementCommerce extends Module
         $projects = [];
 
         foreach ($this->data()['projects'] as $project) {
-            $categoryId = $this->categoryId($project['target']['category'] ?? '');
-            if ($categoryId === null) {
+            // Un proyecto con sistema lleva a su ficha principal («Complete su sistema»); el resto, a su familia.
+            $target = $project['target'];
+            $url = isset($target['product'])
+                ? $this->stableUrl('p', $target['product'])
+                : $this->stableUrl('c', $target['category'] ?? '');
+            if ($url === null) {
                 continue;
             }
             $projects[] = [
                 'label' => $project['label'][$iso] ?? $project['label']['en'],
-                'url' => $link->getCategoryLink($categoryId),
+                'url' => $url,
                 'image' => $project['image'] ? $this->coverUrl($this->idOf($project['image']), null) : null,
             ];
         }

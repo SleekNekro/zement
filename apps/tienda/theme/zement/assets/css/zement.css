@@ -1221,19 +1221,39 @@ img[src*='/img/p/'][src*='-default-'] {
   }
 }
 
+/* Texto de la familia (explica los nombres de los productos): medida de lectura cómoda. */
+.category__description {
+  max-width: 68ch;
+  color: var(--zm-color-ink);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
 /* Miniatura (zementcommerce): qué es, formato y dato clave de la ficha. */
 .zm-mini-info {
   margin-top: 0.25rem;
 }
 
+/* 12 px como mínimo: el detector marcaba los 10 px anteriores como texto demasiado pequeño. */
 .zm-mini-info__type {
   margin: 0;
   color: var(--zm-color-muted);
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-weight: var(--zm-weight-ui);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   line-height: 1.4;
   text-transform: uppercase;
+}
+
+/* Lo que distingue a cada producto del resto de la familia: capa y árido. */
+.zm-mini-info__key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.75rem;
+  margin: 0.375rem 0 0;
+  color: var(--zm-color-navy);
+  font-size: 0.8125rem;
+  font-weight: var(--zm-weight-ui);
 }
 
 .zm-mini-info__specs {
