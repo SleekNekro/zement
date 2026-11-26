@@ -1,0 +1,7 @@
+Dzień dobry {firstname},
+
+Sprawdziliśmy wniosek o konto profesjonalne i nie mogliśmy go aktywować. Jeśli chcą Państwo przesłać więcej informacji o firmie, prosimy odpowiedzieć na tę wiadomość lub napisać na {contact_email}.
+
+Nadal mogą Państwo kupować w sklepie po cenach detalicznych.
+
+Zement

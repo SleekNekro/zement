@@ -1,0 +1,7 @@
+Hello {firstname},
+
+Your professional account is now active as {type}. When you sign in to the shop you will see your trade prices, excluding VAT, on every product.
+
+Go to the shop: {shop_url}
+
+Zement

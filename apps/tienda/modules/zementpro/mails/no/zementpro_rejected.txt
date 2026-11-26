@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Vi har gått gjennom forespørselen om profesjonell konto og kunne ikke aktivere den. Hvis du vil sende oss mer informasjon om firmaet, svar på denne e-posten eller skriv til {contact_email}.
+
+Du kan fortsatt handle i nettbutikken til veiledende priser.
+
+Zement

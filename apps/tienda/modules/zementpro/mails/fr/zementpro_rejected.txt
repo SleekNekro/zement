@@ -1,0 +1,7 @@
+Bonjour {firstname},
+
+Nous avons examiné votre demande de compte professionnel et n’avons pas pu l’activer. Si vous souhaitez nous envoyer plus d’informations sur votre entreprise, répondez à cet e-mail ou écrivez à {contact_email}.
+
+Vous pouvez continuer à acheter dans la boutique aux prix publics.
+
+Zement

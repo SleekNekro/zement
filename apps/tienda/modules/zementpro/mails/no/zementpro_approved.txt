@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Den profesjonelle kontoen din er nå aktiv som {type}. Når du logger inn i nettbutikken, ser du prisene dine eks. mva. på hvert produkt.
+
+Gå til nettbutikken: {shop_url}
+
+Zement

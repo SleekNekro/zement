@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Olemme käsitelleet ammattilaistilin pyyntösi, emmekä voineet ottaa tiliä käyttöön. Jos haluat lähettää meille lisätietoja yrityksestäsi, vastaa tähän viestiin tai kirjoita osoitteeseen {contact_email}.
+
+Voit edelleen ostaa verkkokaupasta kuluttajahinnoin.
+
+Zement

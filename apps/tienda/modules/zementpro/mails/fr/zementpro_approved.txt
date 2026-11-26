@@ -1,0 +1,7 @@
+Bonjour {firstname},
+
+Votre compte professionnel est désormais actif en tant que {type}. En vous connectant à la boutique, vous verrez vos tarifs, hors TVA, sur chaque produit.
+
+Aller à la boutique: {shop_url}
+
+Zement

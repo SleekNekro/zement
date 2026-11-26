@@ -46,6 +46,7 @@ pnpm dev                                          # web Astro en http://localhos
 | `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales                                      |
 | `pnpm tienda:settings`                           | Quita restos de demostración: moneda, tiendas, páginas, avisos y traducciones                                         |
 | `pnpm tienda:commerce`                           | Herramientas de venta: calculadora, sistema, relacionados, asesor, confianza, grupos profesionales y enlaces estables |
+| `pnpm tienda:pro`                                | Alta profesional: solicitudes de Distribuidor y Aplicador, aprobación en el panel y descuento de cada grupo           |
 
 ## Publicar la web
 

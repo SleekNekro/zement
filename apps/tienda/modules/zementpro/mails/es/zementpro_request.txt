@@ -1,0 +1,10 @@
+Hay una solicitud nueva de cuenta profesional en la tienda.
+
+Razón social: {company}
+CIF / NIF-IVA: {vat}
+Tipo: {type}
+Contacto: {firstname} {lastname}
+Correo: {email}
+Idioma: {language}
+
+Revísela en el panel: Clientes → Solicitudes profesionales.

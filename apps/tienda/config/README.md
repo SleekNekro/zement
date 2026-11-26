@@ -79,6 +79,15 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - Caché: por idioma. `pnpm tienda:home` registra los ganchos que la vacían.
 - TODO: correo real del contacto «Servicio al cliente» (sigue el de pruebas).
 
+## Cuentas profesionales
+
+- Módulo propio [`zementpro`](../modules/zementpro/). Se instala con `pnpm tienda:pro`, después de `pnpm tienda:commerce` (que crea los grupos Distribuidor y Aplicador con precio sin IVA).
+- **Alta:** en el registro, «Soy profesional» con el tipo, la razón social y el CIF / NIF-IVA (obligatorios si se marca). También desde «Información» de la cuenta.
+- **Solicitud:** queda en revisión y el cliente compra con precios públicos. La tienda recibe un aviso en su correo (`PS_SHOP_EMAIL`).
+- **Panel → Clientes → Solicitudes profesionales:** aprobar pasa al cliente a su grupo y le escribe en su idioma; rechazar también le avisa.
+- **Mi cuenta:** estado de la cuenta profesional, o enlace para pedirla.
+- **Descuento de cada grupo:** [`pro.php`](pro.php) (TODO: tarifa real; mientras sea `null`, no se toca).
+
 ## Herramientas de venta (fase 1 de la auditoría comercial)
 
 - Módulo propio [`zementcommerce`](../modules/zementcommerce/). Se instala con `pnpm tienda:commerce`, que primero genera `modules/zementcommerce/data/commerce.json` con `catalog/scripts/build_commerce.py`. Incluye:

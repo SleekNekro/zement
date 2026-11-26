@@ -1,0 +1,30 @@
+/* Alta profesional: ayuda bajo los datos de empresa y estado en «Mi cuenta». */
+.zm-pro-help {
+  margin: -0.25rem 0 1.25rem;
+  color: var(--zm-color-muted, #5b6670);
+  font-size: 0.875rem;
+}
+
+.zm-pro-status {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--zm-color-line, #d9d3c7);
+  border-left: 3px solid var(--zm-color-gold, #b99a57);
+  background: var(--zm-color-white, #fff);
+}
+
+.zm-pro-status--approved {
+  border-left-color: var(--zm-color-navy, #2d4f70);
+}
+
+.zm-pro-status__text {
+  margin: 0;
+}
+
+.zm-pro-status__link {
+  color: var(--zm-color-navy, #2d4f70);
+  font-weight: 500;
+  text-decoration: none;
+}

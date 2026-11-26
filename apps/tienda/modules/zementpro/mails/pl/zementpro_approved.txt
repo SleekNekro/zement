@@ -1,0 +1,7 @@
+Dzień dobry {firstname},
+
+Państwa konto profesjonalne jest już aktywne jako {type}. Po zalogowaniu się w sklepie przy każdym produkcie zobaczą Państwo swoją cenę netto.
+
+Przejdź do sklepu: {shop_url}
+
+Zement

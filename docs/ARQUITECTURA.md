@@ -106,7 +106,7 @@ ZementWeb/
 | Aplicador                      | Profesional                 | Tarifa del grupo, **sin IVA**                                                   | Tarjeta y transferencia         |
 | (Cliente concreto)             | Mayorista con tarifa propia | **Precio específico por cliente** en el producto o regla de precios de catálogo | Según su grupo                  |
 
-- **Alta de mayoristas.** En la v1, el personal crea la cuenta o la pasa al grupo mayorista desde el panel. El alta con aprobación queda para la fase 2.
+- **Alta de profesionales.** En el registro de la tienda, «Soy profesional» con el tipo (Distribuidor o Aplicador), razón social y CIF / NIF-IVA. Queda una solicitud en revisión (el cliente compra con precios públicos) que el personal aprueba o rechaza en Clientes → Solicitudes profesionales; al aprobar, el cliente pasa a su grupo y recibe un correo en su idioma. Módulo `zementpro`; descuento de cada grupo en `apps/tienda/config/pro.php` (**TODO: tarifa real**).
 - **Modo B2B.** Se activa en Clientes → Ajustes. Añade razón social y número fiscal (CIF/NIF-IVA) a la cuenta.
 - **Pedidos mayoristas.** La cantidad mínima por producto es nativa. Un **pedido mínimo distinto por grupo** necesitaría un módulo (decidir). Los valores reales están por definir (**TODO: contenido real**).
 - **Impuestos.** IVA 21 % en España y reglas por país de la UE.

@@ -1,0 +1,7 @@
+Hallo {firstname},
+
+Wir haben Ihre Anfrage für ein Profikonto geprüft und konnten es nicht freischalten. Wenn Sie uns weitere Angaben zu Ihrem Unternehmen senden möchten, antworten Sie auf diese E-Mail oder schreiben Sie an {contact_email}.
+
+Sie können im Shop weiterhin zu öffentlichen Preisen einkaufen.
+
+Zement

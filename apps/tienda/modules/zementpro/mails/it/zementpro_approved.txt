@@ -1,0 +1,7 @@
+Buongiorno {firstname},
+
+Il suo account professionale è ora attivo come {type}. Accedendo al negozio vedrà i suoi prezzi, IVA esclusa, su ogni prodotto.
+
+Vai al negozio: {shop_url}
+
+Zement

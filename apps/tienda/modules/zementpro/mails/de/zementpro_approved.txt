@@ -1,0 +1,7 @@
+Hallo {firstname},
+
+Ihr Profikonto ist jetzt als {type} aktiv. Wenn Sie sich im Shop anmelden, sehen Sie bei jedem Produkt Ihren Preis ohne MwSt.
+
+Zum Shop: {shop_url}
+
+Zement

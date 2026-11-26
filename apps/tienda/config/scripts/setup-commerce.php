@@ -106,8 +106,9 @@ echo "· barra de confianza con los datos de config/company.php\n";
 
 /*
  * Grupos profesionales. Ven el precio sin IVA y todo el catálogo; el descuento de cada grupo
- * es TODO (tarifa de Zement): hasta entonces, 0 %. Zement revisa cada alta profesional
- * (empresa y CIF) y asigna el grupo a mano en Clientes → Clientes.
+ * es TODO (tarifa de Zement): hasta entonces, 0 %. Las altas profesionales llegan como
+ * solicitudes (módulo zementpro, pnpm tienda:pro) y se aprueban en Clientes → Solicitudes
+ * profesionales; el descuento de cada grupo está en config/pro.php.
  */
 const ZEMENT_PRO_GROUPS = [
     'Aplicador' => [

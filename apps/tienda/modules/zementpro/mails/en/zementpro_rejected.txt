@@ -1,0 +1,7 @@
+Hello {firstname},
+
+We have reviewed your professional account request and could not activate it. If you would like to send us more details about your company, reply to this email or write to {contact_email}.
+
+You can keep buying in the shop at public prices.
+
+Zement

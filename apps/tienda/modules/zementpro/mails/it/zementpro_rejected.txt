@@ -1,0 +1,7 @@
+Buongiorno {firstname},
+
+Abbiamo esaminato la sua richiesta di account professionale e non abbiamo potuto attivarlo. Se desidera inviarci maggiori informazioni sulla sua azienda, risponda a questa e-mail o scriva a {contact_email}.
+
+Può continuare ad acquistare nel negozio ai prezzi al pubblico.
+
+Zement

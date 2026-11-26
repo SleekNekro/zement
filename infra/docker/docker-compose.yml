@@ -53,6 +53,7 @@ services:
       # Módulos propios versionados en Git (apps/tienda/modules).
       - ../../apps/tienda/modules/zementhome:/var/www/html/modules/zementhome
       - ../../apps/tienda/modules/zementcommerce:/var/www/html/modules/zementcommerce
+      - ../../apps/tienda/modules/zementpro:/var/www/html/modules/zementpro
 
 volumes:
   mysql-data:

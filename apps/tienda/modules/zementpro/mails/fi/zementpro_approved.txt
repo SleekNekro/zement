@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Ammattilaistilisi on nyt käytössä: {type}. Kun kirjaudut verkkokauppaan, näet hintasi ilman arvonlisäveroa jokaisen tuotteen kohdalla.
+
+Siirry verkkokauppaan: {shop_url}
+
+Zement

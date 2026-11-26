@@ -1,0 +1,7 @@
+Hola {firstname}:
+
+Hemos revisado su solicitud de cuenta profesional y no hemos podido activarla. Si quiere enviarnos más datos de su empresa, responda a este correo o escríbanos a {contact_email}.
+
+Puede seguir comprando en la tienda con precios públicos.
+
+Zement

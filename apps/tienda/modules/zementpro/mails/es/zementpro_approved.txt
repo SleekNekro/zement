@@ -1,0 +1,7 @@
+Hola {firstname}:
+
+Su cuenta profesional ya está activa como {type}. Al iniciar sesión en la tienda verá su tarifa, sin IVA, en cada producto.
+
+Ir a la tienda: {shop_url}
+
+Zement
