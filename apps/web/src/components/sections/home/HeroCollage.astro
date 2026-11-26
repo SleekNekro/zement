@@ -1,11 +1,11 @@
 ---
 import { Image } from 'astro:assets';
-import bathroom from '../../../assets/provisional/bano-microcemento.jpg';
-import texture from '../../../assets/provisional/textura-llana.jpg';
-import trowel from '../../../assets/provisional/aplicacion-llana.jpg';
+import bathroom from '../../../assets/fotos/bano-paredes-microcemento.jpg';
+import texture from '../../../assets/fotos/pared-microcemento-luz.jpg';
+import detail from '../../../assets/fotos/hornacina-microcemento.jpg';
 
-// Fondo de la portada: collage recto de espacio, materia y oficio (el suelo continuo se reserva para «Tu espacio»), separado por filetes de 1 px.
-// Fotos decorativas (el contenido está en el titular); provisionales hasta tener fotografía propia.
+// Fondo de la portada: collage recto de espacio, materia y detalle, separado por filetes de 1 px.
+// Fotos decorativas (el contenido está en el titular): baño, textura y detalle de microcemento.
 const tile = 'hero-media size-full object-cover';
 ---
 
@@ -35,7 +35,7 @@ const tile = 'hero-media size-full object-cover';
   </div>
   <div class="overflow-hidden lg:col-span-5">
     <Image
-      src={trowel}
+      src={detail}
       alt=""
       widths={[480, 800, 1200]}
       sizes="(min-width: 1024px) 42vw, 50vw"

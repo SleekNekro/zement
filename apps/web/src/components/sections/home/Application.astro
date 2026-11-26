@@ -6,7 +6,7 @@ import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
-import hall from '../../../assets/provisional/nave-suelo-continuo.jpg';
+import kitchen from '../../../assets/fotos/cocina-suelo-continuo.jpg';
 
 interface Props {
   locale: Locale;
@@ -26,11 +26,11 @@ const headingTag = `h${level}` as 'h2' | 'h3';
   <!-- La única sección que arranca desde la imagen: el espacio terminado, con el titular encima -->
   <div class="bg-night text-paper relative isolate flex min-h-[70svh] items-end overflow-hidden">
     <Image
-      src={hall}
+      src={kitchen}
       alt=""
       widths={[640, 1024, 1600, 2000]}
       sizes="100vw"
-      class="hero-media absolute inset-0 -z-10 size-full object-cover object-[50%_70%]"
+      class="hero-media absolute inset-0 -z-10 size-full object-cover object-[50%_65%]"
     />
     <div
       class="from-night/85 via-night/30 to-night/0 absolute inset-0 -z-10 bg-linear-to-t"
