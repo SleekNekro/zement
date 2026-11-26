@@ -11,6 +11,15 @@
  *}
 {extends file='parent:catalog/product.tpl'}
 
+{* Sin foto: casilla con la capa y el envase (zementcommerce), baja en móvil, en vez de la imagen vacía. *}
+{block name='product_cover_thumbnails'}
+    {if $product.images|@count > 0}
+        {$smarty.block.parent}
+    {else}
+        {hook h='displayZementNoPhoto' product=$product variant='product'}
+    {/if}
+{/block}
+
 {block name='product_description_short' append}
     {hook h='displayZementProductBadges' product=$product}
 {/block}

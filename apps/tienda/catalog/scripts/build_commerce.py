@@ -72,7 +72,12 @@ def aggregate_position(content: dict) -> tuple[int, int, int, int] | None:
     return None
 
 
-def product_info(sheet: dict, layer: dict[str, str] | None, aggregate_label: dict[str, str]) -> dict[str, dict]:
+def product_info(
+    sheet: dict,
+    layer: dict[str, str] | None,
+    aggregate_label: dict[str, str],
+    format_packs: list[int],
+) -> dict[str, dict]:
     info: dict[str, dict] = {}
     position = aggregate_position(sheet["languages"]["es"])
     for iso, content in sheet["languages"].items():
@@ -94,8 +99,11 @@ def product_info(sheet: dict, layer: dict[str, str] | None, aggregate_label: dic
             s_, b_, g_, r_ = position
             row = content["sections"][s_]["blocks"][b_]["groups"][g_]["rows"][r_]
             aggregate = f"{aggregate_label.get(iso, aggregate_label['en'])} {row['value']}"
+        # Todos los formatos de venta (catalog.json → formats) o, si no hay varios, el primero.
+        formats = [packs[i] for i in format_packs if i < len(packs)] if format_packs else []
         info[iso] = {
             "subtitle": content["subtitle"],
+            "formats": " · ".join(formats) if len(formats) > 1 else format_,
             "layer": layer.get(iso, layer["en"]) if layer else None,
             "aggregate": aggregate,
             "format": format_,
@@ -111,6 +119,9 @@ def main() -> None:
     products = {}
     # Capa (base / acabado) solo en los microcementos: en corcho, Mittel y Fein son el grano.
     categories_by_product = {entry["key"]: entry["category"] for entry in catalog["products"]}
+    format_packs_by_product = {
+        entry["key"]: [fmt["pack"] for fmt in entry.get("formats", [])] for entry in catalog["products"]
+    }
     layers = {key: value for key, value in commerce["layers"].items() if not key.startswith("$")}
 
     for path in sorted((CATALOG / "products").glob("*.json")):
@@ -118,7 +129,9 @@ def main() -> None:
         layer = None
         if categories_by_product.get(sheet["key"]) == "microcemento":
             layer = layers.get(sheet["key"].split("-")[0])
-        products[sheet["key"]] = product_info(sheet, layer, commerce["aggregateLabel"])
+        products[sheet["key"]] = product_info(
+            sheet, layer, commerce["aggregateLabel"], format_packs_by_product.get(sheet["key"], [])
+        )
 
     related = {k: v for k, v in commerce["related"].items() if not k.startswith("$")}
     keys = set(products)

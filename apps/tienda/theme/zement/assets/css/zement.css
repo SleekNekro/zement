@@ -695,11 +695,10 @@ main h1 {
 }
 
 /*
- * Productos sin foto (TODO: fotos reales): en vez del «Imagen no disponible» de PrestaShop,
- * una superficie azul de marca con el logotipo, como las familias sin imagen de la portada.
+ * Productos sin foto en el carrito (TODO: fotos reales): en vez del «Imagen no disponible» de
+ * PrestaShop, superficie azul de marca con el logotipo. En la ficha y en las tarjetas va la
+ * casilla .zm-no-photo, con la capa y el envase.
  */
-.product-miniature__image-container:has(img[src*='-default-']),
-.product__no-image,
 .product-line__image:has(img[src*='-default-']),
 .cart-summary-product__image:has(img[src*='-default-']) {
   background:
@@ -709,6 +708,71 @@ main h1 {
 
 img[src*='/img/p/'][src*='-default-'] {
   opacity: 0;
+}
+
+/*
+ * Casilla de producto sin foto (zementcommerce): código de capa (Z.01…) o capa, envase y firma.
+ * En la ficha, cuadrada en escritorio y baja en móvil para que el nombre y el botón suban.
+ */
+.zm-no-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  aspect-ratio: 1;
+  padding: clamp(1rem, 4%, 2rem);
+  background: linear-gradient(160deg, var(--zm-color-navy) 0%, var(--zm-color-night) 80%);
+  color: var(--zm-color-paper);
+}
+
+.zm-no-photo__label {
+  color: var(--zm-color-sand);
+  font-size: 0.75rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+/* El envase siempre abajo, haya o no código de capa encima. */
+.zm-no-photo__format {
+  margin-top: auto;
+  font-family: var(--zm-font-display);
+  font-size: clamp(1.25rem, 2.6vw, 2rem);
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+  line-height: 1.1;
+}
+
+.zm-no-photo__logo {
+  width: clamp(4rem, 30%, 7rem);
+  height: auto;
+  opacity: 0.55;
+}
+
+.zm-no-photo--miniature {
+  padding: 0.875rem;
+}
+
+.zm-no-photo--miniature .zm-no-photo__label {
+  font-size: 0.6875rem;
+}
+
+.zm-no-photo--miniature .zm-no-photo__format {
+  font-size: clamp(0.9375rem, 1.6vw, 1.125rem);
+}
+
+.zm-no-photo--miniature .zm-no-photo__logo {
+  width: 3.5rem;
+}
+
+.zm-no-photo--product {
+  margin-bottom: 1.5rem;
+}
+
+@media (width < 768px) {
+  .zm-no-photo--product {
+    aspect-ratio: auto;
+    min-height: 8.5rem;
+  }
 }
 
 /* Ficha: «Solicitar presupuesto» (mientras no hay precio) y ficha técnica en PDF junto al resumen. */

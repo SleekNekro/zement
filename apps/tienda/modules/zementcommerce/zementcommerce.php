@@ -13,6 +13,7 @@
  *   gratuito en el carrito. Datos: ZEMENT_COMPANY (apps/tienda/config/company.php).
  * - Presupuesto: mientras un producto no se vende, «Solicitar presupuesto» abre el formulario
  *   de contacto con el producto, el formato y las cantidades calculadas ya escritos.
+ * - Productos sin foto: casilla con la capa del sistema y el envase en lugar de la imagen vacía.
  * - Fase 3: aviso de cookies (packages/consent, copiado en views/consent con pnpm consent:sync).
  *   Google Analytics 4 (ZEMENT_GA4_ID) solo se carga si el visitante acepta la analítica.
  *
@@ -43,6 +44,7 @@ class ZementCommerce extends Module
         'displayShoppingCart',
         'displayAfterBodyOpeningTag',
         'displayZementQuote',
+        'displayZementNoPhoto',
     ];
 
     /** Sube al añadir finalidades nuevas al aviso de cookies: se vuelve a pedir el consentimiento. */
@@ -58,7 +60,7 @@ class ZementCommerce extends Module
     {
         $this->name = 'zementcommerce';
         $this->tab = 'front_office_features';
-        $this->version = '0.4.0';
+        $this->version = '0.5.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -346,6 +348,38 @@ class ZementCommerce extends Module
         ]);
 
         return $this->fetch('module:' . $this->name . '/views/templates/hook/quote.tpl');
+    }
+
+    /**
+     * Producto sin foto (TODO: fotos reales): en lugar de la imagen por defecto, una casilla con lo
+     * que lo identifica, el código de su capa en el sistema (Z.01…) o su capa, y su envase.
+     * `variant`: «product» (ficha) o «miniature» (tarjeta).
+     */
+    public function hookDisplayZementNoPhoto(array $params): string
+    {
+        $productId = $this->productId($params);
+        $key = $this->keyOf($productId);
+        $info = $this->productInfo($productId);
+
+        $code = null;
+        foreach ($key === null ? [] : $this->data()['systems'] as $system) {
+            foreach ($system['steps'] as $step) {
+                if ($step['product'] === $key && str_starts_with($step['code'], 'Z.')) {
+                    $code = $step['code'];
+                }
+            }
+        }
+
+        $this->context->smarty->assign([
+            'zementNoPhoto' => [
+                'variant' => ($params['variant'] ?? 'product') === 'miniature' ? 'miniature' : 'product',
+                'label' => $code ?? ($info['layer'] ?? null),
+                'format' => $info['formats'] ?? $info['format'] ?? null,
+                'logo' => $this->context->link->getBaseLink() . 'themes/zement/assets/img/zement-logo-paper.svg',
+            ],
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/no-photo.tpl');
     }
 
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */

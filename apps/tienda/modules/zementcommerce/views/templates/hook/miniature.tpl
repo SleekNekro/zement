@@ -12,7 +12,7 @@
     {elseif $zementInfo.stat}
         <p class="zm-mini-info__key"><span>{$zementInfo.stat.value} · {$zementInfo.stat.label}</span></p>
     {/if}
-    {if $zementInfo.format}
-        <p class="zm-mini-info__specs"><span>{$zementInfo.format}</span></p>
+    {if $zementInfo.formats|default:$zementInfo.format}
+        <p class="zm-mini-info__specs"><span>{$zementInfo.formats|default:$zementInfo.format}</span></p>
     {/if}
 </div>
