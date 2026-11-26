@@ -109,6 +109,7 @@
 
   /* En pantallas estrechas la tipografía expandida puede no caber: se permite partir palabras. */
   @media (width < 40rem) {
+    h1,
     h2,
     h3 {
       hyphens: auto;
@@ -180,7 +181,7 @@
   }
 
   .field {
-    @apply w-full border-0 border-b border-line-dark bg-transparent py-3 text-paper outline-none;
+    @apply w-full min-w-0 border-0 border-b border-line-dark bg-transparent py-3 text-paper outline-none;
 
     font-weight: var(--zm-weight-body);
     transition: border-color var(--zm-duration-fast) var(--zm-ease);

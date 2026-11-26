@@ -191,7 +191,8 @@ const field = 'field tracking-normal normal-case';
         </label>
       </div>
 
-      <div class="grid gap-7 sm:grid-cols-3">
+      <!-- En tableta el formulario ocupa media pantalla: tres columnas no caben, se apilan. -->
+      <div class="grid gap-7 sm:grid-cols-3 md:grid-cols-1 lg:grid-cols-3">
         <label class={fieldLabel}>
           <span>
             {text.phone} <span class="text-paper/65 normal-case">({text.optional})</span>

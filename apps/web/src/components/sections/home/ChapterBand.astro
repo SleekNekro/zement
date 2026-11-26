@@ -24,7 +24,7 @@ const { chapter, tone = 'light' } = Astro.props;
       lines={[chapter.title]}
       class="display-xl md:col-span-7"
     />
-    <div class="grid gap-5 md:col-span-4 md:col-start-9">
+    <div class="grid min-w-0 gap-5 md:col-span-4 md:col-start-9">
       <p
         class:list={[tone === 'dark' ? 'text-paper/70' : 'text-muted']}
         data-reveal
@@ -34,7 +34,7 @@ const { chapter, tone = 'light' } = Astro.props;
       {chapter.jumpLabel && chapter.jumpTo && (
         <a
           class:list={[
-            'link-arrow label min-h-11 w-fit items-center bg-none pb-0 whitespace-nowrap',
+            'link-arrow label min-h-11 w-fit items-center bg-none pb-0',
             tone === 'dark' ? 'text-sand hover:text-paper' : 'text-muted hover:text-navy',
           ]}
           href={`#${chapter.jumpTo}`}
