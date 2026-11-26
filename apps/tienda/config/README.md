@@ -134,3 +134,22 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - **Traducciones que faltaban:** [`translations/missing.php`](translations/missing.php) recoge las cadenas de Hummingbird que no traen los paquetes de idioma.
   - Hoy cubre el teléfono de la cabecera y el buscador.
   - TODO: faltan unas 170 en DE, NO y FI, 140 en FR y 130 en PL, sobre todo etiquetas para lectores de pantalla.
+
+## Formas de pago
+
+Se aplican con `pnpm tienda:payments` ([`scripts/setup-payments.php`](scripts/setup-payments.php)). Decisión del 26/11/2026: **tarjeta con Stripe y transferencia bancaria**.
+
+- **Métodos de ejemplo de PrestaShop:** se desactivan (no se desinstalan) el cheque, el contra reembolso y PrestaShop Checkout.
+- **Transferencia bancaria** (`ps_wirepayment`):
+  - Los datos salen de [`company.php`](company.php) → `bank`: titular, IBAN, BIC y banco.
+  - TODO: datos reales de la cuenta. Los rellena la empresa.
+  - Mientras falte el titular o el IBAN, la transferencia no se ofrece en la caja.
+  - Los días de reserva del pedido se quedan en el valor por defecto del módulo hasta que se decidan.
+- **Tarjeta con Stripe:** módulo oficial «Stripe – Official SCA-ready» (`stripe_official`), gratuito; Stripe solo cobra su comisión. Pasos:
+  1. Comprobar la compatibilidad con PrestaShop 9.2. Lo dice la ficha de [PrestaShop Addons](https://addons.prestashop.com/en/payment-card-wallet/24922-stripe-official-sca-ready.html), en «Compatibilidad». El repositorio antiguo de GitHub está archivado desde 2023: no usarlo.
+  2. Instalar el módulo desde el back office, en Módulos → Marketplace (hay que iniciar sesión con la cuenta de PrestaShop). También se puede descargar el zip de Addons y subirlo en el gestor de módulos.
+  3. Crear la cuenta de Stripe de Zement e instalar la aplicación «PrestaShop» del Stripe App Marketplace, en modo de pruebas (sandbox). Esa aplicación da la clave publicable y la secreta. Ver la [guía de Stripe](https://docs.stripe.com/use-stripe-apps/prestashop/configuration).
+  4. Pegar las claves en Módulos → Stripe → Configurar, con el modo de pruebas activado. Las claves nunca van al repositorio.
+  5. Probar un pago con las tarjetas de prueba de Stripe (por ejemplo, 4242 4242 4242 4242) cuando haya productos con precio.
+  6. En producción, repetir con las claves reales. Los webhooks los da de alta el propio módulo, pero Stripe no llega a `localhost`. En local, los avisos que dependen de webhooks necesitan `stripe listen --forward-to` (Stripe CLI) o un túnel.
+- Si el módulo oficial no admite PrestaShop 9.2, hay módulos de pago que sí lo declaran (PresTeamShop «PTS Stripe», Webkul). Habría que decidir cuál.

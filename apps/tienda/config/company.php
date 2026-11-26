@@ -8,7 +8,8 @@
  * cambiarlos aquí: la tienda y la web no deben contradecirse.
  *
  * null = pendiente (TODO: contenido real): lo que depende de ese dato no se muestra.
- * Lo usan setup-settings.php (contacto de la tienda) y setup-commerce.php (barra de confianza).
+ * Lo usan setup-settings.php (contacto de la tienda), setup-commerce.php (barra de confianza)
+ * y setup-payments.php (cuenta para la transferencia).
  */
 
 declare(strict_types=1);
@@ -53,6 +54,17 @@ return [
      * en el aviso de cookies. TODO: identificador real de Zement (null = no se carga nada).
      */
     'ga4Id' => null,
+    /**
+     * Cuenta para el pago por transferencia (solo en la tienda; setup-payments.php).
+     * TODO: datos reales de la cuenta de Zement. Mientras el titular o el IBAN sean null, la
+     * transferencia no se ofrece en la caja. Los rellena la empresa, nunca un dato de ejemplo.
+     */
+    'bank' => [
+        'owner' => null,
+        'iban' => null,
+        'bic' => null,
+        'bankName' => null,
+    ],
     // TODO: contenido real (company.ts → shopTerms): mientras sean null no se muestran.
     'freeShippingFrom' => null,
     'delivery' => null,
