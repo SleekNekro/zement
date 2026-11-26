@@ -6,6 +6,7 @@ import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
 import consentStrings from '@zement/consent/strings.json';
+import { company } from '../../data/company';
 
 interface Props {
   locale: Locale;
@@ -20,6 +21,11 @@ const legalLinks = [
   { href: legalPath(locale, 'terms'), label: t(locale, 'footer.terms') },
   // Reabre el aviso de cookies (packages/consent escucha los enlaces a «#zm-cookies»).
   { href: '#zm-cookies', label: consentStrings[locale].footerLink },
+];
+// Contacto directo siempre a la vista: correo y teléfono de data/company.ts (fuente única).
+const contactLinks = [
+  { href: `mailto:${company.email}`, label: company.email, isEmail: true },
+  { href: `tel:${company.phone.replace(/\s/g, '')}`, label: company.phone, isEmail: false },
 ];
 const links = [
   { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
@@ -55,7 +61,24 @@ const links = [
         </li>
       ))}
     </ul>
-    <p class="label md:col-span-3 md:text-right">© {year} Zement</p>
+    <div class="label grid gap-3 md:col-span-3 md:justify-items-end md:text-right">
+      <ul class="grid">
+        {contactLinks.map((link) => (
+          <li>
+            <a
+              class:list={[
+                'hover:text-paper inline-flex min-h-11 items-center no-underline',
+                link.isEmail && 'tracking-normal normal-case',
+              ]}
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p>© {year} Zement</p>
+    </div>
   </div>
 
   <!-- Logotipo a todo el ancho: firma final con impacto -->
