@@ -50,7 +50,7 @@ const it: Translation = {
     writeUs: 'Scrivi un’email',
     whatsapp: 'WhatsApp',
     hours: 'Orari',
-    responseTime: 'Rispondiamo entro',
+    responseTime: 'Tempi di risposta',
   },
   formMessages: {
     success: 'Grazie. Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile.',
@@ -303,7 +303,7 @@ const it: Translation = {
   },
   company: {
     hours: 'TODO: orari reali',
-    responseTime: 'TODO: tempi di risposta reali',
+    responseTime: '24 ore nei giorni lavorativi',
     area: 'Spagna ed Europa',
     shipping: 'TODO: costo e spedizione gratuita a partire da X €',
     delivery: 'TODO: tempi di consegna reali',

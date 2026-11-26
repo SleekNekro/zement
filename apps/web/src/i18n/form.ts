@@ -25,7 +25,7 @@ const baseText = {
     writeUs: 'Escribir un correo',
     whatsapp: 'WhatsApp',
     hours: 'Horario',
-    responseTime: 'Respondemos en',
+    responseTime: 'Plazo de respuesta',
   },
   en: {
     name: 'Name',
@@ -46,7 +46,7 @@ const baseText = {
     writeUs: 'Send an email',
     whatsapp: 'WhatsApp',
     hours: 'Opening hours',
-    responseTime: 'We reply within',
+    responseTime: 'Response time',
   },
 } as const;
 

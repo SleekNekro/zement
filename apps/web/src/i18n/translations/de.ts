@@ -305,7 +305,7 @@ const de: Translation = {
   },
   company: {
     hours: 'TODO: echte Geschäftszeiten',
-    responseTime: 'TODO: echte Antwortzeit',
+    responseTime: '24 Stunden an Werktagen',
     area: 'Spanien und Europa',
     shipping: 'TODO: Kosten und kostenloser Versand ab X €',
     delivery: 'TODO: echte Lieferzeit',

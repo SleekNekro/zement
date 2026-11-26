@@ -34,15 +34,15 @@ const pick = (
  */
 export const company = {
   /** Correo de contacto comercial y técnico. */
-  email: 'TODO: correo real',
+  email: 'info@zement.es',
   /** Teléfono en formato internacional, p. ej. +34 600 000 000. */
-  phone: 'TODO: teléfono real',
+  phone: '+34 607 800 028',
   /** Número de WhatsApp en formato internacional sin espacios, p. ej. 34600000000 (vacío = sin WhatsApp). */
   whatsapp: '',
   /** Horario de atención. */
   hours: pick('hours', 'TODO: horario real', 'TODO: real opening hours'),
   /** Plazo de respuesta a consultas. */
-  responseTime: pick('responseTime', 'TODO: plazo real de respuesta', 'TODO: real response time'),
+  responseTime: pick('responseTime', '24 horas en días laborables', '24 hours on working days'),
   /** Condiciones de compra en la tienda (deben coincidir con PrestaShop: una sola verdad). */
   shopTerms: {
     area: pick('area', 'España y Europa', 'Spain and Europe'),
@@ -64,7 +64,7 @@ export const company = {
     taxId: 'TODO: CIF',
     address: 'TODO: domicilio social completo',
     registry: 'TODO: datos de inscripción en el Registro Mercantil',
-    email: 'TODO: correo para privacidad y consultas legales',
+    email: 'info@zement.es',
     website: 'TODO: dominio de la web',
     shopWebsite: 'TODO: dominio de la tienda',
     paymentProvider: 'TODO: pasarela de pago (Redsys o Stripe)',

@@ -2,6 +2,7 @@
 import RevealHeading from '../../ui/RevealHeading.astro';
 import Arrow from '../../ui/Arrow.astro';
 import Todo from '../../ui/Todo.astro';
+import Value from '../../ui/Value.astro';
 import type { HomeContent } from '../../../data/home';
 import { company, isPending } from '../../../data/company';
 import { formMessages, formText, interestValues } from '../../../i18n/form';
@@ -88,13 +89,13 @@ const field = 'field tracking-normal normal-case';
           <div class="flex flex-wrap gap-2">
             <dt>{text.hours}:</dt>
             <dd>
-              <Todo text={company.hours[locale]} />
+              <Value text={company.hours[locale]} />
             </dd>
           </div>
           <div class="flex flex-wrap gap-2">
             <dt>{text.responseTime}:</dt>
             <dd>
-              <Todo text={company.responseTime[locale]} />
+              <Value text={company.responseTime[locale]} />
             </dd>
           </div>
         </dl>

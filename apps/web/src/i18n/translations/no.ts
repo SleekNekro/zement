@@ -50,7 +50,7 @@ const no: Translation = {
     writeUs: 'Send en e-post',
     whatsapp: 'WhatsApp',
     hours: 'Åpningstider',
-    responseTime: 'Vi svarer innen',
+    responseTime: 'Svartid',
   },
   formMessages: {
     success: 'Takk. Vi har mottatt forespørselen din og svarer så snart som mulig.',
@@ -303,7 +303,7 @@ const no: Translation = {
   },
   company: {
     hours: 'TODO: faktiske åpningstider',
-    responseTime: 'TODO: faktisk svartid',
+    responseTime: '24 timer på hverdager',
     area: 'Spania og Europa',
     shipping: 'TODO: kostnad og gratis frakt fra X €',
     delivery: 'TODO: faktisk leveringstid',

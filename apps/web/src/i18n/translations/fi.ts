@@ -305,7 +305,7 @@ const fi: Translation = {
   },
   company: {
     hours: 'TODO: todelliset palveluajat',
-    responseTime: 'TODO: todellinen vastausaika',
+    responseTime: '24 tuntia arkipäivisin',
     area: 'Espanja ja muu Eurooppa',
     shipping: 'TODO: toimituskulut ja ilmainen toimitus yli X €',
     delivery: 'TODO: todellinen toimitusaika',
