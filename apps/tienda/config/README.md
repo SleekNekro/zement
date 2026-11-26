@@ -27,6 +27,8 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 
 ## Portada
 
+> Desde el 26/11/2026 la portada sigue un estilo de tienda clásica (ver «Ajustes y restos de demostración» más abajo).
+
 - Módulo propio [`zementhome`](../modules/zementhome/) en `displayHome`, el primero: bloque principal (la primera familia, «Microcemento & Materials», con la textura de su ficha) y rejilla de las 8 familias con su número de productos y los tres primeros.
 - Solo usa textos que ya existen en los 8 idiomas: nombres de familia y de producto y cadenas traducidas de PrestaShop. No hay textos de marca nuevos que traducir.
 - Bloques de demostración **quitados de la portada** (desenganchados de `displayHome`, no desinstalados): `ps_imageslider`, `ps_banner`, `ps_customtext`, `ps_featuredproducts` y `ps_newproducts`. `ps_bestsellers` y `ps_specials` se quedan: no muestran nada hasta que haya ventas u ofertas.
@@ -67,5 +69,12 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - **Contacto:** quitado el contacto «Webmaster» (lo único que se borra).
   - **Portada:** descripción con las familias.
   - **Listados:** a todo el ancho.
-- Portada (`zementhome` 0.2.0): cacheada por idioma; `pnpm tienda:home` registra los ganchos que vacían la caché.
+- **Tratamiento de usted** en español: [`translations/es-usted.php`](translations/es-usted.php), que guarda las cadenas que tutean como traducciones propias.
+  - Para buscar si quedan cadenas que tutean tras actualizar PrestaShop o un módulo, buscar en `translations/es-ES/{Shop,Modules}*.xlf` del contenedor «tu», «tus», «te» e imperativos como «Introduce» o «Envíanos».
+- **Países:** de momento, Europa (UE y resto de Europa salvo Rusia y Bielorrusia).
+- **Búsqueda:** exacta (`PS_SEARCH_FUZZY = 0`).
+- `pnpm tienda:settings` copia toda la carpeta `apps/tienda/config` al contenedor (el script lee `translations/`).
+- Portada (`zementhome` 0.3.0), al estilo de una tienda clásica:
+  - Contenido: bloque principal compacto, accesos a las familias y una fila de 4 productos por familia, con las miniaturas del tema.
+  - Caché: por idioma. `pnpm tienda:home` registra los ganchos que la vacían.
 - TODO: correo real del contacto «Servicio al cliente» (sigue el de pruebas).

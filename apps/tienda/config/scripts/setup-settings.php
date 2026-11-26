@@ -18,6 +18,8 @@
  *   tratamientos y transportistas: traducidos con los paquetes de idioma. Al instalar IT, PL,
  *   NO y FI se quedaron en inglés. En español, «Fecha de registro» → «Crear una cuenta».
  *
+ * - Español de usted (config/translations/es-usted.php).
+ * - Países: Europa (UE y resto de Europa salvo Rusia y Bielorrusia).
  * - Tienda «Zement» con su logotipo; módulos de terceros sin uso desactivados; alta sin fecha de
  *   nacimiento y boletín con doble confirmación; contacto «Webmaster» de demostración quitado;
  *   descripción de la portada; listados a todo el ancho.
@@ -25,7 +27,8 @@
  * Salvo el contacto «Webmaster», nada se borra: todo se puede volver a activar desde el panel.
  * La web solo existe en español e inglés: el resto de idiomas enlaza a la versión inglesa.
  *
- * Uso: pnpm tienda:settings   (ZEMENT_WEB_URL=https://… para otra dirección de la web)
+ * Uso: pnpm tienda:settings   (copia apps/tienda/config al contenedor; ZEMENT_WEB_URL=https://… para
+ *      otra dirección de la web)
  */
 
 declare(strict_types=1);
@@ -48,7 +51,7 @@ $webPage = static function (string $iso, string $es, string $en) use ($webUrl): 
 };
 
 const ZEMENT_TERMS = [
-    'es' => ['Condiciones de venta', 'Consulta las condiciones de venta de la tienda de Zement.'],
+    'es' => ['Condiciones de venta', 'Consulte las condiciones de venta de la tienda de Zement.'],
     'en' => ['Terms of sale', 'Read the terms of sale of the Zement shop.'],
     'de' => ['AGB', 'Lesen Sie die Allgemeinen Geschäftsbedingungen des Zement-Shops.'],
     'fr' => ['Conditions de vente', 'Consultez les conditions de vente de la boutique Zement.'],
@@ -188,6 +191,50 @@ foreach (ZEMENT_UNUSED_MODULES as $name) {
         echo "- {$name} desactivado\n";
     }
 }
+
+// Español de usted: cadenas del escaparate que en el paquete de idioma tutean.
+// Se guardan como traducciones propias (tabla `translation`), para el núcleo y para el tema.
+$idEs = (int) Language::getIdByIso('es');
+$usted = require __DIR__ . '/../translations/es-usted.php';
+$count = 0;
+foreach ($usted as $domain => $strings) {
+    foreach ($strings as $source => $target) {
+        foreach ([null, 'zement'] as $theme) {
+            $where = 'id_lang = ' . $idEs . " AND domain = '" . pSQL($domain) . "' AND `key` = '" . pSQL($source) . "'"
+                . ($theme === null ? ' AND theme IS NULL' : " AND theme = '" . pSQL($theme) . "'");
+            $db->delete('translation', $where);
+            $db->insert('translation', [
+                'id_lang' => $idEs,
+                'key' => pSQL($source),
+                'translation' => pSQL($target),
+                'domain' => pSQL($domain),
+                'theme' => $theme === null ? null : pSQL($theme),
+            ], true);
+        }
+        ++$count;
+    }
+}
+echo "· {$count} cadenas en español pasadas a usted\n";
+
+// Países: de momento, Europa (zonas «Europe» y «Europe (non-EU)» de PrestaShop). Fuera Rusia y
+// Bielorrusia (sanciones de la UE a la exportación). El resto del mundo, desactivado.
+// TODO: fuera de la UE hay aduana e IVA de importación (Noruega, Suiza, Reino Unido…): revisar
+// con Zement antes de vender allí.
+const ZEMENT_EXCLUDED_COUNTRIES = ['RU', 'BY'];
+$europe = array_map('intval', array_column(
+    $db->executeS('SELECT id_zone FROM `' . _DB_PREFIX_ . "zone` WHERE name IN ('Europe', 'Europe (non-EU)')"),
+    'id_zone'
+));
+if ($europe) {
+    $excluded = implode(',', array_map(static fn (string $iso): string => "'" . pSQL($iso) . "'", ZEMENT_EXCLUDED_COUNTRIES));
+    $db->update('country', ['active' => 0]);
+    $db->update('country', ['active' => 1], 'id_zone IN (' . implode(',', $europe) . ") AND iso_code NOT IN ({$excluded})");
+    echo '· países activos: ' . (int) $db->getValue('SELECT COUNT(*) FROM `' . _DB_PREFIX_ . 'country` WHERE active = 1') . " de Europa\n";
+}
+
+// Búsqueda exacta: la aproximada devolvía 32 productos para «xyzxyz». Las búsquedas reales
+// (imprimacion, barnices, corcho…) dan lo mismo sin ella.
+Configuration::updateValue('PS_SEARCH_FUZZY', 0);
 
 // RGPD: sin fecha de nacimiento y boletín con doble confirmación.
 Configuration::updateValue('PS_CUSTOMER_BIRTHDATE', 0);

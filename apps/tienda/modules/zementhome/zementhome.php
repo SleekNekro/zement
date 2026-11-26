@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Portada de la tienda Zement: bloque principal y las familias del catálogo.
+ * Portada de la tienda Zement, al estilo de una tienda clásica: bloque principal, accesos a las
+ * familias y, debajo, una fila de productos de cada familia (los productos, a la vista).
  *
  * Solo usa contenido que ya existe en los 8 idiomas (nombres de familia y de producto,
  * imágenes de las fichas y cadenas traducidas de PrestaShop): no añade textos de marca.
@@ -14,9 +15,15 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
+use PrestaShop\PrestaShop\Adapter\Image\ImageRetriever;
+use PrestaShop\PrestaShop\Adapter\Presenter\Product\ProductListingPresenter;
+use PrestaShop\PrestaShop\Adapter\Product\PriceFormatter;
+use PrestaShop\PrestaShop\Adapter\Product\ProductColorsRetriever;
+
 class ZementHome extends Module
 {
-    private const PRODUCTS_PER_FAMILY = 3;
+    /** Productos por fila: una fila de la rejilla en escritorio. */
+    private const PRODUCTS_PER_FAMILY = 4;
 
     private const TEMPLATE = 'module:zementhome/views/templates/hook/home.tpl';
 
@@ -34,7 +41,7 @@ class ZementHome extends Module
     {
         $this->name = 'zementhome';
         $this->tab = 'front_office_features';
-        $this->version = '0.2.0';
+        $this->version = '0.3.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -140,20 +147,41 @@ class ZementHome extends Module
             }
 
             $families[] = [
+                'id' => (int) $category->id,
                 'name' => $category->name,
                 'url' => $link->getCategoryLink($category),
                 'count' => count($products),
                 'image' => $image,
-                'products' => array_map(
-                    static fn (array $product): array => [
-                        'name' => $product['name'],
-                        'url' => $link->getProductLink((int) $product['id_product']),
-                    ],
-                    array_slice($products, 0, self::PRODUCTS_PER_FAMILY)
-                ),
+                'products' => $this->presentProducts(array_slice($products, 0, self::PRODUCTS_PER_FAMILY)),
             ];
         }
 
         return $families;
+    }
+
+    /**
+     * Productos listos para la miniatura del tema (catalog/_partials/miniatures/product.tpl),
+     * igual que los presenta ps_featuredproducts.
+     *
+     * @param list<array<string, mixed>> $rawProducts
+     *
+     * @return list<mixed>
+     */
+    private function presentProducts(array $rawProducts): array
+    {
+        $assembler = new ProductAssembler($this->context);
+        $settings = (new ProductPresenterFactory($this->context))->getPresentationSettings();
+        $presenter = new ProductListingPresenter(
+            new ImageRetriever($this->context->link),
+            $this->context->link,
+            new PriceFormatter(),
+            new ProductColorsRetriever(),
+            $this->context->getTranslator()
+        );
+
+        return array_map(
+            fn (array $product) => $presenter->present($settings, $product, $this->context->language),
+            $assembler->assembleProducts($rawProducts)
+        );
     }
 }

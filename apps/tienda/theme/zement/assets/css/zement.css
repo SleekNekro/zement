@@ -939,8 +939,8 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 /*
- * Portada (módulo zementhome): bloque principal oscuro a todo el ancho con la textura del
- * microcemento y rejilla de familias.
+ * Portada (módulo zementhome), al estilo de una tienda clásica: bloque principal compacto,
+ * accesos a las familias y una fila de productos por familia.
  */
 .page-content--home {
   padding-top: 0;
@@ -956,9 +956,9 @@ img[src*='/img/p/'][src*='-default-'] {
   isolation: isolate;
   display: flex;
   align-items: flex-end;
-  min-height: clamp(24rem, 62vh, 46rem);
+  min-height: clamp(15rem, 38vh, 26rem);
   margin-inline: calc(50% - 50vw);
-  margin-bottom: clamp(3rem, 8vw, 6rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
   overflow: hidden;
   background: var(--zm-color-night);
   color: var(--zm-color-paper);
@@ -983,14 +983,19 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 .zm-home-hero__content {
-  padding-block: clamp(3rem, 8vw, 6rem);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-block: clamp(2rem, 5vw, 3.5rem);
 }
 
 .zm-home-hero__title {
   display: grid;
-  margin: 0 0 2.5rem;
+  margin: 0;
   color: var(--zm-color-paper);
-  font-size: clamp(1.75rem, 6.6vw, 7rem);
+  font-size: clamp(1.75rem, 5vw, 4.75rem);
   font-weight: var(--zm-weight-display);
   line-height: 0.92;
   text-transform: uppercase;
@@ -1004,6 +1009,15 @@ img[src*='/img/p/'][src*='-default-'] {
   gap: 0.75rem;
 }
 
+/* Botón principal del hero: única acción, a la familia destacada. */
+.zm-home-hero__actions .btn {
+  min-width: 12rem;
+}
+
+.zm-home-hero .btn:focus-visible {
+  outline-color: var(--zm-color-gold);
+}
+
 .zm-btn-light {
   --zm-btn-fill: var(--zm-color-gold);
   --bs-btn-bg: var(--zm-color-paper);
@@ -1015,124 +1029,158 @@ img[src*='/img/p/'][src*='-default-'] {
   --bs-btn-active-bg: var(--zm-color-sand);
 }
 
-.zm-btn-outline-light {
-  --zm-btn-fill: var(--zm-color-paper);
-  --bs-btn-color: var(--zm-color-paper);
-  --bs-btn-border-color: var(--zm-color-line-dark);
-  --bs-btn-hover-bg: transparent;
-  --bs-btn-hover-color: var(--zm-color-night);
-  --bs-btn-hover-border-color: var(--zm-color-paper);
-  --bs-btn-active-bg: var(--zm-color-paper);
-  --bs-btn-active-color: var(--zm-color-night);
-}
-
-.zm-home-hero .btn:focus-visible {
-  outline-color: var(--zm-color-gold);
-}
-
-/* Botón principal del hero: única acción, a la familia destacada. */
-.zm-home-hero__actions .btn {
-  min-width: 12rem;
-}
-
+/* Accesos a las familias: fila compacta con miniatura, nombre y número de productos. */
 .zm-home-families {
-  margin-bottom: clamp(3rem, 8vw, 6rem);
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
 }
 
-.zm-home-families__grid {
+.zm-home-families__list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2.5rem 1rem;
+  gap: 0.5rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 @media (width >= 992px) {
-  .zm-home-families__grid {
+  .zm-home-families__list {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 3.5rem 1.5rem;
+    gap: 0.75rem;
   }
 }
 
-.zm-family {
-  display: flex;
-  flex-direction: column;
-  border-top: var(--zm-hairline) solid var(--zm-color-navy);
+/* En móvil, las familias en una tira que se desliza en horizontal (una sola línea de alto). */
+@media (width < 768px) {
+  .zm-home-families__list {
+    grid-auto-columns: minmax(13.5rem, 72%);
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    margin-inline: calc(var(--bs-gutter-x, 1.5rem) * -0.5);
+    padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+    overflow-x: auto;
+    scroll-padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .zm-home-families__list > li {
+    scroll-snap-align: start;
+  }
+
+  .zm-family-chip__name {
+    hyphens: manual;
+  }
 }
 
-.zm-family__link {
+.zm-family-chip {
   display: flex;
-  flex-direction: column;
-  gap: 0.375rem;
-  padding-top: 1rem;
+  gap: 0.75rem;
+  align-items: center;
+  height: 100%;
+  padding: 0.5rem;
+  border: var(--zm-hairline) solid var(--zm-color-line);
   color: var(--zm-color-navy);
   text-decoration: none;
+  transition: border-color var(--zm-duration) var(--zm-ease);
 }
 
-.zm-family__media {
-  display: block;
+.zm-family-chip__media {
+  flex: none;
+  width: clamp(2.75rem, 6vw, 3.5rem);
   aspect-ratio: 1;
-  margin-bottom: 0.75rem;
   overflow: hidden;
   background: var(--zm-color-stone);
 }
 
-.zm-family__media img {
+.zm-family-chip__media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform var(--zm-duration-slow) var(--zm-ease);
 }
 
 /* Familias sin foto todavía: superficie plana de marca (TODO: foto real del producto). */
-.zm-family__media--empty {
+.zm-family-chip__media--empty {
   background: linear-gradient(160deg, var(--zm-color-navy) 0%, var(--zm-color-night) 80%);
 }
 
-.zm-family__name {
-  font-family: var(--zm-font-display);
-  font-size: clamp(1.05rem, 1.6vw, 1.35rem);
-  font-weight: var(--zm-weight-display);
-  font-stretch: var(--zm-stretch-display);
-  line-height: 1.15;
+.zm-family-chip__text {
+  display: grid;
+  gap: 0.125rem;
+  min-width: 0;
+}
+
+.zm-family-chip__name {
+  font-size: 0.875rem;
+  font-weight: var(--zm-weight-ui);
+  line-height: 1.25;
   overflow-wrap: break-word;
   hyphens: auto;
 }
 
-.zm-family__count {
+.zm-family-chip__count {
   color: var(--zm-color-muted);
+  font-size: 0.75rem;
+}
+
+@media (hover: hover) {
+  .zm-family-chip:hover {
+    border-color: var(--zm-color-navy);
+  }
+}
+
+/* Filas de productos por familia, con las miniaturas del tema. */
+.zm-home-row {
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.zm-home-row__head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-top: 1rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-navy);
+}
+
+.zm-home-row__title {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+}
+
+.zm-home-row__all {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
+  color: var(--zm-color-navy);
   font-size: 0.6875rem;
   font-weight: var(--zm-weight-ui);
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.zm-family__products {
-  margin: 0.75rem 0 0;
-  padding: 0;
-  list-style: none;
-  font-size: 0.8125rem;
-}
-
-.zm-family__products li {
-  border-top: var(--zm-hairline) solid var(--zm-color-line);
-}
-
-.zm-family__products a {
-  display: block;
-  padding-block: 0.4rem;
-  color: var(--zm-color-ink);
-  text-decoration: none;
-}
-
-@media (hover: hover) {
-  .zm-family__link:hover .zm-family__media img {
-    transform: scale(1.04);
+/* En móvil, cada fila se desliza en horizontal en vez de apilar cuatro productos. */
+@media (width < 768px) {
+  .zm-home-row .products {
+    display: grid;
+    grid-auto-columns: 46%;
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    gap: 1rem;
+    margin-inline: calc(var(--bs-gutter-x, 1.5rem) * -0.5);
+    padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+    overflow-x: auto;
+    scroll-padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
   }
 
-  .zm-family__products a:hover {
-    color: var(--zm-color-navy);
-    text-decoration: underline;
+  .zm-home-row .products > * {
+    width: auto;
+    max-width: none;
+    padding: 0;
+    scroll-snap-align: start;
   }
 }
