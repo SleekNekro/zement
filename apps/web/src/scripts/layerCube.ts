@@ -17,6 +17,7 @@ function setupCube(figure: HTMLElement): void {
   const intro = figure.querySelector<HTMLElement>('[data-cube-intro]');
   const backdrops = [...figure.querySelectorAll<HTMLElement>('[data-cube-backdrop]')];
   const cube = figure.querySelector<HTMLElement>('.cube');
+  const live = figure.querySelector<HTMLElement>('[data-cube-live]');
   const play = figure.querySelector<HTMLButtonElement>('[data-cube-play]');
   if (slabs.length === 0 || !play) return;
 
@@ -97,9 +98,15 @@ function setupCube(figure: HTMLElement): void {
     setPlaying(false);
   };
 
-  play.addEventListener('click', () => (isPlaying ? stop() : start()));
+  play.addEventListener('click', () => {
+    if (live) live.setAttribute('aria-live', 'off');
+    if (isPlaying) stop();
+    else start();
+  });
   for (const step of steps) {
     step.addEventListener('click', () => {
+      // Solo se anuncia la ficha cuando la elige el visitante, no en cada fase de la reproducción.
+      if (live) live.setAttribute('aria-live', 'polite');
       stop();
       render(Number(step.dataset.cubeStep));
       setPlaying(false);
@@ -112,14 +119,19 @@ function setupCube(figure: HTMLElement): void {
     return;
   }
 
-  // Arranca con el soporte solo y se reproduce la primera vez que el cubo entra en pantalla.
+  // Antes de empezar se ve el soporte solo.
   render(-1);
   setPlaying(false);
+  // Arranca la primera vez que se ve; si sale de pantalla mientras se reproduce, se pausa.
+  let hasStarted = false;
   const observer = new IntersectionObserver(
     (entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) {
-        observer.disconnect();
+      const isVisible = entries.some((entry) => entry.isIntersecting);
+      if (isVisible && !hasStarted) {
+        hasStarted = true;
         start();
+      } else if (!isVisible && isPlaying) {
+        stop();
       }
     },
     { threshold: 0.5 },

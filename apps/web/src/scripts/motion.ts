@@ -127,7 +127,7 @@ function setupShopBar(): void {
   onScrollFrame(update);
 }
 
-/** Cabecera: transparente sobre el hero, se oculta al bajar y reaparece al subir. */
+/** Cabecera: transparente sobre el hero; en móvil se oculta al bajar y reaparece al subir. */
 function setupHeader(): void {
   const header = document.querySelector<HTMLElement>('[data-site-header]');
   if (!header) return;
@@ -154,7 +154,10 @@ function setupHeader(): void {
     const transparentUntil = narrowScreen.matches ? 24 : heroBottom;
     const overHero = String(Boolean(hero) && y < transparentUntil);
     const menuOpen = header.querySelector('details[open]') !== null;
-    const isHidden = !reducedMotion && !menuOpen && y > 400 && y > lastY + 2;
+    // Solo en móvil/tablet se oculta al bajar (allí la tienda queda en la barra inferior); en
+    // escritorio la cabecera, con su botón «Tienda», está siempre visible.
+    const isHidden =
+      narrowScreen.matches && !reducedMotion && !menuOpen && y > 400 && y > lastY + 2;
     const hidden = String(isHidden);
     const offset = isHidden ? '0px' : `${headerHeight}px`;
 

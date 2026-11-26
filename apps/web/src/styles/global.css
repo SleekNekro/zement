@@ -194,6 +194,12 @@
     border-bottom-color: var(--zm-color-sand);
   }
 
+  /* Con teclado, el campo activo lleva el anillo de foco del sitio (oro sobre oscuro). */
+  .field:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
   /* Textos largos (páginas legales): medida, ritmo y jerarquía legibles. */
   .prose-legal {
     line-height: 1.75;

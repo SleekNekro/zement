@@ -6,7 +6,8 @@
 import type { Locale } from '../i18n/ui';
 
 /** Destino de un enlace: la tienda (sale de la web) o una sección de esta página. */
-export type LinkTarget = { kind: 'shop'; route?: 'login' } | { kind: 'section'; id: string };
+export type LinkTarget =
+  { kind: 'shop'; route?: 'login' | 'register' } | { kind: 'section'; id: string };
 
 export interface AudienceLink {
   label: string;
@@ -19,7 +20,8 @@ export interface AudiencePath {
   title: string;
   text: string;
   primary: AudienceLink;
-  secondary: AudienceLink;
+  /** Enlace secundario opcional (p. ej. «Entrar» para quien ya tiene cuenta). */
+  secondary?: AudienceLink;
 }
 
 /** Capítulo de la portada dedicado a un público, con salto al otro capítulo. */
@@ -77,6 +79,10 @@ export interface HomeContent {
     photoTodo: string;
     /** Capa base del corte (la superficie existente). */
     supportLabel: string;
+    /** Etiqueta de las fases previas al sistema de capas (soporte y reparación). */
+    beforeLabel: string;
+    /** Versión corta para las pistas del cubo. */
+    beforeShort: string;
     /** Explicación del soporte: el sistema se aplica sobre la superficie existente. */
     supportText: string;
     /** Soportes compatibles concretos: pendiente de ficha técnica, no inventar. */
@@ -137,10 +143,13 @@ export const home: Record<Locale, HomeContent> = {
           id: 'pro',
           title: 'Soy profesional',
           text: 'Distribuidores y aplicadores: materiales del sistema, tarifa propia y documentación técnica.',
-          primary: { label: 'Acceso profesional', target: { kind: 'shop', route: 'login' } },
+          primary: {
+            label: 'Solicitar acceso profesional',
+            target: { kind: 'shop', route: 'register' },
+          },
           secondary: {
-            label: 'Ver cómo funciona',
-            target: { kind: 'section', id: 'profesionales' },
+            label: 'Ya tengo cuenta · Entrar',
+            target: { kind: 'shop', route: 'login' },
           },
         },
         {
@@ -148,7 +157,6 @@ export const home: Record<Locale, HomeContent> = {
           title: 'Tengo un proyecto',
           text: 'Particulares y estudios: aplicamos el sistema en tu espacio o te ayudamos a elegir los materiales.',
           primary: { label: 'Pedir presupuesto', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'Comprar en la tienda', target: { kind: 'shop' } },
         },
       ],
       imageTodo: 'TODO: fotografía real de proyecto',
@@ -200,6 +208,8 @@ export const home: Record<Locale, HomeContent> = {
       stepLabel: 'Capa',
       photoTodo: 'TODO: foto real del producto aplicado (fondo)',
       supportLabel: 'Soporte existente',
+      beforeLabel: 'Antes del sistema',
+      beforeShort: 'Previo',
       supportText:
         'Se aplica sobre la superficie que ya tienes, sea cual sea: sin levantar suelos ni paredes y sin obra de derribo.',
       supportTodo: 'TODO: soportes compatibles según la ficha técnica',
@@ -256,9 +266,9 @@ export const home: Record<Locale, HomeContent> = {
       proTitle: 'Distribuidores y profesionales',
       proText:
         'Inicia sesión y la tienda te muestra tu tarifa, sin IVA, en cada producto. Sin pedir precios por correo.',
-      proCta: 'Acceso profesional',
-      proSignupText: '¿Aún no tienes cuenta profesional?',
-      proSignupCta: 'Solicitar el alta',
+      proCta: 'Solicitar acceso profesional',
+      proSignupText: '¿Ya tienes cuenta profesional?',
+      proSignupCta: 'Entrar',
       proSignupSteps:
         'Regístrate en la tienda con los datos de tu empresa (razón social y CIF). Revisamos la solicitud y activamos tu tarifa en',
     },
@@ -302,10 +312,13 @@ export const home: Record<Locale, HomeContent> = {
           id: 'pro',
           title: 'I am a professional',
           text: 'Distributors and applicators: system materials, your own price list and technical documentation.',
-          primary: { label: 'Professional access', target: { kind: 'shop', route: 'login' } },
+          primary: {
+            label: 'Request professional access',
+            target: { kind: 'shop', route: 'register' },
+          },
           secondary: {
-            label: 'See how it works',
-            target: { kind: 'section', id: 'profesionales' },
+            label: 'I have an account · Sign in',
+            target: { kind: 'shop', route: 'login' },
           },
         },
         {
@@ -313,7 +326,6 @@ export const home: Record<Locale, HomeContent> = {
           title: 'I have a project',
           text: 'Homeowners and studios: we apply the system in your space or help you choose the materials.',
           primary: { label: 'Request a quote', target: { kind: 'section', id: 'contacto' } },
-          secondary: { label: 'Buy in the shop', target: { kind: 'shop' } },
         },
       ],
       imageTodo: 'TODO: real project photograph',
@@ -365,6 +377,8 @@ export const home: Record<Locale, HomeContent> = {
       stepLabel: 'Layer',
       photoTodo: 'TODO: real photograph of the applied product (background)',
       supportLabel: 'Existing substrate',
+      beforeLabel: 'Before the system',
+      beforeShort: 'Before',
       supportText:
         'It goes on the surface you already have, whatever it is: no lifting floors or walls, no demolition.',
       supportTodo: 'TODO: compatible substrates according to the data sheet',
@@ -421,9 +435,9 @@ export const home: Record<Locale, HomeContent> = {
       proTitle: 'Distributors and professionals',
       proText:
         'Sign in and the shop shows your own price list, excluding VAT, on every product. No need to ask for prices by email.',
-      proCta: 'Professional access',
-      proSignupText: 'No professional account yet?',
-      proSignupCta: 'Request an account',
+      proCta: 'Request professional access',
+      proSignupText: 'Already have a professional account?',
+      proSignupCta: 'Sign in',
       proSignupSteps:
         'Register in the shop with your company details (company name and tax ID). We review the request and activate your price list within',
     },

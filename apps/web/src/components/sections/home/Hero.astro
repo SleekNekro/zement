@@ -24,8 +24,12 @@ const { locale, hero, shopStrip, layers } = Astro.props;
   data-hero
 >
   <HeroCollage />
+  <!-- Aviso de fotos provisionales: en una esquina, sin ocupar fila en la primera pantalla -->
+  <p class="absolute top-28 right-[var(--zm-gutter)] z-10 hidden md:block">
+    <Todo text={hero.imageTodo} />
+  </p>
 
-  <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-10 md:pt-32 md:pb-14">
+  <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-8 md:pb-10">
     <RevealHeading
       as="h1"
       lines={hero.title}
@@ -39,17 +43,13 @@ const { locale, hero, shopStrip, layers } = Astro.props;
       {hero.text}
     </p>
 
-    <div class="order-1 mt-8 md:order-none md:mt-12">
+    <div class="order-1 mt-8 md:order-none md:mt-10">
       <AudiencePaths
         locale={locale}
         label={hero.pathsLabel}
         paths={hero.paths}
       />
     </div>
-
-    <p class="order-3 mt-6 md:order-none">
-      <Todo text={hero.imageTodo} />
-    </p>
   </div>
 
   <!-- Franja fija (sin movimiento) que lleva a la tienda: la salida comercial siempre a la vista -->

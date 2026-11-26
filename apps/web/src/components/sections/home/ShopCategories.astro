@@ -113,7 +113,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
     />
   </div>
 
-  <!-- Ventaja profesional: la tarifa aparece al iniciar sesión; alta para quien aún no tiene cuenta. -->
+  <!-- Ventaja profesional: la tarifa aparece al iniciar sesión; primero el alta, después entrar. -->
   <div
     id="acceso-profesional"
     class="bg-navy text-paper"
@@ -124,34 +124,34 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
         <SubHeading class="display-md">{shop.proTitle}</SubHeading>
         <p class="text-paper/75 mt-4 max-w-lg">{shop.proText}</p>
       </div>
-      <div class="flex flex-col gap-4 md:col-span-5 md:items-end">
+      <!-- Para quien aún no tiene cuenta (casi todos, al empezar): el alta va primero; entrar, después -->
+      <div class="grid gap-4 md:col-span-5">
         <Button
-          href={shopUrl(locale, 'login')}
+          href={shopUrl(locale, 'register')}
           variant="solid-light"
           arrow="out"
+          class="w-full sm:w-fit"
         >
           {shop.proCta}
           <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </Button>
-        <div class="grid gap-2 md:justify-items-end md:text-right">
-          <p class="text-paper/70 flex flex-wrap items-center gap-x-3 text-sm md:justify-end">
-            {shop.proSignupText}
-            <a
-              class="link-arrow label text-sand hover:text-paper inline-flex min-h-11 items-center bg-none pb-0"
-              href={shopUrl(locale, 'register')}
-            >
-              {shop.proSignupCta}
-              <span class="sr-only"> {t(locale, 'nav.external')}</span>
-              <Arrow
-                direction="out"
-                class="btn-arrow"
-              />
-            </a>
-          </p>
-          <p class="text-paper/60 max-w-sm text-xs">
-            {shop.proSignupSteps} <Todo text={company.proApprovalTime[locale]} />.
-          </p>
-        </div>
+        <p class="text-paper/70 max-w-sm text-sm">
+          {shop.proSignupSteps} <Todo text={company.proApprovalTime[locale]} />.
+        </p>
+        <p class="text-paper/70 flex flex-wrap items-center gap-x-3 text-sm">
+          {shop.proSignupText}
+          <a
+            class="link-arrow label text-sand hover:text-paper inline-flex min-h-11 items-center bg-none pb-0"
+            href={shopUrl(locale, 'login')}
+          >
+            {shop.proSignupCta}
+            <span class="sr-only"> {t(locale, 'nav.external')}</span>
+            <Arrow
+              direction="out"
+              class="btn-arrow"
+            />
+          </a>
+        </p>
       </div>
     </div>
   </div>

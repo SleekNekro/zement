@@ -16,18 +16,22 @@ const { locale, label, paths } = Astro.props;
 
 <!--
   Dos caminos como bloques compactos e iguales: se apilan en móvil y van uno al lado del otro
-  desde tablet. Las acciones se reorganizan solas (flex-wrap) según el ancho disponible.
+  desde tablet. Las tarjetas comparten filas (subgrid): los botones quedan a la misma altura y con
+  el mismo ancho; el enlace secundario va debajo de su botón.
 -->
 <nav
   aria-label={label}
-  class="grid gap-4 md:grid-cols-2"
+  class="grid gap-4 md:grid-cols-2 md:grid-rows-[auto_auto]"
 >
   {paths.map((path, index) => {
     const primary = resolveLink(locale, path.primary.target);
-    const secondary = resolveLink(locale, path.secondary.target);
+    const secondary = path.secondary && {
+      ...resolveLink(locale, path.secondary.target),
+      label: path.secondary.label,
+    };
     return (
       <div
-        class="border-line-dark bg-night/40 flex flex-col justify-between gap-6 border p-6 md:p-8"
+        class="border-line-dark bg-night/40 grid grid-cols-1 gap-6 border p-6 md:row-span-2 md:grid-rows-subgrid md:p-8"
         data-reveal
         style={`--reveal-index: ${index + 1}`}
       >
@@ -35,28 +39,30 @@ const { locale, label, paths } = Astro.props;
           <h2 class="display-md">{path.title}</h2>
           <p class="text-paper/70 mt-3 max-w-md text-sm md:text-base">{path.text}</p>
         </div>
-        <div class="flex flex-wrap items-center gap-x-6 gap-y-2">
+        <div class="flex flex-col items-start gap-2">
           <Button
             href={primary.href}
-            variant={index === 0 ? 'solid-light' : 'outline-light'}
+            variant="solid-light"
             arrow={primary.isExternal ? 'out' : 'down'}
-            class="w-full sm:w-auto"
+            class="w-full whitespace-normal lg:w-auto lg:min-w-[22rem] lg:whitespace-nowrap"
             data-interest={primary.href === '#contacto' ? 'application' : undefined}
           >
             {path.primary.label}
             {primary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
           </Button>
-          <a
-            class="link-arrow label text-sand hover:text-paper min-h-11 w-fit items-center bg-none pb-0 sm:whitespace-nowrap"
-            href={secondary.href}
-          >
-            {path.secondary.label}
-            {secondary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
-            <Arrow
-              direction={secondary.isExternal ? 'out' : 'down'}
-              class="btn-arrow"
-            />
-          </a>
+          {secondary && (
+            <a
+              class="link-arrow label text-sand hover:text-paper min-h-11 w-fit items-center bg-none pb-0 sm:whitespace-nowrap"
+              href={secondary.href}
+            >
+              {secondary.label}
+              {secondary.isExternal && <span class="sr-only"> {t(locale, 'nav.external')}</span>}
+              <Arrow
+                direction={secondary.isExternal ? 'out' : 'down'}
+                class="btn-arrow"
+              />
+            </a>
+          )}
         </div>
       </div>
     );

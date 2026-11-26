@@ -51,10 +51,22 @@ const layers = [system.repair, ...system.steps].map((layer, index) => ({
   values: specs.map((row) => (index === 0 ? 'TODO' : (row.values[index - 1] ?? 'TODO'))),
   todo: '',
 }));
+/*
+ * Numeración única para pistas y fichas: soporte y reparación son «Antes del sistema»; las cuatro
+ * capas del sistema son «Capa 1–4», igual que Z.01–Z.04 en el resto de la portada.
+ */
+const stageLabel = (index: number, before: string): string =>
+  index < 2 ? before : `${system.stepLabel} ${index - 1}`;
 let bottom = 0;
 // La reparación se funde con el soporte (rellena sus grietas): no suma altura a la pila.
 const phases = [support, ...layers].map((phase, index) => {
-  const slab = { ...phase, index, bottom };
+  const slab = {
+    ...phase,
+    index,
+    bottom,
+    stage: stageLabel(index, system.beforeLabel),
+    stageShort: stageLabel(index, system.beforeShort),
+  };
   if (index !== 1) bottom += phase.height;
   return slab;
 });
@@ -186,21 +198,21 @@ const sides = ['front', 'right'] as const;
           </svg>
         </button>
         <ol
-          class="grid flex-1 grid-cols-6"
+          class="grid flex-1 grid-cols-3 sm:grid-cols-6"
           aria-label={system.player.phases}
         >
           {phases.map((phase) => (
-            <li class="border-navy/30 border-l first:border-l-0">
+            <li class="border-navy/30 border-t border-l sm:border-t-0 [&:nth-child(-n+3)]:border-t-0 [&:nth-child(3n+1)]:border-l-0 sm:[&:nth-child(3n+1)]:border-l sm:first:border-l-0">
               <button
                 type="button"
-                class="cube-step text-navy hover:bg-white relative flex h-full min-h-14 w-full flex-col justify-center px-2 text-left transition-colors duration-(--zm-duration) sm:px-4"
+                class="cube-step text-navy hover:bg-white relative flex h-full min-h-14 w-full flex-col justify-center px-2 py-2.5 text-left transition-colors duration-(--zm-duration) sm:px-4"
                 aria-controls={`cube-info-${phase.index}`}
                 aria-pressed="false"
                 data-cube-step={phase.index}
                 data-state="todo"
               >
-                <span class="label text-muted">{phase.index + 1}</span>
-                <span class="hidden text-sm sm:block">{phase.name}</span>
+                <span class="label text-muted hidden sm:block">{phase.stageShort}</span>
+                <span class="text-sm">{phase.name}</span>
                 <span
                   class="cube-progress bg-gold absolute inset-x-0 bottom-0 h-0.5 origin-left"
                   aria-hidden="true"
@@ -214,10 +226,11 @@ const sides = ['front', 'right'] as const;
       <!-- Ficha de la fase en pantalla, debajo del cubo. Todas en la misma celda: sin saltos. -->
       <div
         class="info-stack mt-6"
-        aria-live="polite"
+        aria-live="off"
+        data-cube-live
       >
         <p
-          class="display-md text-navy/40 self-center"
+          class="display-md text-navy/70 self-center leading-snug"
           data-cube-intro
         >
           {phases.map((phase) => phase.name).join(' · ')}
@@ -230,11 +243,11 @@ const sides = ['front', 'right'] as const;
           >
             <div class="md:col-span-4">
               <p class="label text-muted">
-                {phase.index === 0 ? (
-                  phase.name
-                ) : (
+                {phase.stage}
+                {phase.code && (
                   <>
-                    {system.stepLabel} {phase.index} · <Value text={phase.code} />
+                    {' · '}
+                    <Value text={phase.code} />
                   </>
                 )}
               </p>
