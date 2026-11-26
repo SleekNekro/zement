@@ -14,7 +14,10 @@ const localized = z.object(
   Object.fromEntries(locales.map((code) => [code, z.string()])) as Record<Locale, z.ZodString>,
 );
 
-/** Ruta en la tienda (p. ej. «/12-microcemento»); vacía = se usa la búsqueda de la tienda. */
+/**
+ * Ruta en la tienda: enlace estable del módulo zementcommerce, «z/p/<clave de producto>» o
+ * «z/c/<clave de familia>» (no cambia entre instalaciones); vacía = búsqueda de la tienda.
+ */
 const shopPath = z
   .object(
     Object.fromEntries(locales.map((code) => [code, z.string()])) as Record<Locale, z.ZodString>,

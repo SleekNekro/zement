@@ -38,7 +38,11 @@ const shopRoutes = {
 
 export type ShopRoute = keyof typeof shopRoutes;
 
-/** URL de una ruta concreta de la tienda (categoría, pack o producto) en el idioma indicado. */
+/**
+ * URL de una ruta concreta de la tienda en el idioma indicado. Para productos y familias, usar
+ * los enlaces estables «z/p/<clave>» y «z/c/<familia>» (claves de apps/tienda/catalog/catalog.json),
+ * no las URL con identificador de PrestaShop, que cambian entre instalaciones.
+ */
 export function shopPathUrl(locale: Locale, path: string): string {
   const base = (import.meta.env.PUBLIC_TIENDA_URL ?? DEFAULT_SHOP_URL).replace(/\/$/, '');
   const prefix = locale === 'es' ? '' : `/${locale}`;

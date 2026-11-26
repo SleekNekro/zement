@@ -741,15 +741,27 @@ img[src*='/img/p/'][src*='-default-'] {
   }
 }
 
-/* Rejilla de productos: sin caja, imagen limpia, nombre en titular. */
+/*
+ * Rejilla de productos: sin caja, imagen limpia, nombre en titular. Tarjeta en columna: el botón
+ * queda al pie aunque los textos de cada producto midan distinto.
+ */
 .product-miniature__inner {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   border: 0;
   background: transparent;
 }
 
 .product-miniature__bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding-inline: 0;
+}
+
+.product-miniature__actions {
+  margin-top: auto;
 }
 
 .product-miniature__title {
@@ -940,7 +952,7 @@ img[src*='/img/p/'][src*='-default-'] {
 
 /*
  * Portada (módulo zementhome), al estilo de una tienda clásica: bloque principal compacto,
- * accesos a las familias y una fila de productos por familia.
+ * asesor de proyecto y una fila de productos por familia.
  */
 .page-content--home {
   padding-top: 0;
@@ -1029,12 +1041,17 @@ img[src*='/img/p/'][src*='-default-'] {
   --bs-btn-active-bg: var(--zm-color-sand);
 }
 
-/* Accesos a las familias: fila compacta con miniatura, nombre y número de productos. */
-.zm-home-families {
+/* Asesor «¿Qué va a hacer?» (zementcommerce): un acceso por proyecto. */
+.zm-projects {
   margin-bottom: clamp(2.5rem, 5vw, 4rem);
 }
 
-.zm-home-families__list {
+.zm-projects__title {
+  margin: 0 0 1rem;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+}
+
+.zm-projects__list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
@@ -1044,36 +1061,13 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 @media (width >= 992px) {
-  .zm-home-families__list {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .zm-projects__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.75rem;
   }
 }
 
-/* En móvil, las familias en una tira que se desliza en horizontal (una sola línea de alto). */
-@media (width < 768px) {
-  .zm-home-families__list {
-    grid-auto-columns: minmax(13.5rem, 72%);
-    grid-auto-flow: column;
-    grid-template-columns: none;
-    margin-inline: calc(var(--bs-gutter-x, 1.5rem) * -0.5);
-    padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
-    overflow-x: auto;
-    scroll-padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-  }
-
-  .zm-home-families__list > li {
-    scroll-snap-align: start;
-  }
-
-  .zm-family-chip__name {
-    hyphens: manual;
-  }
-}
-
-.zm-family-chip {
+.zm-project {
   display: flex;
   gap: 0.75rem;
   align-items: center;
@@ -1085,7 +1079,8 @@ img[src*='/img/p/'][src*='-default-'] {
   transition: border-color var(--zm-duration) var(--zm-ease);
 }
 
-.zm-family-chip__media {
+.zm-project__media,
+.zm-system__media {
   flex: none;
   width: clamp(2.75rem, 6vw, 3.5rem);
   aspect-ratio: 1;
@@ -1093,38 +1088,27 @@ img[src*='/img/p/'][src*='-default-'] {
   background: var(--zm-color-stone);
 }
 
-.zm-family-chip__media img {
+.zm-project__media img,
+.zm-system__media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Familias sin foto todavía: superficie plana de marca (TODO: foto real del producto). */
-.zm-family-chip__media--empty {
+/* Sin foto todavía: superficie plana de marca (TODO: foto real del producto). */
+.zm-project__media--empty,
+.zm-system__media--empty {
   background: linear-gradient(160deg, var(--zm-color-navy) 0%, var(--zm-color-night) 80%);
 }
 
-.zm-family-chip__text {
-  display: grid;
-  gap: 0.125rem;
-  min-width: 0;
-}
-
-.zm-family-chip__name {
+.zm-project__label {
   font-size: 0.875rem;
   font-weight: var(--zm-weight-ui);
   line-height: 1.25;
-  overflow-wrap: break-word;
-  hyphens: auto;
-}
-
-.zm-family-chip__count {
-  color: var(--zm-color-muted);
-  font-size: 0.75rem;
 }
 
 @media (hover: hover) {
-  .zm-family-chip:hover {
+  .zm-project:hover {
     border-color: var(--zm-color-navy);
   }
 }
@@ -1183,4 +1167,179 @@ img[src*='/img/p/'][src*='-default-'] {
     padding: 0;
     scroll-snap-align: start;
   }
+}
+
+/* Miniatura (zementcommerce): qué es, formato y dato clave de la ficha. */
+.zm-mini-info {
+  margin-top: 0.25rem;
+}
+
+.zm-mini-info__type {
+  margin: 0;
+  color: var(--zm-color-muted);
+  font-size: 0.625rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.zm-mini-info__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.75rem;
+  margin: 0.25rem 0 0;
+  color: var(--zm-color-ink);
+  font-size: 0.75rem;
+}
+
+/* Normas de la ficha (EN 13813, EN 13501-1) bajo el resumen. */
+.zm-norms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zm-norms__item {
+  display: inline-flex;
+  border: var(--zm-hairline) solid var(--zm-color-navy);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.06em;
+}
+
+.zm-norms__norm {
+  padding: 0.3rem 0.5rem;
+  background: var(--zm-color-navy);
+  color: var(--zm-color-paper);
+}
+
+.zm-norms__value {
+  padding: 0.3rem 0.5rem;
+  color: var(--zm-color-navy);
+}
+
+/* Ficha (zementcommerce): calculadora y «Complete su sistema». */
+.zm-tools {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: var(--zm-hairline) solid var(--zm-color-line);
+  background: var(--zm-color-white);
+}
+
+.zm-tools__title {
+  margin: 0 0 0.75rem;
+  font-family: var(--zm-font-body);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+.zm-tools__area,
+.zm-calc__field {
+  max-width: 12rem;
+}
+
+.zm-calc {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.zm-calc__result {
+  display: grid;
+  margin: 0;
+}
+
+.zm-calc__needed {
+  color: var(--zm-color-muted);
+  font-size: 0.8125rem;
+}
+
+.zm-calc__result strong {
+  color: var(--zm-color-navy);
+  font-family: var(--zm-font-display);
+  font-size: 1.35rem;
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+}
+
+.zm-calc__use {
+  justify-self: start;
+}
+
+.zm-system__name {
+  margin: -0.25rem 0 0.75rem;
+  font-weight: var(--zm-weight-ui);
+}
+
+.zm-system__steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zm-system__step {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.25rem 0.75rem;
+  align-items: center;
+  padding-block: 0.75rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.zm-system__step--current {
+  padding-left: 0.75rem;
+  box-shadow: inset 3px 0 0 var(--zm-color-navy);
+}
+
+.zm-system__text {
+  display: grid;
+  min-width: 0;
+}
+
+.zm-system__code {
+  color: var(--zm-color-muted);
+  font-size: 0.625rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.zm-system__product {
+  color: var(--zm-color-navy);
+  font-weight: var(--zm-weight-ui);
+}
+
+.zm-system__subtitle {
+  color: var(--zm-color-muted);
+  font-size: 0.75rem;
+}
+
+.zm-system__qty {
+  grid-column: 2;
+  color: var(--zm-color-ink);
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.zm-tools__note {
+  margin: 0;
+  color: var(--zm-color-muted);
+  font-size: 0.75rem;
+}
+
+/* Barra superior: acceso de profesionales junto a «Contacte con nosotros». */
+.zm-nav-pro {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
+  margin-left: 1.5rem;
+  color: var(--zm-color-gold);
+  text-decoration: none;
 }

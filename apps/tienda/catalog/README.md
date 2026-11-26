@@ -50,3 +50,8 @@ catalog/
 - **IVA**: la tienda local no tiene reglas de impuestos; asignarlas antes de activar productos.
 - **Fotos de producto**: 22 productos no traen imagen en la ficha (imprimaciones, barnices, morteros, aditivos, mallas).
 - **Nombres de las familias** en DE, FR, IT, PL, NO y FI: traducción propuesta, revisar con Zement. La agrupación en familias también es una propuesta.
+
+## Datos comerciales
+
+- [`commerce.json`](commerce.json): consumos y envases para la calculadora, sistemas en orden de aplicación, productos relacionados y proyectos del asesor de la portada. Cada cifra lleva la frase de la ficha (`source`).
+- Tras cambiarlo, o tras volver a extraer las fichas: `pnpm tienda:commerce`. Genera los datos del módulo `zementcommerce` y los aplica en la tienda.

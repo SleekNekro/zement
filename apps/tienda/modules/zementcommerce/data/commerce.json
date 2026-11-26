@@ -1,0 +1,4358 @@
+{
+ "categories": {
+  "microcemento": "Microcemento",
+  "corcho": "Revestimientos con corcho",
+  "imprimaciones": "Imprimaciones y selladores",
+  "proteccion": "Barnices y protección",
+  "metalicos": "Efectos metálicos",
+  "morteros": "Morteros de reparación e impermeabilización",
+  "piscinas": "Piscinas",
+  "complementos": "Aditivos y complementos"
+ },
+ "products": {
+  "basis-0-4-aqua-mix": {
+   "de": {
+    "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 20 kg",
+    "stat": {
+     "value": "2 Std.",
+     "label": "Verarbeitungszeit"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "format": "20 kg bucket",
+    "stat": {
+     "value": "2 h",
+     "label": "Mix life"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Cubo de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vida de la mezcla"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "20 kg:n sanko",
+    "stat": {
+     "value": "2 h",
+     "label": "Seoksen käyttöaika"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "format": "Seau de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Secchio da 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vita utile dell'impasto"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 20 kg",
+    "stat": {
+     "value": "2 t",
+     "label": "Brukstid for blandingen"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "format": "Wiadro 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Czas użyteczności mieszanki"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   }
+  },
+  "basis-direkt-1k": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "format": "20 kg bucket",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "format": "Cubo de 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "20 kg:n sanko",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "format": "Seau de 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "format": "Secchio da 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "format": "Bøtte på 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "format": "Wiadro 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "basis-direkt-2k": {
+   "de": {
+    "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 19 kg + Flasche à 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "format": "19 kg bucket + 1 kg bottle",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Cubo de 19 kg + botella de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "19 kg:n sanko + 1 kg:n pullo",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT BICOMPOSANT",
+    "format": "Seau de 19 kg + bouteille de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Secchio da 19 kg + flacone da 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 19 kg + flaske på 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "format": "Wiadro 19 kg + butelka 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "basis-grob-0-6-aqua-mix": {
+   "de": {
+    "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 20 kg",
+    "stat": {
+     "value": "2 Std.",
+     "label": "Verarbeitungszeit"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "format": "20 kg bucket",
+    "stat": {
+     "value": "2 h",
+     "label": "Mix life"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Cubo de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vida de la mezcla"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "20 kg:n sanko",
+    "stat": {
+     "value": "2 h",
+     "label": "Seoksen käyttöaika"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "format": "Seau de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Secchio da 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vita utile dell'impasto"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 20 kg",
+    "stat": {
+     "value": "2 t",
+     "label": "Brukstid for blandingen"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "format": "Wiadro 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Czas użyteczności mieszanki"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   }
+  },
+  "fein-0-02-0-06-aqua-mix": {
+   "de": {
+    "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 15 kg",
+    "stat": {
+     "value": "2 Std.",
+     "label": "Verarbeitungszeit"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "format": "15 kg bucket",
+    "stat": {
+     "value": "2 h",
+     "label": "Mix life"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Cubo de 15 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vida de la mezcla"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "15 kg:n sanko",
+    "stat": {
+     "value": "2 h",
+     "label": "Seoksen käyttöaika"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "format": "Seau de 15 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Secchio da 15 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vita utile dell'impasto"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 15 kg",
+    "stat": {
+     "value": "2 t",
+     "label": "Brukstid for blandingen"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "format": "Wiadro 15 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Czas użyteczności mieszanki"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   }
+  },
+  "fein-0-02-0-06-kork": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "format": "Eimer à 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Wärmeleitfähigkeit (W/m·K)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "format": "12 kg bucket",
+    "stat": {
+     "value": "< 0.060",
+     "label": "Thermal conductivity (W/m·K)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "format": "Cubo de 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Conductividad térmica (W/m·K)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "format": "12 kg:n sanko",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Lämmönjohtavuus (W/m·K)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "format": "Seau de 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Conductivité thermique (W/m·K)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "format": "Secchio da 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Conducibilità termica (W/m·K)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "format": "Bøtte på 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Varmeledningsevne (W/m·K)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "format": "Wiadro 12 kg",
+    "stat": {
+     "value": "< 0,060",
+     "label": "Przewodność cieplna (W/m·K)"
+    },
+    "norms": []
+   }
+  },
+  "fein-direkt-1k": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "format": "15 kg bucket",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "format": "Cubo de 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "15 kg:n sanko",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "format": "Seau de 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "format": "Secchio da 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "format": "Bøtte på 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "format": "Wiadro 15 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "fein-direkt-2k": {
+   "de": {
+    "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 14 kg + Flasche à 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "format": "14 kg bucket + 1 kg bottle",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Cubo de 14 kg + botella de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "14 kg:n sanko + 1 kg:n pullo",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT BICOMPOSANT",
+    "format": "Seau de 14 kg + bouteille de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Secchio da 14 kg + flacone da 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 14 kg + flaske på 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "format": "Wiadro 14 kg + butelka 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "fein-direkt-level-2k": {
+   "de": {
+    "subtitle": "SELBSTNIVELLIERENDER ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 14 kg + Flasche à 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT SELF-LEVELING MICROCEMENT",
+    "format": "14 kg bucket + 1 kg bottle",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO AUTONIVELANTE BICOMPONENTE",
+    "format": "Cubo de 14 kg + botella de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KAKSIKOMPONENTTINEN ITSETASOITTUVA MIKROSEMENTTI",
+    "format": "14 kg:n sanko + 1 kg:n pullo",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT AUTOLISSANT BICOMPOSANT",
+    "format": "Seau de 14 kg + bouteille de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO AUTOLIVELLANTE BICOMPONENTE",
+    "format": "Secchio da 14 kg + flacone da 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS SELVUTJEVNENDE MIKROSEMENT",
+    "format": "Bøtte på 14 kg + flaske på 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT SAMOPOZIOMUJĄCY DWUSKŁADNIKOWY",
+    "format": "Wiadro 14 kg + butelka 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "grob-3-4-mm-kork": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "format": "Eimer à 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Wärmeleitfähigkeit (W/m·K)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "format": "12 kg bucket",
+    "stat": {
+     "value": "< 0.050",
+     "label": "Thermal conductivity (W/m·K)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "format": "Cubo de 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Conductividad térmica (W/m·K)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "format": "12 kg:n sanko",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Lämmönjohtavuus (W/m·K)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "format": "Seau de 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Conductivité thermique (W/m·K)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "format": "Secchio da 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Conducibilità termica (W/m·K)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "format": "Bøtte på 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Varmeledningsevne (W/m·K)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "format": "Wiadro 12 kg",
+    "stat": {
+     "value": "< 0,050",
+     "label": "Przewodność cieplna (W/m·K)"
+    },
+    "norms": []
+   }
+  },
+  "malla-160g": {
+   "de": {
+    "subtitle": "GLASFASERGEWEBE ZUR ARMIERUNG VON MIKROZEMENT-SYSTEMEN",
+    "format": "Rolle 50 m × 1 m Breite",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Maschenweite"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "FIBERGLASS MESH FOR REINFORCING MICROCEMENT SYSTEMS",
+    "format": "Roll of 50 m × 1 m wide",
+    "stat": {
+     "value": "3.5 × 3.8 mm",
+     "label": "Mesh size"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MALLA DE FIBRA DE VIDRIO PARA REFORZAR SISTEMAS DE MICROCEMENTO",
+    "format": "Rollo de 50 m × 1 m de ancho",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Luz de malla"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LASIKUITUVERKKO MIKROSEMENTTIJÄRJESTELMIEN VAHVISTAMISEEN",
+    "format": "Rulla, 50 m × 1 m (leveys)",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Silmäkoko"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "TREILLIS EN FIBRE DE VERRE POUR RENFORCER LE MICROCIMENT",
+    "format": "Rouleau de 50 m × 1 m de large",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Taille des mailles"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RETE IN FIBRA DI VETRO PER RINFORZARE I SISTEMI DI MICROCEMENTO",
+    "format": "Rotolo da 50 m × 1 m di larghezza",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Maglia"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "GLASSFIBERNETT FOR ARMERING AV MIKROSEMENTSYSTEMER",
+    "format": "Rull på 50 m × 1 m bredde",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Maskevidde"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "SIATKA Z WŁÓKNA SZKLANEGO DO WZMACNIANIA MIKROCEMENTU",
+    "format": "Rolka 50 m × 1 m szerokości",
+    "stat": {
+     "value": "3,5 × 3,8 mm",
+     "label": "Oczko siatki"
+    },
+    "norms": []
+   }
+  },
+  "malla-80g": {
+   "de": {
+    "subtitle": "GLASFASERGEWEBE ZUR ARMIERUNG VON MIKROZEMENT-SYSTEMEN",
+    "format": "Rolle 50 m × 1 m Breite",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Maschenweite"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "FIBERGLASS MESH FOR REINFORCING MICROCEMENT SYSTEMS",
+    "format": "Roll of 50 m × 1 m wide",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Mesh size"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MALLA DE FIBRA DE VIDRIO PARA REFORZAR SISTEMAS DE MICROCEMENTO",
+    "format": "Rollo de 50 m × 1 m de ancho",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Luz de malla"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LASIKUITUVERKKO MIKROSEMENTTIJÄRJESTELMIEN VAHVISTAMISEEN",
+    "format": "Rulla, 50 m × 1 m (leveys)",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Silmäkoko"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "TREILLIS EN FIBRE DE VERRE POUR RENFORCER LE MICROCIMENT",
+    "format": "Rouleau de 50 m × 1 m de large",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Taille des mailles"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RETE IN FIBRA DI VETRO PER RINFORZARE I SISTEMI DI MICROCEMENTO",
+    "format": "Rotolo da 50 m × 1 m di larghezza",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Maglia"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "GLASSFIBERNETT FOR ARMERING AV MIKROSEMENTSYSTEMER",
+    "format": "Rull på 50 m × 1 m bredde",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Maskevidde"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "SIATKA Z WŁÓKNA SZKLANEGO DO WZMACNIANIA MIKROCEMENTU",
+    "format": "Rolka 50 m × 1 m szerokości",
+    "stat": {
+     "value": "5 × 5 mm",
+     "label": "Oczko siatki"
+    },
+    "norms": []
+   }
+  },
+  "metallic-lasur": {
+   "de": {
+    "subtitle": "VERSIEGELNDE METALLIC-LASUR AUF WASSERBASIS",
+    "format": "Gebinde à 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² Produkt (je nach Untergrund)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED METALLIC SEALING GLAZE",
+    "format": "5 L containers",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² of product (depending on the substrate)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "VELADURA METÁLICA SELLANTE AL AGUA",
+    "format": "Envases de 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² de producto (según soporte)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN METALLIHOHTOINEN TIIVISTÄVÄ LASUURI",
+    "format": "5 L:n astiat",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² tuotetta (alustasta riippuen)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "LASURE MÉTALLIQUE HYDROFUGE À L'EAU",
+    "format": "Bidons de 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² de produit (selon le support)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VELATURA METALLICA SIGILLANTE ALL'ACQUA",
+    "format": "Confezioni da 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² di prodotto (a seconda del supporto)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "FORSEGLENDE METALLISK LASUR PÅ VANNBASIS",
+    "format": "Beholdere på 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² produkt (avhengig av underlag)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "METALICZNA LAZURA USZCZELNIAJĄCA NA BAZIE WODY",
+    "format": "Opakowania 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² produktu (w zależności od podłoża)"
+    },
+    "norms": []
+   }
+  },
+  "mittel-0-2-aqua-mix": {
+   "de": {
+    "subtitle": "EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 20 kg",
+    "stat": {
+     "value": "2 Std.",
+     "label": "Verarbeitungszeit"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "MONOCOMPONENT MICROCEMENT",
+    "format": "20 kg bucket",
+    "stat": {
+     "value": "2 h",
+     "label": "Mix life"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Cubo de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vida de la mezcla"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "20 kg:n sanko",
+    "stat": {
+     "value": "2 h",
+     "label": "Seoksen käyttöaika"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT",
+    "format": "Seau de 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE",
+    "format": "Secchio da 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Vita utile dell'impasto"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 20 kg",
+    "stat": {
+     "value": "2 t",
+     "label": "Brukstid for blandingen"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY",
+    "format": "Wiadro 20 kg",
+    "stat": {
+     "value": "2 h",
+     "label": "Czas użyteczności mieszanki"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C50-F15-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "Bfl-s1"
+     }
+    ]
+   }
+  },
+  "mittel-0-2-kork": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGE ACRYLBESCHICHTUNG MIT KORK",
+    "format": "Eimer à 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Wärmeleitfähigkeit (W/m·K)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "READY-TO-USE ACRYLIC COATING WITH CORK",
+    "format": "12 kg bucket",
+    "stat": {
+     "value": "< 0.055",
+     "label": "Thermal conductivity (W/m·K)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "REVESTIMIENTO ACRÍLICO CON CORCHO, LISTO AL USO",
+    "format": "Cubo de 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Conductividad térmica (W/m·K)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS KORKKIPOHJAINEN AKRYYLIPINNOITE",
+    "format": "12 kg:n sanko",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Lämmönjohtavuus (W/m·K)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "REVÊTEMENT ACRYLIQUE AU LIÈGE, PRÊT À L'EMPLOI",
+    "format": "Seau de 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Conductivité thermique (W/m·K)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RIVESTIMENTO ACRILICO AL SUGHERO, PRONTO ALL'USO",
+    "format": "Secchio da 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Conducibilità termica (W/m·K)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "AKRYLBELEGG MED KORK, KLAR TIL BRUK",
+    "format": "Bøtte på 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Varmeledningsevne (W/m·K)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "AKRYLOWA OKŁADZINA Z KORKIEM, GOTOWA DO UŻYCIA",
+    "format": "Wiadro 12 kg",
+    "stat": {
+     "value": "< 0,055",
+     "label": "Przewodność cieplna (W/m·K)"
+    },
+    "norms": []
+   }
+  },
+  "mittel-direkt-1k": {
+   "de": {
+    "subtitle": "GEBRAUCHSFERTIGER EINKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "READY-TO-USE MONOCOMPONENT MICROCEMENT",
+    "format": "20 kg bucket",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE LISTO AL USO",
+    "format": "Cubo de 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KÄYTTÖVALMIS YKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "20 kg:n sanko",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT MONOCOMPOSANT PRÊT À L'EMPLOI",
+    "format": "Seau de 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO MONOCOMPONENTE PRONTO ALL'USO",
+    "format": "Secchio da 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "ENKOMPONENTS MIKROSEMENT KLAR TIL BRUK",
+    "format": "Bøtte på 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT JEDNOSKŁADNIKOWY GOTOWY DO UŻYCIA",
+    "format": "Wiadro 20 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13813",
+      "value": "CT-C40-F10-B2,0"
+     },
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "mittel-direkt-2k": {
+   "de": {
+    "subtitle": "ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 19 kg + Flasche à 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT MICROCEMENT",
+    "format": "19 kg bucket + 1 kg bottle",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Cubo de 19 kg + botella de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KAKSIKOMPONENTTINEN MIKROSEMENTTI",
+    "format": "19 kg:n sanko + 1 kg:n pullo",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT BICOMPOSANT",
+    "format": "Seau de 19 kg + bouteille de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO BICOMPONENTE",
+    "format": "Secchio da 19 kg + flacone da 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS MIKROSEMENT",
+    "format": "Bøtte på 19 kg + flaske på 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT DWUSKŁADNIKOWY",
+    "format": "Wiadro 19 kg + butelka 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "mittel-direkt-level-2k": {
+   "de": {
+    "subtitle": "SELBSTNIVELLIERENDER ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Eimer à 19 kg + Flasche à 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brandverhalten (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT SELF-LEVELING MICROCEMENT",
+    "format": "19 kg bucket + 1 kg bottle",
+    "stat": {
+     "value": "A1",
+     "label": "Reaction to fire (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "es": {
+    "subtitle": "MICROCEMENTO AUTONIVELANTE BICOMPONENTE",
+    "format": "Cubo de 19 kg + botella de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reacción al fuego (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fi": {
+    "subtitle": "KAKSIKOMPONENTTINEN ITSETASOITTUVA MIKROSEMENTTI",
+    "format": "19 kg:n sanko + 1 kg:n pullo",
+    "stat": {
+     "value": "A1",
+     "label": "Palonkestävyys (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "fr": {
+    "subtitle": "MICROCIMENT AUTOLISSANT BICOMPOSANT",
+    "format": "Seau de 19 kg + bouteille de 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Réaction au feu (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "it": {
+    "subtitle": "MICROCEMENTO AUTOLIVELLANTE BICOMPONENTE",
+    "format": "Secchio da 19 kg + flacone da 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reazione al fuoco (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS SELVUTJEVNENDE MIKROSEMENT",
+    "format": "Bøtte på 19 kg + flaske på 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Brannreaksjon (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   },
+   "pl": {
+    "subtitle": "MIKROCEMENT SAMOPOZIOMUJĄCY DWUSKŁADNIKOWY",
+    "format": "Wiadro 19 kg + butelka 1 kg",
+    "stat": {
+     "value": "A1",
+     "label": "Reakcja na ogień (EN 13501-1)"
+    },
+    "norms": [
+     {
+      "norm": "EN 13501-1",
+      "value": "A1"
+     }
+    ]
+   }
+  },
+  "protect-aqua-2k": {
+   "de": {
+    "subtitle": "WASSERBASIERTER ALIPHATISCHER ZWEIKOMPONENTEN-ACRYLLACK",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 Std.",
+     "label": "Grifffest"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT WATER-BASED ALIPHATIC ACRYLIC VARNISH",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Touch-dry"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "BARNIZ ACRÍLICO ALIFÁTICO BICOMPONENTE AL AGUA",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Secado al tacto"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN KAKSIKOMPONENTTINEN ALIFAATTINEN AKRYYLILAKKA",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Kosketuskuiva"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "VERNIS ACRYLIQUE ALIPHATIQUE BICOMPOSANT À L'EAU",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Sec au toucher"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VERNICE ACRILICA ALIFATICA BICOMPONENTE ALL'ACQUA",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Secco al tatto"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANNBASERT ALIFATISK AKRYLLAKK, TO KOMPONENTER",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 t",
+     "label": "Berøringstørr"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "WODNY LAKIER AKRYLOWY ALIFATYCZNY 2K",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "1 h",
+     "label": "Sucha na dotyk"
+    },
+    "norms": []
+   }
+  },
+  "protect-diluent": {
+   "de": {
+    "subtitle": "MITTELLANGSAM VERDUNSTENDER VERDÜNNER FÜR PU-LACKE",
+    "format": "Gebinde 5 L",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Dichte bei 20 °C"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "MEDIUM-SLOW EVAPORATION SOLVENT FOR POLYURETHANES",
+    "format": "5 L container",
+    "stat": {
+     "value": "0.87 g/cm³",
+     "label": "Density at 20 °C"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "DISOLVENTE DE EVAPORACIÓN MEDIA-LENTA PARA POLIURETANOS",
+    "format": "Envase de 5 L",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Densidad a 20 °C"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "KESKIHIDAS OHENNE POLYURETAANILAKOILLE",
+    "format": "5 L:n pakkaus",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Tiheys 20 °C:ssa"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "DILUANT À ÉVAPORATION MI-LENTE POUR POLYURÉTHANES",
+    "format": "Emballage de 5 L",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Masse volumique à 20 °C"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "DILUENTE A EVAPORAZIONE MEDIO-LENTA PER POLIURETANI",
+    "format": "Confezione da 5 L",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Massa volumica a 20 °C"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "MIDDELS LANGSOMTGÅENDE TYNNER FOR POLYURETANLAKK",
+    "format": "5 L beholder",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Densitet ved 20 °C"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ROZCIEŃCZALNIK ŚREDNIO-WOLNOSCHNĄCY DO POLIURETANÓW",
+    "format": "Pojemnik 5 L",
+    "stat": {
+     "value": "0,87 g/cm³",
+     "label": "Gęstość w 20 °C"
+    },
+    "norms": []
+   }
+  },
+  "protect-repel": {
+   "de": {
+    "subtitle": "WASSERBASIERTES WASSER- UND ÖLABWEISENDES MITTEL",
+    "format": "Kanister 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Verdünnung mit Wasser (Teile)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED WATER- AND OIL-REPELLENT FOR STONE AND MORTAR",
+    "format": "5 kg jerrycan",
+    "stat": {
+     "value": "1:14",
+     "label": "Dilution in water (parts)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "HIDRO-OLEOFUGANTE DE BASE AGUA PARA PIEDRA Y MORTERO",
+    "format": "Garrafa de 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Dilución en agua (partes)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VETTÄ JA ÖLJYÄ HYLKIVÄ VESIPOHJAINEN SUOJA-AINE KIVELLE",
+    "format": "5 kg:n kanisteri",
+    "stat": {
+     "value": "1:14",
+     "label": "Vesilaimennus (osaa)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "HYDRO-OLÉOFUGE À BASE D'EAU POUR PIERRE ET MORTIER",
+    "format": "Bidon de 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Dilution dans l'eau (parties)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "IDRO-OLEOREPELLENTE ALL'ACQUA PER PIETRA E MALTA",
+    "format": "Tanica da 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Diluizione in acqua (parti)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANN- OG OLJEAVVISENDE IMPREGNERING FOR STEIN OG MØRTEL",
+    "format": "Dunk 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Fortynning med vann (deler)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "WODNY ŚRODEK HYDRO- I OLEOFOBOWY DO KAMIENIA I ZAPRAWY",
+    "format": "Kanister 5 kg",
+    "stat": {
+     "value": "1:14",
+     "label": "Rozcieńczenie wodą (części)"
+    },
+    "norms": []
+   }
+  },
+  "protect-sanitary-2k": {
+   "de": {
+    "subtitle": "LÖSEMITTELFREIE ZWEIKOMPONENTEN-EPOXIDBESCHICHTUNG",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Mischungsverhältnis nach Gewicht (A:B)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT SOLVENT-FREE EPOXY COATING",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Mixing ratio by weight (A:B)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "REVESTIMIENTO EPOXI BICOMPONENTE SIN DISOLVENTE",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Proporción de mezcla en peso (A:B)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LIUOTTIMETON 2K-EPOKSIPINNOITE LATTIOILLE",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Sekoitussuhde painosta (A:B)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "REVÊTEMENT ÉPOXY BICOMPOSANT SANS SOLVANT",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Rapport de mélange en poids (A:B)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RIVESTIMENTO EPOSSIDICO BICOMPONENTE SENZA SOLVENTI",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Rapporto di miscelazione in peso (A:B)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "LØSEMIDDELFRITT TOKOMPONENTS EPOKSYBELEGG",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Blandingsforhold etter vekt (A:B)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "BEZROZPUSZCZALNIKOWA POWŁOKA EPOKSYDOWA 2K",
+    "format": "4 kg + 1 kg",
+    "stat": {
+     "value": "4:1",
+     "label": "Proporcja mieszania wagowo (A:B)"
+    },
+    "norms": []
+   }
+  },
+  "protect-solvent-2k": {
+   "de": {
+    "subtitle": "LÖSEMITTELBASIERTER ZWEIKOMPONENTEN-ACRYL-PU-LACK",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Mischungsverhältnis nach Gewicht (A:B)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT SOLVENT-BASED ACRYLIC POLYURETHANE VARNISH",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Mixing ratio by weight (A:B)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "BARNIZ DE POLIURETANO ACRÍLICO BICOMPONENTE AL DISOLVENTE",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Proporción de mezcla en peso (A:B)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LIUOTINPOHJAINEN KAKSIKOMPONENTTINEN AKRYYLIPOLYURETAANILAKKA",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Sekoitussuhde painosta (A:B)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "VERNIS POLYURÉTHANE ACRYLIQUE BICOMPOSANT AU SOLVANT",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Rapport de mélange en poids (A:B)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VERNICE POLIURETANICA ACRILICA BICOMPONENTE A SOLVENTE",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Rapporto di miscelazione in peso (A:B)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "TOKOMPONENTS AKRYLPOLYURETANLAKK PÅ LØSEMIDDELBASIS",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Blandingsforhold etter vekt (A:B)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ROZPUSZCZALNIKOWY LAKIER AKRYLOWO-POLIURETANOWY 2K",
+    "format": "3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Proporcja mieszania wagowo (A:B)"
+    },
+    "norms": []
+   }
+  },
+  "protect-solvent-grip-2k": {
+   "de": {
+    "subtitle": "RUTSCHHEMMENDER ZWEIKOMPONENTEN-ACRYL-PU-LACK",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Mischungsverhältnis nach Gewicht (A:B)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT ACRYLIC POLYURETHANE ANTI-SLIP VARNISH",
+    "format": "3.3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Mixing ratio by weight (A:B)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "BARNIZ ANTIDESLIZANTE DE POLIURETANO ACRÍLICO BICOMPONENTE",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Proporción de mezcla en peso (A:B)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LIUKUMATON KAKSIKOMPONENTTINEN AKRYYLIPOLYURETAANILAKKA",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Sekoitussuhde painosta (A:B)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "VERNIS ANTIDÉRAPANT POLYURÉTHANE ACRYLIQUE BICOMPOSANT",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Rapport de mélange en poids (A:B)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VERNICE ANTISCIVOLO POLIURETANICA ACRILICA BICOMPONENTE",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Rapporto di miscelazione in peso (A:B)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "SKLISIKKER TOKOMPONENTS AKRYLPOLYURETANLAKK",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Blandingsforhold etter vekt (A:B)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ANTYPOŚLIZGOWY LAKIER AKRYLOWO-POLIURETANOWY 2K",
+    "format": "3,3 kg + 1 kg",
+    "stat": {
+     "value": "3:1",
+     "label": "Proporcja mieszania wagowo (A:B)"
+    },
+    "norms": []
+   }
+  },
+  "protect-solvent-metallic-2k": {
+   "de": {
+    "subtitle": "TRANSPARENTER ACRYL-PU-KLARLACK FÜR METALLEFFEKTE",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Mischungsverhältnis nach Gewicht (A:B)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "CLEAR ACRYLIC POLYURETHANE VARNISH FOR METALLIC EFFECTS",
+    "format": "2.5 kg + 1 kg",
+    "stat": {
+     "value": "2.5:1",
+     "label": "Mixing ratio by weight (A:B)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "BARNIZ TRANSPARENTE DE POLIURETANO ACRÍLICO PARA EFECTOS METÁLICOS",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Proporción de mezcla en peso (A:B)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "KIRKAS AKRYYLIPOLYURETAANILAKKA METALLITEHOSTEILLE",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Sekoitussuhde painosta (A:B)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "VERNIS TRANSPARENT POLYURÉTHANE ACRYLIQUE POUR EFFETS MÉTALLIQUES",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Rapport de mélange en poids (A:B)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VERNICE TRASPARENTE POLIURETANICA PER EFFETTI METALLICI",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Rapporto di miscelazione in peso (A:B)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "TRANSPARENT AKRYLPOLYURETANLAKK FOR METALLISKE EFFEKTER",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Blandingsforhold etter vekt (A:B)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "PRZEZROCZYSTY LAKIER AKRYLOWO-PU DO EFEKTÓW METALICZNYCH",
+    "format": "2,5 kg + 1 kg",
+    "stat": {
+     "value": "2,5:1",
+     "label": "Proporcja mieszania wagowo (A:B)"
+    },
+    "norms": []
+   }
+  },
+  "zement-color-lab": {
+   "de": {
+    "subtitle": "PIGMENTPASTEN FÜR MÖRTEL UND MIKROZEMENTE",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "NCS-Farben in Farbkarte"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "PIGMENT PASTES FOR MORTARS AND MICROCEMENTS",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "NCS colours in the chart"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "PASTAS PIGMENTARIAS PARA MORTEROS Y MICROCEMENTOS",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "Colores NCS en carta"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "PIGMENTTITAHNAT LAASTEILLE JA MIKROSEMENTEILLE",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "NCS-sävyä värikartassa"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "PÂTES PIGMENTAIRES POUR MORTIERS ET MICROCIMENTS",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "Couleurs NCS au nuancier"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "PASTE PIGMENTARIE PER MALTE E MICROCEMENTI",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "Colori NCS in cartella"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "PIGMENTPASTAER FOR MØRTEL OG MIKROSEMENT",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "NCS-farger i fargekartet"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "PASTY PIGMENTOWE DO ZAPRAW I MIKROCEMENTÓW",
+    "format": null,
+    "stat": {
+     "value": "50",
+     "label": "Kolorów NCS w karcie"
+    },
+    "norms": []
+   }
+  },
+  "zement-dune-fix": {
+   "de": {
+    "subtitle": "BINDEHARZ FÜR DIE SANDBESCHICHTUNG ZEMENT DUNE",
+    "format": "Gebinde 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Bezogen auf das Zuschlaggewicht"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "BINDER RESIN FOR THE ZEMENT DUNE SAND COATING",
+    "format": "5 kg container",
+    "stat": {
+     "value": "7 %",
+     "label": "Of the aggregate weight"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "RESINA AGLUTINANTE PARA EL REVESTIMIENTO DE ARENA ZEMENT DUNE",
+    "format": "Envase de 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Sobre el peso del árido"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "SIDEAINEHARTSI ZEMENT DUNE -HIEKKAPINNOITTEELLE",
+    "format": "5 kg:n pakkaus",
+    "stat": {
+     "value": "7 %",
+     "label": "Kiviaineksen painosta"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "RÉSINE LIANTE POUR LE REVÊTEMENT DE SABLE ZEMENT DUNE",
+    "format": "Bidon de 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Du poids du granulat"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RESINA LEGANTE PER IL RIVESTIMENTO DI SABBIA ZEMENT DUNE",
+    "format": "Confezione da 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Sul peso dell'aggregato"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "BINDEHARPIKS FOR SANDBELEGGET ZEMENT DUNE",
+    "format": "Beholder på 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Av tilslagets vekt"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ŻYWICA WIĄŻĄCA DO OKŁADZINY PIASKOWEJ ZEMENT DUNE",
+    "format": "Opakowanie 5 kg",
+    "stat": {
+     "value": "7 %",
+     "label": "Masy kruszywa"
+    },
+    "norms": []
+   }
+  },
+  "zement-dune": {
+   "de": {
+    "subtitle": "NATURSANDBESCHICHTUNG FÜR POOLS IM STRANDSTIL",
+    "format": "Sack 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Schichtdicke in einer Lage"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "NATURAL SAND COATING FOR BEACH-STYLE SWIMMING POOLS",
+    "format": "25 kg bag",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Thickness in a single coat"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "REVESTIMIENTO DE ARENA NATURAL PARA PISCINAS TIPO PLAYA",
+    "format": "Saco de 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Espesor en una sola capa"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "LUONNONHIEKKAPINNOITE RANTATYYLISILLE UIMA-ALTAILLE",
+    "format": "25 kg:n säkki",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Paksuus yhdellä kerroksella"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "REVÊTEMENT DE SABLE NATUREL POUR PISCINES DE TYPE PLAGE",
+    "format": "Sac de 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Épaisseur en une seule couche"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RIVESTIMENTO DI SABBIA NATURALE PER PISCINE IN STILE SPIAGGIA",
+    "format": "Sacco da 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Spessore in una sola mano"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "NATURLIG SANDBELEGG FOR BASSENGER I STRANDSTIL",
+    "format": "Sekk på 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Tykkelse i ett lag"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "NATURALNA OKŁADZINA PIASKOWA DO BASENÓW TYPU PLAŻOWEGO",
+    "format": "Worek 25 kg",
+    "stat": {
+     "value": "3-5 mm",
+     "label": "Grubość w jednej warstwie"
+    },
+    "norms": []
+   }
+  },
+  "zement-flex-sanitary": {
+   "de": {
+    "subtitle": "FLEXIBLER, WASSERDICHTER 2K-ZEMENTMÖRTEL",
+    "format": "Sack 20 kg + Kanister 5 L",
+    "stat": {
+     "value": "60 Min.",
+     "label": "Verarbeitungszeit"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT FLEXIBLE WATERPROOF CEMENTITIOUS MORTAR",
+    "format": "20 kg bag + 5 L pail",
+    "stat": {
+     "value": "60 min",
+     "label": "Pot life"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MORTERO CEMENTOSO FLEXIBLE E IMPERMEABLE BICOMPONENTE",
+    "format": "Saco de 20 kg + bidón de 5 L",
+    "stat": {
+     "value": "60 min",
+     "label": "Vida de la mezcla"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "JOUSTAVA VEDENPITÄVÄ 2K-SEMENTTILAASTI",
+    "format": "20 kg:n säkki + 5 L:n kanisteri",
+    "stat": {
+     "value": "60 min",
+     "label": "Käyttöaika"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "MORTIER-CIMENT SOUPLE IMPERMÉABLE BICOMPOSANT",
+    "format": "Sac de 20 kg + bidon de 5 L",
+    "stat": {
+     "value": "60 min",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "MALTA CEMENTIZIA FLESSIBILE IMPERMEABILE BICOMPONENTE",
+    "format": "Sacco da 20 kg + tanica da 5 L",
+    "stat": {
+     "value": "60 min",
+     "label": "Vita utile dell'impasto"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "FLEKSIBEL, VANNTETT SEMENTMØRTEL, TO KOMPONENTER",
+    "format": "Sekk på 20 kg + dunk på 5 L",
+    "stat": {
+     "value": "60 min",
+     "label": "Brukstid"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ELASTYCZNA, WODOSZCZELNA ZAPRAWA CEMENTOWA 2K",
+    "format": "Worek 20 kg + kanister 5 l",
+    "stat": {
+     "value": "60 min",
+     "label": "Czas użyteczności mieszanki"
+    },
+    "norms": []
+   }
+  },
+  "zement-latex-flex": {
+   "de": {
+    "subtitle": "WÄSSRIGES BINDEMITTEL ZUR VERFESTIGUNG UND HAFTVERBESSERUNG",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Max. Verdünnung mit Wasser"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "AQUEOUS DISPERSION BINDER FOR CONSOLIDATING AND BONDING SUBSTRATES",
+    "format": "5 L jerrycan",
+    "stat": {
+     "value": "1:1",
+     "label": "Max. dilution with water"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "LIGANTE EN DISPERSIÓN ACUOSA PARA CONSOLIDAR Y ANCLAR SOPORTES",
+    "format": "Garrafa de 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Dilución máx. con agua"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "SIDEAINE-DISPERSIO ALUSTAN LUJITTAMISEEN JA TARTUNNAN PARANTAMISEEN",
+    "format": "5 L:n kanisteri",
+    "stat": {
+     "value": "1:1",
+     "label": "Enim. laimennus vedellä"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "LIANT EN DISPERSION AQUEUSE POUR CONSOLIDER ET FIXER LES SUPPORTS",
+    "format": "Bidon de 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Dilution max. à l'eau"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "LEGANTE IN DISPERSIONE ACQUOSA PER CONSOLIDARE E ANCORARE I SUPPORTI",
+    "format": "Tanica da 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Diluizione max. in acqua"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANDIG BINDEMIDDEL FOR KONSOLIDERING OG HEFT PÅ UNDERLAG",
+    "format": "Dunk 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Maks. vannfortynning"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ŻYWICA W DYSPERSJI WODNEJ DO WZMACNIANIA I KOTWIENIA PODŁOŻY",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "1:1",
+     "label": "Maks. rozcieńczenie wodą"
+    },
+    "norms": []
+   }
+  },
+  "zement-latex": {
+   "de": {
+    "subtitle": "ACRYLHARZ-DISPERSION FÜR ZWEIKOMPONENTEN-MIKROZEMENT",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "3-5 Std.",
+     "label": "Verarbeitungszeit der Mischung"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "ACRYLIC DISPERSION RESIN FOR TWO-COMPONENT MICROCEMENTS",
+    "format": "5 L jerrycan",
+    "stat": {
+     "value": "3-5 h",
+     "label": "Pot life"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "RESINA ACRÍLICA EN DISPERSIÓN PARA MICROCEMENTOS BICOMPONENTES",
+    "format": "Garrafa de 5 L",
+    "stat": {
+     "value": "3-5 h",
+     "label": "Vida de la mezcla"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "AKRYYLIHARTSIDISPERSIO KAKSIKOMPONENTTISILLE MIKROSEMENTEILLE",
+    "format": "5 L:n kanisteri",
+    "stat": {
+     "value": "3–5 h",
+     "label": "Käyttöaika"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "RÉSINE ACRYLIQUE EN DISPERSION POUR MICROCIMENTS BICOMPOSANTS",
+    "format": "Bidon de 5 L",
+    "stat": {
+     "value": "3-5 h",
+     "label": "Durée de vie du mélange"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "RESINA ACRILICA IN DISPERSIONE PER MICROCEMENTI BICOMPONENTI",
+    "format": "Tanica da 5 L",
+    "stat": {
+     "value": "3-5 h",
+     "label": "Durata della miscela"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "AKRYLDISPERSJON FOR TOKOMPONENTS MIKROSEMENT",
+    "format": "Dunk 5 L",
+    "stat": {
+     "value": "3-5 t",
+     "label": "Brukstid etter blanding"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "DYSPERSJA AKRYLOWA DO MIKROCEMENTÓW DWUSKŁADNIKOWYCH",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "3-5 h",
+     "label": "Czas przydatności mieszanki"
+    },
+    "norms": []
+   }
+  },
+  "zement-metallic": {
+   "de": {
+    "subtitle": "VERSIEGELNDE METALLIC-LASUR AUF WASSERBASIS",
+    "format": "Gebinde à 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² Produkt (je nach Untergrund)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED METALLIC SEALING GLAZE",
+    "format": "5 L containers",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² of product (depending on the substrate)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "VELADURA METÁLICA SELLANTE AL AGUA",
+    "format": "Envases de 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² de producto (según soporte)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN METALLIHOHTOINEN TIIVISTÄVÄ LASUURI",
+    "format": "5 L:n astiat",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² tuotetta (alustasta riippuen)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "LASURE MÉTALLIQUE HYDROFUGE À L'EAU",
+    "format": "Bidons de 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² de produit (selon le support)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "VELATURA METALLICA SIGILLANTE ALL'ACQUA",
+    "format": "Confezioni da 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² di prodotto (a seconda del supporto)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "FORSEGLENDE METALLISK LASUR PÅ VANNBASIS",
+    "format": "Beholdere på 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² produkt (avhengig av underlag)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "METALICZNA LAZURA USZCZELNIAJĄCA NA BAZIE WODY",
+    "format": "Opakowania 5 L",
+    "stat": {
+     "value": "50",
+     "label": "ml/m² produktu (w zależności od podłoża)"
+    },
+    "norms": []
+   }
+  },
+  "zement-prime-grip": {
+   "de": {
+    "subtitle": "WASSERBASIERTE ACRYLDISPERSION FÜR GRUNDIERUNG UND MÖRTEL",
+    "format": "Eimer à 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Feststoffgehalt"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED ACRYLIC DISPERSION FOR PRIMING AND MORTAR MODIFICATION",
+    "format": "5 kg bucket",
+    "stat": {
+     "value": "60 %",
+     "label": "Solids content"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "DISPERSIÓN ACRÍLICA AL AGUA PARA IMPRIMACIÓN Y MORTEROS",
+    "format": "Cubo de 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Contenido en sólidos"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN AKRYYLIDISPERSIO POHJUSTEEKSI JA LAASTIEN MUUNTELUUN",
+    "format": "5 kg:n sanko",
+    "stat": {
+     "value": "60 %",
+     "label": "Kuiva-ainepitoisuus"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "DISPERSION ACRYLIQUE À L'EAU POUR PRIMAIRE ET MORTIERS",
+    "format": "Seau de 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Extrait sec"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "DISPERSIONE ACRILICA ALL'ACQUA PER PRIMER E MODIFICA DELLE MALTE",
+    "format": "Secchio da 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Contenuto di solidi"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANNBASERT AKRYLDISPERSJON FOR GRUNNING OG MODIFISERING AV MØRTLER",
+    "format": "Bøtte på 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Tørrstoffinnhold"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "DYSPERSJA AKRYLOWA NA BAZIE WODY DO GRUNTOWANIA I MODYFIKACJI ZAPRAW",
+    "format": "Wiadro 5 kg",
+    "stat": {
+     "value": "60 %",
+     "label": "Zawartość części stałych"
+    },
+    "norms": []
+   }
+  },
+  "zement-prime-tack": {
+   "de": {
+    "subtitle": "WASSERBASIERTE ACRYLDISPERSION FÜR GRUNDIERUNG UND MÖRTEL",
+    "format": "Kanister à 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Feststoffgehalt"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED ACRYLIC DISPERSION FOR PRIMING AND MORTAR MODIFICATION",
+    "format": "5 L jerrycan",
+    "stat": {
+     "value": "60 %",
+     "label": "Solids content"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "DISPERSIÓN ACRÍLICA AL AGUA PARA IMPRIMACIÓN Y MORTEROS",
+    "format": "Garrafa de 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Contenido en sólidos"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN AKRYYLIDISPERSIO POHJUSTEEKSI JA LAASTIEN MUUNTELUUN",
+    "format": "5 L:n kanisteri",
+    "stat": {
+     "value": "60 %",
+     "label": "Kuiva-ainepitoisuus"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "DISPERSION ACRYLIQUE À L'EAU POUR PRIMAIRE ET MORTIERS",
+    "format": "Bidon de 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Extrait sec"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "DISPERSIONE ACRILICA ALL'ACQUA PER PRIMER E MODIFICA DELLE MALTE",
+    "format": "Tanica da 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Contenuto di solidi"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANNBASERT AKRYLDISPERSJON FOR GRUNNING OG MODIFISERING AV MØRTLER",
+    "format": "Kanne på 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Tørrstoffinnhold"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "DYSPERSJA AKRYLOWA NA BAZIE WODY DO GRUNTOWANIA I MODYFIKACJI ZAPRAW",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "60 %",
+     "label": "Zawartość części stałych"
+    },
+    "norms": []
+   }
+  },
+  "zement-prime": {
+   "de": {
+    "subtitle": "VERSIEGELNDE UND VERFESTIGENDE GRUNDIERUNG AUF WASSERBASIS",
+    "format": "Kanister à 5 L",
+    "stat": {
+     "value": "1 Std.",
+     "label": "Grifffest (20 °C)"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED SEALING AND CONSOLIDATING PRIMER",
+    "format": "5 L jerrycan",
+    "stat": {
+     "value": "1 h",
+     "label": "Touch dry (20 °C)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "IMPRIMACIÓN SELLADORA Y CONSOLIDANTE AL AGUA",
+    "format": "Garrafa de 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Secado al tacto (20 °C)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN TIIVISTÄVÄ JA LUJITTAVA POHJUSTE",
+    "format": "5 L:n kanisteri",
+    "stat": {
+     "value": "1 h",
+     "label": "Kosketuskuiva (20 °C)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "PRIMAIRE D'ACCROCHAGE ET CONSOLIDANT À L'EAU",
+    "format": "Bidon de 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Sec au toucher (20 °C)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "PRIMER SIGILLANTE E CONSOLIDANTE ALL'ACQUA",
+    "format": "Tanica da 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Asciutto al tatto (20 °C)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "FORSEGLENDE OG KONSOLIDERENDE PRIMER PÅ VANNBASIS",
+    "format": "Kanne på 5 L",
+    "stat": {
+     "value": "1 t",
+     "label": "Berøringstørr (20 °C)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "GRUNT USZCZELNIAJĄCO-WZMACNIAJĄCY NA BAZIE WODY",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Suchość na dotyk (20 °C)"
+    },
+    "norms": []
+   }
+  },
+  "zement-quartz-sand": {
+   "de": {
+    "subtitle": "REINER, TROCKENER QUARZSAND, KÖRNUNG 0,6 MM",
+    "format": "Körnung 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "SiO₂-Gehalt"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "PURE, DRY QUARTZ SAND, 0.6 MM GRAIN SIZE",
+    "format": "Grain size 0.6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Silica content (SiO₂)"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "ARENA DE CUARZO PURA Y SECA, GRANULOMETRÍA 0,6 MM",
+    "format": "Granulometría 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Contenido en sílice (SiO₂)"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "PUHDAS, KUIVA KVARTSIHIEKKA, RAEKOKO 0,6 MM",
+    "format": "Raekoko 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Piidioksidipitoisuus (SiO₂)"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "SABLE DE QUARTZ PUR ET SEC, GRANULOMÉTRIE 0,6 MM",
+    "format": "Granulométrie 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Teneur en silice (SiO₂)"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "SABBIA DI QUARZO PURA E SECCA, GRANULOMETRIA 0,6 MM",
+    "format": "Granulometria 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Contenuto di silice (SiO₂)"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "REN, TØRR KVARTSSAND, KORNSTØRRELSE 0,6 MM",
+    "format": "Kornstørrelse 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Silikainnhold (SiO₂)"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "CZYSTY, SUCHY PIASEK KWARCOWY, UZIARNIENIE 0,6 MM",
+    "format": "Uziarnienie 0,6 mm",
+    "stat": {
+     "value": "> 99 %",
+     "label": "Zawartość krzemionki (SiO₂)"
+    },
+    "norms": []
+   }
+  },
+  "zement-repair-10": {
+   "de": {
+    "subtitle": "DRUCKFESTER REPARATUR- UND AUSGLEICHSMÖRTEL",
+    "format": "Papiersack 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Druckfestigkeit nach 28 Tagen"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "COMPRESSIVE-STRENGTH REPAIR AND LEVELLING MORTAR",
+    "format": "25 kg paper bag",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Compressive strength, 28 d"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN RESISTENTE A COMPRESIÓN",
+    "format": "Saco de papel de 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Compresión a 28 días"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "PURISTUSLUJUUDELTAAN LUJA KORJAUS- JA TASAUSLAASTI",
+    "format": "25 kg:n paperisäkki",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Puristuslujuus 28 vrk"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ RÉSISTANT À LA COMPRESSION",
+    "format": "Sac en papier de 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Compression à 28 jours"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO RESISTENTE A COMPRESSIONE",
+    "format": "Sacco di carta da 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Compressione a 28 giorni"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL, TRYKKFAST",
+    "format": "Papirsekk på 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Trykkfasthet etter 28 døgn"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA ODPORNA NA ŚCISKANIE",
+    "format": "Worek papierowy 25 kg",
+    "stat": {
+     "value": "> 40 MPa",
+     "label": "Ściskanie po 28 dniach"
+    },
+    "norms": []
+   }
+  },
+  "zement-repair-20": {
+   "de": {
+    "subtitle": "REPARATUR- UND AUSGLEICHSMÖRTEL FÜR GROSSE SCHICHTDICKEN",
+    "format": "Papiersack 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Druckfestigkeit nach 28 Tagen"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "HIGH-BUILD REPAIR AND LEVELLING MORTAR",
+    "format": "25 kg paper bag",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Compressive strength, 28 d"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN DE GRAN ESPESOR",
+    "format": "Saco de papel de 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Compresión a 28 días"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "PAKSUKERROKSINEN KORJAUS- JA TASAUSLAASTI",
+    "format": "25 kg:n paperisäkki",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Puristuslujuus 28 vrk"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ DE FORTE ÉPAISSEUR",
+    "format": "Sac en papier de 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Compression à 28 jours"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO DI GRANDE SPESSORE",
+    "format": "Sacco di carta da 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Compressione a 28 giorni"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL FOR STORE TYKKELSER",
+    "format": "Papirsekk på 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Trykkfasthet etter 28 døgn"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA DO GRUBYCH WARSTW",
+    "format": "Worek papierowy 25 kg",
+    "stat": {
+     "value": "> 50 MPa",
+     "label": "Ściskanie po 28 dniach"
+    },
+    "norms": []
+   }
+  },
+  "zement-repair-40": {
+   "de": {
+    "subtitle": "REPARATUR- UND AUSGLEICHSMÖRTEL FÜR SEHR GROSSE SCHICHTDICKEN",
+    "format": "Papiersack 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Druckfestigkeit nach 28 Tagen"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "VERY HIGH-BUILD REPAIR AND LEVELLING MORTAR",
+    "format": "25 kg paper bag",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Compressive strength, 28 d"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "MORTERO DE REPARACIÓN Y NIVELACIÓN DE MUY GRAN ESPESOR",
+    "format": "Saco de papel de 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Compresión a 28 días"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "ERITTÄIN PAKSUKERROKSINEN KORJAUS- JA TASAUSLAASTI",
+    "format": "25 kg:n paperisäkki",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Puristuslujuus 28 vrk"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "MORTIER DE RÉPARATION ET DE PLANÉITÉ DE TRÈS FORTE ÉPAISSEUR",
+    "format": "Sac en papier de 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Compression à 28 jours"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "MALTA DA RIPRISTINO E LIVELLAMENTO DI GRANDISSIMO SPESSORE",
+    "format": "Sacco di carta da 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Compressione a 28 giorni"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "REPARASJONS- OG AVRETTINGSMØRTEL FOR SVÆRT STORE TYKKELSER",
+    "format": "Papirsekk på 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Trykkfasthet etter 28 døgn"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "ZAPRAWA NAPRAWCZA I WYRÓWNUJĄCA DO BARDZO GRUBYCH WARSTW",
+    "format": "Worek papierowy 25 kg",
+    "stat": {
+     "value": "> 60 MPa",
+     "label": "Ściskanie po 28 dniach"
+    },
+    "norms": []
+   }
+  },
+  "zement-seal-pore": {
+   "de": {
+    "subtitle": "WASSERBASIERTER ALIPHATISCHER ACRYL-VERSIEGLER FÜR BÖDEN",
+    "format": "Kanister 5 L",
+    "stat": {
+     "value": "1 Std.",
+     "label": "Grifffest"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "WATER-BASED ALIPHATIC ACRYLIC SEALER FOR FLOORS",
+    "format": "5 L jerrycan",
+    "stat": {
+     "value": "1 h",
+     "label": "Touch-dry"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "SELLADOR ACRÍLICO ALIFÁTICO AL AGUA PARA PAVIMENTOS",
+    "format": "Garrafa de 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Secado al tacto"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "VESIPOHJAINEN ALIFAATTINEN AKRYYLITIIVISTYSAINE LATTIOILLE",
+    "format": "5 L:n kanisteri",
+    "stat": {
+     "value": "1 h",
+     "label": "Kosketuskuiva"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "SCELLANT ACRYLIQUE ALIPHATIQUE À L'EAU POUR SOLS",
+    "format": "Bidon de 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Sec au toucher"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "SIGILLANTE ACRILICO ALIFATICO ALL'ACQUA PER PAVIMENTI",
+    "format": "Tanica da 5 L",
+    "stat": {
+     "value": "1 h",
+     "label": "Secco al tatto"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "VANNBASERT ALIFATISK AKRYLFORSEGLER FOR GULV",
+    "format": "Dunk 5 L",
+    "stat": {
+     "value": "1 t",
+     "label": "Berøringstørr"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "WODNY ALIFATYCZNY USZCZELNIACZ AKRYLOWY DO POSADZEK",
+    "format": "Kanister 5 l",
+    "stat": {
+     "value": "1 h",
+     "label": "Sucha na dotyk"
+    },
+    "norms": []
+   }
+  },
+  "zement-seal": {
+   "de": {
+    "subtitle": "2K-EPOXIDGRUNDIERUNG, 100 % FESTSTOFFE, DAMPFSPERRE",
+    "format": "Metallgebinde (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Feststoffe nach Gewicht, lösemittelfrei"
+    },
+    "norms": []
+   },
+   "en": {
+    "subtitle": "TWO-COMPONENT EPOXY PRIMER, 100 % SOLIDS, VAPOUR BARRIER",
+    "format": "Metal containers (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Solids by weight, solvent-free"
+    },
+    "norms": []
+   },
+   "es": {
+    "subtitle": "IMPRIMACIÓN EPOXI BICOMPONENTE 100 % SÓLIDOS, BARRERA DE VAPOR",
+    "format": "Envases metálicos (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Sólidos en peso, sin disolventes"
+    },
+    "norms": []
+   },
+   "fi": {
+    "subtitle": "2K-EPOKSIPOHJUSTE, 100 % KUIVA-AINE, HÖYRYNSULKU",
+    "format": "Metallipakkaukset (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Kuiva-ainepitoisuus painosta, liuottimeton"
+    },
+    "norms": []
+   },
+   "fr": {
+    "subtitle": "PRIMAIRE ÉPOXY BICOMPOSANT 100 % EXTRAIT SEC, PARE-VAPEUR",
+    "format": "Récipients métalliques (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Extrait sec en poids, sans solvants"
+    },
+    "norms": []
+   },
+   "it": {
+    "subtitle": "PRIMER EPOSSIDICO BICOMPONENTE 100 % SOLIDI, BARRIERA VAPORE",
+    "format": "Confezioni metalliche (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Solidi in peso, senza solventi"
+    },
+    "norms": []
+   },
+   "no": {
+    "subtitle": "TOKOMPONENT EPOKSYGRUNNING, 100 % TØRRSTOFF, DAMPSPERRE",
+    "format": "Metallbeholdere (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Tørrstoff i vekt, uten løsemidler"
+    },
+    "norms": []
+   },
+   "pl": {
+    "subtitle": "GRUNT EPOKSYDOWY 2K, 100 % CZĘŚCI STAŁYCH, PAROIZOLACJA",
+    "format": "Metalowe opakowania (A+B)",
+    "stat": {
+     "value": "100 %",
+     "label": "Części stałych wagowo, bez rozpuszczalników"
+    },
+    "norms": []
+   }
+  }
+ },
+ "calculator": {
+  "basis-0-4-aqua-mix": {
+   "mode": "coats",
+   "rate": 0.9,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Basis: 0,9 kg por capa y m² (según soporte) · Cubo de 20 kg"
+  },
+  "basis-grob-0-6-aqua-mix": {
+   "mode": "coats",
+   "rate": 1.2,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Basis Grob: 1,2 kg por capa y m² (según soporte) · Cubo de 20 kg"
+  },
+  "mittel-0-2-aqua-mix": {
+   "mode": "coats",
+   "rate": 0.5,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Mittel: 0,3 a 0,5 kg por capa y m² (según soporte) · Cubo de 20 kg"
+  },
+  "fein-0-02-0-06-aqua-mix": {
+   "mode": "coats",
+   "rate": 0.3,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 15,
+    "unit": "kg"
+   },
+   "source": "Fein: 0,3 kg por capa y m² (según soporte) · Cubo de 15 kg"
+  },
+  "basis-direkt-1k": {
+   "mode": "coats",
+   "rate": 0.9,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Aplicar 2 capas · Consumo aproximado: 0,9 kg por capa y m² · Cubo de 20 kg"
+  },
+  "mittel-direkt-1k": {
+   "mode": "coats",
+   "rate": 0.5,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Aplicar 2 capas · Consumo aproximado: 0,5 kg por capa y m² · Cubo de 20 kg"
+  },
+  "fein-direkt-1k": {
+   "mode": "coats",
+   "rate": 0.3,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 15,
+    "unit": "kg"
+   },
+   "source": "Aplicar 2 capas finas · Consumo aproximado: 0,3 kg por capa y m² · Cubo de 15 kg"
+  },
+  "basis-direkt-2k": {
+   "mode": "area",
+   "rate": 1.5,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Consumo aproximado: 1 a 1,5 kg/m² (1 o 2 capas) · Cubo de 19 kg + botella de 1 kg"
+  },
+  "mittel-direkt-2k": {
+   "mode": "area",
+   "rate": 0.7,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Consumo aproximado: 700 g/m² · Cubo de 19 kg + botella de 1 kg"
+  },
+  "fein-direkt-2k": {
+   "mode": "area",
+   "rate": 0.5,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 15,
+    "unit": "kg"
+   },
+   "source": "Consumo aproximado: 400 a 500 g/m² · Cubo de 14 kg + botella de 1 kg"
+  },
+  "fein-direkt-level-2k": {
+   "mode": "thickness",
+   "rate": 1.5,
+   "rateUnit": "kg",
+   "thickness": 1,
+   "pack": {
+    "size": 15,
+    "unit": "kg"
+   },
+   "source": "Consumo: 1,5 kg/m² por mm de espesor · Espesor por capa: 1 a 3 mm · Cubo de 14 kg + botella de 1 kg"
+  },
+  "mittel-direkt-level-2k": {
+   "mode": "thickness",
+   "rate": 1.5,
+   "rateUnit": "kg",
+   "thickness": 2,
+   "pack": {
+    "size": 20,
+    "unit": "kg"
+   },
+   "source": "Consumo: 1,5 kg/m² por mm de espesor · Espesor por capa: 2 a 5 mm · Cubo de 19 kg + botella de 1 kg"
+  },
+  "fein-0-02-0-06-kork": {
+   "mode": "coats",
+   "rate": 0.9,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 12,
+    "unit": "kg"
+   },
+   "source": "0,9 kg/m² por capa; 1,8 kg/m² en 2 capas · Cubo de 12 kg"
+  },
+  "mittel-0-2-kork": {
+   "mode": "coats",
+   "rate": 1.4,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 12,
+    "unit": "kg"
+   },
+   "source": "1,4 kg/m² por capa; 2,8 kg/m² en 2 capas · Cubo de 12 kg"
+  },
+  "grob-3-4-mm-kork": {
+   "mode": "coats",
+   "rate": 3.0,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 12,
+    "unit": "kg"
+   },
+   "source": "3,0 kg/m² por capa; 6,0 kg/m² en 2 capas · Cubo de 12 kg"
+  },
+  "zement-prime": {
+   "mode": "coats",
+   "rate": 0.05,
+   "rateUnit": "kg",
+   "coats": 1,
+   "density": 1.02,
+   "pack": {
+    "size": 5,
+    "unit": "L"
+   },
+   "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L"
+  },
+  "zement-seal-pore": {
+   "mode": "coats",
+   "rate": 0.0834,
+   "rateUnit": "kg",
+   "coats": 1,
+   "density": 1.03,
+   "pack": {
+    "size": 5,
+    "unit": "L"
+   },
+   "source": "Rendimiento: 12-15 m²/kg · Peso específico: 1,03 g/cm³ · Garrafa de 5 L"
+  },
+  "protect-aqua-2k": {
+   "mode": "coats",
+   "rate": 0.125,
+   "rateUnit": "kg",
+   "coats": 2,
+   "pack": {
+    "size": 4,
+    "unit": "kg"
+   },
+   "source": "Rendimiento: 8-12 m²/kg · Si se aplica una segunda capa… · Componente A: 3 kg + B: 1 kg"
+  },
+  "zement-seal": {
+   "mode": "coats",
+   "rate": 0.4,
+   "rateUnit": "kg",
+   "coats": 1,
+   "pack": {
+    "size": 4,
+    "unit": "kg"
+   },
+   "source": "Consumo recomendado: 0,4 kg/m² por mano · Envases A+B: 2,5 + 1,5 kg"
+  },
+  "protect-sanitary-2k": {
+   "mode": "area",
+   "rate": 0.8,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 5,
+    "unit": "kg"
+   },
+   "source": "Aplicar 600-800 g/m² entre las dos capas · Componente A: 4 kg + B: 1 kg"
+  },
+  "protect-repel": {
+   "mode": "coats",
+   "rate": 0.2,
+   "rateUnit": "kg",
+   "coats": 1,
+   "pack": {
+    "size": 5,
+    "unit": "kg"
+   },
+   "source": "1 kg (listo al uso) cubre 5 a 25 m² por capa · Por lo general, una capa basta · Garrafa de 5 kg"
+  },
+  "zement-metallic": {
+   "mode": "coats",
+   "rate": 0.05,
+   "rateUnit": "L",
+   "coats": 1,
+   "pack": {
+    "size": 5,
+    "unit": "L"
+   },
+   "source": "Rendimiento: 50 ml/m² de producto (según soporte) · Envases de 5 L"
+  },
+  "metallic-lasur": {
+   "mode": "coats",
+   "rate": 0.05,
+   "rateUnit": "L",
+   "coats": 1,
+   "pack": {
+    "size": 5,
+    "unit": "L"
+   },
+   "source": "Rendimiento: 50 ml/m² de producto (según soporte) · Envases de 5 L"
+  },
+  "zement-repair-10": {
+   "mode": "thickness",
+   "rate": 1.4,
+   "rateUnit": "kg",
+   "thickness": 3,
+   "pack": {
+    "size": 25,
+    "unit": "kg"
+   },
+   "source": "Rendimiento: 1,4 kg/mm/m² · Espesor final de 3-4 mm · Saco de 25 kg"
+  },
+  "zement-repair-20": {
+   "mode": "thickness",
+   "rate": 1.4,
+   "rateUnit": "kg",
+   "thickness": 3,
+   "pack": {
+    "size": 25,
+    "unit": "kg"
+   },
+   "source": "Rendimiento: 1,4 kg/mm/m² · Espesor final mínimo de 3-4 mm · Saco de 25 kg"
+  },
+  "zement-repair-40": {
+   "mode": "thickness",
+   "rate": 1.7,
+   "rateUnit": "kg",
+   "thickness": 3,
+   "pack": {
+    "size": 25,
+    "unit": "kg"
+   },
+   "source": "Rendimiento: 1,7 kg/mm/m² · Espesor final mínimo de 3-4 mm · Saco de 25 kg"
+  },
+  "zement-dune": {
+   "mode": "area",
+   "rate": 7.5,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 25,
+    "unit": "kg"
+   },
+   "source": "Rendimiento: aprox. 7,5 kg/m² de Zement Dune · Saco de 25 kg"
+  },
+  "zement-dune-fix": {
+   "mode": "area",
+   "rate": 0.525,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 5,
+    "unit": "kg"
+   },
+   "source": "Resina: un 7 % sobre el peso del árido (7,5 kg/m² de Zement Dune) · Envase de 5 kg"
+  },
+  "zement-quartz-sand": {
+   "mode": "area",
+   "rate": 0.25,
+   "rateUnit": "kg",
+   "pack": {
+    "size": 25,
+    "unit": "kg"
+   },
+   "source": "Ficha de Zement Dune Fix: Zement Quartz Sand, 1 saco por 100 m² · Saco de 25 kg"
+  },
+  "malla-80g": {
+   "mode": "area",
+   "rate": 1,
+   "rateUnit": "m²",
+   "pack": {
+    "size": 50,
+    "unit": "m²"
+   },
+   "source": "Rollo de 50 m × 1 m de ancho"
+  },
+  "malla-160g": {
+   "mode": "area",
+   "rate": 1,
+   "rateUnit": "m²",
+   "pack": {
+    "size": 50,
+    "unit": "m²"
+   },
+   "source": "Rollo de 50 m × 1 m de ancho"
+  }
+ },
+ "systems": [
+  {
+   "key": "microcemento",
+   "source": "Web de marca, apps/web/src/content/systems.json (capas Z.01-Z.04)",
+   "name": {
+    "es": "Sistema de microcemento",
+    "en": "Microcement system",
+    "de": "Mikrozement-System",
+    "fr": "Système de microciment",
+    "it": "Sistema di microcemento",
+    "pl": "System mikrocementu",
+    "no": "Mikrosementsystem",
+    "fi": "Mikrosementtijärjestelmä"
+   },
+   "steps": [
+    {
+     "code": "Z.01",
+     "product": "zement-prime"
+    },
+    {
+     "code": "Z.02",
+     "product": "basis-0-4-aqua-mix"
+    },
+    {
+     "code": "Z.03",
+     "product": "fein-0-02-0-06-aqua-mix"
+    },
+    {
+     "code": "Z.04",
+     "product": "protect-aqua-2k"
+    }
+   ]
+  },
+  {
+   "key": "piscina-arena",
+   "source": "Ficha de Zement Dune Fix, «Sistema de aplicación» (soporte en buen estado: pasos 2 y 3)",
+   "name": {
+    "es": "Revestimiento de arena para piscinas",
+    "en": "Sand coating for swimming pools",
+    "de": "Sandbeschichtung für Schwimmbecken",
+    "fr": "Revêtement en sable pour piscines",
+    "it": "Rivestimento in sabbia per piscine",
+    "pl": "Powłoka piaskowa do basenów",
+    "no": "Sandbelegg for svømmebasseng",
+    "fi": "Hiekkapinnoite uima-altaisiin"
+   },
+   "steps": [
+    {
+     "code": "1",
+     "product": "zement-seal"
+    },
+    {
+     "code": "1",
+     "product": "zement-quartz-sand"
+    },
+    {
+     "code": "2",
+     "product": "zement-dune"
+    },
+    {
+     "code": "2",
+     "product": "zement-dune-fix"
+    }
+   ]
+  },
+  {
+   "key": "efecto-metalico",
+   "source": "Ficha de Protect Solvent Metallic 2K: acabado protector de los acabados con efecto metálico (Zement Metallic)",
+   "name": {
+    "es": "Efecto metálico",
+    "en": "Metallic effect",
+    "de": "Metalleffekt",
+    "fr": "Effet métallique",
+    "it": "Effetto metallico",
+    "pl": "Efekt metaliczny",
+    "no": "Metallisk effekt",
+    "fi": "Metallitehoste"
+   },
+   "steps": [
+    {
+     "code": "1",
+     "product": "zement-metallic"
+    },
+    {
+     "code": "2",
+     "product": "protect-solvent-metallic-2k"
+    }
+   ]
+  }
+ ],
+ "related": {
+  "zement-repair-10": [
+   "malla-80g",
+   "zement-prime",
+   "zement-prime-tack"
+  ],
+  "zement-repair-20": [
+   "malla-80g",
+   "zement-prime",
+   "zement-prime-tack"
+  ],
+  "zement-repair-40": [
+   "malla-80g",
+   "zement-prime",
+   "zement-prime-tack",
+   "zement-latex-flex"
+  ],
+  "zement-flex-sanitary": [
+   "malla-80g"
+  ],
+  "protect-solvent-2k": [
+   "protect-diluent"
+  ],
+  "protect-solvent-grip-2k": [
+   "protect-diluent"
+  ],
+  "protect-solvent-metallic-2k": [
+   "protect-diluent",
+   "zement-metallic"
+  ],
+  "zement-metallic": [
+   "protect-solvent-metallic-2k"
+  ],
+  "metallic-lasur": [
+   "protect-solvent-metallic-2k"
+  ],
+  "zement-dune": [
+   "zement-dune-fix",
+   "zement-seal",
+   "zement-quartz-sand"
+  ],
+  "zement-dune-fix": [
+   "zement-dune",
+   "zement-seal",
+   "zement-quartz-sand",
+   "zement-repair-40"
+  ],
+  "zement-latex-flex": [
+   "zement-latex"
+  ],
+  "zement-prime-grip": [
+   "zement-prime"
+  ],
+  "zement-prime-tack": [
+   "zement-prime"
+  ],
+  "zement-seal-pore": [
+   "zement-seal"
+  ],
+  "basis-0-4-aqua-mix": [
+   "malla-80g",
+   "malla-160g",
+   "zement-color-lab"
+  ],
+  "basis-grob-0-6-aqua-mix": [
+   "malla-80g",
+   "malla-160g",
+   "zement-color-lab"
+  ],
+  "mittel-0-2-aqua-mix": [
+   "zement-color-lab"
+  ],
+  "fein-0-02-0-06-aqua-mix": [
+   "zement-color-lab"
+  ]
+ },
+ "projects": [
+  {
+   "key": "interior",
+   "target": {
+    "category": "microcemento"
+   },
+   "image": "basis-0-4-aqua-mix",
+   "label": {
+    "es": "Suelos y paredes de interior",
+    "en": "Interior floors and walls",
+    "de": "Böden und Wände innen",
+    "fr": "Sols et murs intérieurs",
+    "it": "Pavimenti e pareti interni",
+    "pl": "Podłogi i ściany wewnętrzne",
+    "no": "Gulv og vegger innendørs",
+    "fi": "Sisälattiat ja -seinät"
+   }
+  },
+  {
+   "key": "aislamiento",
+   "target": {
+    "category": "corcho"
+   },
+   "image": "grob-3-4-mm-kork",
+   "label": {
+    "es": "Aislamiento térmico y acústico",
+    "en": "Thermal and acoustic insulation",
+    "de": "Wärme- und Schalldämmung",
+    "fr": "Isolation thermique et acoustique",
+    "it": "Isolamento termico e acustico",
+    "pl": "Izolacja termiczna i akustyczna",
+    "no": "Varme- og lydisolering",
+    "fi": "Lämpö- ja ääneneristys"
+   }
+  },
+  {
+   "key": "piscina",
+   "target": {
+    "category": "piscinas"
+   },
+   "image": "zement-dune",
+   "label": {
+    "es": "Piscinas",
+    "en": "Swimming pools",
+    "de": "Schwimmbecken",
+    "fr": "Piscines",
+    "it": "Piscine",
+    "pl": "Baseny",
+    "no": "Svømmebasseng",
+    "fi": "Uima-altaat"
+   }
+  },
+  {
+   "key": "metalico",
+   "target": {
+    "category": "metalicos"
+   },
+   "image": "zement-metallic",
+   "label": {
+    "es": "Acabados metálicos",
+    "en": "Metallic finishes",
+    "de": "Metallische Oberflächen",
+    "fr": "Finitions métalliques",
+    "it": "Finiture metalliche",
+    "pl": "Wykończenia metaliczne",
+    "no": "Metalliske overflater",
+    "fi": "Metallipinnat"
+   }
+  },
+  {
+   "key": "reparar",
+   "target": {
+    "category": "morteros"
+   },
+   "image": null,
+   "label": {
+    "es": "Reparar o nivelar el soporte",
+    "en": "Repair or level the substrate",
+    "de": "Untergrund ausbessern oder nivellieren",
+    "fr": "Réparer ou niveler le support",
+    "it": "Riparare o livellare il supporto",
+    "pl": "Naprawa lub wyrównanie podłoża",
+    "no": "Reparere eller avrette underlaget",
+    "fi": "Alustan korjaus tai tasoitus"
+   }
+  },
+  {
+   "key": "proteger",
+   "target": {
+    "category": "proteccion"
+   },
+   "image": null,
+   "label": {
+    "es": "Proteger y sellar",
+    "en": "Protect and seal",
+    "de": "Schützen und versiegeln",
+    "fr": "Protéger et sceller",
+    "it": "Proteggere e sigillare",
+    "pl": "Ochrona i uszczelnianie",
+    "no": "Beskytte og forsegle",
+    "fi": "Suojaus ja tiivistys"
+   }
+  }
+ ]
+}

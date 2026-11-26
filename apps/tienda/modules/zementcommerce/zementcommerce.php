@@ -1,0 +1,347 @@
+<?php
+
+/**
+ * Herramientas de venta de Zement en la tienda (fase 1 de docs/AUDITORIA-COMERCIAL.md):
+ *
+ * - Miniaturas con el tipo de producto, el formato y el dato clave de la ficha (P7).
+ * - Sellos de norma (EN 13813, EN 13501-1) junto al resumen del producto (P8).
+ * - Calculadora de cantidades con los consumos de la ficha (P2).
+ * - «Complete su sistema»: los productos del sistema en orden de aplicación (P1).
+ * - Asesor «¿Qué va a hacer?» en la portada (P10) y enlace «Profesionales» en la barra (P14).
+ * - Enlaces estables /z/p/<clave> y /z/c/<familia> para la web de marca (P19).
+ *
+ * Datos: data/commerce.json, generado con apps/tienda/catalog/scripts/build_commerce.py desde
+ * las fichas técnicas y apps/tienda/catalog/commerce.json. Los productos se reconocen por su
+ * URL amigable en español (= clave del catálogo), que no cambia entre instalaciones.
+ */
+
+declare(strict_types=1);
+
+if (!defined('_PS_VERSION_')) {
+    exit;
+}
+
+require_once __DIR__ . '/ZementCommerceStrings.php';
+
+class ZementCommerce extends Module
+{
+    public const HOOKS = [
+        'displayProductListReviews',
+        'displayZementProductBadges',
+        'displayZementProductTools',
+        'displayZementHomeProjects',
+        'displayNav1',
+        'actionFrontControllerSetMedia',
+        'moduleRoutes',
+    ];
+
+    /** @var array<string, mixed>|null */
+    private static ?array $data = null;
+
+    /** @var array<int, string>|null id_product => clave */
+    private static ?array $productKeys = null;
+
+    public function __construct()
+    {
+        $this->name = 'zementcommerce';
+        $this->tab = 'front_office_features';
+        $this->version = '0.1.0';
+        $this->author = 'Zement';
+        $this->need_instance = 0;
+        $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
+        $this->bootstrap = true;
+
+        parent::__construct();
+
+        $this->displayName = 'Zement · Venta';
+        $this->description = 'Calculadora, sistema completo, datos de ficha en los listados, asesor de proyecto y enlaces estables.';
+    }
+
+    public function install(): bool
+    {
+        return parent::install() && $this->registerHook(self::HOOKS);
+    }
+
+    /** Enlaces estables: /z/p/<clave-de-producto> y /z/c/<clave-de-familia>. */
+    public function hookModuleRoutes(): array
+    {
+        return [
+            'module-zementcommerce-go' => [
+                'controller' => 'go',
+                'rule' => 'z/{kind}/{key}',
+                'keywords' => [
+                    'kind' => ['regexp' => '[pc]', 'param' => 'kind'],
+                    'key' => ['regexp' => '[a-z0-9-]+', 'param' => 'key'],
+                ],
+                'params' => ['fc' => 'module', 'module' => $this->name],
+            ],
+        ];
+    }
+
+    public function hookActionFrontControllerSetMedia(): void
+    {
+        if ($this->context->controller->php_self === 'product') {
+            $this->context->controller->registerJavascript(
+                'zementcommerce-calculator',
+                'modules/' . $this->name . '/views/js/calculator.js',
+                ['position' => 'bottom', 'priority' => 200]
+            );
+        }
+    }
+
+    /** Miniatura: tipo de producto, formato y dato clave (sale en el hueco de las reseñas). */
+    public function hookDisplayProductListReviews(array $params): string
+    {
+        $info = $this->productInfo($this->productId($params));
+
+        if ($info === null) {
+            return '';
+        }
+
+        $this->context->smarty->assign(['zementInfo' => $info]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/miniature.tpl');
+    }
+
+    public function hookDisplayZementProductBadges(array $params): string
+    {
+        $info = $this->productInfo($this->productId($params));
+
+        if ($info === null || !$info['norms']) {
+            return '';
+        }
+
+        $this->context->smarty->assign(['zementNorms' => $info['norms']]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/badges.tpl');
+    }
+
+    /** Ficha: calculadora del producto y «Complete su sistema». */
+    public function hookDisplayZementProductTools(array $params): string
+    {
+        $productId = $this->productId($params);
+        $key = $this->keyOf($productId);
+
+        if ($key === null) {
+            return '';
+        }
+
+        $data = $this->data();
+        $calculator = $data['calculator'][$key] ?? null;
+        $system = $this->systemFor($key);
+
+        if ($calculator === null && $system === null) {
+            return '';
+        }
+
+        $this->context->smarty->assign([
+            'zementStrings' => ZementCommerceStrings::forLanguage($this->context->language->iso_code),
+            'zementCalculator' => $calculator,
+            'zementSystem' => $system,
+            'zementProductKey' => $key,
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/tools.tpl');
+    }
+
+    /** Portada: asesor «¿Qué va a hacer?», un acceso por proyecto a su familia. */
+    public function hookDisplayZementHomeProjects(): string
+    {
+        $iso = $this->context->language->iso_code;
+        $link = $this->context->link;
+        $projects = [];
+
+        foreach ($this->data()['projects'] as $project) {
+            $categoryId = $this->categoryId($project['target']['category'] ?? '');
+            if ($categoryId === null) {
+                continue;
+            }
+            $projects[] = [
+                'label' => $project['label'][$iso] ?? $project['label']['en'],
+                'url' => $link->getCategoryLink($categoryId),
+                'image' => $project['image'] ? $this->coverUrl($this->idOf($project['image']), null) : null,
+            ];
+        }
+
+        $this->context->smarty->assign([
+            'zementProjects' => $projects,
+            'zementStrings' => ZementCommerceStrings::forLanguage($iso),
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/projects.tpl');
+    }
+
+    /** Barra superior: «Profesionales» → sección de profesionales de la web en el idioma. */
+    public function hookDisplayNav1(): string
+    {
+        $url = (string) Configuration::get('ZEMENT_PROFESSIONALS_URL', (int) $this->context->language->id);
+
+        if ($url === '') {
+            return '';
+        }
+
+        $this->context->smarty->assign([
+            'zementProfessionalsUrl' => $url,
+            'zementStrings' => ZementCommerceStrings::forLanguage($this->context->language->iso_code),
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/nav.tpl');
+    }
+
+    /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */
+    public function stableUrl(string $kind, string $key): ?string
+    {
+        if ($kind === 'p') {
+            $id = $this->idOf($key);
+
+            return $id ? $this->context->link->getProductLink($id) : null;
+        }
+
+        $id = $this->categoryId($key);
+
+        return $id ? $this->context->link->getCategoryLink($id) : null;
+    }
+
+    /** @return array<string, mixed> */
+    private function data(): array
+    {
+        if (self::$data === null) {
+            $json = (string) file_get_contents(__DIR__ . '/data/commerce.json');
+            self::$data = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
+        }
+
+        return self::$data;
+    }
+
+    private function productId(array $params): int
+    {
+        $product = $params['product'] ?? null;
+
+        if (is_object($product) && isset($product->id)) {
+            return (int) $product->id;
+        }
+
+        return (int) ($product['id_product'] ?? $product['id'] ?? 0);
+    }
+
+    /** @return array<int, string> */
+    private function productKeys(): array
+    {
+        if (self::$productKeys === null) {
+            $rows = Db::getInstance()->executeS(
+                'SELECT id_product, link_rewrite FROM `' . _DB_PREFIX_ . 'product_lang`
+                WHERE id_lang = ' . (int) Language::getIdByIso('es') . ' AND id_shop = ' . (int) $this->context->shop->id
+            ) ?: [];
+            self::$productKeys = array_column($rows, 'link_rewrite', 'id_product');
+        }
+
+        return self::$productKeys;
+    }
+
+    private function keyOf(int $productId): ?string
+    {
+        $key = $this->productKeys()[$productId] ?? null;
+
+        return $key !== null && isset($this->data()['products'][$key]) ? $key : null;
+    }
+
+    private function idOf(string $key): ?int
+    {
+        $id = array_search($key, $this->productKeys(), true);
+
+        return $id === false ? null : (int) $id;
+    }
+
+    private function categoryId(string $key): ?int
+    {
+        $name = $this->data()['categories'][$key] ?? null;
+
+        if ($name === null) {
+            return null;
+        }
+
+        $row = Category::searchByNameAndParentCategoryId(
+            (int) Language::getIdByIso('es'),
+            $name,
+            (int) Configuration::get('PS_HOME_CATEGORY')
+        );
+
+        return $row ? (int) $row['id_category'] : null;
+    }
+
+    /** @return array<string, mixed>|null */
+    private function productInfo(int $productId): ?array
+    {
+        $key = $this->keyOf($productId);
+
+        if ($key === null) {
+            return null;
+        }
+
+        $languages = $this->data()['products'][$key];
+
+        return $languages[$this->context->language->iso_code] ?? $languages['en'];
+    }
+
+    /** Sistema al que pertenece el producto, con nombre, enlace y formato de cada paso. */
+    private function systemFor(string $key): ?array
+    {
+        $iso = $this->context->language->iso_code;
+        $idLang = (int) $this->context->language->id;
+        $data = $this->data();
+
+        foreach ($data['systems'] as $system) {
+            if (!in_array($key, array_column($system['steps'], 'product'), true)) {
+                continue;
+            }
+
+            $steps = [];
+            foreach ($system['steps'] as $step) {
+                $id = $this->idOf($step['product']);
+                if ($id === null) {
+                    continue;
+                }
+                $info = $data['products'][$step['product']][$iso] ?? $data['products'][$step['product']]['en'];
+                $steps[] = [
+                    'code' => $step['code'],
+                    'key' => $step['product'],
+                    'name' => Product::getProductName($id, null, $idLang),
+                    'subtitle' => $info['subtitle'],
+                    'format' => $info['format'],
+                    'url' => $this->context->link->getProductLink($id),
+                    'image' => $this->coverUrl($id),
+                    'calculator' => $data['calculator'][$step['product']] ?? null,
+                    'current' => $step['product'] === $key,
+                ];
+            }
+
+            return [
+                'name' => $system['name'][$iso] ?? $system['name']['en'],
+                'steps' => $steps,
+            ];
+        }
+
+        return null;
+    }
+
+    /**
+     * Foto de portada del producto. Sin tipo ($type = null), la original: los tipos de imagen
+     * rellenan con blanco las fotos que no son cuadradas y aquí se recortan con object-fit.
+     */
+    private function coverUrl(?int $productId, ?string $type = 'small_default'): ?string
+    {
+        if (!$productId) {
+            return null;
+        }
+
+        $cover = Product::getCover($productId);
+
+        if (!$cover) {
+            return null;
+        }
+
+        $rewrite = $this->productKeys()[$productId] ?? '';
+
+        return $this->context->link->getImageLink($rewrite, $productId . '-' . (int) $cover['id_image'], $type);
+    }
+}

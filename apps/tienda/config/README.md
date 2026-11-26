@@ -78,3 +78,27 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - Contenido: bloque principal compacto, accesos a las familias y una fila de 4 productos por familia, con las miniaturas del tema.
   - Caché: por idioma. `pnpm tienda:home` registra los ganchos que la vacían.
 - TODO: correo real del contacto «Servicio al cliente» (sigue el de pruebas).
+
+## Herramientas de venta (fase 1 de la auditoría comercial)
+
+- Módulo propio [`zementcommerce`](../modules/zementcommerce/). Se instala con `pnpm tienda:commerce`, que primero genera `modules/zementcommerce/data/commerce.json` con `catalog/scripts/build_commerce.py`. Incluye:
+  - **Miniaturas:** tipo de producto, formato y dato clave de la ficha.
+  - **Ficha de producto:**
+    - sellos EN 13813 y EN 13501-1;
+    - calculadora de cantidades;
+    - «Complete su sistema», con las cantidades de cada capa.
+  - **Portada:** asesor «¿Qué va a hacer?».
+  - **Barra superior:** enlace «Profesionales» a la web, en cada idioma.
+- **Datos:** [`catalog/commerce.json`](../catalog/commerce.json): consumos y envases, sistemas, productos relacionados y proyectos.
+  - Cada cifra lleva la frase de la ficha de la que sale.
+  - Cuando la ficha da un intervalo, se toma el valor que pide más producto.
+- **Sistemas:** solo los que dicen la web o las fichas: microcemento (Z.01-Z.04), revestimiento de arena para piscinas (ficha de Zement Dune Fix) y efecto metálico.
+- **Productos relacionados:** son los accesorios nativos de PrestaShop, que la ficha muestra en «También podría interesarle».
+- **Enlaces estables para la web de marca:**
+  - `/<idioma>/z/p/<clave de producto>` y `/<idioma>/z/c/<clave de familia>` redirigen a la ficha o la familia.
+  - La web (`systems.json`, `data/home.ts` y las traducciones) ya los usa: los identificadores de PrestaShop cambian entre instalaciones.
+- **Rutas de la web por idioma** (pie, privacidad, condiciones, profesionales): [`web-routes.php`](web-routes.php), copia de las rutas de `apps/web`. Si cambian allí, hay que cambiarlas aquí.
+- **Local:** el módulo se monta desde `infra/docker/docker-compose.yml`. Tras actualizar el repositorio, ejecutar `pnpm tienda:up` y después `pnpm tienda:commerce`.
+- **IONOS:**
+  - subir `apps/tienda/modules/zementcommerce` a `modules/` e instalarlo;
+  - ejecutar `setup-commerce.php` con `ZEMENT_WEB_URL` apuntando al dominio de la web.

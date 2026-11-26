@@ -13,3 +13,4 @@ apps/tienda/theme/zement/assets/css/fonts.css
 
 # Generado por apps/tienda/catalog/scripts/extract_sheets.py
 apps/tienda/catalog/products/
+apps/tienda/modules/zementcommerce/data/commerce.json

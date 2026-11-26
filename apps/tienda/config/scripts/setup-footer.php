@@ -11,10 +11,10 @@
  *     displayFooterAfter  textos legales de la web (barra inferior, junto al copyright)
  * - Quita blockreassurance de displayFooterAfter (esa zona pasa a ser la barra legal).
  *
- * La web solo existe en español e inglés: el resto de idiomas enlaza a la versión inglesa.
- * TODO: textos legales de la tienda en los 8 idiomas antes de vender fuera de ES/EN.
+ * Cada idioma enlaza a la misma página de la web en su idioma (la web está en los 8 idiomas).
  *
- * Uso: pnpm tienda:footer   (ZEMENT_WEB_URL=https://… para otra dirección de la web)
+ * Uso: pnpm tienda:footer   (copia apps/tienda/config al contenedor; ZEMENT_WEB_URL=https://… para
+ *      otra dirección de la web)
  */
 
 declare(strict_types=1);
@@ -23,16 +23,8 @@ require '/var/www/html/config/config.inc.php';
 
 $webUrl = rtrim(getenv('ZEMENT_WEB_URL') ?: 'http://localhost:4321', '/');
 
-/** Rutas de la web de marca (apps/web): español y el resto en inglés. */
-const ZEMENT_WEB_PATHS = [
-    'system' => ['es' => '/sistemas/', 'en' => '/en/systems/'],
-    'professionals' => ['es' => '/#profesionales', 'en' => '/en/#profesionales'],
-    'contact' => ['es' => '/#contacto', 'en' => '/en/#contacto'],
-    'notice' => ['es' => '/aviso-legal/', 'en' => '/en/legal-notice/'],
-    'privacy' => ['es' => '/privacidad/', 'en' => '/en/privacy/'],
-    'cookies' => ['es' => '/cookies/', 'en' => '/en/cookies/'],
-    'terms' => ['es' => '/condiciones-de-venta/', 'en' => '/en/terms-of-sale/'],
-];
+/** Rutas de la web de marca en cada idioma (config/web-routes.php). */
+$webRoutes = require __DIR__ . '/../web-routes.php';
 
 const ZEMENT_FOOTER_LABELS = [
     'products' => [
@@ -130,12 +122,12 @@ $categories = array_map(
     )
 );
 
-$webLinks = static function (array $keys, string $iso) use ($webUrl): array {
-    $variant = $iso === 'es' ? 'es' : 'en';
+$webLinks = static function (array $keys, string $iso) use ($webUrl, $webRoutes): array {
+    $routes = $webRoutes[$iso] ?? $webRoutes['en'];
 
     return array_map(static fn (string $key): array => [
         'title' => ZEMENT_FOOTER_LABELS[$key][$iso],
-        'url' => $webUrl . ZEMENT_WEB_PATHS[$key][$variant],
+        'url' => $webUrl . $routes[$key],
     ], $keys);
 };
 

@@ -29,23 +29,24 @@ pnpm dev                                          # web Astro en http://localhos
 
 ## Comandos
 
-| Comando                                          | Qué hace                                                                          |
-| ------------------------------------------------ | --------------------------------------------------------------------------------- |
-| `pnpm dev`                                       | Web en modo desarrollo                                                            |
-| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos, build y pruebas                    |
-| `pnpm test`                                      | Pruebas de la web compilada: enlaces internos y metadatos de cada página          |
-| `pnpm format` / `pnpm format:check`              | Formatear / comprobar formato (Prettier)                                          |
-| `pnpm lint` / `pnpm lint:fix`                    | ESLint + Stylelint / con autocorrección                                           |
-| `pnpm check`                                     | `astro check` + `tsc`                                                             |
-| `pnpm build`                                     | Copia tokens al tema y genera la web estática (`apps/web/dist`)                   |
-| `pnpm tokens:sync`                               | Copia tokens y tipografías al tema de la tienda                                   |
-| `pnpm tienda:up` / `tienda:down` / `tienda:logs` | Contenedores de la tienda                                                         |
-| `pnpm tienda:css`                                | Regenera el CSS combinado de la tienda tras cambiar estilos                       |
-| `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`                          |
-| `pnpm tienda:catalog "<carpeta de fichas PDF>"`  | Instala los 8 idiomas e importa el catálogo (ver `apps/tienda/catalog/README.md`) |
-| `pnpm tienda:home`                               | Instala la portada (módulo `zementhome`) y quita los bloques de demostración      |
-| `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales  |
-| `pnpm tienda:settings`                           | Quita restos de demostración: moneda, tiendas, páginas, avisos y traducciones     |
+| Comando                                          | Qué hace                                                                                      |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| `pnpm dev`                                       | Web en modo desarrollo                                                                        |
+| `pnpm verify`                                    | **Todo lo obligatorio**: formato, lint, tipos, build y pruebas                                |
+| `pnpm test`                                      | Pruebas de la web compilada: enlaces internos y metadatos de cada página                      |
+| `pnpm format` / `pnpm format:check`              | Formatear / comprobar formato (Prettier)                                                      |
+| `pnpm lint` / `pnpm lint:fix`                    | ESLint + Stylelint / con autocorrección                                                       |
+| `pnpm check`                                     | `astro check` + `tsc`                                                                         |
+| `pnpm build`                                     | Copia tokens al tema y genera la web estática (`apps/web/dist`)                               |
+| `pnpm tokens:sync`                               | Copia tokens y tipografías al tema de la tienda                                               |
+| `pnpm tienda:up` / `tienda:down` / `tienda:logs` | Contenedores de la tienda                                                                     |
+| `pnpm tienda:css`                                | Regenera el CSS combinado de la tienda tras cambiar estilos                                   |
+| `pnpm tienda:theme`                              | Reactiva el tema y limpia caché tras cambiar `theme.yml`                                      |
+| `pnpm tienda:catalog "<carpeta de fichas PDF>"`  | Instala los 8 idiomas e importa el catálogo (ver `apps/tienda/catalog/README.md`)             |
+| `pnpm tienda:home`                               | Instala la portada (módulo `zementhome`) y quita los bloques de demostración                  |
+| `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales              |
+| `pnpm tienda:settings`                           | Quita restos de demostración: moneda, tiendas, páginas, avisos y traducciones                 |
+| `pnpm tienda:commerce`                           | Herramientas de venta: calculadora, sistema completo, relacionados, asesor y enlaces estables |
 
 ## Publicar la web
 

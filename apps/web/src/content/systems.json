@@ -96,14 +96,14 @@
           "fi": "5 L · 25 L kanisteri"
         },
         "shopPath": {
-          "es": "35-zement-prime.html",
-          "en": "35-zement-prime.html",
-          "de": "35-zement-prime.html",
-          "fr": "35-zement-prime.html",
-          "it": "35-zement-prime.html",
-          "pl": "35-zement-prime.html",
-          "no": "35-zement-prime.html",
-          "fi": "35-zement-prime.html"
+          "es": "z/p/zement-prime",
+          "en": "z/p/zement-prime",
+          "de": "z/p/zement-prime",
+          "fr": "z/p/zement-prime",
+          "it": "z/p/zement-prime",
+          "pl": "z/p/zement-prime",
+          "no": "z/p/zement-prime",
+          "fi": "z/p/zement-prime"
         }
       },
       {
@@ -150,14 +150,14 @@
           "fi": "20 kg:n astia"
         },
         "shopPath": {
-          "es": "20-basis-0-4-aqua-mix.html",
-          "en": "20-basis-04-aqua-mix.html",
-          "de": "20-basis-04-aqua-mix.html",
-          "fr": "20-basis-04-aqua-mix.html",
-          "it": "20-basis-04-aqua-mix.html",
-          "pl": "20-basis-04-aqua-mix.html",
-          "no": "20-basis-04-aqua-mix.html",
-          "fi": "20-basis-04-aqua-mix.html"
+          "es": "z/p/basis-0-4-aqua-mix",
+          "en": "z/p/basis-0-4-aqua-mix",
+          "de": "z/p/basis-0-4-aqua-mix",
+          "fr": "z/p/basis-0-4-aqua-mix",
+          "it": "z/p/basis-0-4-aqua-mix",
+          "pl": "z/p/basis-0-4-aqua-mix",
+          "no": "z/p/basis-0-4-aqua-mix",
+          "fi": "z/p/basis-0-4-aqua-mix"
         }
       },
       {
@@ -204,14 +204,14 @@
           "fi": "15 kg:n astia"
         },
         "shopPath": {
-          "es": "28-fein-0-02-0-06-aqua-mix.html",
-          "en": "28-fein-002-006-aqua-mix.html",
-          "de": "28-fein-002-006-aqua-mix.html",
-          "fr": "28-fein-002-006-aqua-mix.html",
-          "it": "28-fein-002-006-aqua-mix.html",
-          "pl": "28-fein-002-006-aqua-mix.html",
-          "no": "28-fein-002-006-aqua-mix.html",
-          "fi": "28-fein-002-006-aqua-mix.html"
+          "es": "z/p/fein-0-02-0-06-aqua-mix",
+          "en": "z/p/fein-0-02-0-06-aqua-mix",
+          "de": "z/p/fein-0-02-0-06-aqua-mix",
+          "fr": "z/p/fein-0-02-0-06-aqua-mix",
+          "it": "z/p/fein-0-02-0-06-aqua-mix",
+          "pl": "z/p/fein-0-02-0-06-aqua-mix",
+          "no": "z/p/fein-0-02-0-06-aqua-mix",
+          "fi": "z/p/fein-0-02-0-06-aqua-mix"
         }
       },
       {
@@ -258,14 +258,14 @@
           "fi": "Komponentti A 3 kg + B 1 kg"
         },
         "shopPath": {
-          "es": "40-protect-aqua-2k.html",
-          "en": "40-protect-aqua-2k.html",
-          "de": "40-protect-aqua-2k.html",
-          "fr": "40-protect-aqua-2k.html",
-          "it": "40-protect-aqua-2k.html",
-          "pl": "40-protect-aqua-2k.html",
-          "no": "40-protect-aqua-2k.html",
-          "fi": "40-protect-aqua-2k.html"
+          "es": "z/p/protect-aqua-2k",
+          "en": "z/p/protect-aqua-2k",
+          "de": "z/p/protect-aqua-2k",
+          "fr": "z/p/protect-aqua-2k",
+          "it": "z/p/protect-aqua-2k",
+          "pl": "z/p/protect-aqua-2k",
+          "no": "z/p/protect-aqua-2k",
+          "fi": "z/p/protect-aqua-2k"
         }
       }
     ],
@@ -822,14 +822,14 @@
       }
     ],
     "shopPath": {
-      "es": "10-microcemento",
-      "en": "10-microcement",
-      "de": "10-mikrozement",
-      "fr": "10-microciment",
-      "it": "10-microcemento",
-      "pl": "10-mikrocement",
-      "no": "10-mikrosement",
-      "fi": "10-mikrosementti"
+      "es": "z/c/microcemento",
+      "en": "z/c/microcemento",
+      "de": "z/c/microcemento",
+      "fr": "z/c/microcemento",
+      "it": "z/c/microcemento",
+      "pl": "z/c/microcemento",
+      "no": "z/c/microcemento",
+      "fi": "z/c/microcemento"
     }
   }
 ]

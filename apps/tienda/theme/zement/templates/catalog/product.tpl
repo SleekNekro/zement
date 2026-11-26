@@ -5,8 +5,14 @@
  * - Mientras el producto no se vende (sin precio: TODO en el catálogo) no hay cantidad ni
  *   «Añadir al carrito» desactivado: en su lugar, un botón al formulario de contacto.
  * - En «Detalles», la ficha en PDF y enlaces a los demás idiomas (adjuntos «<clave>-<iso>.pdf»).
+ * - Módulo zementcommerce: normas de la ficha bajo el resumen (displayZementProductBadges) y,
+ *   tras la compra, calculadora y «Complete su sistema» (displayZementProductTools).
  *}
 {extends file='parent:catalog/product.tpl'}
+
+{block name='product_description_short' append}
+    {hook h='displayZementProductBadges' product=$product}
+{/block}
 
 {block name='product_add_to_cart'}
     {if $product.available_for_order}
@@ -19,6 +25,7 @@
         </div>
     {/if}
     {include file='catalog/_partials/zement-sheet.tpl' buttonClass='btn-outline-primary zm-product-cta__sheet'}
+    {hook h='displayZementProductTools' product=$product}
 {/block}
 
 {block name='product_attachments'}

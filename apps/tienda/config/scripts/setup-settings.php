@@ -25,7 +25,7 @@
  *   descripción de la portada; listados a todo el ancho.
  *
  * Salvo el contacto «Webmaster», nada se borra: todo se puede volver a activar desde el panel.
- * La web solo existe en español e inglés: el resto de idiomas enlaza a la versión inglesa.
+ * Cada idioma enlaza a la misma página de la web en su idioma (la web está en los 8 idiomas).
  *
  * Uso: pnpm tienda:settings   (copia apps/tienda/config al contenedor; ZEMENT_WEB_URL=https://… para
  *      otra dirección de la web)
@@ -45,9 +45,10 @@ $webUrl = rtrim(getenv('ZEMENT_WEB_URL') ?: 'http://localhost:4321', '/');
 $db = Db::getInstance();
 $languages = Language::getLanguages(false);
 
-/** Página de la web en el idioma de la tienda: español o, si no, inglés. */
-$webPage = static function (string $iso, string $es, string $en) use ($webUrl): string {
-    return $webUrl . ($iso === 'es' ? $es : $en);
+/** Página de la web en el idioma de la tienda (config/web-routes.php). */
+$webRoutes = require __DIR__ . '/../web-routes.php';
+$webPage = static function (string $iso, string $page) use ($webUrl, $webRoutes): string {
+    return $webUrl . ($webRoutes[$iso] ?? $webRoutes['en'])[$page];
 };
 
 const ZEMENT_TERMS = [
@@ -91,7 +92,7 @@ $cms = new CMS($conditions);
 foreach ($languages as $language) {
     $iso = $language['iso_code'];
     [$title, $text] = ZEMENT_TERMS[$iso] ?? ZEMENT_TERMS['en'];
-    $url = $webPage($iso, '/condiciones-de-venta/', '/en/terms-of-sale/');
+    $url = $webPage($iso, 'terms');
     $cms->meta_title[$language['id_lang']] = $title;
     $cms->head_seo_title[$language['id_lang']] = $title;
     $cms->link_rewrite[$language['id_lang']] = Tools::str2url($title);
@@ -119,7 +120,7 @@ if (Module::isInstalled('psgdpr')) {
     foreach ($languages as $language) {
         $iso = $language['iso_code'];
         [$sentence, $label] = ZEMENT_PRIVACY_CONSENT[$iso] ?? ZEMENT_PRIVACY_CONSENT['en'];
-        $url = $webPage($iso, '/privacidad/', '/en/privacy/');
+        $url = $webPage($iso, 'privacy');
         $link = '<a href="' . htmlspecialchars($url, ENT_QUOTES) . '" target="_blank" rel="noopener">'
             . htmlspecialchars($label, ENT_QUOTES) . '</a>';
         $consent[(int) $language['id_lang']] = sprintf(htmlspecialchars($sentence, ENT_QUOTES), $link);

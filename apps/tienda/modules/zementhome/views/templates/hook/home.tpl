@@ -1,7 +1,7 @@
 {**
  * Portada al estilo de una tienda clásica:
  * 1. bloque principal (primera familia, el microcemento), más bajo que un hero de marca;
- * 2. accesos compactos a las 8 familias;
+ * 2. asesor «¿Qué va a hacer?» (módulo zementcommerce; las familias ya están en el menú);
  * 3. una fila de productos por familia, con las miniaturas del tema (precio y compra cuando los
  *    haya) y un enlace a todos los productos de la familia.
  *}
@@ -23,31 +23,8 @@
 {/if}
 
 {if $zementFamilies}
-    <nav class="zm-home-families container" aria-label="{l s='Categories' d='Shop.Theme.Catalog'}">
-        <ul class="zm-home-families__list">
-            {foreach from=$zementFamilies item=family}
-                <li>
-                    <a class="zm-family-chip" href="{$family.url}">
-                        <span class="zm-family-chip__media{if !$family.image} zm-family-chip__media--empty{/if}">
-                            {if $family.image}
-                                <img src="{$family.image}" alt="" loading="lazy" width="96" height="96">
-                            {/if}
-                        </span>
-                        <span class="zm-family-chip__text">
-                            <span class="zm-family-chip__name">{$family.name}</span>
-                            <span class="zm-family-chip__count">
-                                {if $family.count == 1}
-                                    {l s='There is 1 product.' d='Shop.Theme.Catalog'}
-                                {else}
-                                    {l s='There are %product_count% products.' d='Shop.Theme.Catalog' sprintf=['%product_count%' => $family.count]}
-                                {/if}
-                            </span>
-                        </span>
-                    </a>
-                </li>
-            {/foreach}
-        </ul>
-    </nav>
+    {* Asesor «¿Qué va a hacer?» (módulo zementcommerce): un acceso por proyecto. *}
+    {hook h='displayZementHomeProjects'}
 
     {foreach from=$zementFamilies item=family}
         {if $family.products}

@@ -26,8 +26,9 @@
     "tienda:css": "docker exec zement-prestashop-1 sh -c 'rm -rf themes/zement/assets/cache/*'",
     "tienda:catalog": "bash apps/tienda/catalog/scripts/import.sh",
     "tienda:home": "docker cp apps/tienda/config/scripts/setup-home.php zement-prestashop-1:/tmp/setup-home.php && docker exec zement-prestashop-1 php /tmp/setup-home.php",
-    "tienda:footer": "docker cp apps/tienda/config/scripts/setup-footer.php zement-prestashop-1:/tmp/setup-footer.php && docker exec zement-prestashop-1 php /tmp/setup-footer.php",
-    "tienda:settings": "docker exec zement-prestashop-1 rm -rf /tmp/zement-config && docker cp apps/tienda/config zement-prestashop-1:/tmp/zement-config && docker exec zement-prestashop-1 php /tmp/zement-config/scripts/setup-settings.php"
+    "tienda:footer": "docker exec zement-prestashop-1 rm -rf /tmp/zement-config && docker cp apps/tienda/config zement-prestashop-1:/tmp/zement-config && docker exec zement-prestashop-1 php /tmp/zement-config/scripts/setup-footer.php",
+    "tienda:settings": "docker exec zement-prestashop-1 rm -rf /tmp/zement-config && docker cp apps/tienda/config zement-prestashop-1:/tmp/zement-config && docker exec zement-prestashop-1 php /tmp/zement-config/scripts/setup-settings.php",
+    "tienda:commerce": "python3 apps/tienda/catalog/scripts/build_commerce.py && docker exec zement-prestashop-1 rm -rf /tmp/zement-config && docker cp apps/tienda/config zement-prestashop-1:/tmp/zement-config && docker exec zement-prestashop-1 php /tmp/zement-config/scripts/setup-commerce.php"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
