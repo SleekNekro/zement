@@ -45,25 +45,49 @@
     output: element.querySelector('[data-zm-qty]'),
   }));
 
-  /** Cantidad y envases; los envases en litros se convierten a kg con la densidad si hace falta. */
-  const estimate = (data, surface, layers, millimetres) => {
+  /**
+   * Envase del formato elegido en la ficha (radios o desplegable de combinaciones), en el mismo
+   * orden que `packs`; sin formatos, el único envase de la ficha.
+   */
+  const selectedPack = (data) => {
+    if (!data.packs?.length) {
+      return data.pack;
+    }
+    const radios = [
+      ...document.querySelectorAll(
+        '.product__variants input[type="radio"], .product-variants input[type="radio"]',
+      ),
+    ];
+    const select = document.querySelector('.product__variants select, .product-variants select');
+    const index = radios.length
+      ? radios.findIndex((input) => input.checked)
+      : (select?.selectedIndex ?? 0);
+    return data.packs[Math.max(0, index)] ?? data.pack;
+  };
+
+  /**
+   * Cantidad y envases. La cantidad se expresa en la unidad del envase: si el consumo de la ficha
+   * va en kg y el envase en litros, se pasa a litros con la densidad («≈ 1,1 L → 1 × 5 L»).
+   */
+  const estimate = (data, surface, layers, millimetres, pack = data.pack) => {
     const factor =
       data.mode === 'coats'
         ? (layers ?? data.coats ?? 1)
         : data.mode === 'thickness'
           ? (millimetres ?? data.thickness ?? 1)
           : 1;
-    const amount = surface * data.rate * factor * (margin?.checked === false ? 1 : 1 + MARGIN);
-    let packAmount = data.pack.size;
+    let amount = surface * data.rate * factor * (margin?.checked === false ? 1 : 1 + MARGIN);
+    let unit = data.rateUnit;
 
-    if (data.pack.unit === 'L' && data.rateUnit === 'kg' && data.density) {
-      packAmount = data.pack.size * data.density;
+    if (pack.unit === 'L' && data.rateUnit === 'kg' && data.density) {
+      amount /= data.density;
+      unit = 'L';
     }
 
-    const packs = Math.max(1, Math.ceil(amount / packAmount - 1e-9));
+    const packs = Math.max(1, Math.ceil(amount / pack.size - 1e-9));
 
     return {
-      text: `${number.format(amount)} ${data.rateUnit} → ${packs} × ${number.format(data.pack.size)} ${data.pack.unit}`,
+      text: `≈ ${number.format(amount)} ${unit} → ${packs} × ${number.format(pack.size)} ${pack.unit}`,
       packs,
     };
   };
@@ -79,6 +103,7 @@
         surface,
         read(coats, null),
         read(thickness, null),
+        selectedPack(calculator),
       );
       result.textContent = text;
       lastPacks = packs;
@@ -86,7 +111,15 @@
 
     for (const step of steps) {
       if (step.data && step.output) {
-        step.output.textContent = estimate(step.data, surface, null, null).text;
+        // El paso de esta ficha cuenta con el formato elegido; los demás, con su envase.
+        const current = step.element.classList.contains('zm-system__step--current');
+        step.output.textContent = estimate(
+          step.data,
+          surface,
+          null,
+          null,
+          current ? selectedPack(step.data) : step.data.pack,
+        ).text;
       }
     }
 
@@ -123,6 +156,16 @@
 
   root.addEventListener('input', update);
   root.addEventListener('change', update);
+  // Cambiar de formato (combinación) cambia el envase con el que se cuenta.
+  document.addEventListener('change', (event) => {
+    if (
+      event.target instanceof Element &&
+      event.target.closest('.product__variants, .product-variants')
+    ) {
+      update();
+    }
+  });
+  window.prestashop?.on?.('updatedProduct', update);
   update();
 })();
 

@@ -4578,7 +4578,17 @@
     "size": 5,
     "unit": "L"
    },
-   "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L"
+   "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L / 25 L",
+   "packs": [
+    {
+     "size": 5,
+     "unit": "L"
+    },
+    {
+     "size": 25,
+     "unit": "L"
+    }
+   ]
   },
   "zement-seal-pore": {
    "mode": "coats",

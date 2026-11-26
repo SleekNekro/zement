@@ -1,5 +1,5 @@
 {
-  "$comment": "Datos comerciales de la tienda sacados de las fichas técnicas (nada inventado: cada cifra lleva la frase de la ficha en «source»). Los usa el módulo zementcommerce (calculadora, «Complete su sistema», productos relacionados, asesor de proyecto). Tras cambiarlo: python3 apps/tienda/catalog/scripts/build_commerce.py y pnpm tienda:commerce. Calculadora: rate = consumo por m² (por capa en mode «coats», por mm en «thickness», total en «area»), en la unidad de rateUnit; pack = envase; density convierte kg ↔ L. Cuando la ficha da un intervalo se toma el valor que pide más producto.",
+  "$comment": "Datos comerciales de la tienda sacados de las fichas técnicas (nada inventado: cada cifra lleva la frase de la ficha en «source»). Los usa el módulo zementcommerce (calculadora, «Complete su sistema», productos relacionados, asesor de proyecto). Tras cambiarlo: python3 apps/tienda/catalog/scripts/build_commerce.py y pnpm tienda:commerce. Calculadora: rate = consumo por m² (por capa en mode «coats», por mm en «thickness», total en «area»), en la unidad de rateUnit; pack = envase; density convierte kg ↔ L. Cuando la ficha da un intervalo se toma el valor que pide más producto. «packs» (opcional): un envase por formato, en el mismo orden que «formats» en catalog.json; la calculadora usa el del formato elegido.",
   "calculator": {
     "basis-0-4-aqua-mix": {
       "mode": "coats",
@@ -173,7 +173,17 @@
         "size": 5,
         "unit": "L"
       },
-      "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L"
+      "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L / 25 L",
+      "packs": [
+        {
+          "size": 5,
+          "unit": "L"
+        },
+        {
+          "size": 25,
+          "unit": "L"
+        }
+      ]
     },
     "zement-seal-pore": {
       "mode": "coats",

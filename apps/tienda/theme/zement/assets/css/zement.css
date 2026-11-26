@@ -711,12 +711,12 @@ img[src*='/img/p/'][src*='-default-'] {
   opacity: 0;
 }
 
-/* Ficha: contacto (mientras no hay precio) y ficha técnica en PDF junto al resumen. */
-.zm-product-cta {
+/* Ficha: «Solicitar presupuesto» (mientras no hay precio) y ficha técnica en PDF junto al resumen. */
+.zm-quote {
   margin-block: 1.5rem 0.75rem;
 }
 
-.zm-product-cta .btn,
+.zm-quote__button,
 .product__actions .zm-sheet-download__main {
   width: 100%;
 }
@@ -1333,12 +1333,20 @@ img[src*='/img/p/'][src*='-default-'] {
   font-size: 0.8125rem;
 }
 
+/*
+ * Resultado en la tipografía de texto: en la ancha de titulares, «×» y «→» salían como glifos
+ * raros. Cifras tabulares para que no bailen al cambiar los valores.
+ */
 .zm-calc__result strong {
   color: var(--zm-color-navy);
-  font-family: var(--zm-font-display);
-  font-size: 1.35rem;
-  font-weight: var(--zm-weight-display);
-  font-stretch: var(--zm-stretch-display);
+  font-size: 1.25rem;
+  font-weight: var(--zm-weight-ui);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Casilla y campos de la calculadora en el color de la marca, no en el azul del navegador. */
+.zm-tools input {
+  accent-color: var(--zm-color-navy);
 }
 
 .zm-calc__use {
@@ -1365,9 +1373,10 @@ img[src*='/img/p/'][src*='-default-'] {
   border-top: var(--zm-hairline) solid var(--zm-color-line);
 }
 
+/* Paso de esta ficha: fondo de banda, sin barra lateral. */
 .zm-system__step--current {
-  padding-left: 0.75rem;
-  box-shadow: inset 3px 0 0 var(--zm-color-navy);
+  padding-inline: 0.75rem;
+  background: var(--zm-color-stone);
 }
 
 .zm-system__text {

@@ -22,7 +22,7 @@
         {* Sin precio todavía: «Solicitar presupuesto» con el pedido escrito (módulo zementcommerce). *}
         {hook h='displayZementQuote' product=$product}
     {/if}
-    {include file='catalog/_partials/zement-sheet.tpl' buttonClass='btn-outline-primary zm-product-cta__sheet'}
+    {include file='catalog/_partials/zement-sheet.tpl' buttonClass='btn-outline-primary'}
     {hook h='displayZementProductTools' product=$product}
 {/block}
 
