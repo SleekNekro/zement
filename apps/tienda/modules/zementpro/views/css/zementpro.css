@@ -10,13 +10,13 @@
   width: 100%;
   margin-bottom: 1rem;
   padding: 1rem 1.25rem;
-  border: 1px solid var(--zm-color-line, #d9d3c7);
-  border-left: 3px solid var(--zm-color-gold, #b99a57);
+  border: 1px solid var(--zm-color-gold, #b99a57);
   background: var(--zm-color-white, #fff);
 }
 
+/* Estado por el filete completo (sin barra lateral): dorado en curso o pendiente, marino aprobada. */
 .zm-pro-status--approved {
-  border-left-color: var(--zm-color-navy, #2d4f70);
+  border-color: var(--zm-color-navy, #172b3b);
 }
 
 .zm-pro-status__text {
@@ -29,7 +29,7 @@
 }
 
 .zm-pro-status__link {
-  color: var(--zm-color-navy, #2d4f70);
+  color: var(--zm-color-navy, #172b3b);
   font-weight: 500;
   text-decoration: none;
 }

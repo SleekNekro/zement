@@ -28,6 +28,16 @@
   --bs-box-shadow-sm: none;
   --bs-box-shadow-lg: none;
   --bs-focus-ring-color: rgb(185 154 87 / 45%);
+
+  /*
+   * Error y «Cerrar sesión» en el rojo de la marca: el de Hummingbird (#ff4657) se quedaba en
+   * 3,1:1 sobre papel; este llega a 6,9:1 (WCAG 1.4.3).
+   */
+  --bs-danger: var(--zm-color-danger);
+  --bs-danger-rgb: 168, 35, 26;
+  --bs-danger-text-emphasis: var(--zm-color-danger);
+  --bs-form-invalid-color: var(--zm-color-danger);
+  --bs-form-invalid-border-color: var(--zm-color-danger);
 }
 
 /* Todo recto y liso: sin radios ni sombras. */
@@ -118,11 +128,32 @@ h5,
   text-transform: none !important;
 }
 
-/* Formularios: filete inferior fino. */
+/*
+ * Formularios: filete inferior fino, en gris de texto secundario para que el campo se distinga
+ * del fondo (WCAG 1.4.11, ≥ 3:1; el filete general de 16 % se quedaba en 1,4:1).
+ */
 .form-control,
 .form-select {
   border-width: 0 0 1px;
+  border-color: var(--zm-color-muted);
   background-color: transparent;
+}
+
+.form-check-input {
+  border-color: var(--zm-color-muted);
+}
+
+/*
+ * Excepción a «todo recto»: el círculo es lo que distingue una opción única (radio) de una casilla
+ * de varias; cuadrado, «Distribuidor / Aplicador» parecían casillas combinables.
+ */
+.form-check-input[type='radio'] {
+  border-radius: 50% !important;
+}
+
+.form-control[aria-invalid='true'],
+.form-select[aria-invalid='true'] {
+  border-color: var(--zm-color-danger);
 }
 
 .quantity-button .form-control {
@@ -574,11 +605,11 @@ textarea:focus-visible {
   }
 }
 
-/* Búsqueda: solo filete inferior. */
+/* Búsqueda: solo filete inferior (mismo gris que el resto de campos). */
 .ps-searchbar .form-control,
 .ps-searchbar__input {
   border-width: 0 0 1px;
-  border-color: var(--zm-color-line);
+  border-color: var(--zm-color-muted);
   background: transparent;
 }
 
@@ -864,7 +895,8 @@ img[src*='/img/p/'][src*='-default-'] {
   font-size: clamp(1.35rem, 2vw, 1.85rem);
   font-weight: var(--zm-weight-display);
   font-stretch: var(--zm-stretch-display);
-  line-height: 1.1;
+  line-height: 1.2;
+  text-wrap: balance;
 }
 
 /* Pie: títulos en etiqueta arena, enlaces claros, firma con el logotipo a todo el ancho. */
@@ -1443,8 +1475,9 @@ img[src*='/img/p/'][src*='-default-'] {
   background: var(--zm-color-stone);
 }
 
-/* Sobre el fondo piedra, el gris del código no llegaba a 4,5:1: azul secundario (≈7:1). */
-.zm-system__step--current .zm-system__code {
+/* Sobre el fondo piedra, el gris del código y del subtítulo no llegaba a 4,5:1: azul secundario (≈7:1). */
+.zm-system__step--current .zm-system__code,
+.zm-system__step--current .zm-system__subtitle {
   color: var(--zm-color-navy-soft);
 }
 
@@ -1482,6 +1515,21 @@ img[src*='/img/p/'][src*='-default-'] {
   margin: 0;
   color: var(--zm-color-muted);
   font-size: 0.75rem;
+}
+
+/* Valor no válido en la calculadora: el aviso dice con qué cifra se sigue calculando. */
+.zm-calc__error {
+  margin: 0.375rem 0 0;
+  color: var(--zm-color-danger);
+  font-size: 0.8125rem;
+}
+
+/*
+ * «Detalles del producto» de Hummingbird sale vacío cuando la ficha no tiene referencia, marca ni
+ * existencias visibles: sin contenido no se muestra la pestaña.
+ */
+.js-product-details > .accordion-item:not(:has(.details__item)) {
+  display: none;
 }
 
 /* La parte izquierda de la barra toma el ancho que necesite (la derecha es corta), sin saltos de línea. */
@@ -1959,4 +2007,111 @@ img[src*='/img/p/'][src*='-default-'] {
   .zm-project::before {
     transition: none;
   }
+}
+
+/*
+ * Selector de idioma con banderas (modules/ps_languageselector): un menú de enlaces como el de la
+ * web. En la barra oscura se despliega encima; en el menú móvil, la lista va en línea.
+ */
+.zm-lang {
+  position: relative;
+}
+
+.zm-lang__toggle {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.zm-lang__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.zm-lang__chevron {
+  width: 0.625rem;
+  height: 0.375rem;
+  transition: transform var(--zm-duration, 0.2s);
+}
+
+.zm-lang[open] .zm-lang__chevron {
+  transform: rotate(180deg);
+}
+
+.zm-flag {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 0.75rem;
+  object-fit: cover;
+  outline: 1px solid color-mix(in srgb, currentcolor 25%, transparent);
+  outline-offset: -1px;
+}
+
+.zm-lang__list {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 1050;
+  display: grid;
+  width: 12rem;
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  border: var(--zm-hairline) solid var(--zm-color-navy);
+  background: var(--zm-color-paper);
+  color: var(--zm-color-navy);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.zm-lang__link {
+  display: flex;
+  min-height: 2.25rem;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.header-top .zm-lang__link,
+.header-top .zm-lang__link:hover {
+  color: var(--zm-color-navy);
+}
+
+.zm-lang__link:hover,
+.zm-lang__link[aria-current] {
+  background: var(--zm-color-stone);
+}
+
+.header-top .zm-lang__toggle:focus-visible,
+.ps-mainmenu--mobile .zm-lang__toggle:focus-visible {
+  outline: 2px solid var(--zm-color-gold);
+  outline-offset: 3px;
+}
+
+.ps-mainmenu--mobile .zm-lang__toggle {
+  min-height: 2.75rem;
+  color: var(--zm-color-sand);
+}
+
+.ps-mainmenu--mobile .zm-lang__list {
+  position: static;
+  width: auto;
+  margin-top: 0.5rem;
+  border-color: var(--zm-color-line-dark);
+  background: transparent;
+  color: var(--zm-color-sand);
+}
+
+.ps-mainmenu--mobile .zm-lang__link {
+  min-height: 2.75rem;
+}
+
+.ps-mainmenu--mobile .zm-lang__link:hover,
+.ps-mainmenu--mobile .zm-lang__link[aria-current] {
+  background: rgb(246 245 241 / 8%);
+  color: var(--zm-color-paper);
 }
