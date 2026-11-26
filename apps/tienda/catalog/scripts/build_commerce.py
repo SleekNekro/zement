@@ -53,10 +53,11 @@ def norms(content: dict) -> list[dict[str, str]]:
 
 
 AGGREGATE = re.compile(r"árido|granulometr", re.IGNORECASE)
+THICKNESS = re.compile(r"espesor.*capa", re.IGNORECASE)
 
 
-def aggregate_position(content: dict) -> tuple[int, int, int, int] | None:
-    """Posición de la fila «Tamaño (máximo) del árido» o «Granulometría» en la ficha en español.
+def row_position(content: dict, pattern: re.Pattern[str]) -> tuple[int, int, int, int] | None:
+    """Posición de la primera fila de tabla cuya clave encaja, en la ficha en español.
 
     Las fichas de los 8 idiomas tienen la misma estructura, así que la misma posición da el
     valor traducido en cada idioma.
@@ -67,9 +68,16 @@ def aggregate_position(content: dict) -> tuple[int, int, int, int] | None:
                 continue
             for g, group in enumerate(block["groups"]):
                 for r, row in enumerate(group["rows"]):
-                    if AGGREGATE.search(row["key"]):
+                    if pattern.search(row["key"]):
                         return s, b, g, r
     return None
+
+
+def row_value(content: dict, position: tuple[int, int, int, int] | None) -> str | None:
+    if position is None:
+        return None
+    s, b, g, r = position
+    return content["sections"][s]["blocks"][b]["groups"][g]["rows"][r]["value"]
 
 
 def product_info(
@@ -79,7 +87,8 @@ def product_info(
     format_packs: list[int],
 ) -> dict[str, dict]:
     info: dict[str, dict] = {}
-    position = aggregate_position(sheet["languages"]["es"])
+    position = row_position(sheet["languages"]["es"], AGGREGATE)
+    thickness_position = row_position(sheet["languages"]["es"], THICKNESS)
     for iso, content in sheet["languages"].items():
         packs = [
             item
@@ -94,11 +103,12 @@ def product_info(
             (s for s in content["stats"] if not format_ or s["value"] not in format_),
             None,
         )
-        aggregate = None
-        if position is not None:
-            s_, b_, g_, r_ = position
-            row = content["sections"][s_]["blocks"][b_]["groups"][g_]["rows"][r_]
-            aggregate = f"{aggregate_label.get(iso, aggregate_label['en'])} {row['value']}"
+        aggregate_value = row_value(content, position)
+        aggregate = (
+            f"{aggregate_label.get(iso, aggregate_label['en'])} {aggregate_value}"
+            if aggregate_value
+            else None
+        )
         # Todos los formatos de venta (catalog.json → formats) o, si no hay varios, el primero.
         formats = [packs[i] for i in format_packs if i < len(packs)] if format_packs else []
         info[iso] = {
@@ -106,6 +116,8 @@ def product_info(
             "formats": " · ".join(formats) if len(formats) > 1 else format_,
             "layer": layer.get(iso, layer["en"]) if layer else None,
             "aggregate": aggregate,
+            "aggregateValue": aggregate_value,
+            "thickness": row_value(content, thickness_position),
             "format": format_,
             "stat": {"value": stat["value"], "label": stat["label"]} if stat else None,
             "norms": norms(content),

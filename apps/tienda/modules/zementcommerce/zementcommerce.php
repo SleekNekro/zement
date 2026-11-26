@@ -14,6 +14,7 @@
  * - Presupuesto: mientras un producto no se vende, «Solicitar presupuesto» abre el formulario
  *   de contacto con el producto, el formato y las cantidades calculadas ya escritos.
  * - Productos sin foto: casilla con la capa del sistema y el envase en lugar de la imagen vacía.
+ * - Listados de familia: filtros rápidos por capa y tipo, y vista en tabla para comparar.
  * - Fase 3: aviso de cookies (packages/consent, copiado en views/consent con pnpm consent:sync).
  *   Google Analytics 4 (ZEMENT_GA4_ID) solo se carga si el visitante acepta la analítica.
  *
@@ -45,6 +46,7 @@ class ZementCommerce extends Module
         'displayAfterBodyOpeningTag',
         'displayZementQuote',
         'displayZementNoPhoto',
+        'displayZementListingTools',
     ];
 
     /** Sube al añadir finalidades nuevas al aviso de cookies: se vuelve a pedir el consentimiento. */
@@ -60,7 +62,7 @@ class ZementCommerce extends Module
     {
         $this->name = 'zementcommerce';
         $this->tab = 'front_office_features';
-        $this->version = '0.5.0';
+        $this->version = '0.6.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -105,6 +107,14 @@ class ZementCommerce extends Module
             'modules/' . $this->name . '/views/consent/consent.js',
             ['position' => 'bottom', 'priority' => 10]
         );
+
+        if ($this->context->controller->php_self === 'category') {
+            $this->context->controller->registerJavascript(
+                'zementcommerce-listing',
+                'modules/' . $this->name . '/views/js/listing.js',
+                ['position' => 'bottom', 'priority' => 200]
+            );
+        }
 
         if ($this->context->controller->php_self === 'product') {
             $this->context->controller->registerJavascript(
@@ -380,6 +390,142 @@ class ZementCommerce extends Module
         ]);
 
         return $this->fetch('module:' . $this->name . '/views/templates/hook/no-photo.tpl');
+    }
+
+    /**
+     * Listado de una familia: filtros rápidos (capa, tipo) y la vista en tabla con los datos de
+     * ficha de cada producto. Un filtro solo sale si separa la familia en grupos de dos o más
+     * productos; una columna, si algún producto tiene el dato.
+     */
+    public function hookDisplayZementListingTools(array $params): string
+    {
+        $category = $params['category'] ?? null;
+        $categoryId = (int) (is_array($category) ? ($category['id'] ?? 0) : ($category->id ?? 0));
+
+        if ($categoryId === 0) {
+            return '';
+        }
+
+        $idLang = (int) $this->context->language->id;
+        $rows = Db::getInstance()->executeS(
+            'SELECT cp.id_product FROM `' . _DB_PREFIX_ . 'category_product` cp
+            INNER JOIN `' . _DB_PREFIX_ . 'product_shop` ps
+                ON ps.id_product = cp.id_product AND ps.id_shop = ' . (int) $this->context->shop->id . '
+            WHERE cp.id_category = ' . $categoryId . ' AND ps.active = 1 AND ps.visibility IN ("both", "catalog")
+            ORDER BY cp.position'
+        ) ?: [];
+
+        $products = [];
+        foreach (array_column($rows, 'id_product') as $id) {
+            $id = (int) $id;
+            $info = $this->productInfo($id);
+            if ($info === null) {
+                continue;
+            }
+            $products[] = [
+                'id' => $id,
+                'name' => Product::getProductName($id, null, $idLang),
+                'url' => $this->context->link->getProductLink($id),
+                'type' => $info['subtitle'] ?? null,
+                'layer' => $info['layer'] ?? null,
+                'aggregate' => $info['aggregateValue'] ?? null,
+                'thickness' => $info['thickness'] ?? null,
+                'formats' => $info['formats'] ?? $info['format'] ?? null,
+            ];
+        }
+
+        if (count($products) < 2) {
+            return '';
+        }
+
+        $strings = ZementCommerceStrings::forLanguage($this->context->language->iso_code);
+
+        $facets = [];
+        foreach (['layer' => 'filterLayer', 'type' => 'filterType'] as $field => $label) {
+            $counts = array_count_values(array_filter(array_column($products, $field), 'is_string'));
+            if (count($counts) >= 2 && count($counts) <= 5 && min($counts) >= 2
+                && array_sum($counts) === count($products)) {
+                $values = array_map('strval', array_keys($counts));
+                $facets[] = [
+                    'field' => $field,
+                    'label' => $strings[$label],
+                    'values' => array_combine($values, $this->shortLabels($values)),
+                ];
+            }
+        }
+
+        $columns = [];
+        foreach (['type' => 'colType', 'layer' => 'colLayer', 'aggregate' => 'colAggregate',
+            'thickness' => 'colThickness', 'formats' => 'colFormats'] as $field => $label) {
+            if (array_filter(array_column($products, $field))) {
+                $columns[] = ['field' => $field, 'label' => $strings[$label]];
+            }
+        }
+
+        $this->context->smarty->assign([
+            'zementListing' => [
+                'id' => $categoryId,
+                'facets' => $facets,
+                'columns' => $columns,
+                'products' => $products,
+                // Para filtrar las tarjetas del tema (data-id-product) sin tocar su plantilla.
+                'index' => json_encode(
+                    array_map(fn ($p) => ['id' => $p['id'], 'layer' => $p['layer'], 'type' => $p['type']], $products),
+                    JSON_HEX_TAG | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE
+                ),
+                'strings' => $strings,
+            ],
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/listing.tpl');
+    }
+
+    /**
+     * Etiquetas cortas para los filtros: quita las palabras que comparten todos los valores, estén
+     * donde estén («MICROCEMENTO BICOMPONENTE» → «Bicomponente»; «TOKOMPONENTS MIKROSEMENT KLAR
+     * TIL BRUK» → «Tokomponents klar til bruk»), y el final común de los compuestos con guion
+     * («ZWEIKOMPONENTEN-MIKROZEMENT» → «Zweikomponenten»). Lo que queda son adjetivos: va en
+     * minúscula con la inicial en mayúscula (y la del compuesto, que en alemán es sustantivo).
+     *
+     * @param list<string> $values
+     *
+     * @return list<string>
+     */
+    private function shortLabels(array $values): array
+    {
+        $words = array_map(fn (string $value) => preg_split('/\s+/u', trim($value)), $values);
+        $shared = array_values(array_intersect(...array_map('array_unique', $words)));
+
+        if ($shared) {
+            $trimmed = array_map(fn ($w) => array_values(array_diff($w, $shared)), $words);
+            if (min(array_map('count', $trimmed)) > 0) {
+                $words = $trimmed;
+            }
+        }
+
+        $labels = array_map(fn ($w) => implode(' ', $w), $words);
+        $compound = false;
+
+        $suffixes = array_map(fn ($label) => preg_match('/(-[^\s-]+)$/u', $label, $m) ? $m[1] : null, $labels);
+        if ($suffixes[0] !== null && count(array_unique($suffixes)) === 1) {
+            $labels = array_map(fn ($label) => mb_substr($label, 0, -mb_strlen($suffixes[0])), $labels);
+            $compound = true;
+        }
+
+        if ($labels === $values) {
+            return $values;
+        }
+
+        $capital = fn (string $word) => mb_strtoupper(mb_substr($word, 0, 1)) . mb_substr($word, 1);
+
+        return array_map(function (string $label) use ($capital, $compound): string {
+            $label = $capital(mb_strtolower($label));
+            if ($compound) {
+                $label = preg_replace_callback('/(\S+)$/u', fn ($m) => $capital($m[1]), $label);
+            }
+
+            return $label;
+        }, $labels);
     }
 
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */
