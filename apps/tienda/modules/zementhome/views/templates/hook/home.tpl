@@ -4,7 +4,7 @@
 {if $zementHero}
     <section class="zm-home-hero" aria-labelledby="zm-home-hero-title">
         {if $zementHero.image}
-            <img class="zm-home-hero__image" src="{$zementHero.image}" alt="" loading="eager" width="500" height="500">
+            <img class="zm-home-hero__image" src="{$zementHero.image}" alt="" loading="eager" fetchpriority="high">
         {/if}
         <div class="zm-home-hero__content container">
             <h2 class="zm-home-hero__title" id="zm-home-hero-title">
@@ -13,11 +13,6 @@
             </h2>
             <div class="zm-home-hero__actions">
                 <a class="btn zm-btn-light" href="{$zementHero.url}">{$zementHero.name}</a>
-                {if !$customer.is_logged}
-                    <a class="btn zm-btn-outline-light" href="{$urls.pages.authentication}" rel="nofollow">
-                        {l s='Sign in' d='Shop.Theme.Actions'}
-                    </a>
-                {/if}
             </div>
         </div>
     </section>
@@ -31,7 +26,7 @@
                     <a class="zm-family__link" href="{$family.url}">
                         <span class="zm-family__media{if !$family.image} zm-family__media--empty{/if}">
                             {if $family.image}
-                                <img src="{$family.image}" alt="" loading="lazy" width="500" height="500">
+                                <img src="{$family.image}" alt="" loading="lazy" width="900" height="900">
                             {/if}
                         </span>
                         <span class="zm-family__name">{$family.name}</span>

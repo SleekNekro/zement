@@ -18,7 +18,11 @@
  *   tratamientos y transportistas: traducidos con los paquetes de idioma. Al instalar IT, PL,
  *   NO y FI se quedaron en inglés. En español, «Fecha de registro» → «Crear una cuenta».
  *
- * Nada se borra: todo se puede volver a activar desde el panel.
+ * - Tienda «Zement» con su logotipo; módulos de terceros sin uso desactivados; alta sin fecha de
+ *   nacimiento y boletín con doble confirmación; contacto «Webmaster» de demostración quitado;
+ *   descripción de la portada; listados a todo el ancho.
+ *
+ * Salvo el contacto «Webmaster», nada se borra: todo se puede volver a activar desde el panel.
  * La web solo existe en español e inglés: el resto de idiomas enlaza a la versión inglesa.
  *
  * Uso: pnpm tienda:settings   (ZEMENT_WEB_URL=https://… para otra dirección de la web)
@@ -153,6 +157,72 @@ $idEs = (int) Language::getIdByIso('es');
 $registration = Meta::getMetaByPage('registration', $idEs);
 if ($registration) {
     $db->update('meta_lang', ['title' => pSQL('Crear una cuenta')], 'id_lang = ' . $idEs . ' AND id_meta = ' . (int) $registration['id_meta']);
+}
+
+// Nombre y logotipo: la tabla de tiendas también guarda el nombre (datos estructurados, correos).
+$db->update('shop', ['name' => pSQL('Zement')]);
+$db->update('shop_group', ['name' => pSQL('Zement')]);
+$logo = _PS_ROOT_DIR_ . '/themes/zement/assets/img/zement-logo-navy.png';
+if (is_file($logo) && copy($logo, _PS_IMG_DIR_ . 'zement-logo.png')) {
+    [$width, $height] = getimagesize($logo);
+    foreach (['PS_LOGO', 'PS_LOGO_MAIL', 'PS_LOGO_INVOICE'] as $key) {
+        Configuration::updateValue($key, 'zement-logo.png');
+    }
+    Configuration::updateValue('SHOP_LOGO_WIDTH', (int) $width);
+    Configuration::updateValue('SHOP_LOGO_HEIGHT', (int) $height);
+    echo "· tienda «Zement» con su logotipo (web, correos y facturas)\n";
+}
+
+// Módulos de terceros que envían datos o ponen cookies y no se usan (sin aviso de cookies aún).
+// ps_accounts y ps_checkout se quedan hasta decidir la pasarela de pago (TODO: Redsys o Stripe).
+// productcomments: sin reseñas, la ficha mostraba «Comentarios (0)».
+const ZEMENT_UNUSED_MODULES = [
+    'klaviyopsautomation', 'ps_facebook', 'psxmarketingwithgoogle', 'ps_googleanalytics',
+    'ps_eventbus', 'ps_mbo', 'ps_ask_ai', 'ps_mcp_server', 'ps_mcp_tools',
+    'ps_distributionapiclient', 'productcomments',
+];
+foreach (ZEMENT_UNUSED_MODULES as $name) {
+    $module = Module::getInstanceByName($name);
+    if ($module instanceof Module && Module::isEnabled($name)) {
+        $module->disable();
+        echo "- {$name} desactivado\n";
+    }
+}
+
+// RGPD: sin fecha de nacimiento y boletín con doble confirmación.
+Configuration::updateValue('PS_CUSTOMER_BIRTHDATE', 0);
+Configuration::updateValue('NW_VERIFICATION_EMAIL', 1);
+echo "· alta sin fecha de nacimiento; boletín con doble confirmación\n";
+
+// Formulario de contacto: un solo destinatario (el de «Webmaster» es de la demostración).
+$webmaster = (int) $db->getValue('SELECT id_contact FROM `' . _DB_PREFIX_ . 'contact_lang` WHERE name = \'Webmaster\'');
+if ($webmaster) {
+    (new Contact($webmaster))->delete();
+    echo "- contacto «Webmaster» de demostración quitado\n";
+}
+
+// Descripción de la portada para buscadores: nombre de la tienda y sus familias (sin texto inventado).
+$index = Meta::getMetaByPage('index', $idEs);
+if ($index) {
+    foreach ($languages as $language) {
+        $names = array_column(Category::getChildren((int) Configuration::get('PS_HOME_CATEGORY'), (int) $language['id_lang'], true), 'name');
+        $db->update(
+            'meta_lang',
+            ['description' => pSQL(mb_substr('Zement: ' . implode(', ', $names) . '.', 0, 255))],
+            'id_meta = ' . (int) $index['id_meta'] . ' AND id_lang = ' . (int) $language['id_lang']
+        );
+    }
+    echo "· descripción de la portada con las familias\n";
+}
+
+// Listados a todo el ancho: la columna izquierda repetía el menú de familias.
+// theme.yml lo fija para instalaciones nuevas; aquí se aplica a la tienda ya instalada.
+$themeConfig = _PS_CONFIG_DIR_ . 'themes/zement/shop' . (int) Configuration::get('PS_SHOP_DEFAULT') . '.json';
+if (is_file($themeConfig)) {
+    $theme = json_decode((string) file_get_contents($themeConfig), true, 512, JSON_THROW_ON_ERROR);
+    $theme['theme_settings']['layouts'] = array_map(static fn (): string => 'layout-full-width', $theme['theme_settings']['layouts'] ?? []);
+    file_put_contents($themeConfig, json_encode($theme, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
+    echo "· listados a todo el ancho\n";
 }
 
 Tools::clearSf2Cache();

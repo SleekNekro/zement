@@ -260,10 +260,30 @@ h5,
   color: var(--zm-color-paper);
 }
 
+/*
+ * Foco (WCAG 2.4.7, 2.4.13 y 1.4.11): 2 px en marino sobre fondo claro (13:1). El dorado solo
+ * sobre fondo oscuro, donde llega a 6,4:1; sobre papel se quedaba en 2,5:1.
+ */
 a:focus-visible,
-button:focus-visible {
-  outline: 1px solid var(--zm-color-gold);
-  outline-offset: 4px;
+button:focus-visible,
+.btn:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--zm-color-navy);
+  outline-offset: 3px;
+  box-shadow: none;
+}
+
+.header-top a:focus-visible,
+.header-top button:focus-visible,
+.header-top select:focus-visible,
+.footer__main a:focus-visible,
+.footer__main button:focus-visible,
+.ps-mainmenu--mobile a:focus-visible,
+.ps-mainmenu--mobile button:focus-visible,
+.ps-mainmenu--mobile select:focus-visible {
+  outline-color: var(--zm-color-gold);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -568,11 +588,14 @@ main h1 {
   line-height: 1.02;
 }
 
-/* Ruta de navegación: etiqueta técnica. */
+/* Ruta de navegación: etiqueta técnica; en móvil se parte en líneas en vez de cortarse. */
 .breadcrumb {
   --bs-breadcrumb-divider-color: var(--zm-color-muted);
   --bs-breadcrumb-item-active-color: var(--zm-color-muted);
 
+  flex-wrap: wrap;
+  row-gap: 0.25rem;
+  align-items: center;
   font-size: 0.6875rem;
   font-weight: var(--zm-weight-ui);
   letter-spacing: 0.14em;
@@ -580,7 +603,18 @@ main h1 {
 }
 
 .breadcrumb a {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
   text-decoration: none;
+}
+
+/* Objetivos de 24 px como mínimo (WCAG 2.5.8): enlaces de la barra superior. */
+.header-top a,
+.ps-contactinfo__email {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
 }
 
 .breadcrumb__wrapper,
@@ -672,15 +706,29 @@ img[src*='/img/p/'][src*='-default-'] {
   opacity: 0;
 }
 
+/* Ficha: contacto (mientras no hay precio) y ficha técnica en PDF junto al resumen. */
+.zm-product-cta {
+  margin-block: 1.5rem 0.75rem;
+}
+
+.zm-product-cta .btn,
+.product__actions .zm-sheet-download__main {
+  width: 100%;
+}
+
+.product__actions .zm-sheet-download {
+  margin-block: 0.75rem 1.5rem;
+}
+
 /* Producto que aún no se vende: sin aviso de «Notificarme cuando esté disponible». */
 .product__actions:not(:has(.product__add-to-cart-container)) .ps-emailalerts {
   display: none;
 }
 
-/* La vista rápida flota sobre la imagen (.btn la dejaría en el flujo, con un hueco debajo). */
+/* Sin vista rápida: las fichas son largas y el botón tapaba la foto en pantallas táctiles. */
 .product-miniature__quickview-button,
 .product-miniature__quickview-touch {
-  position: absolute;
+  display: none;
 }
 
 /* En móvil, dos productos por fila: «Ver más detalles» cabe en una línea. */
@@ -757,6 +805,10 @@ img[src*='/img/p/'][src*='-default-'] {
 
 .footer__main a:hover {
   color: var(--zm-color-sand);
+}
+
+.footer__main .footer-block__title a {
+  color: inherit;
 }
 
 .zement-signature {
@@ -938,12 +990,12 @@ img[src*='/img/p/'][src*='-default-'] {
   display: grid;
   margin: 0 0 2.5rem;
   color: var(--zm-color-paper);
-  font-size: clamp(2.15rem, 6.6vw, 7rem);
+  font-size: clamp(1.75rem, 6.6vw, 7rem);
   font-weight: var(--zm-weight-display);
   line-height: 0.92;
   text-transform: uppercase;
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
 }
 
 .zm-home-hero__actions {
@@ -976,6 +1028,11 @@ img[src*='/img/p/'][src*='-default-'] {
 
 .zm-home-hero .btn:focus-visible {
   outline-color: var(--zm-color-gold);
+}
+
+/* Botón principal del hero: única acción, a la familia destacada. */
+.zm-home-hero__actions .btn {
+  min-width: 12rem;
 }
 
 .zm-home-families {

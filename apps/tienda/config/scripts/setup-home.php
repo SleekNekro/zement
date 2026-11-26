@@ -47,6 +47,14 @@ if (!$home->isRegisteredInHook('displayHome')) {
     echo "+ zementhome enganchado a displayHome\n";
 }
 
+// Ganchos que vacían la caché de la portada (instalaciones anteriores a la 0.2.0).
+foreach (ZementHome::CACHE_HOOKS as $hook) {
+    if (!$home->isRegisteredInHook($hook)) {
+        $home->registerHook($hook);
+        echo "+ zementhome enganchado a {$hook}\n";
+    }
+}
+
 // La portada de Zement, la primera en displayHome.
 $home->updatePosition((int) Hook::getIdByName('displayHome'), false, 1);
 

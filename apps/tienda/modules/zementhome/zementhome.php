@@ -18,11 +18,23 @@ class ZementHome extends Module
 {
     private const PRODUCTS_PER_FAMILY = 3;
 
+    private const TEMPLATE = 'module:zementhome/views/templates/hook/home.tpl';
+
+    /** Cambios de catálogo que vacían la caché de la portada. */
+    public const CACHE_HOOKS = [
+        'actionProductAdd',
+        'actionProductUpdate',
+        'actionProductDelete',
+        'actionCategoryAdd',
+        'actionCategoryUpdate',
+        'actionCategoryDelete',
+    ];
+
     public function __construct()
     {
         $this->name = 'zementhome';
         $this->tab = 'front_office_features';
-        $this->version = '0.1.0';
+        $this->version = '0.2.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -37,21 +49,70 @@ class ZementHome extends Module
     public function install(): bool
     {
         return parent::install()
-            && $this->registerHook('displayHome')
+            && $this->registerHook(['displayHome', ...self::CACHE_HOOKS])
             && $this->updatePosition((int) Hook::getIdByName('displayHome'), false, 1);
     }
 
+    public function uninstall(): bool
+    {
+        $this->clearHomeCache();
+
+        return parent::uninstall();
+    }
+
+    /**
+     * La portada se cachea por idioma (y tienda y moneda, en getCacheId): sin caché eran
+     * 8 consultas de productos en cada visita.
+     */
     public function hookDisplayHome(): string
     {
-        $idLang = (int) $this->context->language->id;
-        $families = $this->getFamilies($idLang);
+        $cacheId = $this->getCacheId('zementhome');
 
-        $this->context->smarty->assign([
-            'zementFamilies' => $families,
-            'zementHero' => $families[0] ?? null,
-        ]);
+        if (!$this->isCached(self::TEMPLATE, $cacheId)) {
+            $families = $this->getFamilies((int) $this->context->language->id);
 
-        return $this->fetch('module:zementhome/views/templates/hook/home.tpl');
+            $this->context->smarty->assign([
+                'zementFamilies' => $families,
+                'zementHero' => $families[0] ?? null,
+            ]);
+        }
+
+        return $this->fetch(self::TEMPLATE, $cacheId);
+    }
+
+    public function hookActionProductAdd(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    public function hookActionProductUpdate(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    public function hookActionProductDelete(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    public function hookActionCategoryAdd(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    public function hookActionCategoryUpdate(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    public function hookActionCategoryDelete(): void
+    {
+        $this->clearHomeCache();
+    }
+
+    private function clearHomeCache(): void
+    {
+        $this->_clearCache(self::TEMPLATE);
     }
 
     /** @return list<array<string, mixed>> */
