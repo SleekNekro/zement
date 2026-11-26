@@ -14,13 +14,13 @@ interface Props {
 const { suffix, class: className } = Astro.props;
 ---
 
-<span class:list={['inline-flex items-baseline gap-[0.14em] leading-none', className]}>
+<span class:list={['inline-flex items-baseline gap-[0.07em] leading-none', className]}>
   <ZementLogo
     class="block h-[1em] w-auto shrink-0"
     aria-hidden="true"
   />
   {suffix && (
-    <span class="translate-y-[0.05em] text-[0.72em] font-light tracking-normal normal-case">
+    <span class="-translate-y-[0.1em] text-[0.72em] font-light tracking-normal normal-case">
       {suffix}
     </span>
   )}
