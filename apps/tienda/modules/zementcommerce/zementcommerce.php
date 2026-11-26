@@ -97,6 +97,8 @@ class ZementCommerce extends Module
 
     public function hookActionFrontControllerSetMedia(): void
     {
+        $this->fingerprintAssets();
+
         $this->context->controller->registerStylesheet(
             'zementcommerce-consent',
             'modules/' . $this->name . '/views/consent/consent.css',
@@ -532,6 +534,46 @@ class ZementCommerce extends Module
 
             return $label;
         }, $labels);
+    }
+
+    /**
+     * Huella de los paquetes CSS y JS del tema (CCC). PrestaShop los nombra por la lista de
+     * archivos más un número de versión que solo sube al vaciar la caché desde el back office: si
+     * cambia el contenido pero no la lista, el nombre no cambia y el navegador sigue usando el
+     * paquete viejo (y la tienda, el paquete ya generado). Aquí la versión de esta petición lleva
+     * además la fecha y el tamaño de nuestros CSS y JS: al editar un archivo o cambiar de rama, el
+     * nombre cambia, la tienda genera el paquete nuevo y el navegador lo descarga.
+     */
+    private function fingerprintAssets(): void
+    {
+        $roots = [
+            _PS_THEME_DIR_ . 'assets',
+            _PS_MODULE_DIR_ . 'zementcommerce/views',
+            _PS_MODULE_DIR_ . 'zementhome/views',
+        ];
+        $files = ['css' => [], 'js' => []];
+
+        foreach ($roots as $root) {
+            if (!is_dir($root)) {
+                continue;
+            }
+            $iterator = new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS)
+            );
+            foreach ($iterator as $file) {
+                $extension = $file->getExtension();
+                if (isset($files[$extension]) && !str_contains($file->getPathname(), '/assets/cache/')) {
+                    $files[$extension][] = $file->getPathname() . ':' . $file->getMTime() . ':' . $file->getSize();
+                }
+            }
+        }
+
+        foreach (['css' => 'PS_CCCCSS_VERSION', 'js' => 'PS_CCCJS_VERSION'] as $extension => $key) {
+            sort($files[$extension]);
+            $base = (string) Configuration::get($key);
+            // Solo en esta petición (no se guarda): se conserva el número del back office delante.
+            Configuration::set($key, $base . '-' . substr(sha1(implode('|', $files[$extension])), 0, 8));
+        }
     }
 
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */
