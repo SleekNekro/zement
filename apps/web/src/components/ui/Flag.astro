@@ -1,0 +1,37 @@
+---
+/**
+ * Bandera de un idioma (selector de idioma). Decorativa: el nombre o el código del idioma va
+ * siempre al lado en texto. Mismos archivos que la tienda (paquete de tokens). Va como <img> y no
+ * en línea para no repetir los id del SVG (la del Reino Unido usa un clipPath).
+ */
+import de from '@zement/design-tokens/flags/de.svg?url';
+import en from '@zement/design-tokens/flags/en.svg?url';
+import es from '@zement/design-tokens/flags/es.svg?url';
+import fi from '@zement/design-tokens/flags/fi.svg?url';
+import fr from '@zement/design-tokens/flags/fr.svg?url';
+import it from '@zement/design-tokens/flags/it.svg?url';
+import no from '@zement/design-tokens/flags/no.svg?url';
+import pl from '@zement/design-tokens/flags/pl.svg?url';
+import type { Locale } from '../../i18n/locales';
+
+const flags: Record<Locale, string> = { es, en, de, fr, it, pl, no, fi };
+
+interface Props {
+  code: Locale;
+  class?: string;
+}
+
+const { code, class: className } = Astro.props;
+---
+
+<img
+  class:list={[
+    'h-3 w-[1.125rem] shrink-0 object-cover outline -outline-offset-1 outline-current/25',
+    className,
+  ]}
+  src={flags[code]}
+  alt=""
+  width="18"
+  height="12"
+  decoding="async"
+/>

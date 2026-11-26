@@ -4,6 +4,7 @@ import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
 import Arrow from '../ui/Arrow.astro';
 import LanguageMenu from './LanguageMenu.astro';
+import Flag from '../ui/Flag.astro';
 import { locales } from '../../i18n/locales';
 import Logo from '../ui/Logo.astro';
 
@@ -140,7 +141,7 @@ const links = [
                   <li>
                     <a
                       class:list={[
-                        'label flex min-h-11 items-center justify-center border no-underline',
+                        'label flex min-h-11 items-center justify-center gap-2 border no-underline',
                         code === locale ? 'border-paper text-paper' : 'border-line-dark text-sand',
                       ]}
                       href={alternates[code]}
@@ -148,6 +149,7 @@ const links = [
                       lang={code}
                       aria-current={code === locale ? 'page' : undefined}
                     >
+                      <Flag code={code} />
                       {code}
                     </a>
                   </li>
