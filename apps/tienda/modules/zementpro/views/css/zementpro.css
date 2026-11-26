@@ -23,6 +23,11 @@
   margin: 0;
 }
 
+.zm-pro-status__text + .zm-pro-status__link {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 .zm-pro-status__link {
   color: var(--zm-color-navy, #2d4f70);
   font-weight: 500;

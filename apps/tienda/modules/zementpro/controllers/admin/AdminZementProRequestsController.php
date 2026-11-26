@@ -2,7 +2,8 @@
 
 /**
  * Panel → Clientes → Solicitudes profesionales: lista de solicitudes (las pendientes primero) con
- * los datos de empresa del cliente, y acciones para aprobar (pasa al grupo y avisa) o rechazar.
+ * los datos de empresa del cliente, y acciones para aprobar (pasa al grupo y avisa), rechazar y
+ * retirar una cuenta ya aprobada (vuelve a los precios públicos y avisa).
  */
 
 declare(strict_types=1);
@@ -31,7 +32,7 @@ class AdminZementProRequestsController extends ModuleAdminController
         parent::__construct();
 
         $this->_select = 'c.`firstname`, c.`lastname`, c.`email`, c.`company`, c.`siret`,
-            (CASE a.`status` WHEN "pending" THEN 0 WHEN "approved" THEN 1 ELSE 2 END) AS `status_order`';
+            (CASE a.`status` WHEN "pending" THEN 0 WHEN "approved" THEN 1 WHEN "revoked" THEN 2 ELSE 3 END) AS `status_order`';
         $this->_join = 'LEFT JOIN `' . _DB_PREFIX_ . 'customer` c ON (c.`id_customer` = a.`id_customer`)';
         $this->_defaultOrderBy = 'status_order';
         $this->_defaultOrderWay = 'ASC';
@@ -40,6 +41,7 @@ class AdminZementProRequestsController extends ModuleAdminController
             ZementProRequest::PENDING => 'En revisión',
             ZementProRequest::APPROVED => 'Aprobada',
             ZementProRequest::REJECTED => 'Rechazada',
+            ZementProRequest::REVOKED => 'Retirada',
         ];
         $types = ['distributor' => 'Distribuidor', 'applicator' => 'Aplicador'];
 
@@ -69,6 +71,7 @@ class AdminZementProRequestsController extends ModuleAdminController
 
         $this->addRowAction('approve');
         $this->addRowAction('reject');
+        $this->addRowAction('revoke');
     }
 
     public function initProcess(): void
@@ -79,6 +82,8 @@ class AdminZementProRequestsController extends ModuleAdminController
             $this->action = 'approve';
         } elseif (Tools::getIsset('reject' . $this->table)) {
             $this->action = 'reject';
+        } elseif (Tools::getIsset('revoke' . $this->table)) {
+            $this->action = 'revoke';
         }
     }
 
@@ -92,6 +97,11 @@ class AdminZementProRequestsController extends ModuleAdminController
         $this->decide('reject');
     }
 
+    public function processRevoke(): void
+    {
+        $this->decide('revoke');
+    }
+
     private function decide(string $decision): void
     {
         $request = $this->loadObject();
@@ -99,20 +109,29 @@ class AdminZementProRequestsController extends ModuleAdminController
             return;
         }
 
-        if ($request->status === ZementProRequest::APPROVED) {
-            $this->errors[] = 'Esta solicitud ya está aprobada.';
+        // Cada acción solo tiene sentido desde ciertos estados (los botones ya se ocultan).
+        $allowed = [
+            'approve' => [ZementProRequest::PENDING, ZementProRequest::REJECTED, ZementProRequest::REVOKED],
+            'reject' => [ZementProRequest::PENDING],
+            'revoke' => [ZementProRequest::APPROVED],
+        ];
+        if (!in_array($request->status, $allowed[$decision], true)) {
+            $this->errors[] = 'Esta acción no se puede aplicar a una solicitud en este estado.';
 
             return;
         }
 
-        $ok = $decision === 'approve'
-            ? $this->module->approve($request, (int) $this->context->employee->id)
-            : $this->module->reject($request, (int) $this->context->employee->id);
+        $idEmployee = (int) $this->context->employee->id;
+        $ok = match ($decision) {
+            'approve' => $this->module->approve($request, $idEmployee),
+            'reject' => $this->module->reject($request, $idEmployee),
+            'revoke' => $this->module->revoke($request, $idEmployee),
+        };
 
         if (!$ok) {
             $this->errors[] = $decision === 'approve'
                 ? 'No se ha podido aprobar: revise que el cliente existe y que los grupos están configurados (pnpm tienda:pro).'
-                : 'No se ha podido rechazar: el cliente ya no existe.';
+                : 'No se ha podido completar: el cliente ya no existe.';
 
             return;
         }
@@ -120,7 +139,7 @@ class AdminZementProRequestsController extends ModuleAdminController
         $this->redirect_after = self::$currentIndex . '&conf=4&token=' . $this->token;
     }
 
-    /** Aprobar: solo en las solicitudes que no estén ya aprobadas. */
+    /** Aprobar: en revisión, rechazadas o retiradas. */
     public function displayApproveLink(?string $token, int $id): string
     {
         return $this->actionLink($id, 'approve', 'Aprobar', 'icon-check', ZementProRequest::APPROVED);
@@ -129,7 +148,13 @@ class AdminZementProRequestsController extends ModuleAdminController
     /** Rechazar: solo en las que estén en revisión. */
     public function displayRejectLink(?string $token, int $id): string
     {
-        return $this->actionLink($id, 'reject', 'Rechazar', 'icon-remove', ZementProRequest::REJECTED, ZementProRequest::APPROVED);
+        return $this->actionLink($id, 'reject', 'Rechazar', 'icon-remove', ZementProRequest::APPROVED, ZementProRequest::REJECTED, ZementProRequest::REVOKED);
+    }
+
+    /** Retirar: solo en las aprobadas (el cliente vuelve a los precios públicos). */
+    public function displayRevokeLink(?string $token, int $id): string
+    {
+        return $this->actionLink($id, 'revoke', 'Retirar', 'icon-ban', ZementProRequest::PENDING, ZementProRequest::REJECTED, ZementProRequest::REVOKED);
     }
 
     private function actionLink(int $id, string $action, string $label, string $icon, string ...$hiddenFor): string
@@ -157,6 +182,7 @@ class AdminZementProRequestsController extends ModuleAdminController
             ZementProRequest::PENDING => ['En revisión', 'warning'],
             ZementProRequest::APPROVED => ['Aprobada', 'success'],
             ZementProRequest::REJECTED => ['Rechazada', 'danger'],
+            ZementProRequest::REVOKED => ['Retirada', 'default'],
         ];
         [$label, $class] = $labels[$status] ?? [(string) $status, 'default'];
 

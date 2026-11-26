@@ -26,8 +26,10 @@ final class ZementProStrings
             'statusApproved' => 'Cuenta profesional activa: %s. Los precios que ve son su tarifa, sin IVA.',
             'statusRejected' => 'No hemos podido activar su cuenta profesional. Escríbanos si necesita más información.',
             'statusNone' => '¿Es profesional? Solicite su tarifa',
+            'statusRevoked' => 'Su cuenta profesional ya no está activa y ve los precios públicos. Escríbanos si necesita más información.',
             'mailApproved' => 'Su cuenta profesional de Zement está activa',
             'mailRejected' => 'Su solicitud de cuenta profesional en Zement',
+            'mailRevoked' => 'Su cuenta profesional de Zement ya no está activa',
         ],
         'en' => [
             'pro' => "I'm a professional: show me my trade prices excluding VAT",
@@ -44,8 +46,10 @@ final class ZementProStrings
             'statusApproved' => 'Professional account active: %s. The prices you see are your trade prices, excluding VAT.',
             'statusRejected' => 'We could not activate your professional account. Write to us if you need more information.',
             'statusNone' => 'Are you a professional? Request your trade prices',
+            'statusRevoked' => 'Your professional account is no longer active and you see public prices. Write to us if you need more information.',
             'mailApproved' => 'Your Zement professional account is active',
             'mailRejected' => 'Your Zement professional account request',
+            'mailRevoked' => 'Your Zement professional account is no longer active',
         ],
         'de' => [
             'pro' => 'Ich bin Profi: Ich möchte meine Preise ohne MwSt. sehen',
@@ -62,8 +66,10 @@ final class ZementProStrings
             'statusApproved' => 'Profikonto aktiv: %s. Die angezeigten Preise sind Ihre Preise ohne MwSt.',
             'statusRejected' => 'Wir konnten Ihr Profikonto nicht freischalten. Schreiben Sie uns, wenn Sie weitere Informationen benötigen.',
             'statusNone' => 'Sind Sie Profi? Fordern Sie Ihre Preise an',
+            'statusRevoked' => 'Ihr Profikonto ist nicht mehr aktiv; Sie sehen die öffentlichen Preise. Schreiben Sie uns, wenn Sie weitere Informationen benötigen.',
             'mailApproved' => 'Ihr Zement-Profikonto ist aktiv',
             'mailRejected' => 'Ihre Anfrage für ein Zement-Profikonto',
+            'mailRevoked' => 'Ihr Zement-Profikonto ist nicht mehr aktiv',
         ],
         'fr' => [
             'pro' => 'Je suis professionnel : je veux voir mes tarifs HT',
@@ -80,8 +86,10 @@ final class ZementProStrings
             'statusApproved' => 'Compte professionnel actif : %s. Les prix affichés sont vos tarifs, hors TVA.',
             'statusRejected' => 'Nous n’avons pas pu activer votre compte professionnel. Écrivez-nous si vous avez besoin de plus d’informations.',
             'statusNone' => 'Vous êtes professionnel ? Demandez vos tarifs',
+            'statusRevoked' => 'Votre compte professionnel n’est plus actif et vous voyez les prix publics. Écrivez-nous si vous avez besoin de plus d’informations.',
             'mailApproved' => 'Votre compte professionnel Zement est actif',
             'mailRejected' => 'Votre demande de compte professionnel Zement',
+            'mailRevoked' => 'Votre compte professionnel Zement n’est plus actif',
         ],
         'it' => [
             'pro' => 'Sono un professionista: voglio vedere i miei prezzi IVA esclusa',
@@ -98,8 +106,10 @@ final class ZementProStrings
             'statusApproved' => 'Account professionale attivo: %s. I prezzi che vede sono i suoi prezzi, IVA esclusa.',
             'statusRejected' => 'Non abbiamo potuto attivare il suo account professionale. Ci scriva se ha bisogno di maggiori informazioni.',
             'statusNone' => 'È un professionista? Richieda i suoi prezzi',
+            'statusRevoked' => 'Il suo account professionale non è più attivo e vede i prezzi al pubblico. Ci scriva se ha bisogno di maggiori informazioni.',
             'mailApproved' => 'Il suo account professionale Zement è attivo',
             'mailRejected' => 'La sua richiesta di account professionale Zement',
+            'mailRevoked' => 'Il suo account professionale Zement non è più attivo',
         ],
         'pl' => [
             'pro' => 'Jestem profesjonalistą: chcę widzieć moje ceny netto',
@@ -116,8 +126,10 @@ final class ZementProStrings
             'statusApproved' => 'Konto profesjonalne aktywne: %s. Widoczne ceny to Państwa ceny netto.',
             'statusRejected' => 'Nie mogliśmy aktywować konta profesjonalnego. Prosimy o kontakt, jeśli potrzebują Państwo więcej informacji.',
             'statusNone' => 'Są Państwo profesjonalistą? Poproś o swoje ceny',
+            'statusRevoked' => 'Konto profesjonalne nie jest już aktywne i widzą Państwo ceny detaliczne. Prosimy o kontakt, jeśli potrzebują Państwo więcej informacji.',
             'mailApproved' => 'Państwa konto profesjonalne Zement jest aktywne',
             'mailRejected' => 'Wniosek o konto profesjonalne Zement',
+            'mailRevoked' => 'Państwa konto profesjonalne Zement nie jest już aktywne',
         ],
         'no' => [
             'pro' => 'Jeg er profesjonell: jeg vil se mine priser eks. mva.',
@@ -134,8 +146,10 @@ final class ZementProStrings
             'statusApproved' => 'Profesjonell konto aktiv: %s. Prisene du ser er dine priser eks. mva.',
             'statusRejected' => 'Vi kunne ikke aktivere den profesjonelle kontoen din. Skriv til oss hvis du trenger mer informasjon.',
             'statusNone' => 'Er du profesjonell? Be om dine priser',
+            'statusRevoked' => 'Den profesjonelle kontoen din er ikke lenger aktiv, og du ser veiledende priser. Skriv til oss hvis du trenger mer informasjon.',
             'mailApproved' => 'Din profesjonelle Zement-konto er aktiv',
             'mailRejected' => 'Din forespørsel om profesjonell Zement-konto',
+            'mailRevoked' => 'Din profesjonelle Zement-konto er ikke lenger aktiv',
         ],
         'fi' => [
             'pro' => 'Olen ammattilainen: haluan nähdä hintani ilman arvonlisäveroa',
@@ -152,8 +166,10 @@ final class ZementProStrings
             'statusApproved' => 'Ammattilaistili käytössä: %s. Näkemäsi hinnat ovat hintojasi ilman arvonlisäveroa.',
             'statusRejected' => 'Emme voineet ottaa ammattilaistiliäsi käyttöön. Kirjoita meille, jos tarvitset lisätietoja.',
             'statusNone' => 'Oletko ammattilainen? Pyydä hintasi',
+            'statusRevoked' => 'Ammattilaistilisi ei ole enää käytössä, ja näet kuluttajahinnat. Kirjoita meille, jos tarvitset lisätietoja.',
             'mailApproved' => 'Zement-ammattilaistilisi on käytössä',
             'mailRejected' => 'Zement-ammattilaistilin pyyntösi',
+            'mailRevoked' => 'Zement-ammattilaistilisi ei ole enää käytössä',
         ],
     ];
 

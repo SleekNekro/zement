@@ -84,8 +84,8 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - Módulo propio [`zementpro`](../modules/zementpro/). Se instala con `pnpm tienda:pro`, después de `pnpm tienda:commerce` (que crea los grupos Distribuidor y Aplicador con precio sin IVA).
 - **Alta:** en el registro, «Soy profesional» con el tipo, la razón social y el CIF / NIF-IVA (obligatorios si se marca). También desde «Información» de la cuenta.
 - **Solicitud:** queda en revisión y el cliente compra con precios públicos. La tienda recibe un aviso en su correo (`PS_SHOP_EMAIL`).
-- **Panel → Clientes → Solicitudes profesionales:** aprobar pasa al cliente a su grupo y le escribe en su idioma; rechazar también le avisa.
-- **Mi cuenta:** estado de la cuenta profesional, o enlace para pedirla.
+- **Panel → Clientes → Solicitudes profesionales:** aprobar pasa al cliente a su grupo y le escribe en su idioma; rechazar también le avisa; retirar devuelve una cuenta aprobada a los precios públicos y le avisa (se puede volver a aprobar).
+- **Mi cuenta:** el estado sale del grupo real del cliente; si se cambia el grupo a mano en la ficha, también cuadra.
 - **Descuento de cada grupo:** [`pro.php`](pro.php) (TODO: tarifa real; mientras sea `null`, no se toca).
 
 ## Herramientas de venta (fase 1 de la auditoría comercial)

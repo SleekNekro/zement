@@ -1,0 +1,7 @@
+Bonjour {firstname},
+
+Votre compte professionnel n’est plus actif. Désormais, vous verrez les prix publics dans la boutique.
+
+Si vous pensez qu’il s’agit d’une erreur ou souhaitez en refaire la demande, répondez à cet e-mail ou écrivez à {contact_email}.
+
+Zement

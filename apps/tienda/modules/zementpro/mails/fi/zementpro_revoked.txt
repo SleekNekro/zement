@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Ammattilaistilisi ei ole enää käytössä. Tästä lähtien näet verkkokaupassa kuluttajahinnat.
+
+Jos uskot tämän olevan virhe tai haluat hakea uudelleen, vastaa tähän viestiin tai kirjoita osoitteeseen {contact_email}.
+
+Zement

@@ -1,0 +1,7 @@
+Dzień dobry {firstname},
+
+Konto profesjonalne nie jest już aktywne. Od teraz w sklepie będą widoczne ceny detaliczne.
+
+Jeśli uważają Państwo, że to pomyłka, lub chcą ponownie złożyć wniosek, prosimy odpowiedzieć na tę wiadomość lub napisać na {contact_email}.
+
+Zement

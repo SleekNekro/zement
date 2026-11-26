@@ -8,8 +8,10 @@
  * - Cada alta profesional queda como solicitud en revisión; el cliente compra con precios públicos
  *   hasta que se aprueba. Aviso por correo a la tienda (PS_SHOP_EMAIL).
  * - Panel → Clientes → Solicitudes profesionales: aprobar pasa al cliente a su grupo (tarifa sin
- *   IVA) y le escribe en su idioma; rechazar también le avisa.
- * - «Mi cuenta» muestra el estado de la cuenta profesional.
+ *   IVA) y le escribe en su idioma; rechazar también le avisa; retirar devuelve una cuenta aprobada
+ *   a los precios públicos y le avisa.
+ * - «Mi cuenta» muestra el estado de la cuenta profesional según el grupo real del cliente (si se
+ *   cambia el grupo a mano en la ficha del cliente, también cuadra).
  *
  * Grupos y descuentos: config/pro.php, aplicados con `pnpm tienda:pro` (guarda ZEMENT_PRO_GROUPS).
  */
@@ -224,7 +226,20 @@ class ZementPro extends Module
 
         $request = ZementProRequest::forCustomer($idCustomer);
 
-        return $request === null || $request->status === ZementProRequest::REJECTED;
+        // Se puede volver a pedir tras un rechazo o una retirada, o si ya no está en su grupo.
+        return $request === null
+            || in_array($request->status, [ZementProRequest::REJECTED, ZementProRequest::REVOKED], true)
+            || ($request->status === ZementProRequest::APPROVED && $this->proTypeOf($idCustomer) === null);
+    }
+
+    /** Tipo profesional del grupo por defecto del cliente (su tarifa real), o null si no es profesional. */
+    private function proTypeOf(int $idCustomer): ?string
+    {
+        $idGroup = (int) Customer::getDefaultGroupId($idCustomer);
+        $groups = json_decode((string) Configuration::get('ZEMENT_PRO_GROUPS'), true) ?: [];
+        $type = array_search($idGroup, array_map('intval', $groups), true);
+
+        return $type === false ? null : (string) $type;
     }
 
     /* ---------- Mi cuenta ---------- */
@@ -234,24 +249,31 @@ class ZementPro extends Module
         $customer = $this->context->customer;
         $strings = $this->strings();
         $request = ZementProRequest::forCustomer((int) $customer->id);
+        // Lo que manda es el grupo real del cliente (la tarifa que ve), no solo la solicitud.
+        $proType = $this->proTypeOf((int) $customer->id);
 
-        if ($request === null) {
-            $status = 'none';
-            $text = $strings['statusNone'];
-        } elseif ($request->status === ZementProRequest::APPROVED) {
+        if ($proType !== null) {
             $status = 'approved';
-            $text = sprintf($strings['statusApproved'], $strings[$request->type] ?? $request->type);
-        } elseif ($request->status === ZementProRequest::REJECTED) {
-            $status = 'rejected';
-            $text = $strings['statusRejected'];
-        } else {
+            $text = sprintf($strings['statusApproved'], $strings[$proType] ?? $proType);
+        } elseif ($request?->status === ZementProRequest::PENDING) {
             $status = 'pending';
             $text = $strings['statusPending'];
+        } elseif ($request?->status === ZementProRequest::REJECTED) {
+            $status = 'rejected';
+            $text = $strings['statusRejected'];
+        } elseif ($request !== null) {
+            // Retirada desde el panel, o aprobada y cambiada de grupo a mano en la ficha.
+            $status = 'revoked';
+            $text = $strings['statusRevoked'];
+        } else {
+            $status = 'none';
+            $text = $strings['statusNone'];
         }
 
         $this->context->smarty->assign([
             'zementProStatus' => $status,
             'zementProText' => $text,
+            'zementProAgain' => $strings['statusNone'],
             'zementProUrl' => $this->context->link->getPageLink('identity'),
         ]);
 
@@ -324,6 +346,30 @@ class ZementPro extends Module
         $request->update();
 
         $this->mailCustomer($customer, 'zementpro_rejected', 'mailRejected');
+
+        return true;
+    }
+
+    /** Retira una cuenta aprobada: el cliente vuelve al grupo de clientes (precios públicos). */
+    public function revoke(ZementProRequest $request, int $idEmployee): bool
+    {
+        $customer = new Customer((int) $request->id_customer);
+        $idCustomerGroup = (int) Configuration::get('PS_CUSTOMER_GROUP');
+        if (!Validate::isLoadedObject($customer) || !$idCustomerGroup) {
+            return false;
+        }
+
+        $customer->id_default_group = $idCustomerGroup;
+        if (!$customer->update()) {
+            return false;
+        }
+        $customer->updateGroup([$idCustomerGroup]);
+
+        $request->status = ZementProRequest::REVOKED;
+        $request->id_employee = $idEmployee;
+        $request->update();
+
+        $this->mailCustomer($customer, 'zementpro_revoked', 'mailRevoked');
 
         return true;
     }

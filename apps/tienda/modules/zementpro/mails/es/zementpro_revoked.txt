@@ -1,0 +1,7 @@
+Hola {firstname}:
+
+Su cuenta profesional ya no está activa. A partir de ahora verá en la tienda los precios públicos.
+
+Si cree que es un error o quiere volver a solicitarla, responda a este correo o escríbanos a {contact_email}.
+
+Zement

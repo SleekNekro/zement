@@ -1,0 +1,7 @@
+Hello {firstname},
+
+Your professional account is no longer active. From now on you will see public prices in the shop.
+
+If you think this is a mistake or would like to apply again, reply to this email or write to {contact_email}.
+
+Zement

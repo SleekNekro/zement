@@ -1,0 +1,7 @@
+Hallo {firstname},
+
+Ihr Profikonto ist nicht mehr aktiv. Ab sofort sehen Sie im Shop die öffentlichen Preise.
+
+Wenn Sie glauben, dass es sich um einen Fehler handelt, oder es erneut beantragen möchten, antworten Sie auf diese E-Mail oder schreiben Sie an {contact_email}.
+
+Zement

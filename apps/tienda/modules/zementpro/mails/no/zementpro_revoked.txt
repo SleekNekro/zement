@@ -1,0 +1,7 @@
+Hei {firstname},
+
+Den profesjonelle kontoen din er ikke lenger aktiv. Fra nå av ser du veiledende priser i nettbutikken.
+
+Hvis du mener dette er en feil eller vil søke på nytt, svar på denne e-posten eller skriv til {contact_email}.
+
+Zement

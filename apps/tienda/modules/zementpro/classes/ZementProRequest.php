@@ -2,7 +2,8 @@
 
 /**
  * Solicitud de cuenta profesional: un cliente pide pasar al grupo Distribuidor o Aplicador.
- * Estados: pending (en revisión), approved (grupo activado) y rejected.
+ * Estados: pending (en revisión), approved (grupo activado), rejected y revoked (aprobada y
+ * retirada después: el cliente vuelve a los precios públicos).
  */
 
 declare(strict_types=1);
@@ -16,6 +17,7 @@ class ZementProRequest extends ObjectModel
     public const PENDING = 'pending';
     public const APPROVED = 'approved';
     public const REJECTED = 'rejected';
+    public const REVOKED = 'revoked';
 
     /** Tipos de cuenta profesional (clave interna → grupo en config/pro.php). */
     public const TYPES = ['distributor', 'applicator'];
@@ -26,7 +28,7 @@ class ZementProRequest extends ObjectModel
     /** @var string distributor | applicator */
     public $type;
 
-    /** @var string pending | approved | rejected */
+    /** @var string pending | approved | rejected | revoked */
     public $status = self::PENDING;
 
     /** @var int Empleado que aprobó o rechazó (0 mientras está en revisión) */

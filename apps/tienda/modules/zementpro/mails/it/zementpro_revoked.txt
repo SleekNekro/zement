@@ -1,0 +1,7 @@
+Buongiorno {firstname},
+
+Il suo account professionale non è più attivo. D’ora in poi vedrà nel negozio i prezzi al pubblico.
+
+Se pensa che si tratti di un errore o desidera richiederlo di nuovo, risponda a questa e-mail o scriva a {contact_email}.
+
+Zement
