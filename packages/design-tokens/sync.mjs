@@ -16,6 +16,9 @@ await mkdir(themeImg, { recursive: true });
 for (const file of ['zement-logo-navy.svg', 'zement-favicon.svg', 'zement-touch-icon.png']) {
   await cp(new URL(`brand/${file}`, here), new URL(file, themeImg));
 }
+// Banderas del selector de idioma (las mismas que la web, que las importa del paquete).
+await rm(new URL('flags/', themeImg), { recursive: true, force: true });
+await cp(new URL('flags/', here), new URL('flags/', themeImg), { recursive: true });
 // Versión clara del logotipo para fondos oscuros (firma del pie de la tienda).
 const logo = await readFile(new URL('brand/zement-logo.svg', here), 'utf8');
 await writeFile(
@@ -27,5 +30,5 @@ const webPublic = new URL('../../apps/web/public/', import.meta.url);
 await mkdir(webPublic, { recursive: true });
 await cp(new URL('brand/zement-touch-icon.png', here), new URL('apple-touch-icon.png', webPublic));
 console.log(
-  'Tokens, tipografías y logotipo copiados a apps/web/public y al tema de la tienda (assets/css e img)',
+  'Tokens, tipografías, logotipo y banderas copiados a apps/web/public y al tema de la tienda (assets/css e img)',
 );

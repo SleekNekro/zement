@@ -8,7 +8,8 @@
     "./tokens.css": "./tokens.css",
     "./fonts.css": "./fonts.css",
     "./fonts/*": "./fonts/*",
-    "./brand/*": "./brand/*"
+    "./brand/*": "./brand/*",
+    "./flags/*": "./flags/*"
   },
   "scripts": {
     "sync": "node sync.mjs"
