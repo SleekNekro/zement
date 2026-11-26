@@ -21,13 +21,14 @@ const { locale, system, text } = Astro.props;
       <span class="block">{text.ctaTitle[0]} </span>
       <span class="block font-semibold">{text.ctaTitle[1]}</span>
     </h2>
-    <div class="grid gap-8 lg:col-span-5">
+    <div class="grid min-w-0 gap-8 lg:col-span-5">
       <p class="text-paper/75">{text.ctaText}</p>
       <div class="flex flex-wrap gap-3">
         <Button
           href={system.buyHref}
           variant="solid-light"
           arrow="out"
+          class="whitespace-normal"
         >
           {text.buySystem}
           <span class="sr-only"> {t(locale, 'nav.external')}</span>
@@ -36,6 +37,7 @@ const { locale, system, text } = Astro.props;
           href={localePath(locale, '/?interes=application#contacto')}
           variant="outline-light"
           arrow="next"
+          class="whitespace-normal"
         >
           {text.quote}
         </Button>

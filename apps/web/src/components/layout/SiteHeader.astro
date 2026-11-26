@@ -14,8 +14,15 @@ interface Props {
 }
 
 const { locale, alternates } = Astro.props;
+const systemsPath = systemsIndexPath(locale);
+// «Sistema» se marca como sección actual en el índice y en cada página de sistema.
+const systemsCurrent: 'page' | 'true' | undefined = Astro.url.pathname.startsWith(systemsPath)
+  ? Astro.url.pathname === systemsPath
+    ? 'page'
+    : 'true'
+  : undefined;
 const links = [
-  { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
+  { href: systemsPath, label: t(locale, 'nav.system'), current: systemsCurrent },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
   { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },
@@ -37,7 +44,7 @@ const links = [
     <a
       data-menu-behind
       href={localePath(locale, '/')}
-      class="flex min-w-0 shrink flex-col text-current no-underline"
+      class="flex min-h-11 min-w-0 shrink flex-col justify-center text-current no-underline"
       aria-label="Zement"
     >
       <Logo
@@ -57,8 +64,9 @@ const links = [
         {links.map((link) => (
           <li>
             <a
-              class="relative whitespace-nowrap text-current no-underline after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-(--zm-duration) hover:after:origin-left hover:after:scale-x-100"
+              class="relative inline-block py-1.5 whitespace-nowrap text-current no-underline after:absolute after:bottom-0.5 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-(--zm-duration) hover:after:origin-left hover:after:scale-x-100 aria-[current]:after:scale-x-100"
               href={link.href}
+              aria-current={link.current}
             >
               {link.label}
             </a>
@@ -101,8 +109,9 @@ const links = [
               {links.map((link) => (
                 <li class="border-line-dark border-t">
                   <a
-                    class="display flex items-baseline gap-5 py-5 text-3xl no-underline"
+                    class="display flex items-baseline gap-5 py-5 text-3xl no-underline aria-[current]:underline aria-[current]:decoration-1 aria-[current]:underline-offset-8"
                     href={link.href}
+                    aria-current={link.current}
                   >
                     {link.label}
                   </a>
