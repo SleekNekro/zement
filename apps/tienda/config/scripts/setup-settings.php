@@ -109,6 +109,10 @@ Configuration::updateValue('PS_CUSTOMER_OPTIN', 0);
 Configuration::updateValue('PS_NB_DAYS_NEW_PRODUCT', 0);
 echo "· sin «ofertas de socios» ni sello «Nuevo»\n";
 
+// Familias enteras en una página: los filtros rápidos del listado filtran en el navegador.
+Configuration::updateValue('PS_PRODUCTS_PER_PAGE', 48);
+echo "· 48 productos por página\n";
+
 $reassurance = Module::getInstanceByName('blockreassurance');
 if ($reassurance instanceof Module && $reassurance->isRegisteredInHook('displayReassurance')) {
     $reassurance->unregisterHook('displayReassurance');

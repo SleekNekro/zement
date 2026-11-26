@@ -1,12 +1,15 @@
 {
-  "$comment": "Datos comerciales de la tienda sacados de las fichas técnicas (nada inventado: cada cifra lleva la frase de la ficha en «source»). Los usa el módulo zementcommerce (calculadora, «Complete su sistema», productos relacionados, asesor de proyecto). Tras cambiarlo: python3 apps/tienda/catalog/scripts/build_commerce.py y pnpm tienda:commerce. Calculadora: rate = consumo por m² (por capa en mode «coats», por mm en «thickness», total en «area»), en la unidad de rateUnit; pack = envase; density convierte kg ↔ L. Cuando la ficha da un intervalo se toma el valor que pide más producto.",
+  "$comment": "Datos comerciales de la tienda sacados de las fichas técnicas (nada inventado: cada cifra lleva la frase de la ficha en «source»). Los usa el módulo zementcommerce (calculadora, «Complete su sistema», productos relacionados, asesor de proyecto). Tras cambiarlo: python3 apps/tienda/catalog/scripts/build_commerce.py y pnpm tienda:commerce. Calculadora: rate = consumo por m² (por capa en mode «coats», por mm en «thickness», total en «area»), en la unidad de rateUnit; pack = envase; density convierte kg ↔ L. Cuando la ficha da un intervalo se toma el valor que pide más producto. «packs» (opcional): un envase por formato, en el mismo orden que «formats» en catalog.json; la calculadora usa el del formato elegido.",
   "calculator": {
     "basis-0-4-aqua-mix": {
       "mode": "coats",
       "rate": 0.9,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Basis: 0,9 kg por capa y m² (según soporte) · Cubo de 20 kg"
     },
     "basis-grob-0-6-aqua-mix": {
@@ -14,7 +17,10 @@
       "rate": 1.2,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Basis Grob: 1,2 kg por capa y m² (según soporte) · Cubo de 20 kg"
     },
     "mittel-0-2-aqua-mix": {
@@ -22,7 +28,10 @@
       "rate": 0.5,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Mittel: 0,3 a 0,5 kg por capa y m² (según soporte) · Cubo de 20 kg"
     },
     "fein-0-02-0-06-aqua-mix": {
@@ -30,7 +39,10 @@
       "rate": 0.3,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 15, "unit": "kg" },
+      "pack": {
+        "size": 15,
+        "unit": "kg"
+      },
       "source": "Fein: 0,3 kg por capa y m² (según soporte) · Cubo de 15 kg"
     },
     "basis-direkt-1k": {
@@ -38,7 +50,10 @@
       "rate": 0.9,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Aplicar 2 capas · Consumo aproximado: 0,9 kg por capa y m² · Cubo de 20 kg"
     },
     "mittel-direkt-1k": {
@@ -46,7 +61,10 @@
       "rate": 0.5,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Aplicar 2 capas · Consumo aproximado: 0,5 kg por capa y m² · Cubo de 20 kg"
     },
     "fein-direkt-1k": {
@@ -54,28 +72,40 @@
       "rate": 0.3,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 15, "unit": "kg" },
+      "pack": {
+        "size": 15,
+        "unit": "kg"
+      },
       "source": "Aplicar 2 capas finas · Consumo aproximado: 0,3 kg por capa y m² · Cubo de 15 kg"
     },
     "basis-direkt-2k": {
       "mode": "area",
       "rate": 1.5,
       "rateUnit": "kg",
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Consumo aproximado: 1 a 1,5 kg/m² (1 o 2 capas) · Cubo de 19 kg + botella de 1 kg"
     },
     "mittel-direkt-2k": {
       "mode": "area",
       "rate": 0.7,
       "rateUnit": "kg",
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Consumo aproximado: 700 g/m² · Cubo de 19 kg + botella de 1 kg"
     },
     "fein-direkt-2k": {
       "mode": "area",
       "rate": 0.5,
       "rateUnit": "kg",
-      "pack": { "size": 15, "unit": "kg" },
+      "pack": {
+        "size": 15,
+        "unit": "kg"
+      },
       "source": "Consumo aproximado: 400 a 500 g/m² · Cubo de 14 kg + botella de 1 kg"
     },
     "fein-direkt-level-2k": {
@@ -83,7 +113,10 @@
       "rate": 1.5,
       "rateUnit": "kg",
       "thickness": 1,
-      "pack": { "size": 15, "unit": "kg" },
+      "pack": {
+        "size": 15,
+        "unit": "kg"
+      },
       "source": "Consumo: 1,5 kg/m² por mm de espesor · Espesor por capa: 1 a 3 mm · Cubo de 14 kg + botella de 1 kg"
     },
     "mittel-direkt-level-2k": {
@@ -91,7 +124,10 @@
       "rate": 1.5,
       "rateUnit": "kg",
       "thickness": 2,
-      "pack": { "size": 20, "unit": "kg" },
+      "pack": {
+        "size": 20,
+        "unit": "kg"
+      },
       "source": "Consumo: 1,5 kg/m² por mm de espesor · Espesor por capa: 2 a 5 mm · Cubo de 19 kg + botella de 1 kg"
     },
     "fein-0-02-0-06-kork": {
@@ -99,7 +135,10 @@
       "rate": 0.9,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 12, "unit": "kg" },
+      "pack": {
+        "size": 12,
+        "unit": "kg"
+      },
       "source": "0,9 kg/m² por capa; 1,8 kg/m² en 2 capas · Cubo de 12 kg"
     },
     "mittel-0-2-kork": {
@@ -107,7 +146,10 @@
       "rate": 1.4,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 12, "unit": "kg" },
+      "pack": {
+        "size": 12,
+        "unit": "kg"
+      },
       "source": "1,4 kg/m² por capa; 2,8 kg/m² en 2 capas · Cubo de 12 kg"
     },
     "grob-3-4-mm-kork": {
@@ -115,7 +157,10 @@
       "rate": 3.0,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 12, "unit": "kg" },
+      "pack": {
+        "size": 12,
+        "unit": "kg"
+      },
       "source": "3,0 kg/m² por capa; 6,0 kg/m² en 2 capas · Cubo de 12 kg"
     },
     "zement-prime": {
@@ -124,8 +169,21 @@
       "rateUnit": "kg",
       "coats": 1,
       "density": 1.02,
-      "pack": { "size": 5, "unit": "L" },
-      "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L"
+      "pack": {
+        "size": 5,
+        "unit": "L"
+      },
+      "source": "Rendimiento: ca. 20 m²/kg · Aplicar en una capa uniforme · Densidad: ca. 1,02 g/cm³ · Garrafa de 5 L / 25 L",
+      "packs": [
+        {
+          "size": 5,
+          "unit": "L"
+        },
+        {
+          "size": 25,
+          "unit": "L"
+        }
+      ]
     },
     "zement-seal-pore": {
       "mode": "coats",
@@ -133,7 +191,10 @@
       "rateUnit": "kg",
       "coats": 1,
       "density": 1.03,
-      "pack": { "size": 5, "unit": "L" },
+      "pack": {
+        "size": 5,
+        "unit": "L"
+      },
       "source": "Rendimiento: 12-15 m²/kg · Peso específico: 1,03 g/cm³ · Garrafa de 5 L"
     },
     "protect-aqua-2k": {
@@ -141,7 +202,10 @@
       "rate": 0.125,
       "rateUnit": "kg",
       "coats": 2,
-      "pack": { "size": 4, "unit": "kg" },
+      "pack": {
+        "size": 4,
+        "unit": "kg"
+      },
       "source": "Rendimiento: 8-12 m²/kg · Si se aplica una segunda capa… · Componente A: 3 kg + B: 1 kg"
     },
     "zement-seal": {
@@ -149,14 +213,20 @@
       "rate": 0.4,
       "rateUnit": "kg",
       "coats": 1,
-      "pack": { "size": 4, "unit": "kg" },
+      "pack": {
+        "size": 4,
+        "unit": "kg"
+      },
       "source": "Consumo recomendado: 0,4 kg/m² por mano · Envases A+B: 2,5 + 1,5 kg"
     },
     "protect-sanitary-2k": {
       "mode": "area",
       "rate": 0.8,
       "rateUnit": "kg",
-      "pack": { "size": 5, "unit": "kg" },
+      "pack": {
+        "size": 5,
+        "unit": "kg"
+      },
       "source": "Aplicar 600-800 g/m² entre las dos capas · Componente A: 4 kg + B: 1 kg"
     },
     "protect-repel": {
@@ -164,7 +234,10 @@
       "rate": 0.2,
       "rateUnit": "kg",
       "coats": 1,
-      "pack": { "size": 5, "unit": "kg" },
+      "pack": {
+        "size": 5,
+        "unit": "kg"
+      },
       "source": "1 kg (listo al uso) cubre 5 a 25 m² por capa · Por lo general, una capa basta · Garrafa de 5 kg"
     },
     "zement-metallic": {
@@ -172,7 +245,10 @@
       "rate": 0.05,
       "rateUnit": "L",
       "coats": 1,
-      "pack": { "size": 5, "unit": "L" },
+      "pack": {
+        "size": 5,
+        "unit": "L"
+      },
       "source": "Rendimiento: 50 ml/m² de producto (según soporte) · Envases de 5 L"
     },
     "metallic-lasur": {
@@ -180,7 +256,10 @@
       "rate": 0.05,
       "rateUnit": "L",
       "coats": 1,
-      "pack": { "size": 5, "unit": "L" },
+      "pack": {
+        "size": 5,
+        "unit": "L"
+      },
       "source": "Rendimiento: 50 ml/m² de producto (según soporte) · Envases de 5 L"
     },
     "zement-repair-10": {
@@ -188,7 +267,10 @@
       "rate": 1.4,
       "rateUnit": "kg",
       "thickness": 3,
-      "pack": { "size": 25, "unit": "kg" },
+      "pack": {
+        "size": 25,
+        "unit": "kg"
+      },
       "source": "Rendimiento: 1,4 kg/mm/m² · Espesor final de 3-4 mm · Saco de 25 kg"
     },
     "zement-repair-20": {
@@ -196,7 +278,10 @@
       "rate": 1.4,
       "rateUnit": "kg",
       "thickness": 3,
-      "pack": { "size": 25, "unit": "kg" },
+      "pack": {
+        "size": 25,
+        "unit": "kg"
+      },
       "source": "Rendimiento: 1,4 kg/mm/m² · Espesor final mínimo de 3-4 mm · Saco de 25 kg"
     },
     "zement-repair-40": {
@@ -204,42 +289,60 @@
       "rate": 1.7,
       "rateUnit": "kg",
       "thickness": 3,
-      "pack": { "size": 25, "unit": "kg" },
+      "pack": {
+        "size": 25,
+        "unit": "kg"
+      },
       "source": "Rendimiento: 1,7 kg/mm/m² · Espesor final mínimo de 3-4 mm · Saco de 25 kg"
     },
     "zement-dune": {
       "mode": "area",
       "rate": 7.5,
       "rateUnit": "kg",
-      "pack": { "size": 25, "unit": "kg" },
+      "pack": {
+        "size": 25,
+        "unit": "kg"
+      },
       "source": "Rendimiento: aprox. 7,5 kg/m² de Zement Dune · Saco de 25 kg"
     },
     "zement-dune-fix": {
       "mode": "area",
       "rate": 0.525,
       "rateUnit": "kg",
-      "pack": { "size": 5, "unit": "kg" },
+      "pack": {
+        "size": 5,
+        "unit": "kg"
+      },
       "source": "Resina: un 7 % sobre el peso del árido (7,5 kg/m² de Zement Dune) · Envase de 5 kg"
     },
     "zement-quartz-sand": {
       "mode": "area",
       "rate": 0.25,
       "rateUnit": "kg",
-      "pack": { "size": 25, "unit": "kg" },
+      "pack": {
+        "size": 25,
+        "unit": "kg"
+      },
       "source": "Ficha de Zement Dune Fix: Zement Quartz Sand, 1 saco por 100 m² · Saco de 25 kg"
     },
     "malla-80g": {
       "mode": "area",
       "rate": 1,
       "rateUnit": "m²",
-      "pack": { "size": 50, "unit": "m²" },
+      "pack": {
+        "size": 50,
+        "unit": "m²"
+      },
       "source": "Rollo de 50 m × 1 m de ancho"
     },
     "malla-160g": {
       "mode": "area",
       "rate": 1,
       "rateUnit": "m²",
-      "pack": { "size": 50, "unit": "m²" },
+      "pack": {
+        "size": 50,
+        "unit": "m²"
+      },
       "source": "Rollo de 50 m × 1 m de ancho"
     }
   },
@@ -258,10 +361,22 @@
         "fi": "Mikrosementtijärjestelmä"
       },
       "steps": [
-        { "code": "Z.01", "product": "zement-prime" },
-        { "code": "Z.02", "product": "basis-0-4-aqua-mix" },
-        { "code": "Z.03", "product": "fein-0-02-0-06-aqua-mix" },
-        { "code": "Z.04", "product": "protect-aqua-2k" }
+        {
+          "code": "Z.01",
+          "product": "zement-prime"
+        },
+        {
+          "code": "Z.02",
+          "product": "basis-0-4-aqua-mix"
+        },
+        {
+          "code": "Z.03",
+          "product": "fein-0-02-0-06-aqua-mix"
+        },
+        {
+          "code": "Z.04",
+          "product": "protect-aqua-2k"
+        }
       ]
     },
     {
@@ -278,10 +393,22 @@
         "fi": "Hiekkapinnoite uima-altaisiin"
       },
       "steps": [
-        { "code": "1", "product": "zement-seal" },
-        { "code": "1", "product": "zement-quartz-sand" },
-        { "code": "2", "product": "zement-dune" },
-        { "code": "2", "product": "zement-dune-fix" }
+        {
+          "code": "1",
+          "product": "zement-seal"
+        },
+        {
+          "code": "1",
+          "product": "zement-quartz-sand"
+        },
+        {
+          "code": "2",
+          "product": "zement-dune"
+        },
+        {
+          "code": "2",
+          "product": "zement-dune-fix"
+        }
       ]
     },
     {
@@ -298,8 +425,14 @@
         "fi": "Metallitehoste"
       },
       "steps": [
-        { "code": "1", "product": "zement-metallic" },
-        { "code": "2", "product": "protect-solvent-metallic-2k" }
+        {
+          "code": "1",
+          "product": "zement-metallic"
+        },
+        {
+          "code": "2",
+          "product": "protect-solvent-metallic-2k"
+        }
       ]
     }
   ],
@@ -328,7 +461,9 @@
   "projects": [
     {
       "key": "interior",
-      "target": { "category": "microcemento" },
+      "target": {
+        "product": "basis-0-4-aqua-mix"
+      },
       "image": "basis-0-4-aqua-mix",
       "label": {
         "es": "Suelos y paredes de interior",
@@ -343,7 +478,9 @@
     },
     {
       "key": "aislamiento",
-      "target": { "category": "corcho" },
+      "target": {
+        "category": "corcho"
+      },
       "image": "grob-3-4-mm-kork",
       "label": {
         "es": "Aislamiento térmico y acústico",
@@ -358,7 +495,9 @@
     },
     {
       "key": "piscina",
-      "target": { "category": "piscinas" },
+      "target": {
+        "product": "zement-dune"
+      },
       "image": "zement-dune",
       "label": {
         "es": "Piscinas",
@@ -373,7 +512,9 @@
     },
     {
       "key": "metalico",
-      "target": { "category": "metalicos" },
+      "target": {
+        "product": "zement-metallic"
+      },
       "image": "zement-metallic",
       "label": {
         "es": "Acabados metálicos",
@@ -388,7 +529,9 @@
     },
     {
       "key": "reparar",
-      "target": { "category": "morteros" },
+      "target": {
+        "category": "morteros"
+      },
       "image": null,
       "label": {
         "es": "Reparar o nivelar el soporte",
@@ -403,7 +546,9 @@
     },
     {
       "key": "proteger",
-      "target": { "category": "proteccion" },
+      "target": {
+        "category": "proteccion"
+      },
       "image": null,
       "label": {
         "es": "Proteger y sellar",
@@ -416,5 +561,48 @@
         "fi": "Suojaus ja tiivistys"
       }
     }
-  ]
+  ],
+  "layers": {
+    "$source": "Papel de cada microcemento según su ficha: Basis «se aplica antes de cualquier material micronizado» (capa base); Mittel «acabado medio»; Fein «capa final de acabado fino». Clave = prefijo del producto.",
+    "basis": {
+      "es": "Capa base",
+      "en": "Base coat",
+      "de": "Grundschicht",
+      "fr": "Couche de base",
+      "it": "Strato di base",
+      "pl": "Warstwa bazowa",
+      "no": "Grunnstrøk",
+      "fi": "Pohjakerros"
+    },
+    "mittel": {
+      "es": "Acabado medio",
+      "en": "Medium finish",
+      "de": "Mittlere Deckschicht",
+      "fr": "Finition moyenne",
+      "it": "Finitura media",
+      "pl": "Wykończenie średnie",
+      "no": "Middels finish",
+      "fi": "Keskikarkea pinta"
+    },
+    "fein": {
+      "es": "Acabado fino",
+      "en": "Fine finish",
+      "de": "Feine Deckschicht",
+      "fr": "Finition fine",
+      "it": "Finitura fine",
+      "pl": "Wykończenie drobne",
+      "no": "Fin finish",
+      "fi": "Hieno pinta"
+    }
+  },
+  "aggregateLabel": {
+    "es": "Árido",
+    "en": "Aggregate",
+    "de": "Körnung",
+    "fr": "Granulat",
+    "it": "Granulometria",
+    "pl": "Kruszywo",
+    "no": "Tilslag",
+    "fi": "Raekoko"
+  }
 }

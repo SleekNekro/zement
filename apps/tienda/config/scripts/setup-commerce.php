@@ -82,6 +82,15 @@ echo "· productos relacionados en {$count} fichas\n";
 
 // Datos de empresa para la barra de confianza (lo pendiente va a null y no se muestra).
 $company = require __DIR__ . '/../company.php';
+
+// Aviso de cookies: política de cookies de la web en cada idioma y Google Analytics 4.
+$cookies = [];
+foreach (Language::getLanguages(false) as $language) {
+    $cookies[(int) $language['id_lang']] = $webUrl . ($webRoutes[$language['iso_code']] ?? $webRoutes['en'])['cookies'];
+}
+Configuration::updateValue('ZEMENT_COOKIES_URL', $cookies);
+Configuration::updateValue('ZEMENT_GA4_ID', (string) ($company['ga4Id'] ?? ''));
+echo '· aviso de cookies' . (empty($company['ga4Id']) ? ' (sin Google Analytics: TODO ga4Id)' : " con Google Analytics {$company['ga4Id']}") . "\n";
 Configuration::updateValue('ZEMENT_COMPANY', json_encode($company, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
 echo "· barra de confianza con los datos de config/company.php\n";
 

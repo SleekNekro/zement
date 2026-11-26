@@ -13,6 +13,16 @@
         "pl": "Mikrocement",
         "no": "Mikrosement",
         "fi": "Mikrosementti"
+      },
+      "description": {
+        "es": "Basis es la capa base (árido de 0,4 mm; Basis Grob, 0,6 mm). Mittel y Fein son las capas de acabado: medio (0,2 mm) y fino (de 0,02 a 0,08 mm). Aqua Mix se mezcla con agua; Direkt 1K viene listo al uso; Direkt 2K es bicomponente, y Level, autonivelante.",
+        "en": "Basis is the base coat (0.4 mm aggregate; Basis Grob, 0.6 mm). Mittel and Fein are the finishing coats: medium (0.2 mm) and fine (0.02 to 0.08 mm). Aqua Mix is mixed with water; Direkt 1K comes ready to use; Direkt 2K is two-component, and Level is self-levelling.",
+        "de": "Basis ist die Grundschicht (Körnung 0,4 mm; Basis Grob, 0,6 mm). Mittel und Fein sind die Deckschichten: mittel (0,2 mm) und fein (0,02 bis 0,08 mm). Aqua Mix wird mit Wasser angemischt; Direkt 1K ist gebrauchsfertig; Direkt 2K ist zweikomponentig und Level selbstnivellierend.",
+        "fr": "Basis est la couche de base (granulat de 0,4 mm ; Basis Grob, 0,6 mm). Mittel et Fein sont les couches de finition : moyenne (0,2 mm) et fine (de 0,02 à 0,08 mm). Aqua Mix se mélange à l’eau ; Direkt 1K est prêt à l’emploi ; Direkt 2K est bicomposant et Level, autonivelant.",
+        "it": "Basis è lo strato di base (inerte da 0,4 mm; Basis Grob, 0,6 mm). Mittel e Fein sono gli strati di finitura: media (0,2 mm) e fine (da 0,02 a 0,08 mm). Aqua Mix si miscela con acqua; Direkt 1K è pronto all’uso; Direkt 2K è bicomponente e Level autolivellante.",
+        "pl": "Basis to warstwa bazowa (kruszywo 0,4 mm; Basis Grob – 0,6 mm). Mittel i Fein to warstwy wykończeniowe: średnia (0,2 mm) i drobna (od 0,02 do 0,08 mm). Aqua Mix miesza się z wodą; Direkt 1K jest gotowy do użycia; Direkt 2K jest dwuskładnikowy, a Level – samopoziomujący.",
+        "no": "Basis er grunnstrøket (tilslag 0,4 mm; Basis Grob, 0,6 mm). Mittel og Fein er sluttstrøkene: middels (0,2 mm) og fin (0,02 til 0,08 mm). Aqua Mix blandes med vann; Direkt 1K er bruksklar; Direkt 2K er tokomponent, og Level er selvutjevnende.",
+        "fi": "Basis on pohjakerros (raekoko 0,4 mm; Basis Grob 0,6 mm). Mittel ja Fein ovat pintakerroksia: keskikarkea (0,2 mm) ja hieno (0,02–0,08 mm). Aqua Mix sekoitetaan veteen; Direkt 1K on käyttövalmis; Direkt 2K on kaksikomponenttinen ja Level itsestään tasoittuva."
       }
     },
     {
@@ -26,6 +36,16 @@
         "pl": "Powłoki z korkiem",
         "no": "Belegg med kork",
         "fi": "Korkkipinnoitteet"
+      },
+      "description": {
+        "es": "Revestimientos de corcho natural listos al uso. Grob, Mittel y Fein indican la granulometría del corcho: de 3 a 4 mm, 0,2 mm y de 0,02 a 0,06 mm. A mayor granulometría y espesor, mayor protección térmica y acústica.",
+        "en": "Ready-to-use natural cork coatings. Grob, Mittel and Fein indicate the cork grain size: 3 to 4 mm, 0.2 mm and 0.02 to 0.06 mm. The coarser the grain and the thicker the coat, the greater the thermal and acoustic protection.",
+        "de": "Gebrauchsfertige Beschichtungen mit Naturkork. Grob, Mittel und Fein bezeichnen die Korngröße des Korks: 3 bis 4 mm, 0,2 mm und 0,02 bis 0,06 mm. Je gröber die Körnung und je dicker die Schicht, desto größer der Wärme- und Schallschutz.",
+        "fr": "Revêtements en liège naturel prêts à l’emploi. Grob, Mittel et Fein indiquent la granulométrie du liège : de 3 à 4 mm, 0,2 mm et de 0,02 à 0,06 mm. Plus le grain et l’épaisseur sont importants, plus la protection thermique et acoustique est grande.",
+        "it": "Rivestimenti in sughero naturale pronti all’uso. Grob, Mittel e Fein indicano la granulometria del sughero: da 3 a 4 mm, 0,2 mm e da 0,02 a 0,06 mm. Maggiori sono la granulometria e lo spessore, maggiore è la protezione termica e acustica.",
+        "pl": "Gotowe do użycia powłoki z naturalnego korka. Grob, Mittel i Fein oznaczają granulację korka: od 3 do 4 mm, 0,2 mm i od 0,02 do 0,06 mm. Im grubsza granulacja i warstwa, tym lepsza ochrona termiczna i akustyczna.",
+        "no": "Bruksklare belegg med naturkork. Grob, Mittel og Fein angir korkens kornstørrelse: 3 til 4 mm, 0,2 mm og 0,02 til 0,06 mm. Jo grovere korn og tykkere lag, desto bedre varme- og lydbeskyttelse.",
+        "fi": "Käyttövalmiit luonnonkorkkipinnoitteet. Grob, Mittel ja Fein kertovat korkin raekoon: 3–4 mm, 0,2 mm ja 0,02–0,06 mm. Mitä karkeampi rae ja paksumpi kerros, sitä parempi lämpö- ja ääneneristys."
       }
     },
     {

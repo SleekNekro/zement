@@ -2,9 +2,10 @@
  * For the full copyright and license information, please view the
  * LICENSE.md file that was distributed with this source code.
  *
- * Copia de Hummingbird. Único cambio (Zement): el enlace de la imagen sale del orden de
+ * Copia de Hummingbird. Cambios (Zement): el enlace de la imagen sale del orden de
  * tabulación y del lector de pantalla. Su imagen es decorativa (alt vacío), así que era un
- * enlace sin nombre por producto; el nombre del producto ya enlaza a la misma ficha.
+ * enlace sin nombre por producto; el nombre del producto ya enlaza a la misma ficha. Y sin foto,
+ * una casilla con la capa y el envase (zementcommerce) en lugar de la imagen por defecto.
  *}
 {block name='product_miniature_image'}
   <div class="{$componentName}__image-container thumbnail-container">
@@ -50,45 +51,8 @@
           >
         </picture>
       {else}
-        <picture>
-          {if isset($urls.no_picture_image.bySize.default_md.sources.avif)}
-            <source
-              srcset="
-                {$urls.no_picture_image.bySize.default_sm.sources.avif} 216w,
-                {$urls.no_picture_image.bySize.default_md.sources.avif} 261w,
-                {$urls.no_picture_image.bySize.default_lg.sources.avif} 336w"
-              sizes="(min-width: 992px) 25vw, (min-width: 360px) 50vw, 100vw"
-              type="image/avif"
-            >
-          {/if}
-
-          {if isset($urls.no_picture_image.bySize.default_md.sources.webp)}
-            <source
-              srcset="
-                {$urls.no_picture_image.bySize.default_sm.sources.webp} 216w,
-                {$urls.no_picture_image.bySize.default_md.sources.webp} 261w,
-                {$urls.no_picture_image.bySize.default_lg.sources.webp} 336w"
-              sizes="(min-width: 992px) 25vw, (min-width: 360px) 50vw, 100vw"
-              type="image/webp"
-            >
-          {/if}
-
-          <img
-            class="{$componentName}__image"
-            srcset="
-              {$urls.no_picture_image.bySize.default_sm.url} 216w,
-              {$urls.no_picture_image.bySize.default_md.url} 261w,
-              {$urls.no_picture_image.bySize.default_lg.url} 336w"
-            sizes="(min-width: 992px) 25vw, (min-width: 360px) 50vw, 100vw"
-            width="{$urls.no_picture_image.bySize.default_md.width}"
-            height="{$urls.no_picture_image.bySize.default_md.height}"
-            src="{$urls.no_picture_image.bySize.default_md.url}"
-            loading="lazy"
-            alt="{l s='No image available' d='Shop.Theme.Catalog'}"
-            title="{l s='No image available' d='Shop.Theme.Catalog'}"
-            data-full-size-image-url="{$urls.no_picture_image.bySize.home_default.url}"
-          >
-        </picture>
+        {* Zement: sin foto, casilla con la capa y el envase (zementcommerce) en vez de la imagen vacía. *}
+        {hook h='displayZementNoPhoto' product=$product variant='miniature'}
       {/if}
     </a>
   </div>

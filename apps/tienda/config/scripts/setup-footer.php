@@ -8,7 +8,7 @@
  * - Sustituye los bloques de enlaces de demostración (ps_linklist) por:
  *     displayFooter       «Productos»: las familias del catálogo, en su orden
  *                         «Zement»: sistema, profesionales y contacto de la web de marca
- *     displayFooterAfter  textos legales de la web (barra inferior, junto al copyright)
+ *     displayFooterAfter  textos legales de la web y «Configurar cookies» (barra inferior)
  * - Quita blockreassurance de displayFooterAfter (esa zona pasa a ser la barra legal).
  *
  * Cada idioma enlaza a la misma página de la web en su idioma (la web está en los 8 idiomas).
@@ -118,19 +118,21 @@ $categories = array_map(
     )
 );
 
-$webLinks = static function (array $keys, string $iso) use ($webUrl, $webRoutes): array {
+// «Configurar cookies»: reabre el aviso (módulo zementcommerce, enlaces a «#zm-cookies»).
+$consentStrings = json_decode((string) @file_get_contents(_PS_MODULE_DIR_ . 'zementcommerce/views/consent/strings.json'), true) ?: [];
+
+$webLinks = static function (array $keys, string $iso) use ($webUrl, $webRoutes, $consentStrings): array {
     $routes = $webRoutes[$iso] ?? $webRoutes['en'];
 
-    return array_map(static fn (string $key): array => [
-        'title' => ZEMENT_FOOTER_LABELS[$key][$iso],
-        'url' => $webUrl . $routes[$key],
-    ], $keys);
+    return array_map(static fn (string $key): array => $key === 'cookieSettings'
+        ? ['title' => ($consentStrings[$iso] ?? $consentStrings['en'])['footerLink'], 'url' => '#zm-cookies']
+        : ['title' => ZEMENT_FOOTER_LABELS[$key][$iso], 'url' => $webUrl . $routes[$key]], $keys);
 };
 
 $blocks = [
     ['hook' => 'displayFooter', 'name' => 'products', 'category' => $categories, 'custom' => []],
     ['hook' => 'displayFooter', 'name' => 'zement', 'category' => [], 'custom' => ['system', 'professionals', 'contact']],
-    ['hook' => 'displayFooterAfter', 'name' => 'legal', 'category' => [], 'custom' => ['notice', 'privacy', 'cookies', 'terms']],
+    ['hook' => 'displayFooterAfter', 'name' => 'legal', 'category' => [], 'custom' => array_merge(['notice', 'privacy', 'cookies', 'terms'], $consentStrings ? ['cookieSettings'] : [])],
 ];
 
 $shops = Shop::getShops(false, null, true);

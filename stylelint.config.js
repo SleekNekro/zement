@@ -10,6 +10,8 @@ export default {
     // Copias generadas desde packages/design-tokens.
     'apps/tienda/theme/zement/assets/css/tokens.css',
     'apps/tienda/theme/zement/assets/css/fonts.css',
+    // Copia generada desde packages/consent.
+    'apps/tienda/modules/zementcommerce/views/consent/**',
   ],
   rules: {
     // Directivas propias de Tailwind 4.

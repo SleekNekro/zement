@@ -13,6 +13,8 @@ export default tseslint.config(
       '**/.astro/**',
       'apps/tienda/theme/zement/assets/cache/**',
       'apps/tienda/**/*.min.js',
+      // Copia generada desde packages/consent (pnpm consent:sync).
+      'apps/tienda/modules/zementcommerce/views/consent/**',
       // Herramientas locales del editor (no se publican).
       '.claude/**',
     ],

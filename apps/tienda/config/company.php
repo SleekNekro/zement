@@ -48,6 +48,11 @@ return [
         'no' => 'Spania og Europa',
         'fi' => 'Espanja ja muu Eurooppa',
     ],
+    /**
+     * Google Analytics 4 (identificador «G-…»). Solo se carga si el visitante acepta la analítica
+     * en el aviso de cookies. TODO: identificador real de Zement (null = no se carga nada).
+     */
+    'ga4Id' => null,
     // TODO: contenido real (company.ts → shopTerms): mientras sean null no se muestran.
     'freeShippingFrom' => null,
     'delivery' => null,

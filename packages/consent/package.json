@@ -1,0 +1,15 @@
+{
+  "name": "@zement/consent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Aviso de cookies de Zement (web y tienda): script, estilos y textos en los 8 idiomas.",
+  "exports": {
+    "./consent.js": "./consent.js",
+    "./consent.css": "./consent.css",
+    "./strings.json": "./strings.json"
+  },
+  "scripts": {
+    "sync": "node sync.mjs"
+  }
+}

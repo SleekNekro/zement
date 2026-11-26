@@ -1,0 +1,38 @@
+---
+/**
+ * Aviso de cookies: el mismo de la tienda (packages/consent). Configuración en JSON para el
+ * script: textos del idioma, política de cookies de la web e identificador de Google Analytics 4
+ * (PUBLIC_GA4_ID; vacío = no se carga nada de Google).
+ */
+import '@zement/consent/consent.css';
+import strings from '@zement/consent/strings.json';
+import { legalPath } from '../../lib/legal';
+import type { Locale } from '../../i18n/locales';
+
+interface Props {
+  locale: Locale;
+}
+
+/** Sube al añadir finalidades nuevas: se vuelve a pedir el consentimiento (igual en la tienda). */
+const CONSENT_VERSION = 1;
+
+const { locale } = Astro.props;
+const config = {
+  version: CONSENT_VERSION,
+  gaId: import.meta.env.PUBLIC_GA4_ID ?? '',
+  policyUrl: legalPath(locale, 'cookies'),
+  strings: strings[locale],
+};
+// «<» escapado para que ningún texto pueda cerrar la etiqueta <script>.
+const json = JSON.stringify(config).replaceAll('<', '\\u003c');
+---
+
+<script
+  is:inline
+  type="application/json"
+  id="zm-consent-config"
+  set:html={json}
+/>
+<script>
+  import '@zement/consent/consent.js';
+</script>
