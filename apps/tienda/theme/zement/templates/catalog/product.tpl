@@ -1,9 +1,17 @@
 {**
- * Ficha de producto de Zement: igual que Hummingbird salvo las descargas.
+ * Ficha de producto de Zement: igual que Hummingbird salvo las descargas y la compra.
+ * Mientras el producto no se vende (sin precio: TODO en el catálogo) no se muestra el bloque
+ * de cantidad y «Añadir al carrito» desactivado.
  * Cada producto lleva su ficha técnica en PDF en los 8 idiomas (adjuntos «<clave>-<iso>.pdf»):
  * se muestra la del idioma de la página y, debajo, enlaces a los demás idiomas.
  *}
 {extends file='parent:catalog/product.tpl'}
+
+{block name='product_add_to_cart'}
+    {if $product.available_for_order}
+        {$smarty.block.parent}
+    {/if}
+{/block}
 
 {block name='product_attachments'}
     {if $product.attachments}

@@ -25,7 +25,8 @@
     "tienda:css": "docker exec zement-prestashop-1 sh -c 'rm -rf themes/zement/assets/cache/*'",
     "tienda:catalog": "bash apps/tienda/catalog/scripts/import.sh",
     "tienda:home": "docker cp apps/tienda/config/scripts/setup-home.php zement-prestashop-1:/tmp/setup-home.php && docker exec zement-prestashop-1 php /tmp/setup-home.php",
-    "tienda:footer": "docker cp apps/tienda/config/scripts/setup-footer.php zement-prestashop-1:/tmp/setup-footer.php && docker exec zement-prestashop-1 php /tmp/setup-footer.php"
+    "tienda:footer": "docker cp apps/tienda/config/scripts/setup-footer.php zement-prestashop-1:/tmp/setup-footer.php && docker exec zement-prestashop-1 php /tmp/setup-footer.php",
+    "tienda:settings": "docker cp apps/tienda/config/scripts/setup-settings.php zement-prestashop-1:/tmp/setup-settings.php && docker exec zement-prestashop-1 php /tmp/setup-settings.php"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

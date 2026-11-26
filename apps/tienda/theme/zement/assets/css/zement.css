@@ -655,6 +655,44 @@ main h1 {
   }
 }
 
+/*
+ * Productos sin foto (TODO: fotos reales): en vez del «Imagen no disponible» de PrestaShop,
+ * una superficie azul de marca con el logotipo, como las familias sin imagen de la portada.
+ */
+.product-miniature__image-container:has(img[src*='-default-']),
+.product__no-image,
+.product-line__image:has(img[src*='-default-']),
+.cart-summary-product__image:has(img[src*='-default-']) {
+  background:
+    url('../img/zement-logo-paper.svg') center / 46% auto no-repeat,
+    linear-gradient(160deg, var(--zm-color-navy) 0%, var(--zm-color-night) 80%);
+}
+
+img[src*='/img/p/'][src*='-default-'] {
+  opacity: 0;
+}
+
+/* Producto que aún no se vende: sin aviso de «Notificarme cuando esté disponible». */
+.product__actions:not(:has(.product__add-to-cart-container)) .ps-emailalerts {
+  display: none;
+}
+
+/* La vista rápida flota sobre la imagen (.btn la dejaría en el flujo, con un hueco debajo). */
+.product-miniature__quickview-button,
+.product-miniature__quickview-touch {
+  position: absolute;
+}
+
+/* En móvil, dos productos por fila: «Ver más detalles» cabe en una línea. */
+@media (width < 576px) {
+  .product-miniature__details {
+    --bs-btn-padding-x: 0.5rem;
+
+    width: 100%;
+    letter-spacing: 0.08em;
+  }
+}
+
 /* Rejilla de productos: sin caja, imagen limpia, nombre en titular. */
 .product-miniature__inner {
   height: 100%;

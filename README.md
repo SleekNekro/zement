@@ -44,6 +44,7 @@ pnpm dev                                          # web Astro en http://localhos
 | `pnpm tienda:catalog "<carpeta de fichas PDF>"`  | Instala los 8 idiomas e importa el catálogo (ver `apps/tienda/catalog/README.md`) |
 | `pnpm tienda:home`                               | Instala la portada (módulo `zementhome`) y quita los bloques de demostración      |
 | `pnpm tienda:footer`                             | Pone el pie con los datos de Zement: familias, enlaces a la web y textos legales  |
+| `pnpm tienda:settings`                           | Quita restos de demostración: moneda, tiendas, páginas, avisos y traducciones     |
 
 ## Formulario de contacto
 

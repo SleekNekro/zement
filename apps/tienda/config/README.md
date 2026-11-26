@@ -48,3 +48,16 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - TODO (contenido real que tiene que facilitar Zement):
   - Correo, teléfono y domicilio de la tienda (Parámetros de la tienda → Contacto → Tiendas). Son los mismos datos que faltan en `apps/web/src/data/company.ts`.
   - Textos legales de la tienda en los 8 idiomas, antes de vender fuera de España y del mundo anglosajón.
+
+## Ajustes y restos de demostración
+
+- Script [`scripts/setup-settings.php`](scripts/setup-settings.php) (`pnpm tienda:settings`, 26/11/2026). No borra nada: todo se puede volver a activar desde el panel.
+  - **Monedas y tiendas:** solo euro; desactivadas las tiendas físicas de demostración (Miami).
+  - **Páginas CMS:** desactivadas las de demostración, que tenían lorem ipsum. La de condiciones se queda, porque el pedido la enlaza, y remite a las condiciones de venta de la web.
+  - **Alta de clientes:** sin «ofertas de nuestros socios» y sin sello «Nuevo».
+  - **Bloques de demostración:** `blockreassurance` («Security policy…») fuera de fichas, carrito y pedido.
+  - **Privacidad:** consentimiento de `psgdpr` en los 8 idiomas, con enlace a la política de privacidad de la web. `ps_dataprivacy` desactivado.
+  - **Traducciones:** títulos y URL de las páginas de PrestaShop, estados de pedido, tratamientos y transportistas, traducidos para IT, PL, NO y FI, que se habían quedado en inglés. En español, el título del alta es «Crear una cuenta».
+- **Productos sin precio** (`catalog.json`, `price: null`): la ficha se ve, pero sin «0,00 €», sin cantidad ni «Añadir al carrito», sin «Fuera de stock» y sin «Notificarme».
+- **Productos sin foto:** superficie azul de marca con el logotipo en lugar de «Imagen no disponible».
+- TODO: correo real en los contactos del formulario («Servicio al cliente» y «Webmaster» siguen con el de pruebas).

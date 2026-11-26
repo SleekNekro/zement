@@ -145,8 +145,9 @@ final class ZementCatalogImporter
         $product->state = Product::STATE_SAVED;
         $product->visibility = 'both';
         $product->condition = 'new';
-        $product->available_for_order = true;
-        $product->show_price = true;
+        // Sin precio (TODO) no se enseña «0,00 €» ni el botón de compra: solo la ficha.
+        $product->available_for_order = $hasPrice;
+        $product->show_price = $hasPrice;
         $product->minimal_quantity = 1;
 
         // TODO: contenido real. Sin precio no se puede vender: se deja desactivado.
@@ -170,7 +171,7 @@ final class ZementCatalogImporter
         $this->replaceAttachments($product, $sheet, $key);
         Search::indexation(false, (int) $product->id);
 
-        echo ($existingId ? '= ' : '+ ') . "{$key} (id {$product->id})" . ($hasPrice ? '' : ' · sin precio, desactivado') . "\n";
+        echo ($existingId ? '= ' : '+ ') . "{$key} (id {$product->id})" . ($hasPrice ? '' : ' · sin precio: se ve la ficha, sin precio ni compra') . "\n";
 
         return (int) $product->id;
     }
