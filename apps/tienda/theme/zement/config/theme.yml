@@ -43,6 +43,13 @@ assets:
         path: assets/css/zement.css
         media: all
         priority: 210
+  js:
+    all:
+      # En <head>: pone la clase `motion` antes de pintar (ver el propio archivo).
+      - id: zement-motion
+        path: assets/js/motion.js
+        priority: 50
+        position: head
 
 theme_settings:
   default_layout: layout-full-width
