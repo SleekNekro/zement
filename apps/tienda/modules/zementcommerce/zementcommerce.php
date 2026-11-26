@@ -11,6 +11,8 @@
  * - Enlaces estables /z/p/<clave> y /z/c/<familia> para la web de marca (P19).
  * - Fase 2: barra de confianza con datos reales en ficha, carrito y pedido, y aviso de envío
  *   gratuito en el carrito. Datos: ZEMENT_COMPANY (apps/tienda/config/company.php).
+ * - Presupuesto: mientras un producto no se vende, «Solicitar presupuesto» abre el formulario
+ *   de contacto con el producto, el formato y las cantidades calculadas ya escritos.
  * - Fase 3: aviso de cookies (packages/consent, copiado en views/consent con pnpm consent:sync).
  *   Google Analytics 4 (ZEMENT_GA4_ID) solo se carga si el visitante acepta la analítica.
  *
@@ -40,6 +42,7 @@ class ZementCommerce extends Module
         'displayReassurance',
         'displayShoppingCart',
         'displayAfterBodyOpeningTag',
+        'displayZementQuote',
     ];
 
     /** Sube al añadir finalidades nuevas al aviso de cookies: se vuelve a pedir el consentimiento. */
@@ -55,7 +58,7 @@ class ZementCommerce extends Module
     {
         $this->name = 'zementcommerce';
         $this->tab = 'front_office_features';
-        $this->version = '0.3.0';
+        $this->version = '0.4.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -302,6 +305,43 @@ class ZementCommerce extends Module
         $json = json_encode($config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG);
 
         return '<script type="application/json" id="zm-consent-config">' . $json . '</script>';
+    }
+
+    /**
+     * Ficha de un producto que aún no se vende: «Solicitar presupuesto». El enlace lleva el mensaje
+     * escrito (producto y línea de entrega); views/js/calculator.js le añade el formato elegido y
+     * las cantidades calculadas en cuanto cambian.
+     */
+    public function hookDisplayZementQuote(array $params): string
+    {
+        $productId = $this->productId($params);
+        $iso = $this->context->language->iso_code;
+        $strings = ZementCommerceStrings::forLanguage($iso);
+        $name = (string) Product::getProductName($productId, null, (int) $this->context->language->id);
+        $lines = [$strings['quoteRequest'], $strings['quoteProduct'] . ': ' . $name];
+
+        $this->context->smarty->assign([
+            'zementQuote' => [
+                'url' => $this->context->link->getPageLink('contact'),
+                'productId' => $productId,
+                'base' => $lines,
+                'delivery' => $strings['quoteDelivery'] . ': ',
+                // En una sola línea: la redirección canónica de PrestaShop no admite saltos de línea
+                // en la URL (se perdería el mensaje). El formulario los vuelve a poner (contactform.tpl).
+                'message' => implode(' | ', [...$lines, $strings['quoteDelivery'] . ': ']),
+                'labels' => [
+                    'format' => $strings['quoteFormat'],
+                    'area' => $strings['quoteArea'],
+                    'coats' => $strings['quoteCoats'],
+                    'thickness' => $strings['quoteThickness'],
+                    'quantity' => $strings['quoteQuantity'],
+                    'system' => $strings['quoteSystem'],
+                ],
+            ],
+            'zementStrings' => $strings,
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/quote.tpl');
     }
 
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */

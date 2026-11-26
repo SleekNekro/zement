@@ -3,7 +3,8 @@
  *
  * - Junto al resumen, la ficha técnica en PDF del idioma de la página.
  * - Mientras el producto no se vende (sin precio: TODO en el catálogo) no hay cantidad ni
- *   «Añadir al carrito» desactivado: en su lugar, un botón al formulario de contacto.
+ *   «Añadir al carrito» desactivado: en su lugar, «Solicitar presupuesto» (zementcommerce), que
+ *   abre el formulario de contacto con el producto y las cantidades calculadas ya escritos.
  * - En «Detalles», la ficha en PDF y enlaces a los demás idiomas (adjuntos «<clave>-<iso>.pdf»).
  * - Módulo zementcommerce: normas de la ficha bajo el resumen (displayZementProductBadges) y,
  *   tras la compra, calculadora y «Complete su sistema» (displayZementProductTools).
@@ -18,11 +19,8 @@
     {if $product.available_for_order}
         {$smarty.block.parent}
     {else}
-        <div class="zm-product-cta">
-            <a class="btn btn-primary" href="{$urls.pages.contact}">
-                {l s='Contact us' d='Shop.Theme.Global'}
-            </a>
-        </div>
+        {* Sin precio todavía: «Solicitar presupuesto» con el pedido escrito (módulo zementcommerce). *}
+        {hook h='displayZementQuote' product=$product}
     {/if}
     {include file='catalog/_partials/zement-sheet.tpl' buttonClass='btn-outline-primary zm-product-cta__sheet'}
     {hook h='displayZementProductTools' product=$product}
