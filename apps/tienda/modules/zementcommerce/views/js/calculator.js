@@ -18,9 +18,49 @@
   const number = new Intl.NumberFormat(document.documentElement.lang || undefined, {
     maximumFractionDigits: 1,
   });
-  const read = (element, fallback) => {
-    const value = Number.parseFloat(String(element?.value ?? '').replace(',', '.'));
-    return Number.isFinite(value) && value > 0 ? value : fallback;
+  const fill = (template, ...values) =>
+    values.reduce((text, value, index) => text.replace(`%${index + 1}$s`, value), template ?? '');
+
+  /**
+   * Valor de un campo numérico o, si está vacío o fuera de su mínimo y máximo, el de la ficha.
+   * Un valor no válido se marca (aria-invalid) y su aviso dice con qué cifra se sigue calculando.
+   * Mientras se escribe, un campo vacío no se marca: el aviso llega al salir del campo.
+   */
+  const read = (element, fallback, event) => {
+    if (!element) {
+      return fallback;
+    }
+    const raw = String(element.value ?? '')
+      .trim()
+      .replace(',', '.');
+    const value = Number.parseFloat(raw);
+    const min = Number.parseFloat(element.min);
+    const max = Number.parseFloat(element.max);
+    const valid = Number.isFinite(value) && value > 0 && !(value < min) && !(value > max);
+    const quiet = !valid && raw === '' && event?.type === 'input' && event.target === element;
+    const error = document.getElementById(`${element.id}-error`);
+
+    if (valid || quiet) {
+      element.removeAttribute('aria-invalid');
+      element.removeAttribute('aria-describedby');
+      if (error) {
+        error.hidden = true;
+      }
+    } else if (error && fallback !== null && fallback !== undefined) {
+      error.textContent = Number.isFinite(max)
+        ? fill(
+            root.dataset.zmInvalidRange,
+            number.format(min),
+            number.format(max),
+            number.format(fallback),
+          )
+        : fill(root.dataset.zmInvalidMin, number.format(min || 1), number.format(fallback));
+      error.hidden = false;
+      element.setAttribute('aria-invalid', 'true');
+      element.setAttribute('aria-describedby', error.id);
+    }
+
+    return valid ? value : fallback;
   };
   const parse = (element, attribute) => {
     try {
@@ -94,15 +134,17 @@
 
   let lastPacks = 1;
 
-  const update = () => {
-    const surface = read(area, 20);
+  const update = (event) => {
+    const surface = read(area, 20, event);
+    const layers = read(coats, calculator?.coats ?? null, event);
+    const millimetres = read(thickness, calculator?.thickness ?? null, event);
 
     if (calculator && result) {
       const { text, packs } = estimate(
         calculator,
         surface,
-        read(coats, null),
-        read(thickness, null),
+        layers,
+        millimetres,
         selectedPack(calculator),
       );
       result.textContent = text;
@@ -126,8 +168,8 @@
     // Para «Solicitar presupuesto»: lo calculado viaja en el mensaje del formulario de contacto.
     window.zementCalculation = {
       area: surface,
-      coats: calculator?.mode === 'coats' ? read(coats, calculator.coats) : null,
-      thickness: calculator?.mode === 'thickness' ? read(thickness, calculator.thickness) : null,
+      coats: calculator?.mode === 'coats' ? layers : null,
+      thickness: calculator?.mode === 'thickness' ? millimetres : null,
       quantity: calculator && result ? result.textContent : null,
       system: steps
         .filter((step) => step.data && step.output)

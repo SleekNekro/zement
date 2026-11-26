@@ -3,7 +3,7 @@
  * Sin JavaScript se ve el sistema (enlaces); la calculadora y las cantidades aparecen con
  * views/js/calculator.js. Consumos y formatos: data/commerce.json (fichas técnicas).
  *}
-<div class="zm-tools" data-zm-tools>
+<div class="zm-tools" data-zm-tools data-zm-invalid-range="{$zementStrings.invalidRange|escape:'html':'UTF-8'}" data-zm-invalid-min="{$zementStrings.invalidMin|escape:'html':'UTF-8'}">
     {if $zementCalculator}
         <section class="zm-calc" aria-labelledby="zm-calc-title" data-zm-js hidden
             data-zm-calculator="{$zementCalculator|json_encode|escape:'html':'UTF-8'}">
@@ -13,11 +13,13 @@
                 <div class="zm-calc__field">
                     <label class="form-label" for="zm-coats">{$zementStrings.coats}</label>
                     <input class="form-control" id="zm-coats" type="number" min="1" max="6" step="1" value="{$zementCalculator.coats}" data-zm-coats>
+                    <p class="zm-calc__error" id="zm-coats-error" hidden></p>
                 </div>
             {elseif $zementCalculator.mode == 'thickness'}
                 <div class="zm-calc__field">
                     <label class="form-label" for="zm-thickness">{$zementStrings.thickness}</label>
                     <input class="form-control" id="zm-thickness" type="number" min="0.5" max="100" step="0.5" value="{$zementCalculator.thickness}" data-zm-thickness>
+                    <p class="zm-calc__error" id="zm-thickness-error" hidden></p>
                 </div>
             {/if}
             <div class="form-check">
