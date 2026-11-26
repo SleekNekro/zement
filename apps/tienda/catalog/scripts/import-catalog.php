@@ -9,6 +9,10 @@
  *   images/<key>.jpg     muestra del efecto acabado, si la ficha la trae
  *   pdfs/<key>-<iso>.pdf ficha técnica original de cada idioma
  *
+ * Formatos («formats» en catalog.json): combinaciones con el atributo «Formato», con el nombre
+ * de la presentación de la ficha en cada idioma. Precio por volumen («volume»): precio fijo por
+ * unidad a partir de X unidades (el palé de la ficha). Lo que vale null no se aplica.
+ *
  * Es idempotente: el producto se reconoce por su URL amigable en español (= clave del JSON).
  * Al repetirlo se actualizan textos, familias, imagen y fichas PDF; no toca precio ni
  * referencia si ya se han puesto en el panel y catalog.json no trae otros.
@@ -26,6 +30,14 @@ final class ZementCatalogImporter
 {
     private const ROOT = '/tmp/zement-catalog';
     private const ATTACHMENT_NAME_SIZE = 32;
+
+    /** Atributo de los formatos de venta, en los 8 idiomas. */
+    private const FORMAT_GROUP = [
+        'es' => 'Formato', 'en' => 'Format', 'de' => 'Gebinde', 'fr' => 'Format',
+        'it' => 'Formato', 'pl' => 'Opakowanie', 'no' => 'Pakning', 'fi' => 'Pakkaus',
+    ];
+
+    private ?int $formatGroup = null;
 
     /** @var array<string, int> iso => id_lang */
     private array $languages = [];
@@ -169,11 +181,141 @@ final class ZementCatalogImporter
         $product->updateCategories([$categoryId]);
         $this->replaceImages($product, $sheet['images'] ?? [], $key);
         $this->replaceAttachments($product, $sheet, $key);
+        $this->replaceFormats($product, $entry, $sheet);
+        $this->replaceVolumePrices($product, $entry);
         Search::indexation(false, (int) $product->id);
 
         echo ($existingId ? '= ' : '+ ') . "{$key} (id {$product->id})" . ($hasPrice ? '' : ' · sin precio: se ve la ficha, sin precio ni compra') . "\n";
 
         return (int) $product->id;
+    }
+
+    /**
+     * Formatos de venta como combinaciones (atributo «Formato»). El nombre de cada formato sale de
+     * la presentación de la ficha en cada idioma; el precio, de catalog.json (null = sin precio).
+     *
+     * @param array<string, mixed> $entry
+     * @param array<string, mixed> $sheet
+     */
+    private function replaceFormats(Product $product, array $entry, array $sheet): void
+    {
+        $formats = $entry['formats'] ?? [];
+        $product->deleteProductAttributes();
+
+        if (count($formats) < 2) {
+            return;
+        }
+
+        $base = (float) $product->price;
+
+        foreach ($formats as $position => $format) {
+            $names = [];
+            foreach ($this->languages as $iso => $idLang) {
+                $packs = $this->packs($sheet['languages'][$iso] ?? $sheet['languages']['es']);
+                $names[$idLang] = $packs[$format['pack']] ?? $this->packs($sheet['languages']['es'])[$format['pack']];
+            }
+
+            $combination = new Combination();
+            $combination->id_product = (int) $product->id;
+            $combination->reference = (string) ($format['reference'] ?? '');
+            $combination->price = $format['price'] === null ? 0 : (float) $format['price'] - $base;
+            $combination->minimal_quantity = 1;
+            $combination->default_on = $position === 0;
+            $combination->add();
+            $combination->setAttributes([$this->formatAttribute($names)]);
+            StockAvailable::setQuantity((int) $product->id, (int) $combination->id, 0);
+        }
+
+        Product::updateDefaultAttribute((int) $product->id);
+        echo '  · ' . count($formats) . " formatos\n";
+    }
+
+    /** @param array<int, string> $names id_lang => nombre del formato */
+    private function formatAttribute(array $names): int
+    {
+        $db = Db::getInstance();
+        $idEs = $this->languages['es'];
+
+        if ($this->formatGroup === null) {
+            $id = (int) $db->getValue('SELECT id_attribute_group FROM `' . _DB_PREFIX_ . "attribute_group_lang`
+                WHERE id_lang = {$idEs} AND name = '" . pSQL(self::FORMAT_GROUP['es']) . "'");
+            $group = new AttributeGroup($id ?: null);
+            foreach ($this->languages as $iso => $idLang) {
+                $group->name[$idLang] = self::FORMAT_GROUP[$iso];
+                $group->public_name[$idLang] = self::FORMAT_GROUP[$iso];
+            }
+            $group->group_type = 'radio';
+            $group->save();
+            $this->formatGroup = (int) $group->id;
+        }
+
+        $id = (int) $db->getValue('SELECT a.id_attribute FROM `' . _DB_PREFIX_ . 'attribute` a
+            JOIN `' . _DB_PREFIX_ . "attribute_lang` al ON al.id_attribute = a.id_attribute AND al.id_lang = {$idEs}
+            WHERE a.id_attribute_group = {$this->formatGroup} AND al.name = '" . pSQL($names[$idEs]) . "'");
+        $attribute = new ProductAttribute($id ?: null);
+        $attribute->id_attribute_group = $this->formatGroup;
+        foreach ($names as $idLang => $name) {
+            $attribute->name[$idLang] = mb_substr($name, 0, 128);
+        }
+        $attribute->save();
+
+        return (int) $attribute->id;
+    }
+
+    /**
+     * Precio por volumen: precio fijo por unidad a partir de «from» unidades (palé de la ficha).
+     * Se rehacen en cada importación; con price null no se crea ninguno.
+     *
+     * @param array<string, mixed> $entry
+     */
+    private function replaceVolumePrices(Product $product, array $entry): void
+    {
+        $productId = (int) $product->id;
+        Db::getInstance()->delete('specific_price', "id_product = {$productId} AND id_customer = 0 AND id_group = 0 AND from_quantity > 1");
+
+        foreach ($entry['volume'] ?? [] as $tier) {
+            if ($tier['price'] === null) {
+                continue;
+            }
+            $price = new SpecificPrice();
+            $price->id_product = $productId;
+            $price->id_product_attribute = 0;
+            $price->id_shop = 0;
+            $price->id_currency = 0;
+            $price->id_country = 0;
+            $price->id_group = 0;
+            $price->id_customer = 0;
+            $price->from_quantity = (int) $tier['from'];
+            $price->price = (float) $tier['price'];
+            $price->reduction = 0;
+            $price->reduction_type = 'amount';
+            $price->reduction_tax = 1;
+            $price->from = '0000-00-00 00:00:00';
+            $price->to = '0000-00-00 00:00:00';
+            $price->add();
+            echo "  · precio desde {$tier['from']} uds.\n";
+        }
+    }
+
+    /**
+     * Presentación de la ficha en un idioma (bloques «packs»).
+     *
+     * @param array<string, mixed> $content
+     *
+     * @return list<string>
+     */
+    private function packs(array $content): array
+    {
+        $items = [];
+        foreach ($content['sections'] as $section) {
+            foreach ($section['blocks'] as $block) {
+                if ($block['type'] === 'packs') {
+                    array_push($items, ...$block['items']);
+                }
+            }
+        }
+
+        return $items;
     }
 
     /** @param list<string> $files */

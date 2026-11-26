@@ -18,7 +18,8 @@
  *   tratamientos y transportistas: traducidos con los paquetes de idioma. Al instalar IT, PL,
  *   NO y FI se quedaron en inglés. En español, «Fecha de registro» → «Crear una cuenta».
  *
- * - Español de usted (config/translations/es-usted.php).
+ * - Contacto real de la tienda y envío gratis (config/company.php, copia de la web).
+ * - Español de usted y cadenas del tema que faltan en los idiomas (config/translations/).
  * - Países: Europa (UE y resto de Europa salvo Rusia y Bielorrusia).
  * - Tienda «Zement» con su logotipo; módulos de terceros sin uso desactivados; alta sin fecha de
  *   nacimiento y boletín con doble confirmación; contacto «Webmaster» de demostración quitado;
@@ -193,29 +194,48 @@ foreach (ZEMENT_UNUSED_MODULES as $name) {
     }
 }
 
-// Español de usted: cadenas del escaparate que en el paquete de idioma tutean.
-// Se guardan como traducciones propias (tabla `translation`), para el núcleo y para el tema.
+// Traducciones propias (tabla `translation`, para el núcleo y para el tema):
+// - es-usted.php: cadenas del escaparate que en el paquete de idioma tutean, pasadas a usted.
+// - missing.php: cadenas del tema que faltan en los paquetes de idioma (salían en inglés).
+$translate = static function (string $iso, string $domain, string $source, string $target) use ($db): void {
+    $idLang = (int) Language::getIdByIso($iso);
+    if ($idLang === 0) {
+        return;
+    }
+    foreach ([null, 'zement'] as $theme) {
+        $where = 'id_lang = ' . $idLang . " AND domain = '" . pSQL($domain) . "' AND `key` = '" . pSQL($source) . "'"
+            . ($theme === null ? ' AND theme IS NULL' : " AND theme = '" . pSQL($theme) . "'");
+        $db->delete('translation', $where);
+        $db->insert('translation', [
+            'id_lang' => $idLang,
+            'key' => pSQL($source),
+            'translation' => pSQL($target),
+            'domain' => pSQL($domain),
+            'theme' => $theme === null ? null : pSQL($theme),
+        ], true);
+    }
+};
+
 $idEs = (int) Language::getIdByIso('es');
-$usted = require __DIR__ . '/../translations/es-usted.php';
 $count = 0;
-foreach ($usted as $domain => $strings) {
+foreach (require __DIR__ . '/../translations/es-usted.php' as $domain => $strings) {
     foreach ($strings as $source => $target) {
-        foreach ([null, 'zement'] as $theme) {
-            $where = 'id_lang = ' . $idEs . " AND domain = '" . pSQL($domain) . "' AND `key` = '" . pSQL($source) . "'"
-                . ($theme === null ? ' AND theme IS NULL' : " AND theme = '" . pSQL($theme) . "'");
-            $db->delete('translation', $where);
-            $db->insert('translation', [
-                'id_lang' => $idEs,
-                'key' => pSQL($source),
-                'translation' => pSQL($target),
-                'domain' => pSQL($domain),
-                'theme' => $theme === null ? null : pSQL($theme),
-            ], true);
-        }
+        $translate('es', $domain, $source, $target);
         ++$count;
     }
 }
 echo "· {$count} cadenas en español pasadas a usted\n";
+
+$count = 0;
+foreach (require __DIR__ . '/../translations/missing.php' as $iso => $domains) {
+    foreach ($domains as $domain => $strings) {
+        foreach ($strings as $source => $target) {
+            $translate($iso, $domain, $source, $target);
+            ++$count;
+        }
+    }
+}
+echo "· {$count} cadenas del tema que faltaban en los paquetes de idioma\n";
 
 // Países: de momento, Europa (zonas «Europe» y «Europe (non-EU)» de PrestaShop). Fuera Rusia y
 // Bielorrusia (sanciones de la UE a la exportación). El resto del mundo, desactivado.
@@ -241,6 +261,18 @@ Configuration::updateValue('PS_SEARCH_FUZZY', 0);
 Configuration::updateValue('PS_CUSTOMER_BIRTHDATE', 0);
 Configuration::updateValue('NW_VERIFICATION_EMAIL', 1);
 echo "· alta sin fecha de nacimiento; boletín con doble confirmación\n";
+
+// Contacto real de la tienda (config/company.php, copia de la web): correo y teléfono en
+// «Información de la tienda», remitente de los correos y destinatario del formulario.
+$company = require __DIR__ . '/../company.php';
+Configuration::updateValue('PS_SHOP_EMAIL', $company['email']);
+Configuration::updateValue('PS_SHOP_PHONE', $company['phone']);
+Configuration::updateValue('PS_CONTACT_INFO_DISPLAY_EMAIL', 1);
+$db->update('contact', ['email' => pSQL($company['email'])]);
+echo "· contacto de la tienda: {$company['email']} · {$company['phone']}\n";
+
+// Envío gratis desde un importe (TODO mientras company.php no lo tenga: sin envío gratis).
+Configuration::updateValue('PS_SHIPPING_FREE_PRICE', (float) ($company['freeShippingFrom'] ?? 0));
 
 // Formulario de contacto: un solo destinatario (el de «Webmaster» es de la demostración).
 $webmaster = (int) $db->getValue('SELECT id_contact FROM `' . _DB_PREFIX_ . 'contact_lang` WHERE name = \'Webmaster\'');

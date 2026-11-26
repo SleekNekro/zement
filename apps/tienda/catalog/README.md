@@ -55,3 +55,11 @@ catalog/
 
 - [`commerce.json`](commerce.json): consumos y envases para la calculadora, sistemas en orden de aplicación, productos relacionados y proyectos del asesor de la portada. Cada cifra lleva la frase de la ficha (`source`).
 - Tras cambiarlo, o tras volver a extraer las fichas: `pnpm tienda:commerce`. Genera los datos del módulo `zementcommerce` y los aplica en la tienda.
+
+## Formatos y precio por volumen
+
+- `formats` (en `catalog.json`): formatos de venta como combinaciones.
+  - `pack` es la posición en la presentación de la ficha, que da el nombre del formato en cada idioma.
+  - `price` es el precio del formato y `reference`, su SKU.
+- `volume`: precio por unidad a partir de `from` unidades. `from` es el palé de la ficha.
+- Lo que vale `null` no se aplica. Al poner precios, ejecutar `pnpm tienda:catalog "<carpeta de fichas>"`.

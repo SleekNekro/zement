@@ -105,6 +105,11 @@ h5,
   --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: var(--zm-color-navy);
   --bs-btn-hover-color: var(--zm-color-paper);
+
+  /* Elegido o pulsado (p. ej. el formato seleccionado): marino de marca, no el azul de Bootstrap. */
+  --bs-btn-active-bg: var(--zm-color-navy);
+  --bs-btn-active-border-color: var(--zm-color-navy);
+  --bs-btn-active-color: var(--zm-color-paper);
 }
 
 /* Los iconos de Material Icons son ligaduras: el espaciado y las mayúsculas los rompen. */
@@ -1342,4 +1347,66 @@ img[src*='/img/p/'][src*='-default-'] {
   margin-left: 1.5rem;
   color: var(--zm-color-gold);
   text-decoration: none;
+}
+
+/* Barra de confianza (zementcommerce): datos reales de Zement en ficha, carrito y pedido. */
+.zm-trust {
+  margin-block: 1.5rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.zm-trust__list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zm-trust__item {
+  display: grid;
+  gap: 0.125rem;
+  padding-block: 0.75rem;
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+  font-size: 0.8125rem;
+}
+
+.zm-trust__label {
+  color: var(--zm-color-muted);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.zm-trust__value {
+  color: var(--zm-color-navy);
+  font-weight: var(--zm-weight-ui);
+}
+
+.zm-trust__detail {
+  color: var(--zm-color-muted);
+}
+
+/* Carrito: cuánto falta para el envío gratuito. */
+.zm-free-shipping {
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+}
+
+.zm-free-shipping__text {
+  margin: 0 0 0.5rem;
+  color: var(--zm-color-navy);
+  font-weight: var(--zm-weight-ui);
+}
+
+.zm-free-shipping__bar {
+  height: 0.25rem;
+  overflow: hidden;
+  background: var(--zm-color-stone);
+}
+
+.zm-free-shipping__bar span {
+  display: block;
+  height: 100%;
+  background: var(--zm-color-navy);
 }

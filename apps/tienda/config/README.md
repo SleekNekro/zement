@@ -102,3 +102,26 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - **IONOS:**
   - subir `apps/tienda/modules/zementcommerce` a `modules/` e instalarlo;
   - ejecutar `setup-commerce.php` con `ZEMENT_WEB_URL` apuntando al dominio de la web.
+
+## Venta, fase 2 (26/11/2026)
+
+- **Contacto real** en la tienda: `info@zement.es` y +34 607 800 028, en «Información de la tienda», como remitente y como destinatario del formulario.
+  - Fuente: [`company.php`](company.php), copia de `apps/web/src/data/company.ts`. Si cambian allí, cambiarlos aquí.
+  - Lo aplica `pnpm tienda:settings`.
+- **Barra de confianza** (módulo `zementcommerce`, gancho `displayReassurance`) en ficha, carrito y pedido. Muestra:
+  - asesoramiento técnico (teléfono y horario);
+  - plazo de respuesta;
+  - zona de envío.
+  - Envío gratuito, plazo de entrega y devoluciones aparecen solos cuando `company.php` los tenga (hoy son TODO).
+- **Aviso de envío gratuito** en el carrito («le faltan X € para…»), con barra de progreso.
+  - Solo aparece si `freeShippingFrom` tiene importe (`PS_SHIPPING_FREE_PRICE`). TODO: importe de Zement.
+- **Grupos profesionales** Aplicador y Distribuidor (`pnpm tienda:commerce`):
+  - ven el precio sin IVA y todo el catálogo, con los mismos medios de pago y transportistas que los clientes;
+  - el descuento de cada grupo es TODO (hoy, 0 %);
+  - Zement revisa cada alta profesional (empresa y CIF) y asigna el grupo en Clientes → Clientes.
+- **Formatos y precio por volumen** (`catalog.json`, `pnpm tienda:catalog`):
+  - Prime, Prime Tack y Prime Grip tienen sus dos formatos como combinaciones (atributo «Formato», con el nombre de la ficha en cada idioma).
+  - 20 productos tienen preparada la escala por palé (unidades de la ficha). Se aplica cuando su `price` deje de ser null.
+- **Traducciones que faltaban:** [`translations/missing.php`](translations/missing.php) recoge las cadenas de Hummingbird que no traen los paquetes de idioma.
+  - Hoy cubre el teléfono de la cabecera y el buscador.
+  - TODO: faltan unas 170 en DE, NO y FI, 140 en FR y 130 en PL, sobre todo etiquetas para lectores de pantalla.
