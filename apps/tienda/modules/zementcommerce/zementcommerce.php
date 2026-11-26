@@ -9,6 +9,8 @@
  * - «Complete su sistema»: los productos del sistema en orden de aplicación (P1).
  * - Asesor «¿Qué va a hacer?» en la portada (P10) y enlace «Profesionales» en la barra (P14).
  * - Enlaces estables /z/p/<clave> y /z/c/<familia> para la web de marca (P19).
+ * - Fase 2: barra de confianza con datos reales en ficha, carrito y pedido, y aviso de envío
+ *   gratuito en el carrito. Datos: ZEMENT_COMPANY (apps/tienda/config/company.php).
  *
  * Datos: data/commerce.json, generado con apps/tienda/catalog/scripts/build_commerce.py desde
  * las fichas técnicas y apps/tienda/catalog/commerce.json. Los productos se reconocen por su
@@ -33,6 +35,8 @@ class ZementCommerce extends Module
         'displayNav1',
         'actionFrontControllerSetMedia',
         'moduleRoutes',
+        'displayReassurance',
+        'displayShoppingCart',
     ];
 
     /** @var array<string, mixed>|null */
@@ -45,7 +49,7 @@ class ZementCommerce extends Module
     {
         $this->name = 'zementcommerce';
         $this->tab = 'front_office_features';
-        $this->version = '0.1.0';
+        $this->version = '0.2.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -188,6 +192,80 @@ class ZementCommerce extends Module
         return $this->fetch('module:' . $this->name . '/views/templates/hook/nav.tpl');
     }
 
+    /**
+     * Barra de confianza en la ficha, el carrito y el pedido: solo datos reales de Zement
+     * (config/company.php). Lo pendiente (null) no se muestra.
+     */
+    public function hookDisplayReassurance(): string
+    {
+        $company = $this->company();
+        $iso = $this->context->language->iso_code;
+        $strings = ZementCommerceStrings::forLanguage($iso);
+        $local = static fn (?array $values): ?string => $values === null ? null : ($values[$iso] ?? $values['en'] ?? null);
+        $items = [];
+
+        if (!empty($company['phone'])) {
+            $items[] = [
+                'label' => $strings['trustAdvice'],
+                'value' => $company['phone'],
+                'href' => 'tel:' . preg_replace('/[^0-9+]/', '', (string) $company['phone']),
+                'detail' => $local($company['hours'] ?? null),
+            ];
+        }
+        if ($response = $local($company['responseTime'] ?? null)) {
+            $items[] = ['label' => $strings['trustResponse'], 'value' => $response, 'href' => null, 'detail' => null];
+        }
+        if ($area = $local($company['area'] ?? null)) {
+            $items[] = ['label' => $strings['trustArea'], 'value' => $area, 'href' => null, 'detail' => null];
+        }
+        if ($threshold = $this->freeShippingThreshold()) {
+            $items[] = [
+                'label' => sprintf($strings['freeShippingFrom'], $this->formatPrice($threshold)),
+                'value' => null,
+                'href' => null,
+                'detail' => null,
+            ];
+        }
+        if ($delivery = $local($company['delivery'] ?? null)) {
+            $items[] = ['label' => $strings['trustDelivery'], 'value' => $delivery, 'href' => null, 'detail' => null];
+        }
+        if ($returns = $local($company['returns'] ?? null)) {
+            $items[] = ['label' => $strings['trustReturns'], 'value' => $returns, 'href' => null, 'detail' => null];
+        }
+
+        if (!$items) {
+            return '';
+        }
+
+        $this->context->smarty->assign(['zementTrust' => $items, 'zementStrings' => $strings]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/trust.tpl');
+    }
+
+    /** Carrito: cuánto falta para el envío gratuito (solo si hay importe configurado). */
+    public function hookDisplayShoppingCart(): string
+    {
+        $threshold = $this->freeShippingThreshold();
+        $cart = $this->context->cart;
+
+        if (!$threshold || !Validate::isLoadedObject($cart) || !$cart->nbProducts()) {
+            return '';
+        }
+
+        $total = (float) $cart->getOrderTotal(true, Cart::BOTH_WITHOUT_SHIPPING);
+        $missing = max(0.0, $threshold - $total);
+        $strings = ZementCommerceStrings::forLanguage($this->context->language->iso_code);
+
+        $this->context->smarty->assign([
+            'zementFreeShipping' => [
+                'text' => $missing > 0 ? sprintf($strings['freeShippingLeft'], $this->formatPrice($missing)) : $strings['freeShippingDone'],
+                'progress' => (int) round(min(1, $total / $threshold) * 100),
+            ],
+        ]);
+
+        return $this->fetch('module:' . $this->name . '/views/templates/hook/free-shipping.tpl');
+    }
+
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */
     public function stableUrl(string $kind, string $key): ?string
     {
@@ -200,6 +278,27 @@ class ZementCommerce extends Module
         $id = $this->categoryId($key);
 
         return $id ? $this->context->link->getCategoryLink($id) : null;
+    }
+
+    /** @return array<string, mixed> Datos de empresa (config/company.php vía setup-commerce). */
+    private function company(): array
+    {
+        $json = (string) Configuration::get('ZEMENT_COMPANY');
+
+        return $json === '' ? [] : (json_decode($json, true) ?: []);
+    }
+
+    /** Importe para el envío gratuito en la moneda del cliente (0 = no hay envío gratuito). */
+    private function freeShippingThreshold(): float
+    {
+        $threshold = (float) Configuration::get('PS_SHIPPING_FREE_PRICE');
+
+        return $threshold > 0 ? (float) Tools::convertPrice($threshold, $this->context->currency) : 0.0;
+    }
+
+    private function formatPrice(float $amount): string
+    {
+        return $this->context->getCurrentLocale()->formatPrice($amount, $this->context->currency->iso_code);
     }
 
     /** @return array<string, mixed> */

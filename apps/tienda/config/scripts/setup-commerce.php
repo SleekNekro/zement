@@ -8,6 +8,8 @@
  *   idioma (config/web-routes.php), guardado en ZEMENT_PROFESSIONALS_URL.
  * - Productos relacionados nativos (accesorios) que citan las fichas: malla entre capas,
  *   disolvente, imprimación, resina… (apps/tienda/catalog/commerce.json → related).
+ * - Fase 2: datos de empresa para la barra de confianza (config/company.php → ZEMENT_COMPANY)
+ *   y grupos profesionales Aplicador y Distribuidor con precio sin IVA (ver ZEMENT_PRO_GROUPS).
  *
  * Antes: python3 apps/tienda/catalog/scripts/build_commerce.py (lo hace pnpm tienda:commerce).
  * Uso: pnpm tienda:commerce   (ZEMENT_WEB_URL=https://… para otra dirección de la web)
@@ -77,6 +79,55 @@ foreach ($data['related'] as $key => $relatedKeys) {
     ++$count;
 }
 echo "· productos relacionados en {$count} fichas\n";
+
+// Datos de empresa para la barra de confianza (lo pendiente va a null y no se muestra).
+$company = require __DIR__ . '/../company.php';
+Configuration::updateValue('ZEMENT_COMPANY', json_encode($company, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+echo "· barra de confianza con los datos de config/company.php\n";
+
+/*
+ * Grupos profesionales. Ven el precio sin IVA y todo el catálogo; el descuento de cada grupo
+ * es TODO (tarifa de Zement): hasta entonces, 0 %. Zement revisa cada alta profesional
+ * (empresa y CIF) y asigna el grupo a mano en Clientes → Clientes.
+ */
+const ZEMENT_PRO_GROUPS = [
+    'Aplicador' => [
+        'es' => 'Aplicador', 'en' => 'Applicator', 'de' => 'Verarbeiter', 'fr' => 'Applicateur',
+        'it' => 'Applicatore', 'pl' => 'Wykonawca', 'no' => 'Applikatør', 'fi' => 'Asentaja',
+    ],
+    'Distribuidor' => [
+        'es' => 'Distribuidor', 'en' => 'Distributor', 'de' => 'Händler', 'fr' => 'Distributeur',
+        'it' => 'Distributore', 'pl' => 'Dystrybutor', 'no' => 'Forhandler', 'fi' => 'Jälleenmyyjä',
+    ],
+];
+$db = Db::getInstance();
+$customerGroup = (int) Configuration::get('PS_CUSTOMER_GROUP');
+$idEs = (int) Language::getIdByIso('es');
+
+foreach (ZEMENT_PRO_GROUPS as $esName => $names) {
+    $id = (int) $db->getValue('SELECT id_group FROM `' . _DB_PREFIX_ . "group_lang` WHERE id_lang = {$idEs} AND name = '" . pSQL($esName) . "'");
+    $group = new Group($id ?: null);
+    foreach (Language::getLanguages(false) as $language) {
+        $group->name[(int) $language['id_lang']] = $names[$language['iso_code']] ?? $names['en'];
+    }
+    $group->price_display_method = PS_TAX_EXC;
+    $group->show_prices = true;
+    if (!$id) {
+        $group->reduction = 0; // TODO: descuento de la tarifa profesional.
+    }
+    $group->save();
+    $groupId = (int) $group->id;
+
+    // Mismo acceso que los clientes: categorías, módulos (pagos incluidos) y transportistas.
+    $db->execute('INSERT IGNORE INTO `' . _DB_PREFIX_ . "category_group` (id_category, id_group)
+        SELECT id_category, {$groupId} FROM `" . _DB_PREFIX_ . "category_group` WHERE id_group = {$customerGroup}");
+    $db->execute('INSERT IGNORE INTO `' . _DB_PREFIX_ . "module_group` (id_module, id_shop, id_group)
+        SELECT id_module, id_shop, {$groupId} FROM `" . _DB_PREFIX_ . "module_group` WHERE id_group = {$customerGroup}");
+    $db->execute('INSERT IGNORE INTO `' . _DB_PREFIX_ . "carrier_group` (id_carrier, id_group)
+        SELECT id_carrier, {$groupId} FROM `" . _DB_PREFIX_ . "carrier_group` WHERE id_group = {$customerGroup}");
+
+    echo ($id ? '= ' : '+ ') . "grupo {$esName} (id {$groupId}, precio sin IVA)\n";
+}
 
 Tools::clearSf2Cache();
 Tools::clearSmartyCache();

@@ -4,7 +4,7 @@
  * Pie de la tienda con los datos de Zement en lugar de los de demostración de PrestaShop.
  *
  * - Nombre de la tienda: «Zement» (aparece en «Información de la tienda», títulos y correos).
- * - Oculta el correo de la tienda mientras sea el de pruebas (TODO: correo real de Zement).
+ * - El correo y el teléfono de la tienda los pone setup-settings.php (config/company.php).
  * - Sustituye los bloques de enlaces de demostración (ps_linklist) por:
  *     displayFooter       «Productos»: las familias del catálogo, en su orden
  *                         «Zement»: sistema, profesionales y contacto de la web de marca
@@ -77,10 +77,6 @@ $languages = Language::getLanguages(false);
 
 // Datos de la tienda.
 Configuration::updateValue('PS_SHOP_NAME', 'Zement');
-if (str_ends_with((string) Configuration::get('PS_SHOP_EMAIL'), '.test')) {
-    Configuration::updateValue('PS_CONTACT_INFO_DISPLAY_EMAIL', 0);
-    echo "· correo de la tienda oculto (es de pruebas: TODO correo real de Zement)\n";
-}
 
 $linklist = Module::getInstanceByName('ps_linklist');
 if (!$linklist instanceof Module || !Module::isInstalled('ps_linklist')) {

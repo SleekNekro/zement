@@ -1,5 +1,5 @@
 {
-  "$comment": "Familias de la tienda y datos comerciales de cada producto. Los textos técnicos salen de products/*.json (extraídos de las fichas PDF). Lo que vale null está pendiente de Zement (TODO: contenido real): mientras falte el precio, el producto se importa desactivado.",
+  "$comment": "Familias de la tienda y datos comerciales de cada producto. Los textos técnicos salen de products/*.json (extraídos de las fichas PDF). Lo que vale null está pendiente de Zement (TODO: contenido real): mientras falte el precio, el producto se importa desactivado. «formats»: formatos de venta como combinaciones (pack = posición en la presentación de la ficha, que da el nombre en cada idioma; price = precio del formato). «volume»: precio por unidad a partir de una cantidad (from = unidades del palé según la ficha). Lo que vale null no se aplica.",
   "languages": ["es", "en", "de", "fr", "it", "pl", "no", "fi"],
   "categories": [
     {
@@ -108,71 +108,407 @@
     }
   ],
   "products": [
-    { "key": "basis-0-4-aqua-mix", "category": "microcemento", "reference": null, "price": null },
+    {
+      "key": "basis-0-4-aqua-mix",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
     {
       "key": "basis-grob-0-6-aqua-mix",
       "category": "microcemento",
       "reference": null,
-      "price": null
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
     },
-    { "key": "basis-direkt-1k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "basis-direkt-2k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "mittel-0-2-aqua-mix", "category": "microcemento", "reference": null, "price": null },
-    { "key": "mittel-direkt-1k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "mittel-direkt-2k", "category": "microcemento", "reference": null, "price": null },
+    {
+      "key": "basis-direkt-1k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "basis-direkt-2k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 44,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "mittel-0-2-aqua-mix",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "mittel-direkt-1k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "mittel-direkt-2k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 44,
+          "price": null
+        }
+      ]
+    },
     {
       "key": "mittel-direkt-level-2k",
       "category": "microcemento",
       "reference": null,
-      "price": null
+      "price": null,
+      "volume": [
+        {
+          "from": 44,
+          "price": null
+        }
+      ]
     },
     {
       "key": "fein-0-02-0-06-aqua-mix",
       "category": "microcemento",
       "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "fein-direkt-1k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "fein-direkt-2k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 44,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "fein-direkt-level-2k",
+      "category": "microcemento",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 44,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "grob-3-4-mm-kork",
+      "category": "corcho",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "mittel-0-2-kork",
+      "category": "corcho",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "fein-0-02-0-06-kork",
+      "category": "corcho",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 36,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-prime",
+      "category": "imprimaciones",
+      "reference": null,
+      "price": null,
+      "formats": [
+        {
+          "pack": 0,
+          "reference": null,
+          "price": null
+        },
+        {
+          "pack": 1,
+          "reference": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-prime-grip",
+      "category": "imprimaciones",
+      "reference": null,
+      "price": null,
+      "formats": [
+        {
+          "pack": 0,
+          "reference": null,
+          "price": null
+        },
+        {
+          "pack": 1,
+          "reference": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-prime-tack",
+      "category": "imprimaciones",
+      "reference": null,
+      "price": null,
+      "formats": [
+        {
+          "pack": 0,
+          "reference": null,
+          "price": null
+        },
+        {
+          "pack": 1,
+          "reference": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-seal",
+      "category": "imprimaciones",
+      "reference": null,
       "price": null
     },
-    { "key": "fein-direkt-1k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "fein-direkt-2k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "fein-direkt-level-2k", "category": "microcemento", "reference": null, "price": null },
-    { "key": "grob-3-4-mm-kork", "category": "corcho", "reference": null, "price": null },
-    { "key": "mittel-0-2-kork", "category": "corcho", "reference": null, "price": null },
-    { "key": "fein-0-02-0-06-kork", "category": "corcho", "reference": null, "price": null },
-    { "key": "zement-prime", "category": "imprimaciones", "reference": null, "price": null },
-    { "key": "zement-prime-grip", "category": "imprimaciones", "reference": null, "price": null },
-    { "key": "zement-prime-tack", "category": "imprimaciones", "reference": null, "price": null },
-    { "key": "zement-seal", "category": "imprimaciones", "reference": null, "price": null },
-    { "key": "zement-seal-pore", "category": "imprimaciones", "reference": null, "price": null },
-    { "key": "protect-aqua-2k", "category": "proteccion", "reference": null, "price": null },
-    { "key": "protect-solvent-2k", "category": "proteccion", "reference": null, "price": null },
+    {
+      "key": "zement-seal-pore",
+      "category": "imprimaciones",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 120,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "protect-aqua-2k",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "protect-solvent-2k",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
     {
       "key": "protect-solvent-grip-2k",
       "category": "proteccion",
       "reference": null,
       "price": null
     },
-    { "key": "protect-sanitary-2k", "category": "proteccion", "reference": null, "price": null },
-    { "key": "protect-repel", "category": "proteccion", "reference": null, "price": null },
-    { "key": "protect-diluent", "category": "proteccion", "reference": null, "price": null },
-    { "key": "zement-metallic", "category": "metalicos", "reference": null, "price": null },
-    { "key": "metallic-lasur", "category": "metalicos", "reference": null, "price": null },
+    {
+      "key": "protect-sanitary-2k",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "protect-repel",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "protect-diluent",
+      "category": "proteccion",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-metallic",
+      "category": "metalicos",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "metallic-lasur",
+      "category": "metalicos",
+      "reference": null,
+      "price": null
+    },
     {
       "key": "protect-solvent-metallic-2k",
       "category": "metalicos",
       "reference": null,
       "price": null
     },
-    { "key": "zement-repair-10", "category": "morteros", "reference": null, "price": null },
-    { "key": "zement-repair-20", "category": "morteros", "reference": null, "price": null },
-    { "key": "zement-repair-40", "category": "morteros", "reference": null, "price": null },
-    { "key": "zement-flex-sanitary", "category": "morteros", "reference": null, "price": null },
-    { "key": "zement-dune", "category": "piscinas", "reference": null, "price": null },
-    { "key": "zement-dune-fix", "category": "piscinas", "reference": null, "price": null },
-    { "key": "zement-latex", "category": "complementos", "reference": null, "price": null },
-    { "key": "zement-latex-flex", "category": "complementos", "reference": null, "price": null },
-    { "key": "zement-color-lab", "category": "complementos", "reference": null, "price": null },
-    { "key": "zement-quartz-sand", "category": "complementos", "reference": null, "price": null },
-    { "key": "malla-80g", "category": "complementos", "reference": null, "price": null },
-    { "key": "malla-160g", "category": "complementos", "reference": null, "price": null }
+    {
+      "key": "zement-repair-10",
+      "category": "morteros",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 48,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-repair-20",
+      "category": "morteros",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 48,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-repair-40",
+      "category": "morteros",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 48,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-flex-sanitary",
+      "category": "morteros",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-dune",
+      "category": "piscinas",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-dune-fix",
+      "category": "piscinas",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-latex",
+      "category": "complementos",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-latex-flex",
+      "category": "complementos",
+      "reference": null,
+      "price": null,
+      "volume": [
+        {
+          "from": 144,
+          "price": null
+        }
+      ]
+    },
+    {
+      "key": "zement-color-lab",
+      "category": "complementos",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "zement-quartz-sand",
+      "category": "complementos",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "malla-80g",
+      "category": "complementos",
+      "reference": null,
+      "price": null
+    },
+    {
+      "key": "malla-160g",
+      "category": "complementos",
+      "reference": null,
+      "price": null
+    }
   ]
 }
