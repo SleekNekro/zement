@@ -1046,6 +1046,53 @@ img[src*='/img/p/'][src*='-default-'] {
   --bs-btn-active-bg: var(--zm-color-sand);
 }
 
+/* Segunda acción del bloque principal: contorno claro sobre el fondo oscuro. */
+.zm-btn-outline-light {
+  --zm-btn-fill: var(--zm-color-paper);
+  --bs-btn-color: var(--zm-color-paper);
+  --bs-btn-border-color: var(--zm-color-line-dark);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-color: var(--zm-color-night);
+  --bs-btn-hover-border-color: var(--zm-color-paper);
+  --bs-btn-active-bg: var(--zm-color-paper);
+  --bs-btn-active-color: var(--zm-color-night);
+}
+
+/* Franja de pruebas bajo el bloque principal: lo comprobable, separado por filetes. */
+.zm-proof {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.5rem;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  padding-block: 0;
+  list-style: none;
+}
+
+@media (width >= 992px) {
+  .zm-proof {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.zm-proof__item {
+  display: grid;
+  gap: 0.125rem;
+  align-content: start;
+  padding-block: 0.875rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-navy);
+  color: var(--zm-color-navy);
+  font-size: 0.8125rem;
+  font-weight: var(--zm-weight-ui);
+  line-height: 1.35;
+}
+
+.zm-proof__phone {
+  color: var(--zm-color-navy);
+  font-variant-numeric: tabular-nums;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 /* Asesor «¿Qué va a hacer?» (zementcommerce): un acceso por proyecto. */
 .zm-projects {
   margin-bottom: clamp(2.5rem, 5vw, 4rem);

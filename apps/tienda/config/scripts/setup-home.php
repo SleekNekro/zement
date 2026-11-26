@@ -5,7 +5,8 @@
  * demostración de PrestaShop (carrusel, banner, texto, destacados y novedades) y la pone primera.
  * Solo los desengancha de displayHome: los módulos siguen instalados y se pueden volver a enganchar.
  *
- * Uso: pnpm tienda:home
+ * Uso: pnpm tienda:home   (copia apps/tienda/config al contenedor; ZEMENT_WEB_URL=https://… para
+ *      otra dirección de la web)
  */
 
 declare(strict_types=1);
@@ -65,6 +66,22 @@ foreach (ZEMENT_HOME_DEMO_MODULES as $name) {
         echo "- {$name} quitado de la portada\n";
     }
 }
+
+// «Ver el sistema» de la portada: página del sistema de microcemento en la web, en cada idioma
+// (config/web-routes.php + slug de apps/web/src/content/systems.json).
+const ZEMENT_SYSTEM_SLUGS = [
+    'es' => 'microcemento', 'en' => 'microcement', 'de' => 'mikrozement', 'fr' => 'microciment',
+    'it' => 'microcemento', 'pl' => 'mikrocement', 'no' => 'mikrosement', 'fi' => 'mikrosementti',
+];
+$webUrl = rtrim(getenv('ZEMENT_WEB_URL') ?: 'http://localhost:4321', '/');
+$webRoutes = require __DIR__ . '/../web-routes.php';
+$systemUrls = [];
+foreach (Language::getLanguages(false) as $language) {
+    $iso = $language['iso_code'];
+    $systemUrls[(int) $language['id_lang']] = $webUrl . ($webRoutes[$iso] ?? $webRoutes['en'])['system'] . (ZEMENT_SYSTEM_SLUGS[$iso] ?? ZEMENT_SYSTEM_SLUGS['en']) . '/';
+}
+Configuration::updateValue('ZEMENT_SYSTEM_URL', $systemUrls);
+echo "· «Ver el sistema» → {$systemUrls[(int) Language::getIdByIso('es')]} (y el resto de idiomas)\n";
 
 Tools::clearSf2Cache();
 Tools::clearSmartyCache();

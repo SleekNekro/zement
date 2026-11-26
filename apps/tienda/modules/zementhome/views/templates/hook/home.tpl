@@ -1,9 +1,10 @@
 {**
  * Portada al estilo de una tienda clásica:
- * 1. bloque principal (primera familia, el microcemento), más bajo que un hero de marca;
+ * 1. bloque principal: titular de la marca (el <h1>), acceso profesional y el sistema en la web;
+ *    debajo, una franja de pruebas (fichas, normas, sistema por capas y asesoramiento);
  * 2. asesor «¿Qué va a hacer?» (módulo zementcommerce; las familias ya están en el menú);
- * 3. una fila de productos por familia, con las miniaturas del tema (precio y compra cuando los
- *    haya) y un enlace a todos los productos de la familia.
+ * 3. una fila de productos de cada una de las cuatro primeras familias (el resto, en el menú),
+ *    con las miniaturas del tema y un enlace a todos los productos de la familia.
  *}
 {if $zementHero}
     <section class="zm-home-hero" aria-labelledby="zm-home-hero-title">
@@ -11,15 +12,33 @@
             <img class="zm-home-hero__image" src="{$zementHero.image}" alt="" loading="eager" fetchpriority="high">
         {/if}
         <div class="zm-home-hero__content container">
-            <h2 class="zm-home-hero__title" id="zm-home-hero-title">
-                <span>{$zementHero.name}</span>
-                <span>&amp; Materials</span>
-            </h2>
+            {* El titular es el <h1> de la portada (la cabecera ya no envuelve el logotipo en <h1>). *}
+            <h1 class="zm-home-hero__title" id="zm-home-hero-title">
+                {foreach from=$zementHero.title item=line}<span>{$line}</span>{if !$line@last} {/if}{/foreach}
+            </h1>
             <div class="zm-home-hero__actions">
-                <a class="btn zm-btn-light" href="{$zementHero.url}">{$zementHero.name}</a>
+                <a class="btn zm-btn-light" href="{$zementHero.pro.url}">{$zementHero.pro.label}</a>
+                {if $zementHero.system.url}
+                    <a class="btn zm-btn-outline-light" href="{$zementHero.system.url}">{$zementHero.system.label}</a>
+                {/if}
             </div>
         </div>
     </section>
+
+    {* Pruebas, no adjetivos: lo que cualquier comprador puede comprobar. *}
+    <div class="container">
+        <ul class="zm-proof">
+            {foreach from=$zementProof.items item=item}
+                <li class="zm-proof__item">{$item}</li>
+            {/foreach}
+            {if $zementProof.phone}
+                <li class="zm-proof__item">
+                    {$zementProof.advice}
+                    <a class="zm-proof__phone" href="tel:{$zementProof.tel}">{$zementProof.phone}</a>
+                </li>
+            {/if}
+        </ul>
+    </div>
 {/if}
 
 {if $zementFamilies}
