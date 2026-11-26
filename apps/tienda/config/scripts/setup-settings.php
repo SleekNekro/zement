@@ -203,7 +203,8 @@ $translate = static function (string $iso, string $domain, string $source, strin
         return;
     }
     foreach ([null, 'zement'] as $theme) {
-        $where = 'id_lang = ' . $idLang . " AND domain = '" . pSQL($domain) . "' AND `key` = '" . pSQL($source) . "'"
+        // BINARY: la tabla no distingue mayúsculas y «Show password» borraría «Show Password».
+        $where = 'id_lang = ' . $idLang . " AND domain = '" . pSQL($domain) . "' AND BINARY `key` = '" . pSQL($source) . "'"
             . ($theme === null ? ' AND theme IS NULL' : " AND theme = '" . pSQL($theme) . "'");
         $db->delete('translation', $where);
         $db->insert('translation', [
@@ -230,7 +231,7 @@ $count = 0;
 foreach (require __DIR__ . '/../translations/missing.php' as $iso => $domains) {
     foreach ($domains as $domain => $strings) {
         foreach ($strings as $source => $target) {
-            $translate($iso, $domain, $source, $target);
+            $translate($iso, $domain, (string) $source, $target); // PHP convierte la clave «404» en entero
             ++$count;
         }
     }
