@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Herramientas de venta de Zement en la tienda (fase 1 de docs/AUDITORIA-COMERCIAL.md):
+ * Herramientas de venta de Zement en la tienda (fase 1 del plan comercial):
  *
  * - Miniaturas con el tipo de producto, el formato y el dato clave de la ficha (P7).
  * - Sellos de norma (EN 13813, EN 13501-1) junto al resumen del producto (P8).

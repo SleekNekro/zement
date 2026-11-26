@@ -14,3 +14,8 @@ dist/
 
 # Generado por PrestaShop dentro del tema
 apps/tienda/theme/zement/assets/cache/
+
+# Herramientas locales (no se publican)
+AGENTS.md
+CLAUDE.md
+.claude/

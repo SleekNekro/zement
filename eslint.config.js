@@ -13,8 +13,8 @@ export default tseslint.config(
       '**/.astro/**',
       'apps/tienda/theme/zement/assets/cache/**',
       'apps/tienda/**/*.min.js',
-      // Skills de agentes de terceros (Impeccable).
-      '.claude/skills/**',
+      // Herramientas locales del editor (no se publican).
+      '.claude/**',
     ],
   },
   js.configs.recommended,

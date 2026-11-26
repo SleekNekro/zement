@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Herramientas de venta (módulo zementcommerce, fase 1 de docs/AUDITORIA-COMERCIAL.md):
+ * Herramientas de venta (módulo zementcommerce, fase 1 del plan comercial):
  *
  * - Instala el módulo y lo engancha (miniaturas, ficha, portada, barra superior, rutas).
  * - Enlace «Profesionales» de la barra superior: sección de profesionales de la web en cada

@@ -8,8 +8,8 @@ apps/tienda/theme/zement/assets/css/fonts.css
 *.woff2
 *.png
 
-# Skills de terceros (Impeccable)
-.claude/skills/
+# Herramientas locales del editor (no se publican)
+.claude/
 
 # Generado por apps/tienda/catalog/scripts/extract_sheets.py
 apps/tienda/catalog/products/

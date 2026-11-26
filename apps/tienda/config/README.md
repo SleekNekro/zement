@@ -62,7 +62,7 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - **Traducciones:** títulos y URL de las páginas de PrestaShop, estados de pedido, tratamientos y transportistas, traducidos para IT, PL, NO y FI, que se habían quedado en inglés. En español, el título del alta es «Crear una cuenta».
 - **Productos sin precio** (`catalog.json`, `price: null`): la ficha se ve, pero sin «0,00 €», sin cantidad ni «Añadir al carrito», sin «Fuera de stock» y sin «Notificarme».
 - **Productos sin foto:** superficie azul de marca con el logotipo en lugar de «Imagen no disponible».
-- Desde la auditoría (`docs/AUDITORIA-TIENDA.md`, 26/11/2026), también:
+- Desde la auditoría de la tienda (26/11/2026), también:
   - **Marca:** tienda «Zement» con su logotipo (`theme/zement/assets/img/zement-logo-navy.png` → `img/zement-logo.png`).
   - **Módulos de terceros sin uso:** desactivados.
   - **Alta y boletín:** alta sin fecha de nacimiento; boletín con doble confirmación.

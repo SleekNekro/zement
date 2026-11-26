@@ -92,7 +92,6 @@ ZementWeb/
   packages/design-tokens/      Colores, tipografías, espaciados y movimiento: fuente única
   infra/docker/                PrestaShop + MySQL para desarrollo local
   docs/                        Este documento, dirección visual, decisiones (ADR)
-  AGENTS.md                    Normas de código, estructura y reglas del proyecto
 ```
 
 - **Web:** Node 24 y pnpm. Calidad de código con Prettier, ESLint, Stylelint y TypeScript estricto (`pnpm verify`).
@@ -155,7 +154,7 @@ ZementWeb/
 1. **Fundaciones**
    - Repositorio y tokens de diseño.
    - Docker local con PrestaShop + MySQL.
-   - Proyecto Astro y `AGENTS.md`.
+   - Proyecto Astro y normas de código.
    - Integración continua (CI).
 2. **Web de marca**
    - Portada, empresa, productos (editoriales), proyectos y contacto.

@@ -4,7 +4,6 @@ Web de marca en **Astro** (`apps/web`) y tienda **PrestaShop 9.2** con tema hijo
 
 - Arquitectura y decisiones: [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md)
 - Dirección visual: [docs/DIRECCION-VISUAL.md](docs/DIRECCION-VISUAL.md)
-- Normas de código y estructura: [AGENTS.md](AGENTS.md)
 
 ## Requisitos
 
