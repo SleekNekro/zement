@@ -139,6 +139,11 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 
 Se aplican con `pnpm tienda:payments` ([`scripts/setup-payments.php`](scripts/setup-payments.php)). Decisión del 26/11/2026: **tarjeta con Stripe y transferencia bancaria**.
 
+- **Pendiente (26/11/2026), aparcado hasta que haya precios:**
+  - **Stripe:** comprobar que el módulo oficial admite PrestaShop 9.2, instalarlo desde el Marketplace, crear la cuenta de Stripe de Zement y poner las claves de pruebas. Pasos abajo.
+  - **Transferencia:** titular e IBAN de la cuenta de Zement en `company.php` → `bank`, y después `pnpm tienda:payments`.
+  - **Pedido:** días de reserva del pedido pagado por transferencia.
+
 - **Métodos de ejemplo de PrestaShop:** se desactivan (no se desinstalan) el cheque, el contra reembolso y PrestaShop Checkout.
 - **Transferencia bancaria** (`ps_wirepayment`):
   - Los datos salen de [`company.php`](company.php) → `bank`: titular, IBAN, BIC y banco.
