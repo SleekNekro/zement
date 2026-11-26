@@ -1,7 +1,8 @@
 /** Textos fijos de la plantilla de página de sistema. */
-import type { Locale } from '../i18n/ui';
+import translations from '../i18n/translations';
+import type { Locale, Strings } from '../i18n/locales';
 
-export const systemPageText = {
+const basePage = {
   es: {
     breadcrumbLabel: 'Ruta de navegación',
     breadcrumbHome: 'Inicio',
@@ -72,12 +73,22 @@ export const systemPageText = {
     proCta: 'Professional access',
     proSignup: 'Request an account',
   },
-} as const satisfies Record<Locale, Record<string, string | readonly string[]>>;
+} as const;
 
-export type SystemPageText = (typeof systemPageText)[Locale];
+export type SystemPageText = Strings<(typeof basePage)['es']>;
+
+export const systemPageText: Record<Locale, SystemPageText> = {
+  ...basePage,
+  de: translations.de.systemPage,
+  fr: translations.fr.systemPage,
+  it: translations.it.systemPage,
+  pl: translations.pl.systemPage,
+  no: translations.no.systemPage,
+  fi: translations.fi.systemPage,
+};
 
 /** Textos del índice de sistemas (/sistemas/, /en/systems/). */
-export const systemsIndexText = {
+const baseIndex = {
   es: {
     breadcrumbLabel: 'Ruta de navegación',
     breadcrumbHome: 'Inicio',
@@ -101,4 +112,16 @@ export const systemsIndexText = {
       'Are you a professional? Sign in to see your price list, excluding VAT, on every product.',
     proCta: 'Professional access',
   },
-} as const satisfies Record<Locale, Record<string, string>>;
+} as const;
+
+export type SystemsIndexText = Strings<(typeof baseIndex)['es']>;
+
+export const systemsIndexText: Record<Locale, SystemsIndexText> = {
+  ...baseIndex,
+  de: translations.de.systemsIndex,
+  fr: translations.fr.systemsIndex,
+  it: translations.it.systemsIndex,
+  pl: translations.pl.systemsIndex,
+  no: translations.no.systemsIndex,
+  fi: translations.fi.systemsIndex,
+};

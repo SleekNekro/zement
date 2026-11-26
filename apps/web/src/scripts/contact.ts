@@ -24,15 +24,9 @@ function setupContactForm(contactForm: HTMLFormElement): void {
   const submit = contactForm.querySelector<HTMLButtonElement>('[data-submit]');
   const submitLabel = contactForm.querySelector<HTMLElement>('[data-submit-label]');
   const select = contactForm.querySelector<HTMLSelectElement>('[data-interest-select]');
-  const lang = (contactForm.elements.namedItem('lang') as HTMLInputElement | null)?.value ?? 'es';
-  const networkError =
-    lang === 'en'
-      ? 'No connection. Please check your network and try again.'
-      : 'No hay conexión. Comprueba tu red y vuelve a intentarlo.';
-  const unavailableError =
-    lang === 'en'
-      ? 'Sending is not available right now. Please email or call us directly.'
-      : 'El envío no está disponible en este momento. Escríbenos o llámanos directamente.';
+  // Mensajes del navegador en el idioma de la página (los pone Contact.astro desde i18n/form.ts).
+  const networkError = contactForm.dataset.networkError ?? '';
+  const unavailableError = contactForm.dataset.unavailableError ?? '';
 
   // «Te interesa» precargado desde el enlace que trajo al formulario.
   const preset = new URLSearchParams(window.location.search).get('interes');

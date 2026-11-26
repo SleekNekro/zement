@@ -55,7 +55,7 @@ for (const { page, name } of pageList) {
 
   test(`${name}: metadatos básicos`, async () => {
     const html = await readFile(page, 'utf8');
-    assert.match(html, /<html lang="(es|en)"/, 'falta lang');
+    assert.match(html, /<html lang="(es|en|de|fr|it|pl|no|fi)"/, 'falta lang');
     assert.match(html, /<title>[^<]+<\/title>/, 'falta title');
     assert.match(html, /<meta name="description" content="[^"]+"/, 'falta description');
     assert.match(html, /<meta name="robots" content="[^"]+"/, 'falta robots');

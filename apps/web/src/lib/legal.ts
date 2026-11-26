@@ -1,21 +1,40 @@
 import { marked } from 'marked';
 import { company, isPending } from '../data/company';
-import type { Locale } from '../i18n/ui';
+import translations from '../i18n/translations';
+import { localePath, type Locale } from '../i18n/locales';
 
-/** Páginas legales y su URL en cada idioma. */
-export const legalPages = {
-  notice: { es: 'aviso-legal', en: 'legal-notice' },
-  privacy: { es: 'privacidad', en: 'privacy' },
-  cookies: { es: 'cookies', en: 'cookies' },
-  terms: { es: 'condiciones-de-venta', en: 'terms-of-sale' },
-} as const satisfies Record<string, Record<Locale, string>>;
+export const legalPageKeys = ['notice', 'privacy', 'cookies', 'terms'] as const;
+export type LegalPage = (typeof legalPageKeys)[number];
 
-export type LegalPage = keyof typeof legalPages;
+/** Dirección de cada página legal en cada idioma (es y en aquí; el resto, en `i18n/translations/`). */
+const fromTranslations = (page: LegalPage): Record<Locale, string> => ({
+  es: {
+    notice: 'aviso-legal',
+    privacy: 'privacidad',
+    cookies: 'cookies',
+    terms: 'condiciones-de-venta',
+  }[page],
+  en: { notice: 'legal-notice', privacy: 'privacy', cookies: 'cookies', terms: 'terms-of-sale' }[
+    page
+  ],
+  de: translations.de.routes.legal[page],
+  fr: translations.fr.routes.legal[page],
+  it: translations.it.routes.legal[page],
+  pl: translations.pl.routes.legal[page],
+  no: translations.no.routes.legal[page],
+  fi: translations.fi.routes.legal[page],
+});
+
+export const legalPages: Record<LegalPage, Record<Locale, string>> = {
+  notice: fromTranslations('notice'),
+  privacy: fromTranslations('privacy'),
+  cookies: fromTranslations('cookies'),
+  terms: fromTranslations('terms'),
+};
 
 /** URL de una página legal en un idioma. */
 export function legalPath(locale: Locale, page: LegalPage): string {
-  const slug = legalPages[page][locale];
-  return locale === 'es' ? `/${slug}/` : `/en/${slug}/`;
+  return localePath(locale, `/${legalPages[page][locale]}/`);
 }
 
 function escapeHtml(value: string): string {

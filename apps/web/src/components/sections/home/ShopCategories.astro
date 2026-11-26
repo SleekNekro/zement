@@ -2,7 +2,7 @@
 import Button from '../../ui/Button.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
 import type { HomeContent } from '../../../data/home';
-import { shopUrl } from '../../../lib/shop';
+import { shopPathUrl, shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
 import Arrow from '../../ui/Arrow.astro';
 import ShopTerms from '../../ui/ShopTerms.astro';
@@ -68,7 +68,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
                   ? 'min-h-72 flex-col justify-between gap-10 py-8 lg:min-h-[30rem] lg:p-10'
                   : 'items-center justify-between gap-6 py-6 lg:px-10 lg:py-8',
               ]}
-              href={shopUrl(locale, 'search', category.query)}
+              href={shopPathUrl(locale, category.shopPath)}
             >
               <span class="grid gap-3">
                 {category.codes.length > 0 && (

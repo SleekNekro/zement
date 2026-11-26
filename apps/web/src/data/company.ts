@@ -1,3 +1,32 @@
+import translations from '../i18n/translations';
+import type { Locale } from '../i18n/locales';
+
+type Localized = Record<Locale, string>;
+
+/** Textos de empresa en español e inglés; el resto de idiomas sale de `i18n/translations/`. */
+const pick = (
+  key:
+    | 'hours'
+    | 'responseTime'
+    | 'area'
+    | 'shipping'
+    | 'delivery'
+    | 'payment'
+    | 'returns'
+    | 'proApprovalTime',
+  es: string,
+  en: string,
+): Localized => ({
+  es,
+  en,
+  de: translations.de.company[key],
+  fr: translations.fr.company[key],
+  it: translations.it.company[key],
+  pl: translations.pl.company[key],
+  no: translations.no.company[key],
+  fi: translations.fi.company[key],
+});
+
 /**
  * Datos de contacto de Zement: una sola fuente para la web.
  * Un valor vacío o que empieza por «TODO» no se muestra como enlace (se marca como pendiente).
@@ -11,19 +40,20 @@ export const company = {
   /** Número de WhatsApp en formato internacional sin espacios, p. ej. 34600000000 (vacío = sin WhatsApp). */
   whatsapp: '',
   /** Horario de atención. */
-  hours: { es: 'TODO: horario real', en: 'TODO: real opening hours' },
+  hours: pick('hours', 'TODO: horario real', 'TODO: real opening hours'),
   /** Plazo de respuesta a consultas. */
-  responseTime: { es: 'TODO: plazo real de respuesta', en: 'TODO: real response time' },
+  responseTime: pick('responseTime', 'TODO: plazo real de respuesta', 'TODO: real response time'),
   /** Condiciones de compra en la tienda (deben coincidir con PrestaShop: una sola verdad). */
   shopTerms: {
-    area: { es: 'España y Europa', en: 'Spain and Europe' },
-    shipping: {
-      es: 'TODO: coste y envío gratis desde X €',
-      en: 'TODO: cost and free shipping from X €',
-    },
-    delivery: { es: 'TODO: plazo real de entrega', en: 'TODO: real delivery time' },
-    payment: { es: 'TODO: formas de pago reales', en: 'TODO: real payment methods' },
-    returns: { es: 'TODO: condiciones de devolución', en: 'TODO: return conditions' },
+    area: pick('area', 'España y Europa', 'Spain and Europe'),
+    shipping: pick(
+      'shipping',
+      'TODO: coste y envío gratis desde X €',
+      'TODO: cost and free shipping from X €',
+    ),
+    delivery: pick('delivery', 'TODO: plazo real de entrega', 'TODO: real delivery time'),
+    payment: pick('payment', 'TODO: formas de pago reales', 'TODO: real payment methods'),
+    returns: pick('returns', 'TODO: condiciones de devolución', 'TODO: return conditions'),
   },
   /**
    * Datos legales del titular de la web y la tienda (LSSI art. 10, RGPD art. 13).
@@ -42,7 +72,7 @@ export const company = {
     updated: '25/11/2026',
   },
   /** Plazo de revisión de las altas profesionales. */
-  proApprovalTime: { es: 'TODO: plazo real de alta', en: 'TODO: real approval time' },
+  proApprovalTime: pick('proApprovalTime', 'TODO: plazo real de alta', 'TODO: real approval time'),
 } as const;
 
 /** true si el dato está pendiente y no debe usarse como enlace. */

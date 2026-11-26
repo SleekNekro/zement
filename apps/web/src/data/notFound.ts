@@ -1,5 +1,3 @@
-import type { Locale } from '../i18n/ui';
-
 /** Página 404: una sola página para los dos idiomas (el servidor no sabe en cuál estaba el visitante). */
 export interface NotFoundContent {
   title: string;
@@ -8,7 +6,7 @@ export interface NotFoundContent {
   shop: string;
 }
 
-export const notFound: Record<Locale, NotFoundContent> = {
+export const notFound: Record<'es' | 'en', NotFoundContent> = {
   es: {
     title: 'Esta página no existe.',
     text: 'Puede que el enlace esté mal escrito o que la página se haya movido.',

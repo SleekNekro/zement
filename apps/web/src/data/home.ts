@@ -3,7 +3,8 @@
  * Origen: boceto de UI aportado por Zement (25/11/2026), traducido al inglés.
  * Lo marcado con `todo` está pendiente de contenido real: no rellenar por inferencia.
  */
-import type { Locale } from '../i18n/ui';
+import translations from '../i18n/translations';
+import type { Locale } from '../i18n/locales';
 
 /** Destino de un enlace: la tienda (sale de la web) o una sección de esta página. */
 export type LinkTarget =
@@ -36,17 +37,18 @@ export interface Chapter {
 
 /**
  * Familia de productos en la tienda, ligada a las capas del sistema que cubre.
- * `query` se usa en la búsqueda de PrestaShop hasta que existan las categorías reales
- * (TODO: sustituir por la URL de cada categoría cuando se creen en la tienda).
+ * `shopPath` es la ruta de su categoría en PrestaShop en ese idioma (id + nombre en la URL).
  */
 export interface ShopCategory {
   name: string;
   codes: string[];
   text: string;
-  query: string;
+  shopPath: string;
 }
 
 export interface HomeContent {
+  /** Descripción de la portada para buscadores y redes. */
+  description: string;
   topbar: string;
   hero: {
     title: [string, string];
@@ -68,7 +70,8 @@ export interface HomeContent {
      * Fase previa sobre el soporte (grietas, fisuras, desniveles). Su producto y código están por
      * definir: se muestran como TODO en el corte.
      */
-    repair: { code: string; name: string; text: string };
+    /** Fase previa sobre el soporte, con los datos de su mortero (mismo orden que los datos destacados del sistema). */
+    repair: { code: string; name: string; text: string; specValues: string[] };
     steps: { code: string; name: string; text: string }[];
     layersLabel: string;
     /** Indicación de uso del cubo y textos de sus controles (reproducir, pausar, volver a ver). */
@@ -85,10 +88,10 @@ export interface HomeContent {
     beforeShort: string;
     /** Explicación del soporte: el sistema se aplica sobre la superficie existente. */
     supportText: string;
-    /** Soportes compatibles concretos: pendiente de ficha técnica, no inventar. */
-    supportTodo: string;
-    /** Espesor de cada capa: pendiente de ficha técnica, no inventar. */
-    thicknessTodo: string;
+    /** Soportes compatibles, según las fichas técnicas. */
+    supportNote: string;
+    /** Espesor de cada capa, según las fichas técnicas. */
+    thicknessNote: string;
     /** Enlace a la página completa del sistema (datos técnicos, aplicación, documentación). */
     fullSystemText: string;
     fullSystemCta: string;
@@ -133,6 +136,8 @@ export interface HomeContent {
 
 export const home: Record<Locale, HomeContent> = {
   es: {
+    description:
+      'Zement: sistema de microcemento por capas y materiales para superficies continuas. Tienda online con envíos a España y Europa y tarifa propia para profesionales.',
     topbar: 'Microcemento · Aplicación profesional · Tienda especializada',
     hero: {
       title: ['La materia', 'lo transforma todo.'],
@@ -187,15 +192,32 @@ export const home: Record<Locale, HomeContent> = {
       title: ['Calidad que', 'se puede comprobar.'],
       text: 'Cada superficie es un sistema de capas. Cada producto tiene una función precisa y una documentación técnica que la respalda.',
       repair: {
-        code: 'TODO: código',
+        code: '',
         name: 'Reparación',
-        text: 'Se tratan grietas, fisuras y desniveles del soporte antes de empezar.',
+        text: 'Zement Repair: mortero que cierra grietas y corrige desniveles del soporte; con malla de fibra de vidrio si está muy deteriorado.',
+        specValues: ['1,4 por mm de espesor', '4 h'],
       },
       steps: [
-        { code: 'Z.01', name: 'Preparación', text: 'Producto de preparación para el soporte.' },
-        { code: 'Z.02', name: 'Base', text: 'Revestimiento base para sistemas de microcemento.' },
-        { code: 'Z.03', name: 'Acabado', text: 'Acabado decorativo de textura suave y natural.' },
-        { code: 'Z.04', name: 'Protección', text: 'Protección final para el sistema aplicado.' },
+        {
+          code: 'Z.01',
+          name: 'Preparación',
+          text: 'Zement Prime: imprimación al agua que regula la absorción del soporte y mejora el anclaje.',
+        },
+        {
+          code: 'Z.02',
+          name: 'Base',
+          text: 'Basis: microcemento de base con cuarzos micronizados que da cuerpo al sistema.',
+        },
+        {
+          code: 'Z.03',
+          name: 'Acabado',
+          text: 'Fein: acabado fino con efecto aguas, en dos manos sobre la base.',
+        },
+        {
+          code: 'Z.04',
+          name: 'Protección',
+          text: 'Protect Aqua 2K: barniz al agua que no amarillea y resiste el tránsito.',
+        },
       ],
       layersLabel: 'Cómo se construye una superficie Zement',
       layersHint: 'Reproduce el montaje o elige una fase',
@@ -212,8 +234,9 @@ export const home: Record<Locale, HomeContent> = {
       beforeShort: 'Previo',
       supportText:
         'Se aplica sobre la superficie que ya tienes, sea cual sea: sin levantar suelos ni paredes y sin obra de derribo.',
-      supportTodo: 'TODO: soportes compatibles según la ficha técnica',
-      thicknessTodo: 'TODO: espesor de cada capa (mm)',
+      supportNote: 'Hormigón, morteros, revocos, yeso y cerámica, firmes y con mordiente.',
+      thicknessNote:
+        'Espesor por capa: Zement Prime 50 µm · Basis 0,5–1 mm · Fein 0,1–0,5 mm · Protect Aqua 2K 120 µm mín.',
       fullSystemText:
         'Datos técnicos, aplicación paso a paso, colores y fichas para descargar: todo en la página del sistema.',
       fullSystemCta: 'Ver el sistema completo',
@@ -238,28 +261,28 @@ export const home: Record<Locale, HomeContent> = {
       text: 'Descubre una selección de productos para preparar, aplicar y proteger superficies de microcemento.',
       categories: [
         {
+          name: 'Reparación',
+          codes: [],
+          text: 'Morteros para reparar y nivelar el soporte antes del sistema.',
+          shopPath: '15-morteros-de-reparacion-e-impermeabilizacion',
+        },
+        {
+          name: 'Imprimaciones',
+          codes: ['Z.01'],
+          text: 'Zement Prime y selladores: preparan el soporte y mejoran el anclaje.',
+          shopPath: '12-imprimaciones-y-selladores',
+        },
+        {
           name: 'Microcemento',
           codes: ['Z.02', 'Z.03'],
           text: 'Base y acabado: las dos capas que dan cuerpo y textura a la superficie.',
-          query: 'microcemento',
-        },
-        {
-          name: 'Preparación',
-          codes: ['Z.01'],
-          text: 'Productos de preparación para el soporte.',
-          query: 'preparación',
+          shopPath: '10-microcemento',
         },
         {
           name: 'Protección',
           codes: ['Z.04'],
-          text: 'Protección final para el sistema aplicado.',
-          query: 'protección',
-        },
-        {
-          name: 'Herramientas',
-          codes: [],
-          text: 'Para preparar, aplicar y acabar el sistema.',
-          query: 'herramientas',
+          text: 'Barnices que sellan y protegen el sistema aplicado.',
+          shopPath: '13-barnices-y-proteccion',
         },
       ],
       cta: 'Ver en la tienda',
@@ -302,6 +325,8 @@ export const home: Record<Locale, HomeContent> = {
     },
   },
   en: {
+    description:
+      'Zement: a layered microcement system and materials for seamless surfaces. Online shop shipping to Spain and Europe, with trade prices for professionals.',
     topbar: 'Microcement · Professional application · Specialist shop',
     hero: {
       title: ['Material', 'transforms everything.'],
@@ -356,15 +381,32 @@ export const home: Record<Locale, HomeContent> = {
       title: ['Quality you', 'can verify.'],
       text: 'Every surface is a system of layers. Every product has a precise role and technical documentation to support it.',
       repair: {
-        code: 'TODO: code',
+        code: '',
         name: 'Repair',
-        text: 'Cracks, fissures and uneven areas in the substrate are dealt with before starting.',
+        text: 'Zement Repair: mortar that closes cracks and corrects uneven substrates; with glass-fibre mesh if badly deteriorated.',
+        specValues: ['1.4 per mm of thickness', '4 h'],
       },
       steps: [
-        { code: 'Z.01', name: 'Preparation', text: 'Substrate preparation product.' },
-        { code: 'Z.02', name: 'Base', text: 'Base coat for microcement systems.' },
-        { code: 'Z.03', name: 'Finish', text: 'Decorative finish with a soft, natural texture.' },
-        { code: 'Z.04', name: 'Protection', text: 'Final protection for the applied system.' },
+        {
+          code: 'Z.01',
+          name: 'Preparation',
+          text: 'Zement Prime: water-based primer that regulates substrate absorption and improves bonding.',
+        },
+        {
+          code: 'Z.02',
+          name: 'Base',
+          text: 'Basis: base microcement with micronised quartz that gives the system its body.',
+        },
+        {
+          code: 'Z.03',
+          name: 'Finish',
+          text: 'Fein: fine finish with a watermark effect, in two coats over the base.',
+        },
+        {
+          code: 'Z.04',
+          name: 'Protection',
+          text: 'Protect Aqua 2K: water-based varnish that does not yellow and withstands traffic.',
+        },
       ],
       layersLabel: 'How a Zement surface is built',
       layersHint: 'Play the build-up or choose a phase',
@@ -381,8 +423,10 @@ export const home: Record<Locale, HomeContent> = {
       beforeShort: 'Before',
       supportText:
         'It goes on the surface you already have, whatever it is: no lifting floors or walls, no demolition.',
-      supportTodo: 'TODO: compatible substrates according to the data sheet',
-      thicknessTodo: 'TODO: thickness of each layer (mm)',
+      supportNote:
+        'Concrete, mortars, renders, plaster and ceramic tiles, firm and with a good key.',
+      thicknessNote:
+        'Thickness per coat: Zement Prime 50 µm · Basis 0.5–1 mm · Fein 0.1–0.5 mm · Protect Aqua 2K 120 µm min.',
       fullSystemText:
         'Technical data, step-by-step application, colours and downloadable sheets: all on the system page.',
       fullSystemCta: 'See the full system',
@@ -407,28 +451,28 @@ export const home: Record<Locale, HomeContent> = {
       text: 'Discover a selection of products to prepare, apply and protect microcement surfaces.',
       categories: [
         {
+          name: 'Repair',
+          codes: [],
+          text: 'Mortars to repair and level the substrate before the system.',
+          shopPath: '15-repair-and-waterproofing-mortars',
+        },
+        {
+          name: 'Primers',
+          codes: ['Z.01'],
+          text: 'Zement Prime and sealers: prepare the substrate and improve bonding.',
+          shopPath: '12-primers-and-sealers',
+        },
+        {
           name: 'Microcement',
           codes: ['Z.02', 'Z.03'],
           text: 'Base and finish: the two layers that give the surface its body and texture.',
-          query: 'microcement',
-        },
-        {
-          name: 'Preparation',
-          codes: ['Z.01'],
-          text: 'Substrate preparation products.',
-          query: 'preparation',
+          shopPath: '10-microcement',
         },
         {
           name: 'Protection',
           codes: ['Z.04'],
-          text: 'Final protection for the applied system.',
-          query: 'protection',
-        },
-        {
-          name: 'Tools',
-          codes: [],
-          text: 'To prepare, apply and finish the system.',
-          query: 'tools',
+          text: 'Varnishes that seal and protect the applied system.',
+          shopPath: '13-varnishes-and-protection',
         },
       ],
       cta: 'View in the shop',
@@ -470,4 +514,10 @@ export const home: Record<Locale, HomeContent> = {
       ],
     },
   },
+  de: translations.de.home,
+  fr: translations.fr.home,
+  it: translations.it.home,
+  pl: translations.pl.home,
+  no: translations.no.home,
+  fi: translations.fi.home,
 };

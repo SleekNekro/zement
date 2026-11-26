@@ -1,0 +1,70 @@
+---
+import { localeNames, locales, type Locale } from '../../i18n/locales';
+import { t } from '../../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  /** URL de esta misma página en cada idioma. */
+  alternates: Record<Locale, string>;
+}
+
+const { locale, alternates } = Astro.props;
+---
+
+<!-- Selector de idioma (escritorio): el código actual y, al abrirlo, los 8 idiomas en su propio nombre -->
+<details
+  class="relative hidden sm:block"
+  data-language-menu
+  data-menu-behind
+>
+  <summary
+    class="label flex min-h-11 cursor-pointer list-none items-center gap-2 py-3 opacity-80 hover:opacity-100 [&::-webkit-details-marker]:hidden"
+    aria-label={t(locale, 'nav.language')}
+  >
+    {locale.toUpperCase()}
+    <svg
+      class="size-2.5 transition-transform duration-(--zm-duration) [[open]_&]:rotate-180"
+      viewBox="0 0 10 6"
+      aria-hidden="true"
+    >
+      <path
+        d="M1 1l4 4 4-4"
+        fill="none"
+        stroke="currentColor"
+      />
+    </svg>
+  </summary>
+  <ul class="border-navy bg-paper text-navy absolute top-full right-0 z-(--zm-z-menu-toggle) mt-2 grid w-48 border py-2">
+    {locales.map((code) => (
+      <li>
+        <a
+          class:list={[
+            'flex items-baseline justify-between gap-4 px-4 py-2 no-underline hover:bg-stone',
+            code === locale && 'bg-stone',
+          ]}
+          href={alternates[code]}
+          hreflang={code}
+          lang={code}
+          aria-current={code === locale ? 'page' : undefined}
+        >
+          <span class="text-sm">{localeNames[code]}</span>
+          <span class="label text-muted">{code}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</details>
+
+<script>
+  // Se cierra al pulsar fuera o con Escape, como cualquier menú desplegable.
+  document.querySelectorAll<HTMLDetailsElement>('[data-language-menu]').forEach((menu) => {
+    document.addEventListener('click', (event) => {
+      if (menu.open && !menu.contains(event.target as Node)) menu.open = false;
+    });
+    menu.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape' || !menu.open) return;
+      menu.open = false;
+      menu.querySelector('summary')?.focus();
+    });
+  });
+</script>

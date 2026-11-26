@@ -7,10 +7,20 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { file, glob } from 'astro/loaders';
 
-const localized = z.object({ es: z.string(), en: z.string() });
+import { locales, type Locale } from './i18n/locales';
+
+/** Texto en los 8 idiomas de la web. */
+const localized = z.object(
+  Object.fromEntries(locales.map((code) => [code, z.string()])) as Record<Locale, z.ZodString>,
+);
 
 /** Ruta en la tienda (p. ej. «/12-microcemento»); vacía = se usa la búsqueda de la tienda. */
-const shopPath = z.object({ es: z.string(), en: z.string() }).default({ es: '', en: '' });
+const shopPath = z
+  .object(
+    Object.fromEntries(locales.map((code) => [code, z.string()])) as Record<Locale, z.ZodString>,
+  )
+  .partial()
+  .default({});
 
 /** Sistema de microcemento: conjunto de productos que se aplican por capas (Z.01 → Z.04). */
 const systems = defineCollection({
@@ -76,7 +86,7 @@ const legal = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/legal' }),
   schema: z.object({
     page: z.enum(['notice', 'privacy', 'cookies', 'terms']),
-    lang: z.enum(['es', 'en']),
+    lang: z.enum(locales),
     title: z.string(),
     description: z.string(),
     /** true mientras el texto no haya sido revisado por la asesoría legal. */

@@ -33,7 +33,7 @@ const support = {
   material: 'mat-support',
   height: 7,
   values: [] as string[],
-  todo: system.supportTodo,
+  note: system.supportNote,
 };
 const layerMaterials = [
   'mat-repair',
@@ -47,9 +47,13 @@ const layers = [system.repair, ...system.steps].map((layer, index) => ({
   ...layer,
   material: layerMaterials[index] ?? 'mat-finish',
   height: thickness[index] ?? 1,
-  // Los datos técnicos son por producto: la reparación aún no tiene.
-  values: specs.map((row) => (index === 0 ? 'TODO' : (row.values[index - 1] ?? 'TODO'))),
-  todo: '',
+  // La reparación usa los datos de su mortero; las capas, los del sistema.
+  values: specs.map((row, rowIndex) =>
+    index === 0
+      ? (system.repair.specValues[rowIndex] ?? 'TODO')
+      : (row.values[index - 1] ?? 'TODO'),
+  ),
+  note: '',
 }));
 /*
  * Numeración única para pistas y fichas: soporte y reparación son «Antes del sistema»; las cuatro
@@ -254,11 +258,7 @@ const sides = ['front', 'right'] as const;
               <p class="display-md text-navy mt-2">{phase.name}</p>
             </div>
             <p class="text-muted md:col-span-4 md:self-end">{phase.text}</p>
-            {phase.todo && (
-              <p class="md:col-span-4 md:self-end">
-                <Todo text={phase.todo} />
-              </p>
-            )}
+            {phase.note && <p class="text-navy md:col-span-4 md:self-end">{phase.note}</p>}
             <dl
               class:list={[
                 'grid grid-cols-2 gap-x-6 gap-y-2 md:col-span-4 md:self-end',
@@ -280,7 +280,7 @@ const sides = ['front', 'right'] as const;
 
       <p class="mt-6 flex flex-wrap gap-x-6 gap-y-2">
         <Todo text={system.photoTodo} />
-        <Todo text={system.thicknessTodo} />
+        <span class="text-muted text-sm">{system.thicknessNote}</span>
       </p>
     </figure>
 

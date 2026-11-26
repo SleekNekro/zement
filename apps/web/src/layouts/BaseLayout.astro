@@ -3,7 +3,7 @@ import '../styles/global.css';
 import SiteHeader from '../components/layout/SiteHeader.astro';
 import SiteFooter from '../components/layout/SiteFooter.astro';
 import ShopBar from '../components/layout/ShopBar.astro';
-import type { Locale } from '../i18n/ui';
+import { locales, localePath, ogLocales, type Locale } from '../i18n/locales';
 import { isIndexable } from '../lib/seo';
 import favicon from '@zement/design-tokens/brand/zement-favicon.svg?url';
 import displayFont from '@zement/design-tokens/fonts/archivo-latin-wdth-normal.woff2?url';
@@ -12,21 +12,24 @@ interface Props {
   locale: Locale;
   title: string;
   description: string;
-  /** Ruta equivalente sin prefijo de idioma (si es igual en ambos idiomas). */
+  /** Ruta sin prefijo de idioma, cuando es la misma en todos (p. ej. «/» de la 404). */
   path?: string;
-  /** Rutas completas por idioma, cuando cada idioma tiene su propia URL (p. ej. /sistemas/ y /en/systems/). */
+  /** Rutas completas por idioma, cuando cada idioma tiene su propia URL (p. ej. /sistemas/ y /de/systeme/). */
   paths?: Record<Locale, string>;
   /** Fuera de buscadores aunque la web se publique (p. ej. borradores legales, 404). */
   noindex?: boolean;
 }
 
 const { locale, title, description, path = '/', paths, noindex = false } = Astro.props;
-const alternates: Record<Locale, string> = paths ?? { es: path, en: `/en${path}` };
-const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
+const alternates: Record<Locale, string> =
+  paths ??
+  (Object.fromEntries(locales.map((code) => [code, localePath(code, path)])) as Record<
+    Locale,
+    string
+  >);
 const site = Astro.site ?? new URL('http://localhost:4321');
-const esUrl = new URL(alternates.es, site).href;
-const enUrl = new URL(alternates.en, site).href;
-const canonical = locale === 'es' ? esUrl : enUrl;
+const absolute = (route: string): string => new URL(route, site).href;
+const canonical = absolute(alternates[locale]);
 const robots = isIndexable && !noindex ? 'index, follow' : 'noindex, nofollow';
 const ogImage = new URL('/og.png', site).href;
 // Datos estructurados mínimos y verificables: nombre, web y logotipo (sin datos pendientes).
@@ -65,20 +68,17 @@ const organization = JSON.stringify({
       rel="canonical"
       href={canonical}
     />
-    <link
-      rel="alternate"
-      hreflang="es"
-      href={esUrl}
-    />
-    <link
-      rel="alternate"
-      hreflang="en"
-      href={enUrl}
-    />
+    {locales.map((code) => (
+      <link
+        rel="alternate"
+        hreflang={code}
+        href={absolute(alternates[code])}
+      />
+    ))}
     <link
       rel="alternate"
       hreflang="x-default"
-      href={esUrl}
+      href={absolute(alternates.es)}
     />
     <meta
       property="og:title"
@@ -102,7 +102,7 @@ const organization = JSON.stringify({
     />
     <meta
       property="og:locale"
-      content={locale === 'es' ? 'es_ES' : 'en_GB'}
+      content={ogLocales[locale]}
     />
     <meta
       property="og:image"
@@ -148,7 +148,7 @@ const organization = JSON.stringify({
   <body class="flex min-h-screen flex-col">
     <SiteHeader
       locale={locale}
-      alternateHref={alternates[otherLocale]}
+      alternates={alternates}
     />
     <main
       id="contenido"

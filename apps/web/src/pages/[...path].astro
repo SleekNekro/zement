@@ -1,0 +1,121 @@
+---
+/**
+ * Todas las páginas de la web en sus 8 idiomas, desde una sola ruta: portada, índice de sistemas,
+ * cada sistema y los textos legales. El español va sin prefijo; el resto, con /<código>/.
+ */
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HomePage from '../components/sections/home/HomePage.astro';
+import SystemsIndex from '../components/sections/system/SystemsIndex.astro';
+import SystemPage from '../components/sections/system/SystemPage.astro';
+import LegalPage from '../components/sections/legal/LegalPage.astro';
+import { home } from '../data/home';
+import { systemsIndexText } from '../data/systemPage';
+import { locales, localePath, type Locale } from '../i18n/locales';
+import { legalPath } from '../lib/legal';
+import { getSystems, isTodo, systemsIndexPath, type LocalizedSystem } from '../lib/systems';
+
+type Page =
+  | { kind: 'home' }
+  | { kind: 'systems'; systems: LocalizedSystem[] }
+  | { kind: 'system'; system: LocalizedSystem }
+  | { kind: 'legal'; entry: CollectionEntry<'legal'> };
+
+export async function getStaticPaths() {
+  // getStaticPaths se ejecuta aparte del resto del fichero: sus ayudas van dentro.
+  /** «/de/systeme/» → «de/systeme»; la portada en español no tiene segmentos. */
+  const toParam = (path: string): string | undefined => path.replace(/^\/|\/$/g, '') || undefined;
+  const legal = await getCollection('legal');
+  const pages = await Promise.all(
+    locales.map(async (locale) => {
+      const systems = await getSystems(locale);
+      const entries: { path: string; page: Page }[] = [
+        { path: localePath(locale, '/'), page: { kind: 'home' } },
+        { path: systemsIndexPath(locale), page: { kind: 'systems', systems } },
+        ...systems.map((system) => ({
+          path: system.paths[locale],
+          page: { kind: 'system' as const, system },
+        })),
+        ...legal
+          .filter((entry) => entry.data.lang === locale)
+          .map((entry) => ({
+            path: legalPath(locale, entry.data.page),
+            page: { kind: 'legal' as const, entry },
+          })),
+      ];
+      return entries.map(({ path, page }) => ({
+        params: { path: toParam(path) },
+        props: { locale, page },
+      }));
+    }),
+  );
+  return pages.flat();
+}
+
+interface Props {
+  locale: Locale;
+  page: Page;
+}
+
+const { locale, page } = Astro.props;
+
+/** Misma página en cada idioma (para hreflang y el selector de idioma). */
+const pathsFor = (build: (code: Locale) => string): Record<Locale, string> =>
+  Object.fromEntries(locales.map((code) => [code, build(code)])) as Record<Locale, string>;
+
+const meta = (() => {
+  switch (page.kind) {
+    case 'home':
+      return {
+        title: 'Zement',
+        description: home[locale].description,
+        paths: pathsFor((code) => localePath(code, '/')),
+      };
+    case 'systems':
+      return {
+        title: `${systemsIndexText[locale].title} · Zement`,
+        description: systemsIndexText[locale].intro,
+        paths: pathsFor(systemsIndexPath),
+      };
+    case 'system':
+      return {
+        title: `${page.system.name} · Zement`,
+        description: isTodo(page.system.summary) ? page.system.name : page.system.summary,
+        paths: page.system.paths,
+      };
+    case 'legal':
+      return {
+        title: `${page.entry.data.title} · Zement`,
+        description: page.entry.data.description,
+        paths: pathsFor((code) => legalPath(code, page.entry.data.page)),
+      };
+  }
+})();
+---
+
+<BaseLayout
+  locale={locale}
+  title={meta.title}
+  description={meta.description}
+  paths={meta.paths}
+>
+  {page.kind === 'home' && <HomePage locale={locale} />}
+  {page.kind === 'systems' && (
+    <SystemsIndex
+      locale={locale}
+      systems={page.systems}
+    />
+  )}
+  {page.kind === 'system' && (
+    <SystemPage
+      locale={locale}
+      system={page.system}
+    />
+  )}
+  {page.kind === 'legal' && (
+    <LegalPage
+      locale={locale}
+      entry={page.entry}
+    />
+  )}
+</BaseLayout>

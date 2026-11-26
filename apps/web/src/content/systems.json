@@ -3,119 +3,269 @@
     "id": "microcemento",
     "slug": {
       "es": "microcemento",
-      "en": "microcement"
+      "en": "microcement",
+      "de": "mikrozement",
+      "fr": "microciment",
+      "it": "microcemento",
+      "pl": "mikrocement",
+      "no": "mikrosement",
+      "fi": "mikrosementti"
     },
     "name": {
       "es": "Sistema de microcemento Zement",
-      "en": "Zement microcement system"
+      "en": "Zement microcement system",
+      "de": "Zement Mikrozement-System",
+      "fr": "Système de microciment Zement",
+      "it": "Sistema di microcemento Zement",
+      "pl": "System mikrocementu Zement",
+      "no": "Zement mikrosementsystem",
+      "fi": "Zement-mikrosementtijärjestelmä"
     },
     "audience": {
       "es": "Para aplicadores profesionales y para proyectos de suelos, paredes, baños y cocinas que buscan una superficie continua.",
-      "en": "For professional applicators and for floor, wall, bathroom and kitchen projects that call for a seamless surface."
+      "en": "For professional applicators and for floor, wall, bathroom and kitchen projects that call for a seamless surface.",
+      "de": "Für professionelle Verarbeiter und für Projekte an Böden, Wänden, Bädern und Küchen, die eine fugenlose Oberfläche verlangen.",
+      "fr": "Pour les applicateurs professionnels et pour les projets de sols, murs, salles de bains et cuisines qui demandent une surface continue.",
+      "it": "Per applicatori professionisti e per progetti di pavimenti, pareti, bagni e cucine che richiedono una superficie continua.",
+      "pl": "Dla profesjonalnych wykonawców oraz do projektów podłóg, ścian, łazienek i kuchni, w których liczy się powierzchnia bez fug.",
+      "no": "For profesjonelle applikatører og for gulv-, vegg-, bad- og kjøkkenprosjekter som krever en sømløs overflate.",
+      "fi": "Ammattiasentajille sekä lattia-, seinä-, kylpyhuone- ja keittiöprojekteihin, joissa halutaan saumaton pinta."
     },
     "summary": {
-      "es": "Cuatro productos que se aplican en orden sobre el soporte existente: preparación, base, acabado y protección. Cada capa cumple una función y cada producto se compra por separado en la tienda.",
-      "en": "Four products applied in order over the existing substrate: preparation, base, finish and protection. Each layer has a role and each product can be bought separately in the shop."
+      "es": "Cuatro productos que se aplican en orden sobre el soporte existente: Zement Prime, Basis, Fein y Protect Aqua 2K. Cada capa cumple una función y cada producto se compra por separado en la tienda.",
+      "en": "Four products applied in order over the existing substrate: Zement Prime, Basis, Fein and Protect Aqua 2K. Each layer has a role and each product can be bought separately in the shop.",
+      "de": "Vier Produkte, die in fester Reihenfolge auf den bestehenden Untergrund aufgetragen werden: Zement Prime, Basis, Fein und Protect Aqua 2K. Jede Schicht hat eine Funktion, und jedes Produkt ist einzeln im Shop erhältlich.",
+      "fr": "Quatre produits appliqués dans l’ordre sur le support existant : Zement Prime, Basis, Fein et Protect Aqua 2K. Chaque couche a un rôle et chaque produit s’achète séparément en boutique.",
+      "it": "Quattro prodotti applicati in sequenza sul supporto esistente: Zement Prime, Basis, Fein e Protect Aqua 2K. Ogni strato ha una funzione e ogni prodotto si acquista separatamente nel negozio.",
+      "pl": "Cztery produkty nakładane kolejno na istniejące podłoże: Zement Prime, Basis, Fein i Protect Aqua 2K. Każda warstwa ma swoją funkcję, a każdy produkt można kupić osobno w sklepie.",
+      "no": "Fire produkter som påføres i rekkefølge på det eksisterende underlaget: Zement Prime, Basis, Fein og Protect Aqua 2K. Hvert lag har en funksjon, og hvert produkt kan kjøpes separat i butikken.",
+      "fi": "Neljä tuotetta, jotka levitetään järjestyksessä olemassa olevalle alustalle: Zement Prime, Basis, Fein ja Protect Aqua 2K. Jokaisella kerroksella on tehtävänsä, ja jokaisen tuotteen voi ostaa kaupasta erikseen."
     },
     "shopQuery": {
       "es": "microcemento",
-      "en": "microcement"
+      "en": "microcement",
+      "de": "mikrozement",
+      "fr": "microciment",
+      "it": "microcemento",
+      "pl": "mikrocement",
+      "no": "mikrosement",
+      "fi": "mikrosementti"
     },
     "products": [
       {
         "code": "Z.01",
         "layer": {
           "es": "Preparación",
-          "en": "Preparation"
+          "en": "Preparation",
+          "de": "Vorbereitung",
+          "fr": "Préparation",
+          "it": "Preparazione",
+          "pl": "Przygotowanie",
+          "no": "Forarbeid",
+          "fi": "Esikäsittely"
         },
         "name": {
-          "es": "TODO: nombre del producto",
-          "en": "TODO: product name"
+          "es": "Zement Prime",
+          "en": "Zement Prime",
+          "de": "Zement Prime",
+          "fr": "Zement Prime",
+          "it": "Zement Prime",
+          "pl": "Zement Prime",
+          "no": "Zement Prime",
+          "fi": "Zement Prime"
         },
         "benefit": {
-          "es": "Prepara el soporte para recibir el sistema.",
-          "en": "Prepares the substrate to receive the system."
+          "es": "Imprimación selladora y consolidante al agua: regula la absorción del soporte y mejora el anclaje.",
+          "en": "Water-based sealing and consolidating primer: regulates substrate absorption and improves bonding.",
+          "de": "Versiegelnde und verfestigende Grundierung auf Wasserbasis: reguliert die Saugfähigkeit des Untergrunds und verbessert die Haftung.",
+          "fr": "Primaire bouche-pores et consolidant en phase aqueuse : régule l’absorption du support et améliore l’adhérence.",
+          "it": "Primer sigillante e consolidante all’acqua: regola l’assorbimento del supporto e migliora l’adesione.",
+          "pl": "Wodny grunt uszczelniający i wzmacniający: reguluje chłonność podłoża i poprawia przyczepność.",
+          "no": "Vannbasert forseglende og konsoliderende primer: regulerer underlagets sugeevne og gir bedre heft.",
+          "fi": "Vesiohenteinen, tiivistävä ja lujittava pohjuste: tasaa alustan imukykyä ja parantaa tartuntaa."
         },
         "sku": "TODO",
         "formats": {
-          "es": "TODO: envases",
-          "en": "TODO: pack sizes"
+          "es": "Garrafa de 5 L · 25 L",
+          "en": "5 L · 25 L jerrycan",
+          "de": "Kanister 5 L · 25 L",
+          "fr": "Bidon de 5 L · 25 L",
+          "it": "Tanica da 5 L · 25 L",
+          "pl": "Kanister 5 L · 25 L",
+          "no": "Kanne på 5 L · 25 L",
+          "fi": "5 L · 25 L kanisteri"
         },
         "shopPath": {
-          "es": "",
-          "en": ""
+          "es": "35-zement-prime.html",
+          "en": "35-zement-prime.html",
+          "de": "35-zement-prime.html",
+          "fr": "35-zement-prime.html",
+          "it": "35-zement-prime.html",
+          "pl": "35-zement-prime.html",
+          "no": "35-zement-prime.html",
+          "fi": "35-zement-prime.html"
         }
       },
       {
         "code": "Z.02",
         "layer": {
           "es": "Base",
-          "en": "Base"
+          "en": "Base",
+          "de": "Grundschicht",
+          "fr": "Base",
+          "it": "Base",
+          "pl": "Baza",
+          "no": "Base",
+          "fi": "Pohja"
         },
         "name": {
-          "es": "TODO: nombre del producto",
-          "en": "TODO: product name"
+          "es": "Basis 0,4 Aqua Mix",
+          "en": "Basis 0,4 Aqua Mix",
+          "de": "Basis 0,4 Aqua Mix",
+          "fr": "Basis 0,4 Aqua Mix",
+          "it": "Basis 0,4 Aqua Mix",
+          "pl": "Basis 0,4 Aqua Mix",
+          "no": "Basis 0,4 Aqua Mix",
+          "fi": "Basis 0,4 Aqua Mix"
         },
         "benefit": {
-          "es": "Revestimiento base que da cuerpo al sistema.",
-          "en": "Base coat that gives the system its body."
+          "es": "Microcemento de base con cuarzos micronizados: da cuerpo al sistema y no precisa lijado.",
+          "en": "Base microcement with micronised quartz: gives the system its body and needs no sanding.",
+          "de": "Grund-Mikrozement mit mikronisiertem Quarz: gibt dem System seinen Körper und muss nicht geschliffen werden.",
+          "fr": "Microciment de base aux quartz micronisés : donne du corps au système et ne nécessite pas de ponçage.",
+          "it": "Microcemento di base con quarzi micronizzati: dà corpo al sistema e non richiede carteggiatura.",
+          "pl": "Mikrocement bazowy z mikronizowanym kwarcem: nadaje systemowi strukturę i nie wymaga szlifowania.",
+          "no": "Basemikrosement med mikronisert kvarts: gir systemet fylde og trenger ikke slipes.",
+          "fi": "Pohjamikrosementti mikronisoidulla kvartsilla: antaa järjestelmälle rungon eikä vaadi hiontaa."
         },
         "sku": "TODO",
         "formats": {
-          "es": "TODO: envases",
-          "en": "TODO: pack sizes"
+          "es": "Cubo de 20 kg",
+          "en": "20 kg bucket",
+          "de": "Eimer 20 kg",
+          "fr": "Seau de 20 kg",
+          "it": "Secchio da 20 kg",
+          "pl": "Wiadro 20 kg",
+          "no": "Spann på 20 kg",
+          "fi": "20 kg:n astia"
         },
         "shopPath": {
-          "es": "",
-          "en": ""
+          "es": "20-basis-0-4-aqua-mix.html",
+          "en": "20-basis-04-aqua-mix.html",
+          "de": "20-basis-04-aqua-mix.html",
+          "fr": "20-basis-04-aqua-mix.html",
+          "it": "20-basis-04-aqua-mix.html",
+          "pl": "20-basis-04-aqua-mix.html",
+          "no": "20-basis-04-aqua-mix.html",
+          "fi": "20-basis-04-aqua-mix.html"
         }
       },
       {
         "code": "Z.03",
         "layer": {
           "es": "Acabado",
-          "en": "Finish"
+          "en": "Finish",
+          "de": "Deckschicht",
+          "fr": "Finition",
+          "it": "Finitura",
+          "pl": "Wykończenie",
+          "no": "Finish",
+          "fi": "Viimeistely"
         },
         "name": {
-          "es": "TODO: nombre del producto",
-          "en": "TODO: product name"
+          "es": "Fein 0,02/0,06 Aqua Mix",
+          "en": "Fein 0,02/0,06 Aqua Mix",
+          "de": "Fein 0,02/0,06 Aqua Mix",
+          "fr": "Fein 0,02/0,06 Aqua Mix",
+          "it": "Fein 0,02/0,06 Aqua Mix",
+          "pl": "Fein 0,02/0,06 Aqua Mix",
+          "no": "Fein 0,02/0,06 Aqua Mix",
+          "fi": "Fein 0,02/0,06 Aqua Mix"
         },
         "benefit": {
-          "es": "Acabado decorativo de textura suave y natural.",
-          "en": "Decorative finish with a soft, natural texture."
+          "es": "Acabado fino con efecto aguas, en dos manos sobre la base.",
+          "en": "Fine finish with a watermark effect, in two coats over the base.",
+          "de": "Feine Deckschicht mit Wolkeneffekt, in zwei Lagen auf der Grundschicht.",
+          "fr": "Finition fine à effet nuagé, en deux couches sur la base.",
+          "it": "Finitura fine con effetto nuvolato, in due mani sulla base.",
+          "pl": "Drobne wykończenie z efektem przetarcia, w dwóch warstwach na bazie.",
+          "no": "Fin finish med skyet effekt, i to strøk over basen.",
+          "fi": "Hieno viimeistely vesileimaefektillä, kahtena kerroksena pohjan päälle."
         },
         "sku": "TODO",
         "formats": {
-          "es": "TODO: envases",
-          "en": "TODO: pack sizes"
+          "es": "Cubo de 15 kg",
+          "en": "15 kg bucket",
+          "de": "Eimer 15 kg",
+          "fr": "Seau de 15 kg",
+          "it": "Secchio da 15 kg",
+          "pl": "Wiadro 15 kg",
+          "no": "Spann på 15 kg",
+          "fi": "15 kg:n astia"
         },
         "shopPath": {
-          "es": "",
-          "en": ""
+          "es": "28-fein-0-02-0-06-aqua-mix.html",
+          "en": "28-fein-002-006-aqua-mix.html",
+          "de": "28-fein-002-006-aqua-mix.html",
+          "fr": "28-fein-002-006-aqua-mix.html",
+          "it": "28-fein-002-006-aqua-mix.html",
+          "pl": "28-fein-002-006-aqua-mix.html",
+          "no": "28-fein-002-006-aqua-mix.html",
+          "fi": "28-fein-002-006-aqua-mix.html"
         }
       },
       {
         "code": "Z.04",
         "layer": {
           "es": "Protección",
-          "en": "Protection"
+          "en": "Protection",
+          "de": "Schutz",
+          "fr": "Protection",
+          "it": "Protezione",
+          "pl": "Ochrona",
+          "no": "Beskyttelse",
+          "fi": "Suojaus"
         },
         "name": {
-          "es": "TODO: nombre del producto",
-          "en": "TODO: product name"
+          "es": "Protect Aqua 2K",
+          "en": "Protect Aqua 2K",
+          "de": "Protect Aqua 2K",
+          "fr": "Protect Aqua 2K",
+          "it": "Protect Aqua 2K",
+          "pl": "Protect Aqua 2K",
+          "no": "Protect Aqua 2K",
+          "fi": "Protect Aqua 2K"
         },
         "benefit": {
-          "es": "Protección final para el sistema aplicado.",
-          "en": "Final protection for the applied system."
+          "es": "Barniz acrílico alifático al agua, bicomponente: no amarillea y resiste el tránsito; mate, satinado o brillo.",
+          "en": "Two-component water-based aliphatic acrylic varnish: non-yellowing and traffic-resistant; matt, satin or gloss.",
+          "de": "Zweikomponentiger aliphatischer Acryllack auf Wasserbasis: vergilbungsfrei und begehbar belastbar; matt, seidenmatt oder glänzend.",
+          "fr": "Vernis acrylique aliphatique bicomposant en phase aqueuse : ne jaunit pas et résiste au passage ; mat, satiné ou brillant.",
+          "it": "Vernice acrilica alifatica all’acqua, bicomponente: non ingiallisce e resiste al calpestio; opaca, satinata o lucida.",
+          "pl": "Dwuskładnikowy wodny lakier akrylowo-alifatyczny: nie żółknie i jest odporny na ruch pieszy; mat, satyna lub połysk.",
+          "no": "Vannbasert alifatisk akryllakk med to komponenter: gulner ikke og tåler gangtrafikk; matt, silkematt eller blank.",
+          "fi": "Kaksikomponenttinen vesiohenteinen alifaattinen akryylilakka: ei kellastu ja kestää kulutusta; matta, puolihimmeä tai kiiltävä."
         },
         "sku": "TODO",
         "formats": {
-          "es": "TODO: envases",
-          "en": "TODO: pack sizes"
+          "es": "Componente A 3 kg + B 1 kg",
+          "en": "Component A 3 kg + B 1 kg",
+          "de": "Komponente A 3 kg + B 1 kg",
+          "fr": "Composant A 3 kg + B 1 kg",
+          "it": "Componente A 3 kg + B 1 kg",
+          "pl": "Składnik A 3 kg + B 1 kg",
+          "no": "Komponent A 3 kg + B 1 kg",
+          "fi": "Komponentti A 3 kg + B 1 kg"
         },
         "shopPath": {
-          "es": "",
-          "en": ""
+          "es": "40-protect-aqua-2k.html",
+          "en": "40-protect-aqua-2k.html",
+          "de": "40-protect-aqua-2k.html",
+          "fr": "40-protect-aqua-2k.html",
+          "it": "40-protect-aqua-2k.html",
+          "pl": "40-protect-aqua-2k.html",
+          "no": "40-protect-aqua-2k.html",
+          "fi": "40-protect-aqua-2k.html"
         }
       }
     ],
@@ -123,24 +273,54 @@
       {
         "label": {
           "es": "Rendimiento por capa (kg/m²)",
-          "en": "Coverage per coat (kg/m²)"
+          "en": "Coverage per coat (kg/m²)",
+          "de": "Verbrauch pro Schicht (kg/m²)",
+          "fr": "Consommation par couche (kg/m²)",
+          "it": "Consumo per strato (kg/m²)",
+          "pl": "Zużycie na warstwę (kg/m²)",
+          "no": "Forbruk per strøk (kg/m²)",
+          "fi": "Menekki kerrosta kohden (kg/m²)"
         },
         "values": [
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "0,05 (20 m²/kg)",
+            "en": "0.05 (20 m²/kg)",
+            "de": "0,05 (20 m²/kg)",
+            "fr": "0,05 (20 m²/kg)",
+            "it": "0,05 (20 m²/kg)",
+            "pl": "0,05 (20 m²/kg)",
+            "no": "0,05 (20 m²/kg)",
+            "fi": "0,05 (20 m²/kg)"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "0,9",
+            "en": "0.9",
+            "de": "0,9",
+            "fr": "0,9",
+            "it": "0,9",
+            "pl": "0,9",
+            "no": "0,9",
+            "fi": "0,9"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "0,3",
+            "en": "0.3",
+            "de": "0,3",
+            "fr": "0,3",
+            "it": "0,3",
+            "pl": "0,3",
+            "no": "0,3",
+            "fi": "0,3"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "0,08–0,12 (8–12 m²/kg)",
+            "en": "0.08–0.12 (8–12 m²/kg)",
+            "de": "0,08–0,12 (8–12 m²/kg)",
+            "fr": "0,08–0,12 (8–12 m²/kg)",
+            "it": "0,08–0,12 (8–12 m²/kg)",
+            "pl": "0,08–0,12 (8–12 m²/kg)",
+            "no": "0,08–0,12 (8–12 m²/kg)",
+            "fi": "0,08–0,12 (8–12 m²/kg)"
           }
         ],
         "highlight": true
@@ -148,24 +328,54 @@
       {
         "label": {
           "es": "Número de capas",
-          "en": "Number of coats"
+          "en": "Number of coats",
+          "de": "Anzahl der Schichten",
+          "fr": "Nombre de couches",
+          "it": "Numero di strati",
+          "pl": "Liczba warstw",
+          "no": "Antall strøk",
+          "fi": "Kerrosten määrä"
         },
         "values": [
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "1",
+            "en": "1",
+            "de": "1",
+            "fr": "1",
+            "it": "1",
+            "pl": "1",
+            "no": "1",
+            "fi": "1"
           },
           {
             "es": "TODO",
-            "en": "TODO"
+            "en": "TODO",
+            "de": "TODO",
+            "fr": "TODO",
+            "it": "TODO",
+            "pl": "TODO",
+            "no": "TODO",
+            "fi": "TODO"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "2",
+            "en": "2",
+            "de": "2",
+            "fr": "2",
+            "it": "2",
+            "pl": "2",
+            "no": "2",
+            "fi": "2"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "1–2",
+            "en": "1–2",
+            "de": "1–2",
+            "fr": "1–2",
+            "it": "1–2",
+            "pl": "1–2",
+            "no": "1–2",
+            "fi": "1–2"
           }
         ],
         "highlight": false
@@ -173,24 +383,54 @@
       {
         "label": {
           "es": "Secado entre capas",
-          "en": "Drying between coats"
+          "en": "Drying between coats",
+          "de": "Trocknung zwischen den Schichten",
+          "fr": "Séchage entre couches",
+          "it": "Essiccazione tra gli strati",
+          "pl": "Schnięcie między warstwami",
+          "no": "Tørketid mellom strøk",
+          "fi": "Kuivuminen kerrosten välillä"
         },
         "values": [
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "4 h mín.",
+            "en": "4 h min.",
+            "de": "mind. 4 h",
+            "fr": "4 h min.",
+            "it": "4 h min.",
+            "pl": "min. 4 h",
+            "no": "min. 4 h",
+            "fi": "väh. 4 h"
           },
           {
             "es": "TODO",
-            "en": "TODO"
+            "en": "TODO",
+            "de": "TODO",
+            "fr": "TODO",
+            "it": "TODO",
+            "pl": "TODO",
+            "no": "TODO",
+            "fi": "TODO"
           },
           {
             "es": "TODO",
-            "en": "TODO"
+            "en": "TODO",
+            "de": "TODO",
+            "fr": "TODO",
+            "it": "TODO",
+            "pl": "TODO",
+            "no": "TODO",
+            "fi": "TODO"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "6 h mín. (24 h por capa)",
+            "en": "6 h min. (24 h per coat)",
+            "de": "mind. 6 h (24 h pro Schicht)",
+            "fr": "6 h min. (24 h par couche)",
+            "it": "6 h min. (24 h per strato)",
+            "pl": "min. 6 h (24 h na warstwę)",
+            "no": "min. 6 h (24 h per strøk)",
+            "fi": "väh. 6 h (24 h kerrosta kohden)"
           }
         ],
         "highlight": true
@@ -198,24 +438,54 @@
       {
         "label": {
           "es": "Norma de ensayo",
-          "en": "Test standard"
+          "en": "Test standard",
+          "de": "Prüfnorm",
+          "fr": "Norme d’essai",
+          "it": "Norma di prova",
+          "pl": "Norma badania",
+          "no": "Prøvingsstandard",
+          "fi": "Testausstandardi"
         },
         "values": [
           {
             "es": "TODO",
-            "en": "TODO"
+            "en": "TODO",
+            "de": "TODO",
+            "fr": "TODO",
+            "it": "TODO",
+            "pl": "TODO",
+            "no": "TODO",
+            "fi": "TODO"
+          },
+          {
+            "es": "EN 13813 · CT-C50-F15-B2,0",
+            "en": "EN 13813 · CT-C50-F15-B2,0",
+            "de": "EN 13813 · CT-C50-F15-B2,0",
+            "fr": "EN 13813 · CT-C50-F15-B2,0",
+            "it": "EN 13813 · CT-C50-F15-B2,0",
+            "pl": "EN 13813 · CT-C50-F15-B2,0",
+            "no": "EN 13813 · CT-C50-F15-B2,0",
+            "fi": "EN 13813 · CT-C50-F15-B2,0"
+          },
+          {
+            "es": "EN 13813 · CT-C50-F15-B2,0",
+            "en": "EN 13813 · CT-C50-F15-B2,0",
+            "de": "EN 13813 · CT-C50-F15-B2,0",
+            "fr": "EN 13813 · CT-C50-F15-B2,0",
+            "it": "EN 13813 · CT-C50-F15-B2,0",
+            "pl": "EN 13813 · CT-C50-F15-B2,0",
+            "no": "EN 13813 · CT-C50-F15-B2,0",
+            "fi": "EN 13813 · CT-C50-F15-B2,0"
           },
           {
             "es": "TODO",
-            "en": "TODO"
-          },
-          {
-            "es": "TODO",
-            "en": "TODO"
-          },
-          {
-            "es": "TODO",
-            "en": "TODO"
+            "en": "TODO",
+            "de": "TODO",
+            "fr": "TODO",
+            "it": "TODO",
+            "pl": "TODO",
+            "no": "TODO",
+            "fi": "TODO"
           }
         ],
         "highlight": false
@@ -223,24 +493,54 @@
       {
         "label": {
           "es": "Envases",
-          "en": "Pack sizes"
+          "en": "Pack sizes",
+          "de": "Gebinde",
+          "fr": "Conditionnements",
+          "it": "Confezioni",
+          "pl": "Opakowania",
+          "no": "Pakningsstørrelser",
+          "fi": "Pakkauskoot"
         },
         "values": [
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "5 L · 25 L",
+            "en": "5 L · 25 L",
+            "de": "5 L · 25 L",
+            "fr": "5 L · 25 L",
+            "it": "5 L · 25 L",
+            "pl": "5 L · 25 L",
+            "no": "5 L · 25 L",
+            "fi": "5 L · 25 L"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "20 kg",
+            "en": "20 kg",
+            "de": "20 kg",
+            "fr": "20 kg",
+            "it": "20 kg",
+            "pl": "20 kg",
+            "no": "20 kg",
+            "fi": "20 kg"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "15 kg",
+            "en": "15 kg",
+            "de": "15 kg",
+            "fr": "15 kg",
+            "it": "15 kg",
+            "pl": "15 kg",
+            "no": "15 kg",
+            "fi": "15 kg"
           },
           {
-            "es": "TODO",
-            "en": "TODO"
+            "es": "3 kg + 1 kg",
+            "en": "3 kg + 1 kg",
+            "de": "3 kg + 1 kg",
+            "fr": "3 kg + 1 kg",
+            "it": "3 kg + 1 kg",
+            "pl": "3 kg + 1 kg",
+            "no": "3 kg + 1 kg",
+            "fi": "3 kg + 1 kg"
           }
         ],
         "highlight": false
@@ -250,89 +550,191 @@
       {
         "title": {
           "es": "Preparación del soporte",
-          "en": "Substrate preparation"
+          "en": "Substrate preparation",
+          "de": "Vorbereitung des Untergrunds",
+          "fr": "Préparation du support",
+          "it": "Preparazione del supporto",
+          "pl": "Przygotowanie podłoża",
+          "no": "Forarbeid av underlaget",
+          "fi": "Alustan esikäsittely"
         },
         "text": {
-          "es": "TODO: instrucciones reales de aplicación",
-          "en": "TODO: real application instructions"
+          "es": "El soporte debe estar sano, seco y limpio, sin polvo, pintura, grasa, cal ni lechadas, y con desviaciones de planeidad de 3 mm como máximo con regla de 2 m. Grietas y desperfectos se reparan con Zement Repair, con malla de fibra de vidrio de 80 g entre capas si el soporte está muy deteriorado.",
+          "en": "The substrate must be sound, dry and clean, free of dust, paint, grease, lime and laitance, with flatness deviations of no more than 3 mm under a 2 m straightedge. Cracks and damage are repaired with Zement Repair, with 80 g glass-fibre mesh between coats on badly deteriorated substrates.",
+          "de": "Der Untergrund muss tragfähig, trocken und sauber sein, frei von Staub, Farbe, Fett, Kalk und Zementschlämme, mit Ebenheitsabweichungen von höchstens 3 mm unter der 2-m-Richtlatte. Risse und Schäden werden mit Zement Repair ausgebessert, bei stark beschädigtem Untergrund mit einem Glasfasergewebe von 80 g zwischen den Schichten.",
+          "fr": "Le support doit être sain, sec et propre, exempt de poussière, peinture, graisse, chaux et laitance, avec des écarts de planéité de 3 mm au maximum sous une règle de 2 m. Les fissures et dégradations se réparent avec Zement Repair, avec un treillis en fibre de verre de 80 g entre les couches sur les supports très dégradés.",
+          "it": "Il supporto deve essere sano, asciutto e pulito, privo di polvere, vernice, grasso, calce e lattime, con scostamenti di planarità non superiori a 3 mm sotto una staggia da 2 m. Crepe e danni si riparano con Zement Repair, con rete in fibra di vetro da 80 g tra gli strati se il supporto è molto deteriorato.",
+          "pl": "Podłoże musi być nośne, suche i czyste, wolne od kurzu, farby, tłuszczu, wapna i mleczka cementowego, z odchyleniami od płaskości nie większymi niż 3 mm na łacie 2 m. Pęknięcia i ubytki naprawia się zaprawą Zement Repair, a przy mocno zniszczonym podłożu z siatką z włókna szklanego 80 g między warstwami.",
+          "no": "Underlaget må være fast, tørt og rent, fritt for støv, maling, fett, kalk og sementslam, med planhetsavvik på høyst 3 mm målt med 2 m rettholt. Sprekker og skader repareres med Zement Repair, med glassfiberduk på 80 g mellom lagene ved sterkt skadet underlag.",
+          "fi": "Alustan on oltava ehjä, kuiva ja puhdas, vapaa pölystä, maalista, rasvasta, kalkista ja sementtiliimasta, ja tasomaisuuspoikkeama saa olla enintään 3 mm 2 metrin oikolaudalla mitattuna. Halkeamat ja vauriot korjataan Zement Repairilla; pahasti vaurioituneella alustalla kerrosten väliin asennetaan 80 g:n lasikuituverkko."
         },
         "time": {
-          "es": "TODO: tiempo",
-          "en": "TODO: time"
+          "es": "Mortero: 4 h entre capas; > 6 días hasta revestir",
+          "en": "Mortar: 4 h between coats; > 6 days before coating",
+          "de": "Mörtel: 4 h zwischen den Schichten; > 6 Tage bis zur Beschichtung",
+          "fr": "Mortier : 4 h entre couches ; > 6 jours avant revêtement",
+          "it": "Malta: 4 h tra gli strati; > 6 giorni prima del rivestimento",
+          "pl": "Zaprawa: 4 h między warstwami; > 6 dni do pokrycia",
+          "no": "Mørtel: 4 h mellom lagene; > 6 dager før overflatebehandling",
+          "fi": "Laasti: 4 h kerrosten välillä; > 6 päivää ennen pinnoitusta"
         },
         "code": ""
       },
       {
         "title": {
           "es": "Imprimación",
-          "en": "Priming"
+          "en": "Priming",
+          "de": "Grundierung",
+          "fr": "Application du primaire",
+          "it": "Applicazione del primer",
+          "pl": "Gruntowanie",
+          "no": "Priming",
+          "fi": "Pohjustus"
         },
         "text": {
-          "es": "TODO: instrucciones reales de aplicación",
-          "en": "TODO: real application instructions"
+          "es": "Remover y aplicar Zement Prime a brocha, rodillo o pulverizador en una capa uniforme, sin encharcar; puro o diluido 1/1 a 1/3 con agua según la porosidad del soporte.",
+          "en": "Stir and apply Zement Prime by brush, roller or sprayer in a uniform coat without puddling; neat or diluted 1/1 to 1/3 with water depending on substrate porosity.",
+          "de": "Zement Prime aufrühren und mit Pinsel, Rolle oder Sprühgerät gleichmäßig auftragen, ohne Pfützen zu bilden; unverdünnt oder je nach Porosität des Untergrunds 1/1 bis 1/3 mit Wasser verdünnt.",
+          "fr": "Mélanger et appliquer Zement Prime à la brosse, au rouleau ou au pulvérisateur en une couche uniforme, sans former de flaques ; pur ou dilué de 1/1 à 1/3 à l’eau selon la porosité du support.",
+          "it": "Mescolare e applicare Zement Prime a pennello, rullo o spruzzo in uno strato uniforme, senza creare ristagni; puro o diluito da 1/1 a 1/3 con acqua in base alla porosità del supporto.",
+          "pl": "Wymieszaj i nałóż Zement Prime pędzlem, wałkiem lub natryskiem równomierną warstwą, bez tworzenia kałuż; nierozcieńczony lub rozcieńczony wodą od 1/1 do 1/3 w zależności od porowatości podłoża.",
+          "no": "Rør om og påfør Zement Prime med pensel, rull eller sprøyte i et jevnt strøk uten å danne dammer; ufortynnet eller fortynnet 1/1 til 1/3 med vann, avhengig av underlagets porøsitet.",
+          "fi": "Sekoita ja levitä Zement Prime siveltimellä, telalla tai ruiskulla tasaiseksi kerrokseksi lammikoitumatta; laimentamattomana tai vedellä laimennettuna 1/1–1/3 alustan huokoisuuden mukaan."
         },
         "time": {
-          "es": "TODO: tiempo",
-          "en": "TODO: time"
+          "es": "Mín. 4 h antes de la siguiente capa",
+          "en": "At least 4 h before the next coat",
+          "de": "Mind. 4 h bis zur nächsten Schicht",
+          "fr": "4 h min. avant la couche suivante",
+          "it": "Almeno 4 h prima dello strato successivo",
+          "pl": "Co najmniej 4 h przed kolejną warstwą",
+          "no": "Minst 4 h før neste strøk",
+          "fi": "Vähintään 4 h ennen seuraavaa kerrosta"
         },
         "code": "Z.01"
       },
       {
         "title": {
           "es": "Capas de base",
-          "en": "Base coats"
+          "en": "Base coats",
+          "de": "Grundschichten",
+          "fr": "Couches de base",
+          "it": "Strati di base",
+          "pl": "Warstwy bazowe",
+          "no": "Basestrøk",
+          "fi": "Pohjakerrokset"
         },
         "text": {
-          "es": "TODO: instrucciones reales de aplicación",
-          "en": "TODO: real application instructions"
+          "es": "Mezclar Basis con agua hasta formar una pasta y extenderla a llana. Espesor máximo por capa de 0,5 a 1 mm; consumo aproximado de 0,9 kg/m² por capa.",
+          "en": "Mix Basis with water into a paste and spread it with a trowel. Maximum thickness of 0.5 to 1 mm per coat; approximate consumption of 0.9 kg/m² per coat.",
+          "de": "Basis mit Wasser zu einer Paste anmischen und mit der Kelle auftragen. Maximale Schichtdicke 0,5 bis 1 mm; Verbrauch ca. 0,9 kg/m² pro Schicht.",
+          "fr": "Mélanger Basis avec de l’eau jusqu’à obtenir une pâte et l’étaler à la lisseuse. Épaisseur maximale de 0,5 à 1 mm par couche ; consommation approximative de 0,9 kg/m² par couche.",
+          "it": "Mescolare Basis con acqua fino a ottenere una pasta e stenderla con la spatola. Spessore massimo da 0,5 a 1 mm per strato; consumo approssimativo di 0,9 kg/m² per strato.",
+          "pl": "Wymieszaj Basis z wodą na pastę i rozprowadź ją pacą. Maksymalna grubość od 0,5 do 1 mm na warstwę; przybliżone zużycie 0,9 kg/m² na warstwę.",
+          "no": "Bland Basis med vann til en masse og trekk den ut med stålbrett. Maksimal tykkelse 0,5 til 1 mm per strøk; omtrentlig forbruk 0,9 kg/m² per strøk.",
+          "fi": "Sekoita Basis veteen tahnaksi ja levitä se teräslastalla. Enimmäispaksuus 0,5–1 mm kerrosta kohden; menekki noin 0,9 kg/m² kerrosta kohden."
         },
         "time": {
-          "es": "TODO: tiempo",
-          "en": "TODO: time"
+          "es": "Vida de la mezcla: 2 h",
+          "en": "Mix life: 2 h",
+          "de": "Topfzeit: 2 h",
+          "fr": "Durée pratique d’utilisation : 2 h",
+          "it": "Tempo di lavorabilità dell’impasto: 2 h",
+          "pl": "Czas przydatności mieszanki: 2 h",
+          "no": "Brukstid: 2 h",
+          "fi": "Käyttöaika: 2 h"
         },
         "code": "Z.02"
       },
       {
         "title": {
           "es": "Capas de acabado",
-          "en": "Finish coats"
+          "en": "Finish coats",
+          "de": "Deckschichten",
+          "fr": "Couches de finition",
+          "it": "Strati di finitura",
+          "pl": "Warstwy wykończeniowe",
+          "no": "Finishstrøk",
+          "fi": "Viimeistelykerrokset"
         },
         "text": {
-          "es": "TODO: instrucciones reales de aplicación",
-          "en": "TODO: real application instructions"
+          "es": "Mezclar Fein con agua hasta obtener una pasta homogénea y aplicarlo en 2 manos, con efecto aguas. Espesor de 0,1 a 0,5 mm por capa; consumo aproximado de 0,3 kg/m² por capa.",
+          "en": "Mix Fein with water into a smooth paste and apply it in 2 coats with a watermark effect. Thickness of 0.1 to 0.5 mm per coat; approximate consumption of 0.3 kg/m² per coat.",
+          "de": "Fein mit Wasser zu einer homogenen Paste anmischen und in 2 Lagen mit Wolkeneffekt auftragen. Schichtdicke 0,1 bis 0,5 mm; Verbrauch ca. 0,3 kg/m² pro Schicht.",
+          "fr": "Mélanger Fein avec de l’eau jusqu’à obtenir une pâte lisse et l’appliquer en 2 couches avec un effet nuagé. Épaisseur de 0,1 à 0,5 mm par couche ; consommation approximative de 0,3 kg/m² par couche.",
+          "it": "Mescolare Fein con acqua fino a ottenere una pasta omogenea e applicarlo in 2 mani, con effetto nuvolato. Spessore da 0,1 a 0,5 mm per strato; consumo approssimativo di 0,3 kg/m² per strato.",
+          "pl": "Wymieszaj Fein z wodą na jednorodną pastę i nałóż w 2 warstwach z efektem przetarcia. Grubość od 0,1 do 0,5 mm na warstwę; przybliżone zużycie 0,3 kg/m² na warstwę.",
+          "no": "Bland Fein med vann til en jevn masse og påfør den i 2 strøk med skyet effekt. Tykkelse 0,1 til 0,5 mm per strøk; omtrentlig forbruk 0,3 kg/m² per strøk.",
+          "fi": "Sekoita Fein veteen tasaiseksi tahnaksi ja levitä se 2 kerroksena vesileimaefektillä. Paksuus 0,1–0,5 mm kerrosta kohden; menekki noin 0,3 kg/m² kerrosta kohden."
         },
         "time": {
-          "es": "TODO: tiempo",
-          "en": "TODO: time"
+          "es": "Vida de la mezcla: 2 h",
+          "en": "Mix life: 2 h",
+          "de": "Topfzeit: 2 h",
+          "fr": "Durée pratique d’utilisation : 2 h",
+          "it": "Tempo di lavorabilità dell’impasto: 2 h",
+          "pl": "Czas przydatności mieszanki: 2 h",
+          "no": "Brukstid: 2 h",
+          "fi": "Käyttöaika: 2 h"
         },
         "code": "Z.03"
       },
       {
         "title": {
           "es": "Sellado y protección",
-          "en": "Sealing and protection"
+          "en": "Sealing and protection",
+          "de": "Versiegelung und Schutz",
+          "fr": "Scellement et protection",
+          "it": "Sigillatura e protezione",
+          "pl": "Uszczelnianie i ochrona",
+          "no": "Forsegling og beskyttelse",
+          "fi": "Tiivistys ja suojaus"
         },
         "text": {
-          "es": "TODO: instrucciones reales de aplicación",
-          "en": "TODO: real application instructions"
+          "es": "Mezclar los dos componentes de Protect Aqua 2K a bajas revoluciones, sin espumar, y aplicar en capa uniforme. Si se da una segunda capa, comprobar antes que la anterior esté completamente seca.",
+          "en": "Mix the two components of Protect Aqua 2K at low speed without foaming and apply in a uniform coat. Before a second coat, make sure the previous one is completely dry.",
+          "de": "Die beiden Komponenten von Protect Aqua 2K bei niedriger Drehzahl ohne Schaumbildung mischen und gleichmäßig auftragen. Vor einer zweiten Schicht sicherstellen, dass die vorherige vollständig trocken ist.",
+          "fr": "Mélanger les deux composants de Protect Aqua 2K à faible vitesse, sans faire mousser, et appliquer en une couche uniforme. Avant une deuxième couche, s’assurer que la précédente est entièrement sèche.",
+          "it": "Mescolare i due componenti di Protect Aqua 2K a bassa velocità, senza formare schiuma, e applicare in uno strato uniforme. Prima di un secondo strato, verificare che il precedente sia completamente asciutto.",
+          "pl": "Wymieszaj oba składniki Protect Aqua 2K na niskich obrotach, bez spieniania, i nałóż równomierną warstwą. Przed drugą warstwą upewnij się, że poprzednia jest całkowicie sucha.",
+          "no": "Bland de to komponentene i Protect Aqua 2K på lavt turtall uten å danne skum, og påfør i et jevnt strøk. Før et nytt strøk må du forsikre deg om at det forrige er helt tørt.",
+          "fi": "Sekoita Protect Aqua 2K:n kaksi komponenttia hitaalla nopeudella vaahdottamatta ja levitä tasaiseksi kerrokseksi. Ennen toista kerrosta varmista, että edellinen on täysin kuiva."
         },
         "time": {
-          "es": "TODO: tiempo",
-          "en": "TODO: time"
+          "es": "Tacto: 1 h · repintado: desde 6 h",
+          "en": "Touch-dry: 1 h · recoat: from 6 h",
+          "de": "Grifftrocken: 1 h · überstreichbar: ab 6 h",
+          "fr": "Sec au toucher : 1 h · recouvrable : dès 6 h",
+          "it": "Asciutto al tatto: 1 h · sovraverniciatura: da 6 h",
+          "pl": "Suchy w dotyku: 1 h · kolejna warstwa: od 6 h",
+          "no": "Berøringstørr: 1 h · overmaling: fra 6 h",
+          "fi": "Kosketuskuiva: 1 h · uudelleenkäsittely: 6 h:sta alkaen"
         },
         "code": "Z.04"
       }
     ],
     "colors": {
-      "es": "TODO: carta de colores real",
-      "en": "TODO: real colour chart"
+      "es": "Disponible en una amplia gama de colores. TODO: carta de colores real",
+      "en": "Available in a wide range of colours. TODO: real colour chart",
+      "de": "In einer breiten Farbpalette erhältlich. TODO: echte Farbkarte",
+      "fr": "Disponible dans une large gamme de couleurs. TODO: nuancier réel",
+      "it": "Disponibile in un’ampia gamma di colori. TODO: cartella colori reale",
+      "pl": "Dostępny w szerokiej gamie kolorów. TODO: rzeczywisty wzornik kolorów",
+      "no": "Fås i et bredt utvalg av farger. TODO: ekte fargekart",
+      "fi": "Saatavana laajassa värivalikoimassa. TODO: todellinen värikartta"
     },
     "documents": [
       {
         "kind": "technical",
         "label": {
           "es": "Ficha técnica del sistema",
-          "en": "System technical data sheet"
+          "en": "System technical data sheet",
+          "de": "Technisches Merkblatt des Systems",
+          "fr": "Fiche technique du système",
+          "it": "Scheda tecnica del sistema",
+          "pl": "Karta techniczna systemu",
+          "no": "Systemets tekniske datablad",
+          "fi": "Järjestelmän tekninen tietolehti"
         },
         "href": ""
       },
@@ -340,7 +742,13 @@
         "kind": "safety",
         "label": {
           "es": "Hojas de seguridad",
-          "en": "Safety data sheets"
+          "en": "Safety data sheets",
+          "de": "Sicherheitsdatenblätter",
+          "fr": "Fiches de données de sécurité",
+          "it": "Schede di sicurezza",
+          "pl": "Karty charakterystyki",
+          "no": "Sikkerhetsdatablad",
+          "fi": "Käyttöturvallisuustiedotteet"
         },
         "href": ""
       }
@@ -349,37 +757,79 @@
       {
         "question": {
           "es": "¿Sobre qué superficies se puede aplicar el sistema?",
-          "en": "Which surfaces can the system be applied to?"
+          "en": "Which surfaces can the system be applied to?",
+          "de": "Auf welchen Untergründen lässt sich das System auftragen?",
+          "fr": "Sur quelles surfaces peut-on appliquer le système ?",
+          "it": "Su quali superfici si può applicare il sistema?",
+          "pl": "Na jakie powierzchnie można nakładać system?",
+          "no": "Hvilke overflater kan systemet påføres på?",
+          "fi": "Mille pinnoille järjestelmän voi levittää?"
         },
         "answer": {
-          "es": "TODO: respuesta real",
-          "en": "TODO: real answer"
+          "es": "Sobre soportes firmes y con mordiente: hormigón, morteros, revocos, yeso y cerámica, en suelos y paredes, en interior y exterior. El soporte debe estar sano, seco y limpio; las grietas se reparan antes con Zement Repair.",
+          "en": "On firm substrates with a good key: concrete, mortars, renders, plaster and ceramic tiles, on floors and walls, indoors and outdoors. The substrate must be sound, dry and clean; cracks are repaired first with Zement Repair.",
+          "de": "Auf festen, tragfähigen Untergründen: Beton, Mörtel, Putze, Gips und Fliesen, an Böden und Wänden, innen und außen. Der Untergrund muss tragfähig, trocken und sauber sein; Risse werden vorher mit Zement Repair ausgebessert.",
+          "fr": "Sur des supports solides et offrant une bonne accroche : béton, mortiers, enduits, plâtre et carrelage, sur sols et murs, en intérieur comme en extérieur. Le support doit être sain, sec et propre ; les fissures sont d’abord réparées avec Zement Repair.",
+          "it": "Su supporti solidi e con buona presa: calcestruzzo, malte, intonaci, gesso e ceramica, su pavimenti e pareti, in interni ed esterni. Il supporto deve essere sano, asciutto e pulito; le crepe si riparano prima con Zement Repair.",
+          "pl": "Na stabilne podłoża o dobrej przyczepności: beton, zaprawy, tynki, gips i płytki ceramiczne, na podłogach i ścianach, wewnątrz i na zewnątrz. Podłoże musi być nośne, suche i czyste; pęknięcia naprawia się wcześniej zaprawą Zement Repair.",
+          "no": "På faste underlag med god heft: betong, mørtel, puss, gips og keramiske fliser, på gulv og vegger, innendørs og utendørs. Underlaget må være fast, tørt og rent; sprekker repareres først med Zement Repair.",
+          "fi": "Lujille, hyvin tartuntaa antaville alustoille: betoni, laastit, rappaukset, kipsi ja keraamiset laatat, lattioissa ja seinissä, sisällä ja ulkona. Alustan on oltava ehjä, kuiva ja puhdas; halkeamat korjataan ensin Zement Repairilla."
         }
       },
       {
         "question": {
           "es": "¿Se puede aplicar en baños y duchas?",
-          "en": "Can it be applied in bathrooms and showers?"
+          "en": "Can it be applied in bathrooms and showers?",
+          "de": "Lässt es sich in Bädern und Duschen verwenden?",
+          "fr": "Peut-on l’appliquer dans les salles de bains et les douches ?",
+          "it": "Si può applicare in bagni e docce?",
+          "pl": "Czy można go stosować w łazienkach i prysznicach?",
+          "no": "Kan det påføres på bad og i dusjer?",
+          "fi": "Voiko sitä käyttää kylpyhuoneissa ja suihkuissa?"
         },
         "answer": {
-          "es": "TODO: respuesta real",
-          "en": "TODO: real answer"
+          "es": "Sí: las fichas técnicas recogen su uso sobre el alicatado de baños y cocinas. En zonas húmedas, la protección final es imprescindible. TODO: confirmar el barniz recomendado para duchas.",
+          "en": "Yes: the data sheets cover its use over bathroom and kitchen tiling. In wet areas the final protection is essential. TODO: confirm the recommended varnish for showers.",
+          "de": "Ja: Die technischen Merkblätter sehen die Verarbeitung auf Fliesen in Bädern und Küchen vor. In Nassbereichen ist der abschließende Schutz unverzichtbar. TODO: empfohlenen Lack für Duschen bestätigen.",
+          "fr": "Oui : les fiches techniques prévoient son application sur le carrelage de salles de bains et de cuisines. En zones humides, la protection finale est indispensable. TODO: confirmer le vernis recommandé pour les douches.",
+          "it": "Sì: le schede tecniche ne prevedono l’uso sulle piastrelle di bagni e cucine. Nelle zone umide la protezione finale è indispensabile. TODO: confermare la vernice consigliata per le docce.",
+          "pl": "Tak: karty techniczne przewidują jego stosowanie na płytkach w łazienkach i kuchniach. W strefach mokrych końcowa ochrona jest niezbędna. TODO: potwierdzić zalecany lakier do pryszniców.",
+          "no": "Ja: databladene omfatter bruk over fliser på bad og kjøkken. I våtrom er den endelige beskyttelsen avgjørende. TODO: bekreft anbefalt lakk for dusjer.",
+          "fi": "Kyllä: tietolehdet kattavat sen käytön kylpyhuoneiden ja keittiöiden laatoitusten päällä. Märkätiloissa loppusuojaus on välttämätön. TODO: vahvista suihkutiloihin suositeltu lakka."
         }
       },
       {
         "question": {
           "es": "¿Cuánto material necesito para mi superficie?",
-          "en": "How much material do I need for my surface?"
+          "en": "How much material do I need for my surface?",
+          "de": "Wie viel Material brauche ich für meine Fläche?",
+          "fr": "De combien de matériau ai-je besoin pour ma surface ?",
+          "it": "Quanto materiale mi serve per la mia superficie?",
+          "pl": "Ile materiału potrzebuję na moją powierzchnię?",
+          "no": "Hvor mye materiale trenger jeg til overflaten min?",
+          "fi": "Kuinka paljon materiaalia tarvitsen pinnalleni?"
         },
         "answer": {
-          "es": "TODO: respuesta real",
-          "en": "TODO: real answer"
+          "es": "Consumo aproximado por capa y m²: Basis 0,9 kg y Fein 0,3 kg. Zement Prime rinde unos 20 m²/kg y Protect Aqua 2K, de 8 a 12 m²/kg. Por ejemplo, 20 m² con dos manos de Fein necesitan unos 12 kg de acabado. El consumo real depende del soporte.",
+          "en": "Approximate consumption per coat and m²: Basis 0.9 kg and Fein 0.3 kg. Zement Prime covers about 20 m²/kg and Protect Aqua 2K 8 to 12 m²/kg. For example, 20 m² with two coats of Fein need about 12 kg of finish. Actual consumption depends on the substrate.",
+          "de": "Ungefährer Verbrauch pro Schicht und m²: Basis 0,9 kg und Fein 0,3 kg. Zement Prime reicht für etwa 20 m²/kg, Protect Aqua 2K für 8 bis 12 m²/kg. Beispiel: 20 m² mit zwei Lagen Fein benötigen etwa 12 kg Deckschicht. Der tatsächliche Verbrauch hängt vom Untergrund ab.",
+          "fr": "Consommation approximative par couche et par m² : Basis 0,9 kg et Fein 0,3 kg. Zement Prime couvre environ 20 m²/kg et Protect Aqua 2K de 8 à 12 m²/kg. Par exemple, 20 m² avec deux couches de Fein nécessitent environ 12 kg de finition. La consommation réelle dépend du support.",
+          "it": "Consumo approssimativo per strato e m²: Basis 0,9 kg e Fein 0,3 kg. Zement Prime rende circa 20 m²/kg e Protect Aqua 2K da 8 a 12 m²/kg. Ad esempio, per 20 m² con due mani di Fein servono circa 12 kg di finitura. Il consumo effettivo dipende dal supporto.",
+          "pl": "Przybliżone zużycie na warstwę i m²: Basis 0,9 kg i Fein 0,3 kg. Wydajność Zement Prime to około 20 m²/kg, a Protect Aqua 2K od 8 do 12 m²/kg. Na przykład 20 m² z dwiema warstwami Fein wymaga około 12 kg materiału wykończeniowego. Rzeczywiste zużycie zależy od podłoża.",
+          "no": "Omtrentlig forbruk per strøk og m²: Basis 0,9 kg og Fein 0,3 kg. Zement Prime dekker ca. 20 m²/kg og Protect Aqua 2K 8 til 12 m²/kg. Eksempel: 20 m² med to strøk Fein krever ca. 12 kg finish. Det faktiske forbruket avhenger av underlaget.",
+          "fi": "Arvioitu menekki kerrosta ja neliömetriä kohden: Basis 0,9 kg ja Fein 0,3 kg. Zement Prime riittää noin 20 m²/kg ja Protect Aqua 2K 8–12 m²/kg. Esimerkiksi 20 m² kahdella Fein-kerroksella vaatii noin 12 kg viimeistelyä. Todellinen menekki riippuu alustasta."
         }
       }
     ],
     "shopPath": {
-      "es": "",
-      "en": ""
+      "es": "10-microcemento",
+      "en": "10-microcement",
+      "de": "10-mikrozement",
+      "fr": "10-microciment",
+      "it": "10-microcemento",
+      "pl": "10-mikrocement",
+      "no": "10-mikrosement",
+      "fi": "10-mikrosementti"
     }
   }
 ]

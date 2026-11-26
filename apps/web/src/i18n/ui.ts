@@ -1,11 +1,12 @@
-export const locales = ['es', 'en'] as const;
-export type Locale = (typeof locales)[number];
+import translations from './translations';
+import { localePath, locales, type Locale, type Strings } from './locales';
 
-export const ui = {
+export { localePath, locales, type Locale };
+
+/** Textos cortos de interfaz en español e inglés; el resto de idiomas, en `translations/`. */
+const base = {
   es: {
-    'nav.home': 'Inicio',
     'nav.system': 'Sistema',
-    'nav.application': 'Aplicación',
     'nav.professionals': 'Profesionales',
     'nav.project': 'Tu proyecto',
     'nav.contact': 'Contacto',
@@ -16,21 +17,26 @@ export const ui = {
     'nav.close': 'Cerrar',
     'nav.shop': 'Tienda',
     'nav.external': '(abre la tienda)',
-    'nav.language': 'English',
+    'nav.language': 'Idioma',
     'shop.buy': 'Comprar en la tienda',
-    'home.proTitle': 'Distribuidores y profesionales',
-    'home.proText': 'Los clientes profesionales acceden a su tarifa iniciando sesión en la tienda.',
-    'home.proCta': 'Acceso profesional',
-    'footer.rights': 'Todos los derechos reservados.',
     'footer.legal': 'Aviso legal',
     'footer.privacy': 'Privacidad',
     'footer.cookies': 'Cookies',
     'footer.terms': 'Condiciones de venta',
+    'terms.title': 'Comprar en la tienda',
+    'terms.area': 'Envíos a',
+    'terms.shipping': 'Coste de envío',
+    'terms.delivery': 'Entrega',
+    'terms.payment': 'Pago',
+    'terms.returns': 'Devoluciones',
+    'legal.crumbs': 'Ruta de navegación',
+    'legal.home': 'Inicio',
+    'legal.updated': 'Última actualización',
+    'legal.draft':
+      'Borrador pendiente de revisión legal. Este texto no es definitivo hasta que lo valide la asesoría de Zement.',
   },
   en: {
-    'nav.home': 'Home',
     'nav.system': 'System',
-    'nav.application': 'Application',
     'nav.professionals': 'Professionals',
     'nav.project': 'Your project',
     'nav.contact': 'Contact',
@@ -41,27 +47,39 @@ export const ui = {
     'nav.close': 'Close',
     'nav.shop': 'Shop',
     'nav.external': '(opens the shop)',
-    'nav.language': 'Español',
+    'nav.language': 'Language',
     'shop.buy': 'Buy in the shop',
-    'home.proTitle': 'Distributors and professionals',
-    'home.proText': 'Professional customers see their own prices after signing in to the shop.',
-    'home.proCta': 'Professional access',
-    'footer.rights': 'All rights reserved.',
     'footer.legal': 'Legal notice',
     'footer.privacy': 'Privacy',
     'footer.cookies': 'Cookies',
     'footer.terms': 'Terms of sale',
+    'terms.title': 'Buying in the shop',
+    'terms.area': 'Shipping to',
+    'terms.shipping': 'Shipping cost',
+    'terms.delivery': 'Delivery',
+    'terms.payment': 'Payment',
+    'terms.returns': 'Returns',
+    'legal.crumbs': 'Breadcrumb',
+    'legal.home': 'Home',
+    'legal.updated': 'Last updated',
+    'legal.draft':
+      'Draft pending legal review. This text is not final until it has been approved by Zement’s legal advisers.',
   },
 } as const;
 
-export type UiKey = keyof (typeof ui)['es'];
+export type UiStrings = Strings<(typeof base)['es']>;
+export type UiKey = keyof UiStrings;
+
+export const ui: Record<Locale, UiStrings> = {
+  ...base,
+  de: translations.de.ui,
+  fr: translations.fr.ui,
+  it: translations.it.ui,
+  pl: translations.pl.ui,
+  no: translations.no.ui,
+  fi: translations.fi.ui,
+};
 
 export function t(locale: Locale, key: UiKey): string {
   return ui[locale][key];
-}
-
-/** Ruta interna con prefijo de idioma (es sin prefijo). */
-export function localePath(locale: Locale, path = '/'): string {
-  const clean = path.startsWith('/') ? path : `/${path}`;
-  return locale === 'es' ? clean : `/en${clean}`;
 }

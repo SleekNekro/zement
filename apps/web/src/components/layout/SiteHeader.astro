@@ -3,16 +3,17 @@ import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
 import Arrow from '../ui/Arrow.astro';
+import LanguageMenu from './LanguageMenu.astro';
+import { locales } from '../../i18n/locales';
 import Logo from '../ui/Logo.astro';
 
 interface Props {
   locale: Locale;
-  /** URL de esta misma página en el otro idioma. */
-  alternateHref: string;
+  /** URL de esta misma página en cada idioma. */
+  alternates: Record<Locale, string>;
 }
 
-const { locale, alternateHref } = Astro.props;
-const otherLocale: Locale = locale === 'es' ? 'en' : 'es';
+const { locale, alternates } = Astro.props;
 const links = [
   { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
@@ -67,15 +68,10 @@ const links = [
     </nav>
 
     <div class="flex shrink-0 items-center gap-2 sm:gap-6">
-      <a
-        class="label hidden py-3 text-current no-underline opacity-80 hover:opacity-100 sm:inline"
-        href={alternateHref}
-        data-menu-behind
-        hreflang={otherLocale}
-        lang={otherLocale}
-      >
-        {otherLocale.toUpperCase()}
-      </a>
+      <LanguageMenu
+        locale={locale}
+        alternates={alternates}
+      />
       <a
         class="btn min-h-11 gap-3 border-current px-3 text-current [--btn-fill:var(--zm-color-gold)] [--btn-hover-color:var(--zm-color-night)] sm:gap-10 sm:px-6"
         data-menu-behind
@@ -128,14 +124,27 @@ const links = [
                 class="btn-arrow"
               />
             </a>
-            <a
-              class="label text-sand py-3 no-underline"
-              href={alternateHref}
-              hreflang={otherLocale}
-              lang={otherLocale}
-            >
-              {t(locale, 'nav.language')}
-            </a>
+            <nav aria-label={t(locale, 'nav.language')}>
+              <p class="label text-sand mb-2">{t(locale, 'nav.language')}</p>
+              <ul class="grid grid-cols-4 gap-px">
+                {locales.map((code) => (
+                  <li>
+                    <a
+                      class:list={[
+                        'label flex min-h-11 items-center justify-center border no-underline',
+                        code === locale ? 'border-paper text-paper' : 'border-line-dark text-sand',
+                      ]}
+                      href={alternates[code]}
+                      hreflang={code}
+                      lang={code}
+                      aria-current={code === locale ? 'page' : undefined}
+                    >
+                      {code}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </div>
         </div>
       </details>

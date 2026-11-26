@@ -1,12 +1,39 @@
-import type { Locale } from '../i18n/ui';
+import type { Locale } from '../i18n/locales';
 
 const DEFAULT_SHOP_URL = 'http://localhost:8090';
 
 /** Rutas de la tienda que dependen del idioma (URLs amigables de PrestaShop). */
 const shopRoutes = {
-  login: { es: 'iniciar-sesion', en: 'login' },
-  search: { es: 'busqueda', en: 'search' },
-  register: { es: 'registro', en: 'registration' },
+  login: {
+    es: 'iniciar-sesion',
+    en: 'login',
+    de: 'anmeldung',
+    fr: 'connexion',
+    it: 'login',
+    pl: 'logowanie',
+    no: 'login',
+    fi: 'kirjaudu',
+  },
+  search: {
+    es: 'busqueda',
+    en: 'search',
+    de: 'suche',
+    fr: 'recherche',
+    it: 'ricerca',
+    pl: 'szukaj',
+    no: 'sok',
+    fi: 'etsi',
+  },
+  register: {
+    es: 'registro',
+    en: 'registration',
+    de: 'Registrierung',
+    fr: 'inscription',
+    it: 'registrazione',
+    pl: 'rejestracja',
+    no: 'registrering',
+    fi: 'rekisteroityminen',
+  },
 } as const satisfies Record<string, Record<Locale, string>>;
 
 export type ShopRoute = keyof typeof shopRoutes;

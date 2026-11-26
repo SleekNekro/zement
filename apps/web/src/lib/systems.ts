@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import type { Locale } from '../i18n/ui';
+import translations from '../i18n/translations';
+import { localePath, locales, type Locale } from '../i18n/locales';
 import { shopPathUrl, shopUrl } from './shop';
 
 type Localized = Record<Locale, string>;
@@ -34,16 +35,28 @@ export interface LocalizedSystem {
   paths: Record<Locale, string>;
 }
 
-const basePath: Record<Locale, string> = { es: '/sistemas/', en: '/en/systems/' };
+/** Carpeta de los sistemas en cada idioma (es y en aquí; el resto, en `i18n/translations/`). */
+const systemsSegment: Record<Locale, string> = {
+  es: 'sistemas',
+  en: 'systems',
+  de: translations.de.routes.systems,
+  fr: translations.fr.routes.systems,
+  it: translations.it.routes.systems,
+  pl: translations.pl.routes.systems,
+  no: translations.no.routes.systems,
+  fi: translations.fi.routes.systems,
+};
+
+const basePath = (locale: Locale): string => localePath(locale, `/${systemsSegment[locale]}/`);
 
 /** URL del índice de sistemas en un idioma. */
 export function systemsIndexPath(locale: Locale): string {
-  return basePath[locale];
+  return basePath(locale);
 }
 
 /** URL de un sistema en un idioma. */
 export function systemPath(locale: Locale, slug: string): string {
-  return `${basePath[locale]}${slug}/`;
+  return `${basePath(locale)}${slug}/`;
 }
 
 function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem {
@@ -55,8 +68,8 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
     audience: l(data.audience),
     summary: l(data.summary),
     shopQuery: l(data.shopQuery),
-    buyHref: l(data.shopPath)
-      ? shopPathUrl(locale, l(data.shopPath))
+    buyHref: data.shopPath[locale]
+      ? shopPathUrl(locale, data.shopPath[locale])
       : shopUrl(locale, 'search', l(data.shopQuery)),
     products: data.products.map((product) => ({
       code: product.code,
@@ -65,8 +78,8 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
       benefit: l(product.benefit),
       sku: product.sku,
       formats: l(product.formats),
-      buyHref: l(product.shopPath)
-        ? shopPathUrl(locale, l(product.shopPath))
+      buyHref: product.shopPath[locale]
+        ? shopPathUrl(locale, product.shopPath[locale])
         : shopUrl(
             locale,
             'search',
@@ -91,10 +104,9 @@ function localize(locale: Locale, id: string, data: SystemData): LocalizedSystem
       href: doc.href,
     })),
     faqs: data.faqs.map((faq) => ({ question: l(faq.question), answer: l(faq.answer) })),
-    paths: {
-      es: systemPath('es', data.slug.es),
-      en: systemPath('en', data.slug.en),
-    },
+    paths: Object.fromEntries(
+      locales.map((code) => [code, systemPath(code, data.slug[code])]),
+    ) as Record<Locale, string>,
   };
 }
 

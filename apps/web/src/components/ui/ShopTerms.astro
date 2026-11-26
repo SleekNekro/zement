@@ -5,7 +5,7 @@
  */
 import Value from './Value.astro';
 import { company } from '../../data/company';
-import type { Locale } from '../../i18n/ui';
+import { t, type Locale } from '../../i18n/ui';
 
 interface Props {
   locale: Locale;
@@ -14,26 +14,9 @@ interface Props {
 }
 
 const { locale, tone = 'light', class: className } = Astro.props;
-const labels = {
-  es: {
-    area: 'Envíos a',
-    shipping: 'Coste de envío',
-    delivery: 'Entrega',
-    payment: 'Pago',
-    returns: 'Devoluciones',
-    title: 'Comprar en la tienda',
-  },
-  en: {
-    area: 'Shipping to',
-    shipping: 'Shipping cost',
-    delivery: 'Delivery',
-    payment: 'Payment',
-    returns: 'Returns',
-    title: 'Buying in the shop',
-  },
-}[locale];
+
 const items = (['area', 'shipping', 'delivery', 'payment', 'returns'] as const).map((key) => ({
-  label: labels[key],
+  label: t(locale, `terms.${key}`),
   value: company.shopTerms[key][locale],
 }));
 ---
@@ -44,7 +27,7 @@ const items = (['area', 'shipping', 'delivery', 'payment', 'returns'] as const).
     tone === 'dark' ? 'text-paper/75' : 'text-ink/75',
     className,
   ]}
-  aria-label={labels.title}
+  aria-label={t(locale, 'terms.title')}
 >
   {items.map((item) => (
     <div class="grid gap-1">

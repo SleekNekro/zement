@@ -2,9 +2,10 @@
  * Textos del formulario de contacto (cliente) y respuestas del servidor (PHP).
  * El build copia `messages` a /api/contact-messages.json para que el PHP responda en el idioma del visitante.
  */
-import type { Locale } from './ui';
+import translations from './translations';
+import type { Locale, Strings } from './locales';
 
-export const formText = {
+const baseText = {
   es: {
     name: 'Nombre',
     email: 'Correo electrónico',
@@ -47,10 +48,22 @@ export const formText = {
     hours: 'Opening hours',
     responseTime: 'We reply within',
   },
-} as const satisfies Record<Locale, Record<string, string>>;
+} as const;
+
+export type FormText = Strings<(typeof baseText)['es']>;
+
+export const formText: Record<Locale, FormText> = {
+  ...baseText,
+  de: translations.de.form,
+  fr: translations.fr.form,
+  it: translations.it.form,
+  pl: translations.pl.form,
+  no: translations.no.form,
+  fi: translations.fi.form,
+};
 
 /** Respuestas del servidor (también usadas por el endpoint PHP). */
-export const formMessages = {
+const baseMessages = {
   es: {
     success: 'Gracias. Hemos recibido tu consulta y te responderemos lo antes posible.',
     invalidFields: 'Revisa los campos marcados.',
@@ -81,7 +94,19 @@ export const formMessages = {
     forbidden: 'The form could not be sent.',
     network: 'No connection. Please check your network and try again.',
   },
-} as const satisfies Record<Locale, Record<string, string>>;
+} as const;
+
+export type FormMessages = Strings<(typeof baseMessages)['es']>;
+
+export const formMessages: Record<Locale, FormMessages> = {
+  ...baseMessages,
+  de: translations.de.formMessages,
+  fr: translations.fr.formMessages,
+  it: translations.it.formMessages,
+  pl: translations.pl.formMessages,
+  no: translations.no.formMessages,
+  fi: translations.fi.formMessages,
+};
 
 /** Valores aceptados en «Te interesa» (el texto visible sale de data/home.ts). */
 export const interestValues = ['application', 'products', 'professional', 'other'] as const;
