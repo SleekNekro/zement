@@ -71,7 +71,7 @@ tienda.<dom.> ─▶│ /tienda  PrestaShop ──▶ MySQL (BD propia)     │
   - clientes, pedidos y envíos.
 - **Enlace entre las dos.** Cada producto se identifica por su **referencia (SKU)**:
   - En Keystatic, cada ficha editorial guarda la referencia de PrestaShop.
-  - Al generar la web, Astro consulta la **Webservice API de PrestaShop** con una clave **de solo lectura** y obtiene la URL de compra de cada producto en ES/EN y, si se decide, el precio público.
+  - Al generar la web, Astro consulta la **Webservice API de PrestaShop** con una clave **de solo lectura** y obtiene la URL de compra de cada producto en cada idioma y, si se decide, el precio público.
   - Los precios mayoristas **no salen nunca** en la web de marca.
 - **Una sola experiencia.** Las dos partes comparten:
   - los mismos tokens de diseño (colores, tipografías y espaciados), escritos una vez y exportados a Tailwind y al CSS del tema;
@@ -117,7 +117,7 @@ ZementWeb/
 ## 4. Detalles técnicos
 
 - **Idiomas**
-  - Astro: `es` por defecto y sin prefijo, más `/en/`.
+  - Astro: los mismos 8 idiomas que la tienda; `es` por defecto y sin prefijo, el resto con `/<código>/` y direcciones traducidas. Textos de ES y EN en sus módulos y del resto en `apps/web/src/i18n/translations/`.
   - PrestaShop: ES (por defecto) + EN, DE, FR, IT, PL, NO y FI con URLs amigables por idioma (`/en/`, `/de/`…), los mismos idiomas en que existen las fichas técnicas.
   - El selector de idioma de cada parte enlaza con la página equivalente de la otra. Pendiente: a qué idioma de la web enlaza la tienda en DE, FR, IT, PL, NO y FI (la web solo tiene ES y EN).
 - **Catálogo:** se genera desde las fichas técnicas PDF; ver [`apps/tienda/catalog/README.md`](../apps/tienda/catalog/README.md).
@@ -159,7 +159,7 @@ ZementWeb/
    - Integración continua (CI).
 2. **Web de marca**
    - Portada, empresa, productos (editoriales), proyectos y contacto.
-   - ES/EN y SEO.
+   - 8 idiomas (los de la tienda) y SEO.
    - Despliegue en `www`.
 3. **Tienda B2C**
    - Instalación en `tienda.<dominio>` y tema hijo.
@@ -197,6 +197,6 @@ ZementWeb/
   - Compra al por menor completa con la tarjeta de pruebas de la pasarela.
   - El cliente del grupo «Distribuidor» ve su tarifa sin IVA y la opción de transferencia; un visitante ve el precio público y no ve la transferencia.
   - Correos de pedido recibidos en un buzón de pruebas.
-- **Pruebas automáticas (E2E):** Playwright sobre la navegación ES/EN, el paso de la web a la tienda, el carrito, el checkout y el inicio de sesión de mayoristas.
+- **Pruebas automáticas (E2E):** Playwright sobre la navegación en los 8 idiomas, el paso de la web a la tienda, el carrito, el checkout y el inicio de sesión de mayoristas.
 - **Calidad:** Lighthouse y axe en la portada, la ficha de producto y el checkout.
 - **Copias:** restaurar una copia de MySQL en el Docker local.

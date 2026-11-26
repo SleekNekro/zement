@@ -20,12 +20,12 @@ pnpm tienda:up                                    # PrestaShop + MySQL (primera 
 pnpm dev                                          # web Astro en http://localhost:4321
 ```
 
-| Servicio           | URL local                                                                      |
-| ------------------ | ------------------------------------------------------------------------------ |
-| Web de marca       | http://localhost:4321 (ES) · http://localhost:4321/en/                         |
-| Tienda             | http://localhost:8090 (ES) · http://localhost:8090/en/                         |
-| Panel de la tienda | http://localhost:8090/admin-dev/ (usuario y contraseña en `infra/docker/.env`) |
-| MySQL              | `127.0.0.1:3307`                                                               |
+| Servicio           | URL local                                                                           |
+| ------------------ | ----------------------------------------------------------------------------------- |
+| Web de marca       | http://localhost:4321 (ES) · `/en/`, `/de/`, `/fr/`, `/it/`, `/pl/`, `/no/`, `/fi/` |
+| Tienda             | http://localhost:8090 (ES) · http://localhost:8090/en/                              |
+| Panel de la tienda | http://localhost:8090/admin-dev/ (usuario y contraseña en `infra/docker/.env`)      |
+| MySQL              | `127.0.0.1:3307`                                                                    |
 
 ## Comandos
 

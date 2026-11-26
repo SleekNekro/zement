@@ -12,6 +12,8 @@
 | Cookies              | `/cookies/`              | `/en/cookies/`       | ídem                                  |
 | Condiciones de venta | `/condiciones-de-venta/` | `/en/terms-of-sale/` | ídem                                  |
 
+Las mismas cuatro páginas existen también en DE, FR, IT, PL, NO y FI (`apps/web/src/content/legal/<idioma>/`), con su dirección traducida (p. ej. `/de/datenschutz/`). Son traducciones del borrador: cualquier cambio legal se hace primero en español y después en el resto.
+
 - Los datos de la empresa se escriben una sola vez en `apps/web/src/data/company.ts` → `legal` y se insertan en los cuatro textos mediante marcadores `{{clave}}`.
 - Mientras `draft: true`, la página muestra un aviso de «Borrador pendiente de revisión legal». Cambiar a `false` tras la validación.
 - Enlazadas desde el pie de todas las páginas y desde la casilla de privacidad del formulario.

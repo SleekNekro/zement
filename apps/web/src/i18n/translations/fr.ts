@@ -73,7 +73,6 @@ const fr: Translation = {
   home: {
     description:
       'Zement : système de microciment multicouche et matériaux pour surfaces continues. Boutique en ligne avec livraison en Espagne et en Europe, et tarifs dédiés aux professionnels.',
-    topbar: 'Microciment · Application professionnelle · Boutique spécialisée',
     hero: {
       title: ['La matière', 'transforme tout.'],
       text: 'Le microciment pour créer des espaces uniques. Nous appliquons des solutions continues et mettons à votre portée les matériaux pour les réaliser.',
@@ -244,7 +243,6 @@ const fr: Translation = {
     contact: {
       title: ['Et si nous commencions', 'votre projet ?'],
       text: 'Dites-nous si vous cherchez un applicateur professionnel ou des produits pour votre propre projet. Nous vous aiderons à trouver la prochaine étape.',
-      signature: 'Zement · Microciment & Matériaux',
       placeholders: {
         name: 'Votre nom',
         email: 'vous@email.com',

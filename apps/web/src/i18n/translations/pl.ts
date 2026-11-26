@@ -70,7 +70,6 @@ const pl: Translation = {
   home: {
     description:
       'Zement: wielowarstwowy system mikrocementu i materiały do powierzchni bez fug. Sklep internetowy z wysyłką do Hiszpanii i Europy, z cenami hurtowymi dla profesjonalistów.',
-    topbar: 'Mikrocement · Profesjonalna aplikacja · Sklep specjalistyczny',
     hero: {
       title: ['Materiał', 'zmienia wszystko.'],
       text: 'Mikrocement, który tworzy wyjątkowe przestrzenie. Wykonujemy powierzchnie bez fug i dostarczamy materiały, aby stały się rzeczywistością.',
@@ -241,7 +240,6 @@ const pl: Translation = {
     contact: {
       title: ['Zaczynamy', 'Twój projekt?'],
       text: 'Napisz, czy szukasz profesjonalnego wykonawcy, czy potrzebujesz produktów do własnego projektu. Pomożemy Ci znaleźć kolejny krok.',
-      signature: 'Zement · Mikrocement & Materiały',
       placeholders: {
         name: 'Imię i nazwisko',
         email: 'ty@email.com',

@@ -71,7 +71,6 @@ const no: Translation = {
   home: {
     description:
       'Zement: et lagdelt mikrosementsystem og materialer for sømløse overflater. Nettbutikk med levering til Spania og Europa, og egne priser for fagfolk.',
-    topbar: 'Mikrosement · Profesjonell påføring · Spesialbutikk',
     hero: {
       title: ['Materialet', 'forandrer alt.'],
       text: 'Mikrosement for unike rom. Vi utfører sømløse løsninger og gir deg materialene som gjør dem til virkelighet.',
@@ -241,7 +240,6 @@ const no: Translation = {
     contact: {
       title: ['Skal vi starte', 'prosjektet ditt?'],
       text: 'Fortell oss om du ser etter en profesjonell applikatør, eller om du trenger produkter til ditt eget prosjekt. Vi hjelper deg å finne neste steg.',
-      signature: 'Zement · Mikrosement & Materialer',
       placeholders: {
         name: 'Ditt navn',
         email: 'deg@epost.no',

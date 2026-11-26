@@ -1,4 +1,4 @@
-/** Página 404: una sola página para los dos idiomas (el servidor no sabe en cuál estaba el visitante). */
+/** Página 404: una sola página en español e inglés (el servidor no sabe en qué idioma estaba el visitante). */
 export interface NotFoundContent {
   title: string;
   text: string;

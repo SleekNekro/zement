@@ -70,7 +70,6 @@ const it: Translation = {
   home: {
     description:
       'Zement: un sistema di microcemento a strati e materiali per superfici continue. Negozio online con spedizioni in Spagna e in Europa e listino dedicato ai professionisti.',
-    topbar: 'Microcemento · Applicazione professionale · Negozio specializzato',
     hero: {
       title: ['La materia', 'trasforma tutto.'],
       text: 'Microcemento per creare spazi unici. Applichiamo soluzioni continue e ti mettiamo a disposizione i materiali per realizzarle.',
@@ -240,7 +239,6 @@ const it: Translation = {
     contact: {
       title: ['Iniziamo', 'il tuo progetto?'],
       text: 'Dicci se cerchi un applicatore professionale o se ti servono prodotti per il tuo progetto. Ti aiuteremo a trovare il passo successivo.',
-      signature: 'Zement · Microcemento & Materiali',
       placeholders: {
         name: 'Il tuo nome',
         email: 'tu@email.com',

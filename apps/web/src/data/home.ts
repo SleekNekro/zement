@@ -49,7 +49,6 @@ export interface ShopCategory {
 export interface HomeContent {
   /** Descripción de la portada para buscadores y redes. */
   description: string;
-  topbar: string;
   hero: {
     title: [string, string];
     text: string;
@@ -121,7 +120,6 @@ export interface HomeContent {
   contact: {
     title: string[];
     text: string;
-    signature: string;
     placeholders: {
       name: string;
       email: string;
@@ -138,7 +136,6 @@ export const home: Record<Locale, HomeContent> = {
   es: {
     description:
       'Zement: sistema de microcemento por capas y materiales para superficies continuas. Tienda online con envíos a España y Europa y tarifa propia para profesionales.',
-    topbar: 'Microcemento · Aplicación profesional · Tienda especializada',
     hero: {
       title: ['La materia', 'lo transforma todo.'],
       text: 'Microcemento para crear espacios únicos. Aplicamos soluciones continuas y ponemos a tu alcance los materiales para hacerlas realidad.',
@@ -308,7 +305,6 @@ export const home: Record<Locale, HomeContent> = {
     contact: {
       title: ['¿Empezamos', 'tu proyecto?'],
       text: 'Cuéntanos si buscas un aplicador profesional o si necesitas productos para tu propio proyecto. Te ayudaremos a encontrar el siguiente paso.',
-      signature: 'Zement · Microcemento & Materials',
       placeholders: {
         name: 'Tu nombre',
         email: 'tu@email.com',
@@ -327,7 +323,6 @@ export const home: Record<Locale, HomeContent> = {
   en: {
     description:
       'Zement: a layered microcement system and materials for seamless surfaces. Online shop shipping to Spain and Europe, with trade prices for professionals.',
-    topbar: 'Microcement · Professional application · Specialist shop',
     hero: {
       title: ['Material', 'transforms everything.'],
       text: 'Microcement to create unique spaces. We apply seamless solutions and bring you the materials to make them real.',
@@ -498,7 +493,6 @@ export const home: Record<Locale, HomeContent> = {
     contact: {
       title: ['Shall we start', 'your project?'],
       text: 'Tell us whether you are looking for a professional applicator or need products for your own project. We will help you find the next step.',
-      signature: 'Zement · Microcement & Materials',
       placeholders: {
         name: 'Your name',
         email: 'you@email.com',

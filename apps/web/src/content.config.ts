@@ -1,6 +1,6 @@
 /**
  * Colecciones de contenido de la web de marca.
- * Cada texto visible se guarda en los dos idiomas ({ es, en }).
+ * Cada texto visible se guarda en los 8 idiomas de la web ({ es, en, de, fr, it, pl, no, fi }).
  * Un valor que empieza por «TODO» se muestra como marcador de contenido pendiente: no rellenar por inferencia.
  */
 import { defineCollection } from 'astro:content';

@@ -110,4 +110,3 @@ export const formMessages: Record<Locale, FormMessages> = {
 
 /** Valores aceptados en «Te interesa» (el texto visible sale de data/home.ts). */
 export const interestValues = ['application', 'products', 'professional', 'other'] as const;
-export type Interest = (typeof interestValues)[number];

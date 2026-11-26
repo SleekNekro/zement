@@ -71,7 +71,6 @@ const fi: Translation = {
   home: {
     description:
       'Zement: kerroksellinen mikrosementtijärjestelmä ja materiaalit saumattomiin pintoihin. Verkkokauppa toimittaa Espanjaan ja muualle Eurooppaan, ja ammattilaisille on oma hinnasto.',
-    topbar: 'Mikrosementti · Ammattimainen asennus · Erikoisliike',
     hero: {
       title: ['Materiaali', 'muuttaa kaiken.'],
       text: 'Mikrosementtiä ainutlaatuisiin tiloihin. Toteutamme saumattomia pintoja ja tuomme sinun ulottuvillesi materiaalit, joilla ne syntyvät.',
@@ -242,7 +241,6 @@ const fi: Translation = {
     contact: {
       title: ['Aloitetaanko', 'projektisi?'],
       text: 'Kerro, etsitkö ammattiasentajaa vai tarvitsetko tuotteita omaan projektiisi. Autamme sinua löytämään seuraavan askeleen.',
-      signature: 'Zement · Mikrosementti & Materiaalit',
       placeholders: {
         name: 'Nimesi',
         email: 'sina@email.com',

@@ -87,7 +87,7 @@ export const systemPageText: Record<Locale, SystemPageText> = {
   fi: translations.fi.systemPage,
 };
 
-/** Textos del índice de sistemas (/sistemas/, /en/systems/). */
+/** Textos del índice de sistemas (/sistemas/, /en/systems/, /de/systeme/…). */
 const baseIndex = {
   es: {
     breadcrumbLabel: 'Ruta de navegación',

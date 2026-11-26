@@ -72,7 +72,6 @@ const de: Translation = {
   home: {
     description:
       'Zement: ein mehrschichtiges Mikrozement-System und Materialien für fugenlose Oberflächen. Onlineshop mit Versand nach Spanien und Europa und eigenen Konditionen für Profis.',
-    topbar: 'Mikrozement · Professionelle Verarbeitung · Fachshop',
     hero: {
       title: ['Die Materie', 'verwandelt alles.'],
       text: 'Mikrozement für einzigartige Räume. Wir verarbeiten fugenlose Lösungen und liefern Ihnen die Materialien, um sie zu verwirklichen.',
@@ -242,7 +241,6 @@ const de: Translation = {
     contact: {
       title: ['Beginnen wir', 'Ihr Projekt?'],
       text: 'Sagen Sie uns, ob Sie einen professionellen Verarbeiter suchen oder Produkte für Ihr eigenes Projekt benötigen. Wir helfen Ihnen, den nächsten Schritt zu finden.',
-      signature: 'Zement · Mikrozement & Materialien',
       placeholders: {
         name: 'Ihr Name',
         email: 'ihre@email.de',
