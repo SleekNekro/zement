@@ -302,7 +302,7 @@ const pl: Translation = {
     proCta: 'Dostęp profesjonalny',
   },
   company: {
-    hours: 'TODO: rzeczywiste godziny pracy',
+    hours: 'Od poniedziałku do piątku, 9:00–17:00 (czasu hiszpańskiego)',
     responseTime: '24 godziny w dni robocze',
     area: 'Hiszpania i Europa',
     shipping: 'TODO: koszt i darmowa wysyłka od X €',

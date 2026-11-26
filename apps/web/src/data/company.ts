@@ -40,7 +40,11 @@ export const company = {
   /** Número de WhatsApp en formato internacional sin espacios, p. ej. 34600000000 (vacío = sin WhatsApp). */
   whatsapp: '',
   /** Horario de atención. */
-  hours: pick('hours', 'TODO: horario real', 'TODO: real opening hours'),
+  hours: pick(
+    'hours',
+    'De lunes a viernes, de 9:00 a 17:00',
+    'Monday to Friday, 9:00–17:00 (Spanish time)',
+  ),
   /** Plazo de respuesta a consultas. */
   responseTime: pick('responseTime', '24 horas en días laborables', '24 hours on working days'),
   /** Condiciones de compra en la tienda (deben coincidir con PrestaShop: una sola verdad). */

@@ -304,7 +304,7 @@ const de: Translation = {
     proCta: 'Profi-Zugang',
   },
   company: {
-    hours: 'TODO: echte Geschäftszeiten',
+    hours: 'Montag bis Freitag, 9–17 Uhr (spanische Zeit)',
     responseTime: '24 Stunden an Werktagen',
     area: 'Spanien und Europa',
     shipping: 'TODO: Kosten und kostenloser Versand ab X €',

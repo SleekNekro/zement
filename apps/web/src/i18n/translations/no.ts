@@ -302,7 +302,7 @@ const no: Translation = {
     proCta: 'Profesjonell tilgang',
   },
   company: {
-    hours: 'TODO: faktiske åpningstider',
+    hours: 'Mandag til fredag, kl. 9–17 (spansk tid)',
     responseTime: '24 timer på hverdager',
     area: 'Spania og Europa',
     shipping: 'TODO: kostnad og gratis frakt fra X €',

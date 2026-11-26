@@ -304,7 +304,7 @@ const fi: Translation = {
     proCta: 'Ammattilaisille',
   },
   company: {
-    hours: 'TODO: todelliset palveluajat',
+    hours: 'Maanantaista perjantaihin klo 9–17 (Espanjan aikaa)',
     responseTime: '24 tuntia arkipäivisin',
     area: 'Espanja ja muu Eurooppa',
     shipping: 'TODO: toimituskulut ja ilmainen toimitus yli X €',
