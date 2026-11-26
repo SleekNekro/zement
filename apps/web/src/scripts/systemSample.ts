@@ -1,31 +1,27 @@
 /**
- * Cubo del sistema (portada): presenta el soporte y monta las losas fase a fase como un vídeo. Se reproduce
- * solo al entrar en pantalla, se puede pausar y cada pista salta a su fase (y pausa). Con «reducir
- * movimiento» no se reproduce solo: se muestra montado y se recorre con las pistas.
+ * Muestra del sistema (portada): presenta el soporte y aplica las capas fase a fase como un vídeo. Se
+ * reproduce sola al entrar en pantalla, se puede pausar y cada pista salta a su fase (y pausa). Con
+ * «reducir movimiento» no se reproduce sola: se muestra terminada y se recorre con las pistas.
  */
 const PHASE_MS = 3000;
-/** Tiempo desde que cae la protección hasta que el cubo se une en un bloque. */
-const COMPLETE_MS = 2200;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-document.querySelectorAll<HTMLElement>('[data-cube]').forEach(setupCube);
+document.querySelectorAll<HTMLElement>('[data-sample]').forEach(setupSample);
 
-function setupCube(figure: HTMLElement): void {
+function setupSample(figure: HTMLElement): void {
   const slabs = [...figure.querySelectorAll<HTMLElement>('[data-slab]')];
-  const steps = [...figure.querySelectorAll<HTMLButtonElement>('[data-cube-step]')];
-  const panels = [...figure.querySelectorAll<HTMLElement>('[data-cube-panel]')];
-  const intro = figure.querySelector<HTMLElement>('[data-cube-intro]');
-  const backdrops = [...figure.querySelectorAll<HTMLElement>('[data-cube-backdrop]')];
-  const cube = figure.querySelector<HTMLElement>('.cube');
-  const live = figure.querySelector<HTMLElement>('[data-cube-live]');
-  const play = figure.querySelector<HTMLButtonElement>('[data-cube-play]');
+  const steps = [...figure.querySelectorAll<HTMLButtonElement>('[data-sample-step]')];
+  const panels = [...figure.querySelectorAll<HTMLElement>('[data-sample-panel]')];
+  const intro = figure.querySelector<HTMLElement>('[data-sample-intro]');
+  const backdrops = [...figure.querySelectorAll<HTMLElement>('[data-sample-backdrop]')];
+  const live = figure.querySelector<HTMLElement>('[data-sample-live]');
+  const play = figure.querySelector<HTMLButtonElement>('[data-sample-play]');
   if (slabs.length === 0 || !play) return;
 
-  const last = slabs.length - 1;
+  const last = steps.length - 1;
   let current = -1;
   let timer = 0;
   let isPlaying = false;
-  let completeTimer = 0;
 
   figure.dataset.ready = '';
   figure.style.setProperty('--phase-ms', `${PHASE_MS}ms`);
@@ -34,14 +30,14 @@ function setupCube(figure: HTMLElement): void {
     current = index;
     for (const slab of slabs) {
       const slabIndex = Number(slab.dataset.slab);
-      // El soporte (0) está siempre; las capas aparecen al llegar a su fase.
+      // El soporte (0) está siempre; cada capa se aplica al llegar a su fase.
       slab.classList.toggle('is-built', slabIndex === 0 || slabIndex <= index);
       slab.classList.toggle('is-active', slabIndex === index);
       // Al aplicar la reparación (fase 1), las grietas del soporte se cierran.
       if (slabIndex === 0) slab.classList.toggle('is-repaired', index >= 1);
     }
     for (const step of steps) {
-      const stepIndex = Number(step.dataset.cubeStep);
+      const stepIndex = Number(step.dataset.sampleStep);
       const state = stepIndex < index ? 'done' : stepIndex === index ? 'current' : 'todo';
       // Reasignar el estado reinicia la barra de progreso de la pista actual.
       step.dataset.state = '';
@@ -50,22 +46,13 @@ function setupCube(figure: HTMLElement): void {
       step.setAttribute('aria-pressed', String(stepIndex === index));
     }
     for (const panel of panels) {
-      panel.dataset.visible = String(Number(panel.dataset.cubePanel) === index);
+      panel.dataset.visible = String(Number(panel.dataset.samplePanel) === index);
     }
     if (intro) intro.dataset.visible = String(index < 0);
-    // Con la protección aplicada, las capas se unen en un bloque compacto tras su destello.
-    window.clearTimeout(completeTimer);
-    cube?.classList.remove('is-complete');
-    if (index === last) {
-      completeTimer = window.setTimeout(
-        () => cube?.classList.add('is-complete'),
-        reducedMotion ? 0 : COMPLETE_MS,
-      );
-    }
     // Fondo de la fase; antes de empezar, el del soporte.
     const backdrop = Math.max(index, 0);
     for (const photo of backdrops) {
-      photo.dataset.visible = String(Number(photo.dataset.cubeBackdrop) === backdrop);
+      photo.dataset.visible = String(Number(photo.dataset.sampleBackdrop) === backdrop);
     }
   };
 
@@ -108,7 +95,7 @@ function setupCube(figure: HTMLElement): void {
       // Solo se anuncia la ficha cuando la elige el visitante, no en cada fase de la reproducción.
       if (live) live.setAttribute('aria-live', 'polite');
       stop();
-      render(Number(step.dataset.cubeStep));
+      render(Number(step.dataset.sampleStep));
       setPlaying(false);
     });
   }
@@ -136,7 +123,7 @@ function setupCube(figure: HTMLElement): void {
     },
     { threshold: 0.5 },
   );
-  observer.observe(figure.querySelector('.cube-scene') ?? figure);
+  observer.observe(figure.querySelector('[data-sample-scene]') ?? figure);
 }
 
 // Módulo propio: sus constantes no comparten ámbito con los demás scripts.

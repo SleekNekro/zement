@@ -4,7 +4,7 @@ import RevealHeading from '../../ui/RevealHeading.astro';
 import Button from '../../ui/Button.astro';
 import Todo from '../../ui/Todo.astro';
 import Value from '../../ui/Value.astro';
-import { cubeBackdrops } from '../../../data/systemCube';
+import { sampleBackdrops } from '../../../data/systemSample';
 import type { LocalizedSystem } from '../../../lib/systems';
 import type { HomeContent } from '../../../data/home';
 
@@ -22,16 +22,17 @@ const { system, systemHref, specs, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
 
 /*
- * Fases del montaje: el soporte existente (siempre presente) y una losa por capa. Grosores en
- * unidades `--u` (1/16 del ancho del cubo), exagerados para que cada capa se vea; los reales están
- * pendientes (thicknessTodo). Cada fase lleva su material simulado (`mat-*`, en global.css).
+ * Fases de la muestra: el soporte existente (siempre presente) y una losa fina por capa. Grosores en
+ * unidades `--u` (1/16 del ancho de la muestra), algo exagerados para que cada capa se vea en el
+ * canto; los reales están pendientes (thicknessTodo). Cada fase lleva su material simulado (`mat-*`,
+ * en global.css).
  */
 const support = {
   code: '',
   name: system.supportLabel,
   text: system.supportText,
   material: 'mat-support',
-  height: 7,
+  height: 0.55,
   values: [] as string[],
   note: system.supportNote,
 };
@@ -42,7 +43,7 @@ const layerMaterials = [
   'mat-finish',
   'mat-protection',
 ];
-const thickness = [0.7, 0.6, 1.7, 1.1, 0.5];
+const thickness = [0.1, 0.12, 0.3, 0.2, 0.09];
 const layers = [system.repair, ...system.steps].map((layer, index) => ({
   ...layer,
   material: layerMaterials[index] ?? 'mat-finish',
@@ -74,7 +75,7 @@ const phases = [support, ...layers].map((phase, index) => {
   if (index !== 1) bottom += phase.height;
   return slab;
 });
-// Con la vista fija del cubo solo se ven estas dos caras laterales (más la superior).
+// Con la vista fija de la muestra solo se ven estas dos caras laterales (más la superior).
 const sides = ['front', 'right'] as const;
 ---
 
@@ -101,36 +102,39 @@ const sides = ['front', 'right'] as const;
     </div>
 
     <!--
-      Cubo del sistema: un bloque de soporte y una losa por fase que cae y se asienta en su orden,
-      como un vídeo que se puede pausar o recorrer por fases (layerCube.ts). Cada losa lleva en su
-      cara superior la foto de esa fase (o su textura). Sin JavaScript: cubo montado y todas las
-      fichas seguidas; con «reducir movimiento», cubo montado y sin reproducción automática.
+      Muestra del sistema: una pieza fina de material sobre el soporte, a la que se aplica cada capa
+      con la llana en su orden, como un vídeo que se puede pausar o recorrer por fases
+      (systemSample.ts). Detrás, la foto real de cada fase. Sin JavaScript: muestra terminada y
+      todas las fichas seguidas; con «reducir movimiento», terminada y sin reproducción automática.
     -->
     <figure
       class="mt-14 md:mt-20"
-      data-cube
+      data-sample
     >
       <figcaption class="label text-muted mb-4 flex flex-wrap justify-between gap-x-6 gap-y-1">
         <span>{system.layersLabel}</span>
-        <span class="text-navy hidden [[data-cube][data-ready]_&]:inline">{system.layersHint}</span>
+        <span class="text-navy hidden [[data-sample][data-ready]_&]:inline">
+          {system.layersHint}
+        </span>
       </figcaption>
 
       <div
-        class="cube-scene border-navy/30 bg-stone relative isolate border"
+        class="sample-scene border-navy/30 bg-stone relative isolate border"
         role="img"
         aria-label={`${system.layersLabel}: ${phases.map((phase) => phase.name).join(', ')}`}
+        data-sample-scene
       >
         <!-- Fondo: foto real de la fase en pantalla; se funden al cambiar de fase -->
-        {cubeBackdrops.map((photo, index) =>
+        {sampleBackdrops.map((photo, index) =>
           photo ? (
             <Image
               src={photo}
               alt=""
               widths={[640, 1024, 1600]}
               sizes="(min-width: 1280px) 80rem, 100vw"
-              class="cube-backdrop absolute inset-0 -z-10 size-full object-cover"
-              data-cube-backdrop={index}
-              data-visible={String(index === cubeBackdrops.length - 1)}
+              class="sample-backdrop absolute inset-0 -z-10 size-full object-cover"
+              data-sample-backdrop={index}
+              data-visible={String(index === sampleBackdrops.length - 1)}
             />
           ) : null,
         )}
@@ -138,7 +142,11 @@ const sides = ['front', 'right'] as const;
           class="bg-paper/55 absolute inset-0 -z-10"
           aria-hidden="true"
         />
-        <div class="cube is-complete">
+        <div class="sample">
+          <span
+            class="sample-shadow"
+            aria-hidden="true"
+          />
           {phases.map((phase) => (
             <div
               class:list={[
@@ -157,10 +165,19 @@ const sides = ['front', 'right'] as const;
               {sides.map((side) => (
                 <div class:list={['face face-side', `face-${side}`, phase.material]}>
                   {phase.index === 0 && <span class="cracks mat-cracks" />}
-                  {/* Al terminar, los cantos de las capas se unen en un solo bloque acabado */}
-                  {phase.index > 1 && <span class="skin mat-finish" />}
                 </div>
               ))}
+              {/* La llana que aplica esta capa (la preparación es una malla: se coloca sin llana) */}
+              {phase.index > 0 && phase.index !== 2 && (
+                <div
+                  class="trowel-plane"
+                  aria-hidden="true"
+                >
+                  <span class="trowel-track">
+                    <span class="trowel" />
+                  </span>
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -168,20 +185,20 @@ const sides = ['front', 'right'] as const;
 
       <!-- Controles tipo vídeo: reproducir/pausar y una pista por fase con su progreso -->
       <div
-        class="border-navy mt-4 hidden border [[data-cube][data-ready]_&]:flex"
-        data-cube-controls
+        class="border-navy mt-4 hidden border [[data-sample][data-ready]_&]:flex"
+        data-sample-controls
       >
         <button
           type="button"
           class="border-navy text-navy hover:bg-navy hover:text-paper grid w-14 shrink-0 place-items-center border-r transition-colors duration-(--zm-duration)"
           aria-label={system.player.play}
-          data-cube-play
+          data-sample-play
           data-label-play={system.player.play}
           data-label-pause={system.player.pause}
           data-label-replay={system.player.replay}
         >
           <svg
-            class="cube-icon-play size-4"
+            class="sample-icon-play size-4"
             viewBox="0 0 16 16"
             aria-hidden="true"
           >
@@ -191,7 +208,7 @@ const sides = ['front', 'right'] as const;
             />
           </svg>
           <svg
-            class="cube-icon-pause size-4"
+            class="sample-icon-pause size-4"
             viewBox="0 0 16 16"
             aria-hidden="true"
           >
@@ -209,16 +226,16 @@ const sides = ['front', 'right'] as const;
             <li class="border-navy/30 border-t border-l sm:border-t-0 [&:nth-child(-n+3)]:border-t-0 [&:nth-child(3n+1)]:border-l-0 sm:[&:nth-child(3n+1)]:border-l sm:first:border-l-0">
               <button
                 type="button"
-                class="cube-step text-navy hover:bg-white relative flex h-full min-h-14 w-full flex-col justify-center px-2 py-2.5 text-left transition-colors duration-(--zm-duration) sm:px-4"
-                aria-controls={`cube-info-${phase.index}`}
+                class="sample-step text-navy hover:bg-white relative flex h-full min-h-14 w-full flex-col justify-center px-2 py-2.5 text-left transition-colors duration-(--zm-duration) sm:px-4"
+                aria-controls={`sample-info-${phase.index}`}
                 aria-pressed="false"
-                data-cube-step={phase.index}
+                data-sample-step={phase.index}
                 data-state="todo"
               >
                 <span class="label text-muted hidden sm:block">{phase.stageShort}</span>
                 <span class="text-sm">{phase.name}</span>
                 <span
-                  class="cube-progress bg-gold absolute inset-x-0 bottom-0 h-0.5 origin-left"
+                  class="sample-progress bg-gold absolute inset-x-0 bottom-0 h-0.5 origin-left"
                   aria-hidden="true"
                 />
               </button>
@@ -227,23 +244,23 @@ const sides = ['front', 'right'] as const;
         </ol>
       </div>
 
-      <!-- Ficha de la fase en pantalla, debajo del cubo. Todas en la misma celda: sin saltos. -->
+      <!-- Ficha de la fase en pantalla, debajo de la muestra. Todas en la misma celda: sin saltos. -->
       <div
         class="info-stack mt-6"
         aria-live="off"
-        data-cube-live
+        data-sample-live
       >
         <p
           class="display-md text-navy/70 self-center leading-snug"
-          data-cube-intro
+          data-sample-intro
         >
           {phases.map((phase) => phase.name).join(' · ')}
         </p>
         {phases.map((phase) => (
           <div
             class="grid gap-3 md:grid-cols-12 md:gap-8"
-            id={`cube-info-${phase.index}`}
-            data-cube-panel={phase.index}
+            id={`sample-info-${phase.index}`}
+            data-sample-panel={phase.index}
           >
             <div class="md:col-span-4">
               <p class="label text-muted">
@@ -302,4 +319,4 @@ const sides = ['front', 'right'] as const;
   </div>
 </section>
 
-<script src="../../../scripts/layerCube.ts"></script>
+<script src="../../../scripts/systemSample.ts"></script>

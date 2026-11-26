@@ -73,17 +73,17 @@ export interface HomeContent {
     repair: { code: string; name: string; text: string; specValues: string[] };
     steps: { code: string; name: string; text: string }[];
     layersLabel: string;
-    /** Indicación de uso del cubo y textos de sus controles (reproducir, pausar, volver a ver). */
+    /** Indicación de uso de la muestra y textos de sus controles (reproducir, pausar, volver a ver). */
     layersHint: string;
     player: { play: string; pause: string; replay: string; phases: string };
     stepLabel: string;
-    /** Foto real del producto aplicado para el fondo del cubo, hasta tenerla. */
+    /** Foto real del producto aplicado para el fondo de la muestra, hasta tenerla. */
     photoTodo: string;
     /** Capa base del corte (la superficie existente). */
     supportLabel: string;
     /** Etiqueta de las fases previas al sistema de capas (soporte y reparación). */
     beforeLabel: string;
-    /** Versión corta para las pistas del cubo. */
+    /** Versión corta para las pistas de la muestra. */
     beforeShort: string;
     /** Explicación del soporte: el sistema se aplica sobre la superficie existente. */
     supportText: string;
