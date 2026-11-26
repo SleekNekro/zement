@@ -3,6 +3,7 @@ import '../styles/global.css';
 import SiteHeader from '../components/layout/SiteHeader.astro';
 import SiteFooter from '../components/layout/SiteFooter.astro';
 import ShopBar from '../components/layout/ShopBar.astro';
+import CookieConsent from '../components/layout/CookieConsent.astro';
 import { locales, localePath, ogLocales, type Locale } from '../i18n/locales';
 import { isIndexable } from '../lib/seo';
 import favicon from '@zement/design-tokens/brand/zement-favicon.svg?url';
@@ -158,6 +159,7 @@ const organization = JSON.stringify({
     </main>
     <SiteFooter locale={locale} />
     <ShopBar locale={locale} />
+    <CookieConsent locale={locale} />
     <script src="../scripts/motion.ts"></script>
   </body>
 </html>

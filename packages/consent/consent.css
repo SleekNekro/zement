@@ -1,0 +1,140 @@
+/*
+ * Aviso de cookies de Zement (web y tienda). Usa los tokens de diseño (--zm-*), que cargan las
+ * dos; los valores después de la coma solo cubren una página sin tokens.
+ */
+.zm-consent {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 1080;
+  display: grid;
+  gap: 0.75rem;
+  max-width: 40rem;
+  margin-left: auto;
+  padding: 1.25rem;
+  border: 1px solid var(--zm-color-line-dark, rgb(246 245 241 / 22%));
+  background: var(--zm-color-night, #0f1c26);
+  color: var(--zm-color-paper, #f6f5f1);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Los títulos heredan el color del aviso (las hojas de cada sitio dan color a los h2). */
+.zm-consent__title {
+  margin: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.zm-consent__text {
+  margin: 0;
+}
+
+.zm-consent__policy {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* Los tres botones al mismo nivel: rechazar es tan fácil como aceptar (guía de la AEPD). */
+.zm-consent__actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+/* Con sitio, los tres en una fila; si no, uno debajo de otro (nunca dos y uno suelto). */
+@media (width >= 36rem) {
+  .zm-consent__actions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.zm-consent__button {
+  min-height: 2.75rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid currentcolor;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.zm-consent__button:focus-visible,
+.zm-consent__policy:focus-visible,
+.zm-consent-dialog__check:focus-visible {
+  outline: 2px solid var(--zm-color-gold, #b99a57);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) {
+  .zm-consent__button:hover {
+    background: var(--zm-color-paper, #f6f5f1);
+    color: var(--zm-color-night, #0f1c26);
+  }
+}
+
+/* Panel de configuración: <dialog> nativo (foco atrapado y cierre con Escape). */
+.zm-consent-dialog {
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100% - 2rem);
+  padding: 0;
+  border: 1px solid var(--zm-color-line-dark, rgb(246 245 241 / 22%));
+  background: var(--zm-color-night, #0f1c26);
+  color: var(--zm-color-paper, #f6f5f1);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.zm-consent-dialog::backdrop {
+  background: rgb(15 28 38 / 60%);
+}
+
+.zm-consent-dialog__form {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.zm-consent-dialog__row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  padding-top: 1rem;
+  border-top: 1px solid var(--zm-color-line-dark, rgb(246 245 241 / 22%));
+}
+
+.zm-consent-dialog__check {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.15rem;
+  accent-color: var(--zm-color-gold, #b99a57);
+}
+
+.zm-consent-dialog__label {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.zm-consent-dialog__name {
+  font-weight: 600;
+}
+
+.zm-consent-dialog__always {
+  color: var(--zm-color-sand, #c9bba5);
+  font-size: 0.75rem;
+}
+
+.zm-consent-dialog__desc {
+  color: var(--zm-color-sand, #c9bba5);
+}

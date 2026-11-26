@@ -12,20 +12,29 @@ Cookies sind kleine Dateien, die eine Website in Ihrem Browser speichert, damit 
 
 ## 2. Marken-Website ({{website}})
 
-**Die Marken-Website setzt keine Cookies.** Sie verwendet auch keine Analyse- oder Werbetools, die Ihr Surfverhalten verfolgen.
+Die Marken-Website verwendet ein technisches Cookie, `zm_consent`, um Ihre Cookie-Auswahl zu speichern. Nur wenn Sie im Cookie-Hinweis zustimmen, nutzt sie außerdem **Google Analytics**, um zusammengefasst zu messen, wie viele Besuche sie erhält und wie sie genutzt wird, und – wenn Sie auch der Werbung zustimmen – um unsere Anzeigen bei Google zu messen. Sie können Ihre Auswahl jederzeit über „Cookie-Einstellungen“ unten auf jeder Seite ändern.
 
 Das Kontaktformular verwendet Cloudflare Turnstile, um Menschen von automatisierten Übermittlungen zu unterscheiden. Turnstile funktioniert ohne Tracking-Cookies (<span class="todo">TODO: mit der endgültigen Cloudflare-Konfiguration bestätigen</span>).
 
 ## 3. Onlineshop ({{shopWebsite}})
 
-Der Shop verwendet ausschließlich **technische Cookies**, die für seine Funktion unerlässlich sind: Sie speichern Ihren Warenkorb, Ihre Anmeldung und Ihre Sprache. Da sie unbedingt erforderlich sind, bedürfen sie nicht Ihrer Einwilligung.
+Der Shop verwendet **technische Cookies**, die für seine Funktion unerlässlich sind: Sie speichern Ihren Warenkorb, Ihre Anmeldung und Ihre Sprache sowie Ihre Cookie-Auswahl. Da sie unbedingt erforderlich sind, bedürfen sie nicht Ihrer Einwilligung. Wie auf der Website werden Google Analytics und Werbung nur aktiviert, wenn Sie im Cookie-Hinweis zustimmen.
 
 | Cookie         | Inhaber               | Zweck                                                       | Dauer                                                                   |
 | -------------- | --------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------- |
 | `PrestaShop-…` | Zement (Erstanbieter) | Warenkorb, Anmeldung, Sprache und Währung speichern         | 20 Tage                                                                 |
 | `PHPSESSID`    | Zement (Erstanbieter) | Die technische Sitzung während des Surfens aufrechterhalten | <span class="todo">TODO: bei IONOS auf Browsersitzung einstellen</span> |
+| `zm_consent`   | Zement (Erstanbieter) | Ihre Cookie-Auswahl speichern (Website und Shop)            | 6 Monate                                                                |
 
-Sollten künftig Dienste mit nicht notwendigen Cookies hinzukommen (zum Beispiel Analyse mit Cookies, Karten, eingebettete Videos oder Chat), wird Ihre vorherige Einwilligung über einen Hinweis eingeholt und diese Tabelle aktualisiert.
+**Cookies von Drittanbietern, nur mit Ihrer Einwilligung** (Website und Shop):
+
+| Cookie     | Inhaber                | Zweck                                          | Dauer   |
+| ---------- | ---------------------- | ---------------------------------------------- | ------- |
+| `_ga`      | Google (Drittanbieter) | Google Analytics: Besuche anonym unterscheiden | 2 Jahre |
+| `_ga_<id>` | Google (Drittanbieter) | Google Analytics: Status des Besuchs speichern | 2 Jahre |
+| `_gcl_au`  | Google (Drittanbieter) | Werbung: Wirksamkeit unserer Anzeigen messen   | 90 Tage |
+
+<span class="todo">TODO: Übermittlung von Daten an Google LLC (außerhalb des EWR) mit der Rechtsberatung prüfen</span>
 
 ## 4. Cookies verwalten oder löschen
 

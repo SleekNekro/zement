@@ -5,6 +5,8 @@ pnpm-lock.yaml
 apps/tienda/theme/zement/assets/cache/
 apps/tienda/theme/zement/assets/css/tokens.css
 apps/tienda/theme/zement/assets/css/fonts.css
+# Copia generada desde packages/consent (pnpm consent:sync).
+apps/tienda/modules/zementcommerce/views/consent/
 *.woff2
 *.png
 

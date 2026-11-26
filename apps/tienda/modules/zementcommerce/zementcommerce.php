@@ -11,6 +11,8 @@
  * - Enlaces estables /z/p/<clave> y /z/c/<familia> para la web de marca (P19).
  * - Fase 2: barra de confianza con datos reales en ficha, carrito y pedido, y aviso de envío
  *   gratuito en el carrito. Datos: ZEMENT_COMPANY (apps/tienda/config/company.php).
+ * - Fase 3: aviso de cookies (packages/consent, copiado en views/consent con pnpm consent:sync).
+ *   Google Analytics 4 (ZEMENT_GA4_ID) solo se carga si el visitante acepta la analítica.
  *
  * Datos: data/commerce.json, generado con apps/tienda/catalog/scripts/build_commerce.py desde
  * las fichas técnicas y apps/tienda/catalog/commerce.json. Los productos se reconocen por su
@@ -37,7 +39,11 @@ class ZementCommerce extends Module
         'moduleRoutes',
         'displayReassurance',
         'displayShoppingCart',
+        'displayAfterBodyOpeningTag',
     ];
+
+    /** Sube al añadir finalidades nuevas al aviso de cookies: se vuelve a pedir el consentimiento. */
+    private const CONSENT_VERSION = 1;
 
     /** @var array<string, mixed>|null */
     private static ?array $data = null;
@@ -49,7 +55,7 @@ class ZementCommerce extends Module
     {
         $this->name = 'zementcommerce';
         $this->tab = 'front_office_features';
-        $this->version = '0.2.0';
+        $this->version = '0.3.0';
         $this->author = 'Zement';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -84,6 +90,17 @@ class ZementCommerce extends Module
 
     public function hookActionFrontControllerSetMedia(): void
     {
+        $this->context->controller->registerStylesheet(
+            'zementcommerce-consent',
+            'modules/' . $this->name . '/views/consent/consent.css',
+            ['media' => 'all', 'priority' => 250]
+        );
+        $this->context->controller->registerJavascript(
+            'zementcommerce-consent',
+            'modules/' . $this->name . '/views/consent/consent.js',
+            ['position' => 'bottom', 'priority' => 10]
+        );
+
         if ($this->context->controller->php_self === 'product') {
             $this->context->controller->registerJavascript(
                 'zementcommerce-calculator',
@@ -264,6 +281,27 @@ class ZementCommerce extends Module
         ]);
 
         return $this->fetch('module:' . $this->name . '/views/templates/hook/free-shipping.tpl');
+    }
+
+    /**
+     * Configuración del aviso de cookies (la lee views/consent/consent.js): textos del idioma,
+     * política de cookies de la web en ese idioma e identificador de Google Analytics 4.
+     */
+    public function hookDisplayAfterBodyOpeningTag(): string
+    {
+        $iso = $this->context->language->iso_code;
+        $strings = json_decode((string) file_get_contents(__DIR__ . '/views/consent/strings.json'), true) ?: [];
+        $config = [
+            'version' => self::CONSENT_VERSION,
+            'gaId' => (string) Configuration::get('ZEMENT_GA4_ID'),
+            'policyUrl' => (string) Configuration::get('ZEMENT_COOKIES_URL', (int) $this->context->language->id),
+            'strings' => $strings[$iso] ?? $strings['en'] ?? null,
+        ];
+
+        // JSON en <script>: «</» escapado para que el texto no pueda cerrar la etiqueta.
+        $json = json_encode($config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG);
+
+        return '<script type="application/json" id="zm-consent-config">' . $json . '</script>';
     }
 
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */

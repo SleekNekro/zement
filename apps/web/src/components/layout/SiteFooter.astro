@@ -5,6 +5,7 @@ import { legalPath } from '../../lib/legal';
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
 import { systemsIndexPath } from '../../lib/systems';
+import consentStrings from '@zement/consent/strings.json';
 
 interface Props {
   locale: Locale;
@@ -17,6 +18,8 @@ const legalLinks = [
   { href: legalPath(locale, 'privacy'), label: t(locale, 'footer.privacy') },
   { href: legalPath(locale, 'cookies'), label: t(locale, 'footer.cookies') },
   { href: legalPath(locale, 'terms'), label: t(locale, 'footer.terms') },
+  // Reabre el aviso de cookies (packages/consent escucha los enlaces a «#zm-cookies»).
+  { href: '#zm-cookies', label: consentStrings[locale].footerLink },
 ];
 const links = [
   { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
