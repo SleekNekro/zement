@@ -206,6 +206,7 @@ foreach (ZEMENT_UNUSED_MODULES as $name) {
 // Traducciones propias (tabla `translation`, para el núcleo y para el tema):
 // - es-usted.php: cadenas del escaparate que en el paquete de idioma tutean, pasadas a usted.
 // - missing.php: cadenas del tema que faltan en los paquetes de idioma (salían en inglés).
+// - zement.php: textos propios del tema Zement y la redacción del IVA en los precios.
 $translate = static function (string $iso, string $domain, string $source, string $target) use ($db): void {
     $idLang = (int) Language::getIdByIso($iso);
     if ($idLang === 0) {
@@ -246,6 +247,18 @@ foreach (require __DIR__ . '/../translations/missing.php' as $iso => $domains) {
     }
 }
 echo "· {$count} cadenas del tema que faltaban en los paquetes de idioma\n";
+
+// zement.php: textos propios del tema y redacción del IVA en los precios (van después: mandan).
+$count = 0;
+foreach (require __DIR__ . '/../translations/zement.php' as $iso => $domains) {
+    foreach ($domains as $domain => $strings) {
+        foreach ($strings as $source => $target) {
+            $translate($iso, $domain, (string) $source, $target);
+            ++$count;
+        }
+    }
+}
+echo "· {$count} cadenas propias del tema Zement\n";
 
 // Países: de momento, Europa (zonas «Europe» y «Europe (non-EU)» de PrestaShop). Fuera Rusia y
 // Bielorrusia (sanciones de la UE a la exportación). El resto del mundo, desactivado.

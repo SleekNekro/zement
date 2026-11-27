@@ -50,6 +50,11 @@ assets:
         path: assets/js/motion.js
         priority: 50
         position: head
+      # Carrito lateral: el icono lo abre y «Eliminar» funciona sin salir de la página.
+      - id: zement-cart
+        path: assets/js/zement-cart.js
+        priority: 300
+        position: bottom
 
 theme_settings:
   default_layout: layout-full-width

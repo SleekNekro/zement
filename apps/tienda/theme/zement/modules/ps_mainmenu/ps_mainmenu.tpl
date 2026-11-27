@@ -2,8 +2,11 @@
  * For the full copyright and license information, please view the
  * LICENSE.md file that was distributed with this source code.
  *
- * Copia de Hummingbird. Único cambio (Zement): en el menú lateral de móvil, sitio para los enlaces
- * de la barra superior hacia la web («Volver a la web» y «Profesionales», módulo zementcommerce).
+ * Copia de Hummingbird. Cambios (Zement):
+ * - Las familias van siempre en el menú lateral (botón hamburguesa con «Menú», también en
+ *   escritorio): ya no ocupan dos filas bajo la cabecera.
+ * - En el menú lateral, sitio para los enlaces de la barra superior hacia la web («Volver a la web»
+ *   y «Profesionales», módulo zementcommerce).
  *}
 {function name="generateLinks" links=[] class="menu-item" parent=null}
 {* GENERATE LINKS *}
@@ -194,14 +197,9 @@
   {/if}
 {/function}
 
-<div class="ps-mainmenu ps-mainmenu--desktop col-xl col-auto">
-  {* DESKTOP MENU *}
-  <nav class="ps-mainmenu__desktop d-none d-xl-block position-static js-menu-desktop" data-ps-ref="desktop-menu-container" aria-label="{l s='Main navigation' d='Shop.Theme.Menu'}">
-    {desktopMenu nodes=$menu.children}
-  </nav>
-
-  {* MOBILE MENU *}
-  <div class="ps-mainmenu__mobile-toggle">
+<div class="ps-mainmenu ps-mainmenu--desktop col-auto">
+  {* Zement: sin menú de escritorio; el lateral sirve para todos los tamaños. *}
+  <div class="ps-mainmenu__mobile-toggle zm-menu-toggle">
     <button
       class="menu-toggle btn btn-link"
       data-bs-toggle="offcanvas"
@@ -210,6 +208,7 @@
       aria-label="{l s='Open mobile menu' d='Shop.Theme.Menu'}"
     >
       <span class="material-icons" aria-hidden="true">&#xE5D2;</span>
+      <span class="zm-menu-toggle__label d-none d-md-inline">{l s='Menu' d='Shop.Theme.Global'}</span>
     </button>
   </div>
 </div>
