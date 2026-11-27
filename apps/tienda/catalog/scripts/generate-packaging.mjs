@@ -1,6 +1,6 @@
 // Genera por código las fotos de envase de la tienda (images/envases/<clave>--<envase>-<tamaño>.jpg):
-// un cubo, una garrafa o un bote con la etiqueta de Zement, recortado sobre blanco con su sombra,
-// como una foto de estudio. Una foto por formato de venta de catalog.json; los kits aún no tienen
+// un cubo, una garrafa o un bote (tarrina de plástico) con la etiqueta de Zement, recortado sobre
+// blanco con su sombra, como una foto de estudio. Una foto por formato de venta de catalog.json; los kits aún no tienen
 // dibujo y se saltan.
 //
 // La etiqueta sigue las plantillas de imprenta de Zement (A4 dividido en 1/4, 1/8 o 1/16):
@@ -14,7 +14,7 @@
 //
 // Dos pasos, los dos fotografiados con Chrome sin ventana: 1) la etiqueta plana, maquetada en
 // milímetros; 2) el envase en SVG, con la etiqueta pegada encima en un canvas, doblada sobre el
-// cilindro (cubo y bote) o plana (garrafa), a su tamaño real respecto al envase. El JPEG lo
+// cilindro (cubo y bote) o plana (garrafa), a escala del envase. El JPEG lo
 // hace sips (macOS). Uso, desde la raíz del repositorio:
 //   node apps/tienda/catalog/scripts/generate-packaging.mjs [clave…]
 // Después, `pnpm tienda:catalog "<carpeta de fichas>"` las sube como fotos del producto: la del
@@ -142,11 +142,14 @@ function labelPage(product, format, template) {
   </body></html>`;
 }
 
-// --- 2. Envases (lienzo de 1200 × 1200; suelo en y = 1000; vista algo desde arriba) -------------
+// --- 2. Envases (lienzo de 1200 × 1200; vista algo desde arriba, luz de estudio a la izquierda) --
+// Proporciones de envases reales de obra: cubo chato con tapa de color, precinto y asa metálica
+// colgando a los lados; tarrina blanca baja y ancha (productos al agua); garrafa de 5 L en tres
+// cuartos con el asa moldeada y el tapón de rosca.
 // `wrap`: cómo se pega la etiqueta. Cilindro: centro, radio a la altura de la etiqueta, achatado
 // de la elipse (ry / rx) y píxeles por milímetro; plana: centro y borde de arriba.
 
-const K = 0.2;
+const K = 0.24;
 
 /** Degradado vertical (de arriba abajo) con paradas [posición, color, opacidad]. */
 const vertical = (id, stops) =>
@@ -159,156 +162,196 @@ const vertical = (id, stops) =>
 
 const user = (x1, x2) => `gradientUnits="userSpaceOnUse" x1="${x1}" x2="${x2}"`;
 
-// Plástico blanco: luz de estudio a la izquierda, rebote suave a la derecha.
+// Plástico blanco brillante: luz a la izquierda, rebote suave a la derecha, bordes en sombra.
 const plastic = (id, x1, x2) => `<linearGradient id="${id}" ${user(x1, x2)}>
-  <stop offset="0" stop-color="#b9b5ae"/><stop offset=".07" stop-color="#d9d6d0"/><stop offset=".22" stop-color="#f6f5f2"/>
-  <stop offset=".32" stop-color="#ffffff"/><stop offset=".45" stop-color="#f3f2ef"/><stop offset=".7" stop-color="#e2e0db"/>
-  <stop offset=".88" stop-color="#cfccc6"/><stop offset=".95" stop-color="#dcd9d4"/><stop offset="1" stop-color="#a9a59e"/>
+  <stop offset="0" stop-color="#bdb9b3"/><stop offset=".05" stop-color="#dcd9d4"/><stop offset=".16" stop-color="#f7f6f4"/>
+  <stop offset=".27" stop-color="#ffffff"/><stop offset=".4" stop-color="#f4f3f1"/><stop offset=".68" stop-color="#e6e4e0"/>
+  <stop offset=".86" stop-color="#d3d0cb"/><stop offset=".94" stop-color="#e2e0dc"/><stop offset="1" stop-color="#b3afa9"/>
 </linearGradient>`;
 
 const navy = (id, x1, x2) => `<linearGradient id="${id}" ${user(x1, x2)}>
-  <stop offset="0" stop-color="#0a131a"/><stop offset=".2" stop-color="#1d3a52"/><stop offset=".32" stop-color="#3a6487"/>
-  <stop offset=".42" stop-color="#22425e"/><stop offset=".75" stop-color="#14283a"/><stop offset=".92" stop-color="#1b3349"/>
+  <stop offset="0" stop-color="#0a131a"/><stop offset=".14" stop-color="#1d3a52"/><stop offset=".26" stop-color="#3f6a8d"/>
+  <stop offset=".36" stop-color="#23435f"/><stop offset=".72" stop-color="#15293b"/><stop offset=".9" stop-color="#1d364c"/>
   <stop offset="1" stop-color="#08111a"/>
 </linearGradient>`;
 
-const metal = (id, x1, x2) => `<linearGradient id="${id}" ${user(x1, x2)}>
-  <stop offset="0" stop-color="#5d646b"/><stop offset=".08" stop-color="#9aa1a8"/><stop offset=".22" stop-color="#e9ecee"/>
-  <stop offset=".3" stop-color="#ffffff"/><stop offset=".4" stop-color="#c9ced3"/><stop offset=".58" stop-color="#8d949b"/>
-  <stop offset=".78" stop-color="#c3c8cd"/><stop offset=".9" stop-color="#e3e6e8"/><stop offset="1" stop-color="#6a7178"/>
-</linearGradient>`;
+const steel = vertical('steel', [
+  [0, '#f2f3f4'],
+  [0.45, '#a7adb3'],
+  [1, '#6c737a'],
+]);
 
-// Sombra de contacto (estrecha y oscura) y sombra ambiente (ancha y suave).
-const shadow = (rx) => `
-  <radialGradient id="ambient"><stop offset="0" stop-color="#2a2620" stop-opacity=".22"/><stop offset="1" stop-color="#2a2620" stop-opacity="0"/></radialGradient>
-  <radialGradient id="contact"><stop offset="0" stop-color="#16130f" stop-opacity=".55"/><stop offset=".7" stop-color="#16130f" stop-opacity=".12"/><stop offset="1" stop-color="#16130f" stop-opacity="0"/></radialGradient>
-  <ellipse cx="${600 + rx * 0.12}" cy="1004" rx="${rx * 1.35}" ry="${rx * K * 1.1}" fill="url(#ambient)"/>
-  <ellipse cx="600" cy="1000" rx="${rx * 1.04}" ry="${rx * K * 1.02}" fill="url(#contact)"/>`;
+// Sombra de contacto (estrecha y oscura) y sombra ambiente (ancha y suave), bajo la base del envase
+// (centro de la elipse del fondo en y = base).
+const shadow = (rx, base) => `
+  <radialGradient id="ambient"><stop offset="0" stop-color="#2a2620" stop-opacity=".2"/><stop offset="1" stop-color="#2a2620" stop-opacity="0"/></radialGradient>
+  <radialGradient id="contact"><stop offset="0" stop-color="#16130f" stop-opacity=".5"/><stop offset=".7" stop-color="#16130f" stop-opacity=".1"/><stop offset="1" stop-color="#16130f" stop-opacity="0"/></radialGradient>
+  <ellipse cx="${600 + rx * 0.16}" cy="${base + 16}" rx="${rx * 1.5}" ry="${rx * K * 1.45}" fill="url(#ambient)"/>
+  <ellipse cx="600" cy="${base + 4}" rx="${rx * 1.07}" ry="${rx * K * 1.18}" fill="url(#contact)"/>`;
 
-// Arco delantero de una elipse de radio rx en y (de izquierda a derecha).
+// Arco delantero de una elipse de radio rx centrada en y (de izquierda a derecha).
 const front = (rx, y, cx = 600) => `M${cx - rx} ${y} A${rx} ${rx * K} 0 0 0 ${cx + rx} ${y}`;
 
+// Banda cilíndrica entre y1 e y2 (centros de elipse), visible por delante.
+const band = (rx, y1, y2, cx = 600) =>
+  `M${cx - rx} ${y1} L${cx - rx} ${y2} A${rx} ${rx * K} 0 0 0 ${cx + rx} ${y2} L${cx + rx} ${y1} Z`;
+
+// Tronco de cono (cuerpo de cubo o tarrina) de la boca (arriba) al fondo.
+const frustum = (top, bottom) =>
+  `M${600 - top.rx} ${top.y} L${600 - bottom.rx} ${bottom.y} A${bottom.rx} ${bottom.rx * K} 0 0 0 ${600 + bottom.rx} ${bottom.y} L${600 + top.rx} ${top.y} A${top.rx} ${top.rx * K} 0 0 0 ${600 - top.rx} ${top.y} Z`;
+
+// Precinto de la tapa: lengüeta blanca en el centro del faldón.
+const tamper = (y, height, width) => `
+  <rect x="${600 - width / 2}" y="${y}" width="${width}" height="${height}" rx="4" fill="url(#tab)"/>
+  <path d="M${600 - width / 2 + 6} ${y + 6} H${600 + width / 2 - 6}" stroke="#ffffff" stroke-width="2" opacity=".8"/>`;
+
+const TAB = vertical('tab', [
+  [0, '#fbfaf8'],
+  [1, '#d8d5d0'],
+]);
+
+/** Cubo de obra: cuerpo blanco cónico, aro blanco, tapa azul con precinto, asa de alambre a los lados. */
 function cubo() {
-  const top = { y: 372, rx: 272 };
-  const bottom = { y: 968, rx: 236 };
+  const top = { y: 452, rx: 296 };
+  const bottom = { y: 930, rx: 250 };
   const rxAt = (y) => top.rx + ((bottom.rx - top.rx) * (y - top.y)) / (bottom.y - top.y);
-  const body = `M${600 - top.rx} ${top.y} L${600 - bottom.rx} ${bottom.y} A${bottom.rx} ${bottom.rx * K} 0 0 0 ${600 + bottom.rx} ${bottom.y} L${600 + top.rx} ${top.y} Z`;
-  const lid = { y: 346, rx: 292, band: 50 };
-  const lidBand = `M${600 - lid.rx} ${lid.y} L${600 - lid.rx} ${lid.y + lid.band} A${lid.rx} ${lid.rx * K} 0 0 0 ${600 + lid.rx} ${lid.y + lid.band} L${600 + lid.rx} ${lid.y} Z`;
-  const ribs = [430, 448].map((y) => front(rxAt(y), y)).join(' ');
-  const notches = Array.from({ length: 23 }, (_, i) => {
-    const a = -1.45 + (i * 2.9) / 22;
-    const x = 600 + lid.rx * Math.sin(a);
-    const y = lid.y + lid.band + lid.rx * K * Math.cos(a);
-    return `M${x.toFixed(1)} ${(y - 6).toFixed(1)} V${(y - lid.band + 12).toFixed(1)}`;
-  }).join(' ');
+  const ring = { y1: 418, y2: 456, rx: 308 };
+  const lid = { y: 372, rx: 316, skirt: 48 };
+  const ribs = [ring.y1 + 12, ring.y1 + 26].map((y) => front(ring.rx, y)).join(' ');
+  const foot = front(rxAt(904), 904);
+  // Asa: sale de la oreja, cuelga hacia fuera y se mete por detrás del cuerpo.
+  const handle = (side) => {
+    const x = 600 + side * (ring.rx + 4);
+    return `M${x} 438 C${x + side * 46} 520 ${x + side * 30} 650 ${600 + side * (rxAt(690) - 6)} 700`;
+  };
 
   return {
-    rx: 270,
-    wrap: { kind: 'cylinder', cx: 600, r: rxAt(640), top: 548, mmPx: 2.05 },
+    rx: bottom.rx,
+    ceiling: lid.y - lid.rx * K,
+    floor: bottom.y + bottom.rx * K,
+    wrap: { kind: 'cylinder', cx: 600, r: rxAt(700), top: 552, mmPx: 2.95 },
     svg: `
-      <defs>${plastic('body', 600 - top.rx, 600 + top.rx)}${navy('lid', 600 - lid.rx, 600 + lid.rx)}
-        <radialGradient id="lidTop" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#3d6a8f"/><stop offset=".45" stop-color="#1f3d57"/><stop offset="1" stop-color="#0d1a25"/></radialGradient>
-        ${vertical('grip', [
-          [0, '#f4f3f0'],
-          [0.5, '#ffffff'],
-          [1, '#bdb9b2'],
-        ])}
-        ${vertical('wire', [
-          [0, '#e8eaec'],
-          [0.5, '#a3a9af'],
-          [1, '#6f767d'],
-        ])}
-        ${vertical('occlusion', [
-          [0, '#000', 0.28],
+      <defs>${plastic('body', 600 - top.rx, 600 + top.rx)}${plastic('ring', 600 - ring.rx, 600 + ring.rx)}
+        ${navy('lid', 600 - lid.rx, 600 + lid.rx)}${steel}${TAB}
+        <radialGradient id="lidTop" cx=".34" cy=".28" r=".85"><stop offset="0" stop-color="#46739a"/><stop offset=".45" stop-color="#20405b"/><stop offset="1" stop-color="#0c1924"/></radialGradient>
+        ${vertical('under', [
+          [0, '#000', 0.22],
           [1, '#000', 0],
         ])}
-        <clipPath id="bodyClip"><path d="${body}"/></clipPath>
+        <clipPath id="bodyClip"><path d="${frustum(top, bottom)}"/></clipPath>
       </defs>
-      ${shadow(250)}
-      <path d="M${600 - top.rx - 14} 404 C${600 - top.rx - 40} 205 ${600 + top.rx + 40} 205 ${600 + top.rx + 14} 404" fill="none" stroke="url(#wire)" stroke-width="7" stroke-linecap="round"/>
-      <path d="M528 255 Q600 246 672 255 L672 279 Q600 270 528 279 Z" fill="url(#grip)" stroke="#bdb9b2" stroke-width="1.5"/>
-      <path d="${body}" fill="url(#body)"/>
-      <rect x="300" y="${top.y}" width="600" height="70" fill="url(#occlusion)" clip-path="url(#bodyClip)"/>
-      <path d="${ribs}" fill="none" stroke="#c4c0b9" stroke-width="3"/>
-      <path d="${ribs}" fill="none" stroke="#ffffff" stroke-width="2" transform="translate(0 4)" opacity=".7"/>
-      <path d="${front(rxAt(930), 930)}" fill="none" stroke="#c9c5be" stroke-width="3"/>
-      <path d="${lidBand}" fill="url(#lid)"/>
-      <path d="${notches}" stroke="#08111a" stroke-width="2.5" opacity=".45"/>
-      <path d="${front(lid.rx, lid.y + lid.band)}" fill="none" stroke="#06101a" stroke-width="3" opacity=".6"/>
+      ${shadow(bottom.rx, bottom.y)}
+      <path d="${handle(-1)}" fill="none" stroke="url(#steel)" stroke-width="7" stroke-linecap="round"/>
+      <path d="${frustum(top, bottom)}" fill="url(#body)"/>
+      <rect x="250" y="${top.y}" width="700" height="${top.rx * K + 46}" fill="url(#under)" clip-path="url(#bodyClip)"/>
+      <path d="${foot}" fill="none" stroke="#c9c6c0" stroke-width="3"/>
+      <path d="${foot}" fill="none" stroke="#ffffff" stroke-width="2" opacity=".8" transform="translate(0 4)"/>
+      <path d="${band(ring.rx, ring.y1, ring.y2)}" fill="url(#ring)"/>
+      <path d="${ribs}" fill="none" stroke="#cbc8c2" stroke-width="2.5"/>
+      <path d="${front(ring.rx, ring.y2)}" fill="none" stroke="#b8b4ad" stroke-width="2"/>
+      <path d="${handle(1)}" fill="none" stroke="url(#steel)" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="${600 - ring.rx - 2}" cy="438" rx="13" ry="20" fill="#e9e7e3" stroke="#b4b0a9" stroke-width="1.5"/>
+      <ellipse cx="${600 + ring.rx + 2}" cy="438" rx="13" ry="20" fill="#cfccc6" stroke="#a5a19a" stroke-width="1.5"/>
+      <path d="${band(lid.rx, lid.y, lid.y + lid.skirt)}" fill="url(#lid)"/>
+      <path d="${front(lid.rx, lid.y + lid.skirt)}" fill="none" stroke="#050c12" stroke-width="3" opacity=".7"/>
+      ${tamper(lid.y + lid.rx * K + 4, lid.skirt - 6, 92)}
       <ellipse cx="600" cy="${lid.y}" rx="${lid.rx}" ry="${lid.rx * K}" fill="url(#lidTop)"/>
-      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx - 3}" ry="${(lid.rx - 3) * K}" fill="none" stroke="#5b86a8" stroke-width="2" opacity=".55"/>
-      <ellipse cx="600" cy="${lid.y + 3}" rx="${lid.rx - 30}" ry="${(lid.rx - 30) * K}" fill="none" stroke="#0a1620" stroke-width="5" opacity=".55"/>
-      <ellipse cx="600" cy="${lid.y + 1}" rx="${lid.rx - 30}" ry="${(lid.rx - 30) * K}" fill="none" stroke="#4d7799" stroke-width="2" opacity=".5"/>
-      <ellipse cx="600" cy="${lid.y + 6}" rx="${lid.rx - 110}" ry="${(lid.rx - 110) * K}" fill="#152c3f" opacity=".55"/>
-      <rect x="${600 - top.rx - 22}" y="388" width="26" height="40" rx="7" fill="#e6e4df" stroke="#b7b3ac" stroke-width="1.5"/>
-      <rect x="${600 + top.rx - 4}" y="388" width="26" height="40" rx="7" fill="#c9c6c0" stroke="#a7a39c" stroke-width="1.5"/>`,
+      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx - 3}" ry="${(lid.rx - 3) * K}" fill="none" stroke="#6390b4" stroke-width="2" opacity=".55"/>
+      <ellipse cx="600" cy="${lid.y + 4}" rx="${lid.rx - 34}" ry="${(lid.rx - 34) * K}" fill="none" stroke="#08131c" stroke-width="6" opacity=".5"/>
+      <ellipse cx="600" cy="${lid.y + 1}" rx="${lid.rx - 34}" ry="${(lid.rx - 34) * K}" fill="none" stroke="#5584a8" stroke-width="2" opacity=".5"/>
+      <ellipse cx="600" cy="${lid.y + 8}" rx="${lid.rx - 120}" ry="${(lid.rx - 120) * K}" fill="#16304a" opacity=".45"/>`,
   };
 }
 
+/** Tarrina de plástico blanca, baja y ancha, con tapa blanca, precinto y asa de plástico. */
 function bote() {
-  const top = 488;
-  const bottom = 966;
-  const r = 226;
-  const body = `M${600 - r} ${top} L${600 - r} ${bottom} A${r} ${r * K} 0 0 0 ${600 + r} ${bottom} L${600 + r} ${top} Z`;
-  const beads = [532, 548, 920, 936].map((y) => front(r, y)).join(' ');
+  const top = { y: 586, rx: 262 };
+  const bottom = { y: 930, rx: 232 };
+  const rxAt = (y) => top.rx + ((bottom.rx - top.rx) * (y - top.y)) / (bottom.y - top.y);
+  const lid = { y: 540, rx: 276, skirt: 50 };
+  const foot = front(rxAt(906), 906);
+  const handle = (side) => {
+    const x = 600 + side * (lid.rx + 2);
+    return `M${x} 618 C${x + side * 26} 690 ${x + side * 14} 760 ${600 + side * (rxAt(760) - 6)} 800`;
+  };
 
   return {
-    rx: r,
-    wrap: { kind: 'cylinder', cx: 600, r, top: 612, mmPx: 2.55 },
+    rx: bottom.rx,
+    ceiling: lid.y - lid.rx * K,
+    floor: bottom.y + bottom.rx * K,
+    wrap: { kind: 'cylinder', cx: 600, r: rxAt(760), top: 672, mmPx: 3.4 },
     svg: `
-      <defs>${metal('tin', 600 - r, 600 + r)}${metal('rim', 600 - r - 6, 600 + r + 6)}
-        <radialGradient id="disc" cx=".4" cy=".35" r=".75"><stop offset="0" stop-color="#f7f8f9"/><stop offset=".55" stop-color="#bfc4c9"/><stop offset="1" stop-color="#7d848b"/></radialGradient>
-        ${vertical('wire', [
-          [0, '#eef0f1'],
-          [0.5, '#aab0b6'],
-          [1, '#727980'],
+      <defs>${plastic('body', 600 - top.rx, 600 + top.rx)}${plastic('lid', 600 - lid.rx, 600 + lid.rx)}${TAB}
+        <radialGradient id="lidTop" cx=".34" cy=".28" r=".85"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#eeece8"/><stop offset="1" stop-color="#d2cfc9"/></radialGradient>
+        ${vertical('strap', [
+          [0, '#fbfaf8'],
+          [1, '#cfccc6'],
         ])}
+        ${vertical('under', [
+          [0, '#000', 0.16],
+          [1, '#000', 0],
+        ])}
+        <clipPath id="bodyClip"><path d="${frustum(top, bottom)}"/></clipPath>
       </defs>
-      ${shadow(226)}
-      <path d="M${600 - r - 2} 532 C${600 - r - 26} 300 ${600 + r + 26} 300 ${600 + r + 2} 532" fill="none" stroke="url(#wire)" stroke-width="6" stroke-linecap="round"/>
-      <path d="${body}" fill="url(#tin)"/>
-      <path d="${beads}" fill="none" stroke="#5a6168" stroke-width="2.5" opacity=".55"/>
-      <path d="${beads}" fill="none" stroke="#ffffff" stroke-width="2" opacity=".55" transform="translate(0 4)"/>
-      <path d="M${600 - r - 4} ${bottom - 10} L${600 - r - 4} ${bottom} A${r + 4} ${(r + 4) * K} 0 0 0 ${600 + r + 4} ${bottom} L${600 + r + 4} ${bottom - 10} Z" fill="url(#rim)"/>
-      <ellipse cx="600" cy="${top}" rx="${r + 6}" ry="${(r + 6) * K}" fill="url(#rim)"/>
-      <ellipse cx="600" cy="${top}" rx="${r - 4}" ry="${(r - 4) * K}" fill="none" stroke="#ffffff" stroke-width="2" opacity=".7"/>
-      <ellipse cx="600" cy="${top + 4}" rx="${r - 14}" ry="${(r - 14) * K}" fill="url(#disc)"/>
-      <ellipse cx="600" cy="${top + 5}" rx="${r - 30}" ry="${(r - 30) * K}" fill="none" stroke="#7d848b" stroke-width="3"/>
-      <ellipse cx="600" cy="${top + 3}" rx="${r - 30}" ry="${(r - 30) * K}" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".8"/>
-      <circle cx="${600 - r}" cy="536" r="10" fill="#b2b8be" stroke="#6f767d" stroke-width="1.5"/>
-      <circle cx="${600 + r}" cy="536" r="10" fill="#8a9198" stroke="#5d646b" stroke-width="1.5"/>`,
+      ${shadow(bottom.rx, bottom.y)}
+      <path d="${handle(-1)}" fill="none" stroke="#bfbbb5" stroke-width="12" stroke-linecap="round"/>
+      <path d="${handle(-1)}" fill="none" stroke="url(#strap)" stroke-width="8" stroke-linecap="round"/>
+      <path d="${frustum(top, bottom)}" fill="url(#body)"/>
+      <rect x="300" y="${top.y}" width="600" height="${top.rx * K + 40}" fill="url(#under)" clip-path="url(#bodyClip)"/>
+      <path d="${foot}" fill="none" stroke="#cbc8c2" stroke-width="3"/>
+      <path d="${handle(1)}" fill="none" stroke="#bfbbb5" stroke-width="12" stroke-linecap="round"/>
+      <path d="${handle(1)}" fill="none" stroke="url(#strap)" stroke-width="8" stroke-linecap="round"/>
+      <path d="${band(lid.rx, lid.y, lid.y + lid.skirt)}" fill="url(#lid)"/>
+      <path d="${front(lid.rx, lid.y + 16)} ${front(lid.rx, lid.y + 30)}" fill="none" stroke="#d4d1cb" stroke-width="2"/>
+      <path d="${front(lid.rx, lid.y + lid.skirt)}" fill="none" stroke="#a9a59e" stroke-width="2.5"/>
+      ${tamper(lid.y + lid.rx * K + 6, lid.skirt - 10, 70)}
+      <ellipse cx="${600 - lid.rx}" cy="610" rx="11" ry="17" fill="#ecebe7" stroke="#b6b2ab" stroke-width="1.5"/>
+      <ellipse cx="${600 + lid.rx}" cy="610" rx="11" ry="17" fill="#d1cec8" stroke="#a6a29b" stroke-width="1.5"/>
+      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx}" ry="${lid.rx * K}" fill="url(#lidTop)"/>
+      <ellipse cx="600" cy="${lid.y + 3}" rx="${lid.rx - 26}" ry="${(lid.rx - 26) * K}" fill="none" stroke="#c9c6c0" stroke-width="4"/>
+      <ellipse cx="600" cy="${lid.y + 1}" rx="${lid.rx - 26}" ry="${(lid.rx - 26) * K}" fill="none" stroke="#ffffff" stroke-width="2"/>`,
   };
 }
 
+/** Garrafa de 5 L en tres cuartos: lateral izquierdo en escorzo, asa moldeada y tapón de rosca. */
 function garrafa() {
-  // Vista de tres cuartos: cara frontal, lateral derecho en escorzo y hombro con asa y tapón.
   return {
     rx: 250,
-    wrap: { kind: 'flat', cx: 579, top: 528, mmPx: 2.0 },
+    ceiling: 218,
+    floor: 1000,
+    wrap: { kind: 'flat', cx: 694, top: 530, mmPx: 2.4 },
     svg: `
-      <defs>
-        ${plastic('face', 396, 762)}
-        <linearGradient id="side" x1="0" x2="1"><stop offset="0" stop-color="#d3d0ca"/><stop offset=".5" stop-color="#c3bfb8"/><stop offset="1" stop-color="#a8a49d"/></linearGradient>
-        <linearGradient id="shoulder" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fbfaf8"/><stop offset="1" stop-color="#e4e2dd"/></linearGradient>
+      <defs>${plastic('face', 512, 868)}
+        <linearGradient id="side" x1="0" x2="1"><stop offset="0" stop-color="#a9a59e"/><stop offset=".5" stop-color="#c6c2bb"/><stop offset="1" stop-color="#d9d6d0"/></linearGradient>
+        ${vertical('top', [
+          [0, '#dedbd6'],
+          [1, '#f3f2ef'],
+        ])}
         ${navy('cap', 728, 832)}
-        <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#3d6a8f"/><stop offset="1" stop-color="#0f1f2d"/></radialGradient>
+        <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#46739a"/><stop offset="1" stop-color="#0f1f2d"/></radialGradient>
+        ${vertical('neck', [
+          [0, '#f4f3f0'],
+          [1, '#d6d3ce'],
+        ])}
       </defs>
-      ${shadow(250)}
-      <path d="M762 418 Q770 406 784 400 L852 372 Q864 368 864 382 L864 944 Q864 962 848 970 L784 996 Q770 1000 762 990 Z" fill="url(#side)"/>
-      <path d="M432 402 Q440 362 480 356 L800 340 Q852 338 856 360 Q858 374 842 380 L782 404 Q770 410 750 410 L440 410 Z" fill="url(#shoulder)"/>
-      <path d="M474 384 C466 252 488 226 530 224 L622 222 C664 222 682 246 676 382" fill="none" stroke="#d7d4ce" stroke-width="50" stroke-linejoin="round"/>
-      <path d="M474 384 C466 252 488 226 530 224 L622 222 C664 222 682 246 676 382" fill="none" stroke="#fdfcfa" stroke-width="30" stroke-linejoin="round" transform="translate(-5 -5)"/>
-      <path d="M528 384 C526 300 534 280 556 280 L598 280 C616 280 624 300 622 384 Z" fill="#ffffff"/>
-      <path d="M528 384 C526 300 534 280 556 280 L598 280 C616 280 624 300 622 384" fill="none" stroke="#b5b1aa" stroke-width="5"/>
-      <rect x="396" y="396" width="366" height="604" rx="38" fill="url(#face)"/>
-      <path d="M402 440 Q400 404 438 400 L560 400" fill="none" stroke="#ffffff" stroke-width="5" opacity=".9"/>
-      <path d="M408 980 Q420 996 450 998 L708 998 Q748 996 758 970" fill="none" stroke="#a9a59e" stroke-width="3" opacity=".6"/>
-      <path d="M764 430 L860 392" stroke="#ffffff" stroke-width="3" opacity=".5"/>
-      <ellipse cx="780" cy="372" rx="48" ry="12" fill="#cfccc6"/>
-      <path d="M732 300 L732 366 A48 11 0 0 0 828 366 L828 300 Z" fill="url(#cap)"/>
-      <path d="M742 308 V368 M754 308 V372 M766 308 V374 M778 308 V375 M790 308 V375 M802 308 V374 M814 308 V371" stroke="#06101a" stroke-width="3" opacity=".5"/>
-      <ellipse cx="780" cy="300" rx="48" ry="11" fill="url(#capTop)"/>`,
+      ${shadow(250, 972)}
+      <path d="M368 410 Q368 384 392 378 L520 404 L520 994 L400 956 Q368 946 368 918 Z" fill="url(#side)"/>
+      <path d="M368 410 Q368 384 392 378 L520 404" fill="none" stroke="#9e9a93" stroke-width="2"/>
+      <path d="M392 378 Q400 358 430 356 L790 350 Q846 350 862 380 L868 404 L520 404 Z" fill="url(#top)"/>
+      <path d="M392 378 L520 404 L868 404" fill="none" stroke="#bcb8b1" stroke-width="2"/>
+      <path d="M424 384 C420 268 440 246 478 244 L584 242 C622 242 640 266 636 384" fill="none" stroke="#b9b5ae" stroke-width="50" stroke-linejoin="round"/>
+      <path d="M424 384 C420 268 440 246 478 244 L584 242 C622 242 640 266 636 384" fill="none" stroke="#f6f5f2" stroke-width="34" stroke-linejoin="round" transform="translate(-4 -5)"/>
+      <path d="M476 386 C472 316 482 296 504 296 L558 296 C578 296 586 316 584 386 Z" fill="#ffffff"/>
+      <path d="M476 386 C472 316 482 296 504 296 L558 296 C578 296 586 316 584 386" fill="none" stroke="#a9a59e" stroke-width="5"/>
+      <rect x="520" y="404" width="348" height="596" rx="28" fill="url(#face)"/>
+      <path d="M548 404 L840 404" stroke="#ffffff" stroke-width="3"/>
+      <path d="M522 430 Q520 406 546 404" fill="none" stroke="#bcb8b1" stroke-width="2"/>
+      <path d="M516 444 Q514 408 548 406 L700 406" fill="none" stroke="#ffffff" stroke-width="5" opacity=".9"/>
+      <path d="M520 980 Q530 996 560 998 L824 998 Q860 996 866 970" fill="none" stroke="#aaa69f" stroke-width="3" opacity=".6"/>
+      <path d="M744 340 L744 392 A36 9 0 0 0 816 392 L816 340 Z" fill="url(#neck)"/>
+      <path d="M730 290 L730 352 A50 12 0 0 0 830 352 L830 290 Z" fill="url(#cap)"/>
+      <path d="M740 298 V354 M752 298 V358 M764 298 V361 M776 298 V362 M788 298 V362 M800 298 V361 M812 298 V358 M822 298 V354" stroke="#06101a" stroke-width="3" opacity=".5"/>
+      <ellipse cx="780" cy="290" rx="50" ry="12" fill="url(#capTop)"/>`,
   };
 }
 
@@ -318,11 +361,13 @@ function packPage(format, template, labelUrl) {
   const drawing = DRAWINGS[format.container]();
   const scale = scaleOf(format);
   const wrap = { ...drawing.wrap, k: K, width: template.width, height: template.height };
+  // Centrado en vertical según su altura real, ya escalado (los envases pequeños no caen al suelo).
+  const offset = 620 - (drawing.floor - (scale * (drawing.floor - drawing.ceiling)) / 2);
 
   return `<!doctype html><html><head><meta charset="utf-8"><style>
     * { margin: 0; }
     html, body { width: ${SIZE}px; height: ${SIZE}px; overflow: hidden; background: #ffffff; }
-    .stage { position: absolute; inset: 0; transform: translateY(${(1 - scale) * -120}px) scale(${scale}); transform-origin: 600px 1000px; }
+    .stage { position: absolute; inset: 0; transform: translateY(${offset}px) scale(${scale}); transform-origin: 600px ${drawing.floor}px; }
     svg, canvas { position: absolute; inset: 0; }
   </style></head><body>
     <div class="stage">
