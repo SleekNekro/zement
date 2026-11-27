@@ -1,38 +1,46 @@
 {**
- * Pie de Hummingbird con la firma de la web de marca: el logotipo a todo el ancho al final
- * y una barra con el copyright y los textos legales (displayFooterAfter).
+ * Pie como el de la web de marca (apps/web: SiteFooter.astro): logotipo grande a la izquierda y,
+ * a su lado, alineados abajo, los enlaces de la web en dos columnas y el contacto directo; debajo,
+ * la barra con los textos legales y el copyright con el lema.
+ *
+ * Enlaces: el bloque «Zement» de ps_linklist (setup-footer.php). Solo se pinta ps_linklist en
+ * displayFooter: la cuenta y el contacto de la tienda ya están en la cabecera y aquí.
  *}
 {extends file='parent:_partials/footer.tpl'}
 
 {block name='footer_main'}
-    <div class="footer footer__main">
-        <div class="container">
-            {capture name="footer_main_top"}{hook h='displayFooter'}{/capture}
-            {if $smarty.capture.footer_main_top}
-                {block name='hook_footer_main'}
-                    <div class="footer__main-top row">
-                        {$smarty.capture.footer_main_top nofilter}
-                    </div>
-                {/block}
-            {/if}
-        </div>
+    <div class="footer footer__main zm-foot">
+        <div class="container zm-foot__top">
+            <div class="zm-foot__logo" aria-hidden="true">
+                <img
+                    src="{$urls.child_img_url}zement-logo-paper.svg"
+                    alt=""
+                    width="2034"
+                    height="438"
+                    loading="lazy"
+                >
+            </div>
 
-        <div class="zement-signature container" aria-hidden="true">
-            <img
-                class="zement-signature__logo"
-                src="{$urls.child_img_url}zement-logo-paper.svg"
-                alt=""
-                width="2034"
-                height="438"
-                loading="lazy"
-            >
+            <div class="zm-foot__side">
+                <div class="zm-foot__links">
+                    {hook h='displayFooter' mod='ps_linklist'}
+                </div>
+                <ul class="zm-foot__contact">
+                    {if $shop.email}
+                        <li><a class="zm-foot__email" href="mailto:{$shop.email}">{$shop.email}</a></li>
+                    {/if}
+                    {if $shop.phone}
+                        <li><a href="tel:{$shop.phone|regex_replace:'/[^0-9+]/':''}">{$shop.phone}</a></li>
+                    {/if}
+                </ul>
+            </div>
         </div>
 
         {* displayFooterAfter: textos legales (ps_linklist), en la barra final junto al copyright *}
         <div class="zement-footer-legal">
             <div class="container zement-footer-legal__inner">
-                {include file='_partials/copyright.tpl'}
                 {hook h='displayFooterAfter'}
+                {include file='_partials/copyright.tpl'}
             </div>
         </div>
     </div>

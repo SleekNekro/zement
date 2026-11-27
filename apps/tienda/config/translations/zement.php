@@ -6,7 +6,8 @@
  * - Precios: «Impuestos incluidos» pasa a nombrar el IVA («IVA incluido», «inkl. MwSt.»…), que es
  *   lo que el cliente busca; también la versión corta de las miniaturas y la de sin impuestos.
  * - Cadenas nuevas del tema: menú de familias, «Volver a <familia>», «Información adicional» y
- *   «Ver carrito» (carrito lateral).
+ *   «Ver carrito» (carrito lateral)
+ *   y el lema del pie (el de la web: apps/web/src/i18n → brand.tagline).
  *
  * Mismo formato que missing.php (iso => dominio sin puntos => [original en inglés => traducción]).
  * Lo aplica setup-settings.php después de missing.php, así que estas mandan.
@@ -20,6 +21,7 @@ return [
             'View cart' => 'Ver carrito',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Microcemento & Materials',
             'Tax included' => 'IVA incluido',
             '(tax incl.)' => 'IVA incl.',
             'Tax excluded' => 'sin IVA',
@@ -36,6 +38,7 @@ return [
             'View cart' => 'View cart',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Microcement & Materials',
             'Tax included' => 'VAT included',
             '(tax incl.)' => 'incl. VAT',
             'Tax excluded' => 'excl. VAT',
@@ -47,6 +50,7 @@ return [
             'View cart' => 'Warenkorb ansehen',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Mikrozement & Materialien',
             'Tax included' => 'inkl. MwSt.',
             '(tax incl.)' => 'inkl. MwSt.',
             'Tax excluded' => 'zzgl. MwSt.',
@@ -63,6 +67,7 @@ return [
             'View cart' => 'Voir le panier',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Microciment & Matériaux',
             'Tax included' => 'TVA incluse',
             '(tax incl.)' => 'TVA incluse',
             'Tax excluded' => 'HT',
@@ -79,6 +84,7 @@ return [
             'View cart' => 'Vedi carrello',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Microcemento & Materiali',
             'Tax included' => 'IVA inclusa',
             '(tax incl.)' => 'IVA incl.',
             'Tax excluded' => 'IVA esclusa',
@@ -95,6 +101,7 @@ return [
             'View cart' => 'Zobacz koszyk',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Mikrocement & Materiały',
             'Tax included' => 'Cena z VAT',
             '(tax incl.)' => 'z VAT',
             'Tax excluded' => 'bez VAT',
@@ -111,6 +118,7 @@ return [
             'View cart' => 'Se handlekurven',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Mikrosement & Materialer',
             'Tax included' => 'Inkl. mva',
             '(tax incl.)' => 'inkl. mva',
             'Tax excluded' => 'eks. mva',
@@ -127,6 +135,7 @@ return [
             'View cart' => 'Näytä ostoskori',
         ],
         'ShopThemeGlobal' => [
+            'Microcement & Materials' => 'Mikrosementti & Materiaalit',
             'Tax included' => 'Sis. ALV',
             '(tax incl.)' => 'sis. ALV',
             'Tax excluded' => 'ALV 0 %',
