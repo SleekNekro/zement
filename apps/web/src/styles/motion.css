@@ -129,12 +129,26 @@
 }
 
 .btn-solid-light {
-  --btn-fill: var(--zm-color-gold);
+  --btn-fill: var(--zm-color-cream);
   --btn-hover-color: var(--zm-color-night);
 
   background: var(--zm-color-paper);
   border-color: var(--zm-color-paper);
   color: var(--zm-color-night);
+}
+
+/* Botones llenos (y el de la tienda en la cabecera, .btn-gold-details): al resaltarse se rellenan
+   de crema y llevan pequeños detalles en dorado (filete y flecha). El foco por teclado conserva su
+   propio anillo. */
+@media (hover: hover) {
+  :is(.btn-solid-light, .btn-solid-dark, .btn-gold-details):hover:not(:focus-visible) {
+    outline: 1px solid var(--zm-color-gold);
+    outline-offset: -1px;
+  }
+
+  :is(.btn-solid-light, .btn-solid-dark, .btn-gold-details):hover .btn-arrow {
+    color: var(--zm-color-gold);
+  }
 }
 
 .btn-outline-light {
@@ -146,7 +160,7 @@
 }
 
 .btn-solid-dark {
-  --btn-fill: var(--zm-color-gold);
+  --btn-fill: var(--zm-color-cream);
   --btn-hover-color: var(--zm-color-night);
 
   background: var(--zm-color-navy);

@@ -19,6 +19,7 @@
   --zm-color-muted: #6b7075; /* texto secundario */
   --zm-color-sand: #c9bba5; /* etiquetas sobre fondo oscuro */
   --zm-color-gold: #b99a57; /* acento: solo filetes y foco */
+  --zm-color-cream: #e6d9bf; /* relleno de los botones al pasar el ratón */
   --zm-color-line: rgb(23 43 59 / 16%); /* filete sobre claro */
   --zm-color-line-dark: rgb(246 245 241 / 22%); /* filete sobre oscuro */
   --zm-color-danger: #a8231a;
