@@ -109,6 +109,11 @@ Configuration::updateValue('PS_CUSTOMER_OPTIN', 0);
 Configuration::updateValue('PS_NB_DAYS_NEW_PRODUCT', 0);
 echo "· sin «ofertas de socios» ni sello «Nuevo»\n";
 
+// Venta desde fábrica: la tienda no lleva existencias (sin stock no se podría pedir nada).
+// TODO: activarlo si algún día se gestionan existencias en la tienda.
+Configuration::updateValue('PS_STOCK_MANAGEMENT', 0);
+echo "· sin gestión de existencias (venta desde fábrica)\n";
+
 // Familias enteras en una página: los filtros rápidos del listado filtran en el navegador.
 Configuration::updateValue('PS_PRODUCTS_PER_PAGE', 48);
 echo "· 48 productos por página\n";

@@ -23,7 +23,7 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 
 - Familias y productos: [`apps/tienda/catalog/README.md`](../catalog/README.md).
 - Productos de demostración de PrestaShop y sus categorías: **desactivados** (no borrados) el 25/11/2026 con `--deactivate-others`. En IONOS se instalará sin datos de demostración.
-- **Impuestos sin configurar** (no hay reglas de IVA en la tienda local): los productos se importan con `id_tax_rules_group = 0`. TODO: crear la regla de IVA (21 % ES + UE) y asignarla antes de activar productos.
+- **Precios, descuentos e IVA:** tarifa del 27/11/2026, aplicada por la importación del catálogo (ver [`catalog/README.md`](../catalog/README.md) → «Tarifa, formatos, descuentos e IVA»).
 
 ## Portada
 
@@ -58,9 +58,10 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - **Páginas CMS:** desactivadas las de demostración, que tenían lorem ipsum. La de condiciones se queda, porque el pedido la enlaza, y remite a las condiciones de venta de la web.
   - **Alta de clientes:** sin «ofertas de nuestros socios» y sin sello «Nuevo».
   - **Bloques de demostración:** `blockreassurance` («Security policy…») fuera de fichas, carrito y pedido.
+  - **Existencias:** sin gestión de existencias (`PS_STOCK_MANAGEMENT = 0`): se vende desde fábrica y, con stock 0, no se podría pedir nada.
   - **Privacidad:** consentimiento de `psgdpr` en los 8 idiomas, con enlace a la política de privacidad de la web. `ps_dataprivacy` desactivado.
   - **Traducciones:** títulos y URL de las páginas de PrestaShop, estados de pedido, tratamientos y transportistas, traducidos para IT, PL, NO y FI, que se habían quedado en inglés. En español, el título del alta es «Crear una cuenta».
-- **Productos sin precio** (`catalog.json`, `price: null`): la ficha se ve, pero sin «0,00 €», sin cantidad ni «Añadir al carrito», sin «Fuera de stock» y sin «Notificarme».
+- **Productos sin precio** (`catalog.json`, sin `formats`): la ficha se ve, pero sin «0,00 €», sin cantidad ni «Añadir al carrito», sin «Fuera de stock» y sin «Notificarme».
 - **Productos sin foto:** superficie azul de marca con el logotipo en lugar de «Imagen no disponible».
 - Desde la auditoría de la tienda (26/11/2026), también:
   - **Marca:** tienda «Zement» con su logotipo (`theme/zement/assets/img/zement-logo-navy.png` → `img/zement-logo.png`).
@@ -86,7 +87,7 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 - **Solicitud:** queda en revisión y el cliente compra con precios públicos. La tienda recibe un aviso en su correo (`PS_SHOP_EMAIL`).
 - **Panel → Clientes → Solicitudes profesionales:** aprobar pasa al cliente a su grupo y le escribe en su idioma; rechazar también le avisa; retirar devuelve una cuenta aprobada a los precios públicos y le avisa (se puede volver a aprobar).
 - **Mi cuenta:** el estado sale del grupo real del cliente; si se cambia el grupo a mano en la ficha, también cuadra.
-- **Descuento de cada grupo:** [`pro.php`](pro.php) (TODO: tarifa real; mientras sea `null`, no se toca).
+- **Descuento de cada grupo:** el de la tarifa (`catalog.json` → `discounts`), en el precio de cada producto. El descuento general del grupo se deja al 0 % para que no se sume al de palé (ver [`pro.php`](pro.php)).
 
 ## Herramientas de venta (fase 1 de la auditoría comercial)
 
@@ -126,11 +127,9 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
   - Solo aparece si `freeShippingFrom` tiene importe (`PS_SHIPPING_FREE_PRICE`). TODO: importe de Zement.
 - **Grupos profesionales** Aplicador y Distribuidor (`pnpm tienda:commerce`):
   - ven el precio sin IVA y todo el catálogo, con los mismos medios de pago y transportistas que los clientes;
-  - el descuento de cada grupo es TODO (hoy, 0 %);
+  - el descuento de cada grupo es el de la tarifa (−12 % Aplicador, −40 % Distribuidor), sin sumarse al de palé;
   - Zement revisa cada alta profesional (empresa y CIF) y asigna el grupo en Clientes → Clientes.
-- **Formatos y precio por volumen** (`catalog.json`, `pnpm tienda:catalog`):
-  - Prime, Prime Tack y Prime Grip tienen sus dos formatos como combinaciones (atributo «Formato», con el nombre de la ficha en cada idioma).
-  - 20 productos tienen preparada la escala por palé (unidades de la ficha). Se aplica cuando su `price` deje de ser null.
+- **Formatos, precios y palé** (`catalog.json`, `pnpm tienda:catalog`): los de la tarifa, con −22 % por palé en el formato principal de los 16 productos cuya ficha da las unidades por palé.
 - **Traducciones que faltaban:** [`translations/missing.php`](translations/missing.php) recoge las cadenas de Hummingbird que no traen los paquetes de idioma.
   - Hoy cubre el teléfono de la cabecera y el buscador.
   - TODO: faltan unas 170 en DE, NO y FI, 140 en FR y 130 en PL, sobre todo etiquetas para lectores de pantalla.
@@ -139,10 +138,11 @@ Ajustes que deben aplicarse igual en local y en IONOS. Registrar aquí cualquier
 
 Se aplican con `pnpm tienda:payments` ([`scripts/setup-payments.php`](scripts/setup-payments.php)). Decisión del 26/11/2026: **tarjeta con Stripe y transferencia bancaria**.
 
-- **Pendiente (26/11/2026), aparcado hasta que haya precios:**
+- **Pendiente (26/11/2026), aparcado hasta que haya precios** (los precios llegaron el 27/11/2026):
   - **Stripe:** comprobar que el módulo oficial admite PrestaShop 9.2, instalarlo desde el Marketplace, crear la cuenta de Stripe de Zement y poner las claves de pruebas. Pasos abajo.
   - **Transferencia:** titular e IBAN de la cuenta de Zement en `company.php` → `bank`, y después `pnpm tienda:payments`.
   - **Pedido:** días de reserva del pedido pagado por transferencia.
+  - **Transporte:** la tarifa va franco fábrica y el porte se cobra aparte según el destino. Los transportistas activos son los de ejemplo de PrestaShop («Click and collect» y «My carrier»), y el carrito muestra «Envío: Gratis». TODO: transportistas y tarifas de porte reales, por peso y destino (pedidos sueltos y palés).
 
 - **Métodos de ejemplo de PrestaShop:** se desactivan (no se desinstalan) el cheque, el contra reembolso y PrestaShop Checkout.
 - **Transferencia bancaria** (`ps_wirepayment`):

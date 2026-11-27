@@ -174,7 +174,7 @@ class ZementCommerce extends Module
 
         $this->context->smarty->assign([
             'zementStrings' => ZementCommerceStrings::forLanguage($this->context->language->iso_code),
-            'zementCalculator' => $calculator,
+            'zementCalculator' => $this->withFormatIds($calculator, $productId),
             'zementSystem' => $system,
             'zementProductKey' => $key,
         ]);
@@ -576,6 +576,34 @@ class ZementCommerce extends Module
         }
     }
 
+    /**
+     * Añade a cada envase de la calculadora el valor «Formato» (id_attribute) de su combinación,
+     * para que views/js/calculator.js cuente con el formato elegido aunque la ficha ordene los
+     * formatos de otra manera. Las combinaciones se crean en el orden de la tarifa (= packs).
+     *
+     * @param array<string, mixed>|null $calculator
+     *
+     * @return array<string, mixed>|null
+     */
+    private function withFormatIds(?array $calculator, int $productId): ?array
+    {
+        if ($calculator === null || empty($calculator['packs'])) {
+            return $calculator;
+        }
+
+        $attributes = array_column(Db::getInstance()->executeS(
+            'SELECT pac.id_attribute FROM `' . _DB_PREFIX_ . 'product_attribute` pa
+            JOIN `' . _DB_PREFIX_ . 'product_attribute_combination` pac ON pac.id_product_attribute = pa.id_product_attribute
+            WHERE pa.id_product = ' . $productId . ' ORDER BY pa.id_product_attribute'
+        ) ?: [], 'id_attribute');
+
+        foreach ($calculator['packs'] as $index => &$pack) {
+            $pack['attribute'] = isset($attributes[$index]) ? (int) $attributes[$index] : null;
+        }
+
+        return $calculator;
+    }
+
     /** URL de la ficha o de la familia a partir de su clave (controlador «go»). */
     public function stableUrl(string $kind, string $key): ?string
     {
@@ -719,7 +747,7 @@ class ZementCommerce extends Module
                     'format' => $info['format'],
                     'url' => $this->context->link->getProductLink($id),
                     'image' => $this->coverUrl($id),
-                    'calculator' => $data['calculator'][$step['product']] ?? null,
+                    'calculator' => $this->withFormatIds($data['calculator'][$step['product']] ?? null, $id),
                     'current' => $step['product'] === $key,
                 ];
             }
