@@ -21,8 +21,9 @@ const text = systemPageText[locale];
 ---
 
 <!--
-  Página de sistema (orden comercial): qué es → gama con «Comprar» por producto → datos técnicos →
-  cómo se aplica → colores y documentación → preguntas frecuentes → hablar con un técnico o comprar.
+  Página de sistema: qué es → gama con «Comprar» por producto → datos técnicos → cómo se aplica →
+  colores y documentación → acceso profesional → preguntas frecuentes → hablar con un técnico o
+  comprar. La información del producto va seguida; las bandas oscuras no quedan juntas.
 -->
 <SystemHero
   locale={locale}
@@ -34,10 +35,6 @@ const text = systemPageText[locale];
   system={system}
   text={text}
 />
-<SystemPro
-  locale={locale}
-  text={text}
-/>
 <SystemSpecs
   system={system}
   text={text}
@@ -47,7 +44,12 @@ const text = systemPageText[locale];
   text={text}
 />
 <SystemResources
+  locale={locale}
   system={system}
+  text={text}
+/>
+<SystemPro
+  locale={locale}
   text={text}
 />
 <SystemFaq

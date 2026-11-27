@@ -255,12 +255,10 @@ const it: Translation = {
   systemPage: {
     breadcrumbLabel: 'Percorso di navigazione',
     breadcrumbHome: 'Home',
-    breadcrumbProducts: 'Sistemi',
     buySystem: 'Acquista il sistema',
     seeDocs: 'Schede tecniche',
     layersLabel: 'Strati del sistema',
     supportLabel: 'Supporto esistente',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'La gamma',
     rangeText:
       'Ogni strato ha il suo prodotto. Si applicano in quest’ordine, dalla preparazione alla protezione.',
@@ -286,18 +284,6 @@ const it: Translation = {
       'Accedi al negozio e vedrai il tuo listino, IVA esclusa, su ogni prodotto di questo sistema.',
     proCta: 'Accesso professionale',
     proSignup: 'Richiedi la registrazione',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Percorso di navigazione',
-    breadcrumbHome: 'Home',
-    title: 'Sistemi',
-    intro:
-      'Ogni sistema riunisce i prodotti di tutti i suoi strati, con dati tecnici, applicazione e documentazione.',
-    see: 'Scopri il sistema',
-    buy: 'Acquista',
-    proText:
-      'Sei un professionista? Accedi e vedrai il tuo listino, IVA esclusa, su ogni prodotto.',
-    proCta: 'Accesso professionale',
   },
   company: {
     hours: 'Dal lunedì al venerdì, dalle 9 alle 17 (ora spagnola)',

@@ -1,7 +1,7 @@
 import { getCollection } from 'astro:content';
 import { localePath, locales, type Locale } from '../i18n/locales';
 import { legalPageKeys, legalPath } from './legal';
-import { getSystems, systemsIndexPath } from './systems';
+import { getSystems } from './systems';
 
 /**
  * ¿Se puede indexar la web? Solo al publicarla de verdad: compilar con `ZEMENT_INDEXABLE=true`.
@@ -22,7 +22,6 @@ export async function getPublicPages(): Promise<PagePaths[]> {
 
   return [
     each((locale) => localePath(locale, '/')),
-    each(systemsIndexPath),
     ...systems.map((system) => system.paths),
     ...legalKeys.map((page) => each((locale) => legalPath(locale, page))),
   ];

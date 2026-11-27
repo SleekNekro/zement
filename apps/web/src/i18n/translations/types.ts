@@ -6,7 +6,7 @@
 import type { FormMessages, FormText } from '../form';
 import type { UiStrings } from '../ui';
 import type { HomeContent } from '../../data/home';
-import type { SystemPageText, SystemsIndexText } from '../../data/systemPage';
+import type { SystemPageText } from '../../data/systemPage';
 import type { LegalPage } from '../../lib/legal';
 
 export interface Translation {
@@ -21,7 +21,6 @@ export interface Translation {
   /** Plantilla de la página de sistema. */
   systemPage: SystemPageText;
   /** Índice de sistemas. */
-  systemsIndex: SystemsIndexText;
   /** Textos de empresa y condiciones de compra (los «TODO: …» se traducen también). */
   company: Record<
     | 'hours'

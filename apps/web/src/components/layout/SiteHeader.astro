@@ -1,7 +1,7 @@
 ---
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
-import { systemsIndexPath } from '../../lib/systems';
+import { mainSystemPath } from '../../lib/systems';
 import Arrow from '../ui/Arrow.astro';
 import LanguageMenu from './LanguageMenu.astro';
 import Flag from '../ui/Flag.astro';
@@ -15,13 +15,9 @@ interface Props {
 }
 
 const { locale, alternates } = Astro.props;
-const systemsPath = systemsIndexPath(locale);
-// «Sistema» se marca como sección actual en el índice y en cada página de sistema.
-const systemsCurrent: 'page' | 'true' | undefined = Astro.url.pathname.startsWith(systemsPath)
-  ? Astro.url.pathname === systemsPath
-    ? 'page'
-    : 'true'
-  : undefined;
+const systemsPath = mainSystemPath(locale);
+// «Sistema» lleva directo a la página del sistema y se marca como actual en ella.
+const systemsCurrent: 'page' | undefined = Astro.url.pathname === systemsPath ? 'page' : undefined;
 const links = [
   { href: systemsPath, label: t(locale, 'nav.system'), current: systemsCurrent },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },

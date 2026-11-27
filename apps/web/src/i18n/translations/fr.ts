@@ -259,12 +259,10 @@ const fr: Translation = {
   systemPage: {
     breadcrumbLabel: 'Fil d’Ariane',
     breadcrumbHome: 'Accueil',
-    breadcrumbProducts: 'Systèmes',
     buySystem: 'Acheter le système',
     seeDocs: 'Fiches techniques',
     layersLabel: 'Couches du système',
     supportLabel: 'Support existant',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'La gamme',
     rangeText:
       'Chaque couche a son produit. Ils s’appliquent dans cet ordre, de la préparation à la protection.',
@@ -290,18 +288,6 @@ const fr: Translation = {
       'Connectez-vous à la boutique pour voir vos tarifs, hors TVA, sur chaque produit de ce système.',
     proCta: 'Accès professionnel',
     proSignup: 'Demander l’ouverture d’un compte',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Fil d’Ariane',
-    breadcrumbHome: 'Accueil',
-    title: 'Systèmes',
-    intro:
-      'Chaque système réunit les produits de toutes ses couches, avec données techniques, application et documentation.',
-    see: 'Voir le système',
-    buy: 'Acheter',
-    proText:
-      'Vous êtes professionnel ? Connectez-vous pour voir vos tarifs, hors TVA, sur chaque produit.',
-    proCta: 'Accès professionnel',
   },
   company: {
     hours: 'Du lundi au vendredi, de 9 h à 17 h (heure espagnole)',

@@ -33,8 +33,10 @@ const { locale, system, text } = Astro.props;
           data-reveal
           style={`--reveal-index: ${index}`}
         >
-          <p class="label text-muted md:col-span-2">
-            {product.code} · {product.layer}
+          <!-- Código y capa: en fila en móvil y apilados en escritorio, igual en todas las filas -->
+          <p class="label text-muted flex gap-x-3 md:col-span-2 md:flex-col md:gap-y-1">
+            <span>{product.code}</span>
+            <span>{product.layer}</span>
           </p>
           <div class="md:col-span-5">
             <h3 class="display-md text-navy">

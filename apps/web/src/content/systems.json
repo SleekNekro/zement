@@ -714,14 +714,14 @@
       }
     ],
     "colors": {
-      "es": "Disponible en una amplia gama de colores. TODO: carta de colores real",
-      "en": "Available in a wide range of colours. TODO: real colour chart",
-      "de": "In einer breiten Farbpalette erhältlich. TODO: echte Farbkarte",
-      "fr": "Disponible dans une large gamme de couleurs. TODO: nuancier réel",
-      "it": "Disponibile in un’ampia gamma di colori. TODO: cartella colori reale",
-      "pl": "Dostępny w szerokiej gamie kolorów. TODO: rzeczywisty wzornik kolorów",
-      "no": "Fås i et bredt utvalg av farger. TODO: ekte fargekart",
-      "fi": "Saatavana laajassa värivalikoimassa. TODO: todellinen värikartta"
+      "es": "Disponible en una amplia gama de colores.",
+      "en": "Available in a wide range of colours.",
+      "de": "In einer breiten Farbpalette erhältlich.",
+      "fr": "Disponible dans une large gamme de couleurs.",
+      "it": "Disponibile in un’ampia gamma di colori.",
+      "pl": "Dostępny w szerokiej gamie kolorów.",
+      "no": "Fås i et bredt utvalg av farger.",
+      "fi": "Saatavana laajassa värivalikoimassa."
     },
     "documents": [
       {
