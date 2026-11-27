@@ -4,32 +4,66 @@ import Todo from '../../ui/Todo.astro';
 import Value from '../../ui/Value.astro';
 import type { SystemPageText } from '../../../data/systemPage';
 import type { LocalizedSystem } from '../../../lib/systems';
+import { colorChart, colorChartNotes } from '../../../data/colorChart';
+import type { Locale } from '../../../i18n/ui';
 
 interface Props {
+  locale: Locale;
   system: LocalizedSystem;
   text: SystemPageText;
 }
 
-const { system, text } = Astro.props;
+const { locale, system, text } = Astro.props;
 ---
 
-<!-- Colores y documentación descargable, uno junto al otro. -->
+<!--
+  Colores (la carta NCS completa de Zement Color Lab, data/colorChart.ts) y, debajo, la
+  documentación descargable.
+-->
 <section
-  id="documentacion"
+  id="colores"
   class="py-section"
 >
-  <div class="container-site grid gap-16 lg:grid-cols-12">
-    <div class="lg:col-span-5">
-      <h2 class="display-lg text-navy">{text.colorsTitle}</h2>
-      <p class="text-muted mt-6">
+  <div class="container-site">
+    <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+      <h2 class="display-lg text-navy lg:col-span-5">{text.colorsTitle}</h2>
+      <p class="text-muted lg:col-span-6 lg:col-start-7">
         <Value text={system.colors} />
       </p>
     </div>
+    <ul
+      class="border-navy mt-10 grid grid-cols-4 gap-x-2 gap-y-4 border-t pt-6 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10"
+      aria-label={text.colorsTitle}
+    >
+      {colorChart.map((swatch) => (
+        <li>
+          <span
+            class="border-line block aspect-square border"
+            style={`background-color: ${swatch.hex}`}
+            aria-hidden="true"
+          />
+          <span class="text-ink/75 mt-1.5 block text-[0.625rem] leading-tight tracking-wide whitespace-nowrap">
+            {swatch.code}
+          </span>
+        </li>
+      ))}
+    </ul>
+    <div class="text-muted mt-6 grid gap-3 text-sm lg:grid-cols-2 lg:gap-10">
+      {colorChartNotes[locale].map((note) => (
+        <p>{note}</p>
+      ))}
+    </div>
 
-    <div class="lg:col-span-6 lg:col-start-7">
-      <h2 class="display-lg text-navy">{text.docsTitle}</h2>
-      <p class="text-muted mt-6">{text.docsText}</p>
-      <ul class="border-navy mt-10 border-t">
+    <!-- Destino del botón «Fichas técnicas» del inicio de la página -->
+    <div
+      id="documentacion"
+      class="mt-section grid gap-10 lg:grid-cols-12"
+    >
+      <div class="lg:col-span-6">
+        <h2 class="display-lg text-navy">{text.docsTitle}</h2>
+        <p class="text-muted mt-6">{text.docsText}</p>
+      </div>
+      <ul class="border-navy border-t lg:col-span-6 lg:col-start-7">
         {system.documents.map((doc) => (
           <li class="border-line flex min-h-16 items-center justify-between gap-6 border-b py-4">
             <span class="text-navy">{doc.label}</span>
