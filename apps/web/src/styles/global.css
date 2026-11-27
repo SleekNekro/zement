@@ -3,6 +3,9 @@
 @import '@zement/design-tokens/tokens.css';
 @import './motion.css' layer(components);
 
+/* Móvil en horizontal: pantalla baja (≤ 32rem de alto). Para compactar secciones largas. */
+@custom-variant landscape-short (@media (orientation: landscape) and (max-height: 32rem));
+
 @theme inline {
   --color-night: var(--zm-color-night);
   --color-navy: var(--zm-color-navy);
@@ -50,16 +53,21 @@
   line-height: 0.9;
 }
 
+/*
+ * Los titulares dejan de crecer donde deja de crecer el contenido (--zm-max-width, 90rem = 1440 px):
+ * el máximo es su tamaño a 1440 px. Si crecieran más, en pantallas grandes una palabra larga ya no
+ * cabría en su columna y se partiría.
+ */
 @utility display-xl {
   @apply display;
 
-  font-size: clamp(2.25rem, 6vw, 6.25rem);
+  font-size: clamp(2.25rem, 6vw, 5.4rem);
 }
 
 @utility display-lg {
   @apply display;
 
-  font-size: clamp(1.85rem, 3.8vw, 3.75rem);
+  font-size: clamp(1.85rem, 3.8vw, 3.42rem);
   line-height: 1.02;
 }
 

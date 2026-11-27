@@ -19,10 +19,11 @@ const { chapter, tone = 'light' } = Astro.props;
   ]}
 >
   <div class="container-site grid gap-6 py-10 md:grid-cols-12 md:items-end md:py-14">
+    <!-- Palabras muy largas (pl: «profesjonalistów») se parten con guion si no caben en la columna -->
     <RevealHeading
       as="h2"
       lines={[chapter.title]}
-      class="display-xl md:col-span-7"
+      class="display-xl hyphens-auto md:col-span-7"
     />
     <div class="grid min-w-0 gap-5 md:col-span-4 md:col-start-9">
       <p
