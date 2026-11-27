@@ -108,7 +108,7 @@ class ZementHome extends Module
             $this->context->smarty->assign([
                 'zementFamilies' => array_slice($families, 0, self::HOME_FAMILIES),
                 'zementHero' => [
-                    'image' => $families[0]['image'] ?? null,
+                    'image' => $this->heroImage() ?? $families[0]['image'] ?? null,
                     'title' => $strings['title'],
                     'pro' => ['label' => $strings['pro'], 'url' => $this->context->link->getPageLink('registration')],
                     // Página del sistema de microcemento en la web, en este idioma (setup-home.php).
@@ -154,6 +154,17 @@ class ZementHome extends Module
     public function hookActionCategoryDelete(): void
     {
         $this->clearHomeCache();
+    }
+
+    /**
+     * Foto del bloque principal: la del tema (assets/img/portada/hero.jpg, de la web de marca) o,
+     * si no está, la primera foto de la primera familia.
+     */
+    private function heroImage(): ?string
+    {
+        $path = 'themes/' . _THEME_NAME_ . '/assets/img/portada/hero.jpg';
+
+        return is_file(_PS_ROOT_DIR_ . '/' . $path) ? $this->context->link->getBaseLink() . $path : null;
     }
 
     private function clearHomeCache(): void

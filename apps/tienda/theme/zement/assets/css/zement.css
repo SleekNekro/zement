@@ -283,7 +283,7 @@ h5,
 
 /* Pie intenso. */
 .footer__main {
-  padding-top: 4rem;
+  padding-top: 2rem;
   background: var(--zm-color-night);
   color: var(--zm-color-sand);
 }
@@ -887,19 +887,118 @@ img[src*='/img/p/'][src*='-default-'] {
   color: inherit;
 }
 
-.zement-signature {
-  margin-top: 3rem;
+/*
+ * Pie como el de la web: logotipo grande a la izquierda (7 de 12 columnas) y, alineados abajo a
+ * la derecha, los enlaces en dos columnas y el contacto directo, en etiqueta.
+ */
+.zm-foot__top {
+  display: grid;
+  gap: 1.5rem;
+  padding-bottom: 1.25rem;
 }
 
-.zement-signature__logo {
+@media (width >= 992px) {
+  .zm-foot__top {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 2.5rem;
+    align-items: end;
+  }
+
+  .zm-foot__logo {
+    grid-column: span 7;
+  }
+
+  .zm-foot__side {
+    grid-column: 9 / span 4;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.zm-foot__logo img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+.zm-foot__side {
+  display: grid;
+  gap: 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  line-height: 1.6;
+  letter-spacing: var(--zm-tracking-label);
+  text-transform: uppercase;
+}
+
+.zm-foot__links .ps-linklist {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zm-foot__links .footer-block__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.zm-foot__links .footer-block__content.collapse {
+  display: block;
+}
+
+.zm-foot__links .footer-block__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zm-foot__side a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  color: var(--zm-color-sand);
+}
+
+@media (width >= 992px) {
+  .zm-foot__side a {
+    min-height: 2.25rem;
+  }
+}
+
+.zm-foot__side a:hover {
+  color: var(--zm-color-paper);
+}
+
+/* El último enlace sale a la web de marca: flecha hacia fuera, como «Tienda» en la web. */
+.zm-foot__links li:last-child a::after {
+  margin-left: 0.5em;
+  content: '↗';
+}
+
+.zm-foot__contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5rem;
+  margin: 0;
+  padding: 0.5rem 0 0;
+  border-top: var(--zm-hairline) solid var(--zm-color-line-dark);
+  list-style: none;
+}
+
+.zm-foot__email {
+  letter-spacing: normal;
+  text-transform: none;
+}
+
 .zement-footer-legal {
-  margin-top: 1.5rem;
-  padding-block: 1rem;
+  padding-block: 0.25rem;
   border-top: var(--zm-hairline) solid var(--zm-color-line-dark);
   color: var(--zm-color-sand);
   font-size: 0.6875rem;
@@ -923,6 +1022,7 @@ img[src*='/img/p/'][src*='-default-'] {
 .zement-footer-legal .copyright {
   margin: 0;
   padding: 0;
+  font-size: inherit;
 }
 
 .zement-footer-legal .ps-linklist {
@@ -1016,9 +1116,11 @@ img[src*='/img/p/'][src*='-default-'] {
 
 /*
  * Portada (módulo zementhome), al estilo de una tienda clásica: bloque principal compacto,
- * asesor de proyecto y una fila de productos por familia.
+ * asesor de proyecto y una fila de productos por familia. Los bloques se separan con sus propios
+ * márgenes (sin el hueco de la rejilla del tema): la franja de pruebas queda pegada al principal.
  */
 .page-content--home {
+  row-gap: 0;
   padding-top: 0;
 }
 
@@ -1034,7 +1136,7 @@ img[src*='/img/p/'][src*='-default-'] {
   align-items: flex-end;
   min-height: clamp(15rem, 38vh, 26rem);
   margin-inline: calc(50% - 50vw);
-  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: 0;
   overflow: hidden;
   background: var(--zm-color-night);
   color: var(--zm-color-paper);
@@ -1117,32 +1219,44 @@ img[src*='/img/p/'][src*='-default-'] {
   --bs-btn-active-color: var(--zm-color-night);
 }
 
-/* Franja de pruebas bajo el bloque principal: lo comprobable, separado por filetes. */
+/* Franja de pruebas pegada al bloque principal: una sola línea compacta (dos columnas en móvil). */
 .zm-proof {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 1.5rem;
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
-  padding-block: 0;
+  gap: 0.375rem 1rem;
+  margin: 0 0 clamp(1.75rem, 3vw, 2.5rem);
+  padding: 0.75rem 0;
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
   list-style: none;
 }
 
 @media (width >= 992px) {
   .zm-proof {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 2.5rem;
+    justify-content: space-between;
   }
 }
 
 .zm-proof__item {
-  display: grid;
-  gap: 0.125rem;
-  align-content: start;
-  padding-block: 0.875rem;
-  border-top: var(--zm-hairline) solid var(--zm-color-navy);
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
   color: var(--zm-color-navy);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: var(--zm-weight-ui);
-  line-height: 1.35;
+  line-height: 1.3;
+}
+
+/* Marca de cada prueba: un rombo dorado, como los filetes de acento. */
+.zm-proof__item::before {
+  flex: none;
+  width: 0.375rem;
+  height: 0.375rem;
+  background: var(--zm-color-gold);
+  content: '';
+  transform: translateY(-0.1em) rotate(45deg);
 }
 
 .zm-proof__phone {
@@ -1861,12 +1975,12 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 /* Filetes que se dibujan: el borde superior pasa a un ::before que crece desde la izquierda. */
-.motion :is(.zm-proof__item, .zm-home-row__head) {
+.motion .zm-home-row__head {
   position: relative;
   border-top-color: transparent;
 }
 
-.motion :is(.zm-proof__item, .zm-home-row__head)::before {
+.motion .zm-home-row__head::before {
   position: absolute;
   top: calc(-1 * var(--zm-hairline));
   left: 0;
@@ -1880,7 +1994,7 @@ img[src*='/img/p/'][src*='-default-'] {
   transition-delay: calc(var(--zm-reveal-index, 0) * 90ms);
 }
 
-.motion :is(.zm-proof__item, .zm-home-row__head).is-visible::before {
+.motion .zm-home-row__head.is-visible::before {
   transform: none;
 }
 
@@ -2344,7 +2458,8 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 .zm-cart__item--added {
-  background: linear-gradient(var(--zm-color-stone), var(--zm-color-stone)) no-repeat center / calc(100% + 1rem) 100%;
+  background: linear-gradient(var(--zm-color-stone), var(--zm-color-stone)) no-repeat center /
+    calc(100% + 1rem) 100%;
 }
 
 .zm-cart__item--removing {
@@ -2448,7 +2563,7 @@ img[src*='/img/p/'][src*='-default-'] {
   padding: 0.875rem 1rem;
   border: var(--zm-hairline) solid var(--zm-color-line);
   background: var(--zm-color-paper);
-  box-shadow: 0 0.75rem 2rem rgb(27 35 41 / 0.15);
+  box-shadow: 0 0.75rem 2rem rgb(27 35 41 / 15%);
   opacity: 0;
   transform: translate3d(0, 1rem, 0);
   transition:
