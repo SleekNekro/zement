@@ -256,12 +256,10 @@ const no: Translation = {
   systemPage: {
     breadcrumbLabel: 'Brødsmulesti',
     breadcrumbHome: 'Hjem',
-    breadcrumbProducts: 'Systemer',
     buySystem: 'Kjøp systemet',
     seeDocs: 'Datablad',
     layersLabel: 'Systemets lag',
     supportLabel: 'Eksisterende underlag',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'Serien',
     rangeText:
       'Hvert lag har sitt produkt. De påføres i denne rekkefølgen, fra forarbeid til beskyttelse.',
@@ -287,17 +285,6 @@ const no: Translation = {
       'Logg inn i butikken for å se prislisten din, eks. mva., på hvert produkt i dette systemet.',
     proCta: 'Profesjonell tilgang',
     proSignup: 'Søk om konto',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Brødsmulesti',
-    breadcrumbHome: 'Hjem',
-    title: 'Systemer',
-    intro:
-      'Hvert system samler produktene for alle lagene, med tekniske data, påføring og dokumentasjon.',
-    see: 'Se systemet',
-    buy: 'Kjøp',
-    proText: 'Er du fagperson? Logg inn for å se prislisten din, eks. mva., på hvert produkt.',
-    proCta: 'Profesjonell tilgang',
   },
   company: {
     hours: 'Mandag til fredag, kl. 9–17 (spansk tid)',

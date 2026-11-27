@@ -1,23 +1,27 @@
 ---
 /**
- * Todas las páginas de la web en sus 8 idiomas, desde una sola ruta: portada, índice de sistemas,
- * cada sistema y los textos legales. El español va sin prefijo; el resto, con /<código>/.
+ * Todas las páginas de la web en sus 8 idiomas, desde una sola ruta: portada, cada sistema y los
+ * textos legales. La antigua dirección del índice de sistemas (/sistemas/…) redirige al sistema. El español va sin prefijo; el resto, con /<código>/.
  */
 import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomePage from '../components/sections/home/HomePage.astro';
-import SystemsIndex from '../components/sections/system/SystemsIndex.astro';
 import SystemPage from '../components/sections/system/SystemPage.astro';
 import LegalPage from '../components/sections/legal/LegalPage.astro';
 import { home } from '../data/home';
-import { systemsIndexText } from '../data/systemPage';
 import { locales, localePath, type Locale } from '../i18n/locales';
 import { legalPath } from '../lib/legal';
-import { getSystems, isTodo, systemsIndexPath, type LocalizedSystem } from '../lib/systems';
+import {
+  getSystems,
+  isTodo,
+  mainSystemPath,
+  systemsIndexPath,
+  type LocalizedSystem,
+} from '../lib/systems';
 
 type Page =
   | { kind: 'home' }
-  | { kind: 'systems'; systems: LocalizedSystem[] }
+  | { kind: 'systems-redirect' }
   | { kind: 'system'; system: LocalizedSystem }
   | { kind: 'legal'; entry: CollectionEntry<'legal'> };
 
@@ -31,7 +35,7 @@ export async function getStaticPaths() {
       const systems = await getSystems(locale);
       const entries: { path: string; page: Page }[] = [
         { path: localePath(locale, '/'), page: { kind: 'home' } },
-        { path: systemsIndexPath(locale), page: { kind: 'systems', systems } },
+        { path: systemsIndexPath(locale), page: { kind: 'systems-redirect' } },
         ...systems.map((system) => ({
           path: system.paths[locale],
           page: { kind: 'system' as const, system },
@@ -59,6 +63,11 @@ interface Props {
 
 const { locale, page } = Astro.props;
 
+// Solo hay un sistema: la antigua página índice ya no existe y lleva directamente a él.
+if (page.kind === 'systems-redirect') {
+  return Astro.redirect(mainSystemPath(locale), 301);
+}
+
 /** Misma página en cada idioma (para hreflang y el selector de idioma). */
 const pathsFor = (build: (code: Locale) => string): Record<Locale, string> =>
   Object.fromEntries(locales.map((code) => [code, build(code)])) as Record<Locale, string>;
@@ -70,12 +79,6 @@ const meta = (() => {
         title: 'Zement',
         description: home[locale].description,
         paths: pathsFor((code) => localePath(code, '/')),
-      };
-    case 'systems':
-      return {
-        title: `${systemsIndexText[locale].title} · Zement`,
-        description: systemsIndexText[locale].intro,
-        paths: pathsFor(systemsIndexPath),
       };
     case 'system':
       return {
@@ -100,12 +103,6 @@ const meta = (() => {
   paths={meta.paths}
 >
   {page.kind === 'home' && <HomePage locale={locale} />}
-  {page.kind === 'systems' && (
-    <SystemsIndex
-      locale={locale}
-      systems={page.systems}
-    />
-  )}
   {page.kind === 'system' && (
     <SystemPage
       locale={locale}

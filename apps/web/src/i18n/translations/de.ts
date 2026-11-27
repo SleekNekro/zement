@@ -257,12 +257,10 @@ const de: Translation = {
   systemPage: {
     breadcrumbLabel: 'Brotkrumennavigation',
     breadcrumbHome: 'Startseite',
-    breadcrumbProducts: 'Systeme',
     buySystem: 'System kaufen',
     seeDocs: 'Technische Merkblätter',
     layersLabel: 'Systemschichten',
     supportLabel: 'Bestehender Untergrund',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'Das Sortiment',
     rangeText:
       'Jede Schicht hat ihr Produkt. Sie werden in dieser Reihenfolge aufgetragen, von der Vorbereitung bis zum Schutz.',
@@ -288,18 +286,6 @@ const de: Translation = {
       'Melden Sie sich im Shop an, um bei jedem Produkt dieses Systems Ihre Preisliste ohne MwSt. zu sehen.',
     proCta: 'Profi-Zugang',
     proSignup: 'Konto beantragen',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Brotkrumennavigation',
-    breadcrumbHome: 'Startseite',
-    title: 'Systeme',
-    intro:
-      'Jedes System vereint die Produkte aller seiner Schichten, mit technischen Daten, Verarbeitung und Dokumentation.',
-    see: 'System ansehen',
-    buy: 'Kaufen',
-    proText:
-      'Sind Sie Profi? Melden Sie sich an, um bei jedem Produkt Ihre Preisliste ohne MwSt. zu sehen.',
-    proCta: 'Profi-Zugang',
   },
   company: {
     hours: 'Montag bis Freitag, 9–17 Uhr (spanische Zeit)',

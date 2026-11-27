@@ -4,7 +4,6 @@ import LayerStack from '../../ui/LayerStack.astro';
 import Value from '../../ui/Value.astro';
 import type { SystemPageText } from '../../../data/systemPage';
 import type { LocalizedSystem } from '../../../lib/systems';
-import { systemsIndexPath } from '../../../lib/systems';
 import { localePath, t, type Locale } from '../../../i18n/ui';
 
 interface Props {
@@ -14,7 +13,11 @@ interface Props {
 }
 
 const { locale, system, text } = Astro.props;
-const layers = system.products.map((product) => ({ code: product.code, name: product.layer }));
+const layers = system.products.map((product) => ({
+  code: product.code,
+  name: product.layer,
+  product: product.name,
+}));
 // Nombres con compuestos muy largos (fi: «mikrosementtijärjestelmä») no caben en la columna:
 // se dividen con guion en lugar de partirse sin él.
 const hasLongWord = system.name.split(/[\s-]+/).some((word) => word.length > 16);
@@ -34,15 +37,6 @@ const hasLongWord = system.name.split(/[\s-]+/).some((word) => word.length > 16)
               href={localePath(locale, '/')}
             >
               {text.breadcrumbHome}
-            </a>
-            <span aria-hidden="true"> /</span>
-          </li>
-          <li>
-            <a
-              class="inline-block py-1.5 hover:text-navy"
-              href={systemsIndexPath(locale)}
-            >
-              {text.breadcrumbProducts}
             </a>
             <span aria-hidden="true"> /</span>
           </li>
@@ -82,7 +76,6 @@ const hasLongWord = system.name.split(/[\s-]+/).some((word) => word.length > 16)
         layers={layers}
         label={text.layersLabel}
         supportLabel={text.supportLabel}
-        thicknessLabel={text.thicknessTodo}
         class="h-80 md:h-[26rem]"
       />
     </figure>

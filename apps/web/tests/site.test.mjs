@@ -55,6 +55,16 @@ for (const { page, name } of pageList) {
 
   test(`${name}: metadatos básicos`, async () => {
     const html = await readFile(page, 'utf8');
+    // Redirección (p. ej. el antiguo índice /sistemas/): basta con que no se indexe y apunte a su destino.
+    if (html.includes('http-equiv="refresh"')) {
+      assert.match(
+        html,
+        /<meta name="robots" content="noindex"/,
+        'la redirección debe llevar noindex',
+      );
+      assert.match(html, /<link rel="canonical" href="[^"]+"/, 'falta canonical');
+      return;
+    }
     assert.match(html, /<html lang="(es|en|de|fr|it|pl|no|fi)"/, 'falta lang');
     assert.match(html, /<title>[^<]+<\/title>/, 'falta title');
     assert.match(html, /<meta name="description" content="[^"]+"/, 'falta description');

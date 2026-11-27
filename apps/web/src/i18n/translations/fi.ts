@@ -257,12 +257,10 @@ const fi: Translation = {
   systemPage: {
     breadcrumbLabel: 'Murupolku',
     breadcrumbHome: 'Etusivu',
-    breadcrumbProducts: 'Järjestelmät',
     buySystem: 'Osta järjestelmä',
     seeDocs: 'Tietolehdet',
     layersLabel: 'Järjestelmän kerrokset',
     supportLabel: 'Nykyinen alusta',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'Tuotesarja',
     rangeText:
       'Jokaisella kerroksella on oma tuotteensa. Ne levitetään tässä järjestyksessä esikäsittelystä suojaukseen.',
@@ -288,18 +286,6 @@ const fi: Translation = {
       'Kirjaudu kauppaan, niin näet oman hinnastosi ilman arvonlisäveroa jokaisessa tämän järjestelmän tuotteessa.',
     proCta: 'Ammattilaisille',
     proSignup: 'Hae tiliä',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Murupolku',
-    breadcrumbHome: 'Etusivu',
-    title: 'Järjestelmät',
-    intro:
-      'Jokainen järjestelmä kokoaa yhteen kaikkien kerrostensa tuotteet sekä tekniset tiedot, asennusohjeet ja dokumentaation.',
-    see: 'Katso järjestelmä',
-    buy: 'Osta',
-    proText:
-      'Oletko ammattilainen? Kirjaudu sisään, niin näet oman hinnastosi ilman arvonlisäveroa jokaisessa tuotteessa.',
-    proCta: 'Ammattilaisille',
   },
   company: {
     hours: 'Maanantaista perjantaihin klo 9–17 (Espanjan aikaa)',

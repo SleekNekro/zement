@@ -2,6 +2,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import translations from '../i18n/translations';
 import { localePath, locales, type Locale } from '../i18n/locales';
 import { shopPathUrl, shopUrl } from './shop';
+import systemsData from '../content/systems.json';
 
 type Localized = Record<Locale, string>;
 type SystemData = CollectionEntry<'systems'>['data'];
@@ -49,9 +50,19 @@ const systemsSegment: Record<Locale, string> = {
 
 const basePath = (locale: Locale): string => localePath(locale, `/${systemsSegment[locale]}/`);
 
-/** URL del índice de sistemas en un idioma. */
+/**
+ * URL de la antigua página índice de sistemas (/sistemas/…). Ya no tiene contenido propio: redirige
+ * al sistema principal, porque solo hay uno.
+ */
 export function systemsIndexPath(locale: Locale): string {
   return basePath(locale);
+}
+
+/** URL del sistema principal (el de microcemento): destino de «Sistema» en el menú y el pie. */
+export function mainSystemPath(locale: Locale): string {
+  const [main] = systemsData;
+  if (!main) throw new Error('systems.json no tiene ningún sistema');
+  return systemPath(locale, main.slug[locale]);
 }
 
 /** URL de un sistema en un idioma. */

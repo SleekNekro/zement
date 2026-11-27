@@ -6,12 +6,10 @@ const basePage = {
   es: {
     breadcrumbLabel: 'Ruta de navegación',
     breadcrumbHome: 'Inicio',
-    breadcrumbProducts: 'Sistemas',
     buySystem: 'Comprar el sistema',
     seeDocs: 'Fichas técnicas',
     layersLabel: 'Capas del sistema',
     supportLabel: 'Soporte existente',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'La gama',
     rangeText:
       'Cada capa tiene su producto. Se aplican en este orden, de la preparación a la protección.',
@@ -41,12 +39,10 @@ const basePage = {
   en: {
     breadcrumbLabel: 'Breadcrumb',
     breadcrumbHome: 'Home',
-    breadcrumbProducts: 'Systems',
     buySystem: 'Buy the system',
     seeDocs: 'Data sheets',
     layersLabel: 'System layers',
     supportLabel: 'Existing substrate',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'The range',
     rangeText:
       'Each layer has its product. They are applied in this order, from preparation to protection.',
@@ -85,43 +81,4 @@ export const systemPageText: Record<Locale, SystemPageText> = {
   pl: translations.pl.systemPage,
   no: translations.no.systemPage,
   fi: translations.fi.systemPage,
-};
-
-/** Textos del índice de sistemas (/sistemas/, /en/systems/, /de/systeme/…). */
-const baseIndex = {
-  es: {
-    breadcrumbLabel: 'Ruta de navegación',
-    breadcrumbHome: 'Inicio',
-    title: 'Sistemas',
-    intro:
-      'Cada sistema reúne los productos de todas sus capas, con datos técnicos, aplicación y documentación.',
-    see: 'Ver el sistema',
-    buy: 'Comprar',
-    proText: '¿Eres profesional? Inicia sesión y verás tu tarifa sin IVA en cada producto.',
-    proCta: 'Acceso profesional',
-  },
-  en: {
-    breadcrumbLabel: 'Breadcrumb',
-    breadcrumbHome: 'Home',
-    title: 'Systems',
-    intro:
-      'Each system brings together the products for every layer, with technical data, application and documentation.',
-    see: 'See the system',
-    buy: 'Buy',
-    proText:
-      'Are you a professional? Sign in to see your price list, excluding VAT, on every product.',
-    proCta: 'Professional access',
-  },
-} as const;
-
-export type SystemsIndexText = Strings<(typeof baseIndex)['es']>;
-
-export const systemsIndexText: Record<Locale, SystemsIndexText> = {
-  ...baseIndex,
-  de: translations.de.systemsIndex,
-  fr: translations.fr.systemsIndex,
-  it: translations.it.systemsIndex,
-  pl: translations.pl.systemsIndex,
-  no: translations.no.systemsIndex,
-  fi: translations.fi.systemsIndex,
 };

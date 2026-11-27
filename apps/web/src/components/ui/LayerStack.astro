@@ -1,50 +1,74 @@
 ---
-import { layerTextures, supportTexture } from './layerTextures';
-
-/** Corte transversal de un sistema Zement (página del sistema): soporte + capas Z.01 → Z.04. */
+/**
+ * Corte transversal de un sistema Zement (página del sistema): el soporte existente y, encima, las
+ * capas Z.01 → Z.04 con su producto. Usa los mismos materiales simulados que la muestra de la
+ * portada (`mat-*`, en global.css). Los grosores son representación visual, no medidas.
+ */
 interface Layer {
   code: string;
+  /** Nombre de la capa (Preparación, Base…). */
   name: string;
+  /** Producto que forma la capa (Zement Prime…). */
+  product: string;
 }
 
 interface Props {
   layers: Layer[];
   label: string;
   supportLabel: string;
-  thicknessLabel: string;
   class?: string;
 }
 
-const { layers, label, supportLabel, thicknessLabel, class: className } = Astro.props;
+const { layers, label, supportLabel, class: className } = Astro.props;
+
+// De abajo arriba: preparación → base → acabado → protección.
+const finish = { material: 'mat-finish', grow: 1.4 };
+const materials: { material: string; grow: number; under?: string }[] = [
+  { material: 'mat-preparation', grow: 1.1 },
+  { material: 'mat-base', grow: 2 },
+  finish,
+  // La protección es translúcida: se ve sobre el acabado.
+  { material: 'mat-protection', grow: 0.9, under: 'mat-finish' },
+];
 ---
 
 <div
-  class:list={['layers border-navy flex flex-col-reverse border', className]}
+  class:list={['border-navy flex flex-col-reverse border', className]}
   role="img"
-  aria-label={`${label}: ${layers.map((layer) => layer.name).join(', ')}`}
+  aria-label={`${label}: ${layers.map((layer) => `${layer.name} (${layer.product})`).join(', ')}`}
 >
   <!-- Soporte: la superficie existente sobre la que se aplica el sistema -->
   <div
-    class:list={['relative flex items-end px-4 pb-2', supportTexture]}
-    style="flex-grow: 1.3"
+    class="mat-support relative flex items-end px-4 pb-3"
+    style="flex-grow: 1.2"
   >
-    <span class="label text-night">{supportLabel}</span>
+    <span class="label text-paper">{supportLabel}</span>
   </div>
-  {layers.map((step, index) => (
-    <div
-      class="layer border-navy/40 relative isolate flex items-center justify-between gap-4 border-t px-4"
-      style={`flex-grow: ${layerTextures[index]?.grow ?? 1}`}
-    >
-      <!-- Relleno con la textura de la capa -->
-      <span
-        class:list={['absolute inset-0 -z-10', layerTextures[index]?.texture]}
-        aria-hidden="true"
-      ></span>
-      <span class="bg-paper/90 text-navy flex items-baseline gap-3 px-2 py-0.5">
-        <span class="label">{step.code}</span>
-        <span class="display text-base sm:text-lg lg:text-2xl">{step.name}</span>
-      </span>
-      <span class="label bg-paper/90 text-navy hidden px-2 py-0.5 sm:inline">{thicknessLabel}</span>
-    </div>
-  ))}
+  {layers.map((layer, index) => {
+    const look = materials[index] ?? finish;
+    return (
+      <div
+        class="border-navy/30 relative isolate flex items-center justify-between gap-4 border-t px-4"
+        style={`flex-grow: ${look.grow}`}
+      >
+        {look.under && (
+          <span
+            class:list={['absolute inset-0 -z-20', look.under]}
+            aria-hidden="true"
+          />
+        )}
+        <span
+          class:list={['absolute inset-0 -z-10', look.material]}
+          aria-hidden="true"
+        />
+        <span class="bg-paper/90 text-navy flex items-baseline gap-3 px-2 py-1">
+          <span class="label text-muted">{layer.code}</span>
+          <span class="display text-base sm:text-lg lg:text-xl">{layer.name}</span>
+        </span>
+        <span class="label bg-paper/90 text-navy hidden px-2 py-1 text-right sm:inline">
+          {layer.product}
+        </span>
+      </div>
+    );
+  })}
 </div>

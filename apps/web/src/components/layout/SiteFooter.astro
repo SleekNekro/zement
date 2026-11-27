@@ -4,7 +4,7 @@ import Arrow from '../ui/Arrow.astro';
 import { legalPath } from '../../lib/legal';
 import { localePath, t, type Locale } from '../../i18n/ui';
 import { shopUrl } from '../../lib/shop';
-import { systemsIndexPath } from '../../lib/systems';
+import { mainSystemPath } from '../../lib/systems';
 import consentStrings from '@zement/consent/strings.json';
 import { company } from '../../data/company';
 
@@ -28,7 +28,7 @@ const contactLinks = [
   { href: `tel:${company.phone.replace(/\s/g, '')}`, label: company.phone, isEmail: false },
 ];
 const links = [
-  { href: systemsIndexPath(locale), label: t(locale, 'nav.system') },
+  { href: mainSystemPath(locale), label: t(locale, 'nav.system') },
   { href: localePath(locale, '/#profesionales'), label: t(locale, 'nav.professionals') },
   { href: localePath(locale, '/#proyecto'), label: t(locale, 'nav.project') },
   { href: localePath(locale, '/#contacto'), label: t(locale, 'nav.contact') },

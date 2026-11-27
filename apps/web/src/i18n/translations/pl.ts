@@ -256,12 +256,10 @@ const pl: Translation = {
   systemPage: {
     breadcrumbLabel: 'Ścieżka nawigacji',
     breadcrumbHome: 'Strona główna',
-    breadcrumbProducts: 'Systemy',
     buySystem: 'Kup system',
     seeDocs: 'Karty techniczne',
     layersLabel: 'Warstwy systemu',
     supportLabel: 'Istniejące podłoże',
-    thicknessTodo: 'TODO: mm',
     rangeTitle: 'Gama',
     rangeText:
       'Każda warstwa ma swój produkt. Nakłada się je w tej kolejności, od przygotowania po ochronę.',
@@ -286,18 +284,6 @@ const pl: Translation = {
       'Zaloguj się w sklepie, a zobaczysz swój cennik, bez VAT, przy każdym produkcie tego systemu.',
     proCta: 'Dostęp profesjonalny',
     proSignup: 'Poproś o konto',
-  },
-  systemsIndex: {
-    breadcrumbLabel: 'Ścieżka nawigacji',
-    breadcrumbHome: 'Strona główna',
-    title: 'Systemy',
-    intro:
-      'Każdy system łączy produkty wszystkich swoich warstw, z danymi technicznymi, aplikacją i dokumentacją.',
-    see: 'Zobacz system',
-    buy: 'Kup',
-    proText:
-      'Jesteś profesjonalistą? Zaloguj się, a zobaczysz swój cennik, bez VAT, przy każdym produkcie.',
-    proCta: 'Dostęp profesjonalny',
   },
   company: {
     hours: 'Od poniedziałku do piątku, 9:00–17:00 (czasu hiszpańskiego)',
