@@ -95,7 +95,6 @@ const it: Translation = {
           primary: { label: 'Richiedi un preventivo', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: fotografia reale di un progetto',
     },
     shopStrip: { label: 'Tutto il sistema, nel negozio online', cta: 'Acquista nel negozio' },
     chapters: {
@@ -185,7 +184,6 @@ const it: Translation = {
         'Rivestimenti',
         'Progetti su misura',
       ],
-      imageTodo: 'TODO: fotografia reale di un lavoro realizzato',
     },
     shop: {
       title: ['I materiali', 'di ogni strato.'],
@@ -309,7 +307,7 @@ const it: Translation = {
     delivery: 'TODO: tempi di consegna reali',
     payment: 'TODO: metodi di pagamento reali',
     returns: 'TODO: condizioni di reso',
-    proApprovalTime: 'TODO: tempi reali di attivazione',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'sistemi',

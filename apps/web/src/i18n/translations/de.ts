@@ -97,7 +97,6 @@ const de: Translation = {
           primary: { label: 'Angebot anfordern', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: echtes Projektfoto',
     },
     shopStrip: { label: 'Das ganze System im Onlineshop', cta: 'Im Shop kaufen' },
     chapters: {
@@ -187,7 +186,6 @@ const de: Translation = {
         'Wandbeschichtungen',
         'Projekte nach Maß',
       ],
-      imageTodo: 'TODO: echtes Foto einer ausgeführten Arbeit',
     },
     shop: {
       title: ['Die Materialien', 'für jede Schicht.'],
@@ -311,7 +309,7 @@ const de: Translation = {
     delivery: 'TODO: echte Lieferzeit',
     payment: 'TODO: echte Zahlungsarten',
     returns: 'TODO: Rückgabebedingungen',
-    proApprovalTime: 'TODO: echte Freischaltungsdauer',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'systeme',

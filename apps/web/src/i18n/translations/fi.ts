@@ -96,7 +96,6 @@ const fi: Translation = {
           primary: { label: 'Pyydä tarjous', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: todellinen projektikuva',
     },
     shopStrip: { label: 'Koko järjestelmä verkkokaupassa', cta: 'Osta kaupasta' },
     chapters: {
@@ -187,7 +186,6 @@ const fi: Translation = {
         'Seinäpinnoitteet',
         'Räätälöidyt projektit',
       ],
-      imageTodo: 'TODO: todellinen kuva valmiista kohteesta',
     },
     shop: {
       title: ['Materiaalit', 'jokaiseen kerrokseen.'],
@@ -311,7 +309,7 @@ const fi: Translation = {
     delivery: 'TODO: todellinen toimitusaika',
     payment: 'TODO: todelliset maksutavat',
     returns: 'TODO: palautusehdot',
-    proApprovalTime: 'TODO: todellinen käsittelyaika',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'jarjestelmat',

@@ -95,7 +95,6 @@ const pl: Translation = {
           primary: { label: 'Poproś o wycenę', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: prawdziwe zdjęcie realizacji',
     },
     shopStrip: { label: 'Cały system w sklepie internetowym', cta: 'Kup w sklepie' },
     chapters: {
@@ -186,7 +185,6 @@ const pl: Translation = {
         'Okładziny ścienne',
         'Projekty na wymiar',
       ],
-      imageTodo: 'TODO: prawdziwe zdjęcie ukończonej realizacji',
     },
     shop: {
       title: ['Materiały', 'do każdej warstwy.'],
@@ -309,7 +307,7 @@ const pl: Translation = {
     delivery: 'TODO: rzeczywisty czas dostawy',
     payment: 'TODO: rzeczywiste metody płatności',
     returns: 'TODO: warunki zwrotu',
-    proApprovalTime: 'TODO: rzeczywisty czas aktywacji konta',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'systemy',

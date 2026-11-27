@@ -3,7 +3,6 @@ import AudiencePaths from './AudiencePaths.astro';
 import HeroCollage from './HeroCollage.astro';
 import Arrow from '../../ui/Arrow.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
-import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
@@ -24,10 +23,6 @@ const { locale, hero, shopStrip, layers } = Astro.props;
   data-hero
 >
   <HeroCollage />
-  <!-- Aviso de fotos provisionales: en una esquina, sin ocupar fila en la primera pantalla -->
-  <p class="absolute top-28 right-[var(--zm-gutter)] z-10 hidden md:block">
-    <Todo text={hero.imageTodo} />
-  </p>
 
   <div class="container-site flex flex-1 flex-col justify-end pt-28 pb-8 md:pb-10">
     <RevealHeading

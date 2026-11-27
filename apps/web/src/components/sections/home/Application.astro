@@ -2,7 +2,6 @@
 import { Image } from 'astro:assets';
 import Button from '../../ui/Button.astro';
 import RevealHeading from '../../ui/RevealHeading.astro';
-import Todo from '../../ui/Todo.astro';
 import type { HomeContent } from '../../../data/home';
 import { shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
@@ -42,9 +41,6 @@ const headingTag = `h${level}` as 'h2' | 'h3';
         lines={application.title}
         class="display-xl max-w-5xl"
       />
-      <p class="mt-6">
-        <Todo text={application.imageTodo} />
-      </p>
     </div>
   </div>
 

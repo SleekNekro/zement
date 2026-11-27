@@ -6,7 +6,6 @@ import { shopPathUrl, shopUrl } from '../../../lib/shop';
 import { t, type Locale } from '../../../i18n/ui';
 import Arrow from '../../ui/Arrow.astro';
 import ShopTerms from '../../ui/ShopTerms.astro';
-import Todo from '../../ui/Todo.astro';
 import { company } from '../../../data/company';
 
 interface Props {
@@ -132,7 +131,7 @@ const FEATURED_PATH = 'z/c/microcemento';
           <span class="sr-only"> {t(locale, 'nav.external')}</span>
         </Button>
         <p class="text-paper/70 max-w-sm text-sm">
-          {shop.proSignupSteps} <Todo text={company.proApprovalTime[locale]} />.
+          {shop.proSignupSteps} {company.proApprovalTime[locale]}.
         </p>
         <p class="text-paper/70 flex flex-wrap items-center gap-x-3 text-sm">
           {shop.proSignupText}
