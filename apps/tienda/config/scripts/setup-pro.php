@@ -6,8 +6,8 @@
  * - Instala el módulo (solicitudes, campos del alta, «Mi cuenta» y Clientes → Solicitudes
  *   profesionales en el panel) y lo engancha.
  * - Grupos Distribuidor y Aplicador: los crea setup-commerce.php (nombres, acceso y precio sin
- *   IVA); aquí se les pone el descuento de config/pro.php y se guarda qué grupo corresponde a cada
- *   tipo en ZEMENT_PRO_GROUPS.
+ *   IVA); aquí se deja su descuento general al 0 % (el de la tarifa va en cada producto: ver
+ *   config/pro.php) y se guarda qué grupo corresponde a cada tipo en ZEMENT_PRO_GROUPS.
  *
  * Uso: pnpm tienda:pro   (después de pnpm tienda:commerce)
  */
@@ -53,16 +53,14 @@ foreach ($pro as $type => $settings) {
     }
     $groups[$type] = $idGroup;
 
-    // Sin tarifa en config/pro.php se deja el descuento que tenga el grupo (0 % al crearlo).
-    if ($settings['reduction'] === null) {
-        echo "· {$settings['group']} (grupo {$idGroup}): descuento sin cambios (TODO: tarifa real)\n";
-        continue;
-    }
-
+    // El descuento va en cada producto (catalog.json → discounts, pnpm tienda:catalog): el del
+    // grupo, al 0 %, porque PrestaShop lo sumaría al de palé.
     $group = new Group($idGroup);
-    $group->reduction = (float) $settings['reduction'];
-    $group->update();
-    echo "· {$settings['group']} (grupo {$idGroup}): −{$settings['reduction']} % sobre el precio público\n";
+    if ((float) $group->reduction !== 0.0) {
+        $group->reduction = 0;
+        $group->update();
+    }
+    echo "· {$settings['group']} (grupo {$idGroup}): descuento en el precio de cada producto (tarifa)\n";
 }
 
 Configuration::updateValue('ZEMENT_PRO_GROUPS', json_encode($groups));

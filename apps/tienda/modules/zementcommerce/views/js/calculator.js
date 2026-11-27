@@ -86,28 +86,24 @@
   }));
 
   /**
-   * Envase del formato elegido en la ficha (radios o desplegable de combinaciones), en el mismo
-   * orden que `packs`; sin formatos, el único envase de la ficha.
+   * Envase del formato elegido en la ficha (radios o desplegable de combinaciones). Cada envase
+   * lleva el valor «Formato» de su combinación (attribute); sin formatos, el único envase.
    */
   const selectedPack = (data) => {
     if (!data.packs?.length) {
       return data.pack;
     }
-    const radios = [
-      ...document.querySelectorAll(
-        '.product__variants input[type="radio"], .product-variants input[type="radio"]',
-      ),
-    ];
-    const select = document.querySelector('.product__variants select, .product-variants select');
-    const index = radios.length
-      ? radios.findIndex((input) => input.checked)
-      : (select?.selectedIndex ?? 0);
-    return data.packs[Math.max(0, index)] ?? data.pack;
+    const choice = document.querySelector(
+      '.product__variants input[type="radio"]:checked, .product-variants input[type="radio"]:checked, .product__variants select, .product-variants select',
+    );
+    const value = Number(choice?.value);
+    return data.packs.find((pack) => pack.attribute === value) ?? data.pack;
   };
 
   /**
    * Cantidad y envases. La cantidad se expresa en la unidad del envase: si el consumo de la ficha
    * va en kg y el envase en litros, se pasa a litros con la densidad («≈ 1,1 L → 1 × 5 L»).
+   * Sin envase comparable (pack null: consumo en L y envase en kg, sin densidad), solo la cantidad.
    */
   const estimate = (data, surface, layers, millimetres, pack = data.pack) => {
     const factor =
@@ -118,6 +114,10 @@
           : 1;
     let amount = surface * data.rate * factor * (margin?.checked === false ? 1 : 1 + MARGIN);
     let unit = data.rateUnit;
+
+    if (!pack) {
+      return { text: `≈ ${number.format(amount)} ${unit}`, packs: null };
+    }
 
     if (pack.unit === 'L' && data.rateUnit === 'kg' && data.density) {
       amount /= data.density;
@@ -149,6 +149,9 @@
       );
       result.textContent = text;
       lastPacks = packs;
+      if (useButton) {
+        useButton.hidden = packs === null || !quantityInput;
+      }
     }
 
     for (const step of steps) {
@@ -190,6 +193,9 @@
   if (useButton && quantityInput) {
     useButton.hidden = false;
     useButton.addEventListener('click', () => {
+      if (lastPacks === null) {
+        return;
+      }
       quantityInput.value = String(lastPacks);
       quantityInput.dispatchEvent(new Event('change', { bubbles: true }));
       quantityInput.focus();

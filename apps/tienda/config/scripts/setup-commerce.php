@@ -133,7 +133,7 @@ foreach (ZEMENT_PRO_GROUPS as $esName => $names) {
     $group->price_display_method = PS_TAX_EXC;
     $group->show_prices = true;
     if (!$id) {
-        $group->reduction = 0; // TODO: descuento de la tarifa profesional.
+        $group->reduction = 0; // El descuento de la tarifa va en cada producto (config/pro.php).
     }
     $group->save();
     $groupId = (int) $group->id;

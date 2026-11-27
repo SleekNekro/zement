@@ -4,14 +4,26 @@
  * Importa el catálogo de Zement en PrestaShop a partir de las fichas técnicas extraídas.
  *
  * Lee la carpeta preparada por import.sh dentro del contenedor:
- *   catalog.json         familias y datos comerciales (precio y referencia; null = TODO)
+ *   catalog.json         familias, tarifa (formatos con su PVP web sin IVA), descuentos e IVA
  *   products/<key>.json  contenido de la ficha en los 8 idiomas (extract_sheets.py)
  *   images/<key>.jpg     muestra del efecto acabado, si la ficha la trae
  *   pdfs/<key>-<iso>.pdf ficha técnica original de cada idioma
  *
- * Formatos («formats» en catalog.json): combinaciones con el atributo «Formato», con el nombre
- * de la presentación de la ficha en cada idioma. Precio por volumen («volume»): precio fijo por
- * unidad a partir de X unidades (el palé de la ficha). Lo que vale null no se aplica.
+ * Formatos («formats» en catalog.json): el primero da el precio del producto; con varios, se
+ * crean como combinaciones del atributo «Formato», con el nombre del envase en cada idioma
+ * (formatNames). Sin formatos no hay precio: se ve la ficha sin compra («Solicitar presupuesto»).
+ *
+ * Descuentos (discounts): precios específicos por producto, porque no se suman. PrestaShop aplica
+ * un solo precio específico por línea (primero el del formato, luego el de mayor cantidad, luego
+ * el del grupo) y el descuento del grupo se sumaría encima; por eso los grupos profesionales
+ * quedan al 0 % (setup-pro.php) y aquí se crean, para cada producto con precio:
+ *   - cada grupo profesional, desde 1 unidad: su descuento;
+ *   - todos, desde el palé del formato principal («pallet»): el de palé;
+ *   - cada grupo profesional, desde el palé: el mayor entre el suyo y el de palé.
+ * Se rehacen en cada importación (se borran los precios específicos del producto que no son de
+ * un cliente, un carrito o una regla de catálogo).
+ *
+ * IVA (tax): un grupo de reglas con el mismo tipo para los países de la lista; el resto, sin IVA.
  *
  * Es idempotente: el producto se reconoce por su URL amigable en español (= clave del JSON).
  * Al repetirlo se actualizan textos, familias, imagen y fichas PDF; no toca precio ni
@@ -38,6 +50,17 @@ final class ZementCatalogImporter
     ];
 
     private ?int $formatGroup = null;
+
+    /** @var array<string, array<string, string>> envase => iso => «Cubo de {size}» */
+    private array $formatNames = [];
+
+    /** @var array<string, mixed> */
+    private array $discounts = [];
+
+    /** @var array<string, int> nombre del grupo en español => id_group */
+    private array $groups = [];
+
+    private int $taxGroup = 0;
 
     /** @var array<string, int> iso => id_lang */
     private array $languages = [];
@@ -73,8 +96,18 @@ final class ZementCatalogImporter
 
         $this->orderCategories();
 
+        $this->formatNames = array_filter($catalog['formatNames'], 'is_array');
+        $this->discounts = $catalog['discounts'];
+        foreach (array_keys($this->discounts['groups']) as $name) {
+            $this->groups[$name] = $this->groupId($name);
+        }
+        $this->taxGroup = $this->saveTaxGroup($catalog['tax']);
+
         foreach ($catalog['products'] as $entry) {
-            $sheet = $this->readJson(self::ROOT . "/products/{$entry['key']}.json");
+            // Sin ficha técnica todavía («sheet»: false): solo nombre y formatos.
+            $sheet = ($entry['sheet'] ?? true) === false
+                ? null
+                : $this->readJson(self::ROOT . "/products/{$entry['key']}.json");
             $this->importedProducts[] = $this->saveProduct($entry, $sheet);
         }
 
@@ -134,7 +167,7 @@ final class ZementCatalogImporter
      * @param array<string, mixed> $entry
      * @param array<string, mixed> $sheet
      */
-    private function saveProduct(array $entry, array $sheet): int
+    private function saveProduct(array $entry, ?array $sheet): int
     {
         $key = $entry['key'];
         $idEs = $this->languages['es'];
@@ -144,9 +177,21 @@ final class ZementCatalogImporter
         );
         $product = new Product($existingId ?: null, false);
         $categoryId = $this->categories[$entry['category']];
-        $hasPrice = $entry['price'] !== null;
+        $formats = $entry['formats'] ?? [];
+        $hasPrice = $formats !== [];
 
         foreach ($this->languages as $iso => $idLang) {
+            if ($sheet === null) {
+                // TODO: ficha técnica. Sin ella no hay descripción: solo el nombre.
+                $product->name[$idLang] = $entry['name'];
+                $product->link_rewrite[$idLang] = $iso === 'es' ? $key : Tools::str2url($entry['name']);
+                $product->description_short[$idLang] = '';
+                $product->description[$idLang] = '';
+                $product->meta_title[$idLang] = $entry['name'];
+                $product->meta_description[$idLang] = '';
+                continue;
+            }
+
             $content = $sheet['languages'][$iso] ?? $sheet['languages']['es'];
             $html = new ZementSheetHtml($content);
 
@@ -167,72 +212,86 @@ final class ZementCatalogImporter
         $product->show_price = $hasPrice;
         $product->minimal_quantity = 1;
 
-        // TODO: contenido real. Sin precio no se puede vender: se deja desactivado.
-        if ($hasPrice) {
-            $product->price = (float) $entry['price'];
-        } elseif (!$existingId) {
-            $product->price = 0;
-        }
-        if ($entry['reference'] !== null) {
+        // Precio del producto = PVP web (sin IVA) del formato principal; sin tarifa, 0 y sin compra.
+        $product->price = $hasPrice ? (float) $formats[0]['price'] : 0;
+        if (($entry['reference'] ?? null) !== null) {
             $product->reference = (string) $entry['reference'];
         }
-        if (!$existingId) {
-            // Impuestos aún sin configurar en la tienda (fase B2C): TODO asignar regla de IVA.
-            $product->id_tax_rules_group = 0;
-            $product->active = $hasPrice;
+        $product->id_tax_rules_group = $this->taxGroup;
+        if (!$existingId || $hasPrice) {
+            // Con precio se publica; uno nuevo sin precio también (se ve la ficha, sin compra).
+            $product->active = true;
         }
 
         $product->save();
         $product->updateCategories([$categoryId]);
-        $this->replaceImages($product, $sheet['images'] ?? [], $key);
-        $this->replaceAttachments($product, $sheet, $key);
-        $this->replaceFormats($product, $entry, $sheet);
-        $this->replaceVolumePrices($product, $entry);
+        if ($sheet !== null) {
+            $this->replaceImages($product, $sheet['images'] ?? [], $key);
+            $this->replaceAttachments($product, $sheet, $key);
+        } else {
+            echo "  · {$key}: sin ficha técnica (TODO: ficha, textos e imagen)\n";
+        }
+        $main = $this->replaceFormats($product, $formats);
+        $this->replaceSpecificPrices($product, $hasPrice, $entry['pallet'] ?? null, $main);
         Search::indexation(false, (int) $product->id);
 
-        echo ($existingId ? '= ' : '+ ') . "{$key} (id {$product->id})" . ($hasPrice ? '' : ' · sin precio: se ve la ficha, sin precio ni compra') . "\n";
+        echo ($existingId ? '= ' : '+ ') . "{$key} (id {$product->id})"
+            . ($hasPrice ? ' · ' . number_format((float) $formats[0]['price'], 2, ',', '') . ' € sin IVA' : ' · sin precio: se ve la ficha con «Solicitar presupuesto»') . "\n";
 
         return (int) $product->id;
     }
 
     /**
-     * Formatos de venta como combinaciones (atributo «Formato»). El nombre de cada formato sale de
-     * la presentación de la ficha en cada idioma; el precio, de catalog.json (null = sin precio).
+     * Formatos de venta como combinaciones (atributo «Formato»), si hay más de uno. El nombre
+     * sale de formatNames (envase + tamaño) en cada idioma; el precio de cada combinación es la
+     * diferencia con el del formato principal.
      *
-     * @param array<string, mixed> $entry
-     * @param array<string, mixed> $sheet
+     * @param list<array<string, mixed>> $formats
+     *
+     * @return int combinación del formato principal (0 si el producto no tiene combinaciones)
      */
-    private function replaceFormats(Product $product, array $entry, array $sheet): void
+    private function replaceFormats(Product $product, array $formats): int
     {
-        $formats = $entry['formats'] ?? [];
         $product->deleteProductAttributes();
 
         if (count($formats) < 2) {
-            return;
+            return 0;
         }
 
         $base = (float) $product->price;
+        $main = 0;
 
         foreach ($formats as $position => $format) {
             $names = [];
             foreach ($this->languages as $iso => $idLang) {
-                $packs = $this->packs($sheet['languages'][$iso] ?? $sheet['languages']['es']);
-                $names[$idLang] = $packs[$format['pack']] ?? $this->packs($sheet['languages']['es'])[$format['pack']];
+                $names[$idLang] = $this->formatName($format, $iso);
             }
 
             $combination = new Combination();
             $combination->id_product = (int) $product->id;
             $combination->reference = (string) ($format['reference'] ?? '');
-            $combination->price = $format['price'] === null ? 0 : (float) $format['price'] - $base;
+            $combination->price = (float) $format['price'] - $base;
             $combination->minimal_quantity = 1;
             $combination->default_on = $position === 0;
             $combination->add();
             $combination->setAttributes([$this->formatAttribute($names)]);
             StockAvailable::setQuantity((int) $product->id, (int) $combination->id, 0);
+            $main = $main ?: (int) $combination->id;
         }
 
         Product::updateDefaultAttribute((int) $product->id);
         echo '  · ' . count($formats) . " formatos\n";
+
+        return $main;
+    }
+
+    /** @param array<string, mixed> $format «Cubo de 20 kg», «20 kg bucket»… */
+    private function formatName(array $format, string $iso): string
+    {
+        $names = $this->formatNames[$format['container']]
+            ?? throw new RuntimeException("Envase sin nombre en formatNames: {$format['container']}");
+
+        return str_replace('{size}', (string) $format['size'], $names[$iso] ?? $names['es']);
     }
 
     /** @param array<int, string> $names id_lang => nombre del formato */
@@ -268,59 +327,122 @@ final class ZementCatalogImporter
     }
 
     /**
-     * Precio por volumen: precio fijo por unidad a partir de «from» unidades (palé de la ficha).
-     * Se rehacen en cada importación; con price null no se crea ninguno.
+     * Descuentos de la tarifa como precios específicos (ver la cabecera: no se suman).
      *
-     * @param array<string, mixed> $entry
+     * @param int $main combinación del formato principal, al que se refiere el palé (0 = producto)
      */
-    private function replaceVolumePrices(Product $product, array $entry): void
+    private function replaceSpecificPrices(Product $product, bool $hasPrice, ?int $pallet, int $main): void
     {
         $productId = (int) $product->id;
-        Db::getInstance()->delete('specific_price', "id_product = {$productId} AND id_customer = 0 AND id_group = 0 AND from_quantity > 1");
+        Db::getInstance()->delete(
+            'specific_price',
+            "id_product = {$productId} AND id_customer = 0 AND id_cart = 0 AND id_specific_price_rule = 0"
+        );
 
-        foreach ($entry['volume'] ?? [] as $tier) {
-            if ($tier['price'] === null) {
-                continue;
-            }
-            $price = new SpecificPrice();
-            $price->id_product = $productId;
-            $price->id_product_attribute = 0;
-            $price->id_shop = 0;
-            $price->id_currency = 0;
-            $price->id_country = 0;
-            $price->id_group = 0;
-            $price->id_customer = 0;
-            $price->from_quantity = (int) $tier['from'];
-            $price->price = (float) $tier['price'];
-            $price->reduction = 0;
-            $price->reduction_type = 'amount';
-            $price->reduction_tax = 1;
-            $price->from = '0000-00-00 00:00:00';
-            $price->to = '0000-00-00 00:00:00';
-            $price->add();
-            echo "  · precio desde {$tier['from']} uds.\n";
+        if (!$hasPrice) {
+            return;
         }
+
+        $palletDiscount = (float) $this->discounts['pallet'];
+
+        foreach ($this->discounts['groups'] as $name => $discount) {
+            $this->addDiscount($productId, 0, $this->groups[$name], 1, (float) $discount);
+        }
+
+        if ($pallet === null) {
+            return;
+        }
+
+        // TODO: palé de los demás formatos (la ficha solo da el del formato principal).
+        $this->addDiscount($productId, $main, 0, $pallet, $palletDiscount);
+        foreach ($this->discounts['groups'] as $name => $discount) {
+            $this->addDiscount($productId, $main, $this->groups[$name], $pallet, max((float) $discount, $palletDiscount));
+        }
+        echo "  · palé: desde {$pallet} uds., −{$palletDiscount} %\n";
+    }
+
+    private function addDiscount(int $productId, int $combination, int $group, int $fromQuantity, float $percent): void
+    {
+        $price = new SpecificPrice();
+        $price->id_product = $productId;
+        $price->id_product_attribute = $combination;
+        $price->id_shop = 0;
+        $price->id_currency = 0;
+        $price->id_country = 0;
+        $price->id_group = $group;
+        $price->id_customer = 0;
+        $price->from_quantity = $fromQuantity;
+        $price->price = -1;
+        $price->reduction = $percent / 100;
+        $price->reduction_type = 'percentage';
+        $price->reduction_tax = 1;
+        $price->from = '0000-00-00 00:00:00';
+        $price->to = '0000-00-00 00:00:00';
+        $price->add();
+    }
+
+    private function groupId(string $name): int
+    {
+        $id = (int) Db::getInstance()->getValue(
+            'SELECT id_group FROM `' . _DB_PREFIX_ . 'group_lang`
+            WHERE id_lang = ' . $this->languages['es'] . " AND name = '" . pSQL($name) . "'"
+        );
+
+        return $id ?: throw new RuntimeException("No existe el grupo «{$name}»: ejecutar antes pnpm tienda:commerce.");
     }
 
     /**
-     * Presentación de la ficha en un idioma (bloques «packs»).
+     * Grupo de reglas de IVA de catalog.json → tax: el mismo tipo en cada país de la lista.
+     * Las reglas se rehacen en cada importación.
      *
-     * @param array<string, mixed> $content
-     *
-     * @return list<string>
+     * @param array<string, mixed> $tax
      */
-    private function packs(array $content): array
+    private function saveTaxGroup(array $tax): int
     {
-        $items = [];
-        foreach ($content['sections'] as $section) {
-            foreach ($section['blocks'] as $block) {
-                if ($block['type'] === 'packs') {
-                    array_push($items, ...$block['items']);
-                }
+        $db = Db::getInstance();
+        $rate = (float) $tax['rate'];
+
+        $idTax = (int) $db->getValue('SELECT id_tax FROM `' . _DB_PREFIX_ . "tax`
+            WHERE deleted = 0 AND active = 1 AND rate = {$rate} ORDER BY id_tax");
+        if (!$idTax) {
+            $newTax = new Tax();
+            foreach ($this->languages as $idLang) {
+                $newTax->name[$idLang] = 'IVA ' . rtrim(rtrim(number_format($rate, 2, ',', ''), '0'), ',') . ' %';
             }
+            $newTax->rate = $rate;
+            $newTax->active = true;
+            $newTax->add();
+            $idTax = (int) $newTax->id;
         }
 
-        return $items;
+        $idGroup = (int) $db->getValue('SELECT id_tax_rules_group FROM `' . _DB_PREFIX_ . "tax_rules_group`
+            WHERE deleted = 0 AND name = '" . pSQL($tax['name']) . "'");
+        $group = new TaxRulesGroup($idGroup ?: null);
+        $group->name = $tax['name'];
+        $group->active = true;
+        $group->save();
+
+        $db->delete('tax_rule', 'id_tax_rules_group = ' . (int) $group->id);
+        foreach ($tax['countries'] as $iso) {
+            $idCountry = (int) Country::getByIso($iso);
+            if (!$idCountry) {
+                throw new RuntimeException("País desconocido en tax.countries: {$iso}");
+            }
+            $rule = new TaxRule();
+            $rule->id_tax_rules_group = (int) $group->id;
+            $rule->id_country = $idCountry;
+            $rule->id_state = 0;
+            $rule->zipcode_from = '0';
+            $rule->zipcode_to = '0';
+            $rule->id_tax = $idTax;
+            $rule->behavior = 0;
+            $rule->description = '';
+            $rule->add();
+        }
+
+        echo "IVA: «{$tax['name']}», {$rate} % en " . count($tax['countries']) . " países\n";
+
+        return (int) $group->id;
     }
 
     /** @param list<string> $files */

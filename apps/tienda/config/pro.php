@@ -1,11 +1,13 @@
 <?php
 
 /**
- * Cuentas profesionales: grupo de clientes de cada tipo y su descuento sobre el precio público.
+ * Cuentas profesionales: grupo de clientes de cada tipo.
  *
  * - `group`: nombre del grupo en español (lo crea setup-commerce.php).
- * - `reduction`: % de descuento del grupo sobre el precio público, o null = pendiente
- *   (TODO: tarifa real de Zement). Con null no se toca el descuento del grupo (0 % al crearlo).
+ *
+ * El descuento de cada grupo es el de la tarifa (catalog/catalog.json → discounts) y lo pone la
+ * importación del catálogo como precio específico de cada producto, para que no se sume al de
+ * palé. Por eso el descuento general del grupo se deja al 0 % (setup-pro.php).
  *
  * Los profesionales ven siempre los precios sin IVA. Lo aplica setup-pro.php (pnpm tienda:pro).
  */
@@ -13,6 +15,6 @@
 declare(strict_types=1);
 
 return [
-    'distributor' => ['group' => 'Distribuidor', 'reduction' => null],
-    'applicator' => ['group' => 'Aplicador', 'reduction' => null],
+    'distributor' => ['group' => 'Distribuidor'],
+    'applicator' => ['group' => 'Aplicador'],
 ];
