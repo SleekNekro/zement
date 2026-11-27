@@ -7,6 +7,8 @@
  *   catalog.json         familias, tarifa (formatos con su PVP web sin IVA), descuentos e IVA
  *   products/<key>.json  contenido de la ficha en los 8 idiomas (extract_sheets.py)
  *   images/<key>.jpg     muestra del efecto acabado, si la ficha la trae
+ *   images/envases/<key>--<envase>-<tamaño>.jpg  foto del envase de cada formato
+ *                        (generate-packaging.mjs; no hay de los kits)
  *   pdfs/<key>-<iso>.pdf ficha técnica original de cada idioma
  *
  * Formatos («formats» en catalog.json): el primero da el precio del producto; con varios, se
@@ -225,13 +227,20 @@ final class ZementCatalogImporter
 
         $product->save();
         $product->updateCategories([$categoryId]);
+        // Fotos: primero el envase de cada formato (la del principal es la portada), después la
+        // muestra del acabado de la ficha.
+        $packaging = array_map(fn (array $format): ?string => $this->packagingFile($key, $format), $formats);
+        $imageIds = $this->replaceImages(
+            $product,
+            [...array_values(array_filter($packaging)), ...($sheet['images'] ?? [])],
+            $key
+        );
         if ($sheet !== null) {
-            $this->replaceImages($product, $sheet['images'] ?? [], $key);
             $this->replaceAttachments($product, $sheet, $key);
         } else {
             echo "  · {$key}: sin ficha técnica (TODO: ficha, textos e imagen)\n";
         }
-        $main = $this->replaceFormats($product, $formats);
+        $main = $this->replaceFormats($product, $formats, $packaging, $imageIds);
         $this->replaceSpecificPrices($product, $hasPrice, $entry['pallet'] ?? null, $main);
         Search::indexation(false, (int) $product->id);
 
@@ -250,7 +259,7 @@ final class ZementCatalogImporter
      *
      * @return int combinación del formato principal (0 si el producto no tiene combinaciones)
      */
-    private function replaceFormats(Product $product, array $formats): int
+    private function replaceFormats(Product $product, array $formats, array $packaging = [], array $imageIds = []): int
     {
         $product->deleteProductAttributes();
 
@@ -276,6 +285,17 @@ final class ZementCatalogImporter
             $combination->add();
             $combination->setAttributes([$this->formatAttribute($names)]);
             StockAvailable::setQuantity((int) $product->id, (int) $combination->id, 0);
+            // Cada formato enseña la foto de su envase y la muestra del acabado (no los otros envases).
+            $own = $packaging[$position] ?? null;
+            $others = array_filter($packaging);
+            $images = array_values(array_filter(
+                $imageIds,
+                static fn (string $file): bool => $file === $own || !in_array($file, $others, true),
+                ARRAY_FILTER_USE_KEY
+            ));
+            if ($own !== null) {
+                $combination->setImages($images);
+            }
             $main = $main ?: (int) $combination->id;
         }
 
@@ -445,10 +465,28 @@ final class ZementCatalogImporter
         return (int) $group->id;
     }
 
-    /** @param list<string> $files */
-    private function replaceImages(Product $product, array $files, string $key): void
+    /**
+     * Foto del envase de un formato (generate-packaging.mjs), si existe: «envases/<clave>--cubo-20-kg.jpg».
+     *
+     * @param array<string, mixed> $format
+     */
+    private function packagingFile(string $key, array $format): ?string
+    {
+        $size = trim((string) preg_replace('/[^a-z0-9]+/', '-', strtolower((string) $format['size'])), '-');
+        $file = "envases/{$key}--{$format['container']}-{$size}.jpg";
+
+        return is_file(self::ROOT . "/images/{$file}") ? $file : null;
+    }
+
+    /**
+     * @param list<string> $files
+     *
+     * @return array<string, int> archivo => id_image
+     */
+    private function replaceImages(Product $product, array $files, string $key): array
     {
         $product->deleteImages();
+        $ids = [];
 
         foreach ($files as $position => $file) {
             $source = self::ROOT . "/images/{$file}";
@@ -478,11 +516,14 @@ final class ZementCatalogImporter
                     'jpg'
                 );
             }
+            $ids[$file] = (int) $image->id;
         }
 
         if (!$files) {
-            echo "  · {$key}: sin imagen en la ficha (TODO: foto de producto)\n";
+            echo "  · {$key}: sin imagen (TODO: foto de producto)\n";
         }
+
+        return $ids;
     }
 
     /** @param array<string, mixed> $sheet */
