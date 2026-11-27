@@ -95,7 +95,10 @@
   });
 
   document.addEventListener('click', (event) => {
-    if (event.target.closest('[data-zm-added-close]') || event.target.closest('.zm-added [data-zm-cart-open]')) {
+    if (
+      event.target.closest('[data-zm-added-close]') ||
+      event.target.closest('.zm-added [data-zm-cart-open]')
+    ) {
       closeToast();
     }
   });

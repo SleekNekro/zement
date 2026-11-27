@@ -8,7 +8,7 @@
  *   - Prefijo de idioma: apps/web/src/i18n/locales.ts (es sin prefijo; el resto /<iso>/)
  *   - Sistemas y textos legales: apps/web/src/lib/systems.ts, apps/web/src/lib/legal.ts y
  *     apps/web/src/i18n/translations/<iso>.ts → routes
- *   - Secciones de la portada: #profesionales y #contacto (mismo id en todos los idiomas)
+ *   - Secciones de la portada: #profesionales, #proyecto y #contacto (mismo id en todos los idiomas)
  */
 
 declare(strict_types=1);
@@ -31,6 +31,7 @@ foreach ($segments as $iso => $segment) {
         'home' => "{$prefix}/",
         'system' => "{$prefix}/{$segment['systems']}/",
         'professionals' => "{$prefix}/#profesionales",
+        'project' => "{$prefix}/#proyecto",
         'contact' => "{$prefix}/#contacto",
         'notice' => "{$prefix}/{$segment['notice']}/",
         'privacy' => "{$prefix}/{$segment['privacy']}/",

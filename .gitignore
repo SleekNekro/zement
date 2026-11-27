@@ -19,3 +19,6 @@ apps/tienda/theme/zement/assets/cache/
 AGENTS.md
 CLAUDE.md
 .claude/
+
+# Fotos base de envases para generate-packaging.mjs (llevan otra marca: no se suben)
+apps/tienda/catalog/images/envases-base/

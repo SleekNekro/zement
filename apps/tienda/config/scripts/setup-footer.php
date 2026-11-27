@@ -48,6 +48,14 @@ const ZEMENT_FOOTER_LABELS = [
         'it' => 'Professionisti', 'pl' => 'Dla profesjonalistów', 'no' => 'Profesjonelle',
         'fi' => 'Ammattilaisille',
     ],
+    'project' => [
+        'es' => 'Tu proyecto', 'en' => 'Your project', 'de' => 'Ihr Projekt', 'fr' => 'Votre projet',
+        'it' => 'Il tuo progetto', 'pl' => 'Twój projekt', 'no' => 'Ditt prosjekt', 'fi' => 'Projektisi',
+    ],
+    'web' => [
+        'es' => 'Web', 'en' => 'Website', 'de' => 'Website', 'fr' => 'Site web',
+        'it' => 'Sito web', 'pl' => 'Strona', 'no' => 'Nettsted', 'fi' => 'Verkkosivusto',
+    ],
     'contact' => [
         'es' => 'Contacto', 'en' => 'Contact', 'de' => 'Kontakt', 'fr' => 'Contact',
         'it' => 'Contatti', 'pl' => 'Kontakt', 'no' => 'Kontakt', 'fi' => 'Yhteystiedot',
@@ -109,15 +117,6 @@ if ($ids) {
     }
 }
 
-$categories = array_map(
-    static fn (array $row): int => (int) $row['id_category'],
-    $db->executeS(
-        'SELECT c.id_category FROM `' . _DB_PREFIX_ . 'category` c
-        WHERE c.active = 1 AND c.id_parent = ' . (int) Configuration::get('PS_HOME_CATEGORY') . '
-        ORDER BY c.position'
-    )
-);
-
 // «Configurar cookies»: reabre el aviso (módulo zementcommerce, enlaces a «#zm-cookies»).
 $consentStrings = json_decode((string) @file_get_contents(_PS_MODULE_DIR_ . 'zementcommerce/views/consent/strings.json'), true) ?: [];
 
@@ -126,12 +125,11 @@ $webLinks = static function (array $keys, string $iso) use ($webUrl, $webRoutes,
 
     return array_map(static fn (string $key): array => $key === 'cookieSettings'
         ? ['title' => ($consentStrings[$iso] ?? $consentStrings['en'])['footerLink'], 'url' => '#zm-cookies']
-        : ['title' => ZEMENT_FOOTER_LABELS[$key][$iso], 'url' => $webUrl . $routes[$key]], $keys);
+        : ['title' => ZEMENT_FOOTER_LABELS[$key][$iso], 'url' => $webUrl . $routes[$key === 'web' ? 'home' : $key]], $keys);
 };
 
 $blocks = [
-    ['hook' => 'displayFooter', 'name' => 'products', 'category' => $categories, 'custom' => []],
-    ['hook' => 'displayFooter', 'name' => 'zement', 'category' => [], 'custom' => ['system', 'professionals', 'contact']],
+    ['hook' => 'displayFooter', 'name' => 'zement', 'category' => [], 'custom' => ['system', 'professionals', 'project', 'contact', 'web']],
     ['hook' => 'displayFooterAfter', 'name' => 'legal', 'category' => [], 'custom' => array_merge(['notice', 'privacy', 'cookies', 'terms'], $consentStrings ? ['cookieSettings'] : [])],
 ];
 

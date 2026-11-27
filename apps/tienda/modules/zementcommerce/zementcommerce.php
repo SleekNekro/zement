@@ -201,7 +201,8 @@ class ZementCommerce extends Module
             $projects[] = [
                 'label' => $project['label'][$iso] ?? $project['label']['en'],
                 'url' => $url,
-                'image' => $project['image'] ? $this->coverUrl($this->idOf($project['image']), null) : null,
+                'image' => $this->projectPhoto($project['key'])
+                    ?? ($project['image'] ? $this->coverUrl($this->idOf($project['image']), null) : null),
             ];
         }
 
@@ -759,6 +760,17 @@ class ZementCommerce extends Module
         }
 
         return null;
+    }
+
+    /**
+     * Foto de un proyecto del asesor: la del tema (assets/img/proyectos/<clave>.jpg) o, si no
+     * está, la portada del producto de `image` en commerce.json.
+     */
+    private function projectPhoto(string $key): ?string
+    {
+        $path = 'themes/' . _THEME_NAME_ . '/assets/img/proyectos/' . $key . '.jpg';
+
+        return is_file(_PS_ROOT_DIR_ . '/' . $path) ? $this->context->link->getBaseLink() . $path : null;
     }
 
     /**
