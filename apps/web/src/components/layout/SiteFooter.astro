@@ -38,36 +38,48 @@ const links = [
 
 <!-- Con la barra de la tienda visible (móvil), deja sitio para que no tape los enlaces legales -->
 <footer class="border-line-dark bg-night text-sand overflow-hidden border-t [.has-shop-bar_&]:pb-14 lg:[.has-shop-bar_&]:pb-0">
-  <div class="container-site grid gap-10 pt-16 pb-10 md:grid-cols-12 md:items-start">
-    <p class="label md:col-span-4">{t(locale, 'brand.tagline')}</p>
-    <ul class="label grid gap-3 md:col-span-5 md:grid-cols-2">
-      {links.map((link) => (
-        <li>
-          <a
-            class="link-arrow hover:text-paper inline-flex min-h-11 items-center bg-none pb-0 no-underline"
-            href={link.href}
-          >
-            {link.label}
-            {link.isExternal && (
-              <>
-                <span class="sr-only"> {t(locale, 'nav.external')}</span>
-                <Arrow
-                  direction="out"
-                  class="btn-arrow"
-                />
-              </>
-            )}
-          </a>
-        </li>
-      ))}
-    </ul>
-    <div class="label grid gap-3 md:col-span-3 md:justify-items-end md:text-right">
-      <ul class="grid">
+  <!--
+    Pie compacto: logotipo grande a la izquierda y, a su lado, menú y contacto alineados abajo.
+    El lema de marca pasa a la barra inferior, junto al ©.
+  -->
+  <div class="container-site grid gap-6 pt-8 pb-5 lg:grid-cols-12 lg:items-end lg:gap-10">
+    <div
+      class="text-paper select-none lg:col-span-7"
+      data-reveal
+    >
+      <ZementLogo
+        class="block h-auto w-full"
+        aria-hidden="true"
+      />
+    </div>
+    <div class="label grid gap-3 lg:col-span-4 lg:col-start-9 lg:pb-2">
+      <ul class="grid grid-cols-2 gap-x-6 sm:flex sm:flex-wrap lg:grid lg:grid-cols-2">
+        {links.map((link) => (
+          <li>
+            <a
+              class="link-arrow hover:text-paper inline-flex min-h-11 items-center bg-none pb-0 no-underline lg:min-h-9"
+              href={link.href}
+            >
+              {link.label}
+              {link.isExternal && (
+                <>
+                  <span class="sr-only"> {t(locale, 'nav.external')}</span>
+                  <Arrow
+                    direction="out"
+                    class="btn-arrow"
+                  />
+                </>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <ul class="border-line-dark flex flex-wrap gap-x-6 border-t pt-2">
         {contactLinks.map((link) => (
           <li>
             <a
               class:list={[
-                'hover:text-paper inline-flex min-h-11 items-center no-underline',
+                'hover:text-paper inline-flex min-h-11 items-center no-underline lg:min-h-9',
                 link.isEmail && 'tracking-normal normal-case',
               ]}
               href={link.href}
@@ -77,33 +89,26 @@ const links = [
           </li>
         ))}
       </ul>
-      <p>© {year} Zement</p>
     </div>
   </div>
 
-  <!-- Logotipo a todo el ancho: firma final con impacto -->
-  <div
-    class="text-paper px-[var(--zm-gutter)] select-none"
-    data-reveal
-  >
-    <ZementLogo
-      class="block h-auto w-full"
-      aria-hidden="true"
-    />
-  </div>
-
-  <div class="border-line-dark mt-6 border-t">
-    <ul class="container-site label flex flex-wrap gap-x-8 gap-y-1 py-3">
-      {legalLinks.map((link) => (
-        <li>
-          <a
-            class="hover:text-paper inline-flex min-h-11 items-center no-underline"
-            href={link.href}
-          >
-            {link.label}
-          </a>
-        </li>
-      ))}
-    </ul>
+  <div class="border-line-dark border-t">
+    <div class="container-site label flex flex-wrap items-center justify-between gap-x-8 py-1">
+      <ul class="flex flex-wrap gap-x-6">
+        {legalLinks.map((link) => (
+          <li>
+            <a
+              class="hover:text-paper inline-flex min-h-11 items-center no-underline lg:min-h-9"
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="py-3 lg:py-2">
+        © {year} Zement · {t(locale, 'brand.tagline')}
+      </p>
+    </div>
   </div>
 </footer>

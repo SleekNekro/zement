@@ -14,8 +14,8 @@ const { chapter, tone = 'light' } = Astro.props;
 <!-- Apertura de capítulo: nombra al público y ofrece el salto al otro capítulo. -->
 <header
   class:list={[
-    'border-y',
-    tone === 'dark' ? 'border-line-dark bg-night text-paper' : 'border-navy bg-paper text-navy',
+    // Sin filetes. Tono claro: el mismo «stone» que el resto de secciones claras (tienda, método)
+    tone === 'dark' ? 'bg-night text-paper' : 'bg-stone text-navy',
   ]}
 >
   <div class="container-site grid gap-6 py-10 md:grid-cols-12 md:items-end md:py-14">
@@ -26,7 +26,7 @@ const { chapter, tone = 'light' } = Astro.props;
     />
     <div class="grid min-w-0 gap-5 md:col-span-4 md:col-start-9">
       <p
-        class:list={[tone === 'dark' ? 'text-paper/70' : 'text-muted']}
+        class:list={[tone === 'dark' ? 'text-paper/70' : 'text-ink/75']}
         data-reveal
       >
         {chapter.text}
@@ -35,7 +35,7 @@ const { chapter, tone = 'light' } = Astro.props;
         <a
           class:list={[
             'link-arrow label min-h-11 w-fit items-center bg-none pb-0',
-            tone === 'dark' ? 'text-sand hover:text-paper' : 'text-muted hover:text-navy',
+            tone === 'dark' ? 'text-sand hover:text-paper' : 'text-ink/75 hover:text-navy',
           ]}
           href={`#${chapter.jumpTo}`}
           data-reveal

@@ -19,6 +19,8 @@ interface Props {
 const { locale, shop, level = 2 } = Astro.props;
 const headingTag = `h${level}` as 'h2' | 'h3';
 const SubHeading = `h${level + 1}` as 'h3' | 'h4';
+// Familia destacada: el microcemento es el producto principal de Zement.
+const FEATURED_PATH = 'z/c/microcemento';
 ---
 
 <section
@@ -44,57 +46,51 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
     </div>
 
     <!--
-      Familias de producto ligadas a las capas del sistema (Z.0x). La primera, el microcemento,
-      va destacada; las demás, en filas. Cada una abre su búsqueda en la tienda.
+      Familias de producto ligadas a las capas del sistema (Z.0x), en el orden de aplicación y todas
+      del mismo tamaño. El microcemento, producto principal, va resaltado en azul con recuadro dorado.
+      Cada tarjeta entera es un enlace a su categoría en la tienda, con «Ver en la tienda» visible.
     -->
-    <ul class="border-navy mt-16 grid border-t md:mt-20 lg:grid-cols-12">
+    <ul class="mt-16 grid gap-4 sm:grid-cols-2 md:mt-20 lg:grid-cols-4">
       {shop.categories.map((category, index) => {
-        const isFeatured = index === 0;
+        const isFeatured = category.shopPath === FEATURED_PATH;
         return (
           <li
-            class:list={[
-              'border-line border-b',
-              isFeatured
-                ? 'lg:col-span-6 lg:row-span-3 lg:border-r lg:border-b-0'
-                : 'lg:col-span-6',
-            ]}
+            class="flex"
             data-reveal
             style={`--reveal-index: ${index}`}
           >
             <a
               class:list={[
-                'row-wipe group hover:text-paper flex h-full no-underline transition-colors duration-(--zm-duration) [--row-fill:var(--zm-color-night)]',
+                'group relative flex min-h-80 w-full flex-col justify-between gap-10 border p-6 no-underline transition-[background-color,border-color,transform] duration-(--zm-duration) hover:-translate-y-1 lg:min-h-96 lg:p-8',
                 isFeatured
-                  ? 'min-h-72 flex-col justify-between gap-10 py-8 lg:min-h-[30rem] lg:p-10'
-                  : 'items-center justify-between gap-6 py-6 lg:px-10 lg:py-8',
+                  ? 'bg-navy border-gold text-paper outline-gold hover:bg-night outline-1 outline-offset-4'
+                  : 'border-line bg-paper text-navy hover:border-navy hover:bg-white',
               ]}
               href={shopPathUrl(locale, category.shopPath)}
             >
-              <span class="grid gap-3">
-                {category.codes.length > 0 && (
-                  <span class="label text-ink/75 group-hover:text-sand transition-colors duration-(--zm-duration)">
-                    {category.codes.join(' · ')}
-                  </span>
-                )}
+              <span class="grid gap-4">
+                <span class:list={['label min-h-6', isFeatured ? 'text-sand' : 'text-ink/60']}>
+                  {category.codes.length > 0 ? category.codes.join(' · ') : '—'}
+                </span>
                 <span
                   class:list={[
-                    'display text-navy group-hover:text-paper block transition-colors duration-(--zm-duration)',
-                    isFeatured ? 'text-4xl md:text-6xl' : 'text-2xl md:text-3xl',
+                    'display block text-3xl break-words sm:text-4xl lg:text-2xl xl:text-3xl',
+                    isFeatured ? 'text-paper' : 'text-navy',
                   ]}
                 >
                   {category.name}
                 </span>
-                <span
-                  class:list={[
-                    'text-ink/75 group-hover:text-paper/70 max-w-sm transition-colors duration-(--zm-duration)',
-                    !isFeatured && 'hidden sm:block',
-                  ]}
-                >
+                <span class:list={[isFeatured ? 'text-paper/75' : 'text-ink/75']}>
                   {category.text}
                 </span>
               </span>
-              <span class="label text-navy group-hover:text-paper flex shrink-0 items-center gap-3 transition-colors duration-(--zm-duration)">
-                <span class:list={[!isFeatured && 'sr-only']}>{shop.cta}</span>
+              <span
+                class:list={[
+                  'label flex items-center justify-between gap-3 border-t pt-4',
+                  isFeatured ? 'border-line-dark text-paper' : 'border-line text-navy',
+                ]}
+              >
+                <span>{shop.cta}</span>
                 <span class="sr-only"> {t(locale, 'nav.external')}</span>
                 <Arrow
                   direction="out"
@@ -109,7 +105,7 @@ const SubHeading = `h${level + 1}` as 'h3' | 'h4';
 
     <ShopTerms
       locale={locale}
-      class="border-line mt-8 mb-section border-t pt-6"
+      class="border-line mt-10 mb-section border-t pt-6"
     />
   </div>
 
