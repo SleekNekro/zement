@@ -22,9 +22,6 @@ use PrestaShop\PrestaShop\Adapter\Product\ProductColorsRetriever;
 
 class ZementHome extends Module
 {
-    /** Productos por fila: una fila de la rejilla en escritorio. */
-    private const PRODUCTS_PER_FAMILY = 4;
-
     /** Filas de catálogo en la portada (las demás familias, en el menú). */
     private const HOME_FAMILIES = 4;
 
@@ -194,7 +191,7 @@ class ZementHome extends Module
                 'url' => $link->getCategoryLink($category),
                 'count' => count($products),
                 'image' => $image,
-                'products' => $this->presentProducts(array_slice($products, 0, self::PRODUCTS_PER_FAMILY)),
+                'products' => $this->presentProducts($products),
             ];
         }
 

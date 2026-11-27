@@ -541,68 +541,31 @@ textarea:focus-visible {
   padding-block: 1rem;
 }
 
-@media (width >= 1200px) {
-  .header-bottom__row {
-    row-gap: 1rem;
-  }
-
-  /* Las familias van en su propia línea, a todo el ancho y sin partir. */
-  .header-bottom .ps-mainmenu--desktop {
-    flex: 0 0 100%;
-    order: 10;
-    width: 100%;
-    border-top: var(--zm-hairline) solid var(--zm-color-line);
-  }
-
-  /* 8 familias: rejilla de 4 × 2 con filetes, ordenada y sin desbordar. */
-  .ps-mainmenu__tree {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0 2rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .ps-mainmenu__tree-item + .ps-mainmenu__tree-item:nth-child(n + 5) {
-    border-top: var(--zm-hairline) solid var(--zm-color-line);
-  }
-
-  .ps-mainmenu__tree-link {
-    position: relative;
-    display: inline-block;
-    padding: 0.75rem 0 0.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--zm-color-navy);
-    font-size: 0.6875rem;
-    font-weight: var(--zm-weight-ui);
-    letter-spacing: 0.12em;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
-  .ps-mainmenu__tree-link::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: currentcolor;
-    content: '';
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform var(--zm-duration) var(--zm-ease);
-  }
-
-  .ps-mainmenu__tree-item.current .ps-mainmenu__tree-link::after {
-    transform: scaleX(1);
-  }
+/* Familias en el menú lateral (hamburguesa) en todos los tamaños, también en escritorio. */
+.header-bottom .ps-mainmenu--desktop {
+  order: -1;
+  display: flex;
 }
 
-@media (hover: hover) and (width >= 1200px) {
-  .ps-mainmenu__tree-link:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
+.header-bottom .zm-menu-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.zm-menu-toggle .menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline: 0 0.375rem;
+  color: var(--zm-color-navy);
+  text-decoration: none;
+}
+
+.zm-menu-toggle__label {
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 /* Búsqueda: solo filete inferior (mismo gris que el resto de campos). */
@@ -1293,27 +1256,87 @@ img[src*='/img/p/'][src*='-default-'] {
   text-transform: uppercase;
 }
 
-/* En móvil, cada fila se desliza en horizontal en vez de apilar cuatro productos. */
+/*
+ * Cada fila lleva todos los productos de la familia y se desliza en horizontal: 4 a la vista en
+ * escritorio, 3 en tableta y 2 (y un poco del siguiente) en móvil. Flechas en la cabecera.
+ */
+.zm-home-row__nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.zm-home-row__nav .zm-home-row__all {
+  margin-right: 0.75rem;
+}
+
+.zm-home-row__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: var(--zm-hairline) solid var(--zm-color-navy);
+  background: transparent;
+  color: var(--zm-color-navy);
+  transition:
+    background-color var(--zm-duration-fast) var(--zm-ease),
+    color var(--zm-duration-fast) var(--zm-ease),
+    opacity var(--zm-duration-fast) var(--zm-ease);
+}
+
+.zm-home-row__arrow[hidden] {
+  display: none;
+}
+
+.zm-home-row__arrow:not(:disabled):hover,
+.zm-home-row__arrow:focus-visible {
+  background: var(--zm-color-navy);
+  color: var(--zm-color-paper);
+}
+
+.zm-home-row__arrow:disabled {
+  opacity: 0.3;
+}
+
+.zm-home-row .products {
+  display: grid;
+  grid-auto-columns: calc((100% - 3 * 1.5rem) / 4);
+  grid-auto-flow: column;
+  grid-template-columns: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding-bottom: 0.75rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: var(--zm-color-line) transparent;
+  scrollbar-width: thin;
+}
+
+.zm-home-row .products > * {
+  width: auto;
+  max-width: none;
+  padding: 0;
+  scroll-snap-align: start;
+}
+
+@media (width < 992px) {
+  .zm-home-row .products {
+    grid-auto-columns: calc((100% - 2 * 1.25rem) / 3);
+    gap: 1.25rem;
+  }
+}
+
 @media (width < 768px) {
   .zm-home-row .products {
-    display: grid;
     grid-auto-columns: 46%;
-    grid-auto-flow: column;
-    grid-template-columns: none;
     gap: 1rem;
     margin-inline: calc(var(--bs-gutter-x, 1.5rem) * -0.5);
     padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
-    overflow-x: auto;
     scroll-padding-inline: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
-    scroll-snap-type: x mandatory;
     scrollbar-width: none;
-  }
-
-  .zm-home-row .products > * {
-    width: auto;
-    max-width: none;
-    padding: 0;
-    scroll-snap-align: start;
   }
 }
 
@@ -2114,4 +2137,411 @@ img[src*='/img/p/'][src*='-default-'] {
 .ps-mainmenu--mobile .zm-lang__link[aria-current] {
   background: rgb(246 245 241 / 8%);
   color: var(--zm-color-paper);
+}
+
+/*
+ * Ficha de producto más corta y clara: «Volver a <familia>» bien visible, IVA junto al precio
+ * (también en las miniaturas) y la descripción larga en desplegables por apartado.
+ */
+.zm-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.625rem 1.125rem 0.625rem 0.75rem;
+  border: var(--zm-hairline) solid var(--zm-color-navy);
+  color: var(--zm-color-navy);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background-color var(--zm-duration-fast) var(--zm-ease),
+    color var(--zm-duration-fast) var(--zm-ease);
+}
+
+.zm-back .material-icons {
+  font-size: 1.125rem;
+}
+
+.zm-back:hover,
+.zm-back:focus-visible {
+  background: var(--zm-color-navy);
+  color: var(--zm-color-paper);
+}
+
+.product__tax-infos {
+  margin-top: 0.25rem;
+}
+
+.product__tax-label {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  background: var(--zm-color-stone);
+  color: var(--zm-color-navy);
+  font-size: 0.75rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.06em;
+}
+
+.product__taxless-price {
+  display: block;
+  margin-top: 0.375rem;
+  color: var(--zm-color-muted);
+  font-size: 0.8125rem;
+}
+
+.product-miniature__tax {
+  display: block;
+  color: var(--zm-color-muted);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+}
+
+.product__description .zm-section {
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.product__description .zm-section__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.875rem;
+  color: var(--zm-color-navy);
+  font-size: 0.75rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+
+.product__description .zm-section__title::-webkit-details-marker {
+  display: none;
+}
+
+.product__description .zm-section__title::after {
+  content: '+';
+  font-size: 1.125rem;
+  font-weight: var(--zm-weight-body);
+  letter-spacing: 0;
+}
+
+.product__description .zm-section[open] > .zm-section__title::after {
+  content: '−';
+}
+
+.product__description .zm-section > :not(summary) {
+  margin-bottom: 1rem;
+}
+
+/* Menú lateral en tableta y escritorio: más aire a los lados. */
+@media (width >= 768px) {
+  .ps-mainmenu--mobile .menu--mobile,
+  .ps-mainmenu--mobile .ps-mainmenu__additionnals {
+    padding-inline: 2rem;
+  }
+
+  .ps-mainmenu--mobile .offcanvas-header {
+    padding-left: 2rem;
+  }
+}
+
+/* Con los apartados plegados, la rejilla de la ficha no deja hueco entre ellos. */
+.product__description .zm-sheet:has(.zm-section) {
+  row-gap: 0;
+}
+
+.product__description .zm-sheet:has(.zm-section) > :not(.zm-sheet__section) {
+  margin-bottom: 2rem;
+}
+
+/*
+ * Carrito lateral (_partials/zement-cart-drawer.tpl): el modal del carrito de Hummingbird pegado
+ * a la derecha, a toda la altura, entrando de lado.
+ */
+.zm-cart .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(26rem, 100vw);
+  max-width: none;
+  height: 100%;
+  margin: 0;
+}
+
+.zm-cart.fade .modal-dialog {
+  transform: translateX(100%);
+  transition: transform var(--zm-duration) var(--zm-ease);
+}
+
+.zm-cart.show .modal-dialog {
+  transform: none;
+}
+
+.zm-cart .modal-content {
+  height: 100%;
+  max-height: none;
+  border: 0;
+  background: var(--zm-color-paper);
+}
+
+.zm-cart .modal-header {
+  flex-wrap: wrap;
+  padding: 1.25rem 1.5rem;
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.zm-cart__title {
+  margin: 0;
+  color: var(--zm-color-navy);
+  font-family: var(--zm-font-display);
+  font-size: 1.5rem;
+  font-weight: var(--zm-weight-display);
+  font-stretch: var(--zm-stretch-display);
+}
+
+.zm-cart__count {
+  color: var(--zm-color-muted);
+  font-size: 1rem;
+}
+
+.zm-cart__added {
+  display: flex;
+  flex: 0 0 100%;
+  align-items: center;
+  gap: 0.375rem;
+  margin: 0.75rem 0 0;
+  color: var(--zm-color-navy);
+  font-size: 0.75rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.06em;
+}
+
+.zm-cart__added .material-icons {
+  font-size: 1rem;
+}
+
+.zm-cart .modal-body {
+  padding: 1rem 1.5rem;
+}
+
+.zm-cart__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zm-cart__item {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr auto;
+  gap: 1rem;
+  align-items: start;
+  padding-block: 1rem;
+  border-bottom: var(--zm-hairline) solid var(--zm-color-line);
+  transition: opacity var(--zm-duration-fast) var(--zm-ease);
+}
+
+.zm-cart__item--added {
+  background: linear-gradient(var(--zm-color-stone), var(--zm-color-stone)) no-repeat center / calc(100% + 1rem) 100%;
+}
+
+.zm-cart__item--removing {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.zm-cart__media {
+  display: block;
+  aspect-ratio: 1;
+  background: var(--zm-color-stone);
+}
+
+.zm-cart__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zm-cart__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-width: 0;
+}
+
+.zm-cart__name {
+  color: var(--zm-color-navy);
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.zm-cart__attr,
+.zm-cart__qty {
+  color: var(--zm-color-muted);
+  font-size: 0.8125rem;
+}
+
+.zm-cart__remove {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  color: var(--zm-color-muted);
+  font-size: 0.75rem;
+}
+
+.zm-cart__total {
+  color: var(--zm-color-navy);
+  font-weight: var(--zm-weight-ui);
+  white-space: nowrap;
+}
+
+.zm-cart__empty {
+  margin: 2rem 0;
+  color: var(--zm-color-muted);
+}
+
+.zm-cart .modal-footer {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  border-top: var(--zm-hairline) solid var(--zm-color-line);
+}
+
+.zm-cart .modal-footer > * {
+  margin: 0;
+}
+
+.zm-cart__subtotal {
+  display: flex;
+  justify-content: space-between;
+  color: var(--zm-color-navy);
+  font-size: 1rem;
+}
+
+.zm-cart__tax {
+  margin-top: -0.375rem !important;
+  color: var(--zm-color-muted);
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.zm-cart__continue {
+  color: var(--zm-color-navy);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+}
+
+/* Aviso de producto añadido (modules/ps_shoppingcart/modal.tpl): esquina inferior, sin tapar. */
+.zm-added {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1090;
+  display: grid;
+  grid-template-columns: 3.5rem 1fr auto;
+  gap: 0.875rem;
+  align-items: center;
+  width: min(25rem, calc(100vw - 2rem));
+  padding: 0.875rem 1rem;
+  border: var(--zm-hairline) solid var(--zm-color-line);
+  background: var(--zm-color-paper);
+  box-shadow: 0 0.75rem 2rem rgb(27 35 41 / 0.15);
+  opacity: 0;
+  transform: translate3d(0, 1rem, 0);
+  transition:
+    opacity var(--zm-duration) var(--zm-ease),
+    transform var(--zm-duration) var(--zm-ease);
+}
+
+.zm-added.is-shown {
+  opacity: 1;
+  transform: none;
+}
+
+.zm-added__media {
+  display: block;
+  aspect-ratio: 1;
+  background: var(--zm-color-stone);
+}
+
+.zm-added__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zm-added__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.zm-added__title {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--zm-color-navy);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.zm-added__title .material-icons {
+  font-size: 0.9375rem;
+}
+
+.zm-added__name {
+  overflow: hidden;
+  color: var(--zm-color-navy);
+  font-size: 0.875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zm-added__meta {
+  color: var(--zm-color-muted);
+  font-size: 0.75rem;
+}
+
+.zm-added__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.zm-added__close {
+  order: -1;
+  width: 0.625rem;
+  height: 0.625rem;
+  padding: 0.25rem;
+  background-size: 0.625rem;
+}
+
+.zm-added__cart {
+  color: var(--zm-color-navy);
+  font-size: 0.6875rem;
+  font-weight: var(--zm-weight-ui);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (width < 768px) {
+  .zm-added {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zm-added {
+    transition: none;
+  }
 }
