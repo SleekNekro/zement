@@ -96,7 +96,6 @@ const no: Translation = {
           primary: { label: 'Be om pristilbud', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: ekte prosjektfotografi',
     },
     shopStrip: { label: 'Hele systemet, i nettbutikken', cta: 'Kjøp i butikken' },
     chapters: {
@@ -186,7 +185,6 @@ const no: Translation = {
         'Veggbekledning',
         'Skreddersydde prosjekter',
       ],
-      imageTodo: 'TODO: ekte foto av et ferdig prosjekt',
     },
     shop: {
       title: ['Materialene', 'for hvert lag.'],
@@ -309,7 +307,7 @@ const no: Translation = {
     delivery: 'TODO: faktisk leveringstid',
     payment: 'TODO: faktiske betalingsmåter',
     returns: 'TODO: returvilkår',
-    proApprovalTime: 'TODO: faktisk behandlingstid for godkjenning',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'systemer',

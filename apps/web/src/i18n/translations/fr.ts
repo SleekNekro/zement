@@ -98,7 +98,6 @@ const fr: Translation = {
           primary: { label: 'Demander un devis', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: photographie réelle de projet',
     },
     shopStrip: { label: 'Tout le système, dans la boutique en ligne', cta: 'Acheter en boutique' },
     chapters: {
@@ -189,7 +188,6 @@ const fr: Translation = {
         'Revêtements muraux',
         'Projets sur mesure',
       ],
-      imageTodo: 'TODO: photographie réelle d’un chantier réalisé',
     },
     shop: {
       title: ['Les matériaux', 'de chaque couche.'],
@@ -313,7 +311,7 @@ const fr: Translation = {
     delivery: 'TODO: délai de livraison réel',
     payment: 'TODO: moyens de paiement réels',
     returns: 'TODO: conditions de retour',
-    proApprovalTime: 'TODO: délai réel d’activation',
+    proApprovalTime: '24 h',
   },
   routes: {
     systems: 'systemes',

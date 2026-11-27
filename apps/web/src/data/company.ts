@@ -76,7 +76,7 @@ export const company = {
     updated: '25/11/2026',
   },
   /** Plazo de revisión de las altas profesionales. */
-  proApprovalTime: pick('proApprovalTime', 'TODO: plazo real de alta', 'TODO: real approval time'),
+  proApprovalTime: pick('proApprovalTime', '24 h', '24 h'),
 } as const;
 
 /** true si el dato está pendiente y no debe usarse como enlace. */

@@ -55,7 +55,6 @@ export interface HomeContent {
     /** Pregunta que agrupa los dos caminos (no es un titular). */
     pathsLabel: string;
     paths: AudiencePath[];
-    imageTodo: string;
   };
   /** Franja fija al pie del hero que lleva a la tienda. */
   shopStrip: { label: string; cta: string };
@@ -101,7 +100,6 @@ export interface HomeContent {
     cta: string;
     shopCta: string;
     areas: string[];
-    imageTodo: string;
   };
   shop: {
     title: string[];
@@ -161,7 +159,6 @@ export const home: Record<Locale, HomeContent> = {
           primary: { label: 'Pedir presupuesto', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: fotografía real de proyecto',
     },
     shopStrip: { label: 'Todo el sistema, en la tienda online', cta: 'Comprar en la tienda' },
     chapters: {
@@ -251,7 +248,6 @@ export const home: Record<Locale, HomeContent> = {
         'Revestimientos',
         'Proyectos a medida',
       ],
-      imageTodo: 'TODO: fotografía real de obra aplicada',
     },
     shop: {
       title: ['Los materiales', 'de cada capa.'],
@@ -348,7 +344,6 @@ export const home: Record<Locale, HomeContent> = {
           primary: { label: 'Request a quote', target: { kind: 'section', id: 'contacto' } },
         },
       ],
-      imageTodo: 'TODO: real project photograph',
     },
     shopStrip: { label: 'The whole system, in the online shop', cta: 'Buy in the shop' },
     chapters: {
@@ -439,7 +434,6 @@ export const home: Record<Locale, HomeContent> = {
         'Wall coverings',
         'Bespoke projects',
       ],
-      imageTodo: 'TODO: real photograph of a finished job',
     },
     shop: {
       title: ['The materials', 'for every layer.'],
