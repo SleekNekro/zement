@@ -1,9 +1,12 @@
 ---
 import { Image } from 'astro:assets';
-import texture from '../../../assets/fotos/textura-microcemento-generada.jpg';
+import background from '../../../assets/fotos/acabados/fondo-aluminio-relieve.jpg';
 
-// Fondo de la portada: plano, textura de microcemento generada por código (2880 px) imitando la
-// pared de la foto del arco, en un tono más claro. Decorativo.
+/*
+ * Fondo de la portada: foto real de una pared metálica con relieve (mandalas y geometría
+ * estampados), pasada a tono aluminio para que encaje con la paleta fría de la web. Degradado
+ * arriba (cabecera) y abajo (titular y caminos) para que el texto se lea. Decorativo.
+ */
 ---
 
 <div
@@ -11,10 +14,10 @@ import texture from '../../../assets/fotos/textura-microcemento-generada.jpg';
   aria-hidden="true"
 >
   <Image
-    src={texture}
+    src={background}
     alt=""
-    widths={[640, 1024, 1440, 1920, 2880]}
-    quality={90}
+    widths={[640, 1024, 1440, 1920, 2400]}
+    quality={82}
     sizes="100vw"
     loading="eager"
     fetchpriority="high"
@@ -22,17 +25,17 @@ import texture from '../../../assets/fotos/textura-microcemento-generada.jpg';
   />
 </div>
 
-<!-- Velo: oscurece arriba (cabecera) y abajo (titular y caminos) para que el texto se lea -->
+<!-- Degradado arriba (cabecera) y abajo (titular y caminos) para que el texto se lea -->
 <div
-  class="from-night/40 to-night/0 absolute inset-x-0 top-0 -z-10 h-36 bg-linear-to-b"
+  class="from-night/80 via-night/20 to-night/0 absolute inset-x-0 top-0 -z-10 h-[40%] bg-linear-to-b"
   aria-hidden="true"
 />
 <div
-  class="from-night/70 via-night/25 to-night/0 lg:via-night/15 absolute inset-0 -z-10 bg-linear-to-t"
+  class="from-night via-night/60 to-night/0 absolute inset-x-0 bottom-0 -z-10 h-[75%] bg-linear-to-t"
   aria-hidden="true"
 />
-<!-- Sombra lateral suave: da contraste al titular y al texto, que van a la izquierda -->
+<!-- Sombra lateral suave: el relieve brilla mucho a la izquierda, donde van el titular y el texto -->
 <div
-  class="from-night/45 via-night/15 to-night/0 absolute inset-0 -z-10 bg-linear-to-r"
+  class="from-night/60 via-night/20 to-night/0 absolute inset-0 -z-10 bg-linear-to-r"
   aria-hidden="true"
 />

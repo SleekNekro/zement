@@ -11,9 +11,14 @@ obligatoria), elegidas por mostrar superficies continuas de microcemento. Se gua
 | `arco-microcemento.jpg`      | Muestra del sistema: fondo del acabado                       | `pexels-thisispav-30059657.jpg`               |
 | `encimera-microcemento.jpg`  | Muestra del sistema: protección                              | `pexels-isabeu-18556925.jpg`                  |
 
-`textura-microcemento-generada.jpg` no es una foto: la genera `apps/web/scripts/generate-texture.mjs`
-(ruido procedural, 2880 × 1800, semilla fija) imitando la pared de `pared-microcemento-luz.jpg` en un
-tono más claro. Es el fondo plano de la portada. Para regenerarla: `node scripts/generate-texture.mjs`
-desde `apps/web`.
+La foto de `acabados/` es propia (no de banco), recortada y optimizada para la portada:
+
+| Archivo                      | Uso                                                        | Original                    |
+| ---------------------------- | ---------------------------------------------------------- | --------------------------- |
+| `fondo-aluminio-relieve.jpg` | Portada: fondo (pared metálica con relieve, tono aluminio) | `IMG_7797.HEIC` (Descargas) |
+
+`fondo-aluminio-relieve.jpg` es el 60 % izquierdo de la foto (solo la pared metálica, sin la piedra
+ni la lámpara), en 16:10, sin color, con más contraste y un tinte frío para que parezca
+aluminio.
 
 Se sustituyen por fotografía propia de obras Zement cuando exista.
