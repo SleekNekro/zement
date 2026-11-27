@@ -58,7 +58,7 @@ catalog/
   - Protectores: la tarifa calcula el €/kg con el diluyente o el agua que se añade en destino («+ 1 L agua», «+ 1 en destino»); el formato que se vende es el kit de 3+1 kg.
 - **Palé**: solo el formato principal tiene las unidades por palé (de la ficha). Faltan las de los formatos pequeños y las de los productos cuya ficha no las da.
 - **Fotos de producto**: 22 productos no traen imagen en la ficha (imprimaciones, barnices, morteros, aditivos, mallas).
-  - Los que se venden en cubo, garrafa o bote llevan una foto de su envase generada por código, con la etiqueta de las plantillas de imprenta: `node apps/tienda/catalog/scripts/generate-packaging.mjs` (necesita Google Chrome y macOS). Genera `images/envases/` y después hay que repetir `pnpm tienda:catalog`.
+  - Los que se venden en cubo, garrafa o bote llevan una foto de su envase: `node apps/tienda/catalog/scripts/generate-packaging.mjs` (necesita Google Chrome y macOS) la compone sobre fotos reales de los envases, con el logotipo de Zement, la etiqueta de imprenta y un círculo con el acabado del producto. Las fotos base van en `images/envases-base/` (`cubo.webp`, `garrafa.webp`, `tarrina.webp`): es una carpeta local que no se sube a Git. Genera `images/envases/`; después hay que repetir `pnpm tienda:catalog`.
   - Cada formato enseña su envase; la foto del formato principal es la portada.
   - Faltan los kits (2K y protectores) y los productos sin formato de venta.
 - **Nombres de las familias** en DE, FR, IT, PL, NO y FI: traducción propuesta, revisar con Zement. La agrupación en familias también es una propuesta.

@@ -1,21 +1,20 @@
-// Genera por código las fotos de envase de la tienda (images/envases/<clave>--<envase>-<tamaño>.jpg):
-// un cubo, una garrafa o un bote (tarrina de plástico) con la etiqueta de Zement, recortado sobre
-// blanco con su sombra, como una foto de estudio. Una foto por formato de venta de catalog.json; los kits aún no tienen
-// dibujo y se saltan.
+// Genera las fotos de envase de la tienda (images/envases/<clave>--<envase>-<tamaño>.jpg) a partir
+// de fotos reales de los mismos envases (images/envases-base/: cubo.webp, garrafa.webp y
+// tarrina.webp; carpeta local que no se sube a Git). Una foto por formato de venta de
+// catalog.json; los kits aún no tienen foto y se saltan.
 //
-// La etiqueta sigue las plantillas de imprenta de Zement (A4 dividido en 1/4, 1/8 o 1/16):
-//   cubo de 12 kg o más  → 148 × 105 mm (1/4 A4 horizontal)
-//   garrafa              → 105 × 148 mm (1/4 A4 vertical)
-//   cubo de 5 kg y botes → 105 × 74 mm (1/8 A4 horizontal)
-//   bote de 1 kg o menos → 74 × 52 mm (1/16 A4 horizontal)
-// Con los datos de la ficha en español: familia, nombre, subtítulo y la primera frase del producto.
-// Lote, fecha y UFI quedan en blanco, como en la etiqueta sin imprimir. Sin pictogramas GHS,
-// marcado CE ni código de barras: no hay datos para ponerlos (TODO cuando existan).
+//   cubo    el impreso del cubo con el logotipo de Zement (y el texto grande de su familia si no
+//           es microcemento)
+//   garrafa la etiqueta vertical de imprenta (105 × 148 mm) en el frente y el tapón en azul
+//   bote    tarrina blanca con la etiqueta de 105 × 74 mm (74 × 52 mm en 1 kg) doblada en el frente
+// Todas llevan un círculo con el acabado del producto (su muestra de la ficha) o en azul, con el
+// nombre y el tamaño.
 //
-// Dos pasos, los dos fotografiados con Chrome sin ventana: 1) la etiqueta plana, maquetada en
-// milímetros; 2) el envase en SVG, con la etiqueta pegada encima en un canvas, doblada sobre el
-// cilindro (cubo y bote) o plana (garrafa), a escala del envase. El JPEG lo
-// hace sips (macOS). Uso, desde la raíz del repositorio:
+// Etiquetas: plantillas de imprenta de Zement con los datos de la ficha en español (familia,
+// nombre, subtítulo y primera frase). Lote, fecha y UFI en blanco; sin pictogramas GHS, marcado CE
+// ni código de barras: no hay datos para ponerlos (TODO cuando existan).
+//
+// Todo se fotografía con Chrome sin ventana y el JPEG lo hace sips (macOS). Uso, desde la raíz:
 //   node apps/tienda/catalog/scripts/generate-packaging.mjs [clave…]
 // Después, `pnpm tienda:catalog "<carpeta de fichas>"` las sube como fotos del producto: la del
 // formato principal es la portada y cada formato enseña la suya.
@@ -29,7 +28,7 @@ const CATALOG = fileURLToPath(new URL('..', import.meta.url));
 const THEME = fileURLToPath(new URL('../../theme/zement/assets', import.meta.url));
 const OUTPUT = join(CATALOG, 'images', 'envases');
 const CHROME = process.env.CHROME ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
-const SIZE = 1200;
+const SIZE = 900;
 const CONTAINERS = ['cubo', 'garrafa', 'bote'];
 /** Píxeles por milímetro al maquetar la etiqueta plana. */
 const MM = 10;
@@ -142,285 +141,262 @@ function labelPage(product, format, template) {
   </body></html>`;
 }
 
-// --- 2. Envases (lienzo de 1200 × 1200; vista algo desde arriba, luz de estudio a la izquierda) --
-// Proporciones de envases reales de obra: cubo chato con tapa de color, precinto y asa metálica
-// colgando a los lados; tarrina blanca baja y ancha (productos al agua); garrafa de 5 L en tres
-// cuartos con el asa moldeada y el tapón de rosca.
-// `wrap`: cómo se pega la etiqueta. Cilindro: centro, radio a la altura de la etiqueta, achatado
-// de la elipse (ry / rx) y píxeles por milímetro; plana: centro y borde de arriba.
+// --- 2. Foto del envase ------------------------------------------------------------------------
+// Cada envase parte de una foto real del mismo envase (carpeta local images/envases-base/, que no
+// se sube: las fotos llevan la marca del fabricante). Sobre ella, en coordenadas de la foto base:
+//   patches  zonas impresas que se borran rellenando cada fila con el color de sus bordes
+//   logo     logotipo de Zement en el hueco del logotipo original
+//   print    texto grande impreso del cubo («MICRO CEMENTO»), que se cambia si no es microcemento
+//   recolor  tapón de color, que pasa al azul de Zement
+//   label    etiqueta de imprenta: plana con escorzo (garrafa) o doblada sobre el cilindro (tarrina)
+//   badge    círculo con la textura del acabado del producto (o azul) y su nombre
 
-const K = 0.24;
+const BASE = join(CATALOG, 'images', 'envases-base');
 
-/** Degradado vertical (de arriba abajo) con paradas [posición, color, opacidad]. */
-const vertical = (id, stops) =>
-  `<linearGradient id="${id}" x1="0" x2="0" y1="0" y2="1">${stops
-    .map(
-      ([offset, color, opacity = 1]) =>
-        `<stop offset="${offset}" stop-color="${color}" stop-opacity="${opacity}"/>`,
-    )
-    .join('')}</linearGradient>`;
+const PHOTOS = {
+  cubo: {
+    file: 'cubo.webp',
+    anchor: [225, 395],
+    patches: [
+      { x0: 146, x1: 297, y0: 165, y1: 219 },
+      { x0: 203, x1: 262, y0: 340, y1: 359, flat: true },
+    ],
+    logo: { cx: 221, cy: 190, width: 140 },
+    print: { x0: 150, x1: 300, y0: 243, y1: 337 },
+    badge: { cx: 315, cy: 350, r: 68 },
+  },
+  garrafa: {
+    file: 'garrafa.webp',
+    anchor: [150, 238],
+    patches: [],
+    recolor: { x0: 160, x1: 212, y0: 55, y1: 86 },
+    label: { kind: 'skew', x: 88, y: 105, width: 84, skew: 0.2 },
+    badge: { cx: 210, cy: 233, r: 46 },
+  },
+  bote: {
+    file: 'tarrina.webp',
+    anchor: [225, 312],
+    patches: [],
+    label: { kind: 'cylinder', cx: 225, r: 92, k: 0.1, top: 192, mmPx: 1.25 },
+    badge: { cx: 315, cy: 308, r: 68 },
+  },
+};
 
-const user = (x1, x2) => `gradientUnits="userSpaceOnUse" x1="${x1}" x2="${x2}"`;
+/** Texto grande impreso en el cubo según la familia (el original dice «MICRO CEMENTO»). */
+const PRINTS = { corcho: ['KORK'], imprimaciones: ['PRIME', 'GRIP'] };
 
-// Plástico blanco brillante: luz a la izquierda, rebote suave a la derecha, bordes en sombra.
-const plastic = (id, x1, x2) => `<linearGradient id="${id}" ${user(x1, x2)}>
-  <stop offset="0" stop-color="#bdb9b3"/><stop offset=".05" stop-color="#dcd9d4"/><stop offset=".16" stop-color="#f7f6f4"/>
-  <stop offset=".27" stop-color="#ffffff"/><stop offset=".4" stop-color="#f4f3f1"/><stop offset=".68" stop-color="#e6e4e0"/>
-  <stop offset=".86" stop-color="#d3d0cb"/><stop offset=".94" stop-color="#e2e0dc"/><stop offset="1" stop-color="#b3afa9"/>
-</linearGradient>`;
+const dataUrl = (file, type) => `data:${type};base64,${readFileSync(file).toString('base64')}`;
+const LOGO_URL = dataUrl(join(THEME, 'img', 'zement-logo-paper.svg'), 'image/svg+xml');
 
-const navy = (id, x1, x2) => `<linearGradient id="${id}" ${user(x1, x2)}>
-  <stop offset="0" stop-color="#0a131a"/><stop offset=".14" stop-color="#1d3a52"/><stop offset=".26" stop-color="#3f6a8d"/>
-  <stop offset=".36" stop-color="#23435f"/><stop offset=".72" stop-color="#15293b"/><stop offset=".9" stop-color="#1d364c"/>
-  <stop offset="1" stop-color="#08111a"/>
-</linearGradient>`;
-
-const steel = vertical('steel', [
-  [0, '#f2f3f4'],
-  [0.45, '#a7adb3'],
-  [1, '#6c737a'],
-]);
-
-// Sombra de contacto (estrecha y oscura) y sombra ambiente (ancha y suave), bajo la base del envase
-// (centro de la elipse del fondo en y = base).
-const shadow = (rx, base) => `
-  <radialGradient id="ambient"><stop offset="0" stop-color="#2a2620" stop-opacity=".2"/><stop offset="1" stop-color="#2a2620" stop-opacity="0"/></radialGradient>
-  <radialGradient id="contact"><stop offset="0" stop-color="#16130f" stop-opacity=".5"/><stop offset=".7" stop-color="#16130f" stop-opacity=".1"/><stop offset="1" stop-color="#16130f" stop-opacity="0"/></radialGradient>
-  <ellipse cx="${600 + rx * 0.16}" cy="${base + 16}" rx="${rx * 1.5}" ry="${rx * K * 1.45}" fill="url(#ambient)"/>
-  <ellipse cx="600" cy="${base + 4}" rx="${rx * 1.07}" ry="${rx * K * 1.18}" fill="url(#contact)"/>`;
-
-// Arco delantero de una elipse de radio rx centrada en y (de izquierda a derecha).
-const front = (rx, y, cx = 600) => `M${cx - rx} ${y} A${rx} ${rx * K} 0 0 0 ${cx + rx} ${y}`;
-
-// Banda cilíndrica entre y1 e y2 (centros de elipse), visible por delante.
-const band = (rx, y1, y2, cx = 600) =>
-  `M${cx - rx} ${y1} L${cx - rx} ${y2} A${rx} ${rx * K} 0 0 0 ${cx + rx} ${y2} L${cx + rx} ${y1} Z`;
-
-// Tronco de cono (cuerpo de cubo o tarrina) de la boca (arriba) al fondo.
-const frustum = (top, bottom) =>
-  `M${600 - top.rx} ${top.y} L${600 - bottom.rx} ${bottom.y} A${bottom.rx} ${bottom.rx * K} 0 0 0 ${600 + bottom.rx} ${bottom.y} L${600 + top.rx} ${top.y} A${top.rx} ${top.rx * K} 0 0 0 ${600 - top.rx} ${top.y} Z`;
-
-// Precinto de la tapa: lengüeta blanca en el centro del faldón.
-const tamper = (y, height, width) => `
-  <rect x="${600 - width / 2}" y="${y}" width="${width}" height="${height}" rx="4" fill="url(#tab)"/>
-  <path d="M${600 - width / 2 + 6} ${y + 6} H${600 + width / 2 - 6}" stroke="#ffffff" stroke-width="2" opacity=".8"/>`;
-
-const TAB = vertical('tab', [
-  [0, '#fbfaf8'],
-  [1, '#d8d5d0'],
-]);
-
-/** Cubo de obra: cuerpo blanco cónico, aro blanco, tapa azul con precinto, asa de alambre a los lados. */
-function cubo() {
-  const top = { y: 452, rx: 296 };
-  const bottom = { y: 930, rx: 250 };
-  const rxAt = (y) => top.rx + ((bottom.rx - top.rx) * (y - top.y)) / (bottom.y - top.y);
-  const ring = { y1: 418, y2: 456, rx: 308 };
-  const lid = { y: 372, rx: 316, skirt: 48 };
-  const ribs = [ring.y1 + 12, ring.y1 + 26].map((y) => front(ring.rx, y)).join(' ');
-  const foot = front(rxAt(904), 904);
-  // Asa: sale de la oreja, cuelga hacia fuera y se mete por detrás del cuerpo.
-  const handle = (side) => {
-    const x = 600 + side * (ring.rx + 4);
-    return `M${x} 438 C${x + side * 46} 520 ${x + side * 30} 650 ${600 + side * (rxAt(690) - 6)} 700`;
+function packPage(entry, product, format, template, labelUrl) {
+  const photo = PHOTOS[format.container];
+  const texture = join(CATALOG, 'images', `${entry.key}.jpg`);
+  const spec = {
+    ...photo,
+    scale: scaleOf(format),
+    print: PRINTS[entry.category] ? { ...photo.print, lines: PRINTS[entry.category] } : null,
+    template: { width: template.width, height: template.height },
+    name: product.name.replace(/^Zement\s+/i, ''),
+    size: format.size,
   };
-
-  return {
-    rx: bottom.rx,
-    ceiling: lid.y - lid.rx * K,
-    floor: bottom.y + bottom.rx * K,
-    wrap: { kind: 'cylinder', cx: 600, r: rxAt(700), top: 552, mmPx: 2.95 },
-    svg: `
-      <defs>${plastic('body', 600 - top.rx, 600 + top.rx)}${plastic('ring', 600 - ring.rx, 600 + ring.rx)}
-        ${navy('lid', 600 - lid.rx, 600 + lid.rx)}${steel}${TAB}
-        <radialGradient id="lidTop" cx=".34" cy=".28" r=".85"><stop offset="0" stop-color="#46739a"/><stop offset=".45" stop-color="#20405b"/><stop offset="1" stop-color="#0c1924"/></radialGradient>
-        ${vertical('under', [
-          [0, '#000', 0.22],
-          [1, '#000', 0],
-        ])}
-        <clipPath id="bodyClip"><path d="${frustum(top, bottom)}"/></clipPath>
-      </defs>
-      ${shadow(bottom.rx, bottom.y)}
-      <path d="${handle(-1)}" fill="none" stroke="url(#steel)" stroke-width="7" stroke-linecap="round"/>
-      <path d="${frustum(top, bottom)}" fill="url(#body)"/>
-      <rect x="250" y="${top.y}" width="700" height="${top.rx * K + 46}" fill="url(#under)" clip-path="url(#bodyClip)"/>
-      <path d="${foot}" fill="none" stroke="#c9c6c0" stroke-width="3"/>
-      <path d="${foot}" fill="none" stroke="#ffffff" stroke-width="2" opacity=".8" transform="translate(0 4)"/>
-      <path d="${band(ring.rx, ring.y1, ring.y2)}" fill="url(#ring)"/>
-      <path d="${ribs}" fill="none" stroke="#cbc8c2" stroke-width="2.5"/>
-      <path d="${front(ring.rx, ring.y2)}" fill="none" stroke="#b8b4ad" stroke-width="2"/>
-      <path d="${handle(1)}" fill="none" stroke="url(#steel)" stroke-width="7" stroke-linecap="round"/>
-      <ellipse cx="${600 - ring.rx - 2}" cy="438" rx="13" ry="20" fill="#e9e7e3" stroke="#b4b0a9" stroke-width="1.5"/>
-      <ellipse cx="${600 + ring.rx + 2}" cy="438" rx="13" ry="20" fill="#cfccc6" stroke="#a5a19a" stroke-width="1.5"/>
-      <path d="${band(lid.rx, lid.y, lid.y + lid.skirt)}" fill="url(#lid)"/>
-      <path d="${front(lid.rx, lid.y + lid.skirt)}" fill="none" stroke="#050c12" stroke-width="3" opacity=".7"/>
-      ${tamper(lid.y + lid.rx * K + 4, lid.skirt - 6, 92)}
-      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx}" ry="${lid.rx * K}" fill="url(#lidTop)"/>
-      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx - 3}" ry="${(lid.rx - 3) * K}" fill="none" stroke="#6390b4" stroke-width="2" opacity=".55"/>
-      <ellipse cx="600" cy="${lid.y + 4}" rx="${lid.rx - 34}" ry="${(lid.rx - 34) * K}" fill="none" stroke="#08131c" stroke-width="6" opacity=".5"/>
-      <ellipse cx="600" cy="${lid.y + 1}" rx="${lid.rx - 34}" ry="${(lid.rx - 34) * K}" fill="none" stroke="#5584a8" stroke-width="2" opacity=".5"/>
-      <ellipse cx="600" cy="${lid.y + 8}" rx="${lid.rx - 120}" ry="${(lid.rx - 120) * K}" fill="#16304a" opacity=".45"/>`,
-  };
-}
-
-/** Tarrina de plástico blanca, baja y ancha, con tapa blanca, precinto y asa de plástico. */
-function bote() {
-  const top = { y: 586, rx: 262 };
-  const bottom = { y: 930, rx: 232 };
-  const rxAt = (y) => top.rx + ((bottom.rx - top.rx) * (y - top.y)) / (bottom.y - top.y);
-  const lid = { y: 540, rx: 276, skirt: 50 };
-  const foot = front(rxAt(906), 906);
-  const handle = (side) => {
-    const x = 600 + side * (lid.rx + 2);
-    return `M${x} 618 C${x + side * 26} 690 ${x + side * 14} 760 ${600 + side * (rxAt(760) - 6)} 800`;
-  };
-
-  return {
-    rx: bottom.rx,
-    ceiling: lid.y - lid.rx * K,
-    floor: bottom.y + bottom.rx * K,
-    wrap: { kind: 'cylinder', cx: 600, r: rxAt(760), top: 672, mmPx: 3.4 },
-    svg: `
-      <defs>${plastic('body', 600 - top.rx, 600 + top.rx)}${plastic('lid', 600 - lid.rx, 600 + lid.rx)}${TAB}
-        <radialGradient id="lidTop" cx=".34" cy=".28" r=".85"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#eeece8"/><stop offset="1" stop-color="#d2cfc9"/></radialGradient>
-        ${vertical('strap', [
-          [0, '#fbfaf8'],
-          [1, '#cfccc6'],
-        ])}
-        ${vertical('under', [
-          [0, '#000', 0.16],
-          [1, '#000', 0],
-        ])}
-        <clipPath id="bodyClip"><path d="${frustum(top, bottom)}"/></clipPath>
-      </defs>
-      ${shadow(bottom.rx, bottom.y)}
-      <path d="${handle(-1)}" fill="none" stroke="#bfbbb5" stroke-width="12" stroke-linecap="round"/>
-      <path d="${handle(-1)}" fill="none" stroke="url(#strap)" stroke-width="8" stroke-linecap="round"/>
-      <path d="${frustum(top, bottom)}" fill="url(#body)"/>
-      <rect x="300" y="${top.y}" width="600" height="${top.rx * K + 40}" fill="url(#under)" clip-path="url(#bodyClip)"/>
-      <path d="${foot}" fill="none" stroke="#cbc8c2" stroke-width="3"/>
-      <path d="${handle(1)}" fill="none" stroke="#bfbbb5" stroke-width="12" stroke-linecap="round"/>
-      <path d="${handle(1)}" fill="none" stroke="url(#strap)" stroke-width="8" stroke-linecap="round"/>
-      <path d="${band(lid.rx, lid.y, lid.y + lid.skirt)}" fill="url(#lid)"/>
-      <path d="${front(lid.rx, lid.y + 16)} ${front(lid.rx, lid.y + 30)}" fill="none" stroke="#d4d1cb" stroke-width="2"/>
-      <path d="${front(lid.rx, lid.y + lid.skirt)}" fill="none" stroke="#a9a59e" stroke-width="2.5"/>
-      ${tamper(lid.y + lid.rx * K + 6, lid.skirt - 10, 70)}
-      <ellipse cx="${600 - lid.rx}" cy="610" rx="11" ry="17" fill="#ecebe7" stroke="#b6b2ab" stroke-width="1.5"/>
-      <ellipse cx="${600 + lid.rx}" cy="610" rx="11" ry="17" fill="#d1cec8" stroke="#a6a29b" stroke-width="1.5"/>
-      <ellipse cx="600" cy="${lid.y}" rx="${lid.rx}" ry="${lid.rx * K}" fill="url(#lidTop)"/>
-      <ellipse cx="600" cy="${lid.y + 3}" rx="${lid.rx - 26}" ry="${(lid.rx - 26) * K}" fill="none" stroke="#c9c6c0" stroke-width="4"/>
-      <ellipse cx="600" cy="${lid.y + 1}" rx="${lid.rx - 26}" ry="${(lid.rx - 26) * K}" fill="none" stroke="#ffffff" stroke-width="2"/>`,
-  };
-}
-
-/** Garrafa de 5 L en tres cuartos: lateral izquierdo en escorzo, asa moldeada y tapón de rosca. */
-function garrafa() {
-  return {
-    rx: 250,
-    ceiling: 218,
-    floor: 1000,
-    wrap: { kind: 'flat', cx: 694, top: 530, mmPx: 2.4 },
-    svg: `
-      <defs>${plastic('face', 512, 868)}
-        <linearGradient id="side" x1="0" x2="1"><stop offset="0" stop-color="#a9a59e"/><stop offset=".5" stop-color="#c6c2bb"/><stop offset="1" stop-color="#d9d6d0"/></linearGradient>
-        ${vertical('top', [
-          [0, '#dedbd6'],
-          [1, '#f3f2ef'],
-        ])}
-        ${navy('cap', 728, 832)}
-        <radialGradient id="capTop" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#46739a"/><stop offset="1" stop-color="#0f1f2d"/></radialGradient>
-        ${vertical('neck', [
-          [0, '#f4f3f0'],
-          [1, '#d6d3ce'],
-        ])}
-      </defs>
-      ${shadow(250, 972)}
-      <path d="M368 410 Q368 384 392 378 L520 404 L520 994 L400 956 Q368 946 368 918 Z" fill="url(#side)"/>
-      <path d="M368 410 Q368 384 392 378 L520 404" fill="none" stroke="#9e9a93" stroke-width="2"/>
-      <path d="M392 378 Q400 358 430 356 L790 350 Q846 350 862 380 L868 404 L520 404 Z" fill="url(#top)"/>
-      <path d="M392 378 L520 404 L868 404" fill="none" stroke="#bcb8b1" stroke-width="2"/>
-      <path d="M424 384 C420 268 440 246 478 244 L584 242 C622 242 640 266 636 384" fill="none" stroke="#b9b5ae" stroke-width="50" stroke-linejoin="round"/>
-      <path d="M424 384 C420 268 440 246 478 244 L584 242 C622 242 640 266 636 384" fill="none" stroke="#f6f5f2" stroke-width="34" stroke-linejoin="round" transform="translate(-4 -5)"/>
-      <path d="M476 386 C472 316 482 296 504 296 L558 296 C578 296 586 316 584 386 Z" fill="#ffffff"/>
-      <path d="M476 386 C472 316 482 296 504 296 L558 296 C578 296 586 316 584 386" fill="none" stroke="#a9a59e" stroke-width="5"/>
-      <rect x="520" y="404" width="348" height="596" rx="28" fill="url(#face)"/>
-      <path d="M548 404 L840 404" stroke="#ffffff" stroke-width="3"/>
-      <path d="M522 430 Q520 406 546 404" fill="none" stroke="#bcb8b1" stroke-width="2"/>
-      <path d="M516 444 Q514 408 548 406 L700 406" fill="none" stroke="#ffffff" stroke-width="5" opacity=".9"/>
-      <path d="M520 980 Q530 996 560 998 L824 998 Q860 996 866 970" fill="none" stroke="#aaa69f" stroke-width="3" opacity=".6"/>
-      <path d="M744 340 L744 392 A36 9 0 0 0 816 392 L816 340 Z" fill="url(#neck)"/>
-      <path d="M730 290 L730 352 A50 12 0 0 0 830 352 L830 290 Z" fill="url(#cap)"/>
-      <path d="M740 298 V354 M752 298 V358 M764 298 V361 M776 298 V362 M788 298 V362 M800 298 V361 M812 298 V358 M822 298 V354" stroke="#06101a" stroke-width="3" opacity=".5"/>
-      <ellipse cx="780" cy="290" rx="50" ry="12" fill="url(#capTop)"/>`,
-  };
-}
-
-const DRAWINGS = { cubo, garrafa, bote };
-
-function packPage(format, template, labelUrl) {
-  const drawing = DRAWINGS[format.container]();
-  const scale = scaleOf(format);
-  const wrap = { ...drawing.wrap, k: K, width: template.width, height: template.height };
-  // Centrado en vertical según su altura real, ya escalado (los envases pequeños no caen al suelo).
-  const offset = 620 - (drawing.floor - (scale * (drawing.floor - drawing.ceiling)) / 2);
 
   return `<!doctype html><html><head><meta charset="utf-8"><style>
+    ${FONT_FACE}
     * { margin: 0; }
     html, body { width: ${SIZE}px; height: ${SIZE}px; overflow: hidden; background: #ffffff; }
-    .stage { position: absolute; inset: 0; transform: translateY(${offset}px) scale(${scale}); transform-origin: 600px ${drawing.floor}px; }
-    svg, canvas { position: absolute; inset: 0; }
   </style></head><body>
-    <div class="stage">
-      <svg viewBox="0 0 ${SIZE} ${SIZE}" width="${SIZE}" height="${SIZE}">${drawing.svg}</svg>
-      <canvas width="${SIZE}" height="${SIZE}"></canvas>
-    </div>
+    <canvas width="${SIZE}" height="${SIZE}"></canvas>
     <script>
-      const wrap = ${JSON.stringify(wrap)};
-      const ctx = document.querySelector('canvas').getContext('2d');
-      const label = new Image();
-      label.onload = () => {
-        const w = wrap.width * wrap.mmPx;
-        const h = wrap.height * wrap.mmPx;
-        if (wrap.kind === 'flat') {
-          ctx.drawImage(label, wrap.cx - w / 2, wrap.top, w, h);
-          shade(wrap.cx - w / 2, wrap.cx + w / 2, 0.12);
-          return;
+      const spec = ${JSON.stringify(spec)};
+      const load = (src) => new Promise((resolve) => { const image = new Image(); image.onload = () => resolve(image); image.src = src; });
+
+      (async () => {
+        await document.fonts.load('700 extra-condensed 40px Archivo');
+        const [base, label, logo, texture] = await Promise.all([
+          load(${JSON.stringify(dataUrl(join(BASE, photo.file), 'image/webp'))}),
+          ${format.container === 'cubo' ? 'null' : `load(${JSON.stringify(labelUrl)})`},
+          load(${JSON.stringify(LOGO_URL)}),
+          ${existsSync(texture) ? `load(${JSON.stringify(dataUrl(texture, 'image/jpeg'))})` : 'null'},
+        ]);
+
+        // 1. Retoques sobre la foto base, a su tamaño.
+        const work = document.createElement('canvas');
+        work.width = base.width;
+        work.height = base.height;
+        const w = work.getContext('2d', { willReadFrequently: true });
+        w.drawImage(base, 0, 0);
+        const pixel = (x, y) => w.getImageData(x, y, 1, 1).data;
+        const rgb = (p) => 'rgb(' + p[0] + ',' + p[1] + ',' + p[2] + ')';
+        // Cada fila, con el color de sus bordes (o del izquierdo, si el derecho no es fondo).
+        const fillRows = (x0, x1, y0, y1, flat) => {
+          for (let y = y0; y <= y1; y++) {
+            const left = pixel(x0 - 2, y);
+            const right = flat ? left : pixel(x1 + 2, y);
+            const row = w.createLinearGradient(x0, 0, x1, 0);
+            row.addColorStop(0, rgb(left));
+            row.addColorStop(1, rgb(right));
+            w.fillStyle = row;
+            w.fillRect(x0, y, x1 - x0, 1);
+          }
+        };
+        // Cada columna, con el color de una fila limpia justo encima (conserva la luz del panel).
+        const fillColumns = (x0, x1, y0, y1) => {
+          for (let x = x0; x <= x1; x++) {
+            w.fillStyle = rgb(pixel(x, y0 - 3));
+            w.fillRect(x, y0, 1, y1 - y0);
+          }
+        };
+        for (const patch of spec.patches) fillRows(patch.x0, patch.x1, patch.y0, patch.y1, patch.flat);
+        if (spec.print) {
+          fillColumns(spec.print.x0, spec.print.x1, spec.print.y0, spec.print.y1);
         }
-        // Cilindro: cada columna de la etiqueta va a su ángulo; baja con la elipse (sonrisa) y
-        // se estrecha hacia los bordes.
-        const span = w / wrap.r;
-        const columns = label.width;
-        const lift = wrap.r * wrap.k;
-        for (let i = 0; i < columns; i++) {
-          const a0 = (i / columns - 0.5) * span;
-          const a1 = ((i + 1) / columns - 0.5) * span;
-          const x0 = wrap.cx + wrap.r * Math.sin(a0);
-          const x1 = wrap.cx + wrap.r * Math.sin(a1);
-          const y = wrap.top - lift + lift * Math.cos((a0 + a1) / 2);
-          ctx.drawImage(label, i, 0, 1, label.height, x0, y, x1 - x0 + 0.6, h);
+        if (spec.recolor) {
+          // Tapón: los píxeles rojos pasan a la gama de azules de Zement con la misma luz.
+          const { x0, x1, y0, y1 } = spec.recolor;
+          const area = w.getImageData(x0, y0, x1 - x0, y1 - y0);
+          const d = area.data;
+          for (let i = 0; i < d.length; i += 4) {
+            const [r, g, b] = [d[i], d[i + 1], d[i + 2]];
+            if (r > g + 40 && r > b + 40) {
+              const light = Math.min(1, (r + g + b) / 3 / 150);
+              d[i] = 10 + 55 * light;
+              d[i + 1] = 22 + 90 * light;
+              d[i + 2] = 34 + 120 * light;
+            }
+          }
+          w.putImageData(area, x0, y0);
         }
-        const half = wrap.r * Math.sin(span / 2);
-        shade(wrap.cx - half, wrap.cx + half, 0.3);
-      };
-      // Luz sobre la etiqueta: la misma que en el envase (brillo a la izquierda, bordes en sombra).
-      function shade(from, to, strength) {
-        const light = ctx.createLinearGradient(from, 0, to, 0);
-        light.addColorStop(0, 'rgba(40,35,28,' + strength * 1.2 + ')');
-        light.addColorStop(0.18, 'rgba(40,35,28,' + strength * 0.25 + ')');
-        light.addColorStop(0.3, 'rgba(255,255,255,0)');
-        light.addColorStop(0.62, 'rgba(40,35,28,' + strength * 0.2 + ')');
-        light.addColorStop(1, 'rgba(40,35,28,' + strength * 1.1 + ')');
-        ctx.globalCompositeOperation = 'source-atop';
-        ctx.fillStyle = light;
-        ctx.fillRect(0, 0, ${SIZE}, ${SIZE});
-        const gloss = ctx.createLinearGradient(from, 0, to, 0);
-        gloss.addColorStop(0.2, 'rgba(255,255,255,0)');
-        gloss.addColorStop(0.27, 'rgba(255,255,255,' + strength * 0.8 + ')');
-        gloss.addColorStop(0.34, 'rgba(255,255,255,0)');
-        ctx.fillStyle = gloss;
-        ctx.fillRect(0, 0, ${SIZE}, ${SIZE});
+
+        // 2. Composición final: la foto ampliada y, encima, logotipo, texto, etiqueta y círculo.
+        const ctx = document.querySelector('canvas').getContext('2d');
+        ctx.imageSmoothingQuality = 'high';
+        const f = ${SIZE} / base.width;
+        const s = spec.scale;
+        const [ax, ay] = spec.anchor;
+        // Envases pequeños: más pequeños desde el pie y centrados en vertical.
+        ctx.setTransform(f * s, 0, 0, f * s, ax * f * (1 - s), ay * f * (1 - s) - (${SIZE} * (1 - s)) / 2.4);
+        ctx.drawImage(work, 0, 0);
+
+        if (spec.logo) {
+          const height = (spec.logo.width * logo.height) / logo.width;
+          ctx.drawImage(logo, spec.logo.cx - spec.logo.width / 2, spec.logo.cy - height / 2, spec.logo.width, height);
+        }
+
+        if (spec.print) {
+          const { x0, x1, y0, y1 } = spec.print;
+          const lines = spec.print.lines;
+          const lineHeight = (y1 - y0) / Math.max(2, lines.length);
+          const top = y0 + ((y1 - y0) - lineHeight * lines.length) / 2;
+          ctx.fillStyle = '#ffffff';
+          ctx.textBaseline = 'alphabetic';
+          lines.forEach((line, i) => {
+            let size = lineHeight * 1.12;
+            ctx.font = '700 extra-condensed ' + size + 'px Archivo';
+            while (ctx.measureText(line).width > x1 - x0 - 16 && size > 10) {
+              ctx.font = '700 extra-condensed ' + (size -= 1) + 'px Archivo';
+            }
+            ctx.fillText(line, x0 + 6, top + lineHeight * (i + 1) - 4);
+          });
+        }
+
+        if (label) drawLabel(ctx, label, spec);
+        drawBadge(ctx, spec, texture);
+      })();
+
+      // Etiqueta en una capa aparte para sombrearla sin tocar la foto.
+      function drawLabel(ctx, label, spec) {
+        const layer = document.createElement('canvas');
+        layer.width = layer.height = ${SIZE};
+        const l = layer.getContext('2d');
+        l.setTransform(ctx.getTransform());
+        const g = spec.label;
+        if (g.kind === 'skew') {
+          const height = (g.width * spec.template.height) / spec.template.width;
+          l.transform(1, g.skew, 0, 1, g.x, g.y - g.skew * g.x);
+          l.drawImage(label, 0, 0, g.width, height);
+          l.setTransform(ctx.getTransform());
+          shade(l, g.x, g.x + g.width, 0.1);
+        } else {
+          const width = spec.template.width * g.mmPx;
+          const height = spec.template.height * g.mmPx;
+          const span = width / g.r;
+          const lift = g.r * g.k;
+          // Tiras de un píxel de la foto final: cada una toma su trozo de la etiqueta plana.
+          const scale = ctx.getTransform().a;
+          const strips = Math.ceil(2 * g.r * Math.sin(span / 2) * scale);
+          for (let j = 0; j < strips; j++) {
+            const u0 = j / strips;
+            const u1 = (j + 1) / strips;
+            const a0 = (u0 - 0.5) * span;
+            const a1 = (u1 - 0.5) * span;
+            const x0 = g.cx + g.r * Math.sin(a0);
+            const x1 = g.cx + g.r * Math.sin(a1);
+            const y = g.top - lift + lift * Math.cos((a0 + a1) / 2);
+            const sx = u0 * label.width;
+            l.drawImage(label, sx, 0, (u1 - u0) * label.width, label.height, x0, y, x1 - x0 + 0.6 / scale, height);
+          }
+          const half = g.r * Math.sin(span / 2);
+          shade(l, g.cx - half, g.cx + half, 0.28);
+        }
+        ctx.save();
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.drawImage(layer, 0, 0);
+        ctx.restore();
       }
-      label.src = ${JSON.stringify(labelUrl)};
+
+      // Luz de la foto sobre la etiqueta: bordes en sombra y un brillo a la izquierda.
+      function shade(l, from, to, strength) {
+        l.globalCompositeOperation = 'source-atop';
+        const light = l.createLinearGradient(from, 0, to, 0);
+        light.addColorStop(0, 'rgba(40,35,28,' + strength * 1.1 + ')');
+        light.addColorStop(0.2, 'rgba(40,35,28,' + strength * 0.2 + ')');
+        light.addColorStop(0.32, 'rgba(255,255,255,0)');
+        light.addColorStop(0.65, 'rgba(40,35,28,' + strength * 0.2 + ')');
+        light.addColorStop(1, 'rgba(40,35,28,' + strength + ')');
+        l.fillStyle = light;
+        l.fillRect(from - 20, 0, to - from + 40, 1000);
+        l.globalCompositeOperation = 'source-over';
+      }
+
+      // Círculo del producto: su acabado (si hay muestra) o azul, con el nombre y el tamaño.
+      function drawBadge(ctx, spec, texture) {
+        const { cx, cy, r } = spec.badge;
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+        ctx.clip();
+        if (texture) {
+          const side = Math.min(texture.width, texture.height);
+          ctx.drawImage(texture, (texture.width - side) / 2, (texture.height - side) / 2, side, side, cx - r, cy - r, r * 2, r * 2);
+          ctx.fillStyle = 'rgba(15,28,38,.42)';
+        } else {
+          ctx.fillStyle = '#172b3b';
+        }
+        ctx.fillRect(cx - r, cy - r, r * 2, r * 2);
+        ctx.restore();
+
+        ctx.fillStyle = '#ffffff';
+        ctx.textAlign = 'center';
+        const words = spec.name.split(' ');
+        const lines = [];
+        let size = r * 0.3;
+        const fit = () => {
+          lines.length = 0;
+          ctx.font = '700 ' + size + 'px Archivo';
+          let line = '';
+          for (const word of words) {
+            const next = line ? line + ' ' + word : word;
+            if (ctx.measureText(next).width > r * 1.55 && line) { lines.push(line); line = word; } else line = next;
+          }
+          lines.push(line);
+          return lines.length <= 3 && lines.every((text) => ctx.measureText(text).width <= r * 1.55);
+        };
+        while (!fit() && size > 6) size -= 0.5;
+        const total = lines.length * size * 1.08;
+        lines.forEach((text, i) => ctx.fillText(text, cx, cy - total / 2 + size * (i + 0.85) * 1.08 - r * 0.08));
+        ctx.font = '500 ' + r * 0.17 + 'px Archivo';
+        ctx.fillText(spec.size, cx, cy + total / 2 + r * 0.22);
+      }
     </script>
   </body></html>`;
 }
@@ -481,12 +457,14 @@ function main() {
         const template = templateOf(format);
         const labelHtml = join(work, 'etiqueta.html');
         const labelPng = join(work, 'etiqueta.png');
-        writeFileSync(labelHtml, labelPage(product, format, template));
-        shoot(labelHtml, labelPng, template.width * MM, template.height * MM);
+        if (format.container !== 'cubo') {
+          writeFileSync(labelHtml, labelPage(product, format, template));
+          shoot(labelHtml, labelPng, template.width * MM, template.height * MM);
+        }
 
         const packHtml = join(work, 'envase.html');
         const packPng = join(work, 'envase.png');
-        writeFileSync(packHtml, packPage(format, template, `file://${labelPng}`));
+        writeFileSync(packHtml, packPage(entry, product, format, template, `file://${labelPng}`));
         shoot(packHtml, packPng, SIZE, SIZE);
 
         const file = packagingFile(entry.key, format);
