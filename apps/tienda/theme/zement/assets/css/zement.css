@@ -93,9 +93,9 @@ h5,
   transition: color var(--zm-duration) var(--zm-ease);
 }
 
-/* Barrido dorado al pasar el ratón (relleno en .btn::before), como en la web. */
+/* Barrido crema al pasar el ratón (relleno en .btn::before), como en la web. */
 .btn-primary {
-  --zm-btn-fill: var(--zm-color-gold);
+  --zm-btn-fill: var(--zm-color-cream);
   --bs-btn-bg: var(--zm-color-navy);
   --bs-btn-border-color: var(--zm-color-navy);
   --bs-btn-hover-bg: var(--zm-color-navy);
@@ -674,7 +674,7 @@ main h1 {
   position: absolute;
   inset: -1px;
   z-index: -1;
-  background: var(--zm-btn-fill, var(--zm-color-gold));
+  background: var(--zm-btn-fill, var(--zm-color-cream));
   content: '';
   transform: scaleX(0);
   transform-origin: right;
@@ -685,6 +685,19 @@ main h1 {
   .btn:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+  }
+}
+
+/* Botones llenos: al resaltarse llevan pequeños detalles en dorado (filete e icono), como en la
+   web. El foco por teclado conserva su propio anillo. */
+@media (hover: hover) {
+  :is(.btn-primary, .zm-btn-light):hover:not(:focus-visible) {
+    outline: 1px solid var(--zm-color-gold);
+    outline-offset: -1px;
+  }
+
+  :is(.btn-primary, .zm-btn-light):hover :is(svg, .material-icons) {
+    color: var(--zm-color-gold);
   }
 }
 
@@ -1197,7 +1210,7 @@ img[src*='/img/p/'][src*='-default-'] {
 }
 
 .zm-btn-light {
-  --zm-btn-fill: var(--zm-color-gold);
+  --zm-btn-fill: var(--zm-color-cream);
   --bs-btn-bg: var(--zm-color-paper);
   --bs-btn-color: var(--zm-color-night);
   --bs-btn-border-color: var(--zm-color-paper);
@@ -1710,7 +1723,7 @@ img[src*='/img/p/'][src*='-default-'] {
 
 .zm-nav-web:hover,
 .zm-nav-web:focus-visible {
-  color: var(--zm-color-gold);
+  color: var(--zm-color-cream);
 }
 
 .zm-nav-pro {
@@ -1718,7 +1731,7 @@ img[src*='/img/p/'][src*='-default-'] {
   min-height: 1.5rem;
   align-items: center;
   margin-left: 1.5rem;
-  color: var(--zm-color-gold);
+  color: var(--zm-color-cream);
   text-decoration: none;
 }
 

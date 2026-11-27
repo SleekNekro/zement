@@ -14,6 +14,7 @@
   --color-muted: var(--zm-color-muted);
   --color-sand: var(--zm-color-sand);
   --color-gold: var(--zm-color-gold);
+  --color-cream: var(--zm-color-cream);
   --color-line: var(--zm-color-line);
   --color-line-dark: var(--zm-color-line-dark);
   --font-body: var(--zm-font-body);
@@ -138,7 +139,7 @@
   }
 
   ::selection {
-    background: var(--zm-color-gold);
+    background: var(--zm-color-cream);
     color: var(--zm-color-night);
   }
 
