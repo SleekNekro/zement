@@ -144,8 +144,8 @@ function labelPage(product, format, template) {
 // --- 2. Foto del envase ------------------------------------------------------------------------
 // Cada envase parte de una foto real del mismo envase (carpeta local images/envases-base/, que no
 // se sube: las fotos llevan la marca del fabricante). Sobre ella, en coordenadas de la foto base:
-//   patches  zonas impresas que se borran rellenando cada fila con el color de sus bordes
-//   logo     logotipo de Zement en el hueco del logotipo original
+//   patches  zonas impresas que se borran rellenando cada columna con el gris de una fila limpia
+//   logo     logotipo de Zement en el hueco del logotipo original, girado como el impreso (angle)
 //   print    texto grande impreso del cubo («MICRO CEMENTO»), que se cambia si no es microcemento
 //   recolor  tapón de color, que pasa al azul de Zement
 //   label    etiqueta de imprenta: plana con escorzo (garrafa) o doblada sobre el cilindro (tarrina)
@@ -157,12 +157,14 @@ const PHOTOS = {
   cubo: {
     file: 'cubo.webp',
     anchor: [225, 395],
+    // Impreso girado unos 4,5° (sube hacia la derecha), como el texto de la foto.
+    angle: -0.08,
     patches: [
-      { x0: 146, x1: 297, y0: 165, y1: 219 },
-      { x0: 203, x1: 262, y0: 340, y1: 359, flat: true },
+      { x0: 146, x1: 297, y0: 150, y1: 222, clean: 227, edge: true },
+      { x0: 200, x1: 264, y0: 340, y1: 360, clean: 337 },
     ],
     logo: { cx: 221, cy: 190, width: 140 },
-    print: { x0: 150, x1: 300, y0: 243, y1: 337 },
+    print: { x0: 150, x1: 300, y0: 243, y1: 337, clean: 240 },
     badge: { cx: 315, cy: 350, r: 68 },
   },
   garrafa: {
@@ -177,7 +179,7 @@ const PHOTOS = {
     file: 'tarrina.webp',
     anchor: [225, 312],
     patches: [],
-    label: { kind: 'cylinder', cx: 225, r: 92, k: 0.1, top: 192, mmPx: 1.25 },
+    label: { kind: 'cylinder', cx: 225, r: 92, k: 0.13, top: 192, mmPx: 1.25 },
     badge: { cx: 315, cy: 308, r: 68 },
   },
 };
@@ -227,29 +229,24 @@ function packPage(entry, product, format, template, labelUrl) {
         w.drawImage(base, 0, 0);
         const pixel = (x, y) => w.getImageData(x, y, 1, 1).data;
         const rgb = (p) => 'rgb(' + p[0] + ',' + p[1] + ',' + p[2] + ')';
-        // Cada fila, con el color de sus bordes (o del izquierdo, si el derecho no es fondo).
-        const fillRows = (x0, x1, y0, y1, flat) => {
-          for (let y = y0; y <= y1; y++) {
-            const left = pixel(x0 - 2, y);
-            const right = flat ? left : pixel(x1 + 2, y);
-            const row = w.createLinearGradient(x0, 0, x1, 0);
-            row.addColorStop(0, rgb(left));
-            row.addColorStop(1, rgb(right));
-            w.fillStyle = row;
-            w.fillRect(x0, y, x1 - x0, 1);
-          }
-        };
-        // Cada columna, con el color de una fila limpia justo encima (conserva la luz del panel).
-        const fillColumns = (x0, x1, y0, y1) => {
+        const lum = (p) => (p[0] + p[1] + p[2]) / 3;
+        // Cada columna, con el color de una fila limpia del panel (conserva su luz). Con «edge», la
+        // columna empieza bajo el borde curvo del panel (el primer gris), no en una recta.
+        const fillColumns = ({ x0, x1, y0, y1, clean, edge }) => {
           for (let x = x0; x <= x1; x++) {
-            w.fillStyle = rgb(pixel(x, y0 - 3));
-            w.fillRect(x, y0, 1, y1 - y0);
+            let start = y0;
+            if (edge) {
+              while (start < y1 && lum(pixel(x, start)) > 150) start++;
+              start += 2;
+            }
+            // Mediana de cinco filas limpias: sin rastros de letras ni de compresión.
+            const samples = [0, 1, 2, 3, 4].map((i) => pixel(x, clean - i)).sort((p, q) => lum(p) - lum(q));
+            w.fillStyle = rgb(samples[2]);
+            w.fillRect(x, start, 1, y1 - start);
           }
         };
-        for (const patch of spec.patches) fillRows(patch.x0, patch.x1, patch.y0, patch.y1, patch.flat);
-        if (spec.print) {
-          fillColumns(spec.print.x0, spec.print.x1, spec.print.y0, spec.print.y1);
-        }
+        for (const patch of spec.patches) fillColumns(patch);
+        if (spec.print) fillColumns(spec.print);
         if (spec.recolor) {
           // Tapón: los píxeles rojos pasan a la gama de azules de Zement con la misma luz.
           const { x0, x1, y0, y1 } = spec.recolor;
@@ -277,9 +274,21 @@ function packPage(entry, product, format, template, labelUrl) {
         ctx.setTransform(f * s, 0, 0, f * s, ax * f * (1 - s), ay * f * (1 - s) - (${SIZE} * (1 - s)) / 2.4);
         ctx.drawImage(work, 0, 0);
 
+        // Lo impreso en el cubo, girado como el impreso de la foto y un poco suavizado como ella.
+        const printed = (cx, cy, draw) => {
+          ctx.save();
+          ctx.translate(cx, cy);
+          ctx.rotate(spec.angle ?? 0);
+          ctx.filter = 'blur(0.35px)';
+          draw();
+          ctx.restore();
+        };
+
         if (spec.logo) {
           const height = (spec.logo.width * logo.height) / logo.width;
-          ctx.drawImage(logo, spec.logo.cx - spec.logo.width / 2, spec.logo.cy - height / 2, spec.logo.width, height);
+          printed(spec.logo.cx, spec.logo.cy, () =>
+            ctx.drawImage(logo, -spec.logo.width / 2, -height / 2, spec.logo.width, height),
+          );
         }
 
         if (spec.print) {
@@ -289,14 +298,17 @@ function packPage(entry, product, format, template, labelUrl) {
           const top = y0 + ((y1 - y0) - lineHeight * lines.length) / 2;
           ctx.fillStyle = '#ffffff';
           ctx.textBaseline = 'alphabetic';
-          lines.forEach((line, i) => {
-            let size = lineHeight * 1.12;
-            ctx.font = '700 extra-condensed ' + size + 'px Archivo';
-            while (ctx.measureText(line).width > x1 - x0 - 16 && size > 10) {
-              ctx.font = '700 extra-condensed ' + (size -= 1) + 'px Archivo';
-            }
-            ctx.fillText(line, x0 + 6, top + lineHeight * (i + 1) - 4);
-          });
+          const [cx, cy] = [(x0 + x1) / 2, (y0 + y1) / 2];
+          printed(cx, cy, () =>
+            lines.forEach((line, i) => {
+              let size = lineHeight * 1.12;
+              ctx.font = '700 extra-condensed ' + size + 'px Archivo';
+              while (ctx.measureText(line).width > x1 - x0 - 16 && size > 10) {
+                ctx.font = '700 extra-condensed ' + (size -= 1) + 'px Archivo';
+              }
+              ctx.fillText(line, x0 + 6 - cx, top + lineHeight * (i + 1) - 4 - cy);
+            }),
+          );
         }
 
         if (label) drawLabel(ctx, label, spec);
@@ -309,6 +321,8 @@ function packPage(entry, product, format, template, labelUrl) {
         layer.width = layer.height = ${SIZE};
         const l = layer.getContext('2d');
         l.setTransform(ctx.getTransform());
+        // Misma nitidez que la foto base (ampliada): la etiqueta, algo suavizada.
+        l.filter = 'blur(' + (ctx.getTransform().a / 3).toFixed(2) + 'px)';
         const g = spec.label;
         if (g.kind === 'skew') {
           const height = (g.width * spec.template.height) / spec.template.width;
